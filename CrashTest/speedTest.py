@@ -6,7 +6,7 @@ import threading
 
 class Application:
 	def __init__(self):
-		self.root_folder = "//Storage01/3D4/TRASH/04_ASSET/ITEM"
+		self.root_folder = "D:/WORK/LIGHTING"
 
 
 		time_start_loop = time.time()
