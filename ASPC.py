@@ -9,6 +9,7 @@ import colorama
 import time
 import thrading
 import scandir
+import multiprocessing
 
 from termcolor import *
 
@@ -25,6 +26,10 @@ class ASPC_Application:
 
 
 		self.root_folder = "//Storage01/3D4/TRASH/04_ASSET/ITEM"
+
+		self.main_data_set_dictionnary = {}
+
+		self.main_folder_queue = multiprocessing.Queue()
 
 
 		"""
