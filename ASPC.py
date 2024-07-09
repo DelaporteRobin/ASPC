@@ -5,45 +5,17 @@
 
 import os
 import sys
+import colorama
+import time
+import thrading
+import scandir
+
+from termcolor import *
+
+colorama.init()
 
 
 
-
-"""
-
-FEATURES LISTS FOR THE FIRST VERSION
-	from a defined project folder run recurcively in each folder and subfolder
-	from each folder get data and store them in a dictionnary created at each project scan
-
-	define the multiprocessing workflow -> creating a queue of folder for multiprocessing
-										-> USE SCANDIR TO RUN THROUGH THE FOLDER ARCHITECTURE
-	define a process to try the latency of a folder
-	define the importance of a folder
-		-> get the number of access to that folder to define its importance and to class it
-			as main folder
-		-> for each folder get :
-			number of files
-			number of subfolder
-			size of each elements
-			type of each elements
-			last date used?
-			recurrence of the element in the subfolder (autosave detection?)
-
-		-> create a latency test
-			-> create / copy / delete / edit a file or a content?
-			-> create a temp folder where each file will be copied / opened / removed
-				-> for each step get the delta
-
-		-> get statistics
-			average size for each elements based on settings and other elements in archicture (extension? Name? Location?)
-
-
-
-	create a system with threading to dig into folders and create the Queue for multiprocessing?
-	I NEED TO CREATE A QUEUE AND TO FIND AN OPTIMIZED WAY!!!
-
-
-"""
 
 
 
@@ -52,11 +24,45 @@ class ASPC_Application:
 		print("Hello World, this is ASPC!")
 
 
+		self.root_folder = "//Storage01/3D4/TRASH/04_ASSET/ITEM"
+
+
+		"""
+		LIST OF INFORMATIONS TO RETURN
+
+		FOR EACH FILES
+			average file size in folder
+			average file size for extension
+			average file size in pipeline
+
+			apply the performance test and get results
+
+			name recognition algorythm
+		FOR EACH FOLDERS
+			get traffic for this folder
+			average size in pipeline
+			define if main folder?
+			number of subfolders and files
+			time to read files
+			time to read folder
+
+			size contained (global) compared to global size
+			size contained (only files)
+			--> size of the files contained compared to the number of files
+
+
+
+		Set an observer file over time to follow folder hierarchy modification
+			update the amount of time a folder or file is being used / modified.
+
+		"""
+
+
 
 
 
 
 #launch the application
 if __name__ == "__main__":
-	application = ASPC_Application()
-	appliction()
+	application = ASPC_Application
+	application()

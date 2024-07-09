@@ -15,8 +15,6 @@ give you, while using the same widgets you are used to.
 
 # TASKLIST
 - [ ] Define the main TUI design for the application
-- [ ] Create a first version with base settings before creating custom settings
-- [ ] Scan a whole folder architecture in an optimized way
-- [ ] Return a full data set of each files and folder to define performances
-- [ ] Display main informations
-- [ ] Define several options as fix for performance losses (archiving / caching / spliting / compression...)
+- [ ] Define the folder scan process (to create the Queue and using the Queue)
+- [ ] Get a whole bunch of statistics from each folder about itself, its subfolders and files
+- [ ] Return a huge data set to the user in graphs and tabs
