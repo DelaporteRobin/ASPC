@@ -79,16 +79,29 @@ class ASPC_Application(ASPC_CommonApplication):
 		#self.display_message_function(self.main_folder_queue)
 
 
-		self.display_message_function("%s / %s"%(len(self.main_folder_list), self.queue_size_limit))
-		if len(self.main_folder_list) >= self.queue_size_limit:
-			self.display_error_function("Too many elements in project! You must increase the size of the Queue!")
-
+		#YOU NEED TO CREATE A CONSUMER FOR THE QUEUE IN ORDER TO NOT LOCK IT DUMBASS!
 
 		test_queue = multiprocessing.Queue()
-		for i in range(len(self.main_folder_list)):
-			test_queue.put(i)
+		for item in self.main_folder_list:
+			test_queue.put(item, block=True, timeout=None)
+
+		p_list = []
+
+		for i in range(multiprocessing.cpu_count()):
+			p = multiprocessing.Process(target=self.test_worker, args=(test_queue,))
+			p.start()
+			p_list.append(p)
 
 
+
+	def test_worker(self, queue):
+		while not queue.empty():
+			item = queue.get()
+
+			if item == None:
+				break
+			else:
+				print(item)
 
 		
 
