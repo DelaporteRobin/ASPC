@@ -31,11 +31,11 @@ class ASPC_Application(ASPC_CommonApplication):
 
 		self.root_folder = "D:/WORK/LIGHTING"
 
+		self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
 		self.main_log_list = []
 
-		self.queue_size_limit = 600
-		self.main_folder_queue = multiprocessing.Queue(maxsize = 50000)
+		
 
 		
 
@@ -76,7 +76,7 @@ class ASPC_Application(ASPC_CommonApplication):
 		#IMPORT THE SIDE CLASS TO LAUNCH RESEARCH
 		self.sa = ASPC_SearchingApplication()
 		self.main_folder_list = self.sa.file_queue_init_function(self.root_folder)
-		self.display_message_function(self.main_folder_queue)
+		#self.display_message_function(self.main_folder_queue)
 
 
 		self.display_message_function("%s / %s"%(len(self.main_folder_list), self.queue_size_limit))
@@ -84,11 +84,12 @@ class ASPC_Application(ASPC_CommonApplication):
 			self.display_error_function("Too many elements in project! You must increase the size of the Queue!")
 
 
-		for i in range(600):
-			self.main_folder_queue.put('hello')
-	
+		test_queue = multiprocessing.Queue()
+		for i in range(len(self.main_folder_list)):
+			test_queue.put(i)
 
-		#LAUCH THE DATA COLLECT PROCESS
+
+
 		
 
 
