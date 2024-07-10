@@ -29,9 +29,9 @@ class ASPC_Application(ASPC_CommonApplication):
 		print("Hello World, this is ASPC!")
 
 
-		self.root_folder = "D:/WORK/LIGHTING"
+		self.root_folder = "//Storage01/3d4/trash/04_asset/item"
 
-		self.queue_size_limit = 50000
+		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
 		self.main_log_list = []
 
@@ -79,31 +79,20 @@ class ASPC_Application(ASPC_CommonApplication):
 		#self.display_message_function(self.main_folder_queue)
 
 
-		#YOU NEED TO CREATE A CONSUMER FOR THE QUEUE IN ORDER TO NOT LOCK IT DUMBASS!
-
-		test_queue = multiprocessing.Queue()
-		for item in self.main_folder_list:
-			test_queue.put(item, block=True, timeout=None)
-
-		p_list = []
-
-		for i in range(multiprocessing.cpu_count()):
-			p = multiprocessing.Process(target=self.test_worker, args=(test_queue,))
-			p.start()
-			p_list.append(p)
 
 
-
-	def test_worker(self, queue):
-		while not queue.empty():
-			item = queue.get()
-
-			if item == None:
-				break
-			else:
-				print(item)
-
+		#create the test class
+		#self.mpa = ASPC_ProcessApplication()
+		#self.mpa.get_data_init(self.root_folder, self.main_folder_list)
+		self.sa.get_data_init(self.root_folder, self.main_folder_list)
 		
+
+
+
+#class ASPC_ProcessApplication:
+
+	
+
 
 
 

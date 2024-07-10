@@ -32,7 +32,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			start = time.time()
 
 
-			self.display_message_function(" [%s] Started"%x)
+			self.display_message_function(" [%s] Started"%(x))
 
 			result = x(self, *args, **kwargs)
 
@@ -129,40 +129,45 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 ##############################################################################
 # PART OF THE PROGRAM THAT COLLECT DATA (TRIGGERED)
 ##############################################################################
+
 	@time_stamp
-	def collect_data_from_project_init_function(self,root_folder,file_queue):
+	def get_data_init(self,root_folder, folder_list):
 
-		#get the number of cpu to launch multiprocessing
-		#that value needs to be customized in settings !!!
-		#TO DO IN NEXT VERSIONS
-		cpu_count = multiprocessing.cpu_count()
-		self.display_notification_function("Maximum number of processes : %s"%cpu_count)
+		self.root_folder=root_folder
+		self.main_folder_list = folder_list 
+
+		file_queue = multiprocessing.Queue()
+		p_list = []
+		
+		for folder in self.main_folder_list:
+			file_queue.put(folder)
+		
+
+		for i in range(multiprocessing.cpu_count()):
+			try:
+				p = multiprocessing.Process(target=self.get_data_worker, args=(file_queue,self.root_folder,))
+				#self.display_notification_function("Process created : %s"%p)
+				p.start()
+				
+				#self.display_success_function("Process created successfully!")
+				p_list.append(p)
+			except:
+				self.display_error_function("Impossible to create process : %s"%p)
+				break
+		
+		self.display_notification_function("Number of process created : %s"%len(p_list))
+		for p in p_list:
+			p.join()
 
 
-		self.process_list = []
-
-		for i in range(cpu_count):
-			process = multiprocessing.Process(target=self.worker_function, args=(root_folder,file_queue,))
-			self.process_list.append(process)
-			process.start()
-
-
-
-
-	def worker_function(self, root_folder = None, file_queue = None):
-		while not queue.empty():
-			folder = queue.get()
+	def get_data_worker(self, test_queue, root_folder):
+		while not test_queue.empty():
+			folder = test_queue.get()
 
 			if folder == None:
 				break
 			else:
-				self.display_message_function("Process [%s] inspecting folder : %s"%( os.getpid(), folder))
-
-
-
-
-
-
+				print(folder)
 
 	
 
