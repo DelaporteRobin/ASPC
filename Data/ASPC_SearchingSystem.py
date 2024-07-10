@@ -116,9 +116,10 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		for root, dirs, files in scandir.walk(folder):
 			for d in dirs:
 				self.folder_count += 1
-				if os.path.join(folder,d) not in self.main_folder_list:
-						#self.main_folder_list.append(os.path.join(folder,d))
-						self.main_folder_list.append(os.path.join(folder,d))
+				
+				#self.main_folder_list.append(os.path.join(folder,d))
+				self.main_folder_list.append(os.path.join(folder,d))
+				#self.display_message_function(os.path.join(folder,d))
 
 		#self.display_warning_function("Terminated")
 
@@ -144,10 +145,14 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			file_queue = multiprocessing.Queue()
 			p_list = []
 			
-			for folder in self.main_folder_list:
-				file_queue.put(folder)
-			
 
+
+			
+			for folder in self.main_folder_list:
+				if os.path.isdir(folder)==True:
+					file_queue.put(folder)
+			
+			
 			for i in range(multiprocessing.cpu_count()):
 				try:
 					p = multiprocessing.Process(target=self.get_data_worker, args=(file_queue,self.root_folder,))
@@ -164,7 +169,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			for p in p_list:
 				p.join()
 
-			self.display_notification_function("Number of process created : %s"%len(p_list))
+			#self.display_notification_function("Number of process created : %s"%len(p_list))
+			
 
 			#print(self.global_data_dictionnary)
 
