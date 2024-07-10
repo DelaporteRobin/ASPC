@@ -7,6 +7,7 @@ import datetime
 import sys
 import queue
 
+from multiprocessing import Manager
 from termcolor import *
 from functools import wraps
 
@@ -133,31 +134,39 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 	@time_stamp
 	def get_data_init(self,root_folder, folder_list):
 
-		self.root_folder=root_folder
-		self.main_folder_list = folder_list 
+		with Manager() as manager:
+			self.global_folder_dictionnary = manager.dict()
+			self.global_file_dictionnary = manager.dict()
 
-		file_queue = multiprocessing.Queue()
-		p_list = []
-		
-		for folder in self.main_folder_list:
-			file_queue.put(folder)
-		
+			self.root_folder=root_folder
+			self.main_folder_list = folder_list 
 
-		for i in range(multiprocessing.cpu_count()):
-			try:
-				p = multiprocessing.Process(target=self.get_data_worker, args=(file_queue,self.root_folder,))
-				#self.display_notification_function("Process created : %s"%p)
-				p.start()
-				
-				#self.display_success_function("Process created successfully!")
-				p_list.append(p)
-			except:
-				self.display_error_function("Impossible to create process : %s"%p)
-				break
-		
-		self.display_notification_function("Number of process created : %s"%len(p_list))
-		for p in p_list:
-			p.join()
+			file_queue = multiprocessing.Queue()
+			p_list = []
+			
+			for folder in self.main_folder_list:
+				file_queue.put(folder)
+			
+
+			for i in range(multiprocessing.cpu_count()):
+				try:
+					p = multiprocessing.Process(target=self.get_data_worker, args=(file_queue,self.root_folder,))
+					#self.display_notification_function("Process created : %s"%p)
+					p.start()
+					
+					#self.display_success_function("Process created successfully!")
+					p_list.append(p)
+				except:
+					self.display_error_function("Impossible to create process : %s"%p)
+					break
+			
+			
+			for p in p_list:
+				p.join()
+
+			self.display_notification_function("Number of process created : %s"%len(p_list))
+
+			#print(self.global_data_dictionnary)
 
 
 	def get_data_worker(self, test_queue, root_folder):
@@ -167,8 +176,58 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			if folder == None:
 				break
 			else:
-				print(folder)
+				#get data from folder and update value in dictionnary
+				#print("added")
+				
+				#CHECK LIST FOR EACH FOLDER AND FILES
+				"""
+				FOR EACH FILES
+				average file size in folder
+				average file size for extension
+				average file size in pipeline
 
+				apply the performance test and get results
+
+				name recognition algorythm
+				FOR EACH FOLDERS
+				get traffic for this folder
+				average size in pipeline
+				define if main folder?
+				number of subfolders and files
+				time to read files
+				time to read folder
+
+				size contained (global) compared to global size
+				size contained (only files)
+				--> size of the files contained compared to the number of files
+
+
+
+				Set an observer file over time to follow folder hierarchy modification
+				update the amount of time a folder or file is being used / modified.
+				"""
+
+
+
+				#get the content of the folder
+				#get the file list
+				#get the subfolder list
+
+				print("%s : %s"%(os.path.isdir(folder),folder))
+
+				"""
+				folder_content = os.listdir(folder)
+				file_list = []
+				subfolder_list = []
+
+				for f in folder_content:
+					if os.path.isfile(os.path.join(folder,f))==True:
+						file_list.append(os.path.join(folder, f))
+					if os.path.isdir(os.path.join(folder,f))==True:
+						subfolder_list.append(os.path.join(folder,f))
+				"""
+
+				
 	
 
 
