@@ -75,16 +75,20 @@ class ASPC_Application(ASPC_CommonApplication):
 
 		#IMPORT THE SIDE CLASS TO LAUNCH RESEARCH
 		self.sa = ASPC_SearchingApplication()
-		self.main_folder_list = self.sa.file_queue_init_function(self.root_folder)
+		self.main_folder_queue = self.sa.file_queue_init_function(self.root_folder)
+
+		self.display_message_function(type(self.main_folder_queue))
 		#self.display_message_function(self.main_folder_queue)
 
-
+		#display the content of the folder list
+		#for folder in self.main_folder_list:
+		#	print(folder)
 
 
 		#create the test class
 		#self.mpa = ASPC_ProcessApplication()
 		#self.mpa.get_data_init(self.root_folder, self.main_folder_list)
-		self.sa.get_data_init(self.root_folder, self.main_folder_list)
+		self.sa.get_data_init(self.root_folder, self.main_folder_queue)
 		
 
 
