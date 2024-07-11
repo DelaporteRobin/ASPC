@@ -7,6 +7,7 @@ import datetime
 import sys
 import queue
 import json
+import bisect
 
 from multiprocessing import Manager
 from termcolor import *
@@ -110,6 +111,10 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with open(os.path.join(os.getcwd(), "data_folder.json"), "w") as save_folder:
 			json.dump(dict(self.global_folder_dictionnary), save_folder, indent=4)
 
+		with open(os.path.join(os.getcwd(), "data_size_classement.json"), "w") as save_size:
+			#json.dump(list(self.global_file_size_classement), save_size, indent=4)
+			json.dump(list(zip(list(self.global_file_size_name_classement), list(self.global_file_size_size_classement))), save_size, indent=4)
+
 
 		self.display_notification_function("DATA SAVED IN FILES!")
 		print(os.getcwd())
@@ -132,6 +137,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with Manager() as manager:
 			self.global_folder_dictionnary = manager.dict()
 			self.global_file_dictionnary = manager.dict()
+
+			self.global_file_size_size_classement = manager.list()
+			self.global_file_size_name_classement = manager.list()
 
 			self.root_folder=root_folder
 			#self.main_folder_list = folder_list 
@@ -168,6 +176,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 			self.display_notification_function("Number of process created : %s"%len(p_list))
 
+
+
+			#self.display_message_function(self.global_file_size_classement)
 			self.save_data_function()
 			#print(self.global_data_dictionnary)
 
@@ -245,6 +256,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					for item in folder_content:
 						if os.path.isfile(os.path.join(folder,item))==True:
 
+							
+
 
 							#create a dictionnary of information for that file
 							file_size = os.path.getsize(os.path.join(folder,item))
@@ -255,6 +268,19 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 								}
 							#add the file of the size to the folder size
 							folder_size += file_size
+
+
+
+							#UPDATE THE SIZE CLASSEMENT LIST
+							file_size_tuple = (os.path.join(folder,item), file_size)
+							#get the actual file size list
+
+							position = bisect.bisect(self.global_file_size_size_classement, file_size)
+							self.global_file_size_size_classement.insert(position,file_size)
+							self.global_file_size_name_classement.insert(position,os.path.join(folder,item))
+							#file_size_classement = list(map(lambda x:x[1], self.global_file_size_classement))
+							#self.global_file_size_classement.insert(bisect.bisect(file_size_classement, file_size), file_size_tuple)
+							#self.display_message_function("inserted")
 							
 
 							#add that size for each folder in dictionnary
@@ -273,6 +299,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					#min_file_size = self.get_min_size_function(file_list)
 					#self.get_highest_value_function(file_list)
 					#self.get_lowest_value_function(file_list)
+
+
+
 
 
 					#SET THE INITIAL SIZE OF THE FOLDER WITH THE FILES IT CONTAINS (WITHOUT SUBFOLDERS)
