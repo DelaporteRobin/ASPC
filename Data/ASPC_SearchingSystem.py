@@ -310,14 +310,34 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 							#if the file is the first, add it to the comparizon list and continue
-							if len(list(file_list.keys())) == 0:
-								self.comparison_list[os.path.join(folder,item)] = file_size
-							else:
-								
-								for file in self.comparison_list:
-									proximity = self.levenshtein_function(file, os.path.join(folder,item))
-									if proximity > 80:
-										self.comparison_list.append(file)
+							filename_list = list(file_list.keys())
+							checked_file = []
+							final_dictionnary = {}
+
+
+							for file in filename_list:
+
+								if file not in checked_file:
+									i = len(list(final_dictionnary.keys()))
+									checked_file.append(file)
+									#print(colored("TEST PROXIMITY : %s"%file, "green"))
+									proxi_list = [file]
+									dictionnary_i = 0
+
+									for comparison in file_list:
+										if comparison not in checked_file:
+											if comparison != file:
+												value = self.levenshtein_function(comparison,file)
+												
+												if value > 80:
+													checked_file.append(comparison)
+													proxi_list.append(comparison)
+													#print("%s : %s"%(value,comparison))
+									#print(colored("KEY OF THE DICTIONNARY : %s"%i, "yellow"))
+									#print(proxi_list)
+
+									final_dictionnary[len(list(final_dictionnary.keys()))] = proxi_list
+
 
 
 							#add that size for each folder in dictionnary
@@ -327,7 +347,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							subfolder_list.append(os.path.join(folder,item))
 
 					
-					print(comparison_list)
+					#print(comparison_list)
 					#GET THE MATH VALUE FROM THE FOLDER
 					#	average size
 					# 	lowest size

@@ -1,26 +1,50 @@
 {
-    ".mel": {
-        "fileSizeAverage": 1526.375,
-        "fileCount": 5
-    },
-    ".pur": {
-        "fileSizeAverage": 4943399,
-        "fileCount": 1
-    },
-    ".hipnc": {
-        "fileSizeAverage": 3013832.703125,
+    ".ma": {
+        "fileSizeAverage": 4941647.484375,
         "fileCount": 7
     },
-    ".spp": {
-        "fileSizeAverage": 661940398,
+    ".db": {
+        "fileSizeAverage": 20272.0,
+        "fileCount": 7
+    },
+    ".json": {
+        "fileSizeAverage": 14583,
         "fileCount": 1
     },
-    ".mtl": {
-        "fileSizeAverage": 829,
+    ".jpg": {
+        "fileSizeAverage": 8976097.007238835,
+        "fileCount": 36
+    },
+    ".bmp": {
+        "fileSizeAverage": 4195382.0,
+        "fileCount": 8
+    },
+    ".tex": {
+        "fileSizeAverage": 15170674.601133347,
+        "fileCount": 20
+    },
+    ".xml": {
+        "fileSizeAverage": 374965.84436798096,
+        "fileCount": 18
+    },
+    ".exr": {
+        "fileSizeAverage": 167916878,
         "fileCount": 1
     },
-    ".abc": {
-        "fileSizeAverage": 2270631,
+    ".tif": {
+        "fileSizeAverage": 816304.697265625,
+        "fileCount": 12
+    },
+    ".png": {
+        "fileSizeAverage": 187201.5,
+        "fileCount": 2
+    },
+    ".swatches": {
+        "fileSizeAverage": 114910.5,
+        "fileCount": 4
+    },
+    ".backup": {
+        "fileSizeAverage": 260865,
         "fileCount": 1
     }
 }

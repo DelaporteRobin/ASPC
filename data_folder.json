@@ -1,58 +1,5 @@
 {
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 12,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\abc",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\audio",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\comp",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\desk",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\flip",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\geo",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\hdz",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\render",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\scripts",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\sim",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\tex",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\video"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\nuke": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\nuke\\input",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\nuke\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\paint_2D": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\alembic": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -63,7 +10,28 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\paint_3D": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache": {
+        "folderSize": 0
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya": {
+        "folderSize": 1628109002
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls": {
+        "folderSize": 1628109002
+    },
+    "//storage01/3d4/trash/04_asset/item": {
+        "folderSize": 1605513262
+    },
+    "//storage01/3d4/trash/04_asset": {
+        "folderSize": 1605365569
+    },
+    "//storage01/3d4/trash": {
+        "folderSize": 1627961309
+    },
+    "//storage01/3d4/": {
+        "folderSize": 3241369568
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\bifrost": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -74,54 +42,7 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\preprod": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\review": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\photogrammetry": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\photogrammetry\\input",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\photogrammetry\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\sculpt": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\usd": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\nCache": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 1,
@@ -130,25 +51,11 @@
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\usd\\textures"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\nCache\\fluid"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\wrap": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\wrap\\input",
-            "//Storage01/3d4/trash/04_asset/item\\aircon01\\wrap\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\paint_2D": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\particles": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -159,72 +66,200 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 3,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\masterLayer",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\RL_env",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\RL_rat"
+        ],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data": {
         "folderSize": 0
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\nuke": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\item_squWallsTest_lookdev_v001_v001_t01": {
         "folderSize": 0,
         "fileContainedSize": 0,
-        "subfoldersNumber": 2,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images": {
+        "folderSize": 0
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\item_squWalls_lookdev_v001_v001_t01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\sq0070_sh0010_render_v02_v001_t01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\item_squWalls_lookdev_v002_v001_t01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\UNTITLED_v001_t01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\masterLayer": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\RL_env": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\RL_rat": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\nCache\\fluid": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib": {
+        "folderSize": 7427115,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 3,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\nuke\\input",
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\nuke\\output"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\photogrammetry": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman": {
+        "folderSize": 7427115
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\textures": {
         "folderSize": 0,
         "fileContainedSize": 0,
-        "subfoldersNumber": 2,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit": {
+        "folderSize": 13241855,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 7,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\photogrammetry\\input",
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\photogrammetry\\output"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\assetLayout",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\cloth",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\dressing",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\groom",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\rig"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\preprod": {
-        "folderSize": 0,
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes": {
+        "folderSize": 24414434
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish": {
+        "folderSize": 11172579,
         "fileContainedSize": 0,
-        "subfoldersNumber": 0,
+        "subfoldersNumber": 9,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
-        "subfolderList": [],
+        "subfolderList": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\assetLayout",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\cloth",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\dressing",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\groom",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lightRig",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\rig",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\shader"
+        ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\review": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\sculpt": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\usd": {
-        "folderSize": 0,
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001": {
+        "folderSize": 5173039,
         "fileContainedSize": 0,
         "subfoldersNumber": 1,
         "filesNumber": 0,
@@ -232,26 +267,12 @@
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\usd\\textures"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon03\\wrap": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\wrap\\input",
-            "//Storage01/3d4/trash/04_asset/item\\aircon03\\wrap\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\ang\\maya": {
-        "folderSize": 0,
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002": {
+        "folderSize": 232444,
         "fileContainedSize": 0,
         "subfoldersNumber": 1,
         "filesNumber": 0,
@@ -259,256 +280,12 @@
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\ang\\maya\\scenes"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\ang": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\nuke": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\nuke\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\nuke\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\paint_2D": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\paint_3D": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\photogrammetry": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\photogrammetry\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\photogrammetry\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\preprod": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\review": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\wrap": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\wrap\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\wrap\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\sculpt": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\abc": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\maya": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 8,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\cache",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\data",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\images",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\movies",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\renderman",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\scenes",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\sound",
-            "//Storage01/3d4/trash/04_asset/item\\angbed\\maya\\sourceimages"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\comp": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\desk": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\flip": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\audio": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\hdz": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\scripts": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\geo": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\tex": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\render": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\video": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\ang\\maya\\scenes": {
-        "folderSize": 0,
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02": {
+        "folderSize": 2021632,
         "fileContainedSize": 0,
         "subfoldersNumber": 1,
         "filesNumber": 0,
@@ -516,11 +293,11 @@
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\ang\\maya\\scenes\\edit"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\aircon01\\houdini\\sim": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\dressing": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -531,333 +308,95 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\nuke": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\assetLayout": {
         "folderSize": 0,
         "fileContainedSize": 0,
-        "subfoldersNumber": 2,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\groom": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\cloth": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\rig": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures": {
+        "folderSize": 1336417339,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 7,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\anglamp\\nuke\\input",
-            "//Storage01/3d4/trash/04_asset/item\\anglamp\\nuke\\output"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp": {
-        "folderSize": 0
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages": {
+        "folderSize": 1596267453
     },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\paint_3D": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\paint_2D": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\photogrammetry": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\anglamp\\photogrammetry\\input",
-            "//Storage01/3d4/trash/04_asset/item\\anglamp\\photogrammetry\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\sculpt": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\preprod": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\wrap": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\anglamp\\wrap\\input",
-            "//Storage01/3d4/trash/04_asset/item\\anglamp\\wrap\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\review": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\nuke": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angmirror\\nuke\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angmirror\\nuke\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\paint_3D": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\paint_2D": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\review": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\sculpt": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\preprod": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\abc": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\photogrammetry": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angmirror\\photogrammetry\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angmirror\\photogrammetry\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\audio": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\desk": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\flip": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angmirror\\wrap": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angmirror\\wrap\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angmirror\\wrap\\output"
-        ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\comp": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\render": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\scripts": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\sim": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\tex": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\video": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\ang\\maya\\scenes\\edit": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod": {
+        "folderSize": 5988074,
+        "fileContainedSize": 5840381,
         "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\ang\\maya\\scenes\\edit\\mod"
+        "filesNumber": 2,
+        "averageFileSize": 2920190.5,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v002.ma",
+            5464125
         ],
-        "fileList": {}
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v001.ma",
+            376256
+        ],
+        "subfolderList": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches"
+        ],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v001.ma": 376256,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v002.ma": 5464125
+        }
     },
-    "//Storage01/3d4/trash/04_asset/item\\angbed\\houdini\\hdz": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\environment": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -868,24 +407,319 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\nuke": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\imagePlane": {
         "folderSize": 0,
         "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\imageSequence": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev": {
+        "folderSize": 7253781,
+        "fileContainedSize": 6793977,
+        "subfoldersNumber": 1,
+        "filesNumber": 3,
+        "averageFileSize": 2264659.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v002.ma",
+            5829680
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v001.ma",
+            464008
+        ],
+        "subfolderList": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches"
+        ],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWallsTest_lookdev_v001.ma": 500289,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v001.ma": 464008,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v002.ma": 5829680
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003": {
+        "folderSize": 76130268,
+        "fileContainedSize": 76130268,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 15226053.6,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            37376046
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\Thumbs.db",
+            30208
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": 37376046,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif": 16822514,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex": 16393760,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex": 5507740,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\Thumbs.db": 30208
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004": {
+        "folderSize": 19817490,
+        "fileContainedSize": 19817490,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 3963498.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1001.bmp.tex",
+            6548941
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\Thumbs.db",
+            41472
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1001.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1002.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1001.bmp.tex": 6548941,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1002.bmp.tex": 4836313,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\Thumbs.db": 41472
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs": {
+        "folderSize": 104102194,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 3,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k"
+        ],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc": {
+        "folderSize": 280896712,
+        "fileContainedSize": 259850114,
         "subfoldersNumber": 2,
+        "filesNumber": 5,
+        "averageFileSize": 51970022.8,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness_data_acescg.jpg.tex",
+            214798393
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json",
+            14583
+        ],
+        "subfolderList": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs"
+        ],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json": 14583,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness.jpg": 44854744,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness_data_acescg.jpg.tex": 214798393,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_Preview.png": 152186,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs.db": 30208
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2": {
+        "folderSize": 104347743
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01": {
+        "folderSize": 232444,
+        "fileContainedSize": 232444,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 232444.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01\\renderCamShape.1366.xml",
+            232444
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01\\renderCamShape.1366.xml",
+            232444
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01\\renderCamShape.1366.xml": 232444
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002": {
+        "folderSize": 14342208,
+        "fileContainedSize": 14342208,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 2868441.6,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1001.bmp.tex",
+            4752843
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\Thumbs.db",
+            32256
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1001.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1002.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1001.bmp.tex": 4752843,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1002.bmp.tex": 1166345,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\Thumbs.db": 32256
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches": {
+        "folderSize": 459804,
+        "fileContainedSize": 459804,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 229902.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v001.ma.swatches",
+            229915
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v002.ma.swatches",
+            229889
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v001.ma.swatches": 229915,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v002.ma.swatches": 229889
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01": {
+        "folderSize": 2021632,
+        "fileContainedSize": 2021632,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 1010816.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1127.xml",
+            1014439
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1195.xml",
+            1007193
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1127.xml": 1014439,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1195.xml": 1007193
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\previews": {
+        "folderSize": 245549,
+        "fileContainedSize": 245549,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 245549.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\previews\\vdxicg2_Popup_3840_sp.jpg",
+            245549
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\previews\\vdxicg2_Popup_3840_sp.jpg",
+            245549
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\previews\\vdxicg2_Popup_3840_sp.jpg": 245549
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches": {
+        "folderSize": 147693,
+        "fileContainedSize": 147693,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 73846.5,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v002.ma.swatches",
+            82047
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v001.ma.swatches",
+            65646
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v001.ma.swatches": 65646,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v002.ma.swatches": 82047
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews": {
+        "folderSize": 421488,
+        "fileContainedSize": 421488,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 421488.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews\\tedldijc_Popup_3840_sp.jpg",
+            421488
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews\\tedldijc_Popup_3840_sp.jpg",
+            421488
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews\\tedldijc_Popup_3840_sp.jpg": 421488
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\assetLayout": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\cloth": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs": {
+        "folderSize": 20625110,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 3,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angnighttable\\nuke\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angnighttable\\nuke\\output"
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k"
         ],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\paint_2D": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\groom": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -896,7 +730,7 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\paint_3D": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\dressing": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -907,68 +741,73 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\photogrammetry": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lightRig": {
         "folderSize": 0,
         "fileContainedSize": 0,
-        "subfoldersNumber": 2,
+        "subfoldersNumber": 0,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angnighttable\\photogrammetry\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angnighttable\\photogrammetry\\output"
+        "subfolderList": [],
+        "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001": {
+        "folderSize": 22595740,
+        "fileContainedSize": 22595740,
+        "subfoldersNumber": 0,
+        "filesNumber": 11,
+        "averageFileSize": 2054158.1818181819,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001_data_acescg.1001.bmp.tex",
+            4344127
         ],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\preprod": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\review": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\sculpt": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {}
-    },
-    "//Storage01/3d4/trash/04_asset/item\\angnighttable\\wrap": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "//Storage01/3d4/trash/04_asset/item\\angnighttable\\wrap\\input",
-            "//Storage01/3d4/trash/04_asset/item\\angnighttable\\wrap\\output"
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            27778
         ],
-        "fileList": {}
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex": 27778,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex": 470062,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex": 27778,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex": 470062,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\Thumbs.db": 29696,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1001.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1002.bmp": 4195382,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001_data_acescg.1001.bmp.tex": 4344127,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001_data_acescg.1002.bmp.tex": 444709
+        }
     },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\houdini\\abc": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k": {
+        "folderSize": 4022120,
+        "fileContainedSize": 4022120,
+        "subfoldersNumber": 0,
+        "filesNumber": 8,
+        "averageFileSize": 502765.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Normal.jpg",
+            810049
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Displacement.jpg",
+            147408
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg": 786969,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg": 401365,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg": 556802,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Cavity.jpg": 442730,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Displacement.jpg": 147408,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Normal.jpg": 810049,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Roughness.jpg": 622973,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Specular.jpg": 253824
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\rig": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -979,10 +818,7 @@
         "subfolderList": [],
         "fileList": {}
     },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\houdini": {
-        "folderSize": 0
-    },
-    "//Storage01/3d4/trash/04_asset/item\\anglamp\\houdini\\audio": {
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\shader": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -992,5 +828,219 @@
         "minFileSize": null,
         "subfolderList": [],
         "fileList": {}
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k": {
+        "folderSize": 81145741,
+        "fileContainedSize": 81145741,
+        "subfoldersNumber": 0,
+        "filesNumber": 8,
+        "averageFileSize": 10143217.625,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Normal.jpg",
+            18145078
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Displacement.jpg",
+            2443778
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg": 14540472,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg": 7220541,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg": 9056572,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Cavity.jpg": 11370074,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Displacement.jpg": 2443778,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Normal.jpg": 18145078,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Roughness.jpg": 11648803,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Specular.jpg": 6720423
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev": {
+        "folderSize": 5515240,
+        "fileContainedSize": 5515240,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 5515240.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev\\item_squWalls_lookdev_publish.ma",
+            5515240
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev\\item_squWalls_lookdev_publish.ma",
+            5515240
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev\\item_squWalls_lookdev_publish.ma": 5515240
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k": {
+        "folderSize": 914366,
+        "fileContainedSize": 914366,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 914366.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k\\tedldijc_1K_Roughness.jpg",
+            914366
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k\\tedldijc_1K_Roughness.jpg",
+            914366
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k\\tedldijc_1K_Roughness.jpg": 914366
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod": {
+        "folderSize": 5657339,
+        "fileContainedSize": 5657339,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 2828669.5,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma",
+            5396474
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma.backup",
+            260865
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma": 5396474,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma.backup": 260865
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k": {
+        "folderSize": 3853041,
+        "fileContainedSize": 3853041,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 3853041.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k\\tedldijc_2K_Roughness.jpg",
+            3853041
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k\\tedldijc_2K_Roughness.jpg",
+            3853041
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k\\tedldijc_2K_Roughness.jpg": 3853041
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k": {
+        "folderSize": 18934333,
+        "fileContainedSize": 18934333,
+        "subfoldersNumber": 0,
+        "filesNumber": 8,
+        "averageFileSize": 2366791.625,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Normal.jpg",
+            4245837
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Displacement.jpg",
+            581685
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg": 3390231,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg": 1766718,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg": 2485022,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Cavity.jpg": 2352893,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Displacement.jpg": 581685,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Normal.jpg": 4245837,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Roughness.jpg": 2690548,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Specular.jpg": 1421399
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k": {
+        "folderSize": 15857703,
+        "fileContainedSize": 15857703,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 15857703.0,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k\\tedldijc_4K_Roughness.jpg",
+            15857703
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k\\tedldijc_4K_Roughness.jpg",
+            15857703
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k\\tedldijc_4K_Roughness.jpg": 15857703
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01": {
+        "folderSize": 5173039,
+        "fileContainedSize": 5173039,
+        "subfoldersNumber": 0,
+        "filesNumber": 15,
+        "averageFileSize": 344869.26666666666,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            794696
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml",
+            231161
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml": 276326,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml": 247867,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml": 272088,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml": 794696,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml": 476465,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml": 264538,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml": 268883,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml": 231161,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml": 441202,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml": 258444,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1158.xml": 247549,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1174.xml": 247527,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1284.xml": 440394,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1287.xml": 264826,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1375.xml": 441073
+        }
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001": {
+        "folderSize": 29464186,
+        "fileContainedSize": 29464186,
+        "subfoldersNumber": 0,
+        "filesNumber": 15,
+        "averageFileSize": 1964279.0666666667,
+        "maxFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            5834088
+        ],
+        "minFileSize": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\Thumbs.db",
+            8704
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": 1085698,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex": 1726468,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif": 5834088,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex": 5195717,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex": 1617233,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex": 5040700,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif": 643318,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif": 643318,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif": 3059270,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif": 1151640,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 1085698,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 1085698,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1001.tif": 643318,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1002.tif": 643318,
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\Thumbs.db": 8704
+        }
     }
 }

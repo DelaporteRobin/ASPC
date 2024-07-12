@@ -1,0 +1,1487 @@
+{
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\alembic": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\nCache": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\particles": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\item_squWallsTest_lookdev_v001_v001_t01": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\item_squWalls_lookdev_v002_v001_t01": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\sq0070_sh0010_render_v02_v001_t01": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\UNTITLED_v001_t01": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\bifrost": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\masterLayer": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\RL_env": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\data\\tmp\\RL_rat": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\images\\item_squWalls_lookdev_v001_v001_t01": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\textures": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\cache\\nCache\\fluid": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\assetLayout": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\cloth": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\groom": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\dressing": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\rig": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v001.ma"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v001.ma",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\item_squWalls_mod_v002.ma"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWallsTest_lookdev_v001.ma"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWallsTest_lookdev_v001.ma",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v001.ma"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWallsTest_lookdev_v001.ma",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v001.ma",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\item_squWalls_lookdev_v002.ma"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\environment": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\imagePlane": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\imageSequence": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness.jpg"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness.jpg"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness_data_acescg.jpg.tex"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness.jpg"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness_data_acescg.jpg.tex"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_Preview.png"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc.json"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness.jpg"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_8K_Roughness_data_acescg.jpg.tex"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\tedldijc_Preview.png"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs.db"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1001.bmp"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1002.bmp"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1002.bmp"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1001.bmp.tex"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1002.bmp"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1002.bmp.tex"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat.1002.bmp"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\squat_srgbtex_acescg.1002.bmp.tex"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v002\\Thumbs.db"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\Thumbs.db"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\Thumbs.db"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1001.bmp"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\Thumbs.db"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1002.bmp"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001_data_acescg.1001.bmp.tex"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\Thumbs.db"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1002.bmp"
+        ],
+        "30": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp"
+        ],
+        "31": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001.1002.bmp.tex"
+        ],
+        "32": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\tagmask_v001_data_acescg.1002.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001_data_acescg.1002.bmp.tex"
+        ],
+        "33": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\Thumbs.db"
+        ],
+        "34": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v001\\walls_mask_v001.1002.bmp"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1158.xml"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1158.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1174.xml"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1158.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1174.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1284.xml"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1158.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1174.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1284.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1287.xml"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0129.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0136.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0142.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0150.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.0154.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1230.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1287.xml"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\perspShape.1375.xml"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1108.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1116.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1158.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1174.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1284.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1287.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v001\\v001_t01\\renderCamShape.1375.xml"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v003\\Thumbs.db"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\item_squWalls_lookdev_v002\\v001_t01\\renderCamShape.1366.xml"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1127.xml"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1127.xml",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\renderman\\rib\\sq0070_sh0010_render_v02\\v001_t01\\cam_sq0070_sh0010Shape.1195.xml"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\previews": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\previews\\vdxicg2_Popup_3840_sp.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1001.bmp"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1002.bmp"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1002.bmp"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1001.bmp.tex"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1002.bmp"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1002.bmp.tex"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1001.bmp",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask.1002.bmp"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1001.bmp.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\substance_squatWall_mask_data_acescg.1002.bmp.tex"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_squatwall_mask_v004\\Thumbs.db"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Cavity.jpg"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Cavity.jpg"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Displacement.jpg"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Cavity.jpg"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Displacement.jpg"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Normal.jpg"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Cavity.jpg"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Displacement.jpg"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Normal.jpg"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Roughness.jpg"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Albedo.jpg"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_AO.jpg"
+        ],
+        "30": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Bump.jpg"
+        ],
+        "31": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Cavity.jpg"
+        ],
+        "32": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Displacement.jpg"
+        ],
+        "33": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Normal.jpg"
+        ],
+        "34": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Roughness.jpg"
+        ],
+        "35": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\1k\\vdxicg2_1K_Specular.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Cavity.jpg"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Cavity.jpg"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Displacement.jpg"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Cavity.jpg"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Displacement.jpg"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Normal.jpg"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Cavity.jpg"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Displacement.jpg"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Normal.jpg"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Roughness.jpg"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Albedo.jpg"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_AO.jpg"
+        ],
+        "30": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Bump.jpg"
+        ],
+        "31": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Cavity.jpg"
+        ],
+        "32": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Displacement.jpg"
+        ],
+        "33": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Normal.jpg"
+        ],
+        "34": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Roughness.jpg"
+        ],
+        "35": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\2k\\vdxicg2_2K_Specular.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\previews\\tedldijc_Popup_3840_sp.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v001.ma.swatches"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v001.ma.swatches",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\mod\\.mayaSwatches\\item_squWalls_mod_v002.ma.swatches"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\assetLayout": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\cloth": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\dressing": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\groom": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lightRig": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\lookdev\\item_squWalls_lookdev_publish.ma"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v001.ma.swatches"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v001.ma.swatches",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\edit\\lookdev\\.mayaSwatches\\item_squWalls_lookdev_v002.ma.swatches"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\shader": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\1k\\tedldijc_1K_Roughness.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\2k\\tedldijc_2K_Roughness.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\rig": {},
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\Imperfections_Concrete_tedldijc\\Thumbs\\4k\\tedldijc_4K_Roughness.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "30": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "31": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "32": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "33": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "34": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "35": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr"
+        ],
+        "36": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "37": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "38": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "39": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "40": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "41": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "42": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "43": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "44": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "45": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "46": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "47": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "48": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "49": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "50": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "51": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "52": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal.jpg"
+        ],
+        "53": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "54": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "55": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "56": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "57": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "58": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "59": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "60": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "61": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal.jpg"
+        ],
+        "62": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal_data_acescg.jpg.tex"
+        ],
+        "63": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "64": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "65": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "66": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "67": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "68": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "69": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "70": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "71": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal.jpg"
+        ],
+        "72": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal_data_acescg.jpg.tex"
+        ],
+        "73": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness.jpg"
+        ],
+        "74": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "75": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "76": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "77": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "78": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "79": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "80": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "81": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "82": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal.jpg"
+        ],
+        "83": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal_data_acescg.jpg.tex"
+        ],
+        "84": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness.jpg"
+        ],
+        "85": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness_data_acescg.jpg.tex"
+        ],
+        "86": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "87": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "88": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "89": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "90": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "91": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "92": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "93": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "94": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal.jpg"
+        ],
+        "95": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal_data_acescg.jpg.tex"
+        ],
+        "96": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness.jpg"
+        ],
+        "97": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness_data_acescg.jpg.tex"
+        ],
+        "98": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Specular.jpg"
+        ],
+        "99": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs.db"
+        ],
+        "100": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2.json"
+        ],
+        "101": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo.jpg"
+        ],
+        "102": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Albedo_srgbtex_acescg.jpg.tex"
+        ],
+        "103": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_AO.jpg"
+        ],
+        "104": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Bump.jpg"
+        ],
+        "105": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Cavity.jpg"
+        ],
+        "106": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.exr",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Displacement.jpg"
+        ],
+        "107": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal.jpg"
+        ],
+        "108": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Normal_data_acescg.jpg.tex"
+        ],
+        "109": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness.jpg"
+        ],
+        "110": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Roughness_data_acescg.jpg.tex"
+        ],
+        "111": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_8K_Specular.jpg"
+        ],
+        "112": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\vdxicg2_Preview.png"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\scenes\\publish\\mod\\item_squWalls_mod_publish.ma.backup"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Cavity.jpg"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Cavity.jpg"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Displacement.jpg"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Cavity.jpg"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Displacement.jpg"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Normal.jpg"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Cavity.jpg"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Displacement.jpg"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Normal.jpg"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Roughness.jpg"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Albedo.jpg"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_AO.jpg"
+        ],
+        "30": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Bump.jpg"
+        ],
+        "31": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Cavity.jpg"
+        ],
+        "32": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Displacement.jpg"
+        ],
+        "33": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Normal.jpg"
+        ],
+        "34": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Roughness.jpg"
+        ],
+        "35": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\concrete_cast in situ_vdxicg2\\Thumbs\\4k\\vdxicg2_4K_Specular.jpg"
+        ]
+    },
+    "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001": {
+        "0": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif"
+        ],
+        "1": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex"
+        ],
+        "2": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "3": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "4": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "5": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex"
+        ],
+        "6": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "7": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "8": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "9": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "10": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif"
+        ],
+        "11": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "12": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "13": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif"
+        ],
+        "14": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "15": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "16": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif"
+        ],
+        "17": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex"
+        ],
+        "18": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "19": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif"
+        ],
+        "20": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif"
+        ],
+        "21": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "22": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif"
+        ],
+        "23": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "24": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "25": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif"
+        ],
+        "26": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "27": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "28": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif"
+        ],
+        "29": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1001.tif"
+        ],
+        "30": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "31": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "32": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif"
+        ],
+        "33": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1002.tif"
+        ],
+        "34": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1002.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1002.tif"
+        ],
+        "35": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture_srgbtex_acescg.1002.tif.tex"
+        ],
+        "36": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Displacement_Utility - Raw.1002.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_Normal_Utility - Raw.1002.tif"
+        ],
+        "37": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1001.tif",
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\squat_walls_PxrSurface1SG_SpecularRoughness_Utility - Raw.1002.tif"
+        ],
+        "38": [
+            "//storage01/3d4/trash/04_asset/item/squWalls/maya\\sourceimages\\3dPaintTextures\\substance_tag_v001\\Thumbs.db"
+        ]
+    }
+}

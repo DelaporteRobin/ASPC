@@ -57,9 +57,10 @@ class ASPC_CommonApplication:
 			return (file_name[extremum], file_size[extremum])
 
 
-	def levenshtein_function(self, comparizon_file, target_file):
-		distance = Levenshtein.distance(target_file, comparizon_file)
-		length = max(len(target_file), len(comparizon_file))
+	def levenshtein_function(self,comparison, target):
+		distance = Levenshtein.distance(target, comparison)
+		length = max(len(target), len(comparison))
 		similitude = ((length - distance) / length)*100
 
+		#print("%s : [%s ; %s]"%(similitude,target, comparison))
 		return similitude
