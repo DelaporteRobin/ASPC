@@ -15,6 +15,22 @@ give you, while using the same widgets you are used to.
 
 # TASKLIST
 - [ ] Define the main TUI design for the application
-- [ ] Define the folder scan process (to create the Queue and using the Queue)
-- [ ] Get a whole bunch of statistics from each folder about itself, its subfolders and files
-- [ ] Return a huge data set to the user in graphs and tabs
+- [x] Scanning the whole pipeline (each folder, files and subfolders)
+- [ ] Creating the autorun program for automatic scan
+
+
+# STATISTICS TO GIVE BACK AFTER ANALYSIS
+- [ ] content for each folder
+- [ ] size for each folder and file
+- [ ] size classement for files and folders
+- [ ] average size for each folder and for the global project
+- [ ] size of the current file compared to the average size for that kind of file
+- [ ] in a folder, size of a file compared to the filename proximity (file repetition / archiving)
+- [ ] speed test for lightest and heaviest file (for each folder?)
+
+# STATISTICS FOR THE BACKGROUND PROGRAM
+- [ ] list all folder data changes
+- [ ] get the number of time a folder is affected by data changes
+
+> [!<WARNING]
+> Pack important informations in a file so the TUI can load / update them quickly!
