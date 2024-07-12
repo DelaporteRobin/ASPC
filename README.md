@@ -32,5 +32,5 @@ give you, while using the same widgets you are used to.
 - [ ] list all folder data changes
 - [ ] get the number of time a folder is affected by data changes
 
-> [!<WARNING]
+> [!WARNING]
 > Pack important informations in a file so the TUI can load / update them quickly!
