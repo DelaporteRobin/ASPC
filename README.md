@@ -20,11 +20,11 @@ give you, while using the same widgets you are used to.
 
 
 # STATISTICS TO GIVE BACK AFTER ANALYSIS
-- [ ] content for each folder
-- [ ] size for each folder and file
-- [ ] size classement for files and folders
-- [ ] average size for each folder and for the global project
-- [ ] size of the current file compared to the average size for that kind of file
+- [x] content for each folder
+- [x] size for each folder and file
+- [x] size classement for files and folders
+- [x] average size for each folder and for the global project
+- [x] size of the current file compared to the average size for that kind of file
 - [ ] in a folder, size of a file compared to the filename proximity (file repetition / archiving)
 - [ ] speed test for lightest and heaviest file (for each folder?)
 

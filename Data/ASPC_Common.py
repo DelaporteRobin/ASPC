@@ -2,6 +2,7 @@ import os
 import multiprocessing
 import colorama
 import datetime
+import Levenshtein
 
 from termcolor import *
 
@@ -55,3 +56,10 @@ class ASPC_CommonApplication:
 
 			return (file_name[extremum], file_size[extremum])
 
+
+	def levenshtein_function(self, comparizon_file, target_file):
+		distance = Levenshtein.distance(target_file, comparizon_file)
+		length = max(len(target_file), len(comparizon_file))
+		similitude = ((length - distance) / length)*100
+
+		return similitude

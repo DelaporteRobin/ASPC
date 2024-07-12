@@ -115,6 +115,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			#json.dump(list(self.global_file_size_classement), save_size, indent=4)
 			json.dump(list(zip(list(self.global_file_size_name_classement), list(self.global_file_size_size_classement))), save_size, indent=4)
 
+		with open(os.path.join(os.getcwd(), "data_extension.json"), "w") as save_file:
+			json.dump(dict(self.global_file_by_extension_dictionnary), save_file, indent=4)
+
 
 		self.display_notification_function("DATA SAVED IN FILES!")
 		print(os.getcwd())
@@ -137,6 +140,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with Manager() as manager:
 			self.global_folder_dictionnary = manager.dict()
 			self.global_file_dictionnary = manager.dict()
+			self.global_file_by_extension_dictionnary = manager.dict()
+			self.global_similar_file_dictionnary = manager.dict()
 
 			self.global_file_size_size_classement = manager.list()
 			self.global_file_size_name_classement = manager.list()
@@ -252,7 +257,11 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 						if parent_proxy_slash == root_folder:
 							break
 					
+					
+					comparison_list = []
 					folder_size = 0
+
+
 					for item in folder_content:
 						if os.path.isfile(os.path.join(folder,item))==True:
 
@@ -281,14 +290,44 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							#file_size_classement = list(map(lambda x:x[1], self.global_file_size_classement))
 							#self.global_file_size_classement.insert(bisect.bisect(file_size_classement, file_size), file_size_tuple)
 							#self.display_message_function("inserted")
-							
+
+
+
+							#get the extension of the file
+							filename,extension = os.path.splitext(os.path.join(folder,item))
+							if extension not in self.global_file_by_extension_dictionnary:
+								self.global_file_by_extension_dictionnary[extension] = {
+									"fileSizeAverage":file_size,
+									"fileCount":1,
+									}
+							else:
+								#get the actual file size and create the average value
+								file_data = self.global_file_by_extension_dictionnary[extension]
+								file_data["fileSizeAverage"] = (file_data["fileSizeAverage"]+file_size)/2
+								file_data["fileCount"] = file_data["fileCount"] + 1
+								self.global_file_by_extension_dictionnary[extension] = file_data
+
+
+
+							#if the file is the first, add it to the comparizon list and continue
+							if len(list(file_list.keys())) == 0:
+								self.comparison_list[os.path.join(folder,item)] = file_size
+							else:
+								
+								for file in self.comparison_list:
+									proximity = self.levenshtein_function(file, os.path.join(folder,item))
+									if proximity > 80:
+										self.comparison_list.append(file)
+
 
 							#add that size for each folder in dictionnary
-						if os.path.isfile(os.path.join(folder, item))==True:
+						if os.path.isdir(os.path.join(folder, item))==True:
+							#self.display_message_function("subfolder added")
+							#self.display_message_function(os.path.join(folder,item))
 							subfolder_list.append(os.path.join(folder,item))
 
 					
-
+					print(comparison_list)
 					#GET THE MATH VALUE FROM THE FOLDER
 					#	average size
 					# 	lowest size
@@ -299,7 +338,6 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					#min_file_size = self.get_min_size_function(file_list)
 					#self.get_highest_value_function(file_list)
 					#self.get_lowest_value_function(file_list)
-
 
 
 

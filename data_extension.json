@@ -1,0 +1,26 @@
+{
+    ".mel": {
+        "fileSizeAverage": 1526.375,
+        "fileCount": 5
+    },
+    ".pur": {
+        "fileSizeAverage": 4943399,
+        "fileCount": 1
+    },
+    ".hipnc": {
+        "fileSizeAverage": 3013832.703125,
+        "fileCount": 7
+    },
+    ".spp": {
+        "fileSizeAverage": 661940398,
+        "fileCount": 1
+    },
+    ".mtl": {
+        "fileSizeAverage": 829,
+        "fileCount": 1
+    },
+    ".abc": {
+        "fileSizeAverage": 2270631,
+        "fileCount": 1
+    }
+}
