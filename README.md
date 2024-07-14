@@ -22,11 +22,14 @@ give you, while using the same widgets you are used to.
 # STATISTICS TO GIVE BACK AFTER ANALYSIS
 - [x] content for each folder
 - [x] size for each folder and file
-- [x] size classement for files and folders
+- [x] size classement for files and folders 
 - [x] average size for each folder and for the global project
-- [x] size of the current file compared to the average size for that kind of file
-- [ ] in a folder, size of a file compared to the filename proximity (file repetition / archiving)
+- [x] in a folder, size of a file compared to the filename proximity (file repetition / archiving)
+- [x] create a dictionnary for each file extension and sort files by size in it!
+- [ ] sort folders by size (after running through the whole pipeline)
+- [ ] folders sorted by numbers of files / subfolders contained
 - [ ] speed test for lightest and heaviest file (for each folder?)
+
 
 # STATISTICS FOR THE BACKGROUND PROGRAM
 - [ ] list all folder data changes

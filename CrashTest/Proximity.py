@@ -7,7 +7,7 @@ from termcolor import *
 
 colorama.init()
 
-folder = "//storage01/3d4/trash/04_asset/item/squWalls/maya"
+folder = "D:/WORK/LIGHTING/Prospect/maya/autosave/"
 folder_content = os.listdir(folder)
 file_list = []
 for item in folder_content:
@@ -43,7 +43,7 @@ for file in file_list:
 				if comparison != file:
 					value = comparison_function(comparison,file)
 					
-					if value > 80:
+					if value > 90:
 						checked_file.append(comparison)
 						proxi_list.append(comparison)
 						#print("%s : %s"%(value,comparison))

@@ -118,6 +118,11 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with open(os.path.join(os.getcwd(), "data_extension.json"), "w") as save_file:
 			json.dump(dict(self.global_file_by_extension_dictionnary), save_file, indent=4)
 
+		"""
+		with open(os.path.join(os.getcwd(), "data_similary.json"), "w") as save_similar_data:
+			json.dump(dict(self.global_similarity_dictionnary), save_similar_data, indent=4)
+		"""
+
 
 		self.display_notification_function("DATA SAVED IN FILES!")
 		print(os.getcwd())
@@ -141,7 +146,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			self.global_folder_dictionnary = manager.dict()
 			self.global_file_dictionnary = manager.dict()
 			self.global_file_by_extension_dictionnary = manager.dict()
-			self.global_similar_file_dictionnary = manager.dict()
+			#self.global_similarity_dictionnary = manager.dict()
 
 			self.global_file_size_size_classement = manager.list()
 			self.global_file_size_name_classement = manager.list()
@@ -175,6 +180,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					break
 			
 			
+			self.display_warning_function("Waiting for processes to end!")
+
+
 			for p in p_list:
 				p.join()
 				self.display_success_function("Process terminated successfully")
@@ -186,6 +194,10 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			#self.display_message_function(self.global_file_size_classement)
 			self.save_data_function()
 			#print(self.global_data_dictionnary)
+
+
+
+
 
 
 
@@ -299,48 +311,43 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 								self.global_file_by_extension_dictionnary[extension] = {
 									"fileSizeAverage":file_size,
 									"fileCount":1,
+									"fileClassement":[
+										(os.path.join(folder,item), os.path.getsize(os.path.join(folder,item)))
+									]
 									}
 							else:
 								#get the actual file size and create the average value
 								file_data = self.global_file_by_extension_dictionnary[extension]
 								file_data["fileSizeAverage"] = (file_data["fileSizeAverage"]+file_size)/2
 								file_data["fileCount"] = file_data["fileCount"] + 1
+
+								#get file classement and insert new file
+								file_data_classement = file_data["fileClassement"]
+
+								position = 0
+								for i in range(len(file_data_classement)):
+									data_name = file_data_classement[i][0]
+									data_size = file_data_classement[i][1]
+
+									if data_size > file_size:
+										position = i
+										break
+								else:
+									position = len(file_data_classement)
+
+								file_data_classement.insert(position, (os.path.join(folder,item), file_size))
+								file_data["fileClassement"] = file_data_classement
+
 								self.global_file_by_extension_dictionnary[extension] = file_data
 
 
-
-							#if the file is the first, add it to the comparizon list and continue
-							filename_list = list(file_list.keys())
-							checked_file = []
-							final_dictionnary = {}
-
-
-							for file in filename_list:
-
-								if file not in checked_file:
-									i = len(list(final_dictionnary.keys()))
-									checked_file.append(file)
-									#print(colored("TEST PROXIMITY : %s"%file, "green"))
-									proxi_list = [file]
-									dictionnary_i = 0
-
-									for comparison in file_list:
-										if comparison not in checked_file:
-											if comparison != file:
-												value = self.levenshtein_function(comparison,file)
-												
-												if value > 80:
-													checked_file.append(comparison)
-													proxi_list.append(comparison)
-													#print("%s : %s"%(value,comparison))
-									#print(colored("KEY OF THE DICTIONNARY : %s"%i, "yellow"))
-									#print(proxi_list)
-
-									final_dictionnary[len(list(final_dictionnary.keys()))] = proxi_list
+								
 
 
 
-							#add that size for each folder in dictionnary
+							
+
+
 						if os.path.isdir(os.path.join(folder, item))==True:
 							#self.display_message_function("subfolder added")
 							#self.display_message_function(os.path.join(folder,item))
@@ -361,6 +368,46 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 
+					#COMPARE THE SIZE OF THE FILES COMPARED TO THEIR
+					#FILENAME PROXIMITY
+					files_in_folder_list = list(file_list.keys())
+					checked_file = []
+					final_dictionnary = {}
+
+
+					for file in files_in_folder_list:
+
+						if file not in checked_file:
+							checked_file.append(file)
+							#print(colored("PROXIMITY : %s"%file, "yellow"))
+
+							proxi_list = [(file, os.path.getsize(file))]
+
+							for comparison in files_in_folder_list:
+								if comparison not in checked_file:
+									if comparison != file:
+										value = self.comparison_function(os.path.basename(comparison),os.path.basename(file))
+
+										if value > 85:
+											checked_file.append(comparison)
+											proxi_list.append((file,os.path.getsize(file)))
+							final_dictionnary[len(list(final_dictionnary.keys()))] = proxi_list
+							#final_dictionnary[folder] = proxi_list
+
+
+					"""
+					self.global_similarity_dictionnary[folder] = {
+						"NumberOfItems": len(proxi_list)
+						"ItemsData":
+					}
+
+					"""
+
+					
+
+
+
+
 
 					#SET THE INITIAL SIZE OF THE FOLDER WITH THE FILES IT CONTAINS (WITHOUT SUBFOLDERS)
 					if folder not in self.global_folder_dictionnary:
@@ -374,6 +421,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							"minFileSize":min_file_size,
 							"subfolderList": subfolder_list,
 							"fileList": file_list,
+							"fileBySimilarity":final_dictionnary
 						}
 
 
