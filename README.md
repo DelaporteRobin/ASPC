@@ -26,8 +26,12 @@ give you, while using the same widgets you are used to.
 - [x] average size for each folder and for the global project
 - [x] in a folder, size of a file compared to the filename proximity (file repetition / archiving)
 - [x] create a dictionnary for each file extension and sort files by size in it!
+
+- [ ] sort files by creation date
+- [ ] sort files by modification date
 - [ ] sort folders by size (after running through the whole pipeline)
-- [ ] folders sorted by numbers of files / subfolders contained
+- [ ] sorted folders by numbers of files / subfolders contained
+
 - [ ] speed test for lightest and heaviest file (for each folder?)
 
 
