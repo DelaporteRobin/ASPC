@@ -29,7 +29,7 @@ class ASPC_Application(ASPC_CommonApplication):
 		print("Hello World, this is ASPC!")
 
 
-		self.root_folder = "D:/WORK/LIGHTING/"
+		self.root_folder = "//Storage01/3D4/TRASH/04_asset/character"
 
 		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}

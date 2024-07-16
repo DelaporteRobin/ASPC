@@ -3,6 +3,7 @@ import multiprocessing
 import colorama
 import datetime
 import Levenshtein
+import time 
 
 from termcolor import *
 
@@ -44,6 +45,10 @@ class ASPC_CommonApplication:
 			return size_addition / len(list(file_list.values()))
 
 
+	def get_average_function(self, a, b):
+		return a/b
+
+
 	def get_extremum_size_function(self, type="max", file_list = None):
 		file_name = list(file_list.keys())
 		file_size = list(file_list.values())
@@ -64,3 +69,12 @@ class ASPC_CommonApplication:
 
 		#print("%s : [%s ; %s]"%(similitude,target, comparison))
 		return similitude
+
+
+
+	def get_date_function(self,file):
+		creation_date = os.path.getctime(file)
+		modification_date = os.path.getmtime(file)
+		time_delta = modification_date - creation_date
+
+		return creation_date, modification_date, time_delta

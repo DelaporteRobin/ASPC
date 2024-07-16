@@ -118,6 +118,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with open(os.path.join(os.getcwd(), "data_extension.json"), "w") as save_file:
 			json.dump(dict(self.global_file_by_extension_dictionnary), save_file, indent=4)
 
+		with open(os.path.join(os.getcwd(), "data_date.json"), "w") as save_file:
+			json.dump(dict(self.global_file_date_dictionnary), save_file, indent=4)
+
 		"""
 		with open(os.path.join(os.getcwd(), "data_similary.json"), "w") as save_similar_data:
 			json.dump(dict(self.global_similarity_dictionnary), save_similar_data, indent=4)
@@ -142,14 +145,30 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 		self.display_notification_function("Ready to launch processes ! ")
+
+
 		with Manager() as manager:
 			self.global_folder_dictionnary = manager.dict()
 			self.global_file_dictionnary = manager.dict()
 			self.global_file_by_extension_dictionnary = manager.dict()
+			self.global_file_date_dictionnary = manager.dict()
 			#self.global_similarity_dictionnary = manager.dict()
+
+
+			#GLOBAL PROJECT DATA OBJECTS
+			self.global_project_size = multiprocessing.Value("d",0)
+			self.global_project_filecount = multiprocessing.Value("i",0)
+			self.global_project_foldercount = multiprocessing.Value("i",0)
+			self.global_project_averagesize = multiprocessing.Value("i",0)
+			self.global_project_heaviest = multiprocessing.Value("f",0)
+			self.global_project_lightest = multiprocessing.Value("f",0)
+			self.global_project_young = multiprocessing.Value("f",0)
+			self.global_project_old = multiprocessing.Value("f",0)
 
 			self.global_file_size_size_classement = manager.list()
 			self.global_file_size_name_classement = manager.list()
+
+
 
 			self.root_folder=root_folder
 			#self.main_folder_list = folder_list 
@@ -191,6 +210,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 
+
+
+			#COMPUTE FINAL INFORMATIONS ABOUT PROJECT
 			#self.display_message_function(self.global_file_size_classement)
 			self.save_data_function()
 			#print(self.global_data_dictionnary)
@@ -284,6 +306,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							file_size = os.path.getsize(os.path.join(folder,item))
 							file_list[os.path.join(folder,item)] = file_size
 
+							self.global_project_size += file_size
+
 							self.global_file_dictionnary[os.path.join(folder,item)] = {
 								"fileSize": file_size
 								}
@@ -305,40 +329,53 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 
-							#get the extension of the file
+							#GET DATA ABOUT EXTENSIONS
+							#number of files for each extension
+							#list of files of the given extension
 							filename,extension = os.path.splitext(os.path.join(folder,item))
 							if extension not in self.global_file_by_extension_dictionnary:
 								self.global_file_by_extension_dictionnary[extension] = {
 									"fileSizeAverage":file_size,
 									"fileCount":1,
-									"fileClassement":[
-										(os.path.join(folder,item), os.path.getsize(os.path.join(folder,item)))
-									]
+									"fileList": {
+										os.path.join(folder,item):file_size,
+									}
 									}
 							else:
 								#get the actual file size and create the average value
 								file_data = self.global_file_by_extension_dictionnary[extension]
 								file_data["fileSizeAverage"] = (file_data["fileSizeAverage"]+file_size)/2
 								file_data["fileCount"] = file_data["fileCount"] + 1
+								
+								
+								file_data_list = file_data["fileList"]
+								file_data_list[os.path.join(folder,item)] = file_size
+								file_data["fileList"] = file_data_list
 
-								#get file classement and insert new file
-								file_data_classement = file_data["fileClassement"]
-
-								position = 0
-								for i in range(len(file_data_classement)):
-									data_name = file_data_classement[i][0]
-									data_size = file_data_classement[i][1]
-
-									if data_size > file_size:
-										position = i
-										break
-								else:
-									position = len(file_data_classement)
-
-								file_data_classement.insert(position, (os.path.join(folder,item), file_size))
-								file_data["fileClassement"] = file_data_classement
-
+							
 								self.global_file_by_extension_dictionnary[extension] = file_data
+
+
+
+							#GET DATA ABOUT DATES
+							creation_date,modification_date,time_delta = self.get_date_function(os.path.join(folder,item))
+							self.global_file_date_dictionnary[os.path.join(folder,item)] = {
+								"timeDelta":time_delta,
+								"creationDate":creation_date,
+								"modificationDate":modification_date
+							}
+
+
+
+
+
+
+
+							#update the global project informations
+							self.global_project_size += file_size 
+							self.global_project_filecount += 1
+								
+								
 
 
 								
@@ -352,6 +389,11 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							#self.display_message_function("subfolder added")
 							#self.display_message_function(os.path.join(folder,item))
 							subfolder_list.append(os.path.join(folder,item))
+
+
+
+							#update the global project informations
+							self.global_project_foldercount += 1
 
 					
 					#print(comparison_list)
@@ -370,6 +412,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 					#COMPARE THE SIZE OF THE FILES COMPARED TO THEIR
 					#FILENAME PROXIMITY
+					
 					files_in_folder_list = list(file_list.keys())
 					checked_file = []
 					final_dictionnary = {}
@@ -394,14 +437,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							final_dictionnary[len(list(final_dictionnary.keys()))] = proxi_list
 							#final_dictionnary[folder] = proxi_list
 
-
-					"""
-					self.global_similarity_dictionnary[folder] = {
-						"NumberOfItems": len(proxi_list)
-						"ItemsData":
-					}
-
-					"""
+						
 
 					
 
@@ -421,7 +457,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							"minFileSize":min_file_size,
 							"subfolderList": subfolder_list,
 							"fileList": file_list,
-							"fileBySimilarity":final_dictionnary
+							#"fileBySimilarity":final_dictionnary
 						}
 
 
