@@ -38,8 +38,8 @@ give you, while using the same widgets you are used to.
 - [ ] sort folders by size (after running through the whole pipeline)
 - [ ] sorted folders by numbers of files / subfolders contained
 
-- [ ] speed test for lightest and heaviest file (for each folder?)
-
+- [x] speed test for lightest and heaviest file (for each folder?)
+- [ ] create a threshold value - max file size to do the speed test (to avoid moving 50 Go files :) )
 
 # STATISTICS FOR THE BACKGROUND PROGRAM
 GIVES LIVES STATISTICS ABOUT PROJECT
