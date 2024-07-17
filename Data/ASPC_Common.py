@@ -4,6 +4,7 @@ import colorama
 import datetime
 import Levenshtein
 import time 
+import shutil
 
 from termcolor import *
 
@@ -46,7 +47,12 @@ class ASPC_CommonApplication:
 
 
 	def get_average_function(self, a, b):
-		return a/b
+		a_value = a.value 
+		b_value = b.value
+		if b_value != 0:
+			return a_value / b_value
+		else:
+			return
 
 
 	def get_extremum_size_function(self, type="max", file_list = None):
@@ -78,3 +84,68 @@ class ASPC_CommonApplication:
 		time_delta = modification_date - creation_date
 
 		return creation_date, modification_date, time_delta
+
+
+
+	def time_stamp_return(x):
+
+		def wrapper(self, *args, **kwargs):
+			start = time.time()
+
+			result = x(self, *args, **kwargs)
+	
+			end = time.time()
+			delta = end - start
+			
+
+			return result, start, end, delta
+		return wrapper
+
+
+
+	@time_stamp_return
+	def copy_file_function(self,source, destination):
+		try:
+			shutil.copy(source, destination)
+		except:
+			return False
+		else:
+			return True
+
+
+	@time_stamp_return
+	def delete_file_function(self,file):
+
+		try:
+			os.remove(file)
+		except:
+			
+			return False
+		else:
+			return True
+	
+
+
+	def worker_speed_test_function(self,type,temp_path,file):
+		
+		start_worker = time.time()
+		if file != None:	
+			success,start_copy,end_copy,delta_copy=self.copy_file_function(file, os.path.join(temp_path, os.path.basename(file)))
+			#print(colored("COPIED [%s] %s  "%(file,delta_copy)))
+
+
+			if success == True:
+				success,start_delete,end_delete,delta_delete = self.delete_file_function(os.path.join(temp_path,os.path.basename(file)))
+			#print(colored("REMOVED [%s] %s"%(file, delta_delete), "cyan"))	
+			
+
+			end_worker = time.time()
+			delta_worker = end_worker - start_worker
+			self.speed_test_data[type] = {
+				"filename":file,
+				"speedTestDelta":delta_worker,
+				"copyDelta":delta_copy,
+				"removeDelta":delta_delete,
+			}
+		else:
+			self.speed_test_data[type] = None

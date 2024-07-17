@@ -20,7 +20,7 @@ give you, while using the same widgets you are used to.
 
 
 # STATISTICS TO GIVE BACK AFTER ANALYSIS
-- [ ] Gives main data about the whole project
+- [x] Gives main data about the whole project
 	number of files
 	average files size
 	average folder size

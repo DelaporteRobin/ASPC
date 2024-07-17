@@ -121,6 +121,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with open(os.path.join(os.getcwd(), "data_date.json"), "w") as save_file:
 			json.dump(dict(self.global_file_date_dictionnary), save_file, indent=4)
 
+		with open(os.path.join(os.getcwd(), "general_project_data.json"), "w") as save_file:
+			json.dump(dict(self.project_general_informations_dictionnary), save_file, indent=4)
+
 		"""
 		with open(os.path.join(os.getcwd(), "data_similary.json"), "w") as save_similar_data:
 			json.dump(dict(self.global_similarity_dictionnary), save_similar_data, indent=4)
@@ -164,6 +167,10 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			self.global_project_lightest = multiprocessing.Value("f",0)
 			self.global_project_young = multiprocessing.Value("f",0)
 			self.global_project_old = multiprocessing.Value("f",0)
+			self.project_general_informations_dictionnary = manager.dict()
+
+			self.global_project_heaviest_name = None
+			self.global_project_lightest_name = None
 
 			self.global_file_size_size_classement = manager.list()
 			self.global_file_size_name_classement = manager.list()
@@ -213,7 +220,26 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 			#COMPUTE FINAL INFORMATIONS ABOUT PROJECT
-			#self.display_message_function(self.global_file_size_classement)
+			#average_output = self.get_average_function(self.global_project_filecount, self.global_project_size)
+			
+			#if average_output != None:
+			#	self.global_project_averagesize = average_output
+			#CREATE THE FINAL DICTIONNARY FOR GENERAL PROJECT INFORMATIONS
+			"""
+			self.project_general_informations_dictionnary = {
+				"projectSize":self.global_project_size.value,
+				"projectFileCount":self.global_project_filecount.value,
+				"projectFolderCount":self.global_project_foldercount.value,
+				#"projectAverageSize":self.global_project_averagesize
+				"projectHeaviestSize":self.global_project_heaviest.value,
+				"projectLightestSize":self.global_project_lightest.value
+			}
+			"""
+			self.project_general_informations_dictionnary["ProjectSize"] = self.global_project_size.value
+			self.project_general_informations_dictionnary["ProjectFileCount"] = self.global_project_filecount.value
+			self.project_general_informations_dictionnary["ProjectFolderCount"] = self.global_project_foldercount.value
+			self.project_general_informations_dictionnary["ProjectHeaviestFile"] = self.global_project_heaviest.value
+			self.project_general_informations_dictionnary["ProjectLightestFile"] = self.global_project_lightest.value
 			self.save_data_function()
 			#print(self.global_data_dictionnary)
 
@@ -295,6 +321,10 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					comparison_list = []
 					folder_size = 0
 
+					lightest_file = None
+					lightest_filename = None
+					heaviest_file = 0
+					heaviest_filename = None
 
 					for item in folder_content:
 						if os.path.isfile(os.path.join(folder,item))==True:
@@ -306,8 +336,41 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							file_size = os.path.getsize(os.path.join(folder,item))
 							file_list[os.path.join(folder,item)] = file_size
 
-							self.global_project_size += file_size
 
+							#update the lowest file on the folder
+							if lightest_file == None:
+								lightest_file = file_size
+								lightest_filename = os.path.join(folder,item)
+							if lightest_file > file_size:
+								lightest_file = file_size
+								lightest_filename = os.path.join(folder,item)
+							#update the heaviest file of the folder
+							if file_size > heaviest_file:
+								heaviest_file = file_size
+								heaviest_filename = os.path.join(folder,item)
+
+
+
+
+							self.global_project_size.value += file_size
+							#get the heaviest file
+							if file_size > self.global_project_heaviest.value:
+								self.global_project_heaviest.value = file_size
+								self.project_general_informations_dictionnary["projectHeaviestFilename"] = os.path.join(folder,item)
+							
+							if self.global_project_filecount.value == 0:
+								self.global_project_lightest.value = file_size
+								self.project_general_informations_dictionnary["projectLightestFilename"] = os.path.join(folder,item)
+								print(colored("FIRST FILE SPOTED", "red"))
+								print(colored("%s : %s"%(self.project_general_informations_dictionnary["projectLightestFilename"], file_size)))
+
+							else:
+								if self.global_project_lightest.value > file_size:
+									self.project_general_informations_dictionnary["projectLightestFilename"] = os.path.join(folder,item)
+									print(colored("New min file size : %s [%s]"%(file_size,self.project_general_informations_dictionnary["projectLightestFilename"])))
+									self.global_project_lightest.value = file_size
+
+							
 							self.global_file_dictionnary[os.path.join(folder,item)] = {
 								"fileSize": file_size
 								}
@@ -372,8 +435,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 							#update the global project informations
-							self.global_project_size += file_size 
-							self.global_project_filecount += 1
+							self.global_project_size.value += file_size 
+							self.global_project_filecount.value += 1
 								
 								
 
@@ -393,7 +456,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 							#update the global project informations
-							self.global_project_foldercount += 1
+							self.global_project_foldercount.value += 1
 
 					
 					#print(comparison_list)
@@ -418,6 +481,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					final_dictionnary = {}
 
 
+
+
 					for file in files_in_folder_list:
 
 						if file not in checked_file:
@@ -436,6 +501,24 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 											proxi_list.append((file,os.path.getsize(file)))
 							final_dictionnary[len(list(final_dictionnary.keys()))] = proxi_list
 							#final_dictionnary[folder] = proxi_list
+
+
+
+
+					#THIS IS THE FUCKING SPEED TEST TEST
+					self.speed_test_data = {}
+					temp_path = os.path.join(os.getcwd(), "temp_speedtest")
+					if os.path.isdir(temp_path)==False:
+						os.makedirs(temp_path, exist_ok=True)
+					thread_heavy = threading.Thread(target=self.worker_speed_test_function, args=("heavy",temp_path,heaviest_filename,), daemon=True)
+					thread_light = threading.Thread(target=self.worker_speed_test_function, args=("light",temp_path,lightest_filename,), daemon=True)
+
+					thread_heavy.start()
+					thread_light.start()
+
+					thread_heavy.join()
+					thread_light.join()
+
 
 						
 
@@ -457,8 +540,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							"minFileSize":min_file_size,
 							"subfolderList": subfolder_list,
 							"fileList": file_list,
-							#"fileBySimilarity":final_dictionnary
-						}
+							"fileBySimilarity":final_dictionnary,
+							"speedTest":self.speed_test_data,
+							}
 
 
 					
