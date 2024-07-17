@@ -10,7 +10,7 @@ to adapt the scan to your project statements.
 > [!IMPORTANT]
 > To create the visual side of that application I am using a library
 called [Textual](https://textual.textualize.io/), which will allow you to merge the flexibility that a Console can
-give you, while using the same widgets you are used to.
+gives you, while using the same widgets you are used to.
 
 
 # TASKLIST
