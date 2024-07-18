@@ -6,6 +6,17 @@ import Levenshtein
 import time 
 import shutil
 
+
+from textual.app import App, ComposeResult
+from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+from textual.widgets.option_list import Option, Separator
+from textual.widgets.selection_list import Selection
+from textual.screen import Screen 
+from textual import events
+from textual.containers import Horizontal, Vertical, Container, VerticalScroll
+from textual import on
+
+
 from termcolor import *
 
 colorama.init()
@@ -30,6 +41,11 @@ class ASPC_CommonApplication:
 
 	def display_notification_function(self, message):
 		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "magenta"))
+
+
+
+	def show_message_function(self, message):
+		self.notify(message, timeout=3)
 
 
 
@@ -137,7 +153,8 @@ class ASPC_CommonApplication:
 			if success == True:
 				success,start_delete,end_delete,delta_delete = self.delete_file_function(os.path.join(temp_path,os.path.basename(file)))
 			#print(colored("REMOVED [%s] %s"%(file, delta_delete), "cyan"))	
-			
+			else:
+				delta_delete = None
 
 			end_worker = time.time()
 			delta_worker = end_worker - start_worker
