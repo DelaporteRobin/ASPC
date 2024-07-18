@@ -13,6 +13,8 @@ from multiprocessing import Manager
 from termcolor import *
 from functools import wraps
 
+import pyfiglet
+
 
 from Data.ASPC_Common import ASPC_CommonApplication
 
@@ -74,6 +76,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				self.display_error_function("No content in folder!")
 				return 
 			else:
+
+				self.display_step_function("FILE QUEUE")
 
 				thread_list = []
 				thread_lock = threading.Lock()

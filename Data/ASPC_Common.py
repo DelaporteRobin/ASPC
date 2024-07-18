@@ -6,6 +6,7 @@ import Levenshtein
 import time 
 import shutil
 
+import pyfiglet
 
 from textual.app import App, ComposeResult
 from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
@@ -27,6 +28,12 @@ colorama.init()
 class ASPC_CommonApplication:
 
 
+	def display_step_function(self, message, size="small"):
+		if size == "big":
+			font = pyfiglet.Figlet(font="ansi_shadow")
+		else:
+			font = pyfiglet.Figlet(font = "modular")
+		print(colored(font.renderText(message), "yellow"))
 
 	def display_message_function(self, message):
 		print("[%s] %s"% (str(datetime.datetime.now()), message))
@@ -34,13 +41,13 @@ class ASPC_CommonApplication:
 		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "red"))
 
 	def display_warning_function(self, message):
-		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "yellow"))
+		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "red"))
 
 	def display_success_function(self, message):
 		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "green"))
 
 	def display_notification_function(self, message):
-		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "magenta"))
+		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "yellow"))
 
 
 

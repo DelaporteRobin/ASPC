@@ -1,7 +1,9 @@
 {
-    "ProjectSize": 0.0,
-    "ProjectFileCount": 0,
+    "projectHeaviestFilename": "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Base_color_Utility - sRGB - Texture_1002.tif",
+    "projectLightestFilename": "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Metallic_Utility - Raw_1001.tif",
+    "ProjectSize": 129591068.0,
+    "ProjectFileCount": 14,
     "ProjectFolderCount": 0,
-    "ProjectHeaviestFile": 0.0,
-    "ProjectLightestFile": 0.0
+    "ProjectHeaviestFile": 27027156.0,
+    "ProjectLightestFile": 635126.0
 }

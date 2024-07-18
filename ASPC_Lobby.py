@@ -3,6 +3,8 @@ import sys
 import time 
 import multiprocessing
 
+from rich.console import Console
+
 
 from textual.app import App, ComposeResult
 from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
@@ -43,6 +45,11 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 
+	def show_message_function(self, message):
+			self.notify(message, timeout=3)
+
+
+
 	def compose(self) -> ComposeResult:
 
 
@@ -72,7 +79,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 	def launch_process_function(self):
-		self.root_folder = "D:/__SUBSTANCE_TEXTURES"
+		self.root_folder = "D:/TRASH"
 
 		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
@@ -135,8 +142,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		#create the test class
 		#self.mpa = ASPC_ProcessApplication()
 		#self.mpa.get_data_init(self.root_folder, self.main_folder_list)
+		
+		self.console = Console()
 		with self.suspend():
-			self.sa.get_data_init(self.root_folder, self.main_folder_queue)
+			self.sa.get_data_init(self.console,self.root_folder, self.main_folder_queue)
 			sys.exit()
 
 

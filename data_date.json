@@ -1,1 +1,72 @@
-{}
+{
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Base_color_Utility - sRGB - Texture_1001.tif": {
+        "timeDelta": 0.5336599349975586,
+        "creationDate": 1702291727.7603285,
+        "modificationDate": 1702291728.2939885
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Base_color_Utility - sRGB - Texture_1002.tif": {
+        "timeDelta": 0.5881211757659912,
+        "creationDate": 1702291729.4809735,
+        "modificationDate": 1702291730.0690947
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Height_Utility - Raw_1001.tif": {
+        "timeDelta": 0.14562201499938965,
+        "creationDate": 1702291728.0585546,
+        "modificationDate": 1702291728.2041767
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Height_Utility - Raw_1002.tif": {
+        "timeDelta": 0.15358853340148926,
+        "creationDate": 1702291729.775851,
+        "modificationDate": 1702291729.9294395
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Metallic_Utility - Raw_1001.tif": {
+        "timeDelta": 0.15360021591186523,
+        "creationDate": 1702291727.8107002,
+        "modificationDate": 1702291727.9643004
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Metallic_Utility - Raw_1002.tif": {
+        "timeDelta": 0.14321422576904297,
+        "creationDate": 1702291729.5378213,
+        "modificationDate": 1702291729.6810355
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Normal_DirectX_Utility - Raw_1001.tif": {
+        "timeDelta": 0.37822723388671875,
+        "creationDate": 1702291728.2680886,
+        "modificationDate": 1702291728.6463158
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Normal_DirectX_Utility - Raw_1002.tif": {
+        "timeDelta": 0.3796079158782959,
+        "creationDate": 1702291729.990278,
+        "modificationDate": 1702291730.369886
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Normal_Utility - Raw_1001.tif": {
+        "timeDelta": 0.3846299648284912,
+        "creationDate": 1702291728.0012019,
+        "modificationDate": 1702291728.3858318
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Normal_Utility - Raw_1002.tif": {
+        "timeDelta": 0.39899158477783203,
+        "creationDate": 1702291729.7189736,
+        "modificationDate": 1702291730.1179652
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Opacity_Utility - Raw_1001.tif": {
+        "timeDelta": 0.17657876014709473,
+        "creationDate": 1702291728.0984604,
+        "modificationDate": 1702291728.2750392
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Opacity_Utility - Raw_1002.tif": {
+        "timeDelta": 0.18849492073059082,
+        "creationDate": 1702291729.8147478,
+        "modificationDate": 1702291730.0032427
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Roughness_Utility - Raw_1001.tif": {
+        "timeDelta": 0.15758991241455078,
+        "creationDate": 1702291727.8495958,
+        "modificationDate": 1702291728.0071857
+    },
+    "D:/TRASH/poster\\output\\substance_v010\\PxrSurface23SG_Roughness_Utility - Raw_1002.tif": {
+        "timeDelta": 0.14368319511413574,
+        "creationDate": 1702291729.5782824,
+        "modificationDate": 1702291729.7219656
+    }
+}
