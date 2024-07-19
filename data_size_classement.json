@@ -8,12 +8,12 @@
         41654
     ],
     [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json",
-        42375
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk.json",
         42150
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json",
+        42375
     ],
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg.json",
@@ -76,15 +76,15 @@
         162038
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif",
-        163344
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif",
         163344
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif",
+        163344
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
         165946
     ],
     [
@@ -92,16 +92,16 @@
         165946
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
         165946
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Presence_Utility - Raw.1001.tif",
-        171896
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_AO.jpg",
         172069
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Presence_Utility - Raw.1001.tif",
+        171896
     ],
     [
         "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Displacement.jpg",
@@ -168,20 +168,20 @@
         267045
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Metallic_Utility - Raw.1001.tif",
-        270150
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png",
-        271597
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_Preview.png",
         269015
     ],
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Roughness.jpg",
         269994
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Metallic_Utility - Raw.1001.tif",
+        270150
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png",
+        271597
     ],
     [
         "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif",
@@ -228,11 +228,11 @@
         393474
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
         393474
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
         393474
     ],
     [
@@ -240,7 +240,15 @@
         393474
     ],
     [
+        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Roughness_Utility - Raw.1011.tif",
+        397240
+    ],
+    [
         "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+        393474
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1011.tif",
         393474
     ],
     [
@@ -252,19 +260,11 @@
         393474
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1011.tif",
-        393474
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Roughness_Utility - Raw.1011.tif",
-        397240
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_SpecularRoughness_Utility - Raw.1011.tif",
         397240
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
         399090
     ],
     [
@@ -272,16 +272,16 @@
         399090
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
         399090
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_Normal_Utility - Raw.1001.tif",
-        401384
     ],
     [
         "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
         402774
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_Normal_Utility - Raw.1001.tif",
+        401384
     ],
     [
         "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
@@ -292,28 +292,28 @@
         422338
     ],
     [
-        "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
-        465793
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg",
         487806
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-        521486
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Displacement.jpg",
         547492
     ],
     [
-        "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Displacement.jpg",
+        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_AO.jpg",
+        563664
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
+        465793
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
         552218
     ],
     [
-        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_AO.jpg",
-        563664
+        "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Displacement.jpg",
+        521486
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_AO.jpg",
@@ -352,26 +352,6 @@
         726934
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Presence_Utility - Raw.1001.tif",
-        747576
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg",
-        756559
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Normal_Utility - Raw.1001.tif.tex",
-        772939
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg",
-        818450
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif.tex",
-        1084948
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif",
         726934
     ],
@@ -380,8 +360,20 @@
         727100
     ],
     [
+        "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Presence_Utility - Raw.1001.tif",
+        747576
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg",
+        756559
+    ],
+    [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Roughness.jpg",
         757013
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Normal_Utility - Raw.1001.tif.tex",
+        772939
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Roughness.jpg",
@@ -398,6 +390,10 @@
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg",
         817851
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg",
+        818450
     ],
     [
         "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_AO.jpg",
@@ -426,6 +422,10 @@
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Roughness.jpg",
         1076024
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif.tex",
+        1084948
     ],
     [
         "D:/TRASH/tv\\input\\books\\b1.png",
@@ -472,7 +472,7 @@
         1474104
     ],
     [
-        "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Roughness_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\input\\books\\b2.png",
         1517648
     ],
     [
@@ -488,20 +488,16 @@
         1580847
     ],
     [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-        1787819
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
         1659016
     ],
     [
-        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
-        1917176
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
+        1787819
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_Displacement_Utility - Raw.1001.png",
-        2151876
+        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
+        1917176
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_AO.jpg",
@@ -512,20 +508,24 @@
         2254354
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif",
-        2291650
+        "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_Displacement_Utility - Raw.1001.png",
+        2151876
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Displacement.jpg",
-        2296592
+        2291650
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Mixed_AO_Utility - Raw_1001.tif",
-        2327576
+        "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif",
+        2296592
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Albedo.jpg",
         2380746
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Mixed_AO_Utility - Raw_1001.tif",
+        2327576
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Displacement.jpg",
@@ -536,7 +536,7 @@
         2468974
     ],
     [
-        "D:/TRASH/tv\\input\\books\\b2.png",
+        "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Roughness_Utility - Raw.1001.tif",
         2526894
     ],
     [
@@ -560,7 +560,7 @@
         2597230
     ],
     [
-        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Normal_Utility - Raw_data_acescg.1001.tif.tex",
+        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_Utility - Raw_1001.tif",
         2681926
     ],
     [
@@ -568,35 +568,35 @@
         2700423
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_Utility - Raw_1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif",
         2723064
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1002.tif",
-        2741516
     ],
     [
         "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Roughness.jpg",
         2809491
     ],
     [
-        "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Roughness.jpg",
-        2827329
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg",
         2961034
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1002.tif",
+        2741516
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Roughness.jpg",
+        2827329
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Normal_Utility - Raw_data_acescg.1001.tif.tex",
         2879530
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
         2974814
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
         2974814
     ],
     [
@@ -620,11 +620,11 @@
         3332272
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
         3332372
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
         3332372
     ],
     [
@@ -680,11 +680,11 @@
         4169802
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Height_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
         4276966
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Displacement_Utility - Raw.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Height_Utility - Raw.1001.tif",
         4276966
     ],
     [
@@ -696,6 +696,10 @@
         4346322
     ],
     [
+        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Albedo.jpg",
+        4377633
+    ],
+    [
         "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif",
         4377238
     ],
@@ -704,16 +708,12 @@
         4377238
     ],
     [
-        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Albedo.jpg",
-        4377633
+        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Normal.jpg",
+        4592870
     ],
     [
         "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Roughness_Utility - Raw.1001.tif.tex",
         4572227
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Normal.jpg",
-        4592870
     ],
     [
         "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1002.tif",
@@ -740,10 +740,6 @@
         5112648
     ],
     [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg",
-        5273108
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Albedo.jpg",
         5581260
     ],
@@ -760,32 +756,36 @@
         6053540
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif",
-        6102826
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg",
         6600319
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg",
+        5273108
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif",
+        6102826
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Roughness.jpg",
         7732419
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_Normal_Utility - Raw.1001.png",
-        7925456
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_AO.jpg",
         8142643
     ],
     [
-        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Normal.jpg",
-        8267925
+        "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_Normal_Utility - Raw.1001.png",
+        8292355
     ],
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
-        8292355
+        7925456
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Normal.jpg",
+        8267925
     ],
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_AO.jpg",
@@ -816,12 +816,12 @@
         11795280
     ],
     [
-        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg",
-        11921066
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg",
         12208854
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg",
+        11921066
     ],
     [
         "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Normal.jpg",
@@ -836,24 +836,24 @@
         13041710
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif",
-        13263376
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif",
         13352500
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif",
+        13263376
     ],
     [
         "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
         13352500
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-        13379580
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvshelf_2_DiffuseColor_Utility - sRGB - Texture.1001.tif",
         14534970
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+        13379580
     ],
     [
         "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
@@ -864,11 +864,11 @@
         15698684
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
         16240790
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+        "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
         16240790
     ],
     [
@@ -924,12 +924,12 @@
         20645254
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
-        21146326
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
         21391546
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
+        21146326
     ],
     [
         "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
@@ -940,44 +940,28 @@
         22787795
     ],
     [
-        "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif",
-        23473256
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
         22930460
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif",
+        23473256
     ],
     [
         "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1002.tif",
         24404412
     ],
     [
-        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg",
-        24905557
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-        25253120
-    ],
-    [
-        "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif",
-        25411728
-    ],
-    [
         "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
         26791080
     ],
     [
-        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_AO.jpg",
-        28586641
+        "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg",
+        24905557
     ],
     [
         "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg",
         38713201
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg",
-        45027806
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Roughness.jpg",
@@ -988,35 +972,51 @@
         48542162
     ],
     [
+        "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Albedo.jpg",
+        21001614
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+        25253120
+    ],
+    [
+        "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif",
+        25411728
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_AO.jpg",
+        28586641
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg",
+        45027806
+    ],
+    [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Albedo.jpg",
-        66869242
+        52810340
     ],
     [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Normal.jpg",
-        52810340
+        66869242
     ],
     [
         "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
         89279261
     ],
     [
-        "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Displacement.exr",
-        94713264
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr",
-        162024328
-    ],
-    [
-        "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Albedo.jpg",
-        21001614
-    ],
-    [
         "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr",
         173652228
     ],
     [
+        "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Displacement.exr",
+        94713264
+    ],
+    [
         "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Displacement.exr",
         158561611
+    ],
+    [
+        "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr",
+        162024328
     ]
 ]

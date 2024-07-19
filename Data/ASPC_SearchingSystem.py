@@ -136,7 +136,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			json.dump(dict(self.project_general_informations_dictionnary), save_file, indent=4)
 
 		with open(os.path.join(os.getcwd(), "data_speedtest.json"), "w") as save_file:
-			json.dump(dict(self.project_speedtest_classement_heavy), save_file, indent=4)
+			json.dump(dict(zip(self.project_speedtest_classement_heavy_filename, self.project_speedtest_classement_heavy_size)), save_file, indent=4)
+		#print(self.project_speedtest_classement_heavy_size)
+		#print(self.project_speedtest_classement_heavy_filename)
 
 		"""
 		with open(os.path.join(os.getcwd(), "data_similary.json"), "w") as save_similar_data:
@@ -184,8 +186,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			self.global_project_old = multiprocessing.Value("f",0)
 			self.project_general_informations_dictionnary = manager.dict()
 
-			self.project_speedtest_classement_heavy = manager.dict()
-			self.project_speedtest_classement_light = manager.dict()
+			self.project_speedtest_classement_heavy_size = manager.list()
+			self.project_speedtest_classement_heavy_filename = manager.list()
+			#self.project_speedtest_classement_light = manager.dict()
 
 			self.global_project_heaviest_name = None
 			self.global_project_lightest_name = None
@@ -547,26 +550,17 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					thread_light.join()
 
 					#get the content of the actual speed test delta classement
-
-					self.project_speedtest_classement_heavy[self.speed_test_data["heavy"]["filename"]] = self.speed_test_data["heavy"]["speedTestDelta"]
-					"""
-					speed_test_filename_list = list(self.project_speedtest_classement_heavy.keys())
-					speed_test_size_list = list(self.project_speedtest_classement_heavy.values())
-
-					if self.speed_test_data["heavy"] != None:
+					#self.project_speedtest_classement_heavy[self.speed_test_data["heavy"]["filename"]] = self.speed_test_data["heavy"]["speedTestDelta"]
+					
 
 
-						thread_heavy_delta_position = bisect.bisect(speed_test_size_list, self.speed_test_data["heavy"]["speedTestDelta"])
-						speed_test_filename_list.insert(thread_heavy_delta_position, self.speed_test_data["heavy"]["filename"])
-						speed_test_size_list.insert(thread_heavy_delta_position, self.speed_test_data["heavy"]["speedTestDelta"])
+					#get the list of keys and values
+					
+					position = bisect.bisect(self.project_speedtest_classement_heavy_size,self.speed_test_data["heavy"]["speedTestDelta"])
+					self.project_speedtest_classement_heavy_size.insert(position,self.speed_test_data["heavy"]["speedTestDelta"])
+					self.project_speedtest_classement_heavy_filename.insert(position, self.speed_test_data["heavy"]["filename"])
 
-						#save the new dictionnary
-						self.project_speedtest_classement_heavy = dict(zip(speed_test_filename_list, speed_test_size_list))
-						print("dict size : %s"%len(list(self.project_speedtest_classement_heavy.keys())))
-					"""
-
-
-
+					#print("list : %s"%self.project_speedtest_classement_heavy)
 
 
 

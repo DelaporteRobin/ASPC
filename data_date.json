@@ -19,6 +19,36 @@
         "creationDate": 1716366400.9229376,
         "modificationDate": 1716366401.4845421
     },
+    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.16486787796020508,
+        "creationDate": 1717401465.660171,
+        "modificationDate": 1717401465.825039
+    },
+    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Height_Utility - Raw.1001.tif": {
+        "timeDelta": 0.038926124572753906,
+        "creationDate": 1717401465.7691605,
+        "modificationDate": 1717401465.8080866
+    },
+    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": 0.049846649169921875,
+        "creationDate": 1717401465.7163222,
+        "modificationDate": 1717401465.7661688
+    },
+    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.1501331329345703,
+        "creationDate": 1717401465.755198,
+        "modificationDate": 1717401465.9053311
+    },
+    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.10273480415344238,
+        "creationDate": 1717401465.7163222,
+        "modificationDate": 1717401465.819057
+    },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json": {
+        "timeDelta": -412054.28833675385,
+        "creationDate": 1716364202.3455667,
+        "modificationDate": 1715952148.05723
+    },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg.json": {
         "timeDelta": -62.60175323486328,
         "creationDate": 1716364207.1806185,
@@ -29,50 +59,65 @@
         "creationDate": 1716364207.1835816,
         "modificationDate": 1716364145.0953486
     },
-    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.16486787796020508,
-        "creationDate": 1717401465.660171,
-        "modificationDate": 1717401465.825039
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg": {
+        "timeDelta": -412050.3307130337,
+        "creationDate": 1716364202.3515515,
+        "modificationDate": 1715952152.0208385
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_AO.jpg": {
         "timeDelta": -62.67656588554382,
         "creationDate": 1716364207.191593,
         "modificationDate": 1716364144.515027
     },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg": {
+        "timeDelta": -412053.0859925747,
+        "creationDate": 1716364202.386912,
+        "modificationDate": 1715952149.3009195
+    },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Displacement.exr": {
         "timeDelta": -57.9413480758667,
         "creationDate": 1716364207.1959283,
         "modificationDate": 1716364149.2545803
     },
-    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Height_Utility - Raw.1001.tif": {
-        "timeDelta": 0.038926124572753906,
-        "creationDate": 1717401465.7691605,
-        "modificationDate": 1717401465.8080866
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr": {
+        "timeDelta": -412046.61904764175,
+        "creationDate": 1716364202.393893,
+        "modificationDate": 1715952155.7748454
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Displacement.jpg": {
         "timeDelta": -62.87165307998657,
         "creationDate": 1716364207.2833402,
         "modificationDate": 1716364144.4116871
     },
-    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": 0.049846649169921875,
-        "creationDate": 1717401465.7163222,
-        "modificationDate": 1717401465.7661688
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg": {
+        "timeDelta": -412053.028192997,
+        "creationDate": 1716364202.4839506,
+        "modificationDate": 1715952149.4557576
+    },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg": {
+        "timeDelta": -412049.5523586273,
+        "creationDate": 1716364202.4939241,
+        "modificationDate": 1715952152.9415655
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Normal.jpg": {
         "timeDelta": -62.174973011016846,
         "creationDate": 1716364207.2873292,
         "modificationDate": 1716364145.1123562
     },
-    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.1501331329345703,
-        "creationDate": 1717401465.755198,
-        "modificationDate": 1717401465.9053311
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg": {
+        "timeDelta": -412048.9324040413,
+        "creationDate": 1716364202.5238442,
+        "modificationDate": 1715952153.5914402
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Roughness.jpg": {
         "timeDelta": -60.631338357925415,
         "creationDate": 1716364207.2953217,
         "modificationDate": 1716364146.6639833
+    },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png": {
+        "timeDelta": -412055.0697116852,
+        "creationDate": 1716364202.537495,
+        "modificationDate": 1715952147.4677832
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_Preview.png": {
         "timeDelta": -63.398775577545166,
@@ -84,225 +129,155 @@
         "creationDate": 1716364202.631241,
         "modificationDate": 1716364133.5537362
     },
-    "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.10273480415344238,
-        "creationDate": 1717401465.7163222,
-        "modificationDate": 1717401465.819057
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n.json": {
-        "timeDelta": -8.460397481918335,
-        "creationDate": 1716286057.4082973,
-        "modificationDate": 1716286048.9478998
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json": {
-        "timeDelta": -4.897231578826904,
-        "creationDate": 1716286077.5444264,
-        "modificationDate": 1716286072.6471949
-    },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Albedo.jpg": {
         "timeDelta": -66.46555233001709,
         "creationDate": 1716364202.6332364,
         "modificationDate": 1716364136.167684
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Albedo.jpg": {
-        "timeDelta": -4.277148962020874,
-        "creationDate": 1716286057.3837245,
-        "modificationDate": 1716286053.1065755
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Albedo.jpg": {
-        "timeDelta": -2.9808566570281982,
-        "creationDate": 1716286077.5266974,
-        "modificationDate": 1716286074.5458407
     },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_AO.jpg": {
         "timeDelta": -68.32539057731628,
         "creationDate": 1716364202.6412144,
         "modificationDate": 1716364134.3158238
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_AO.jpg": {
-        "timeDelta": -5.789451837539673,
-        "creationDate": 1716286057.398324,
-        "modificationDate": 1716286051.6088722
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg": {
-        "timeDelta": -5.236304759979248,
-        "creationDate": 1716286077.5366757,
-        "modificationDate": 1716286072.300371
-    },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr": {
         "timeDelta": -61.92149257659912,
         "creationDate": 1716364202.6442065,
         "modificationDate": 1716364140.722714
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Displacement.exr": {
-        "timeDelta": -0.052858591079711914,
-        "creationDate": 1716286057.3442664,
-        "modificationDate": 1716286057.2914078
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json": {
-        "timeDelta": -412054.28833675385,
-        "creationDate": 1716364202.3455667,
-        "modificationDate": 1715952148.05723
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr": {
-        "timeDelta": -0.039488792419433594,
-        "creationDate": 1716286077.4978094,
-        "modificationDate": 1716286077.4583206
     },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.jpg": {
         "timeDelta": -67.6246132850647,
         "creationDate": 1716364202.7130423,
         "modificationDate": 1716364135.088429
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Displacement.jpg": {
-        "timeDelta": -5.713452339172363,
-        "creationDate": 1716286057.3372846,
-        "modificationDate": 1716286051.6238322
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.jpg": {
-        "timeDelta": -3.6997861862182617,
-        "creationDate": 1716286077.492818,
-        "modificationDate": 1716286073.793032
-    },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Normal.jpg": {
         "timeDelta": -66.72194981575012,
         "creationDate": 1716364202.7170312,
         "modificationDate": 1716364135.9950814
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Normal.jpg": {
-        "timeDelta": -1.787909746170044,
-        "creationDate": 1716286057.3193321,
-        "modificationDate": 1716286055.5314224
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg": {
-        "timeDelta": -412050.3307130337,
-        "creationDate": 1716364202.3515515,
-        "modificationDate": 1715952152.0208385
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg": {
-        "timeDelta": -2.1893084049224854,
-        "creationDate": 1716286077.4788556,
-        "modificationDate": 1716286075.2895472
     },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Roughness.jpg": {
         "timeDelta": -66.351322889328,
         "creationDate": 1716364202.7230153,
         "modificationDate": 1716364136.3716924
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Roughness.jpg": {
-        "timeDelta": -1.5520122051239014,
-        "creationDate": 1716286057.3043735,
-        "modificationDate": 1716286055.7523613
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Roughness.jpg": {
-        "timeDelta": -2.61179780960083,
-        "creationDate": 1716286077.471874,
-        "modificationDate": 1716286074.8600762
-    },
-    "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.18894267082214355,
-        "creationDate": 1717401550.7111561,
-        "modificationDate": 1717401550.9000988
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg": {
-        "timeDelta": -412053.0859925747,
-        "creationDate": 1716364202.386912,
-        "modificationDate": 1715952149.3009195
-    },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_Preview.png": {
         "timeDelta": -69.70019459724426,
         "creationDate": 1716364202.7280016,
         "modificationDate": 1716364133.027807
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n.json": {
+        "timeDelta": -8.460397481918335,
+        "creationDate": 1716286057.4082973,
+        "modificationDate": 1716286048.9478998
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Albedo.jpg": {
+        "timeDelta": -4.277148962020874,
+        "creationDate": 1716286057.3837245,
+        "modificationDate": 1716286053.1065755
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_AO.jpg": {
+        "timeDelta": -5.789451837539673,
+        "creationDate": 1716286057.398324,
+        "modificationDate": 1716286051.6088722
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Displacement.exr": {
+        "timeDelta": -0.052858591079711914,
+        "creationDate": 1716286057.3442664,
+        "modificationDate": 1716286057.2914078
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Displacement.jpg": {
+        "timeDelta": -5.713452339172363,
+        "creationDate": 1716286057.3372846,
+        "modificationDate": 1716286051.6238322
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Normal.jpg": {
+        "timeDelta": -1.787909746170044,
+        "creationDate": 1716286057.3193321,
+        "modificationDate": 1716286055.5314224
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Roughness.jpg": {
+        "timeDelta": -1.5520122051239014,
+        "creationDate": 1716286057.3043735,
+        "modificationDate": 1716286055.7523613
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_Preview.png": {
         "timeDelta": -7.87769627571106,
         "creationDate": 1716286057.3003838,
         "modificationDate": 1716286049.4226875
     },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json": {
+        "timeDelta": -4.897231578826904,
+        "creationDate": 1716286077.5444264,
+        "modificationDate": 1716286072.6471949
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Albedo.jpg": {
+        "timeDelta": -2.9808566570281982,
+        "creationDate": 1716286077.5266974,
+        "modificationDate": 1716286074.5458407
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg": {
+        "timeDelta": -5.236304759979248,
+        "creationDate": 1716286077.5366757,
+        "modificationDate": 1716286072.300371
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr": {
+        "timeDelta": -0.039488792419433594,
+        "creationDate": 1716286077.4978094,
+        "modificationDate": 1716286077.4583206
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.jpg": {
+        "timeDelta": -3.6997861862182617,
+        "creationDate": 1716286077.492818,
+        "modificationDate": 1716286073.793032
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg": {
+        "timeDelta": -2.1893084049224854,
+        "creationDate": 1716286077.4788556,
+        "modificationDate": 1716286075.2895472
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Roughness.jpg": {
+        "timeDelta": -2.61179780960083,
+        "creationDate": 1716286077.471874,
+        "modificationDate": 1716286074.8600762
+    },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_Preview.png": {
         "timeDelta": -5.409648180007935,
         "creationDate": 1716286077.4676764,
         "modificationDate": 1716286072.0580282
+    },
+    "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.18894267082214355,
+        "creationDate": 1717401550.7111561,
+        "modificationDate": 1717401550.9000988
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture.1001.tif.tex": {
         "timeDelta": 0.5341639518737793,
         "creationDate": 1717485269.3412392,
         "modificationDate": 1717485269.8754032
     },
-    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.2620811462402344,
-        "creationDate": 1716210831.1496544,
-        "modificationDate": 1716210831.4117355
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr": {
-        "timeDelta": -412046.61904764175,
-        "creationDate": 1716364202.393893,
-        "modificationDate": 1715952155.7748454
-    },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_BaseColor_Utility - sRGB - Texture_srgbtex_acescg.1001.tif.tex": {
         "timeDelta": 0.6797702312469482,
         "creationDate": 1717401610.0848653,
         "modificationDate": 1717401610.7646356
-    },
-    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif": {
-        "timeDelta": 0.06582355499267578,
-        "creationDate": 1716210831.267124,
-        "modificationDate": 1716210831.3329475
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg": {
-        "timeDelta": -412053.028192997,
-        "creationDate": 1716364202.4839506,
-        "modificationDate": 1715952149.4557576
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.18407940864562988,
         "creationDate": 1717401260.4734037,
         "modificationDate": 1717401260.657483
     },
-    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": 0.0498652458190918,
-        "creationDate": 1716210831.1526465,
-        "modificationDate": 1716210831.2025118
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg": {
-        "timeDelta": -412049.5523586273,
-        "creationDate": 1716364202.4939241,
-        "modificationDate": 1715952152.9415655
-    },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Displacement_Utility - Raw.1001.tif": {
         "timeDelta": 0.06981992721557617,
         "creationDate": 1717401260.6305516,
         "modificationDate": 1717401260.7003715
-    },
-    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.2547891139984131,
-        "creationDate": 1716210831.2528832,
-        "modificationDate": 1716210831.5076723
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg": {
-        "timeDelta": -412048.9324040413,
-        "creationDate": 1716364202.5238442,
-        "modificationDate": 1715952153.5914402
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Height_Utility - Raw.1001.tif": {
         "timeDelta": 0.06741762161254883,
         "creationDate": 1717401550.814729,
         "modificationDate": 1717401550.8821466
     },
-    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.08826899528503418,
-        "creationDate": 1716210831.1496544,
-        "modificationDate": 1716210831.2379234
-    },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Metallic_Utility - Raw.1001.tif": {
         "timeDelta": 0.06667184829711914,
         "creationDate": 1717401550.735092,
         "modificationDate": 1717401550.8017638
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png": {
-        "timeDelta": -412055.0697116852,
-        "creationDate": 1716364202.537495,
-        "modificationDate": 1715952147.4677832
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Metallic_Utility - Raw.1001.tif.tex": {
         "timeDelta": 0.22745108604431152,
@@ -324,30 +299,80 @@
         "creationDate": 1717485273.8068464,
         "modificationDate": 1717485274.3085046
     },
+    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.11472177505493164,
+        "creationDate": 1716374035.0939252,
+        "modificationDate": 1716374035.208647
+    },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Normal_Utility - Raw_data_acescg.1001.tif.tex": {
         "timeDelta": 1.197934865951538,
         "creationDate": 1717401995.729567,
         "modificationDate": 1717401996.927502
+    },
+    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.2620811462402344,
+        "creationDate": 1716210831.1496544,
+        "modificationDate": 1716210831.4117355
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Roughness_Utility - Raw.1001.tif": {
         "timeDelta": 0.14037084579467773,
         "creationDate": 1717401550.7251189,
         "modificationDate": 1717401550.8654897
     },
+    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": 0.06682038307189941,
+        "creationDate": 1716374035.2729826,
+        "modificationDate": 1716374035.339803
+    },
+    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif": {
+        "timeDelta": 0.06582355499267578,
+        "creationDate": 1716210831.267124,
+        "modificationDate": 1716210831.3329475
+    },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Roughness_Utility - Raw.1001.tif.tex": {
         "timeDelta": 0.7610776424407959,
         "creationDate": 1717485272.4687285,
         "modificationDate": 1717485273.2298062
+    },
+    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.24735713005065918,
+        "creationDate": 1716374035.2485418,
+        "modificationDate": 1716374035.495899
+    },
+    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": 0.0498652458190918,
+        "creationDate": 1716210831.1526465,
+        "modificationDate": 1716210831.2025118
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Roughness_Utility - Raw_data_acescg.1001.tif.tex": {
         "timeDelta": 1.1377344131469727,
         "creationDate": 1717401985.3550622,
         "modificationDate": 1717401986.4927967
     },
+    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.13713979721069336,
+        "creationDate": 1716374035.164765,
+        "modificationDate": 1716374035.3019047
+    },
+    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.2547891139984131,
+        "creationDate": 1716210831.2528832,
+        "modificationDate": 1716210831.5076723
+    },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.12520384788513184,
         "creationDate": 1717401260.5113316,
         "modificationDate": 1717401260.6365354
+    },
+    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.07779192924499512,
+        "creationDate": 1716374035.2610142,
+        "modificationDate": 1716374035.3388062
+    },
+    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.08826899528503418,
+        "creationDate": 1716210831.1496544,
+        "modificationDate": 1716210831.2379234
     },
     "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_SpecularFaceColor_Utility - sRGB - Texture.1001.tif.tex": {
         "timeDelta": 0.4498894214630127,
@@ -364,31 +389,6 @@
         "creationDate": 1717401260.619586,
         "modificationDate": 1717401260.7392676
     },
-    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.11472177505493164,
-        "creationDate": 1716374035.0939252,
-        "modificationDate": 1716374035.208647
-    },
-    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": 0.06682038307189941,
-        "creationDate": 1716374035.2729826,
-        "modificationDate": 1716374035.339803
-    },
-    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.24735713005065918,
-        "creationDate": 1716374035.2485418,
-        "modificationDate": 1716374035.495899
-    },
-    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.13713979721069336,
-        "creationDate": 1716374035.164765,
-        "modificationDate": 1716374035.3019047
-    },
-    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.07779192924499512,
-        "creationDate": 1716374035.2610142,
-        "modificationDate": 1716374035.3388062
-    },
     "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.2719604969024658,
         "creationDate": 1716215087.790843,
@@ -398,6 +398,11 @@
         "timeDelta": 0.3650848865509033,
         "creationDate": 1716303068.7964413,
         "modificationDate": 1716303069.1615262
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.3005967140197754,
+        "creationDate": 1717409427.7818422,
+        "modificationDate": 1717409428.082439
     },
     "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Displacement_Utility - Raw.1001.tif": {
         "timeDelta": 0.08810901641845703,
@@ -409,6 +414,11 @@
         "creationDate": 1716303074.1328855,
         "modificationDate": 1716303074.4382284
     },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": 0.07682299613952637,
+        "creationDate": 1717409427.9926796,
+        "modificationDate": 1717409428.0695026
+    },
     "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif": {
         "timeDelta": 0.27416372299194336,
         "creationDate": 1716215087.9910696,
@@ -418,6 +428,16 @@
         "timeDelta": 0.186845064163208,
         "creationDate": 1716303074.3813841,
         "modificationDate": 1716303074.5682292
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.31016993522644043,
+        "creationDate": 1717411141.6975775,
+        "modificationDate": 1717411142.0077474
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.29851388931274414,
+        "creationDate": 1717409427.9526095,
+        "modificationDate": 1717409428.2511234
     },
     "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.11608481407165527,
@@ -429,105 +449,85 @@
         "creationDate": 1716303069.059181,
         "modificationDate": 1716303069.1395857
     },
-    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.09167981147766113,
-        "creationDate": 1716215087.992067,
-        "modificationDate": 1716215088.083747
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": 0.048606157302856445,
-        "creationDate": 1716303068.829858,
-        "modificationDate": 1716303068.8784642
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 5.663144826889038,
-        "creationDate": 1716303069.0282633,
-        "modificationDate": 1716303074.6914082
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": {
-        "timeDelta": 0.047866106033325195,
-        "creationDate": 1716303074.3664267,
-        "modificationDate": 1716303074.4142928
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.0899968147277832,
-        "creationDate": 1716303068.8153903,
-        "modificationDate": 1716303068.9053872
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.1431739330291748,
-        "creationDate": 1716303074.2272375,
-        "modificationDate": 1716303074.3704114
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.09773755073547363,
-        "creationDate": 1716303074.3534563,
-        "modificationDate": 1716303074.4511938
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.31016993522644043,
-        "creationDate": 1717411141.6975775,
-        "modificationDate": 1717411142.0077474
-    },
     "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": {
         "timeDelta": 0.07879066467285156,
         "creationDate": 1717411141.8790908,
         "modificationDate": 1717411141.9578815
     },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.28822779655456543,
-        "creationDate": 1717411141.8511672,
-        "modificationDate": 1717411142.139395
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": {
-        "timeDelta": 0.04288673400878906,
-        "creationDate": 1717411141.8671234,
-        "modificationDate": 1717411141.91001
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.13068056106567383,
-        "creationDate": 1717411141.7614064,
-        "modificationDate": 1717411141.892087
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.08477306365966797,
-        "creationDate": 1717411141.8531604,
-        "modificationDate": 1717411141.9379334
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.3005967140197754,
-        "creationDate": 1717409427.7818422,
-        "modificationDate": 1717409428.082439
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": 0.07682299613952637,
-        "creationDate": 1717409427.9926796,
-        "modificationDate": 1717409428.0695026
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.29851388931274414,
-        "creationDate": 1717409427.9526095,
-        "modificationDate": 1717409428.2511234
+    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.09167981147766113,
+        "creationDate": 1716215087.992067,
+        "modificationDate": 1716215088.083747
     },
     "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": {
         "timeDelta": 0.04252767562866211,
         "creationDate": 1717409427.9790747,
         "modificationDate": 1717409428.0216024
     },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": 0.048606157302856445,
+        "creationDate": 1716303068.829858,
+        "modificationDate": 1716303068.8784642
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.28822779655456543,
+        "creationDate": 1717411141.8511672,
+        "modificationDate": 1717411142.139395
+    },
     "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.12085342407226562,
         "creationDate": 1717409427.8798046,
         "modificationDate": 1717409428.000658
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 5.663144826889038,
+        "creationDate": 1716303069.0282633,
+        "modificationDate": 1716303074.6914082
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": {
+        "timeDelta": 0.04288673400878906,
+        "creationDate": 1717411141.8671234,
+        "modificationDate": 1717411141.91001
     },
     "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": {
         "timeDelta": 0.09339094161987305,
         "creationDate": 1717409427.9661083,
         "modificationDate": 1717409428.0594993
     },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": {
+        "timeDelta": 0.047866106033325195,
+        "creationDate": 1716303074.3664267,
+        "modificationDate": 1716303074.4142928
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.13068056106567383,
+        "creationDate": 1717411141.7614064,
+        "modificationDate": 1717411141.892087
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.0899968147277832,
+        "creationDate": 1716303068.8153903,
+        "modificationDate": 1716303068.9053872
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.08477306365966797,
+        "creationDate": 1717411141.8531604,
+        "modificationDate": 1717411141.9379334
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.1431739330291748,
+        "creationDate": 1716303074.2272375,
+        "modificationDate": 1716303074.3704114
+    },
     "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_DiffuseColor_Utility - sRGB - Texture.1001.png": {
         "timeDelta": 1.1150574684143066,
         "creationDate": 1716367745.0907931,
         "modificationDate": 1716367746.2058506
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.09773755073547363,
+        "creationDate": 1716303074.3534563,
+        "modificationDate": 1716303074.4511938
     },
     "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_Displacement_Utility - Raw.1001.png": {
         "timeDelta": 0.33506035804748535,
@@ -554,31 +554,6 @@
         "creationDate": 1716367745.3536842,
         "modificationDate": 1716367745.6828606
     },
-    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.3885171413421631,
-        "creationDate": 1716469089.4932678,
-        "modificationDate": 1716469089.881785
-    },
-    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": 0.08827328681945801,
-        "creationDate": 1716469089.652357,
-        "modificationDate": 1716469089.7406304
-    },
-    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.3241875171661377,
-        "creationDate": 1716469089.6274252,
-        "modificationDate": 1716469089.9516127
-    },
-    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.15509414672851562,
-        "creationDate": 1716469089.5655894,
-        "modificationDate": 1716469089.7206836
-    },
-    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.08927106857299805,
-        "creationDate": 1716469089.6393914,
-        "modificationDate": 1716469089.7286625
-    },
     "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.2367103099822998,
         "creationDate": 1716370326.0628042,
@@ -599,20 +574,45 @@
         "creationDate": 1716370326.359353,
         "modificationDate": 1716370326.4191928
     },
+    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.3885171413421631,
+        "creationDate": 1716469089.4932678,
+        "modificationDate": 1716469089.881785
+    },
     "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.18002700805664062,
         "creationDate": 1716370326.1713479,
         "modificationDate": 1716370326.3513749
+    },
+    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": 0.08827328681945801,
+        "creationDate": 1716469089.652357,
+        "modificationDate": 1716469089.7406304
     },
     "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_SpecularRoughness_Utility - Raw.1001.tif": {
         "timeDelta": 0.10323953628540039,
         "creationDate": 1716370326.3374133,
         "modificationDate": 1716370326.4406528
     },
+    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.3241875171661377,
+        "creationDate": 1716469089.6274252,
+        "modificationDate": 1716469089.9516127
+    },
+    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.15509414672851562,
+        "creationDate": 1716469089.5655894,
+        "modificationDate": 1716469089.7206836
+    },
     "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvshelf_2_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.43456244468688965,
         "creationDate": 1716370326.5021365,
         "modificationDate": 1716370326.936699
+    },
+    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.08927106857299805,
+        "creationDate": 1716469089.6393914,
+        "modificationDate": 1716469089.7286625
     },
     "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvshelf_2_Displacement_Utility - Raw.1001.tif": {
         "timeDelta": 0.163071870803833,
@@ -634,235 +634,220 @@
         "creationDate": 1716370326.7776153,
         "modificationDate": 1716370326.8838396
     },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.21240019798278809,
-        "creationDate": 1716284286.5184958,
-        "modificationDate": 1716284286.730896
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif": {
-        "timeDelta": 0.06083822250366211,
-        "creationDate": 1716284286.6610837,
-        "modificationDate": 1716284286.721922
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.22748255729675293,
-        "creationDate": 1716299648.241104,
-        "modificationDate": 1716299648.4685864
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": 0.036902666091918945,
-        "creationDate": 1716284286.5463903,
-        "modificationDate": 1716284286.583293
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": 0.04590773582458496,
-        "creationDate": 1716299648.4850671,
-        "modificationDate": 1716299648.5309749
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.22240519523620605,
-        "creationDate": 1716284286.647121,
-        "modificationDate": 1716284286.8695261
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.16734576225280762,
-        "creationDate": 1716299648.4476423,
-        "modificationDate": 1716299648.614988
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif": {
-        "timeDelta": 0.21838021278381348,
-        "creationDate": 1716276091.2256,
-        "modificationDate": 1716276091.4439802
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.07679557800292969,
-        "creationDate": 1716284286.5354197,
-        "modificationDate": 1716284286.6122153
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Presence_Utility - Raw.1001.tif": {
-        "timeDelta": 0.048917293548583984,
-        "creationDate": 1716299648.478068,
-        "modificationDate": 1716299648.5269854
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.2776222229003906,
-        "creationDate": 1716534772.1467547,
-        "modificationDate": 1716534772.424377
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif": {
-        "timeDelta": 0.07080912590026855,
-        "creationDate": 1716276091.29139,
-        "modificationDate": 1716276091.362199
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.11486315727233887,
-        "creationDate": 1716299648.3228068,
-        "modificationDate": 1716299648.43767
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": 0.2920701503753662,
-        "creationDate": 1716534772.403405,
-        "modificationDate": 1716534772.695475
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif": {
-        "timeDelta": 0.03986692428588867,
-        "creationDate": 1716276091.2385569,
-        "modificationDate": 1716276091.2784238
-    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_BaseColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.34816980361938477,
         "creationDate": 1716288062.388015,
         "modificationDate": 1716288062.7361848
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.07596564292907715,
-        "creationDate": 1716299648.478068,
-        "modificationDate": 1716299648.5540338
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": 0.06703901290893555,
-        "creationDate": 1716534772.3268268,
-        "modificationDate": 1716534772.3938658
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Mixed_AO_Utility - Raw_1001.tif": {
-        "timeDelta": 0.0747990608215332,
-        "creationDate": 1716276091.408077,
-        "modificationDate": 1716276091.482876
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_BaseColor_Utility - sRGB - Texture.1011.tif": {
         "timeDelta": 0.15021562576293945,
         "creationDate": 1716288062.58198,
         "modificationDate": 1716288062.7321956
     },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1002.tif": {
-        "timeDelta": 0.0808858871459961,
-        "creationDate": 1716534772.5846405,
-        "modificationDate": 1716534772.6655264
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif": {
-        "timeDelta": 0.2234020233154297,
-        "creationDate": 1716276091.3851378,
-        "modificationDate": 1716276091.6085398
-    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.32288479804992676,
         "creationDate": 1716288049.6971989,
         "modificationDate": 1716288050.0200837
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": 0.30918121337890625,
-        "creationDate": 1716534772.302923,
-        "modificationDate": 1716534772.6121042
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_DiffuseColor_Utility - sRGB - Texture.1011.tif": {
         "timeDelta": 0.12366747856140137,
         "creationDate": 1716288049.997146,
         "modificationDate": 1716288050.1208134
     },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_Utility - Raw_1001.tif": {
-        "timeDelta": 0.14560842514038086,
-        "creationDate": 1716276091.2794225,
-        "modificationDate": 1716276091.425031
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": 0.2832529544830322,
-        "creationDate": 1716534772.5581908,
-        "modificationDate": 1716534772.8414438
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": 0.10643959045410156,
-        "creationDate": 1716534772.21939,
-        "modificationDate": 1716534772.3258295
-    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Displacement_Utility - Raw.1001.tif": {
         "timeDelta": 0.11529874801635742,
         "creationDate": 1716288049.920741,
         "modificationDate": 1716288050.0360398
-    },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Roughness_Utility - Raw_1001.tif": {
-        "timeDelta": 0.0777900218963623,
-        "creationDate": 1716276091.2465098,
-        "modificationDate": 1716276091.3242998
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": 0.11871480941772461,
-        "creationDate": 1716534772.470912,
-        "modificationDate": 1716534772.5896268
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Displacement_Utility - Raw.1011.tif": {
         "timeDelta": 0.04112720489501953,
         "creationDate": 1716288050.2021177,
         "modificationDate": 1716288050.243245
     },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": 0.07003164291381836,
-        "creationDate": 1716534772.3158562,
-        "modificationDate": 1716534772.3858879
-    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Height_Utility - Raw.1001.tif": {
         "timeDelta": 0.0857689380645752,
         "creationDate": 1716288062.5331116,
         "modificationDate": 1716288062.6188805
     },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1002.tif": {
-        "timeDelta": 0.07143330574035645,
-        "creationDate": 1716534772.5721507,
-        "modificationDate": 1716534772.643584
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif": {
+        "timeDelta": 0.21838021278381348,
+        "creationDate": 1716276091.2256,
+        "modificationDate": 1716276091.4439802
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Height_Utility - Raw.1011.tif": {
         "timeDelta": 0.03889608383178711,
         "creationDate": 1716288062.7092566,
         "modificationDate": 1716288062.7481527
     },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif": {
+        "timeDelta": 0.07080912590026855,
+        "creationDate": 1716276091.29139,
+        "modificationDate": 1716276091.362199
+    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Metallic_Utility - Raw.1001.tif": {
         "timeDelta": 0.040892839431762695,
         "creationDate": 1716288062.4179082,
         "modificationDate": 1716288062.458801
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.21240019798278809,
+        "creationDate": 1716284286.5184958,
+        "modificationDate": 1716284286.730896
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif": {
+        "timeDelta": 0.03986692428588867,
+        "creationDate": 1716276091.2385569,
+        "modificationDate": 1716276091.2784238
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Metallic_Utility - Raw.1011.tif": {
         "timeDelta": 0.04790139198303223,
         "creationDate": 1716288062.6059158,
         "modificationDate": 1716288062.6538172
     },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif": {
+        "timeDelta": 0.06083822250366211,
+        "creationDate": 1716284286.6610837,
+        "modificationDate": 1716284286.721922
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Mixed_AO_Utility - Raw_1001.tif": {
+        "timeDelta": 0.0747990608215332,
+        "creationDate": 1716276091.408077,
+        "modificationDate": 1716276091.482876
+    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Normal_Utility - Raw.1001.tif": {
         "timeDelta": 12.94512128829956,
         "creationDate": 1716288049.8838155,
         "modificationDate": 1716288062.8289368
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": 0.036902666091918945,
+        "creationDate": 1716284286.5463903,
+        "modificationDate": 1716284286.583293
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif": {
+        "timeDelta": 0.2234020233154297,
+        "creationDate": 1716276091.3851378,
+        "modificationDate": 1716276091.6085398
+    },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.22748255729675293,
+        "creationDate": 1716299648.241104,
+        "modificationDate": 1716299648.4685864
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Normal_Utility - Raw.1011.tif": {
         "timeDelta": 12.667229413986206,
         "creationDate": 1716288050.1617074,
         "modificationDate": 1716288062.8289368
     },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_Utility - Raw_1001.tif": {
+        "timeDelta": 0.14560842514038086,
+        "creationDate": 1716276091.2794225,
+        "modificationDate": 1716276091.425031
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.22240519523620605,
+        "creationDate": 1716284286.647121,
+        "modificationDate": 1716284286.8695261
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Roughness_Utility - Raw_1001.tif": {
+        "timeDelta": 0.0777900218963623,
+        "creationDate": 1716276091.2465098,
+        "modificationDate": 1716276091.3242998
+    },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": 0.04590773582458496,
+        "creationDate": 1716299648.4850671,
+        "modificationDate": 1716299648.5309749
+    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Presence_Utility - Raw.1001.tif": {
         "timeDelta": 0.08438277244567871,
         "creationDate": 1716288049.9087734,
         "modificationDate": 1716288049.9931562
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.07679557800292969,
+        "creationDate": 1716284286.5354197,
+        "modificationDate": 1716284286.6122153
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.2776222229003906,
+        "creationDate": 1716534772.1467547,
+        "modificationDate": 1716534772.424377
+    },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.16734576225280762,
+        "creationDate": 1716299648.4476423,
+        "modificationDate": 1716299648.614988
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Presence_Utility - Raw.1011.tif": {
         "timeDelta": 0.045632123947143555,
         "creationDate": 1716288050.1916294,
         "modificationDate": 1716288050.2372615
     },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg": {
+        "timeDelta": -63.36032319068909,
+        "creationDate": 1716364207.3062918,
+        "modificationDate": 1716364143.9459686
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": 0.2920701503753662,
+        "creationDate": 1716534772.403405,
+        "modificationDate": 1716534772.695475
+    },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Presence_Utility - Raw.1001.tif": {
+        "timeDelta": 0.048917293548583984,
+        "creationDate": 1716299648.478068,
+        "modificationDate": 1716299648.5269854
+    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Roughness_Utility - Raw.1001.tif": {
         "timeDelta": 0.08428573608398438,
         "creationDate": 1716288062.404943,
         "modificationDate": 1716288062.4892287
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": 0.06703901290893555,
+        "creationDate": 1716534772.3268268,
+        "modificationDate": 1716534772.3938658
+    },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.11486315727233887,
+        "creationDate": 1716299648.3228068,
+        "modificationDate": 1716299648.43767
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Roughness_Utility - Raw.1011.tif": {
         "timeDelta": 0.05585360527038574,
         "creationDate": 1716288062.5959432,
         "modificationDate": 1716288062.6517968
     },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1002.tif": {
+        "timeDelta": 0.0808858871459961,
+        "creationDate": 1716534772.5846405,
+        "modificationDate": 1716534772.6655264
+    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
         "timeDelta": 0.10782432556152344,
         "creationDate": 1716288049.7789836,
         "modificationDate": 1716288049.886808
     },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.07596564292907715,
+        "creationDate": 1716299648.478068,
+        "modificationDate": 1716299648.5540338
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": 0.30918121337890625,
+        "creationDate": 1716534772.302923,
+        "modificationDate": 1716534772.6121042
+    },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_SpecularFaceColor_Utility - sRGB - Texture.1011.tif": {
         "timeDelta": 0.12518596649169922,
         "creationDate": 1716288050.0729425,
         "modificationDate": 1716288050.1981285
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": 0.2832529544830322,
+        "creationDate": 1716534772.5581908,
+        "modificationDate": 1716534772.8414438
     },
     "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_SpecularRoughness_Utility - Raw.1001.tif": {
         "timeDelta": 0.14621615409851074,
@@ -874,45 +859,65 @@
         "creationDate": 1716288050.1806574,
         "modificationDate": 1716288050.2262905
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg": {
-        "timeDelta": -63.36032319068909,
-        "creationDate": 1716364207.3062918,
-        "modificationDate": 1716364143.9459686
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": 0.10643959045410156,
+        "creationDate": 1716534772.21939,
+        "modificationDate": 1716534772.3258295
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg": {
-        "timeDelta": -53.718711137771606,
-        "creationDate": 1716364207.320279,
-        "modificationDate": 1716364153.6015677
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": 0.11871480941772461,
+        "creationDate": 1716534772.470912,
+        "modificationDate": 1716534772.5896268
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg": {
-        "timeDelta": -53.34923601150513,
-        "creationDate": 1716364207.321843,
-        "modificationDate": 1716364153.972607
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": 0.07003164291381836,
+        "creationDate": 1716534772.3158562,
+        "modificationDate": 1716534772.3858879
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1002.tif": {
+        "timeDelta": 0.07143330574035645,
+        "creationDate": 1716534772.5721507,
+        "modificationDate": 1716534772.643584
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Albedo.jpg": {
         "timeDelta": -52.51440644264221,
         "creationDate": 1716364207.3123033,
         "modificationDate": 1716364154.7978969
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg": {
-        "timeDelta": -55.93214511871338,
-        "creationDate": 1716364207.3288314,
-        "modificationDate": 1716364151.3966863
-    },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg": {
-        "timeDelta": -53.08508229255676,
-        "creationDate": 1716364207.322816,
-        "modificationDate": 1716364154.2377336
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg": {
+        "timeDelta": -53.718711137771606,
+        "creationDate": 1716364207.320279,
+        "modificationDate": 1716364153.6015677
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_AO.jpg": {
         "timeDelta": -52.31629467010498,
         "creationDate": 1716364207.313273,
         "modificationDate": 1716364154.9969783
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg": {
-        "timeDelta": -55.33992338180542,
-        "creationDate": 1716364207.3318155,
-        "modificationDate": 1716364151.991892
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg": {
+        "timeDelta": -53.34923601150513,
+        "creationDate": 1716364207.321843,
+        "modificationDate": 1716364153.972607
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Displacement.jpg": {
+        "timeDelta": -52.11147689819336,
+        "creationDate": 1716364207.3142705,
+        "modificationDate": 1716364155.2027936
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg": {
+        "timeDelta": -53.08508229255676,
+        "creationDate": 1716364207.322816,
+        "modificationDate": 1716364154.2377336
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg": {
+        "timeDelta": -55.93214511871338,
+        "creationDate": 1716364207.3288314,
+        "modificationDate": 1716364151.3966863
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Normal.jpg": {
+        "timeDelta": -51.88903260231018,
+        "creationDate": 1716364207.3152678,
+        "modificationDate": 1716364155.4262352
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Normal.jpg": {
         "timeDelta": -52.752368688583374,
@@ -924,40 +929,35 @@
         "creationDate": 1716364202.5454712,
         "modificationDate": 1715952147.4912686
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg": {
-        "timeDelta": -54.80293869972229,
-        "creationDate": 1716364207.3337865,
-        "modificationDate": 1716364152.5308478
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Roughness.jpg": {
+        "timeDelta": -51.89761209487915,
+        "creationDate": 1716364207.3172917,
+        "modificationDate": 1716364155.4196796
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Roughness.jpg": {
         "timeDelta": -52.80126237869263,
         "creationDate": 1716364207.3258324,
         "modificationDate": 1716364154.52457
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Displacement.jpg": {
-        "timeDelta": -52.11147689819336,
-        "creationDate": 1716364207.3142705,
-        "modificationDate": 1716364155.2027936
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg": {
+        "timeDelta": -55.33992338180542,
+        "creationDate": 1716364207.3318155,
+        "modificationDate": 1716364151.991892
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg": {
+        "timeDelta": -54.80293869972229,
+        "creationDate": 1716364207.3337865,
+        "modificationDate": 1716364152.5308478
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Normal.jpg": {
         "timeDelta": -54.09673309326172,
         "creationDate": 1716364207.3347838,
         "modificationDate": 1716364153.2380507
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Normal.jpg": {
-        "timeDelta": -51.88903260231018,
-        "creationDate": 1716364207.3152678,
-        "modificationDate": 1716364155.4262352
-    },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Roughness.jpg": {
         "timeDelta": -54.18672180175781,
         "creationDate": 1716364207.337803,
         "modificationDate": 1716364153.151081
-    },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Roughness.jpg": {
-        "timeDelta": -51.89761209487915,
-        "creationDate": 1716364207.3172917,
-        "modificationDate": 1716364155.4196796
     },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg": {
         "timeDelta": -412037.5297009945,
@@ -984,240 +984,235 @@
         "creationDate": 1716364202.56442,
         "modificationDate": 1715952165.7505646
     },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": {
-        "timeDelta": -412043.0215880871,
-        "creationDate": 1716364202.5923455,
-        "modificationDate": 1715952159.5707574
-    },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": {
         "timeDelta": -412039.1331875324,
         "creationDate": 1716364202.5694067,
         "modificationDate": 1715952163.4362192
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg": {
-        "timeDelta": -69.70269894599915,
-        "creationDate": 1716364202.7315001,
-        "modificationDate": 1716364133.0288012
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": {
-        "timeDelta": -412042.1888034344,
-        "creationDate": 1716364202.6033163,
-        "modificationDate": 1715952160.4145129
     },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": {
         "timeDelta": -412038.7888021469,
         "creationDate": 1716364202.5753906,
         "modificationDate": 1715952163.7865884
     },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": {
-        "timeDelta": -412041.287637949,
-        "creationDate": 1716364202.607305,
-        "modificationDate": 1715952161.319667
-    },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": {
         "timeDelta": -412038.40921735764,
         "creationDate": 1716364202.5773857,
         "modificationDate": 1715952164.1681683
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": {
-        "timeDelta": -412039.73546767235,
-        "creationDate": 1716364202.6112945,
-        "modificationDate": 1715952162.8758268
     },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": {
         "timeDelta": -412037.8388209343,
         "creationDate": 1716364202.580377,
         "modificationDate": 1715952164.7415562
     },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": {
-        "timeDelta": -412040.0804064274,
-        "creationDate": 1716364202.622265,
-        "modificationDate": 1715952162.5418587
-    },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": {
         "timeDelta": -412037.97252321243,
         "creationDate": 1716364202.5863612,
         "modificationDate": 1715952164.613838
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg": {
-        "timeDelta": -54.4925012588501,
-        "creationDate": 1716364202.736486,
-        "modificationDate": 1716364148.2439847
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": {
+        "timeDelta": -412043.0215880871,
+        "creationDate": 1716364202.5923455,
+        "modificationDate": 1715952159.5707574
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg": {
-        "timeDelta": -54.14214468002319,
-        "creationDate": 1716364202.7384806,
-        "modificationDate": 1716364148.596336
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": {
+        "timeDelta": -412042.1888034344,
+        "creationDate": 1716364202.6033163,
+        "modificationDate": 1715952160.4145129
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Displacement.jpg": {
-        "timeDelta": -53.90943622589111,
-        "creationDate": 1716364202.7394786,
-        "modificationDate": 1716364148.8300424
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg": {
+        "timeDelta": -69.70269894599915,
+        "creationDate": 1716364202.7315001,
+        "modificationDate": 1716364133.0288012
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg": {
-        "timeDelta": -53.66137218475342,
-        "creationDate": 1716364202.740476,
-        "modificationDate": 1716364149.0791037
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": {
+        "timeDelta": -412041.287637949,
+        "creationDate": 1716364202.607305,
+        "modificationDate": 1715952161.319667
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Roughness.jpg": {
-        "timeDelta": -53.683849573135376,
-        "creationDate": 1716364202.742007,
-        "modificationDate": 1716364149.0581574
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": {
+        "timeDelta": -412039.73546767235,
+        "creationDate": 1716364202.6112945,
+        "modificationDate": 1715952162.8758268
     },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Albedo.jpg": {
         "timeDelta": -55.96777963638306,
         "creationDate": 1716364202.7439964,
         "modificationDate": 1716364146.7762167
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_AO.jpg": {
-        "timeDelta": -55.635101318359375,
-        "creationDate": 1716364202.7459908,
-        "modificationDate": 1716364147.1108894
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg": {
+        "timeDelta": -54.4925012588501,
+        "creationDate": 1716364202.736486,
+        "modificationDate": 1716364148.2439847
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Displacement.jpg": {
-        "timeDelta": -55.221787214279175,
-        "creationDate": 1716364202.7469883,
-        "modificationDate": 1716364147.525201
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": {
+        "timeDelta": -412040.0804064274,
+        "creationDate": 1716364202.622265,
+        "modificationDate": 1715952162.5418587
     },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Albedo.jpg": {
         "timeDelta": -59.44322896003723,
         "creationDate": 1716364202.7519753,
         "modificationDate": 1716364143.3087463
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Normal.jpg": {
-        "timeDelta": -54.76798629760742,
-        "creationDate": 1716364202.747986,
-        "modificationDate": 1716364147.9799998
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_AO.jpg": {
-        "timeDelta": -58.652031898498535,
-        "creationDate": 1716364202.7549672,
-        "modificationDate": 1716364144.1029353
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Roughness.jpg": {
-        "timeDelta": -54.828330993652344,
-        "creationDate": 1716364202.74998,
-        "modificationDate": 1716364147.921649
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Displacement.jpg": {
-        "timeDelta": -57.547672271728516,
-        "creationDate": 1716364202.7569613,
-        "modificationDate": 1716364145.209289
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Normal.jpg": {
-        "timeDelta": -56.46617293357849,
-        "creationDate": 1716364202.757959,
-        "modificationDate": 1716364146.291786
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Roughness.jpg": {
-        "timeDelta": -56.60401201248169,
-        "creationDate": 1716364202.7599535,
-        "modificationDate": 1716364146.1559415
-    },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg": {
         "timeDelta": -7.963668584823608,
         "creationDate": 1716286057.4122863,
         "modificationDate": 1716286049.4486177
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg": {
+        "timeDelta": -54.14214468002319,
+        "creationDate": 1716364202.7384806,
+        "modificationDate": 1716364148.596336
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_AO.jpg": {
+        "timeDelta": -55.635101318359375,
+        "creationDate": 1716364202.7459908,
+        "modificationDate": 1716364147.1108894
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Albedo.jpg": {
         "timeDelta": 0.008969545364379883,
         "creationDate": 1716286066.6071813,
         "modificationDate": 1716286066.6161509
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_AO.jpg": {
-        "timeDelta": 0.0059833526611328125,
-        "creationDate": 1716286066.850576,
-        "modificationDate": 1716286066.8565593
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Displacement.jpg": {
-        "timeDelta": 0.0039865970611572266,
-        "creationDate": 1716286067.0800538,
-        "modificationDate": 1716286067.0840404
-    },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Albedo.jpg": {
         "timeDelta": 0.036919355392456055,
         "creationDate": 1716286064.9093368,
         "modificationDate": 1716286064.9462562
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Normal.jpg": {
-        "timeDelta": 0.007977724075317383,
-        "creationDate": 1716286067.360135,
-        "modificationDate": 1716286067.3681128
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_AO.jpg": {
-        "timeDelta": 0.021942615509033203,
-        "creationDate": 1716286065.33627,
-        "modificationDate": 1716286065.3582127
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Roughness.jpg": {
-        "timeDelta": 0.005983114242553711,
-        "creationDate": 1716286067.3272047,
-        "modificationDate": 1716286067.3331878
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Displacement.jpg": {
-        "timeDelta": 0.015932083129882812,
-        "creationDate": 1716286065.7032268,
-        "modificationDate": 1716286065.719159
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Normal.jpg": {
-        "timeDelta": 0.03638124465942383,
-        "creationDate": 1716286066.3014138,
-        "modificationDate": 1716286066.337795
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Roughness.jpg": {
-        "timeDelta": 0.026523113250732422,
-        "creationDate": 1716286066.1282778,
-        "modificationDate": 1716286066.154801
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_AO.jpg": {
+        "timeDelta": -58.652031898498535,
+        "creationDate": 1716364202.7549672,
+        "modificationDate": 1716364144.1029353
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Albedo.jpg": {
         "timeDelta": 0.1329822540283203,
         "creationDate": 1716286060.5070162,
         "modificationDate": 1716286060.6399984
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_AO.jpg": {
-        "timeDelta": 0.09026670455932617,
-        "creationDate": 1716286061.6551383,
-        "modificationDate": 1716286061.745405
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Displacement.jpg": {
+        "timeDelta": -55.221787214279175,
+        "creationDate": 1716364202.7469883,
+        "modificationDate": 1716364147.525201
     },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Displacement.jpg": {
-        "timeDelta": 0.0654439926147461,
-        "creationDate": 1716286062.5588193,
-        "modificationDate": 1716286062.6242633
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Displacement.jpg": {
+        "timeDelta": -53.90943622589111,
+        "creationDate": 1716364202.7394786,
+        "modificationDate": 1716364148.8300424
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_AO.jpg": {
+        "timeDelta": 0.0059833526611328125,
+        "creationDate": 1716286066.850576,
+        "modificationDate": 1716286066.8565593
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg": {
         "timeDelta": -5.444023609161377,
         "creationDate": 1716286077.5494266,
         "modificationDate": 1716286072.105403
     },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\1k\\vdcjfiw_1K_Albedo.jpg": {
-        "timeDelta": 0.003988742828369141,
-        "creationDate": 1716286084.034335,
-        "modificationDate": 1716286084.0383236
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_AO.jpg": {
+        "timeDelta": 0.021942615509033203,
+        "creationDate": 1716286065.33627,
+        "modificationDate": 1716286065.3582127
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Displacement.jpg": {
+        "timeDelta": -57.547672271728516,
+        "creationDate": 1716364202.7569613,
+        "modificationDate": 1716364145.209289
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_AO.jpg": {
+        "timeDelta": 0.09026670455932617,
+        "creationDate": 1716286061.6551383,
+        "modificationDate": 1716286061.745405
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Normal.jpg": {
+        "timeDelta": -54.76798629760742,
+        "creationDate": 1716364202.747986,
+        "modificationDate": 1716364147.9799998
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Displacement.jpg": {
+        "timeDelta": 0.015932083129882812,
+        "creationDate": 1716286065.7032268,
+        "modificationDate": 1716286065.719159
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg": {
+        "timeDelta": -53.66137218475342,
+        "creationDate": 1716364202.740476,
+        "modificationDate": 1716364149.0791037
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Displacement.jpg": {
+        "timeDelta": 0.0039865970611572266,
+        "creationDate": 1716286067.0800538,
+        "modificationDate": 1716286067.0840404
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Normal.jpg": {
+        "timeDelta": -56.46617293357849,
+        "creationDate": 1716364202.757959,
+        "modificationDate": 1716364146.291786
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Displacement.jpg": {
+        "timeDelta": 0.0654439926147461,
+        "creationDate": 1716286062.5588193,
+        "modificationDate": 1716286062.6242633
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Roughness.jpg": {
+        "timeDelta": -54.828330993652344,
+        "creationDate": 1716364202.74998,
+        "modificationDate": 1716364147.921649
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Normal.jpg": {
+        "timeDelta": 0.03638124465942383,
+        "creationDate": 1716286066.3014138,
+        "modificationDate": 1716286066.337795
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Normal.jpg": {
+        "timeDelta": 0.007977724075317383,
+        "creationDate": 1716286067.360135,
+        "modificationDate": 1716286067.3681128
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Roughness.jpg": {
+        "timeDelta": -53.683849573135376,
+        "creationDate": 1716364202.742007,
+        "modificationDate": 1716364149.0581574
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Roughness.jpg": {
+        "timeDelta": -56.60401201248169,
+        "creationDate": 1716364202.7599535,
+        "modificationDate": 1716364146.1559415
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Normal.jpg": {
         "timeDelta": 0.15015673637390137,
         "creationDate": 1716286064.2470207,
         "modificationDate": 1716286064.3971775
     },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Roughness.jpg": {
+        "timeDelta": 0.026523113250732422,
+        "creationDate": 1716286066.1282778,
+        "modificationDate": 1716286066.154801
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Roughness.jpg": {
+        "timeDelta": 0.005983114242553711,
+        "creationDate": 1716286067.3272047,
+        "modificationDate": 1716286067.3331878
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\1k\\vdcjfiw_1K_Albedo.jpg": {
+        "timeDelta": 0.003988742828369141,
+        "creationDate": 1716286084.034335,
+        "modificationDate": 1716286084.0383236
+    },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Albedo.jpg": {
         "timeDelta": 0.018924236297607422,
         "creationDate": 1716286082.8088355,
         "modificationDate": 1716286082.8277597
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\1k\\vdcjfiw_1K_AO.jpg": {
-        "timeDelta": 0.002992868423461914,
-        "creationDate": 1716286084.2504616,
-        "modificationDate": 1716286084.2534544
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Roughness.jpg": {
         "timeDelta": 0.1032414436340332,
         "creationDate": 1716286063.8020787,
         "modificationDate": 1716286063.9053202
     },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Albedo.jpg": {
-        "timeDelta": 0.057485342025756836,
-        "creationDate": 1716286080.3124092,
-        "modificationDate": 1716286080.3698945
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\1k\\vdcjfiw_1K_AO.jpg": {
+        "timeDelta": 0.002992868423461914,
+        "creationDate": 1716286084.2504616,
+        "modificationDate": 1716286084.2534544
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_AO.jpg": {
         "timeDelta": 0.010971546173095703,
@@ -1229,10 +1224,10 @@
         "creationDate": 1716286084.457872,
         "modificationDate": 1716286084.459867
     },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_AO.jpg": {
-        "timeDelta": 0.04538559913635254,
-        "creationDate": 1716286080.968925,
-        "modificationDate": 1716286081.0143106
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Albedo.jpg": {
+        "timeDelta": 0.057485342025756836,
+        "creationDate": 1716286080.3124092,
+        "modificationDate": 1716286080.3698945
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg": {
         "timeDelta": 0.008975028991699219,
@@ -1244,10 +1239,10 @@
         "creationDate": 1716286084.7082658,
         "modificationDate": 1716286084.713252
     },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Displacement.jpg": {
-        "timeDelta": 0.03691291809082031,
-        "creationDate": 1716286081.5394654,
-        "modificationDate": 1716286081.5763783
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_AO.jpg": {
+        "timeDelta": 0.04538559913635254,
+        "creationDate": 1716286080.968925,
+        "modificationDate": 1716286081.0143106
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg": {
         "timeDelta": 0.0169527530670166,
@@ -1259,15 +1254,20 @@
         "creationDate": 1716286084.6843288,
         "modificationDate": 1716286084.6863241
     },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Normal.jpg": {
-        "timeDelta": 0.0693209171295166,
-        "creationDate": 1716286082.4084501,
-        "modificationDate": 1716286082.477771
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Displacement.jpg": {
+        "timeDelta": 0.03691291809082031,
+        "creationDate": 1716286081.5394654,
+        "modificationDate": 1716286081.5763783
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Roughness.jpg": {
         "timeDelta": 0.009973287582397461,
         "creationDate": 1716286083.7161555,
         "modificationDate": 1716286083.7261288
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Normal.jpg": {
+        "timeDelta": 0.0693209171295166,
+        "creationDate": 1716286082.4084501,
+        "modificationDate": 1716286082.477771
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Roughness.jpg": {
         "timeDelta": 0.04440569877624512,

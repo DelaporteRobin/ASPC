@@ -49,29 +49,29 @@
         "speedTest": {
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\books\\b2.png",
-                "speedTestDelta": 0.003989458084106445,
-                "copyDelta": 0.003989458084106445,
+                "speedTestDelta": 0.0039899349212646484,
+                "copyDelta": 0.0039899349212646484,
                 "removeDelta": 0.0
             },
             "light": {
                 "filename": "D:/TRASH/tv\\input\\books\\b3.png",
-                "speedTestDelta": 0.0029921531677246094,
-                "copyDelta": 0.0029921531677246094,
+                "speedTestDelta": 0.0019948482513427734,
+                "copyDelta": 0.0019948482513427734,
                 "removeDelta": 0.0
             }
         }
     },
     "D:/TRASH/tv\\input": {
-        "folderSize": 1429135775
+        "folderSize": 1435486450
     },
     "D:/TRASH/tv": {
-        "folderSize": 2134502326
+        "folderSize": 2058199645
     },
     "D:/TRASH": {
-        "folderSize": 2134502326
+        "folderSize": 2058199645
     },
     "D:/": {
-        "folderSize": 14110348085
+        "folderSize": 13581715501
     },
     "D:/TRASH/tv\\input\\substance_books_project": {
         "folderSize": 5147910,
@@ -126,83 +126,17 @@
         "speedTest": {
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Roughness_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.009973287582397461,
-                "copyDelta": 0.008976459503173828,
-                "removeDelta": 0.0009968280792236328
+                "speedTestDelta": 0.003989696502685547,
+                "copyDelta": 0.002992391586303711,
+                "removeDelta": 0.000997304916381836
             },
             "light": {
                 "filename": "D:/TRASH/tv\\input\\substance_books_project\\tv_books_cover_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.012966394424438477,
-                "copyDelta": 0.005984067916870117,
-                "removeDelta": 0.006982326507568359
+                "speedTestDelta": 0.0029916763305664062,
+                "copyDelta": 0.0019943714141845703,
+                "removeDelta": 0.0
             }
         }
-    },
-    "D:/TRASH/tv\\output\\substance_tvchandelier_v001": {
-        "folderSize": 42088010,
-        "fileContainedSize": 42088010,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 8417602.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif",
-            17350622
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif",
-            282326
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_BaseColor_Utility - sRGB - Texture.1001.tif": 16656542,
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif": 3964370,
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif": 282326,
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif": 17350622,
-            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Roughness_Utility - Raw.1001.tif": 3834150
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    16656542
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
-                    3964370
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
-                    3964370
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
-                    3964370
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
-                    3964370
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.05584883689880371,
-                "copyDelta": 0.0528562068939209,
-                "removeDelta": 0.0029926300048828125
-            },
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.05585169792175293,
-                "copyDelta": 0.05485367774963379,
-                "removeDelta": 0.0009980201721191406
-            }
-        }
-    },
-    "D:/TRASH/tv\\output": {
-        "folderSize": 705366551
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg": {
         "folderSize": 182139298,
@@ -283,82 +217,15 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg.json",
-                "speedTestDelta": 0.026927471160888672,
-                "copyDelta": 0.025929927825927734,
+                "speedTestDelta": 0.007208108901977539,
+                "copyDelta": 0.007208108901977539,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\wbojfbbg_8K_Displacement.exr",
-                "speedTestDelta": 0.1858963966369629,
-                "copyDelta": 0.17054510116577148,
-                "removeDelta": 0.015351295471191406
-            }
-        }
-    },
-    "D:/TRASH/tv\\output\\substance_tvcontroller_v001": {
-        "folderSize": 21388746,
-        "fileContainedSize": 21388746,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 4277749.2,
-        "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
-            15170266
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-            393474
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif": 653826,
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif": 2879530,
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif": 15170266,
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif": 2291650
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    653826
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    653826
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif",
-                    2879530
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
-                    15170266
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif",
-                    2291650
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.06682252883911133,
-                "copyDelta": 0.06482815742492676,
-                "removeDelta": 0.0019943714141845703
-            },
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.02493119239807129,
-                "copyDelta": 0.024326324462890625,
-                "removeDelta": 0.0006048679351806641
+                "speedTestDelta": 0.12067723274230957,
+                "copyDelta": 0.10272645950317383,
+                "removeDelta": 0.017950773239135742
             }
         }
     },
@@ -497,251 +364,150 @@
             ]
         },
         "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Roughness_Utility - Raw.1001.tif.tex",
-                "speedTestDelta": 0.0747992992401123,
-                "copyDelta": 0.07380247116088867,
-                "removeDelta": 0.0009968280792236328
-            },
             "light": {
                 "filename": "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Metallic_Utility - Raw_data_acescg.1001.tif.tex",
-                "speedTestDelta": 0.02493429183959961,
-                "copyDelta": 0.02393794059753418,
-                "removeDelta": 0.0009963512420654297
+                "speedTestDelta": 0.007977485656738281,
+                "copyDelta": 0.007977485656738281,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_books_v001\\tv_books_cover_Roughness_Utility - Raw.1001.tif.tex",
+                "speedTestDelta": 0.013962268829345703,
+                "copyDelta": 0.011967182159423828,
+                "removeDelta": 0.001995086669921875
             }
         }
     },
-    "D:/TRASH/tv\\output\\substance_tvheater_v001": {
-        "folderSize": 43151720,
-        "fileContainedSize": 43151720,
+    "D:/TRASH/tv\\output": {
+        "folderSize": 576837129
+    },
+    "D:/TRASH/tv\\output\\substance_tvcontroller_v001": {
+        "folderSize": 21388746,
+        "fileContainedSize": 21388746,
         "subfoldersNumber": 0,
         "filesNumber": 5,
-        "averageFileSize": 8630344.0,
+        "averageFileSize": 4277749.2,
         "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
-            21146326
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
+            15170266
         ],
         "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
             393474
         ],
         "subfolderList": [],
         "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif": 13379580,
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Displacement_Utility - Raw.1001.tif": 5112648,
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif": 21146326,
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularRoughness_Utility - Raw.1001.tif": 3119692
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif": 653826,
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif": 2879530,
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif": 15170266,
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
+            "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif": 2291650
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    13379580
+                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    653826
                 ],
                 [
-                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    13379580
+                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    653826
                 ]
             ],
             "1": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Displacement_Utility - Raw.1001.tif",
-                    5112648
+                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Displacement_Utility - Raw.1001.tif",
+                    2879530
                 ]
             ],
             "2": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
-                    21146326
+                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
+                    15170266
                 ]
             ],
             "3": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularRoughness_Utility - Raw.1001.tif",
-                    3119692
+                    "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularRoughness_Utility - Raw.1001.tif",
+                    2291650
                 ]
             ]
         },
         "speedTest": {
             "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.0039882659912109375,
-                "copyDelta": 0.0029914379119873047,
-                "removeDelta": 0.0009968280792236328
+                "filename": "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                "speedTestDelta": 0.0059833526611328125,
+                "copyDelta": 0.0059833526611328125,
+                "removeDelta": 0.0
             },
             "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.05684924125671387,
-                "copyDelta": 0.05286002159118652,
-                "removeDelta": 0.003989219665527344
+                "filename": "D:/TRASH/tv\\output\\substance_tvcontroller_v001\\tvController_tvcontroller_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.03291201591491699,
+                "copyDelta": 0.02892327308654785,
+                "removeDelta": 0.003988742828369141
             }
         }
     },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v003": {
-        "folderSize": 44953254,
-        "fileContainedSize": 44953254,
+    "D:/TRASH/tv\\output\\substance_tvchandelier_v001": {
+        "folderSize": 42088010,
+        "fileContainedSize": 42088010,
         "subfoldersNumber": 0,
-        "filesNumber": 6,
-        "averageFileSize": 7492209.0,
+        "filesNumber": 5,
+        "averageFileSize": 8417602.0,
         "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-            20645254
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif",
+            17350622
         ],
         "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
-            165946
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif",
+            282326
         ],
         "subfolderList": [],
         "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": 16240790,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": 4169802,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": 20645254,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": 165946,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 399090,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": 3332372
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_BaseColor_Utility - sRGB - Texture.1001.tif": 16656542,
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif": 3964370,
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif": 282326,
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif": 17350622,
+            "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Roughness_Utility - Raw.1001.tif": 3834150
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    16240790
+                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_BaseColor_Utility - sRGB - Texture.1001.tif",
+                    16656542
                 ]
             ],
             "1": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif",
-                    4169802
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-                    20645254
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
-                    165946
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    399090
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
-                    3332372
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.051863670349121094,
-                "copyDelta": 0.04986715316772461,
-                "removeDelta": 0.0009987354278564453
-            },
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.013962507247924805,
-                "copyDelta": 0.013962507247924805,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw": {
-        "folderSize": 185972404,
-        "fileContainedSize": 157644953,
-        "subfoldersNumber": 2,
-        "filesNumber": 8,
-        "averageFileSize": 19705619.125,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
-            89279261
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json",
-            41654
-        ],
-        "subfolderList": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews",
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs"
-        ],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json": 41654,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Albedo.jpg": 17812309,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg": 11921066,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr": 89279261,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.jpg": 3815019,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg": 24905557,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Roughness.jpg": 9632741,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_Preview.png": 237346
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json",
-                    41654
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Albedo.jpg",
-                    17812309
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg",
-                    11921066
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
-                    89279261
+                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
+                    3964370
                 ],
                 [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
-                    89279261
-                ]
-            ],
-            "4": [
+                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
+                    3964370
+                ],
                 [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg",
-                    24905557
-                ]
-            ],
-            "5": [
+                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
+                    3964370
+                ],
                 [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Roughness.jpg",
-                    9632741
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_Preview.png",
-                    237346
+                    "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Height_Utility - Raw.1001.tif",
+                    3964370
                 ]
             ]
         },
         "speedTest": {
             "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json",
-                "speedTestDelta": 0.013962984085083008,
-                "copyDelta": 0.013962984085083008,
-                "removeDelta": 0.0
+                "filename": "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Metallic_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.009972572326660156,
+                "copyDelta": 0.008974552154541016,
+                "removeDelta": 0.0009980201721191406
             },
             "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
-                "speedTestDelta": 0.2154240608215332,
-                "copyDelta": 0.20046472549438477,
-                "removeDelta": 0.014959335327148438
+                "filename": "D:/TRASH/tv\\output\\substance_tvchandelier_v001\\tvChandelier_mod_tvchandelier_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.06382894515991211,
+                "copyDelta": 0.05784487724304199,
+                "removeDelta": 0.00498652458190918
             }
         }
     },
@@ -807,15 +573,325 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_SpecularFaceColor_Utility - sRGB - Texture.1001.png",
-                "speedTestDelta": 0.02094411849975586,
-                "copyDelta": 0.02094411849975586,
-                "removeDelta": 0.0
+                "speedTestDelta": 0.011966228485107422,
+                "copyDelta": 0.01096963882446289,
+                "removeDelta": 0.0009965896606445312
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\output\\substance_tvshelf_v001\\tvShelf_tvshelf_DiffuseColor_Utility - sRGB - Texture.1001.png",
-                "speedTestDelta": 0.02493453025817871,
-                "copyDelta": 0.02293848991394043,
-                "removeDelta": 0.0019960403442382812
+                "speedTestDelta": 0.03390979766845703,
+                "copyDelta": 0.02991795539855957,
+                "removeDelta": 0.0029935836791992188
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvheater_v001": {
+        "folderSize": 43151720,
+        "fileContainedSize": 43151720,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 8630344.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
+            21146326
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            393474
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif": 13379580,
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Displacement_Utility - Raw.1001.tif": 5112648,
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif": 21146326,
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
+            "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularRoughness_Utility - Raw.1001.tif": 3119692
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    13379580
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    13379580
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Displacement_Utility - Raw.1001.tif",
+                    5112648
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
+                    21146326
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularRoughness_Utility - Raw.1001.tif",
+                    3119692
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                "speedTestDelta": 0.005983591079711914,
+                "copyDelta": 0.005983591079711914,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvheater_v001\\tvHeater_mod_tvHeater_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.05485367774963379,
+                "copyDelta": 0.046872615814208984,
+                "removeDelta": 0.007981061935424805
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v003": {
+        "folderSize": 44953254,
+        "fileContainedSize": 44953254,
+        "subfoldersNumber": 0,
+        "filesNumber": 6,
+        "averageFileSize": 7492209.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+            20645254
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+            165946
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": 16240790,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": 4169802,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": 20645254,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": 165946,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 399090,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": 3332372
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    16240790
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif",
+                    4169802
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+                    20645254
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+                    165946
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                    399090
+                ]
+            ],
+            "5": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
+                    3332372
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.016955852508544922,
+                "copyDelta": 0.015958309173583984,
+                "removeDelta": 0.0009975433349609375
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v003\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.05385589599609375,
+                "copyDelta": 0.05385589599609375,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvdoor_v002": {
+        "folderSize": 45876066,
+        "fileContainedSize": 45876066,
+        "subfoldersNumber": 0,
+        "filesNumber": 6,
+        "averageFileSize": 7646011.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+            21391546
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+            165946
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": 16240790,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": 4346322,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": 21391546,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": 165946,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 399090,
+            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": 3332372
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    16240790
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif",
+                    4346322
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+                    21391546
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+                    165946
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                    399090
+                ]
+            ],
+            "5": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
+                    3332372
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.009972810745239258,
+                "copyDelta": 0.00897669792175293,
+                "removeDelta": 0.0009961128234863281
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.05485391616821289,
+                "copyDelta": 0.05485391616821289,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew": {
+        "folderSize": 384143838,
+        "fileContainedSize": 318122796,
+        "subfoldersNumber": 2,
+        "filesNumber": 8,
+        "averageFileSize": 39765349.5,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr",
+            173652228
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json",
+            42375
+        ],
+        "subfolderList": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews",
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs"
+        ],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json": 42375,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg": 48542162,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg": 5273108,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr": 173652228,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg": 6600319,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg": 45027806,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg": 38713201,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png": 271597
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json",
+                    42375
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg",
+                    48542162
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg",
+                    5273108
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr",
+                    173652228
+                ],
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr",
+                    173652228
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg",
+                    45027806
+                ]
+            ],
+            "5": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg",
+                    38713201
+                ]
+            ],
+            "6": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png",
+                    271597
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json",
+                "speedTestDelta": 0.010973453521728516,
+                "copyDelta": 0.010973453521728516,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr",
+                "speedTestDelta": 0.2263944149017334,
+                "copyDelta": 0.20545053482055664,
+                "removeDelta": 0.020943880081176758
             }
         }
     },
@@ -903,160 +979,17 @@
             ]
         },
         "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.0498652458190918,
-                "copyDelta": 0.046875715255737305,
-                "removeDelta": 0.002989530563354492
-            },
             "light": {
                 "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.007979393005371094,
-                "copyDelta": 0.007979393005371094,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH/tv\\output\\substance_tvdoor_v002": {
-        "folderSize": 45876066,
-        "fileContainedSize": 45876066,
-        "subfoldersNumber": 0,
-        "filesNumber": 6,
-        "averageFileSize": 7646011.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-            21391546
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
-            165946
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif": 16240790,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif": 4346322,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif": 21391546,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif": 165946,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 399090,
-            "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif": 3332372
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    16240790
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Displacement_Utility - Raw.1001.tif",
-                    4346322
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-                    21391546
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
-                    165946
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    399090
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_SpecularRoughness_Utility - Raw.1001.tif",
-                    3332372
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Presence_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.028921127319335938,
-                "copyDelta": 0.027924537658691406,
-                "removeDelta": 0.0009965896606445312
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v002\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.03889608383178711,
-                "copyDelta": 0.034905195236206055,
-                "removeDelta": 0.003990888595581055
-            }
-        }
-    },
-    "D:/TRASH/tv\\output\\substance_tvsofa_v001": {
-        "folderSize": 62137520,
-        "fileContainedSize": 62137520,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 12427504.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
-            26791080
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-            393474
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif": 25253120,
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif": 6102826,
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif": 26791080,
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularRoughness_Utility - Raw.1001.tif": 3597020
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    25253120
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    25253120
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif",
-                    6102826
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
-                    26791080
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularRoughness_Utility - Raw.1001.tif",
-                    3597020
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.016953706741333008,
-                "copyDelta": 0.016953706741333008,
+                "speedTestDelta": 0.007979869842529297,
+                "copyDelta": 0.0069849491119384766,
                 "removeDelta": 0.0
             },
             "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.04687380790710449,
-                "copyDelta": 0.04288458824157715,
-                "removeDelta": 0.003989219665527344
+                "filename": "D:/TRASH/tv\\output\\substance_tvdoor_v001\\tvDoor_tvdoor_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.07679486274719238,
+                "copyDelta": 0.07380199432373047,
+                "removeDelta": 0.002992868423461914
             }
         }
     },
@@ -1149,360 +1082,264 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvbook_Displacement_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.002991914749145508,
-                "copyDelta": 0.002991914749145508,
+                "speedTestDelta": 0.0139617919921875,
+                "copyDelta": 0.0139617919921875,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\output\\substance_tvshelf_v002\\tvShelf_tvshelf_2_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.03989267349243164,
-                "copyDelta": 0.0359036922454834,
-                "removeDelta": 0.003988981246948242
+                "speedTestDelta": 0.04886913299560547,
+                "copyDelta": 0.043881893157958984,
+                "removeDelta": 0.004987239837646484
             }
         }
     },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v002": {
-        "folderSize": 32126264,
-        "fileContainedSize": 32126264,
+    "D:/TRASH/tv\\output\\substance_tvsofa_v001": {
+        "folderSize": 62137520,
+        "fileContainedSize": 62137520,
         "subfoldersNumber": 0,
         "filesNumber": 5,
-        "averageFileSize": 6425252.8,
+        "averageFileSize": 12427504.0,
         "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif",
-            13352500
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
+            26791080
         ],
         "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif",
-            163344
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_BaseColor_Utility - sRGB - Texture.1001.tif": 13041710,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif": 2974814,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif": 163344,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif": 13352500,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Roughness_Utility - Raw.1001.tif": 2593896
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    13041710
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
-                    2974814
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.007978677749633789,
-                "copyDelta": 0.006981611251831055,
-                "removeDelta": 0.0009970664978027344
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.029921531677246094,
-                "copyDelta": 0.027927875518798828,
-                "removeDelta": 0.0019936561584472656
-            }
-        }
-    },
-    "D:/TRASH/tv\\output\\substance_tvventilator_v001": {
-        "folderSize": 21884646,
-        "fileContainedSize": 21884646,
-        "subfoldersNumber": 0,
-        "filesNumber": 6,
-        "averageFileSize": 3647441.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-            11795280
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
             393474
         ],
         "subfolderList": [],
         "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif": 11795280,
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Displacement_Utility - Raw.1001.tif": 1074606,
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif": 5619356,
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Presence_Utility - Raw.1001.tif": 747576,
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularRoughness_Utility - Raw.1001.tif": 2254354
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif": 25253120,
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif": 6102826,
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif": 26791080,
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
+            "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularRoughness_Utility - Raw.1001.tif": 3597020
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    11795280
+                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    25253120
                 ],
                 [
-                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    11795280
+                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    25253120
                 ]
             ],
             "1": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Displacement_Utility - Raw.1001.tif",
-                    1074606
+                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Displacement_Utility - Raw.1001.tif",
+                    6102826
                 ]
             ],
             "2": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif",
-                    5619356
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif",
-                    5619356
+                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
+                    26791080
                 ]
             ],
             "3": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularRoughness_Utility - Raw.1001.tif",
-                    2254354
+                    "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularRoughness_Utility - Raw.1001.tif",
+                    3597020
                 ]
             ]
         },
         "speedTest": {
             "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.010971546173095703,
-                "copyDelta": 0.010971546173095703,
+                "filename": "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                "speedTestDelta": 0.015956401824951172,
+                "copyDelta": 0.015956401824951172,
                 "removeDelta": 0.0
             },
             "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.024932384490966797,
-                "copyDelta": 0.022939205169677734,
-                "removeDelta": 0.0019931793212890625
+                "filename": "D:/TRASH/tv\\output\\substance_tvsofa_v001\\tvsofa_mod_tvsofa_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.061830759048461914,
+                "copyDelta": 0.053852081298828125,
+                "removeDelta": 0.007978677749633789
             }
         }
     },
-    "D:/TRASH/tv\\output\\substance_tvtelevision_v001": {
-        "folderSize": 37398570,
-        "fileContainedSize": 37398570,
-        "subfoldersNumber": 0,
-        "filesNumber": 7,
-        "averageFileSize": 5342652.857142857,
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw": {
+        "folderSize": 185972404,
+        "fileContainedSize": 157644953,
+        "subfoldersNumber": 2,
+        "filesNumber": 8,
+        "averageFileSize": 19705619.125,
         "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
-            13352500
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
+            89279261
         ],
         "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif",
-            163344
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json",
+            41654
         ],
-        "subfolderList": [],
+        "subfolderList": [
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews",
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs"
+        ],
         "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif": 13263376,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif": 2974814,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif": 163344,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Mixed_AO_Utility - Raw_1001.tif": 2327576,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif": 13352500,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_Utility - Raw_1001.tif": 2723064,
-            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Roughness_Utility - Raw_1001.tif": 2593896
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json": 41654,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Albedo.jpg": 17812309,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg": 11921066,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr": 89279261,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.jpg": 3815019,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg": 24905557,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Roughness.jpg": 9632741,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_Preview.png": 237346
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif",
-                    13263376
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json",
+                    41654
                 ]
             ],
             "1": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
-                    2974814
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
-                    2974814
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Albedo.jpg",
+                    17812309
                 ]
             ],
             "2": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
-                    13352500
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif",
-                "speedTestDelta": 0.004987239837646484,
-                "copyDelta": 0.004987239837646484,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
-                "speedTestDelta": 0.029920339584350586,
-                "copyDelta": 0.02692723274230957,
-                "removeDelta": 0.0019941329956054688
-            }
-        }
-    },
-    "D:/TRASH/tv\\output\\substance_tvwalls_v001": {
-        "folderSize": 111319946,
-        "fileContainedSize": 111319946,
-        "subfoldersNumber": 0,
-        "filesNumber": 10,
-        "averageFileSize": 11131994.6,
-        "maxFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif",
-            25411728
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-            393474
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif": 22930460,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1002.tif": 24404412,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif": 4282982,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1002.tif": 4691414,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif": 23473256,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif": 25411728,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 393474,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif": 2597230,
-            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1002.tif": 2741516
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    22930460
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    22930460
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    22930460
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif",
-                    4282982
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif",
-                    4282982
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif",
-                    23473256
-                ],
-                [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif",
-                    23473256
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_AO.jpg",
+                    11921066
                 ]
             ],
             "3": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1002.tif",
-                    393474
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
+                    89279261
+                ],
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
+                    89279261
                 ]
             ],
             "4": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif",
-                    2597230
-                ],
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Normal.jpg",
+                    24905557
+                ]
+            ],
+            "5": [
                 [
-                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif",
-                    2597230
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Roughness.jpg",
+                    9632741
+                ]
+            ],
+            "6": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_Preview.png",
+                    237346
                 ]
             ]
         },
         "speedTest": {
             "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.007978677749633789,
-                "copyDelta": 0.007978677749633789,
+                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw.json",
+                "speedTestDelta": 0.008976459503173828,
+                "copyDelta": 0.008976459503173828,
                 "removeDelta": 0.0
             },
             "heavy": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif",
-                "speedTestDelta": 0.03989243507385254,
-                "copyDelta": 0.03590512275695801,
-                "removeDelta": 0.003987312316894531
+                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\vdcjfiw_8K_Displacement.exr",
+                "speedTestDelta": 0.17429208755493164,
+                "copyDelta": 0.16132760047912598,
+                "removeDelta": 0.012964487075805664
             }
         }
     },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews": {
-        "folderSize": 258738,
-        "fileContainedSize": 258738,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 258738.0,
+    "D:/TRASH/tv\\input\\wood_plank_viriagk": {
+        "folderSize": 236678227,
+        "fileContainedSize": 210274109,
+        "subfoldersNumber": 2,
+        "filesNumber": 8,
+        "averageFileSize": 26284263.625,
         "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
-            258738
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr",
+            162024328
         ],
         "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
-            258738
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk.json",
+            42150
         ],
-        "subfolderList": [],
+        "subfolderList": [
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews",
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs"
+        ],
         "fileList": {
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg": 258738
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk.json": 42150,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Albedo.jpg": 22787795,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_AO.jpg": 1150169,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr": 162024328,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.jpg": 6053540,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Normal.jpg": 10223964,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Roughness.jpg": 7732419,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_Preview.png": 259744
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
-                    258738
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk.json",
+                    42150
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Albedo.jpg",
+                    22787795
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_AO.jpg",
+                    1150169
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr",
+                    162024328
+                ],
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr",
+                    162024328
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Normal.jpg",
+                    10223964
+                ]
+            ],
+            "5": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Roughness.jpg",
+                    7732419
+                ]
+            ],
+            "6": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_Preview.png",
+                    259744
                 ]
             ]
         },
         "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.005982398986816406,
-                "copyDelta": 0.005982398986816406,
-                "removeDelta": 0.0
-            },
             "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.00598454475402832,
-                "copyDelta": 0.00598454475402832,
-                "removeDelta": 0.0
+                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk.json",
+                "speedTestDelta": 0.008975028991699219,
+                "copyDelta": 0.00797891616821289,
+                "removeDelta": 0.0009961128234863281
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\viriagk_8K_Displacement.exr",
+                "speedTestDelta": 0.226393461227417,
+                "copyDelta": 0.21043658256530762,
+                "removeDelta": 0.015956878662109375
             }
         }
     },
@@ -1585,15 +1422,225 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n.json",
-                "speedTestDelta": 0.021943092346191406,
-                "copyDelta": 0.021943092346191406,
+                "speedTestDelta": 0.00797724723815918,
+                "copyDelta": 0.00797724723815918,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\wcvieg3n_8K_Displacement.exr",
-                "speedTestDelta": 0.36003565788269043,
-                "copyDelta": 0.3321106433868408,
-                "removeDelta": 0.02792501449584961
+                "speedTestDelta": 0.2263939380645752,
+                "copyDelta": 0.19946646690368652,
+                "removeDelta": 0.026927471160888672
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v002": {
+        "folderSize": 32126264,
+        "fileContainedSize": 32126264,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 6425252.8,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif",
+            13352500
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif",
+            163344
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_BaseColor_Utility - sRGB - Texture.1001.tif": 13041710,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif": 2974814,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif": 163344,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif": 13352500,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Roughness_Utility - Raw.1001.tif": 2593896
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_BaseColor_Utility - sRGB - Texture.1001.tif",
+                    13041710
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Height_Utility - Raw.1001.tif",
+                    2974814
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Metallic_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.04288530349731445,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.010970592498779297
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v002\\tvTelevision_initialShadingGroup_Normal_Utility - Raw.1001.tif",
+                "speedTestDelta": 0.045877933502197266,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.01396322250366211
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvtelevision_v001": {
+        "folderSize": 37398570,
+        "fileContainedSize": 37398570,
+        "subfoldersNumber": 0,
+        "filesNumber": 7,
+        "averageFileSize": 5342652.857142857,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
+            13352500
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif",
+            163344
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif": 13263376,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif": 2974814,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif": 163344,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Mixed_AO_Utility - Raw_1001.tif": 2327576,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif": 13352500,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_Utility - Raw_1001.tif": 2723064,
+            "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Roughness_Utility - Raw_1001.tif": 2593896
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Base_color_Utility - sRGB - Texture_1001.tif",
+                    13263376
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
+                    2974814
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Height_Utility - Raw_1001.tif",
+                    2974814
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
+                    13352500
+                ]
+            ]
+        },
+        "speedTest": {
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Normal_DirectX_Utility - Raw_1001.tif",
+                "speedTestDelta": 0.04488062858581543,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.012965917587280273
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvtelevision_v001\\initialShadingGroup_Metallic_Utility - Raw_1001.tif",
+                "speedTestDelta": 0.04787158966064453,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.015956878662109375
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvventilator_v001": {
+        "folderSize": 21884646,
+        "fileContainedSize": 21884646,
+        "subfoldersNumber": 0,
+        "filesNumber": 6,
+        "averageFileSize": 3647441.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+            11795280
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            393474
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif": 11795280,
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Displacement_Utility - Raw.1001.tif": 1074606,
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif": 5619356,
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Presence_Utility - Raw.1001.tif": 747576,
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
+            "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularRoughness_Utility - Raw.1001.tif": 2254354
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    11795280
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    11795280
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Displacement_Utility - Raw.1001.tif",
+                    1074606
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif",
+                    5619356
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_Normal_Utility - Raw.1001.tif",
+                    5619356
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularRoughness_Utility - Raw.1001.tif",
+                    2254354
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                "speedTestDelta": 0.045877933502197266,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.01396322250366211
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvventilator_v001\\tvVentilator_tvVentilator_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                "speedTestDelta": 0.04787158966064453,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.015956878662109375
             }
         }
     },
@@ -1731,63 +1778,101 @@
             ]
         },
         "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Metallic_Utility - Raw.1011.tif",
-                "speedTestDelta": 0.004987955093383789,
-                "copyDelta": 0.004987955093383789,
-                "removeDelta": 0.0
-            },
             "heavy": {
                 "filename": "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_BaseColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.04188895225524902,
-                "copyDelta": 0.038896799087524414,
-                "removeDelta": 0.0029921531677246094
+                "speedTestDelta": 0.04787158966064453,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.014960289001464844
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvtable_v001\\tvTable_PxrSurface1SG_Metallic_Utility - Raw.1011.tif",
+                "speedTestDelta": 0.04886937141418457,
+                "copyDelta": 0.031914710998535156,
+                "removeDelta": 0.016954660415649414
             }
         }
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews": {
-        "folderSize": 226987,
-        "fileContainedSize": 226987,
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews": {
+        "folderSize": 258738,
+        "fileContainedSize": 258738,
         "subfoldersNumber": 0,
         "filesNumber": 1,
-        "averageFileSize": 226987.0,
+        "averageFileSize": 258738.0,
         "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
-            226987
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
+            258738
         ],
         "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
-            226987
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
+            258738
         ],
         "subfolderList": [],
         "fileList": {
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg": 226987
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg": 258738
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
-                    226987
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
+                    258738
                 ]
             ]
         },
         "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.004987239837646484,
-                "copyDelta": 0.003990650177001953,
-                "removeDelta": 0.0009965896606445312
-            },
             "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.008975744247436523,
-                "copyDelta": 0.008975744247436523,
+                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.031914710998535156,
+                "copyDelta": 0.031914710998535156,
                 "removeDelta": 0.0
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\previews\\wbojfbbg_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.04886937141418457,
+                "copyDelta": 0.04288530349731445,
+                "removeDelta": 0.005984067916870117
             }
         }
     },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk": {
-        "folderSize": 26404118
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews": {
+        "folderSize": 251717,
+        "fileContainedSize": 251717,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 251717.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
+            251717
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
+            251717
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg": 251717
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
+                    251717
+                ]
+            ]
+        },
+        "speedTest": {
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.032912492752075195,
+                "copyDelta": 0.032912492752075195,
+                "removeDelta": 0.0
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.03390860557556152,
+                "copyDelta": 0.03390860557556152,
+                "removeDelta": 0.0
+            }
+        }
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k": {
         "folderSize": 1625358,
@@ -1846,205 +1931,20 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Displacement.jpg",
-                "speedTestDelta": 0.0069811344146728516,
-                "copyDelta": 0.0069811344146728516,
+                "speedTestDelta": 0.03390860557556152,
+                "copyDelta": 0.03390860557556152,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\1k\\wbojfbbg_1K_Albedo.jpg",
-                "speedTestDelta": 0.030918359756469727,
-                "copyDelta": 0.02991962432861328,
-                "removeDelta": 0.0009987354278564453
+                "speedTestDelta": 0.03490734100341797,
+                "copyDelta": 0.03490734100341797,
+                "removeDelta": 0.0
             }
         }
     },
     "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs": {
         "folderSize": 29887793
-    },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k": {
-        "folderSize": 6350675,
-        "fileContainedSize": 6350675,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 1270135.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg",
-            2468974
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
-            465793
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg": 2468974,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg": 817851,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg": 465793,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Normal.jpg": 1522033,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Roughness.jpg": 1076024
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg",
-                    2468974
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg",
-                    817851
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
-                    465793
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Normal.jpg",
-                    1522033
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Roughness.jpg",
-                    1076024
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
-                "speedTestDelta": 0.00598454475402832,
-                "copyDelta": 0.00598454475402832,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg",
-                "speedTestDelta": 0.03191328048706055,
-                "copyDelta": 0.02991962432861328,
-                "removeDelta": 0.0019936561584472656
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews": {
-        "folderSize": 251717,
-        "fileContainedSize": 251717,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 251717.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-            251717
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-            251717
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg": 251717
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-                    251717
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.044881582260131836,
-                "copyDelta": 0.04388284683227539,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.04787254333496094,
-                "copyDelta": 0.0468754768371582,
-                "removeDelta": 0.0009970664978027344
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew": {
-        "folderSize": 66021042
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k": {
-        "folderSize": 1504008,
-        "fileContainedSize": 1504008,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 300801.6,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg",
-            639548
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg",
-            51743
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg": 639548,
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg": 51743,
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Displacement.jpg": 126749,
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg": 487806,
-            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Roughness.jpg": 198162
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg",
-                    639548
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg",
-                    51743
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Displacement.jpg",
-                    126749
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg",
-                    487806
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Roughness.jpg",
-                    198162
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg",
-                "speedTestDelta": 0.001995086669921875,
-                "copyDelta": 0.001995086669921875,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg",
-                "speedTestDelta": 0.0029909610748291016,
-                "copyDelta": 0.0029909610748291016,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs": {
-        "folderSize": 26177131
     },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k": {
         "folderSize": 3072489,
@@ -2103,20 +2003,585 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg",
-                "speedTestDelta": 0.008975505828857422,
-                "copyDelta": 0.0069811344146728516,
-                "removeDelta": 0.0009975433349609375
+                "speedTestDelta": 0.002991199493408203,
+                "copyDelta": 0.001995086669921875,
+                "removeDelta": 0.0009961128234863281
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg",
-                "speedTestDelta": 0.15062379837036133,
-                "copyDelta": 0.15062379837036133,
+                "speedTestDelta": 0.002991199493408203,
+                "copyDelta": 0.002991199493408203,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k": {
+        "folderSize": 6350675,
+        "fileContainedSize": 6350675,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 1270135.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg",
+            2468974
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
+            465793
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg": 2468974,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg": 817851,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg": 465793,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Normal.jpg": 1522033,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Roughness.jpg": 1076024
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg",
+                    2468974
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_AO.jpg",
+                    817851
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
+                    465793
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Normal.jpg",
+                    1522033
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Roughness.jpg",
+                    1076024
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Displacement.jpg",
+                "speedTestDelta": 0.03390860557556152,
+                "copyDelta": 0.03390860557556152,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\2k\\wbojfbbg_2K_Albedo.jpg",
+                "speedTestDelta": 0.03789830207824707,
+                "copyDelta": 0.03789830207824707,
                 "removeDelta": 0.0
             }
         }
     },
     "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs": {
         "folderSize": 65769325
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews": {
+        "folderSize": 226987,
+        "fileContainedSize": 226987,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 226987.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
+            226987
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
+            226987
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg": 226987
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
+                    226987
+                ]
+            ]
+        },
+        "speedTest": {
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.001995086669921875,
+                "copyDelta": 0.001995086669921875,
+                "removeDelta": 0.0
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\previews\\viriagk_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.0029904842376708984,
+                "copyDelta": 0.0029904842376708984,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k": {
+        "folderSize": 12881053,
+        "fileContainedSize": 12881053,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 2576210.6,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
+            4852472
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
+            408782
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": 4852472,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": 408782,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": 684684,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": 3681523,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": 3253592
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
+                    4852472
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
+                    408782
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg",
+                    684684
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg",
+                    3681523
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg",
+                    3253592
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
+                "speedTestDelta": 0.003987312316894531,
+                "copyDelta": 0.002991199493408203,
+                "removeDelta": 0.0009961128234863281
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
+                "speedTestDelta": 0.007976293563842773,
+                "copyDelta": 0.007976293563842773,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k": {
+        "folderSize": 21911760,
+        "fileContainedSize": 21911760,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 4382352.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
+            8292355
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
+            1659016
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg": 8292355,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg": 2961034,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg": 1659016,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Normal.jpg": 5097035,
+            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Roughness.jpg": 3902320
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
+                    8292355
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg",
+                    2961034
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
+                    1659016
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Normal.jpg",
+                    5097035
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Roughness.jpg",
+                    3902320
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
+                "speedTestDelta": 0.00997304916381836,
+                "copyDelta": 0.008976936340332031,
+                "removeDelta": 0.0009961128234863281
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
+                "speedTestDelta": 0.01795172691345215,
+                "copyDelta": 0.01695394515991211,
+                "removeDelta": 0.000997781753540039
+            }
+        }
+    },
+    "D:/TRASH/tv\\output\\substance_tvwalls_v001": {
+        "folderSize": 111319946,
+        "fileContainedSize": 111319946,
+        "subfoldersNumber": 0,
+        "filesNumber": 10,
+        "averageFileSize": 11131994.6,
+        "maxFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif",
+            25411728
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+            393474
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif": 22930460,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1002.tif": 24404412,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif": 4282982,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1002.tif": 4691414,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif": 23473256,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif": 25411728,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 393474,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif": 2597230,
+            "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1002.tif": 2741516
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    22930460
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    22930460
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_DiffuseColor_Utility - sRGB - Texture.1001.tif",
+                    22930460
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif",
+                    4282982
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Displacement_Utility - Raw.1001.tif",
+                    4282982
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif",
+                    23473256
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1001.tif",
+                    23473256
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1002.tif",
+                    393474
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif",
+                    2597230
+                ],
+                [
+                    "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularRoughness_Utility - Raw.1001.tif",
+                    2597230
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
+                "speedTestDelta": 0.03490734100341797,
+                "copyDelta": 0.03490734100341797,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\output\\substance_tvwalls_v001\\tv_walls_tvwalls_Normal_Utility - Raw.1002.tif",
+                "speedTestDelta": 0.05485224723815918,
+                "copyDelta": 0.052857160568237305,
+                "removeDelta": 0.001995086669921875
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews": {
+        "folderSize": 317069,
+        "fileContainedSize": 317069,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 317069.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
+            317069
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
+            317069
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg": 317069
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
+                    317069
+                ]
+            ]
+        },
+        "speedTest": {
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.003988981246948242,
+                "copyDelta": 0.002991914749145508,
+                "removeDelta": 0.0
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.003988981246948242,
+                "copyDelta": 0.003988981246948242,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews": {
+        "folderSize": 188242,
+        "fileContainedSize": 188242,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 188242.0,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
+            188242
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
+            188242
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg": 188242
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
+                    188242
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.0009970664978027344,
+                "copyDelta": 0.0009970664978027344,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
+                "speedTestDelta": 0.0019943714141845703,
+                "copyDelta": 0.0019943714141845703,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k": {
+        "folderSize": 49815783,
+        "fileContainedSize": 49815783,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 9963156.6,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
+            17420003
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
+            1787819
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": 17420003,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": 1787819,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": 2700423,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": 15698684,
+            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": 12208854
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
+                    17420003
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
+                    1787819
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg",
+                    2700423
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg",
+                    15698684
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg",
+                    12208854
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
+                "speedTestDelta": 0.0069811344146728516,
+                "copyDelta": 0.003988981246948242,
+                "removeDelta": 0.0029921531677246094
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
+                "speedTestDelta": 0.014960765838623047,
+                "copyDelta": 0.012966156005859375,
+                "removeDelta": 0.001994609832763672
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k": {
+        "folderSize": 1504008,
+        "fileContainedSize": 1504008,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 300801.6,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg",
+            639548
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg",
+            51743
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg": 639548,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg": 51743,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Displacement.jpg": 126749,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg": 487806,
+            "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Roughness.jpg": 198162
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg",
+                    639548
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg",
+                    51743
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Displacement.jpg",
+                    126749
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Normal.jpg",
+                    487806
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Roughness.jpg",
+                    198162
+                ]
+            ]
+        },
+        "speedTest": {
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_AO.jpg",
+                "speedTestDelta": 0.001993417739868164,
+                "copyDelta": 0.001993417739868164,
+                "removeDelta": 0.0
+            },
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\1k\\viriagk_1K_Albedo.jpg",
+                "speedTestDelta": 0.001993417739868164,
+                "copyDelta": 0.001993417739868164,
+                "removeDelta": 0.0
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs": {
+        "folderSize": 26177131
     },
     "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k": {
         "folderSize": 5442893,
@@ -2175,14 +2640,14 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_AO.jpg",
-                "speedTestDelta": 0.001995086669921875,
-                "copyDelta": 0.001995086669921875,
+                "speedTestDelta": 0.0019965171813964844,
+                "copyDelta": 0.0019965171813964844,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\2k\\viriagk_2K_Albedo.jpg",
-                "speedTestDelta": 0.12067866325378418,
-                "copyDelta": 0.12067866325378418,
+                "speedTestDelta": 0.0029916763305664062,
+                "copyDelta": 0.0029916763305664062,
                 "removeDelta": 0.0
             }
         }
@@ -2244,89 +2709,20 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Displacement.jpg",
-                "speedTestDelta": 0.09275174140930176,
-                "copyDelta": 0.09275174140930176,
-                "removeDelta": 0.0
+                "speedTestDelta": 0.003989458084106445,
+                "copyDelta": 0.002991914749145508,
+                "removeDelta": 0.0009975433349609375
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\1k\\wcvieg3n_1K_Albedo.jpg",
-                "speedTestDelta": 0.11170315742492676,
-                "copyDelta": 0.11070442199707031,
-                "removeDelta": 0.0009987354278564453
+                "speedTestDelta": 0.003989458084106445,
+                "copyDelta": 0.003989458084106445,
+                "removeDelta": 0.0
             }
         }
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs": {
         "folderSize": 79010666
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k": {
-        "folderSize": 12881053,
-        "fileContainedSize": 12881053,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 2576210.6,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
-            4852472
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
-            408782
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": 4852472,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": 408782,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": 684684,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": 3681523,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": 3253592
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
-                    4852472
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
-                    408782
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg",
-                    684684
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg",
-                    3681523
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg",
-                    3253592
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
-                "speedTestDelta": 0.007977962493896484,
-                "copyDelta": 0.0069811344146728516,
-                "removeDelta": 0.0009968280792236328
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
-                "speedTestDelta": 0.157578706741333,
-                "copyDelta": 0.15558385848999023,
-                "removeDelta": 0.0009987354278564453
-            }
-        }
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k": {
         "folderSize": 14943532,
@@ -2385,15 +2781,15 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Displacement.jpg",
-                "speedTestDelta": 0.09474492073059082,
-                "copyDelta": 0.09474492073059082,
-                "removeDelta": 0.0
+                "speedTestDelta": 0.003989458084106445,
+                "copyDelta": 0.002991914749145508,
+                "removeDelta": 0.0009975433349609375
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\2k\\wcvieg3n_2K_Normal.jpg",
-                "speedTestDelta": 0.11070609092712402,
-                "copyDelta": 0.11070609092712402,
-                "removeDelta": 0.0
+                "speedTestDelta": 0.007979154586791992,
+                "copyDelta": 0.006981611251831055,
+                "removeDelta": 0.0009975433349609375
             }
         }
     },
@@ -2454,125 +2850,15 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_AO.jpg",
-                "speedTestDelta": 0.10372185707092285,
-                "copyDelta": 0.10372185707092285,
+                "speedTestDelta": 0.0019960403442382812,
+                "copyDelta": 0.0019960403442382812,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_viriagk\\Thumbs\\4k\\viriagk_4K_Albedo.jpg",
-                "speedTestDelta": 0.12665891647338867,
-                "copyDelta": 0.12566208839416504,
-                "removeDelta": 0.0009968280792236328
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k": {
-        "folderSize": 49815783,
-        "fileContainedSize": 49815783,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 9963156.6,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
-            17420003
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-            1787819
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": 17420003,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": 1787819,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": 2700423,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": 15698684,
-            "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": 12208854
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
-                    17420003
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-                    1787819
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg",
-                    2700423
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg",
-                    15698684
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg",
-                    12208854
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-                "speedTestDelta": 0.030918359756469727,
-                "copyDelta": 0.02991962432861328,
-                "removeDelta": 0.0009987354278564453
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
-                "speedTestDelta": 0.16563868522644043,
-                "copyDelta": 0.16356205940246582,
-                "removeDelta": 0.0020766258239746094
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews": {
-        "folderSize": 188242,
-        "fileContainedSize": 188242,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 188242.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
-            188242
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
-            188242
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg": 188242
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
-                    188242
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.001913309097290039,
-                "copyDelta": 0.001913309097290039,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\previews\\vdcjfiw_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.001913309097290039,
-                "copyDelta": 0.001913309097290039,
-                "removeDelta": 0.0
+                "speedTestDelta": 0.011967897415161133,
+                "copyDelta": 0.009975194931030273,
+                "removeDelta": 0.0019927024841308594
             }
         }
     },
@@ -2633,130 +2919,20 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\1k\\vdcjfiw_1K_Displacement.jpg",
-                "speedTestDelta": 0.0019941329956054688,
-                "copyDelta": 0.0019941329956054688,
+                "speedTestDelta": 0.002993345260620117,
+                "copyDelta": 0.0019960403442382812,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\1k\\vdcjfiw_1K_Normal.jpg",
-                "speedTestDelta": 0.0019941329956054688,
-                "copyDelta": 0.0019941329956054688,
+                "speedTestDelta": 0.004988193511962891,
+                "copyDelta": 0.004988193511962891,
                 "removeDelta": 0.0
             }
         }
     },
     "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs": {
         "folderSize": 28139209
-    },
-    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews": {
-        "folderSize": 317069,
-        "fileContainedSize": 317069,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 317069.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
-            317069
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
-            317069
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg": 317069
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
-                    317069
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.13962602615356445,
-                "copyDelta": 0.13962602615356445,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\previews\\wcvieg3n_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.1406238079071045,
-                "copyDelta": 0.13962602615356445,
-                "removeDelta": 0.000997781753540039
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k": {
-        "folderSize": 5233556,
-        "fileContainedSize": 5233556,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 1046711.2,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
-            1917176
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
-            402774
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Albedo.jpg": 1417604,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_AO.jpg": 842471,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg": 402774,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg": 1917176,
-            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Roughness.jpg": 653531
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Albedo.jpg",
-                    1417604
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_AO.jpg",
-                    842471
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
-                    402774
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
-                    1917176
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Roughness.jpg",
-                    653531
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
-                "speedTestDelta": 0.002992391586303711,
-                "copyDelta": 0.002992391586303711,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
-                "speedTestDelta": 0.026927947998046875,
-                "copyDelta": 0.00399017333984375,
-                "removeDelta": 0.022937774658203125
-            }
-        }
     },
     "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k": {
         "folderSize": 60499250,
@@ -2815,15 +2991,84 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Displacement.jpg",
-                "speedTestDelta": 0.002991199493408203,
-                "copyDelta": 0.002991199493408203,
+                "speedTestDelta": 0.005982398986816406,
+                "copyDelta": 0.005982398986816406,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_plank_wcvieg3n\\Thumbs\\4k\\wcvieg3n_4K_Normal.jpg",
-                "speedTestDelta": 0.038895606994628906,
-                "copyDelta": 0.036901235580444336,
-                "removeDelta": 0.0019943714141845703
+                "speedTestDelta": 0.02593207359313965,
+                "copyDelta": 0.022938966751098633,
+                "removeDelta": 0.0029931068420410156
+            }
+        }
+    },
+    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k": {
+        "folderSize": 5233556,
+        "fileContainedSize": 5233556,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 1046711.2,
+        "maxFileSize": [
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
+            1917176
+        ],
+        "minFileSize": [
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
+            402774
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Albedo.jpg": 1417604,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_AO.jpg": 842471,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg": 402774,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg": 1917176,
+            "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Roughness.jpg": 653531
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Albedo.jpg",
+                    1417604
+                ]
+            ],
+            "1": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_AO.jpg",
+                    842471
+                ]
+            ],
+            "2": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
+                    402774
+                ]
+            ],
+            "3": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
+                    1917176
+                ]
+            ],
+            "4": [
+                [
+                    "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Roughness.jpg",
+                    653531
+                ]
+            ]
+        },
+        "speedTest": {
+            "heavy": {
+                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Normal.jpg",
+                "speedTestDelta": 0.013962984085083008,
+                "copyDelta": 0.012965679168701172,
+                "removeDelta": 0.000997304916381836
+            },
+            "light": {
+                "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\2k\\vdcjfiw_2K_Displacement.jpg",
+                "speedTestDelta": 0.011968135833740234,
+                "copyDelta": 0.011968135833740234,
+                "removeDelta": 0.0
             }
         }
     },
@@ -2884,84 +3129,15 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Displacement.jpg",
-                "speedTestDelta": 0.026928186416625977,
-                "copyDelta": 0.026928186416625977,
+                "speedTestDelta": 0.030916452407836914,
+                "copyDelta": 0.030916452407836914,
                 "removeDelta": 0.0
             },
             "heavy": {
                 "filename": "D:/TRASH/tv\\input\\wood_veneer_vdcjfiw\\Thumbs\\4k\\vdcjfiw_4K_Normal.jpg",
-                "speedTestDelta": 0.032912254333496094,
-                "copyDelta": 0.031914710998535156,
-                "removeDelta": 0.0009975433349609375
-            }
-        }
-    },
-    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k": {
-        "folderSize": 21911760,
-        "fileContainedSize": 21911760,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 4382352.0,
-        "maxFileSize": [
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
-            8292355
-        ],
-        "minFileSize": [
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
-            1659016
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg": 8292355,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg": 2961034,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg": 1659016,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Normal.jpg": 5097035,
-            "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Roughness.jpg": 3902320
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
-                    8292355
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_AO.jpg",
-                    2961034
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
-                    1659016
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Normal.jpg",
-                    5097035
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Roughness.jpg",
-                    3902320
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Displacement.jpg",
-                "speedTestDelta": 0.02991962432861328,
-                "copyDelta": 0.02991962432861328,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH/tv\\input\\wood_board_wbojfbbg\\Thumbs\\4k\\wbojfbbg_4K_Albedo.jpg",
-                "speedTestDelta": 0.25332045555114746,
-                "copyDelta": 0.25233888626098633,
-                "removeDelta": 0.0009815692901611328
+                "speedTestDelta": 0.17353272438049316,
+                "copyDelta": 0.14261531829833984,
+                "removeDelta": 0.03091740608215332
             }
         }
     }
