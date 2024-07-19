@@ -29,7 +29,7 @@ class ASPC_Application(ASPC_CommonApplication):
 		print("Hello World, this is ASPC!")
 
 
-		self.root_folder = "D:/TRASH/poster"
+		self.root_folder = "D:/TRASH/tv"
 
 		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
@@ -69,7 +69,8 @@ class ASPC_Application(ASPC_CommonApplication):
 			update the amount of time a folder or file is being used / modified.
 
 		"""
-
+		self.display_ascii_function("\nASPC - 0.1", "big")
+		self.display_notification_function("Version 0.1 - Writen by Quazar\n\n")
 
 
 

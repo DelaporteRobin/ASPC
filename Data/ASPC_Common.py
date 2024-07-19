@@ -28,11 +28,14 @@ colorama.init()
 class ASPC_CommonApplication:
 
 
-	def display_step_function(self, message, size="small"):
+	def display_ascii_function(self, message, size="small"):
+
 		if size == "big":
 			font = pyfiglet.Figlet(font="ansi_shadow")
-		else:
+			#font = pyfiglet.Figlet(font="fraktur")
+		if size == "small":
 			font = pyfiglet.Figlet(font = "modular")
+
 		print(colored(font.renderText(message), "yellow"))
 
 	def display_message_function(self, message):
@@ -41,7 +44,7 @@ class ASPC_CommonApplication:
 		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "red"))
 
 	def display_warning_function(self, message):
-		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "red"))
+		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "magenta"))
 
 	def display_success_function(self, message):
 		print(colored("[%s] %s" % (str(datetime.datetime.now()), message), "green"))
@@ -151,6 +154,7 @@ class ASPC_CommonApplication:
 
 	def worker_speed_test_function(self,type,temp_path,file):
 		
+		self.display_message_function("		Starting speed test [%s] : %s"%(type,file))
 		start_worker = time.time()
 		if file != None:	
 			success,start_copy,end_copy,delta_copy=self.copy_file_function(file, os.path.join(temp_path, os.path.basename(file)))

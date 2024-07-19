@@ -41,6 +41,17 @@ gives you, while using the same widgets you are used to.
 - [x] speed test for lightest and heaviest file (for each folder?)
 - [ ] create a threshold value - max file size to do the speed test (to avoid moving 50 Go files :) )
 
+
+
+# STATISTICS TO DISPLAY ON THE TUI
+- [ ] files sorted by size
+- [ ] folder sorted by number of subfolders
+- [ ] folers by size contained (global size of the project)
+- [ ] size of the files contained compared to number of size (compared with average size for folder)
+- [ ] heaviest folder in project
+- [ ] heaviest files for each extension (compared to extension average size)
+- [ ] comparizon by similarities
+
 # STATISTICS FOR THE BACKGROUND PROGRAM
 GIVES LIVES STATISTICS ABOUT PROJECT
 - [ ] list all folder data changes

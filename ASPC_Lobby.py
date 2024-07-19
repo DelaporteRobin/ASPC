@@ -52,6 +52,16 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 	def compose(self) -> ComposeResult:
 
+		"""
+		INFORMATIONS TO DISPLAY ON THE TUI
+
+		date delta classement <=> date of creation separated with modification date
+		file size for extension (heaviest) -> compare with the container folder
+		number of files by similiarity (compared to the number of files in the folder)
+		highest difference of size in project (classement)
+		speed test classement (for heavy)
+		"""
+
 
 		yield Header(show_clock=True)
 

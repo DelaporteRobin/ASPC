@@ -44,7 +44,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			
 			end = time.time()
 			delta = end - start
-			self.display_message_function(" [%s] Ended after : %s"%(x,delta))
+			self.display_message_function(" [%s] Ended after : %s\n\n\n\n"%(x,delta))
 
 			return result
 		return wrapper
@@ -76,21 +76,27 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				self.display_error_function("No content in folder!")
 				return 
 			else:
-
-				self.display_step_function("FILE QUEUE")
+				self.display_notification_function("DETECT ALL CONTENT IN PROJECT ... ")
+				
 
 				thread_list = []
 				thread_lock = threading.Lock()
 
 				for content in root_content:
 					thread = threading.Thread(target=self.get_folder_content_worker, args=(os.path.join(root_folder, content), thread_lock))
-					thread.start()
-					thread_list.append(thread)
-					self.display_notification_function("Thread started: %s" % thread)
-
+					try:
+						thread.start()
+						thread_list.append(thread)
+						self.display_success_function("Thread started: [%s]" % thread)
+					except:
+						self.display_warning_function("Impossible to launch thread [%s]"%thread)
+				self.display_message_function("Waiting for threads to terminate...")
 				for thread in thread_list:
+					self.display_success_function("Thread terminated : %s"%thread)
 					thread.join()
 
+
+				self.display_notification_function("ALL THREADS TERMINATED - FILE QUEUE CREATED")
 				#for folder in self.main_folder_list:
 				#	print(folder)
 				return self.main_folder_queue
@@ -99,6 +105,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		for root, dirs, files in scandir.walk(root_folder):
 			for d in dirs:
 				with lock:
+					
 					#self.main_folder_list.append(os.path.join(root, d))
 					self.main_folder_queue.put(os.path.join(root, d))
 					
@@ -128,6 +135,9 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		with open(os.path.join(os.getcwd(), "general_project_data.json"), "w") as save_file:
 			json.dump(dict(self.project_general_informations_dictionnary), save_file, indent=4)
 
+		with open(os.path.join(os.getcwd(), "data_speedtest.json"), "w") as save_file:
+			json.dump(dict(self.project_speedtest_classement_heavy), save_file, indent=4)
+
 		"""
 		with open(os.path.join(os.getcwd(), "data_similary.json"), "w") as save_similar_data:
 			json.dump(dict(self.global_similarity_dictionnary), save_similar_data, indent=4)
@@ -151,7 +161,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 	def get_data_init(self,root_folder, folder_queue):
 
 
-		self.display_notification_function("Ready to launch processes ! ")
+		self.display_notification_function("STARTING TO GET DATA FROM PROJECT\nReady to launch processes...")
+		
 
 
 		with Manager() as manager:
@@ -173,11 +184,17 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			self.global_project_old = multiprocessing.Value("f",0)
 			self.project_general_informations_dictionnary = manager.dict()
 
+			self.project_speedtest_classement_heavy = manager.dict()
+			self.project_speedtest_classement_light = manager.dict()
+
 			self.global_project_heaviest_name = None
 			self.global_project_lightest_name = None
 
 			self.global_file_size_size_classement = manager.list()
 			self.global_file_size_name_classement = manager.list()
+
+			self.temp_path = os.path.join(os.getcwd(), "temp_speedtest")
+			self.display_message_function("Path of the temp folder : %s"%self.temp_path)
 
 
 
@@ -203,21 +220,21 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					#self.display_notification_function("Process created : %s"%p)
 					p.start()
 					
-					self.display_success_function("Process created successfully!")
+					self.display_success_function("Process created successfully : %s"%p)
 					p_list.append(p)
 				except:
 					self.display_error_function("Impossible to create process : %s"%p)
 					break
 			
 			
-			self.display_warning_function("Waiting for processes to end!")
+			self.display_message_function("Waiting for processes to end!")
 
 
 			for p in p_list:
 				p.join()
-				self.display_success_function("Process terminated successfully")
+				self.display_success_function("Process terminated successfully : %s"%p)
 
-			self.display_notification_function("Number of process created : %s"%len(p_list))
+			self.display_notification_function("\n\nNumber of process created : %s"%len(p_list))
 
 
 
@@ -244,6 +261,10 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			self.project_general_informations_dictionnary["ProjectFolderCount"] = self.global_project_foldercount.value
 			self.project_general_informations_dictionnary["ProjectHeaviestFile"] = self.global_project_heaviest.value
 			self.project_general_informations_dictionnary["ProjectLightestFile"] = self.global_project_lightest.value
+
+			self.display_notification_function("GLOBAL INFORMATIONS ABOUT THE PROJECT")
+			for key, value in self.project_general_informations_dictionnary.items():
+				print("[ %s ] --> %s"%(key,value))
 			self.save_data_function()
 			#print(self.global_data_dictionnary)
 
@@ -256,14 +277,16 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 	def get_data_worker(self, test_queue, root_folder):
+
+
 		while not test_queue.empty():
 			folder = test_queue.get()
 
 			if folder == None:
 				break
 			else:
-
-				
+				self.display_ascii_function("")
+				self.display_notification_function("Checking folder : %s"%root_folder)
 				#CHECK LIST FOR EACH FOLDER AND FILES
 				"""
 				FOR EACH FILES
@@ -365,13 +388,13 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 							if self.global_project_filecount.value == 0:
 								self.global_project_lightest.value = file_size
 								self.project_general_informations_dictionnary["projectLightestFilename"] = os.path.join(folder,item)
-								print(colored("FIRST FILE SPOTED", "red"))
-								print(colored("%s : %s"%(self.project_general_informations_dictionnary["projectLightestFilename"], file_size)))
+								#print(colored("FIRST FILE SPOTED", "red"))
+								#print(colored("%s : %s"%(self.project_general_informations_dictionnary["projectLightestFilename"], file_size)))
 
 							else:
 								if self.global_project_lightest.value > file_size:
 									self.project_general_informations_dictionnary["projectLightestFilename"] = os.path.join(folder,item)
-									print(colored("New min file size : %s [%s]"%(file_size,self.project_general_informations_dictionnary["projectLightestFilename"])))
+									#print(colored("New min file size : %s [%s]"%(file_size,self.project_general_informations_dictionnary["projectLightestFilename"])))
 									self.global_project_lightest.value = file_size
 
 							
@@ -511,17 +534,42 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 					#THIS IS THE FUCKING SPEED TEST TEST
 					self.speed_test_data = {}
-					temp_path = os.path.join(os.getcwd(), "temp_speedtest")
-					if os.path.isdir(temp_path)==False:
-						os.makedirs(temp_path, exist_ok=True)
-					thread_heavy = threading.Thread(target=self.worker_speed_test_function, args=("heavy",temp_path,heaviest_filename,), daemon=True)
-					thread_light = threading.Thread(target=self.worker_speed_test_function, args=("light",temp_path,lightest_filename,), daemon=True)
+					
+					if os.path.isdir(self.temp_path)==False:
+						os.makedirs(self.temp_path, exist_ok=True)
+					thread_heavy = threading.Thread(target=self.worker_speed_test_function, args=("heavy",self.temp_path,heaviest_filename,), daemon=True)
+					thread_light = threading.Thread(target=self.worker_speed_test_function, args=("light",self.temp_path,lightest_filename,), daemon=True)
 
 					thread_heavy.start()
 					thread_light.start()
 
 					thread_heavy.join()
 					thread_light.join()
+
+					#get the content of the actual speed test delta classement
+
+					self.project_speedtest_classement_heavy[self.speed_test_data["heavy"]["filename"]] = self.speed_test_data["heavy"]["speedTestDelta"]
+					"""
+					speed_test_filename_list = list(self.project_speedtest_classement_heavy.keys())
+					speed_test_size_list = list(self.project_speedtest_classement_heavy.values())
+
+					if self.speed_test_data["heavy"] != None:
+
+
+						thread_heavy_delta_position = bisect.bisect(speed_test_size_list, self.speed_test_data["heavy"]["speedTestDelta"])
+						speed_test_filename_list.insert(thread_heavy_delta_position, self.speed_test_data["heavy"]["filename"])
+						speed_test_size_list.insert(thread_heavy_delta_position, self.speed_test_data["heavy"]["speedTestDelta"])
+
+						#save the new dictionnary
+						self.project_speedtest_classement_heavy = dict(zip(speed_test_filename_list, speed_test_size_list))
+						print("dict size : %s"%len(list(self.project_speedtest_classement_heavy.keys())))
+					"""
+
+
+
+
+
+
 
 
 						
