@@ -1,1 +1,18 @@
-/* hello world */
+/* DEFINE ALL COLORS FOR THE ASPC APPLICATION */
+
+
+
+/* BACKGROUND COLORS */
+$background: #151416;
+$surface: #151416;
+$primary-background: #151416;
+
+
+$primary: #44D68B;
+
+$secondary: white;
+
+
+
+
+$accent: #80F3B8;

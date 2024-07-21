@@ -1,0 +1,43 @@
+/* MAIN TCSS FILE FOR THE ASPC APPLICATION */
+
+
+
+#main_horizontal_container {
+	background: $background;
+	color: $primary;
+}
+
+
+
+
+/* DEFINE THE SIZE OF THE MAIN LAYOUTS OF THE APPLICATION */
+.main_rightcolumn {
+	width: 80%;
+
+	border: round $primary;
+}
+
+.main_leftcolumn {
+	background: $background;
+}
+
+
+
+/* ALL THE WIDGETS SETTINGS */ 
+Collapsible {
+	background: $background;
+}
+
+OptionList {
+	background: $background;
+
+	border: round $secondary;
+	border-title-align: left;
+	border-title-style: bold;
+}
+
+
+.optionlist_folder {
+	padding-right: 2;
+	padding-left: 2;
+}

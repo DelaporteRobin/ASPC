@@ -150,6 +150,16 @@ class ASPC_CommonApplication:
 		else:
 			return True
 	
+	@time_stamp_return
+	def read_file_function(self,file):
+		#try to read the content of the file with the rb method
+		try:
+			with open(file, "rb") as read_file:
+				speedtest_file_content = read_file.read()
+		except:
+			return False
+		else:
+			return True
 
 
 	def worker_speed_test_function(self,type,temp_path,file):
@@ -157,6 +167,9 @@ class ASPC_CommonApplication:
 		self.display_message_function("		Starting speed test [%s] : %s"%(type,file))
 		start_worker = time.time()
 		if file != None:	
+			#try to open the file before trying to copy it
+			success, start_read, end_read, delta_read = self.read_file_function(file)
+
 			success,start_copy,end_copy,delta_copy=self.copy_file_function(file, os.path.join(temp_path, os.path.basename(file)))
 			#print(colored("COPIED [%s] %s  "%(file,delta_copy)))
 
@@ -169,11 +182,24 @@ class ASPC_CommonApplication:
 
 			end_worker = time.time()
 			delta_worker = end_worker - start_worker
+
 			self.speed_test_data[type] = {
 				"filename":file,
 				"speedTestDelta":delta_worker,
+				"readDelta":delta_read,
 				"copyDelta":delta_copy,
 				"removeDelta":delta_delete,
 			}
+
 		else:
 			self.speed_test_data[type] = None
+
+
+
+
+
+
+
+################################################################################################
+# FUNCTIONS RELATED WITH THE TUI DESIGN OR GETTING DATAS FROM THE SCAN
+################################################################################################

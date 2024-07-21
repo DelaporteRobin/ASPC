@@ -99,6 +99,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				self.display_notification_function("ALL THREADS TERMINATED - FILE QUEUE CREATED")
 				#for folder in self.main_folder_list:
 				#	print(folder)
+				print(self.main_folder_queue)
 				return self.main_folder_queue
 
 	def get_folder_content_worker(self, root_folder, lock):
@@ -271,6 +272,26 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			self.save_data_function()
 			#print(self.global_data_dictionnary)
 
+			"""
+			global_data_dictionnary = {
+				"ProjectGeneralInformations":self.project_general_informations_dictionnary,
+				"GlobalFileDictionnary":self.global_file_dictionnary,
+				"GlobalFolderDictionnary":self.global_folder_dictionnary,
+				"GlobalFileSizeClassement":self.global_file_size_size_classement,
+				"FilesByExtension":self.global_file_by_extension_dictionnary,
+				"GlobalFileDateDictionnary":self.global_file_date_dictionnary,
+				"SpeedTestDataHeavy":self.project_speedtest_classement_heavy_size,
+			}
+			"""
+			global_folder_dictionnary = {
+				"ProjectGeneralInformations":dict(self.project_general_informations_dictionnary),
+				"GlobalFolderData": dict(self.global_folder_dictionnary),
+				"GlobalFileData": dict(self.global_file_dictionnary),
+			}
+			#return all the values
+			return global_folder_dictionnary
+
+
 
 
 
@@ -289,7 +310,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				break
 			else:
 				self.display_ascii_function("")
-				self.display_notification_function("Checking folder : %s"%root_folder)
+				self.display_notification_function("Checking folder : %s"%folder)
 				#CHECK LIST FOR EACH FOLDER AND FILES
 				"""
 				FOR EACH FILES
@@ -528,7 +549,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 										if value > 85:
 											checked_file.append(comparison)
-											proxi_list.append((file,os.path.getsize(file)))
+											proxi_list.append((comparison,os.path.getsize(comparison)))
 							final_dictionnary[len(list(final_dictionnary.keys()))] = proxi_list
 							#final_dictionnary[folder] = proxi_list
 
@@ -555,12 +576,12 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 					#get the list of keys and values
-					
-					position = bisect.bisect(self.project_speedtest_classement_heavy_size,self.speed_test_data["heavy"]["speedTestDelta"])
-					self.project_speedtest_classement_heavy_size.insert(position,self.speed_test_data["heavy"]["speedTestDelta"])
-					self.project_speedtest_classement_heavy_filename.insert(position, self.speed_test_data["heavy"]["filename"])
+					if self.speed_test_data["heavy"] != None:
+						position = bisect.bisect(self.project_speedtest_classement_heavy_size,self.speed_test_data["heavy"]["speedTestDelta"])
+						self.project_speedtest_classement_heavy_size.insert(position,self.speed_test_data["heavy"]["speedTestDelta"])
+						self.project_speedtest_classement_heavy_filename.insert(position, self.speed_test_data["heavy"]["filename"])
 
-					#print("list : %s"%self.project_speedtest_classement_heavy)
+
 
 
 
