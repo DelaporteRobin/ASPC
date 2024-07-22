@@ -88,6 +88,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 						thread.start()
 						thread_list.append(thread)
 						self.display_success_function("Thread started: [%s]" % thread)
+						self.display_message_function("Searching in %s"%content)
 					except:
 						self.display_warning_function("Impossible to launch thread [%s]"%thread)
 				self.display_message_function("Waiting for threads to terminate...")
@@ -345,6 +346,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				#print("%s : %s"%(os.path.isdir(folder),folder))
 
 				if os.path.isdir(folder) == True:
+					#self.display_error_function(folder)
 					#get the content of the folder
 					#file list
 					#subfolder list
@@ -598,6 +600,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 					#SET THE INITIAL SIZE OF THE FOLDER WITH THE FILES IT CONTAINS (WITHOUT SUBFOLDERS)
 					if folder not in self.global_folder_dictionnary:
+						#self.display_error_function("Checking : %s"%folder)
 						self.global_folder_dictionnary[folder] = {
 							"folderSize": folder_size,
 							"fileContainedSize": folder_size,
@@ -617,7 +620,12 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 					#UPDATE THE SIZE OF PARENTS FOLDER WITH THE ACTUAL FOLDER SIZE
+					
 					for parent_folder in parent_list:
+
+						if parent_folder == self.root_folder:
+							break
+
 						if parent_folder not in self.global_folder_dictionnary:
 							self.global_folder_dictionnary[parent_folder] = {
 								"folderSize": folder_size
@@ -632,6 +640,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 								folder_data["folderSize"] = folder_data["folderSize"] + folder_size
 							#save the new value of the dictionnary
 							self.global_folder_dictionnary[parent_folder] = folder_data
+					
 					#self.display_success_function("Size of the folder [%s]: %s"%(os.path.join(folder,item),folder_size))
 
 				

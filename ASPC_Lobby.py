@@ -28,7 +28,7 @@ from Data.ASPC_SearchingSystem import ASPC_SearchingApplication
 
 
 colorama.init()
-
+ 
 
 
 
@@ -44,8 +44,8 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			"selected": "gray",
 			"secondary": "white",
 
-			"heaviest":"orange",
-			"lightest":"#44D68B"
+			"heaviest":"red",
+			"lightest":"green"
 		}
 
 		self.font_title = Figlet(font="delta_corps_priest_1")
@@ -179,16 +179,25 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					self.listview_files.children[i].styles.background = self.color_dictionnary["background"]
 				self.show_error_function("No file contained in this folder")
 			else:
-				
-				index_list = []
+				#add the file list to the current file list
+				self.listview_files.clear()
 				for file in file_list:
-					index = index_list.append(self.filename_list.index(file))
+					list_item = ListItem(Label(file))
+					self.listview_files.append(list_item)
 
+					if file == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
+						list_item.styles.background = self.color_dictionnary["lightest"]
+					if file == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
+						list_item.styles.background = self.color_dictionnary["heaviest"]
+
+				"""
 				for i in range(len(self.listview_files.children)):
 					if i in index_list:
 						if self.filename_list[i] == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
 							self.listview_files.children[i].styles.background = self.color_dictionnary["heaviest"]
+							self.show_message_function("HEAVIEST")
 						elif self.filename_list[i] == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
+							self.show_message_function("LIGHTEST")
 							self.listview_files.children[i].styles.background = self.color_dictionnary["lightest"]
 						else:
 							self.listview_files.children[i].styles.background = self.color_dictionnary["selected"]
@@ -196,20 +205,13 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 						self.listview_files.children[i].styles.background = self.color_dictionnary["background"]
 
 				"""
-				#color the selected files
-				for index in index_list:
-					
-					self.listview_files.children[index].styles.background = self.color_dictionnary["primary"]
-				"""
-
-
-
+			
 
 
 
 
 	def launch_process_function(self):
-		self.root_folder = "D:/TRASH/"
+		self.root_folder = "D:/TOOLS"
 
 		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
@@ -325,9 +327,11 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 		self.optionlist_folder.add_options(self.folder_list)
 		
+		"""
 		for i in range(len(self.filename_list)):
 			new_item = ListItem(Label(self.filename_list[i]))
 			self.listview_files.append(new_item)
+		"""
 
 if __name__ == "__main__":
 	app = ASPC_MainApplication()
