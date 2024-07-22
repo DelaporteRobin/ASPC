@@ -15,6 +15,7 @@
 	width: 80%;
 
 	border: round $primary;
+	height: 100%
 }
 
 .main_leftcolumn {
@@ -24,6 +25,11 @@
 
 
 /* ALL THE WIDGETS SETTINGS */ 
+TabbedContent {
+	height: 100%;
+	/*border: round white;*/
+}
+
 Collapsible {
 	background: $background;
 }
@@ -31,13 +37,18 @@ Collapsible {
 OptionList {
 	background: $background;
 
+	height: 1fr;
+
 	border: round $secondary;
 	border-title-align: left;
 	border-title-style: bold;
 }
 
+Vertical {
+	/*border: round yellow;*/
+	height: 1fr;
+}
 
-.optionlist_folder {
-	padding-right: 2;
-	padding-left: 2;
+ListView {
+	background:black;
 }

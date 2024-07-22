@@ -125,7 +125,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 		with open(os.path.join(os.getcwd(), "data_size_classement.json"), "w") as save_size:
 			#json.dump(list(self.global_file_size_classement), save_size, indent=4)
-			json.dump(list(zip(list(self.global_file_size_name_classement), list(self.global_file_size_size_classement))), save_size, indent=4)
+			json.dump(dict(zip(list(self.global_file_size_name_classement), list(self.global_file_size_size_classement))), save_size, indent=4)
 
 		with open(os.path.join(os.getcwd(), "data_extension.json"), "w") as save_file:
 			json.dump(dict(self.global_file_by_extension_dictionnary), save_file, indent=4)
@@ -286,7 +286,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			global_folder_dictionnary = {
 				"ProjectGeneralInformations":dict(self.project_general_informations_dictionnary),
 				"GlobalFolderData": dict(self.global_folder_dictionnary),
-				"GlobalFileData": dict(self.global_file_dictionnary),
+				"GlobalFileData":dict(zip(list(self.global_file_size_name_classement), list(self.global_file_size_size_classement))),
+				#"GlobalFileSizeData": dict(self.global_file_size_name_classement),
 			}
 			#return all the values
 			return global_folder_dictionnary
