@@ -24,7 +24,10 @@
 
 
 
-/* ALL THE WIDGETS SETTINGS */ 
+
+
+/* ALL THE GENERAL STYLE SETTINGS */ 
+
 TabbedContent {
 	height: 100%;
 	/*border: round white;*/
@@ -49,6 +52,24 @@ Vertical {
 	height: 1fr;
 }
 
-ListView {
-	background:black;
+ListView, Markdown {
+	width: 1fr;
+	padding:0;
+	margin-right:0;
+	margin-left:0;
+	
+	background:$background;
+
+	border: round $secondary;
+	border-title-align:left;
+	border-title-style:bold;
 }
+
+
+
+/* SPECIFIC STYLE SETTINGS */
+#markdown_file_info {
+	min-height:30%;
+}
+
+

@@ -288,6 +288,8 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				"ProjectGeneralInformations":dict(self.project_general_informations_dictionnary),
 				"GlobalFolderData": dict(self.global_folder_dictionnary),
 				"GlobalFileData":dict(zip(list(self.global_file_size_name_classement), list(self.global_file_size_size_classement))),
+				"GlobalDateData":dict(self.global_file_date_dictionnary),
+				"GlobalExtensionData":dict(self.global_file_by_extension_dictionnary)
 				#"GlobalFileSizeData": dict(self.global_file_size_name_classement),
 			}
 			#return all the values

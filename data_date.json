@@ -1,1727 +1,1332 @@
 {
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone.svg": {
-        "timeDelta": -17453970.164619684,
-        "creationDate": 1673347156.1646197,
-        "modificationDate": 1655893186.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone10.svg": {
-        "timeDelta": -17453062.16663909,
-        "creationDate": 1673347156.166639,
-        "modificationDate": 1655894094.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone11.svg": {
-        "timeDelta": -17453114.167611837,
-        "creationDate": 1673347156.1676118,
-        "modificationDate": 1655894042.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone12.svg": {
-        "timeDelta": -17453104.169606686,
-        "creationDate": 1673347156.1696067,
-        "modificationDate": 1655894052.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone13.svg": {
-        "timeDelta": -17452800.170603275,
-        "creationDate": 1673347156.1706033,
-        "modificationDate": 1655894356.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone14.svg": {
-        "timeDelta": -17453658.172598362,
-        "creationDate": 1673347156.1725984,
-        "modificationDate": 1655893498.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone15.svg": {
-        "timeDelta": -17451730.174592495,
-        "creationDate": 1673347156.1745925,
-        "modificationDate": 1655895426.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\.DS_Store": {
-        "timeDelta": -16950334.212912798,
-        "creationDate": 1673347156.2129128,
-        "modificationDate": 1656396822.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone16.svg": {
-        "timeDelta": -57704354.17658758,
-        "creationDate": 1673347156.1765876,
-        "modificationDate": 1615642802.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone17.svg": {
-        "timeDelta": -17452686.17858243,
-        "creationDate": 1673347156.1785824,
-        "modificationDate": 1655894470.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\.gitattributes": {
-        "timeDelta": -21923032.215265512,
-        "creationDate": 1673347156.2152655,
-        "modificationDate": 1651424124.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone18.svg": {
-        "timeDelta": -17451434.17957878,
-        "creationDate": 1673347156.1795788,
-        "modificationDate": 1655895722.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\ackPushPull.mel": {
-        "timeDelta": -58418814.21825957,
-        "creationDate": 1673347156.2182596,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone19.svg": {
-        "timeDelta": -17451428.181601286,
-        "creationDate": 1673347156.1816013,
-        "modificationDate": 1655895728.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\arctracker110.mel": {
-        "timeDelta": -280634908.2212815,
-        "creationDate": 1673347156.2212815,
-        "modificationDate": 1392712248.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone2.svg": {
-        "timeDelta": -17451842.182599306,
-        "creationDate": 1673347156.1825993,
-        "modificationDate": 1655895314.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\autoTangent.mel": {
-        "timeDelta": -560011162.2262685,
-        "creationDate": 1673347156.2262685,
-        "modificationDate": 1113335994.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\BakeFactory.mel": {
-        "timeDelta": -150636382.22823548,
-        "creationDate": 1673347156.2282355,
-        "modificationDate": 1522710774.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone20.svg": {
-        "timeDelta": -17451418.184566975,
-        "creationDate": 1673347156.184567,
-        "modificationDate": 1655895738.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone21.svg": {
-        "timeDelta": -22278086.185563803,
-        "creationDate": 1673347156.1855638,
-        "modificationDate": 1651069070.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\ml_convertRotationOrder.py": {
-        "timeDelta": -4662589.9829108715,
-        "creationDate": 1673347156.2322392,
-        "modificationDate": 1668684566.2493284
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone22.svg": {
-        "timeDelta": -17452868.187557936,
-        "creationDate": 1673347156.187558,
-        "modificationDate": 1655894288.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\ml_utilities.py": {
-        "timeDelta": -4662575.183204651,
-        "creationDate": 1673347156.2367482,
-        "modificationDate": 1668684581.0535436
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone23.svg": {
-        "timeDelta": -17453668.189553022,
-        "creationDate": 1673347156.189553,
-        "modificationDate": 1655893488.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\screenspacer_Script.py": {
-        "timeDelta": -85748336.23898554,
-        "creationDate": 1673347156.2389855,
-        "modificationDate": 1587598820.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\shelves\\shelf_ANIM.mel": {
-        "timeDelta": -4662411.712517977,
-        "creationDate": 1673347156.8358672,
-        "modificationDate": 1668684745.1233492
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone24.png": {
-        "timeDelta": -22275996.190550327,
-        "creationDate": 1673347156.1905503,
-        "modificationDate": 1651071160.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\screenspacer_Shelf.py": {
-        "timeDelta": -85687322.24064279,
-        "creationDate": 1673347156.2406428,
-        "modificationDate": 1587659834.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone24.svg": {
-        "timeDelta": -17451850.19257331,
-        "creationDate": 1673347156.1925733,
-        "modificationDate": 1655895306.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\svm_tweenMachine_calc.mel": {
-        "timeDelta": -77278192.2447164,
-        "creationDate": 1673347156.2447164,
-        "modificationDate": 1596068964.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone25.svg": {
-        "timeDelta": -17451440.19427824,
-        "creationDate": 1673347156.1942782,
-        "modificationDate": 1655895716.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\svm_tweenMachine_helpWindow.mel": {
-        "timeDelta": -58649628.246712446,
-        "creationDate": 1673347156.2467124,
-        "modificationDate": 1614697528.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\favorites.txt": {
-        "timeDelta": -5259389.990513325,
-        "creationDate": 1673348264.508677,
-        "modificationDate": 1668088874.5181637
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone3.svg": {
-        "timeDelta": -17452698.195278168,
-        "creationDate": 1673347156.1952782,
-        "modificationDate": 1655894458.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\svm_tweenMachine_UI.mel": {
-        "timeDelta": -58649618.25242472,
-        "creationDate": 1673347156.2524247,
-        "modificationDate": 1614697538.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\GLX_pipeline_manager_V_1.py": {
-        "timeDelta": -4048128.4216427803,
-        "creationDate": 1673348264.5441854,
-        "modificationDate": 1669300136.1225426
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone4.svg": {
-        "timeDelta": -17451862.196275234,
-        "creationDate": 1673347156.1962752,
-        "modificationDate": 1655895294.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\tweenmachine.py": {
-        "timeDelta": -40270346.25641775,
-        "creationDate": 1673347156.2564178,
-        "modificationDate": 1633076810.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\GLX_Shot_Manager_V_1.py": {
-        "timeDelta": -9671759.471620798,
-        "creationDate": 1673348264.5751004,
-        "modificationDate": 1663676505.1034796
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone5.svg": {
-        "timeDelta": -17453412.19830084,
-        "creationDate": 1673347156.1983008,
-        "modificationDate": 1655893744.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\userSetup.py": {
-        "timeDelta": -22278930.257428646,
-        "creationDate": 1673347156.2574286,
-        "modificationDate": 1651068226.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\hub.py": {
-        "timeDelta": -9755744.823768139,
-        "creationDate": 1673348264.5904357,
-        "modificationDate": 1663592519.7666676
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone6.svg": {
-        "timeDelta": -17453316.200354338,
-        "creationDate": 1673347156.2003543,
-        "modificationDate": 1655893840.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\icon1.png": {
-        "timeDelta": -9682490.13619423,
-        "creationDate": 1673348264.6081583,
-        "modificationDate": 1663665774.4719641
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone7.svg": {
-        "timeDelta": -17453648.202016115,
-        "creationDate": 1673347156.202016,
-        "modificationDate": 1655893508.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\skouirel.png": {
-        "timeDelta": -10187471.322239876,
-        "creationDate": 1673348264.6325884,
-        "modificationDate": 1663160793.3103485
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone8.svg": {
-        "timeDelta": -17453478.203481197,
-        "creationDate": 1673347156.2034812,
-        "modificationDate": 1655893678.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\Thumbs.db": {
-        "timeDelta": -4559683.003018141,
-        "creationDate": 1673348264.6380181,
-        "modificationDate": 1668788581.635
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone9.svg": {
-        "timeDelta": -17453498.204823017,
-        "creationDate": 1673347156.204823,
-        "modificationDate": 1655893658.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\.DS_Store": {
-        "timeDelta": -22636560.297756672,
-        "creationDate": 1673347156.2977567,
-        "modificationDate": 1650710596.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__init__.py": {
-        "timeDelta": -4231247.507104158,
-        "creationDate": 1673348264.674555,
-        "modificationDate": 1669117017.167451
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\iconetest.svg": {
-        "timeDelta": -61929266.206506014,
-        "creationDate": 1673347156.206506,
-        "modificationDate": 1611417890.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\COPYING": {
-        "timeDelta": -58418814.29975009,
-        "creationDate": 1673347156.29975,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\AnimPolish_README.txt": {
-        "timeDelta": -36211872.26040697,
-        "creationDate": 1673347156.260407,
-        "modificationDate": 1637135284.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\ml_convertRotationOrder.png": {
-        "timeDelta": -4662584.188931227,
-        "creationDate": 1673347156.2073064,
-        "modificationDate": 1668684572.0183752
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\gui.py": {
-        "timeDelta": -58418814.30362558,
-        "creationDate": 1673347156.3036256,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\icons\\separator.svg": {
-        "timeDelta": -61929266.20896244,
-        "creationDate": 1673347156.2089624,
-        "modificationDate": 1611417890.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\sculptPose.py": {
-        "timeDelta": -36294734.26442361,
-        "creationDate": 1673347156.2644236,
-        "modificationDate": 1637052422.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\gui.pyc": {
-        "timeDelta": -58418814.30552101,
-        "creationDate": 1673347156.305521,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\.DS_Store": {
-        "timeDelta": -22341834.375974417,
-        "creationDate": 1673347156.3759744,
-        "modificationDate": 1651005322.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\subdue.py": {
-        "timeDelta": -52859342.26719141,
-        "creationDate": 1673347156.2671914,
-        "modificationDate": 1620487814.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\align.py": {
-        "timeDelta": -22843502.37697339,
-        "creationDate": 1673347156.3769734,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\.DS_Store": {
-        "timeDelta": -22279408.491869688,
-        "creationDate": 1673347156.4918697,
-        "modificationDate": 1651067748.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\LICENSE": {
-        "timeDelta": -58418814.30752945,
-        "creationDate": 1673347156.3075294,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\ui.py": {
-        "timeDelta": -36294604.2692132,
-        "creationDate": 1673347156.2692132,
-        "modificationDate": 1637052552.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\appinfos.py": {
-        "timeDelta": -22843502.37797141,
-        "creationDate": 1673347156.3779714,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\picker_node.py": {
-        "timeDelta": -58418814.3095634,
-        "creationDate": 1673347156.3095634,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\.gitattributes": {
-        "timeDelta": -41262298.49283576,
-        "creationDate": 1673347156.4928358,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\user_settings_default.py": {
-        "timeDelta": -55776834.27236056,
-        "creationDate": 1673347156.2723606,
-        "modificationDate": 1617570322.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\arrayutils.py": {
-        "timeDelta": -22843502.378985167,
-        "creationDate": 1673347156.3789852,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\.gitignore": {
-        "timeDelta": -41262298.49483156,
-        "creationDate": 1673347156.4948316,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\picker_node.pyc": {
-        "timeDelta": -58418814.31073952,
-        "creationDate": 1673347156.3107395,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\wrap.py": {
-        "timeDelta": -52859354.27487993,
-        "creationDate": 1673347156.27488,
-        "modificationDate": 1620487802.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\clipboard.py": {
-        "timeDelta": -22843502.37996769,
-        "creationDate": 1673347156.3799677,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\.gitattributes": {
-        "timeDelta": -21923033.79422736,
-        "creationDate": 1673347156.7942274,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\Qt.py": {
-        "timeDelta": -58418814.312903404,
-        "creationDate": 1673347156.3129034,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\README.md": {
-        "timeDelta": -41262298.49644995,
-        "creationDate": 1673347156.49645,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__init__.py": {
-        "timeDelta": -118513650.27487993,
-        "creationDate": 1673347156.27488,
-        "modificationDate": 1554833506.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\colorwheel.py": {
-        "timeDelta": -22843502.380967617,
-        "creationDate": 1673347156.3809676,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\instructions.txt": {
-        "timeDelta": -51321938.785336494,
-        "creationDate": 1673347156.7853365,
-        "modificationDate": 1622025218.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\Drop_me_in_the_maya_viewport.mel": {
-        "timeDelta": -21923033.795191288,
-        "creationDate": 1673347156.7951913,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\Qt.pyc": {
-        "timeDelta": -58418814.31439543,
-        "creationDate": 1673347156.3143954,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\version_info": {
-        "timeDelta": -41262298.49744725,
-        "creationDate": 1673347156.4974473,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\compatibility.py": {
-        "timeDelta": -22843502.38265395,
-        "creationDate": 1673347156.382654,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\MayaFramingAssistant.py": {
-        "timeDelta": -21923033.79616189,
-        "creationDate": 1673347156.796162,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\stickyMod_funcs.py": {
-        "timeDelta": -55726368.78633523,
-        "creationDate": 1673347156.7863352,
-        "modificationDate": 1617620788.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\README": {
-        "timeDelta": -58418814.315377,
-        "creationDate": 1673347156.315377,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\__init__.py": {
-        "timeDelta": -22592740.49844694,
-        "creationDate": 1673347156.498447,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\README.md": {
-        "timeDelta": -21923033.79616189,
-        "creationDate": 1673347156.796162,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\dialog.py": {
-        "timeDelta": -22843502.38403082,
-        "creationDate": 1673347156.3840308,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\__init__.py": {
-        "timeDelta": -58418814.316375494,
-        "creationDate": 1673347156.3163755,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\ui.py": {
-        "timeDelta": -55726144.78733277,
-        "creationDate": 1673347156.7873328,
-        "modificationDate": 1617621012.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\__init__.py.bak": {
-        "timeDelta": -41262298.50043917,
-        "creationDate": 1673347156.5004392,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\geometry.py": {
-        "timeDelta": -22843502.38403082,
-        "creationDate": 1673347156.3840308,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\__init__.pyc": {
-        "timeDelta": -58418814.316375494,
-        "creationDate": 1673347156.3163755,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\__init__.py": {
-        "timeDelta": -72752126.78833008,
-        "creationDate": 1673347156.78833,
-        "modificationDate": 1600595030.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\interactive.py": {
-        "timeDelta": -22843502.38602686,
-        "creationDate": 1673347156.3860269,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\languages.py": {
-        "timeDelta": -22843502.387024164,
-        "creationDate": 1673347156.3870242,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\main.py": {
-        "timeDelta": -22843502.388217926,
-        "creationDate": 1673347156.388218,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\.DS_Store": {
-        "timeDelta": -22341754.816714764,
-        "creationDate": 1673347156.8167148,
-        "modificationDate": 1651005402.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\optionvar.py": {
-        "timeDelta": -22843502.389181137,
-        "creationDate": 1673347156.3891811,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\ui.py": {
-        "timeDelta": -86832068.81771255,
-        "creationDate": 1673347156.8177125,
-        "modificationDate": 1586515088.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\painting.py": {
-        "timeDelta": -22843502.39013028,
-        "creationDate": 1673347156.3901303,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\__pycache__\\MayaFramingAssistant.cpython-37.pyc": {
-        "timeDelta": -17454410.833025694,
-        "creationDate": 1673347156.8330257,
-        "modificationDate": 1655892746.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\sculptPose.cpython-37.pyc": {
-        "timeDelta": -22592598.28078127,
-        "creationDate": 1673347156.2807813,
-        "modificationDate": 1650754558.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\__init__.py": {
-        "timeDelta": -243615210.81877756,
-        "creationDate": 1673347156.8187776,
-        "modificationDate": 1429731946.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\picker.py": {
-        "timeDelta": -22843502.39197421,
-        "creationDate": 1673347156.3919742,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\__pycache__\\screenspacer_Script.cpython-37.pyc": {
-        "timeDelta": -17454274.834318876,
-        "creationDate": 1673347156.8343189,
-        "modificationDate": 1655892882.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\GLX_pipeline_manager_V_1.cpython-39.pyc": {
-        "timeDelta": -5259465.531734943,
-        "creationDate": 1673348264.69465,
-        "modificationDate": 1668088799.162915
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\subdue.cpython-37.pyc": {
-        "timeDelta": -22592598.284058094,
-        "creationDate": 1673347156.284058,
-        "modificationDate": 1650754558.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\preference.py": {
-        "timeDelta": -22843502.39298749,
-        "creationDate": 1673347156.3929875,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\GLX_Shot_Manager_V_1.cpython-39.pyc": {
-        "timeDelta": -9668050.134632349,
-        "creationDate": 1673348264.717028,
-        "modificationDate": 1663680214.5823956
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\.DS_Store": {
-        "timeDelta": -22590632.318370104,
-        "creationDate": 1673347156.31837,
-        "modificationDate": 1650756524.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\ui.cpython-37.pyc": {
-        "timeDelta": -22592598.2850554,
-        "creationDate": 1673347156.2850554,
-        "modificationDate": 1650754558.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\qtutils.py": {
-        "timeDelta": -22843502.3933239,
-        "creationDate": 1673347156.393324,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\file_handlers.py": {
-        "timeDelta": -58418814.35498285,
-        "creationDate": 1673347156.3549829,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\hub.cpython-39.pyc": {
-        "timeDelta": -9755674.80627656,
-        "creationDate": 1673348264.7353873,
-        "modificationDate": 1663592589.9291108
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\user_settings_default.cpython-37.pyc": {
-        "timeDelta": -22592598.28705001,
-        "creationDate": 1673347156.28705,
-        "modificationDate": 1650754558.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\COPYING": {
-        "timeDelta": -58418814.32027936,
-        "creationDate": 1673347156.3202794,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\quick.py": {
-        "timeDelta": -22843502.394908905,
-        "creationDate": 1673347156.394909,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\file_handlers.pyc": {
-        "timeDelta": -58418814.355980396,
-        "creationDate": 1673347156.3559804,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\HANDS.png": {
-        "timeDelta": -58418812.36913657,
-        "creationDate": 1673347156.3691366,
-        "modificationDate": 1614928344.0
-    },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\__init__.cpython-39.pyc": {
-        "timeDelta": -9690050.345264673,
-        "creationDate": 1673348264.7631197,
-        "modificationDate": 1663658214.417855
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\gui.py": {
-        "timeDelta": -58418814.320534706,
-        "creationDate": 1673347156.3205347,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\wrap.cpython-37.pyc": {
-        "timeDelta": -22592598.29162383,
-        "creationDate": 1673347156.2916238,
-        "modificationDate": 1650754558.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\file_handlers.py": {
-        "timeDelta": -58418814.333122015,
-        "creationDate": 1673347156.333122,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\maya_handlers.py": {
-        "timeDelta": -58418814.35697746,
-        "creationDate": 1673347156.3569775,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\references.py": {
-        "timeDelta": -22843502.395856857,
-        "creationDate": 1673347156.3958569,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\IMG_BODY.png": {
-        "timeDelta": -58418812.37013364,
-        "creationDate": 1673347156.3701336,
-        "modificationDate": 1614928344.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\gui.pyc": {
-        "timeDelta": -58418814.32156539,
-        "creationDate": 1673347156.3215654,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22592598.293653965,
-        "creationDate": 1673347156.293654,
-        "modificationDate": 1650754558.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\scenedata.py": {
-        "timeDelta": -22843502.395856857,
-        "creationDate": 1673347156.3958569,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\file_handlers.pyc": {
-        "timeDelta": -58418814.33408904,
-        "creationDate": 1673347156.334089,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\maya_handlers.pyc": {
-        "timeDelta": -58418814.357975006,
-        "creationDate": 1673347156.357975,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\HANDS.png": {
-        "timeDelta": -58418814.34581065,
-        "creationDate": 1673347156.3458107,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\IMG_FACE.png": {
-        "timeDelta": -58418812.37113118,
-        "creationDate": 1673347156.3711312,
-        "modificationDate": 1614928344.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\LICENSE": {
-        "timeDelta": -58418814.32255912,
-        "creationDate": 1673347156.322559,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\maya_handlers.py": {
-        "timeDelta": -58418814.335054874,
-        "creationDate": 1673347156.3350549,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\selection.py": {
-        "timeDelta": -22843502.396855354,
-        "creationDate": 1673347156.3968554,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\IMG_BODY.png": {
-        "timeDelta": -58418814.34680939,
-        "creationDate": 1673347156.3468094,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\mode_handlers.py": {
-        "timeDelta": -58418814.35970926,
-        "creationDate": 1673347156.3597093,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\IMG_FACE2.png": {
-        "timeDelta": -58418812.37240052,
-        "creationDate": 1673347156.3724005,
-        "modificationDate": 1614928344.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\picker_node.py": {
-        "timeDelta": -58418814.323529005,
-        "creationDate": 1673347156.323529,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\maya_handlers.pyc": {
-        "timeDelta": -58418814.335054874,
-        "creationDate": 1673347156.3350549,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\templates.py": {
-        "timeDelta": -22843502.397852898,
-        "creationDate": 1673347156.397853,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\IMG_FACE.png": {
-        "timeDelta": -58418814.34780669,
-        "creationDate": 1673347156.3478067,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\addbg.png": {
-        "timeDelta": -22843502.41834259,
-        "creationDate": 1673347156.4183426,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\mode_handlers.pyc": {
-        "timeDelta": -58418814.360159636,
-        "creationDate": 1673347156.3601596,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\attributes.py": {
-        "timeDelta": -22843502.403483868,
-        "creationDate": 1673347156.4034839,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\Thumbs.db": {
-        "timeDelta": -58418812.373366594,
-        "creationDate": 1673347156.3733666,
-        "modificationDate": 1614928344.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\picker_node.pyc": {
-        "timeDelta": -58418814.32545805,
-        "creationDate": 1673347156.325458,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\.DS_Store": {
-        "timeDelta": -22590632.455607176,
-        "creationDate": 1673347156.4556072,
-        "modificationDate": 1650756524.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\IMG_FACE2.png": {
-        "timeDelta": -58418814.34960246,
-        "creationDate": 1673347156.3496025,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\mode_handlers.py": {
-        "timeDelta": -58418814.33605337,
-        "creationDate": 1673347156.3360534,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\undo.py": {
-        "timeDelta": -22843502.398850203,
-        "creationDate": 1673347156.3988502,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\addbutton.png": {
-        "timeDelta": -22843502.41934061,
-        "creationDate": 1673347156.4193406,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\python_handlers.py": {
-        "timeDelta": -58418814.362155676,
-        "creationDate": 1673347156.3621557,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\undefined.png": {
-        "timeDelta": -58418812.37433386,
-        "creationDate": 1673347156.3743339,
-        "modificationDate": 1614928344.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\editarea.py": {
-        "timeDelta": -22843502.405081034,
-        "creationDate": 1673347156.405081,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\Qt.py": {
-        "timeDelta": -58418814.32597399,
-        "creationDate": 1673347156.325974,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\Thumbs.db": {
-        "timeDelta": -58418814.35173607,
-        "creationDate": 1673347156.351736,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\__init__.py": {
-        "timeDelta": -22843502.45658374,
-        "creationDate": 1673347156.4565837,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\mode_handlers.pyc": {
-        "timeDelta": -58418814.337050915,
-        "creationDate": 1673347156.337051,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\widgets.py": {
-        "timeDelta": -22843502.399847507,
-        "creationDate": 1673347156.3998475,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\python_handlers.pyc": {
-        "timeDelta": -58418814.36323142,
-        "creationDate": 1673347156.3632314,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\editor.py": {
-        "timeDelta": -22843502.40587473,
-        "creationDate": 1673347156.4058747,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\Qt.pyc": {
-        "timeDelta": -58418814.32797003,
-        "creationDate": 1673347156.32797,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\addtext.png": {
-        "timeDelta": -22843502.420317173,
-        "creationDate": 1673347156.4203172,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\undefined.png": {
-        "timeDelta": -58418814.352757215,
-        "creationDate": 1673347156.3527572,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\align.cpython-37.pyc": {
-        "timeDelta": -22636476.4685812,
-        "creationDate": 1673347156.4685812,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\attributes.cpython-37.pyc": {
-        "timeDelta": -22636476.4113698,
-        "creationDate": 1673347156.4113698,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\README": {
-        "timeDelta": -58418814.32896781,
-        "creationDate": 1673347156.3289678,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\python_handlers.py": {
-        "timeDelta": -58418814.339045525,
-        "creationDate": 1673347156.3390455,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__init__.py": {
-        "timeDelta": -22843502.40203333,
-        "creationDate": 1673347156.4020333,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\highlighter.py": {
-        "timeDelta": -22843502.40685606,
-        "creationDate": 1673347156.406856,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\qt_handlers.py": {
-        "timeDelta": -58418814.364188194,
-        "creationDate": 1673347156.3641882,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_bottom.png": {
-        "timeDelta": -22843502.421333075,
-        "creationDate": 1673347156.421333,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\editarea.cpython-37.pyc": {
-        "timeDelta": -22636476.412362814,
-        "creationDate": 1673347156.4123628,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\appinfos.cpython-37.pyc": {
-        "timeDelta": -22636476.46957612,
-        "creationDate": 1673347156.4695761,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\python_handlers.pyc": {
-        "timeDelta": -58418814.34027791,
-        "creationDate": 1673347156.340278,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\menu.py": {
-        "timeDelta": -22843502.407855988,
-        "creationDate": 1673347156.407856,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\__init__.py": {
-        "timeDelta": -58418814.33010912,
-        "creationDate": 1673347156.3301091,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\converter.py": {
-        "timeDelta": -22843502.458610058,
-        "creationDate": 1673347156.45861,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_h_center.png": {
-        "timeDelta": -22843502.422338963,
-        "creationDate": 1673347156.422339,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\qt_handlers.pyc": {
-        "timeDelta": -58418814.36514568,
-        "creationDate": 1673347156.3651457,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\editor.cpython-37.pyc": {
-        "timeDelta": -22636476.41333604,
-        "creationDate": 1673347156.413336,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22636476.466587782,
-        "creationDate": 1673347156.4665878,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\arrayutils.cpython-37.pyc": {
-        "timeDelta": -22636476.470573187,
-        "creationDate": 1673347156.4705732,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\qt_handlers.py": {
-        "timeDelta": -58418814.34027791,
-        "creationDate": 1673347156.340278,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__init__.py": {
-        "timeDelta": -22843502.408852816,
-        "creationDate": 1673347156.4088528,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\__init__.pyc": {
-        "timeDelta": -58418814.3310616,
-        "creationDate": 1673347156.3310616,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_left.png": {
-        "timeDelta": -22843502.42332554,
-        "creationDate": 1673347156.4233255,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\parser.py": {
-        "timeDelta": -22843502.459575653,
-        "creationDate": 1673347156.4595757,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\__init__.py": {
-        "timeDelta": -58418814.36514568,
-        "creationDate": 1673347156.3651457,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\clipboard.cpython-37.pyc": {
-        "timeDelta": -22636476.471573114,
-        "creationDate": 1673347156.471573,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\qt_handlers.pyc": {
-        "timeDelta": -58418814.341276646,
-        "creationDate": 1673347156.3412766,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\highlighter.cpython-37.pyc": {
-        "timeDelta": -22636476.414333344,
-        "creationDate": 1673347156.4143333,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__pycache__\\converter.cpython-37.pyc": {
-        "timeDelta": -22636476.46259451,
-        "creationDate": 1673347156.4625945,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_right.png": {
-        "timeDelta": -22843502.42332554,
-        "creationDate": 1673347156.4233255,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\__init__.pyc": {
-        "timeDelta": -58418814.36614442,
-        "creationDate": 1673347156.3661444,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__init__.py": {
-        "timeDelta": -22843502.460602283,
-        "creationDate": 1673347156.4606023,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\menu.cpython-37.pyc": {
-        "timeDelta": -22636476.41533065,
-        "creationDate": 1673347156.4153306,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\license\\gpl-3.0.txt": {
-        "timeDelta": -41262298.50255251,
-        "creationDate": 1673347156.5025525,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\__init__.py": {
-        "timeDelta": -58418814.343176365,
-        "creationDate": 1673347156.3431764,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__pycache__\\parser.cpython-37.pyc": {
-        "timeDelta": -22636476.463583708,
-        "creationDate": 1673347156.4635837,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\colorwheel.cpython-37.pyc": {
-        "timeDelta": -22636476.472565174,
-        "creationDate": 1673347156.4725652,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_top.png": {
-        "timeDelta": -22843502.425303936,
-        "creationDate": 1673347156.425304,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\license\\lgpl-3.0.txt": {
-        "timeDelta": -41262298.5035491,
-        "creationDate": 1673347156.503549,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\__init__.pyc": {
-        "timeDelta": -58418814.34416461,
-        "creationDate": 1673347156.3441646,
-        "modificationDate": 1614928342.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\compatibility.cpython-37.pyc": {
-        "timeDelta": -22636476.473564863,
-        "creationDate": 1673347156.4735649,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22636476.464562416,
-        "creationDate": 1673347156.4645624,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22636476.416366577,
-        "creationDate": 1673347156.4163666,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_v_center.png": {
-        "timeDelta": -22843502.425303936,
-        "creationDate": 1673347156.425304,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\.DS_Store": {
-        "timeDelta": -22591420.517383575,
-        "creationDate": 1673347156.5173836,
-        "modificationDate": 1650755736.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\dialog.cpython-37.pyc": {
-        "timeDelta": -22636476.473885298,
-        "creationDate": 1673347156.4738853,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22592462.783474684,
-        "creationDate": 1673347156.7834747,
-        "modificationDate": 1650754694.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\.DS_Store": {
-        "timeDelta": -22591436.505374193,
-        "creationDate": 1673347156.5053742,
-        "modificationDate": 1650755720.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\AETemplates\\AEarcTracerTemplate.mel": {
-        "timeDelta": -41262298.50733209,
-        "creationDate": 1673347156.507332,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\center.png": {
-        "timeDelta": -22843502.426324844,
-        "creationDate": 1673347156.4263248,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\run_tests.sh": {
-        "timeDelta": -41262298.77671933,
-        "creationDate": 1673347156.7767193,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\arcTracer.py": {
-        "timeDelta": -22592740.51838088,
-        "creationDate": 1673347156.5183809,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\python\\arcTracer.py": {
-        "timeDelta": -22592740.512396097,
-        "creationDate": 1673347156.512396,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\geometry.cpython-37.pyc": {
-        "timeDelta": -22636476.47488451,
-        "creationDate": 1673347156.4748845,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\icons\\arcTracerOnMesh.png": {
-        "timeDelta": -41262298.50935674,
-        "creationDate": 1673347156.5093567,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\.DS_Store": {
-        "timeDelta": -22591456.5403769,
-        "creationDate": 1673347156.540377,
-        "modificationDate": 1650755700.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\copy.png": {
-        "timeDelta": -22843502.427298784,
-        "creationDate": 1673347156.4272988,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_move_my_objects.py": {
-        "timeDelta": -22592740.777716875,
-        "creationDate": 1673347156.7777169,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\arcTracer.py.bak": {
-        "timeDelta": -41262298.519407034,
-        "creationDate": 1673347156.519407,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\python\\arcTracer.py.bak": {
-        "timeDelta": -41262298.513394356,
-        "creationDate": 1673347156.5133944,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\arcTracer.cpython-37.pyc": {
-        "timeDelta": -22592462.555392742,
-        "creationDate": 1673347156.5553927,
-        "modificationDate": 1650754694.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\gui\\frame_32x32.ico": {
-        "timeDelta": -21923033.800968885,
-        "creationDate": 1673347156.800969,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\interactive.cpython-37.pyc": {
-        "timeDelta": -22636476.47590661,
-        "creationDate": 1673347156.4759066,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\icons\\LICENSE.txt": {
-        "timeDelta": -41262298.51035166,
-        "creationDate": 1673347156.5103517,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\decorator.cpython-37.pyc": {
-        "timeDelta": -22592460.55039859,
-        "creationDate": 1673347156.5503986,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\decorator.py": {
-        "timeDelta": -41262298.54137874,
-        "creationDate": 1673347156.5413787,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\delete.png": {
-        "timeDelta": -22843502.4283123,
-        "creationDate": 1673347156.4283123,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_move_my_objects.py.bak": {
-        "timeDelta": -41262298.77871418,
-        "creationDate": 1673347156.7787142,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Dynamic_Symmetry.png": {
-        "timeDelta": -21923033.805725813,
-        "creationDate": 1673347156.8057258,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\__pycache__\\stickyMod_funcs.cpython-37.pyc": {
-        "timeDelta": -55726284.790622234,
-        "creationDate": 1673347156.7906222,
-        "modificationDate": 1617620872.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\gui\\mainWindow.ui": {
-        "timeDelta": -21923033.803117514,
-        "creationDate": 1673347156.8031175,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\languages.cpython-37.pyc": {
-        "timeDelta": -22636476.47687912,
-        "creationDate": 1673347156.4768791,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_attach.xpm": {
-        "timeDelta": -458960398.8218069,
-        "creationDate": 1673347156.821807,
-        "modificationDate": 1214386758.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\cleverKeys.py": {
-        "timeDelta": -22592740.519407034,
-        "creationDate": 1673347156.519407,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\observer.cpython-37.pyc": {
-        "timeDelta": -22592460.55039859,
-        "creationDate": 1673347156.5503986,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\cleverKeys.cpython-37.pyc": {
-        "timeDelta": -22592462.556367397,
-        "creationDate": 1673347156.5563674,
-        "modificationDate": 1650754694.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\python\\lock_n_hide.py": {
-        "timeDelta": -41262298.51439142,
-        "creationDate": 1673347156.5143914,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\__pycache__\\ui.cpython-37.pyc": {
-        "timeDelta": -22590452.829654932,
-        "creationDate": 1673347156.829655,
-        "modificationDate": 1650756704.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\observer.py": {
-        "timeDelta": -22592740.542372465,
-        "creationDate": 1673347156.5423725,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\__pycache__\\ui.cpython-37.pyc": {
-        "timeDelta": -55726284.79159737,
-        "creationDate": 1673347156.7915974,
-        "modificationDate": 1617620872.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\edit.png": {
-        "timeDelta": -22843502.429293394,
-        "creationDate": 1673347156.4292934,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_slide_animation_keys.py": {
-        "timeDelta": -22592740.779711485,
-        "creationDate": 1673347156.7797115,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Ratio.png": {
-        "timeDelta": -21923033.80672455,
-        "creationDate": 1673347156.8067245,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\qt.cpython-37.pyc": {
-        "timeDelta": -22592460.55137992,
-        "creationDate": 1673347156.55138,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\main.cpython-37.pyc": {
-        "timeDelta": -22636476.477900267,
-        "creationDate": 1673347156.4779003,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_destroy.xpm": {
-        "timeDelta": -458961656.8227706,
-        "creationDate": 1673347156.8227706,
-        "modificationDate": 1214385500.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\cleverKeys.py.bak": {
-        "timeDelta": -41262298.5204072,
-        "creationDate": 1673347156.5204072,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\lock_n_hide.cpython-37.pyc": {
-        "timeDelta": -22592460.557363987,
-        "creationDate": 1673347156.557364,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22590452.83063698,
-        "creationDate": 1673347156.830637,
-        "modificationDate": 1650756704.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\frame.png": {
-        "timeDelta": -22843502.4302907,
-        "creationDate": 1673347156.4302907,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\observer.py.bak": {
-        "timeDelta": -41262298.5433712,
-        "creationDate": 1673347156.5433712,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_slide_animation_keys.py.bak": {
-        "timeDelta": -41262298.78111744,
-        "creationDate": 1673347156.7811174,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\optionvar.cpython-37.pyc": {
-        "timeDelta": -22636476.478903532,
-        "creationDate": 1673347156.4789035,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\ui.cpython-37.pyc": {
-        "timeDelta": -22592460.552377224,
-        "creationDate": 1673347156.5523772,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Ratio_Mirror.png": {
-        "timeDelta": -21923033.807721853,
-        "creationDate": 1673347156.8077219,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\lock_n_hide.py": {
-        "timeDelta": -22592740.5214324,
-        "creationDate": 1673347156.5214324,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\moveMyObjects.cpython-37.pyc": {
-        "timeDelta": -22592460.55838442,
-        "creationDate": 1673347156.5583844,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_detach.xpm": {
-        "timeDelta": -458960370.8244953,
-        "creationDate": 1673347156.8244953,
-        "modificationDate": 1214386786.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\h_symmetry.png": {
-        "timeDelta": -22843502.431316614,
-        "creationDate": 1673347156.4313166,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\qt.py": {
-        "timeDelta": -22592740.544365883,
-        "creationDate": 1673347156.544366,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\painting.cpython-37.pyc": {
-        "timeDelta": -22636476.47989607,
-        "creationDate": 1673347156.479896,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22592460.553400993,
-        "creationDate": 1673347156.553401,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Section.png": {
-        "timeDelta": -21923033.809004784,
-        "creationDate": 1673347156.8090048,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\lock_n_hide.py.bak": {
-        "timeDelta": -41262298.52242708,
-        "creationDate": 1673347156.522427,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\pickleAttr.cpython-37.pyc": {
-        "timeDelta": -22592460.55938363,
-        "creationDate": 1673347156.5593836,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_fixsnap.xpm": {
-        "timeDelta": -458960350.825516,
-        "creationDate": 1673347156.825516,
-        "modificationDate": 1214386806.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\link.png": {
-        "timeDelta": -22843502.432311773,
-        "creationDate": 1673347156.4323118,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\qt.py.bak": {
-        "timeDelta": -41262298.54534006,
-        "creationDate": 1673347156.54534,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\picker.cpython-37.pyc": {
-        "timeDelta": -22636476.48086834,
-        "creationDate": 1673347156.4808683,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Triangles.png": {
-        "timeDelta": -21923033.8103137,
-        "creationDate": 1673347156.8103137,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\moveMyObjects.py": {
-        "timeDelta": -22592740.523425817,
-        "creationDate": 1673347156.5234258,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_select.xpm": {
-        "timeDelta": -458961676.8265147,
-        "creationDate": 1673347156.8265147,
-        "modificationDate": 1214385480.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\pointOnMesh.cpython-37.pyc": {
-        "timeDelta": -22592462.76722932,
-        "creationDate": 1673347156.7672293,
-        "modificationDate": 1650754694.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\ui.py": {
-        "timeDelta": -22592740.54534006,
-        "creationDate": 1673347156.54534,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\lock-non-interactive.png": {
-        "timeDelta": -22843502.433282614,
-        "creationDate": 1673347156.4332826,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\preference.cpython-37.pyc": {
-        "timeDelta": -22636476.48188114,
-        "creationDate": 1673347156.4818811,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Harmonious_Triangles.png": {
-        "timeDelta": -21923033.81129837,
-        "creationDate": 1673347156.8112984,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\moveMyObjects.py.bak": {
-        "timeDelta": -41262298.524422884,
-        "creationDate": 1673347156.524423,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_timeline.xpm": {
-        "timeDelta": -399720490.8265147,
-        "creationDate": 1673347156.8265147,
-        "modificationDate": 1273626666.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\renameIt.cpython-37.pyc": {
-        "timeDelta": -22592460.76825738,
-        "creationDate": 1673347156.7682574,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\ui.py.bak": {
-        "timeDelta": -41262298.54738879,
-        "creationDate": 1673347156.5473888,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-delete.png": {
-        "timeDelta": -22843502.434304,
-        "creationDate": 1673347156.434304,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pickleAttr.py": {
-        "timeDelta": -22592740.525393486,
-        "creationDate": 1673347156.5253935,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\qtutils.cpython-37.pyc": {
-        "timeDelta": -22636476.48188114,
-        "creationDate": 1673347156.4818811,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Leading_Lines.png": {
-        "timeDelta": -21923033.812785387,
-        "creationDate": 1673347156.8127854,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\quick.cpython-37.pyc": {
-        "timeDelta": -22636476.482863188,
-        "creationDate": 1673347156.4828632,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\selectedAttributes.cpython-37.pyc": {
-        "timeDelta": -22592460.769736767,
-        "creationDate": 1673347156.7697368,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pickleAttr.py.bak": {
-        "timeDelta": -41262298.526417494,
-        "creationDate": 1673347156.5264175,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-edit.png": {
-        "timeDelta": -22843502.435277224,
-        "creationDate": 1673347156.4352772,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__init__.py": {
-        "timeDelta": -41262298.548407316,
-        "creationDate": 1673347156.5484073,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Rule_of_Thirds.png": {
-        "timeDelta": -21923033.813812256,
-        "creationDate": 1673347156.8138123,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\references.cpython-37.pyc": {
-        "timeDelta": -22636476.483860493,
-        "creationDate": 1673347156.4838605,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pointOnMesh.py": {
-        "timeDelta": -22592740.527415276,
-        "creationDate": 1673347156.5274153,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\slideAnimationKeys.cpython-37.pyc": {
-        "timeDelta": -22592460.77073407,
-        "creationDate": 1673347156.770734,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-export.png": {
-        "timeDelta": -22843502.435277224,
-        "creationDate": 1673347156.4352772,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Triangle.png": {
-        "timeDelta": -21923033.814718008,
-        "creationDate": 1673347156.814718,
-        "modificationDate": 1651424123.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pointOnMesh.py.bak": {
-        "timeDelta": -41262298.52841282,
-        "creationDate": 1673347156.5284128,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\slideAnimationKeysUI.cpython-37.pyc": {
-        "timeDelta": -22592382.77173376,
-        "creationDate": 1673347156.7717338,
-        "modificationDate": 1650754774.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\scenedata.cpython-37.pyc": {
-        "timeDelta": -22636476.484871387,
-        "creationDate": 1673347156.4848714,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-import.png": {
-        "timeDelta": -22843502.43627453,
-        "creationDate": 1673347156.4362745,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\renameIt.py": {
-        "timeDelta": -22592740.529409885,
-        "creationDate": 1673347156.52941,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\zeroSelection.cpython-37.pyc": {
-        "timeDelta": -22592460.772730112,
-        "creationDate": 1673347156.77273,
-        "modificationDate": 1650754696.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\selection.cpython-37.pyc": {
-        "timeDelta": -22636476.485855103,
-        "creationDate": 1673347156.485855,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-new.png": {
-        "timeDelta": -22843502.437297583,
-        "creationDate": 1673347156.4372976,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\renameIt.py.bak": {
-        "timeDelta": -41262298.53040671,
-        "creationDate": 1673347156.5304067,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\templates.cpython-37.pyc": {
-        "timeDelta": -22636476.48688245,
-        "creationDate": 1673347156.4868824,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\movedown.png": {
-        "timeDelta": -22843502.43826914,
-        "creationDate": 1673347156.4382691,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\selectedAttributes.py": {
-        "timeDelta": -22592740.531377316,
-        "creationDate": 1673347156.5313773,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\undo.cpython-37.pyc": {
-        "timeDelta": -22636476.487874746,
-        "creationDate": 1673347156.4878747,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\moveup.png": {
-        "timeDelta": -22843502.43929124,
-        "creationDate": 1673347156.4392912,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\selectedAttributes.py.bak": {
-        "timeDelta": -41262298.531377316,
-        "creationDate": 1673347156.5313773,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\widgets.cpython-37.pyc": {
-        "timeDelta": -22636476.48887062,
-        "creationDate": 1673347156.4888706,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeys.py": {
-        "timeDelta": -22592740.53237462,
-        "creationDate": 1673347156.5323746,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\__init__.cpython-37.pyc": {
-        "timeDelta": -22636476.489868402,
-        "creationDate": 1673347156.4898684,
-        "modificationDate": 1650710680.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\new.png": {
-        "timeDelta": -22843502.440297604,
-        "creationDate": 1673347156.4402976,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeys.py.bak": {
-        "timeDelta": -41262298.53339553,
-        "creationDate": 1673347156.5333955,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\onbottom.png": {
-        "timeDelta": -22843502.44126129,
-        "creationDate": 1673347156.4412613,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeysUI.py": {
-        "timeDelta": -22592740.534369707,
-        "creationDate": 1673347156.5343697,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\ontop.png": {
-        "timeDelta": -22843502.442283392,
-        "creationDate": 1673347156.4422834,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeysUI.py.bak": {
-        "timeDelta": -41262298.535366535,
-        "creationDate": 1673347156.5353665,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\open.png": {
-        "timeDelta": -22843502.4432559,
-        "creationDate": 1673347156.443256,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\zeroSelection.py": {
-        "timeDelta": -22592740.53639245,
-        "creationDate": 1673347156.5363925,
-        "modificationDate": 1650754416.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\paste.png": {
-        "timeDelta": -22843502.4432559,
-        "creationDate": 1673347156.443256,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\zeroSelection.py.bak": {
-        "timeDelta": -41262298.53736138,
-        "creationDate": 1673347156.5373614,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\picker.png": {
-        "timeDelta": -22843502.444253206,
-        "creationDate": 1673347156.4442532,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__init__.py": {
-        "timeDelta": -41262298.53835869,
-        "creationDate": 1673347156.5383587,
-        "modificationDate": 1632084858.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\play.png": {
-        "timeDelta": -22843502.445272684,
-        "creationDate": 1673347156.4452727,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\redo.png": {
-        "timeDelta": -22843502.446247816,
-        "creationDate": 1673347156.4462478,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\reload.png": {
-        "timeDelta": -22843502.447270155,
-        "creationDate": 1673347156.4472702,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\save.png": {
-        "timeDelta": -22843502.448268652,
-        "creationDate": 1673347156.4482687,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\search.png": {
-        "timeDelta": -22843502.449264526,
-        "creationDate": 1673347156.4492645,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\snap.png": {
-        "timeDelta": -22843502.450262308,
-        "creationDate": 1673347156.4502623,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\touch.png": {
-        "timeDelta": -22843502.450648308,
-        "creationDate": 1673347156.4506483,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\undo.png": {
-        "timeDelta": -22843502.45159483,
-        "creationDate": 1673347156.4515948,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\unlink.png": {
-        "timeDelta": -22843502.45259452,
-        "creationDate": 1673347156.4525945,
-        "modificationDate": 1650503654.0
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\v_symmetry.png": {
-        "timeDelta": -22843502.453643084,
-        "creationDate": 1673347156.453643,
-        "modificationDate": 1650503654.0
+    "D:/TRASH2\\aircon02\\input\\aircon02.usd": {
+        "timeDelta": -5358572.9252951145,
+        "creationDate": 1721746988.4407024,
+        "modificationDate": 1716388415.5154073
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5362462.171695232,
+        "creationDate": 1721746979.6464436,
+        "modificationDate": 1716384517.4747484
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd": {
+        "timeDelta": -5358587.272215843,
+        "creationDate": 1721746980.0289156,
+        "modificationDate": 1716388392.7566998
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5362462.034483671,
+        "creationDate": 1721746979.652455,
+        "modificationDate": 1716384517.6179714
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5358638.422596455,
+        "creationDate": 1721746980.0299132,
+        "modificationDate": 1716388341.6073167
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5362462.231319904,
+        "creationDate": 1721746979.6785343,
+        "modificationDate": 1716384517.4472144
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5358637.644159555,
+        "creationDate": 1721746980.048862,
+        "modificationDate": 1716388342.4047024
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp": {
+        "timeDelta": -5876989.7934651375,
+        "creationDate": 1721746994.145589,
+        "modificationDate": 1715870004.352124
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1002.tif": {
+        "timeDelta": -5362462.085660696,
+        "creationDate": 1721746979.725574,
+        "modificationDate": 1716384517.6399133
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5358638.79192853,
+        "creationDate": 1721746980.0598328,
+        "modificationDate": 1716388341.2679043
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp": {
+        "timeDelta": -5877919.4414970875,
+        "creationDate": 1721746995.5005927,
+        "modificationDate": 1715869076.0590956
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5362462.584086895,
+        "creationDate": 1721746979.7455168,
+        "modificationDate": 1716384517.16143
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1002.tif": {
+        "timeDelta": -5358638.221997023,
+        "creationDate": 1721746980.064819,
+        "modificationDate": 1716388341.842822
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp": {
+        "timeDelta": -5818274.347380638,
+        "creationDate": 1721746996.4936206,
+        "modificationDate": 1715928722.14624
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": {
+        "timeDelta": -5362462.330615044,
+        "creationDate": 1721746979.7758348,
+        "modificationDate": 1716384517.4452198
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5358639.449903727,
+        "creationDate": 1721746980.0688086,
+        "modificationDate": 1716388340.6189048
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp": {
+        "timeDelta": -5545140.720912218,
+        "creationDate": 1721746998.270888,
+        "modificationDate": 1716201857.5499759
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5362462.14964056,
+        "creationDate": 1721746979.8214717,
+        "modificationDate": 1716384517.6718311
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": {
+        "timeDelta": -5358638.569818974,
+        "creationDate": 1721746980.0708039,
+        "modificationDate": 1716388341.500985
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp": {
+        "timeDelta": -5873854.277006149,
+        "creationDate": 1721746999.8037794,
+        "modificationDate": 1715873145.5267732
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": -5362462.11605382,
+        "creationDate": 1721746979.9162178,
+        "modificationDate": 1716384517.800164
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5358637.697003365,
+        "creationDate": 1721746980.0737956,
+        "modificationDate": 1716388342.3767922
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp": {
+        "timeDelta": -5874146.433756113,
+        "creationDate": 1721747002.0666938,
+        "modificationDate": 1715872855.6329377
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5362462.796675205,
+        "creationDate": 1721746979.9920144,
+        "modificationDate": 1716384517.1953392
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": -5358637.363445997,
+        "creationDate": 1721746980.1206703,
+        "modificationDate": 1716388342.7572243
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp": {
+        "timeDelta": -5795497.165555477,
+        "creationDate": 1721747003.9865873,
+        "modificationDate": 1715951506.8210318
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5362462.541202545,
+        "creationDate": 1721746980.0109637,
+        "modificationDate": 1716384517.4697611
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5358639.382055998,
+        "creationDate": 1721746980.1326382,
+        "modificationDate": 1716388340.7505822
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp": {
+        "timeDelta": -5550179.062240839,
+        "creationDate": 1721747005.0237746,
+        "modificationDate": 1716196825.9615338
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5358638.59715867,
+        "creationDate": 1721746980.1356301,
+        "modificationDate": 1716388341.5384715
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp": {
+        "timeDelta": -5550391.552125692,
+        "creationDate": 1721747015.3824098,
+        "modificationDate": 1716196623.830284
+    },
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp": {
+        "timeDelta": -5353176.169891357,
+        "creationDate": 1721746980.1396194,
+        "modificationDate": 1716393803.969728
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp": {
+        "timeDelta": -5552233.152731419,
+        "creationDate": 1721747025.0011525,
+        "modificationDate": 1716194791.848421
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angbed_mod.usd": {
+        "timeDelta": -5880554.713226318,
+        "creationDate": 1721747036.2599983,
+        "modificationDate": 1715866481.546772
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angbed_realmod.usd": {
+        "timeDelta": -5880042.370597124,
+        "creationDate": 1721747036.2699718,
+        "modificationDate": 1715866993.8993747
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angcarpet_mod.usd": {
+        "timeDelta": -5819266.785575867,
+        "creationDate": 1721747036.448493,
+        "modificationDate": 1715927769.6629171
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angDoor_mod.usd": {
+        "timeDelta": -5549954.166372776,
+        "creationDate": 1721747037.173587,
+        "modificationDate": 1716197083.0072143
+    },
+    "D:/TRASH2\\ang\\substance\\input\\anglamp.usd": {
+        "timeDelta": -5815108.747127533,
+        "creationDate": 1721747037.2184315,
+        "modificationDate": 1715931928.471304
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angmirror_mod.usd": {
+        "timeDelta": -5877041.209420204,
+        "creationDate": 1721747038.384309,
+        "modificationDate": 1715869997.1748888
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angnighttable.mtl": {
+        "timeDelta": -5807709.714103699,
+        "creationDate": 1721747038.4002652,
+        "modificationDate": 1715939328.6861615
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angnighttable.usd": {
+        "timeDelta": -5807663.26120615,
+        "creationDate": 1721747039.0336003,
+        "modificationDate": 1715939375.7723942
+    },
+    "D:/TRASH2\\ang\\substance\\input\\angWalls_mod.usd": {
+        "timeDelta": -5794304.384683132,
+        "creationDate": 1721747039.7865524,
+        "modificationDate": 1715952735.4018693
+    },
+    "D:/TRASH2\\ang\\substance\\input\\vintage-art-deco-seamless-pattern-600nw-744426328.webp": {
+        "timeDelta": -5794581.346591473,
+        "creationDate": 1721747039.9321666,
+        "modificationDate": 1715952458.585575
+    },
+    "D:/TRASH2\\bread\\input\\bread.usd": {
+        "timeDelta": -4319138.713499308,
+        "creationDate": 1721747095.9169033,
+        "modificationDate": 1717427957.203404
+    },
+    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.mtl": {
+        "timeDelta": -4320076.75598979,
+        "creationDate": 1721747096.5901313,
+        "modificationDate": 1717427019.8341415
+    },
+    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.obj": {
+        "timeDelta": -4320076.811833382,
+        "creationDate": 1721747096.6469753,
+        "modificationDate": 1717427019.835142
+    },
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.assbin": {
+        "timeDelta": -4319946.545024872,
+        "creationDate": 1721747097.8587286,
+        "modificationDate": 1717427151.3137038
+    },
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.obj": {
+        "timeDelta": -4320213.079667091,
+        "creationDate": 1721747099.1141422,
+        "modificationDate": 1717426886.034475
+    },
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.assbin": {
+        "timeDelta": -4154532.1976497173,
+        "creationDate": 1721747108.2285304,
+        "modificationDate": 1717592576.0308807
+    },
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl": {
+        "timeDelta": -4166718.4373397827,
+        "creationDate": 1721747111.6054587,
+        "modificationDate": 1717580393.168119
+    },
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj": {
+        "timeDelta": -4166718.491195202,
+        "creationDate": 1721747111.655325,
+        "modificationDate": 1717580393.1641297
+    },
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5358239.496343851,
+        "creationDate": 1721746988.9712822,
+        "modificationDate": 1716388749.4749384
+    },
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5358242.736109018,
+        "creationDate": 1721746992.1969795,
+        "modificationDate": 1716388749.4608705
+    },
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5358243.243391991,
+        "creationDate": 1721746992.2684743,
+        "modificationDate": 1716388749.0250823
+    },
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5358243.6861412525,
+        "creationDate": 1721746993.5903606,
+        "modificationDate": 1716388749.9042194
+    },
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5358244.626660824,
+        "creationDate": 1721746993.6023269,
+        "modificationDate": 1716388748.975666
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json": {
+        "timeDelta": -5794891.881914377,
+        "creationDate": 1721747039.9391444,
+        "modificationDate": 1715952148.05723
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg": {
+        "timeDelta": -5794902.406564474,
+        "creationDate": 1721747049.897833,
+        "modificationDate": 1715952147.4912686
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg": {
+        "timeDelta": -5794888.5488266945,
+        "creationDate": 1721747040.5696652,
+        "modificationDate": 1715952152.0208385
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg": {
+        "timeDelta": -5794893.301391125,
+        "creationDate": 1721747042.6023107,
+        "modificationDate": 1715952149.3009195
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr": {
+        "timeDelta": -5794887.187144518,
+        "creationDate": 1721747042.9619899,
+        "modificationDate": 1715952155.7748454
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg": {
+        "timeDelta": -5794897.242196083,
+        "creationDate": 1721747046.6979537,
+        "modificationDate": 1715952149.4557576
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg": {
+        "timeDelta": -5794894.489086151,
+        "creationDate": 1721747047.4306517,
+        "modificationDate": 1715952152.9415655
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg": {
+        "timeDelta": -5794894.902797461,
+        "creationDate": 1721747048.4942377,
+        "modificationDate": 1715952153.5914402
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png": {
+        "timeDelta": -5794902.389156342,
+        "creationDate": 1721747049.8569396,
+        "modificationDate": 1715952147.4677832
+    },
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19885520.934651613,
+        "creationDate": 1721747201.6970606,
+        "modificationDate": 1701861680.762409
+    },
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
+        "timeDelta": -19885455.76816511,
+        "creationDate": 1721747201.7578778,
+        "modificationDate": 1701861745.9897127
+    },
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19885522.619116306,
+        "creationDate": 1721747203.5131772,
+        "modificationDate": 1701861680.8940609
+    },
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19885522.30398035,
+        "creationDate": 1721747204.355947,
+        "modificationDate": 1701861682.0519667
+    },
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19885523.75906253,
+        "creationDate": 1721747204.8924825,
+        "modificationDate": 1701861681.13342
+    },
+    "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg": {
+        "timeDelta": -4319756.444715977,
+        "creationDate": 1721747114.870713,
+        "modificationDate": 1717427358.425997
+    },
+    "D:/TRASH2\\bread\\input\\textures\\360_F_40524560_yTpTQxidzZior4laEOc4p3EHbXbgN4JB.jpg": {
+        "timeDelta": -4248783.720751047,
+        "creationDate": 1721747114.9525669,
+        "modificationDate": 1717498331.2318158
+    },
+    "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg": {
+        "timeDelta": -4248790.27682209,
+        "creationDate": 1721747114.989395,
+        "modificationDate": 1717498324.7125728
+    },
+    "D:/TRASH2\\bread\\input\\textures\\360_F_49146307_H9Xw7JEQGimKfTvWcSRu8CDtQbsOu8z2.jpg": {
+        "timeDelta": -4319796.109269857,
+        "creationDate": 1721747116.3088908,
+        "modificationDate": 1717427320.199621
+    },
+    "D:/TRASH2\\bread\\input\\textures\\360_F_627039124_rbOEPYqSXiU1AD7uOttXcjADISPlcBxp.jpg": {
+        "timeDelta": -4319790.736683607,
+        "creationDate": 1721747116.3348203,
+        "modificationDate": 1717427325.5981367
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg": {
+        "timeDelta": -5794885.467493534,
+        "creationDate": 1721747050.4922392,
+        "modificationDate": 1715952165.0247457
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg": {
+        "timeDelta": -5794885.661849499,
+        "creationDate": 1721747050.907132,
+        "modificationDate": 1715952165.2452824
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Displacement.jpg": {
+        "timeDelta": -5794886.084661245,
+        "creationDate": 1721747051.575309,
+        "modificationDate": 1715952165.4906478
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg": {
+        "timeDelta": -5794886.544267893,
+        "creationDate": 1721747052.3153274,
+        "modificationDate": 1715952165.7710595
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg": {
+        "timeDelta": -5794886.933802128,
+        "creationDate": 1721747052.6843667,
+        "modificationDate": 1715952165.7505646
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": {
+        "timeDelta": -5794889.276045561,
+        "creationDate": 1721747052.7122648,
+        "modificationDate": 1715952163.4362192
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": {
+        "timeDelta": -5794888.966566801,
+        "creationDate": 1721747052.7531552,
+        "modificationDate": 1715952163.7865884
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": {
+        "timeDelta": -5794888.96300292,
+        "creationDate": 1721747053.1311712,
+        "modificationDate": 1715952164.1681683
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": {
+        "timeDelta": -5794888.441482544,
+        "creationDate": 1721747053.1830387,
+        "modificationDate": 1715952164.7415562
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": {
+        "timeDelta": -5794888.61806345,
+        "creationDate": 1721747053.2319014,
+        "modificationDate": 1715952164.613838
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": {
+        "timeDelta": -5794893.6810622215,
+        "creationDate": 1721747053.2518196,
+        "modificationDate": 1715952159.5707574
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -4150700.741009474,
+        "creationDate": 1721747119.3437598,
+        "modificationDate": 1717596418.6027503
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -4313274.159556389,
+        "creationDate": 1721747117.6074111,
+        "modificationDate": 1717433843.4478548
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -4150589.979933262,
+        "creationDate": 1721747123.6402242,
+        "modificationDate": 1717596533.660291
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": {
+        "timeDelta": -5794892.942053318,
+        "creationDate": 1721747053.3565662,
+        "modificationDate": 1715952160.4145129
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -4150701.4156229496,
+        "creationDate": 1721747119.799511,
+        "modificationDate": 1717596418.383888
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -4313274.637328863,
+        "creationDate": 1721747117.9544537,
+        "modificationDate": 1717433843.3171248
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -4150591.215393305,
+        "creationDate": 1721747124.715376,
+        "modificationDate": 1717596533.4999826
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": {
+        "timeDelta": -5794892.09474349,
+        "creationDate": 1721747053.4144106,
+        "modificationDate": 1715952161.319667
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -4150702.9886848927,
+        "creationDate": 1721747120.190465,
+        "modificationDate": 1717596417.20178
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -4313275.171563387,
+        "creationDate": 1721747118.0801163,
+        "modificationDate": 1717433842.908553
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -4150592.416810751,
+        "creationDate": 1721747125.2349815,
+        "modificationDate": 1717596532.8181708
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": {
+        "timeDelta": -5794890.697133303,
+        "creationDate": 1721747053.5729601,
+        "modificationDate": 1715952162.8758268
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -4150701.31473732,
+        "creationDate": 1721747120.20742,
+        "modificationDate": 1717596418.8926828
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -4313274.492425442,
+        "creationDate": 1721747118.1908205,
+        "modificationDate": 1717433843.698395
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -4150591.0508344173,
+        "creationDate": 1721747125.2499144,
+        "modificationDate": 1717596534.19908
+    },
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": {
+        "timeDelta": -5794891.420059681,
+        "creationDate": 1721747053.9619184,
+        "modificationDate": 1715952162.5418587
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -4313275.656330347,
+        "creationDate": 1721747118.6117258,
+        "modificationDate": 1717433842.9553955
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -4150703.1721773148,
+        "creationDate": 1721747120.5734665,
+        "modificationDate": 1717596417.4012892
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -4150592.89102602,
+        "creationDate": 1721747125.770544,
+        "modificationDate": 1717596532.879518
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -4166309.0410203934,
+        "creationDate": 1721747120.799862,
+        "modificationDate": 1717580811.7588415
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -4166309.4415786266,
+        "creationDate": 1721747121.1220083,
+        "modificationDate": 1717580811.6804297
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -4166310.3127729893,
+        "creationDate": 1721747121.4311724,
+        "modificationDate": 1717580811.1183994
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -4166309.6856172085,
+        "creationDate": 1721747121.7353268,
+        "modificationDate": 1717580812.0497096
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -4166312.126870632,
+        "creationDate": 1721747123.3260944,
+        "modificationDate": 1717580811.1992238
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -4149312.0313162804,
+        "creationDate": 1721747126.3768945,
+        "modificationDate": 1717597814.3455782
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -4149312.493167162,
+        "creationDate": 1721747126.7200053,
+        "modificationDate": 1717597814.226838
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -4149313.1624131203,
+        "creationDate": 1721747126.9104674,
+        "modificationDate": 1717597813.7480543
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -4149312.3167004585,
+        "creationDate": 1721747126.9623654,
+        "modificationDate": 1717597814.645665
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -4149314.153758049,
+        "creationDate": 1721747127.9606526,
+        "modificationDate": 1717597813.8068945
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -4145641.961475849,
+        "creationDate": 1721747128.0364504,
+        "modificationDate": 1717601486.0749745
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -4145643.4046108723,
+        "creationDate": 1721747129.346968,
+        "modificationDate": 1717601485.942357
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -4145644.044233322,
+        "creationDate": 1721747129.4945757,
+        "modificationDate": 1717601485.4503424
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -4145643.129372835,
+        "creationDate": 1721747129.5065405,
+        "modificationDate": 1717601486.3771677
+    },
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -4145644.6376399994,
+        "creationDate": 1721747130.1707613,
+        "modificationDate": 1717601485.5331213
+    },
+    "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp": {
+        "timeDelta": -4231324.880818367,
+        "creationDate": 1721747130.2704992,
+        "modificationDate": 1717515805.3896809
+    },
+    "D:/TRASH2\\bread\\output\\substance_mask\\bread_holes_mask.1001.bmp": {
+        "timeDelta": -4255695.776377916,
+        "creationDate": 1721747130.570662,
+        "modificationDate": 1717491434.794284
+    },
+    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.1001.bmp": {
+        "timeDelta": -4146033.8844337463,
+        "creationDate": 1721747130.7631476,
+        "modificationDate": 1717601096.8787138
+    },
+    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.bmp": {
+        "timeDelta": -4146390.8531706333,
+        "creationDate": 1721747131.315667,
+        "modificationDate": 1717600740.4624963
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19798757.726619482,
+        "creationDate": 1721747205.2395804,
+        "modificationDate": 1701948447.512961
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19791512.308058023,
+        "creationDate": 1721747205.5975938,
+        "modificationDate": 1701955693.2895358
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19784077.327323675,
+        "creationDate": 1721747206.43934,
+        "modificationDate": 1701963129.1120164
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19806780.310525656,
+        "creationDate": 1721747207.957274,
+        "modificationDate": 1701940427.6467483
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
+        "timeDelta": -19806765.542800426,
+        "creationDate": 1721747209.5091414,
+        "modificationDate": 1701940443.966341
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19806782.224388123,
+        "creationDate": 1721747212.7584143,
+        "modificationDate": 1701940430.5340261
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "timeDelta": -19806788.031854153,
+        "creationDate": 1721747212.9209793,
+        "modificationDate": 1701940424.889125
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "timeDelta": -19806785.307131767,
+        "creationDate": 1721747213.6191337,
+        "modificationDate": 1701940428.312002
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19806781.288885593,
+        "creationDate": 1721747213.955209,
+        "modificationDate": 1701940432.6663234
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "timeDelta": -19806776.285049915,
+        "creationDate": 1721747216.1014903,
+        "modificationDate": 1701940439.8164403
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19806786.80811405,
+        "creationDate": 1721747217.6174357,
+        "modificationDate": 1701940430.8093216
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19805543.96928072,
+        "creationDate": 1721747218.9368668,
+        "modificationDate": 1701941674.967586
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19805527.11009264,
+        "creationDate": 1721747219.5861578,
+        "modificationDate": 1701941692.4760652
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19805542.166196823,
+        "creationDate": 1721747220.1645784,
+        "modificationDate": 1701941677.9983816
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "timeDelta": -19805548.44973612,
+        "creationDate": 1721747220.3500814,
+        "modificationDate": 1701941671.9003453
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "timeDelta": -19805544.915911674,
+        "creationDate": 1721747220.5595207,
+        "modificationDate": 1701941675.643609
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19805541.70224309,
+        "creationDate": 1721747221.8869958,
+        "modificationDate": 1701941680.1847527
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "timeDelta": -19805537.01288271,
+        "creationDate": 1721747223.992327,
+        "modificationDate": 1701941686.9794443
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19805547.369626284,
+        "creationDate": 1721747225.6539428,
+        "modificationDate": 1701941678.2843165
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19798963.45942068,
+        "creationDate": 1721747226.0638025,
+        "modificationDate": 1701948262.6043818
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19798944.40940976,
+        "creationDate": 1721747226.9394333,
+        "modificationDate": 1701948282.5300236
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19798964.437093496,
+        "creationDate": 1721747228.3167436,
+        "modificationDate": 1701948263.87965
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "timeDelta": -19798968.88378501,
+        "creationDate": 1721747228.956032,
+        "modificationDate": 1701948260.072247
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "timeDelta": -19798966.31386304,
+        "creationDate": 1721747229.6481783,
+        "modificationDate": 1701948263.3343153
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19798962.151765108,
+        "creationDate": 1721747229.8915262,
+        "modificationDate": 1701948267.739761
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "timeDelta": -19798957.47453046,
+        "creationDate": 1721747231.0404491,
+        "modificationDate": 1701948273.5659187
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19798966.63838911,
+        "creationDate": 1721747232.037778,
+        "modificationDate": 1701948265.3993888
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19791744.55135846,
+        "creationDate": 1721747232.869551,
+        "modificationDate": 1701955488.3181925
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19791732.169472694,
+        "creationDate": 1721747234.2647376,
+        "modificationDate": 1701955502.095265
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19791747.27188468,
+        "creationDate": 1721747235.1357956,
+        "modificationDate": 1701955487.863911
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "timeDelta": -19791749.475033045,
+        "creationDate": 1721747235.392155,
+        "modificationDate": 1701955485.917122
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "timeDelta": -19791746.51873398,
+        "creationDate": 1721747235.5961063,
+        "modificationDate": 1701955489.0773723
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19791740.503075838,
+        "creationDate": 1721747235.9234333,
+        "modificationDate": 1701955495.4203575
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "timeDelta": -19791738.97785425,
+        "creationDate": 1721747238.379262,
+        "modificationDate": 1701955499.4014077
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19791750.688254833,
+        "creationDate": 1721747240.118605,
+        "modificationDate": 1701955489.43035
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19790946.325053692,
+        "creationDate": 1721747240.3799038,
+        "modificationDate": 1701956294.05485
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19790928.267130375,
+        "creationDate": 1721747241.0391383,
+        "modificationDate": 1701956312.772008
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19790944.63629031,
+        "creationDate": 1721747241.485944,
+        "modificationDate": 1701956296.8496537
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "timeDelta": -19790950.303100348,
+        "creationDate": 1721747241.8280258,
+        "modificationDate": 1701956291.5249255
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "timeDelta": -19790947.21452689,
+        "creationDate": 1721747242.7176433,
+        "modificationDate": 1701956295.5031164
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19790942.51334524,
+        "creationDate": 1721747243.0278127,
+        "modificationDate": 1701956300.5144675
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "timeDelta": -19790939.28130102,
+        "creationDate": 1721747244.5457478,
+        "modificationDate": 1701956305.2644467
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19790950.396831036,
+        "creationDate": 1721747246.6880121,
+        "modificationDate": 1701956296.291181
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19788520.90735221,
+        "creationDate": 1721747246.8007088,
+        "modificationDate": 1701958725.8933566
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "timeDelta": -19787113.792925358,
+        "creationDate": 1721747248.0134625,
+        "modificationDate": 1701960134.2205372
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19787108.45616746,
+        "creationDate": 1721747250.0380394,
+        "modificationDate": 1701960141.581872
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "timeDelta": -19787118.472398996,
+        "creationDate": 1721747250.537702,
+        "modificationDate": 1701960132.065303
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "timeDelta": -19787119.081796408,
+        "creationDate": 1721747250.8977673,
+        "modificationDate": 1701960131.815971
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "timeDelta": -19787116.147643328,
+        "creationDate": 1721747251.1281476,
+        "modificationDate": 1701960134.9805043
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "timeDelta": -19787111.553970337,
+        "creationDate": 1721747251.9978857,
+        "modificationDate": 1701960140.4439154
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "timeDelta": -19787110.204508066,
+        "creationDate": 1721747253.113802,
+        "modificationDate": 1701960142.909294
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "timeDelta": -19787122.92854309,
+        "creationDate": 1721747255.1075704,
+        "modificationDate": 1701960132.1790273
+    },
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "timeDelta": -19784452.088357687,
+        "creationDate": 1721747255.197889,
+        "modificationDate": 1701962803.1095314
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5880914.729595184,
+        "creationDate": 1721747054.1464236,
+        "modificationDate": 1715866139.4168284
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5880914.655286789,
+        "creationDate": 1721747054.3109837,
+        "modificationDate": 1715866139.6556969
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1003.tif": {
+        "timeDelta": -5880914.6298244,
+        "creationDate": 1721747054.5563498,
+        "modificationDate": 1715866139.9265254
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1004.tif": {
+        "timeDelta": -5880914.672083855,
+        "creationDate": 1721747054.8560586,
+        "modificationDate": 1715866140.1839747
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": -5880916.2311992645,
+        "creationDate": 1721747055.633064,
+        "modificationDate": 1715866139.4018648
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1002.tif": {
+        "timeDelta": -5880916.0656096935,
+        "creationDate": 1721747055.7477746,
+        "modificationDate": 1715866139.682165
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1003.tif": {
+        "timeDelta": -5880915.847162962,
+        "creationDate": 1721747055.7926378,
+        "modificationDate": 1715866139.9454749
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1004.tif": {
+        "timeDelta": -5880915.32683444,
+        "creationDate": 1721747055.8494842,
+        "modificationDate": 1715866140.5226498
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5880916.482015133,
+        "creationDate": 1721747055.9911048,
+        "modificationDate": 1715866139.5090897
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": -5880916.414656162,
+        "creationDate": 1721747056.2244804,
+        "modificationDate": 1715866139.8098242
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1003.tif": {
+        "timeDelta": -5880916.504498482,
+        "creationDate": 1721747056.5675893,
+        "modificationDate": 1715866140.0630908
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1004.tif": {
+        "timeDelta": -5880916.239977598,
+        "creationDate": 1721747056.9076514,
+        "modificationDate": 1715866140.6676738
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5880917.685305357,
+        "creationDate": 1721747057.0333142,
+        "modificationDate": 1715866139.3480089
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5880917.658891678,
+        "creationDate": 1721747057.243778,
+        "modificationDate": 1715866139.5848863
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1003.tif": {
+        "timeDelta": -5880918.090198755,
+        "creationDate": 1721747057.950886,
+        "modificationDate": 1715866139.8606873
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1004.tif": {
+        "timeDelta": -5880917.9620604515,
+        "creationDate": 1721747058.0974634,
+        "modificationDate": 1715866140.135403
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5880918.738512754,
+        "creationDate": 1721747058.1294072,
+        "modificationDate": 1715866139.3908944
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5880918.817786932,
+        "creationDate": 1721747058.4834573,
+        "modificationDate": 1715866139.6656704
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1003.tif": {
+        "timeDelta": -5880918.609790325,
+        "creationDate": 1721747058.5432975,
+        "modificationDate": 1715866139.9335072
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1004.tif": {
+        "timeDelta": -5880918.07148242,
+        "creationDate": 1721747058.5881498,
+        "modificationDate": 1715866140.5166674
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": {
+        "timeDelta": -5879753.819731474,
+        "creationDate": 1721747058.610091,
+        "modificationDate": 1715867304.7903595
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Displacement_Utility - Raw.png": {
+        "timeDelta": -5879754.079573631,
+        "creationDate": 1721747058.7227893,
+        "modificationDate": 1715867304.6432157
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Normal_Utility - Raw.png": {
+        "timeDelta": -5879753.887795687,
+        "creationDate": 1721747058.8394766,
+        "modificationDate": 1715867304.951681
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": {
+        "timeDelta": -5879754.29000926,
+        "creationDate": 1721747058.8773754,
+        "modificationDate": 1715867304.587366
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": {
+        "timeDelta": -5879754.418694019,
+        "creationDate": 1721747059.04296,
+        "modificationDate": 1715867304.624266
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": {
+        "timeDelta": -5879420.633433819,
+        "creationDate": 1721747059.084819,
+        "modificationDate": 1715867638.4513853
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Displacement_Utility - Raw.png": {
+        "timeDelta": -5879420.953577518,
+        "creationDate": 1721747059.325176,
+        "modificationDate": 1715867638.3715985
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Normal_Utility - Raw.png": {
+        "timeDelta": -5879420.751147747,
+        "creationDate": 1721747059.4329145,
+        "modificationDate": 1715867638.6817667
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": {
+        "timeDelta": -5879421.178972483,
+        "creationDate": 1721747059.5017023,
+        "modificationDate": 1715867638.3227298
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": {
+        "timeDelta": -5879421.239839315,
+        "creationDate": 1721747059.5944836,
+        "modificationDate": 1715867638.3546443
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5818346.09692049,
+        "creationDate": 1721747059.6273947,
+        "modificationDate": 1715928713.5304742
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": -5818346.027160883,
+        "creationDate": 1721747059.7740016,
+        "modificationDate": 1715928713.7468407
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5818345.964312315,
+        "creationDate": 1721747059.8258638,
+        "modificationDate": 1715928713.8615515
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5818346.43199563,
+        "creationDate": 1721747059.9574833,
+        "modificationDate": 1715928713.5254877
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5818346.287839413,
+        "creationDate": 1721747059.9694507,
+        "modificationDate": 1715928713.6816113
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5548586.474386692,
+        "creationDate": 1721747059.981418,
+        "modificationDate": 1716198473.5070312
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5548586.698817015,
+        "creationDate": 1721747060.086137,
+        "modificationDate": 1716198473.38732
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5548586.896523476,
+        "creationDate": 1721747060.1569474,
+        "modificationDate": 1716198473.260424
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5548586.555761814,
+        "creationDate": 1721747060.2198138,
+        "modificationDate": 1716198473.664052
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5548587.004262686,
+        "creationDate": 1721747060.311561,
+        "modificationDate": 1716198473.3072984
+    },
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5814574.46495986,
+        "creationDate": 1721747060.341484,
+        "modificationDate": 1715932485.8765242
+    },
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5814574.487396479,
+        "creationDate": 1721747060.3943448,
+        "modificationDate": 1715932485.9069483
+    },
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5814574.728780508,
+        "creationDate": 1721747060.4950426,
+        "modificationDate": 1715932485.766262
+    },
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5814574.666882753,
+        "creationDate": 1721747060.6446419,
+        "modificationDate": 1715932485.9777591
+    },
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5814574.900337696,
+        "creationDate": 1721747060.707491,
+        "modificationDate": 1715932485.8071532
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5875928.346059799,
+        "creationDate": 1721747060.8241882,
+        "modificationDate": 1715871132.4781284
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5875928.25700593,
+        "creationDate": 1721747060.8740582,
+        "modificationDate": 1715871132.6170523
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5875963.339412689,
+        "creationDate": 1721747060.9249158,
+        "modificationDate": 1715871097.585503
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5875963.186748028,
+        "creationDate": 1721747060.9937322,
+        "modificationDate": 1715871097.8069842
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": -5875963.370771408,
+        "creationDate": 1721747061.0415788,
+        "modificationDate": 1715871097.6708074
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1002.tif": {
+        "timeDelta": -5875963.170856714,
+        "creationDate": 1721747061.0944374,
+        "modificationDate": 1715871097.9235806
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5875928.631589413,
+        "creationDate": 1721747061.1353545,
+        "modificationDate": 1715871132.503765
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1002.tif": {
+        "timeDelta": -5875928.545236111,
+        "creationDate": 1721747061.1971953,
+        "modificationDate": 1715871132.6519592
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5875928.828741312,
+        "creationDate": 1721747061.2530124,
+        "modificationDate": 1715871132.424271
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1002.tif": {
+        "timeDelta": -5875928.729732037,
+        "creationDate": 1721747061.3009076,
+        "modificationDate": 1715871132.5711756
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5875928.730706215,
+        "creationDate": 1721747061.312852,
+        "modificationDate": 1715871132.5821457
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": -5875928.597364426,
+        "creationDate": 1721747061.3328257,
+        "modificationDate": 1715871132.7354612
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5875928.897557259,
+        "creationDate": 1721747061.3487568,
+        "modificationDate": 1715871132.4511995
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5875928.793539047,
+        "creationDate": 1721747061.371695,
+        "modificationDate": 1715871132.578156
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5875963.747296095,
+        "creationDate": 1721747061.3876522,
+        "modificationDate": 1715871097.640356
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5875963.513481379,
+        "creationDate": 1721747061.3976252,
+        "modificationDate": 1715871097.8841438
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5875963.725820065,
+        "creationDate": 1721747061.4135828,
+        "modificationDate": 1715871097.6877627
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5875963.496908426,
+        "creationDate": 1721747061.4315348,
+        "modificationDate": 1715871097.9346263
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5806929.171052694,
+        "creationDate": 1721747061.4535046,
+        "modificationDate": 1715940132.2824519
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif": {
+        "timeDelta": -5806929.110156059,
+        "creationDate": 1721747061.4834228,
+        "modificationDate": 1715940132.3732667
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Metallic_Utility - Raw.1001.tif": {
+        "timeDelta": -5806929.244827986,
+        "creationDate": 1721747061.4953632,
+        "modificationDate": 1715940132.2505352
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5806929.103173256,
+        "creationDate": 1721747061.546227,
+        "modificationDate": 1715940132.4430537
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Presence_Utility - Raw.1001.tif": {
+        "timeDelta": -5806795.594753027,
+        "creationDate": 1721747061.6619172,
+        "modificationDate": 1715940266.0671642
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5806929.416396141,
+        "creationDate": 1721747061.667929,
+        "modificationDate": 1715940132.2515328
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5793307.291638613,
+        "creationDate": 1721747061.714775,
+        "modificationDate": 1715953754.4231365
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5793307.077104092,
+        "creationDate": 1721747061.802541,
+        "modificationDate": 1715953754.725437
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": -5793307.563937902,
+        "creationDate": 1721747061.97411,
+        "modificationDate": 1715953754.410172
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": {
+        "timeDelta": -5793307.386273146,
+        "creationDate": 1721747062.0448918,
+        "modificationDate": 1715953754.6586187
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5793307.494999886,
+        "creationDate": 1721747062.1266723,
+        "modificationDate": 1715953754.6316724
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": -5793307.517726183,
+        "creationDate": 1721747062.3620753,
+        "modificationDate": 1715953754.8443491
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5793308.263036013,
+        "creationDate": 1721747062.629326,
+        "modificationDate": 1715953754.36629
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5793308.057494402,
+        "creationDate": 1721747062.6871722,
+        "modificationDate": 1715953754.6296778
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5793308.331883907,
+        "creationDate": 1721747062.7380676,
+        "modificationDate": 1715953754.4061837
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5793308.5880723,
+        "creationDate": 1721747063.237724,
+        "modificationDate": 1715953754.6496518
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5555862.453672886,
+        "creationDate": 1721747063.3494277,
+        "modificationDate": 1716191200.8957548
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5555862.239230394,
+        "creationDate": 1721747063.4541442,
+        "modificationDate": 1716191201.2149138
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": {
+        "timeDelta": -5555862.74791646,
+        "creationDate": 1721747063.6296816,
+        "modificationDate": 1716191200.8817651
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": {
+        "timeDelta": -5555862.82661891,
+        "creationDate": 1721747063.9907074,
+        "modificationDate": 1716191201.1640885
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": {
+        "timeDelta": -5555862.980796814,
+        "creationDate": 1721747064.031599,
+        "modificationDate": 1716191201.0508022
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": {
+        "timeDelta": -5555862.805085182,
+        "creationDate": 1721747064.1402793,
+        "modificationDate": 1716191201.335194
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "timeDelta": -5555864.171093941,
+        "creationDate": 1721747065.004987,
+        "modificationDate": 1716191200.833893
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "timeDelta": -5555863.94862771,
+        "creationDate": 1721747065.0508678,
+        "modificationDate": 1716191201.10224
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": {
+        "timeDelta": -5555864.192013741,
+        "creationDate": 1721747065.0628083,
+        "modificationDate": 1716191200.8707945
+    },
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": {
+        "timeDelta": -5555863.928639889,
+        "creationDate": 1721747065.0837524,
+        "modificationDate": 1716191201.1551125
     }
 }

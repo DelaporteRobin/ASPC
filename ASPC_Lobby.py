@@ -7,7 +7,7 @@ from rich.console import Console
 
 
 from textual.app import App, ComposeResult
-from textual.widgets import RadioSet, RadioButton, Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+from textual.widgets import Markdown, RadioSet, RadioButton, Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen 
@@ -54,6 +54,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 		self.manual_scan_data = None
+
+		self.file_dictionnary = {}
+		self.folder_dictionnary = {}
+		self.current_lobby_filelist = []
 
 
 
@@ -125,6 +129,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 								self.listview_files = ListView(id="listview_files")
 								self.listview_files.border_title = "FILE LIST"
 								yield self.listview_files
+
+								self.markdown_file_info = Markdown(id="markdown_file_info")
+								self.markdown_file_info.border_title = "FILE INFO"
+								yield self.markdown_file_info
 					with TabPane("Global Project View"):
 						yield Button("hello world")
 
@@ -151,15 +159,21 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			
 
 
-	"""
+	
 	def on_list_view_selected(self,event:ListView.Selected) -> None:
 		#self.show_message_function("hello world")
 		#get the index of the item selected
-		selection = self.query_one("#listview_files").index
-		test = event.item
-		test.styles.background = "red"
-		#selection.styles.background = "red"
-	"""
+		if event.list_view.id == "listview_files":
+			selection = self.query_one("#listview_files").index
+			self.show_message_function(self.current_lobby_filelist[selection])
+
+			#get all informations about the given file
+			self.create_markdown_for_file_function(self.current_lobby_filelist[selection])
+
+
+
+
+	
 
 
 	def on_option_list_option_selected(self, event: OptionList.OptionHighlighted) -> None:
@@ -176,42 +190,60 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			except:
 				#remove all colors
 				for i in range(len(self.listview_files.children)):
-					self.listview_files.children[i].styles.background = self.color_dictionnary["background"]
+					#self.listview_files.children[i].styles.background = self.color_dictionnary["background"]
+					self.listview_files.children[i].styles.background = self.design["dark"].background
 				self.show_error_function("No file contained in this folder")
 			else:
 				#add the file list to the current file list
 				self.listview_files.clear()
+				self.current_lobby_filelist = []
 				for file in file_list:
-					list_item = ListItem(Label(file))
+					self.current_lobby_filelist.append(file)
+					list_item = ListItem(Label(os.path.basename(file)))
 					self.listview_files.append(list_item)
 
 					if file == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
-						list_item.styles.background = self.color_dictionnary["lightest"]
+						#list_item.styles.background = self.color_dictionnary["lightest"]
+						list_item.styles.background = self.design["dark"].primary
 					if file == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
-						list_item.styles.background = self.color_dictionnary["heaviest"]
+						list_item.styles.background = self.design["dark"].secondary
+						#list_item.styles.background = self.color_dictionnary["heaviest"]
 
-				"""
-				for i in range(len(self.listview_files.children)):
-					if i in index_list:
-						if self.filename_list[i] == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
-							self.listview_files.children[i].styles.background = self.color_dictionnary["heaviest"]
-							self.show_message_function("HEAVIEST")
-						elif self.filename_list[i] == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
-							self.show_message_function("LIGHTEST")
-							self.listview_files.children[i].styles.background = self.color_dictionnary["lightest"]
-						else:
-							self.listview_files.children[i].styles.background = self.color_dictionnary["selected"]
-					else:
-						self.listview_files.children[i].styles.background = self.color_dictionnary["background"]
 
-				"""
+
+
+
+
+	def create_markdown_for_file_function(self, filepath):
+		#check if it possible to get all informations about the given
+		#file in the dictionnary created by the manual scan
+		file_date_data = self.manual_scan_data["GlobalDateData"][filepath]
+		file_size = self.file_dictionnary[filepath]
+		file_size_position = list(self.file_dictionnary.keys()).index(filepath)
+		extension_dictionnary = self.extension_dictionnary[os.path.splitext(filepath)[1]]
+
+		#creation_date = time.localtime(file_date_data["creationDate"])
+		#for key, value in file_date_data.items():
+		#	self.show_message_function("%s : %s"%(key, value))
+
+		creation_date = datetime.fromtimestamp(file_date_data["creationDate"])
+		creation_date_format = "%s/%s/%s"%(creation_date.year, creation_date.month, creation_date.day)
+		self.show_message_function(creation_date_format)
+		#creation_date_format = "%s/%s/%s"%(creation_date.tm_year, creation_date.tm_mon, creation_date.tm_mday)
+		#self.show_message_function(creation_date_format)
+
+		#self.show_message_function("%s : %s"%(filepath, self.file_dictionnary[filepath]))
+
+		
+
+
 			
 
 
 
 
 	def launch_process_function(self):
-		self.root_folder = "D:/TOOLS"
+		self.root_folder = "D:/TRASH2"
 
 		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
@@ -299,8 +331,8 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			"""
 		
 
-		if type(self.manual_scan_data) != None:
-			self.update_list_informations_function()
+			if type(self.manual_scan_data) != None:
+				self.update_list_informations_function()
 
 
 
@@ -314,9 +346,13 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		self.folder_dictionnary = self.manual_scan_data["GlobalFolderData"]
 		self.folder_list = list(self.folder_dictionnary.keys())
 
-		file_dictionnary = self.manual_scan_data["GlobalFileData"]
-		self.filename_list = list(file_dictionnary.keys())
-		self.filesize_list = list(file_dictionnary.values())
+		self.file_dictionnary = self.manual_scan_data["GlobalFileData"]
+		self.filename_list = list(self.file_dictionnary.keys())
+		self.filesize_list = list(self.file_dictionnary.values())
+
+		self.extension_dictionnary = self.manual_scan_data["GlobalExtensionData"]
+
+
 
 
 		#CLEAR OPTIONS

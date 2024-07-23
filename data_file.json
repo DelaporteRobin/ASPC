@@ -1,1037 +1,800 @@
 {
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone.svg": {
-        "fileSize": 1293
+    "D:/TRASH2\\aircon02\\input\\aircon02.usd": {
+        "fileSize": 84506
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone10.svg": {
-        "fileSize": 1391
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd": {
+        "fileSize": 84506
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone11.svg": {
-        "fileSize": 1321
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 18416784
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone12.svg": {
-        "fileSize": 1306
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 11477688
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone13.svg": {
-        "fileSize": 1613
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 70939822
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone14.svg": {
-        "fileSize": 1455
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1001.tif": {
+        "fileSize": 3606508
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone15.svg": {
-        "fileSize": 6676
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 40580368
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone16.svg": {
-        "fileSize": 1475
+    "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp": {
+        "fileSize": 91932905
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\.DS_Store": {
-        "fileSize": 8196
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1002.tif": {
+        "fileSize": 3046040
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone17.svg": {
-        "fileSize": 2453
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13823886
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\.gitattributes": {
-        "fileSize": 66
+    "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp": {
+        "fileSize": 91932905
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone18.svg": {
-        "fileSize": 2208
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 158966
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\ackPushPull.mel": {
-        "fileSize": 3497
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1002.tif": {
+        "fileSize": 11316638
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone19.svg": {
-        "fileSize": 2730
+    "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp": {
+        "fileSize": 79481825
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\arctracker110.mel": {
-        "fileSize": 30652
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": {
+        "fileSize": 1457958
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone2.svg": {
-        "fileSize": 1618
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\autoTangent.mel": {
-        "fileSize": 7382
+    "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp": {
+        "fileSize": 156179612
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone20.svg": {
-        "fileSize": 2538
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 15924046
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\BakeFactory.mel": {
-        "fileSize": 8921
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": {
+        "fileSize": 5297622
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone21.svg": {
-        "fileSize": 1353
+    "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp": {
+        "fileSize": 128522695
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\ml_convertRotationOrder.py": {
-        "fileSize": 12124
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": {
+        "fileSize": 12369076
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone22.svg": {
-        "fileSize": 1543
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 65692342
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\ml_utilities.py": {
-        "fileSize": 78726
+    "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp": {
+        "fileSize": 128522695
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone23.svg": {
-        "fileSize": 5978
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 2634924
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\screenspacer_Script.py": {
-        "fileSize": 7489
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": {
+        "fileSize": 48852552
     },
-    "D:/TOOLS\\Animtools 6.0\\shelves\\shelf_ANIM.mel": {
-        "fileSize": 236133
+    "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp": {
+        "fileSize": 94663807
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone24.png": {
-        "fileSize": 176185
+    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": {
+        "fileSize": 3310210
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\screenspacer_Shelf.py": {
-        "fileSize": 1368
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 10380768
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone24.svg": {
-        "fileSize": 2296
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp": {
+        "fileSize": 779156968
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\svm_tweenMachine_calc.mel": {
-        "fileSize": 18505
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": {
+        "fileSize": 12103246
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone25.svg": {
-        "fileSize": 1612
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp": {
+        "fileSize": 779156968
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\svm_tweenMachine_helpWindow.mel": {
-        "fileSize": 3181
+    "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp": {
+        "fileSize": 624366012
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\favorites.txt": {
-        "fileSize": 0
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp": {
+        "fileSize": 779156968
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone3.svg": {
-        "fileSize": 2603
+    "D:/TRASH2\\ang\\substance\\input\\angbed_mod.usd": {
+        "fileSize": 368625
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\svm_tweenMachine_UI.mel": {
-        "fileSize": 17170
+    "D:/TRASH2\\ang\\substance\\input\\angbed_realmod.usd": {
+        "fileSize": 396676
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\GLX_pipeline_manager_V_1.py": {
-        "fileSize": 52118
+    "D:/TRASH2\\ang\\substance\\input\\angcarpet_mod.usd": {
+        "fileSize": 6786
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone4.svg": {
-        "fileSize": 2296
+    "D:/TRASH2\\ang\\substance\\input\\angDoor_mod.usd": {
+        "fileSize": 92767
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\tweenmachine.py": {
-        "fileSize": 46013
+    "D:/TRASH2\\ang\\substance\\input\\anglamp.usd": {
+        "fileSize": 68750
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\GLX_Shot_Manager_V_1.py": {
-        "fileSize": 52964
+    "D:/TRASH2\\ang\\substance\\input\\angmirror_mod.usd": {
+        "fileSize": 30151
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone5.svg": {
-        "fileSize": 1435
+    "D:/TRASH2\\ang\\substance\\input\\angnighttable.mtl": {
+        "fileSize": 860
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\userSetup.py": {
-        "fileSize": 82
+    "D:/TRASH2\\ang\\substance\\input\\angnighttable.usd": {
+        "fileSize": 117785
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\hub.py": {
-        "fileSize": 2041
+    "D:/TRASH2\\ang\\substance\\input\\angWalls_mod.usd": {
+        "fileSize": 17879
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone6.svg": {
-        "fileSize": 1884
+    "D:/TRASH2\\ang\\substance\\input\\vintage-art-deco-seamless-pattern-600nw-744426328.webp": {
+        "fileSize": 140478
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\icon1.png": {
-        "fileSize": 4441
+    "D:/TRASH2\\bread\\input\\bread.usd": {
+        "fileSize": 61368
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone7.svg": {
-        "fileSize": 1358
+    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.mtl": {
+        "fileSize": 205
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\skouirel.png": {
-        "fileSize": 106128
+    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.obj": {
+        "fileSize": 487752
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone8.svg": {
-        "fileSize": 1370
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.assbin": {
+        "fileSize": 126816346
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\Thumbs.db": {
-        "fileSize": 3584
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.obj": {
+        "fileSize": 223213578
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\icone9.svg": {
-        "fileSize": 1370
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.assbin": {
+        "fileSize": 193310368
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl": {
+        "fileSize": 121
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__init__.py": {
-        "fileSize": 736
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj": {
+        "fileSize": 264438580
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\iconetest.svg": {
-        "fileSize": 1786
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 43778978
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\COPYING": {
-        "fileSize": 1102
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Height_Utility - Raw.1001.tif": {
+        "fileSize": 10167160
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\AnimPolish_README.txt": {
-        "fileSize": 2396
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 10025330
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\ml_convertRotationOrder.png": {
-        "fileSize": 2811
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 42577072
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\gui.py": {
-        "fileSize": 140560
+    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 8225148
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\sculptPose.py": {
-        "fileSize": 37592
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json": {
+        "fileSize": 42375
     },
-    "D:/TOOLS\\Animtools 6.0\\icons\\separator.svg": {
-        "fileSize": 1370
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg": {
+        "fileSize": 251717
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg": {
+        "fileSize": 48542162
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\gui.pyc": {
-        "fileSize": 133758
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg": {
+        "fileSize": 5273108
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\subdue.py": {
-        "fileSize": 5935
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr": {
+        "fileSize": 173652228
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\.DS_Store": {
-        "fileSize": 10244
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg": {
+        "fileSize": 6600319
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\align.py": {
-        "fileSize": 1414
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg": {
+        "fileSize": 45027806
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\LICENSE": {
-        "fileSize": 1102
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg": {
+        "fileSize": 38713201
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\ui.py": {
-        "fileSize": 23751
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png": {
+        "fileSize": 271597
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\appinfos.py": {
-        "fileSize": 171
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 9463805
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\.gitattributes": {
-        "fileSize": 19
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
+        "fileSize": 94422734
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\picker_node.py": {
-        "fileSize": 8285
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 6721179
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\user_settings_default.py": {
-        "fileSize": 1545
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 31710330
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\arrayutils.py": {
-        "fileSize": 820
+    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 7286332
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\picker_node.pyc": {
-        "fileSize": 9976
+    "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg": {
+        "fileSize": 102779
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\.gitignore": {
-        "fileSize": 35
+    "D:/TRASH2\\bread\\input\\textures\\360_F_40524560_yTpTQxidzZior4laEOc4p3EHbXbgN4JB.jpg": {
+        "fileSize": 65202
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\wrap.py": {
-        "fileSize": 7838
+    "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg": {
+        "fileSize": 61677
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\clipboard.py": {
-        "fileSize": 136
+    "D:/TRASH2\\bread\\input\\textures\\360_F_49146307_H9Xw7JEQGimKfTvWcSRu8CDtQbsOu8z2.jpg": {
+        "fileSize": 97913
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\.gitattributes": {
-        "fileSize": 66
+    "D:/TRASH2\\bread\\input\\textures\\360_F_627039124_rbOEPYqSXiU1AD7uOttXcjADISPlcBxp.jpg": {
+        "fileSize": 84689
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\README.md": {
-        "fileSize": 12355
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg": {
+        "fileSize": 1229148
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\Qt.py": {
-        "fileSize": 47832
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg": {
+        "fileSize": 91591
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__init__.py": {
-        "fileSize": 0
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Displacement.jpg": {
+        "fileSize": 176741
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\colorwheel.py": {
-        "fileSize": 8664
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg": {
+        "fileSize": 756559
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\instructions.txt": {
-        "fileSize": 782
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg": {
+        "fileSize": 818450
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\Drop_me_in_the_maya_viewport.mel": {
-        "fileSize": 1225
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": {
+        "fileSize": 4852472
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\Qt.pyc": {
-        "fileSize": 35718
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": {
+        "fileSize": 408782
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\version_info": {
-        "fileSize": 48
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": {
+        "fileSize": 684684
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\compatibility.py": {
-        "fileSize": 945
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": {
+        "fileSize": 3681523
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\stickyMod_funcs.py": {
-        "fileSize": 21110
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": {
+        "fileSize": 3253592
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\MayaFramingAssistant.py": {
-        "fileSize": 29271
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": {
+        "fileSize": 17420003
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\README": {
-        "fileSize": 1993
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 45712408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\__init__.py": {
-        "fileSize": 5491
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 43122600
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\dialog.py": {
-        "fileSize": 6995
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 43122642
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\README.md": {
-        "fileSize": 720
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": {
+        "fileSize": 1787819
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\ui.py": {
-        "fileSize": 7410
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13148368
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\__init__.py": {
-        "fileSize": 293
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13606952
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\__init__.py.bak": {
-        "fileSize": 5473
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13148390
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\geometry.py": {
-        "fileSize": 16514
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": {
+        "fileSize": 2700423
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\__init__.pyc": {
-        "fileSize": 480
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\__init__.py": {
-        "fileSize": 0
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\interactive.py": {
-        "fileSize": 6171
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\languages.py": {
-        "fileSize": 319
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": {
+        "fileSize": 15698684
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\main.py": {
-        "fileSize": 30171
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 53581246
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 54592484
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\optionvar.py": {
-        "fileSize": 4264
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 53582936
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\ui.py": {
-        "fileSize": 44428
+    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": {
+        "fileSize": 12208854
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\painting.py": {
-        "fileSize": 5554
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 6608150
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\__pycache__\\MayaFramingAssistant.cpython-37.pyc": {
-        "fileSize": 21670
+    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 6972704
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\sculptPose.cpython-37.pyc": {
-        "fileSize": 29506
+    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 6608200
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\__init__.py": {
-        "fileSize": 0
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 44326206
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\picker.py": {
-        "fileSize": 15236
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13304072
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\__pycache__\\screenspacer_Script.cpython-37.pyc": {
-        "fileSize": 4824
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\GLX_pipeline_manager_V_1.cpython-39.pyc": {
-        "fileSize": 23526
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 51393634
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\subdue.cpython-37.pyc": {
-        "fileSize": 4993
+    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 6775930
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\preference.py": {
-        "fileSize": 7283
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 43611816
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\GLX_Shot_Manager_V_1.cpython-39.pyc": {
-        "fileSize": 25917
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13140814
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\ui.cpython-37.pyc": {
-        "fileSize": 18006
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 53569238
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\qtutils.py": {
-        "fileSize": 3142
+    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 6593496
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\file_handlers.py": {
-        "fileSize": 2853
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 43761284
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\hub.cpython-39.pyc": {
-        "fileSize": 2067
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Height_Utility - Raw.1001.tif": {
+        "fileSize": 13036174
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\user_settings_default.cpython-37.pyc": {
-        "fileSize": 1482
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 635126
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\COPYING": {
-        "fileSize": 1102
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 53449434
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\quick.py": {
-        "fileSize": 4539
+    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 7690814
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\file_handlers.pyc": {
-        "fileSize": 2832
+    "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp": {
+        "fileSize": 4195382
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\HANDS.png": {
-        "fileSize": 168944
+    "D:/TRASH2\\bread\\output\\substance_mask\\bread_holes_mask.1001.bmp": {
+        "fileSize": 4195382
     },
-    "D:/TOOLS\\PIPE_TOOL\\GLX_Pipeline\\__pycache__\\__init__.cpython-39.pyc": {
-        "fileSize": 775
+    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.1001.bmp": {
+        "fileSize": 4195382
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\wrap.cpython-37.pyc": {
-        "fileSize": 6400
+    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.bmp": {
+        "fileSize": 4195382
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\gui.py": {
-        "fileSize": 140560
+    "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 47456259
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\references.py": {
-        "fileSize": 1342
+    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 47456259
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\file_handlers.py": {
-        "fileSize": 2853
+    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 45836671
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\maya_handlers.py": {
-        "fileSize": 4971
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 42009186
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\IMG_BODY.png": {
-        "fileSize": 69434
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
+        "fileSize": 77726333
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\gui.pyc": {
-        "fileSize": 139708
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 24552662
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\animPolish\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 185
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "fileSize": 65408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\file_handlers.pyc": {
-        "fileSize": 2900
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "fileSize": 42030527
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\HANDS.png": {
-        "fileSize": 168944
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 150045614
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\maya_handlers.pyc": {
-        "fileSize": 4931
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "fileSize": 75952292
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\scenedata.py": {
-        "fileSize": 2162
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 21954602
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\IMG_FACE.png": {
-        "fileSize": 366155
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 42011658
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\LICENSE": {
-        "fileSize": 1102
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 83667946
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\selection.py": {
-        "fileSize": 4647
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 24552623
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\maya_handlers.py": {
-        "fileSize": 4971
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "fileSize": 65408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\mode_handlers.py": {
-        "fileSize": 856
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "fileSize": 42031136
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\IMG_BODY.png": {
-        "fileSize": 69434
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 150046208
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\IMG_FACE2.png": {
-        "fileSize": 22427
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "fileSize": 75952321
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\picker_node.py": {
-        "fileSize": 8285
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 21954308
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\maya_handlers.pyc": {
-        "fileSize": 5101
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 44550203
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\templates.py": {
-        "fileSize": 3708
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 60360312
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\IMG_FACE.png": {
-        "fileSize": 366155
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 18745939
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\addbg.png": {
-        "fileSize": 3626
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "fileSize": 65408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\attributes.py": {
-        "fileSize": 26940
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "fileSize": 44530112
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\mode_handlers.pyc": {
-        "fileSize": 2077
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 153647612
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\Thumbs.db": {
-        "fileSize": 4096
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "fileSize": 95025845
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\picker_node.pyc": {
-        "fileSize": 10452
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 15249976
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\mode_handlers.py": {
-        "fileSize": 856
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 44550211
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\undo.py": {
-        "fileSize": 1268
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 51000356
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 18750193
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\IMG_FACE2.png": {
-        "fileSize": 22427
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "fileSize": 65408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\addbutton.png": {
-        "fileSize": 5480
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "fileSize": 44529908
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\editarea.py": {
-        "fileSize": 5919
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 142541325
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\python_handlers.py": {
-        "fileSize": 396
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "fileSize": 95166925
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\images\\undefined.png": {
-        "fileSize": 10814
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 19673092
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\Qt.py": {
-        "fileSize": 47832
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 44549586
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\__init__.py": {
-        "fileSize": 0
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 51685286
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\Thumbs.db": {
-        "fileSize": 4096
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 21878144
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\mode_handlers.pyc": {
-        "fileSize": 2230
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "fileSize": 65408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\widgets.py": {
-        "fileSize": 6991
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "fileSize": 44529169
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\addtext.png": {
-        "fileSize": 4430
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 147290579
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\python_handlers.pyc": {
-        "fileSize": 653
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "fileSize": 95096874
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\Qt.pyc": {
-        "fileSize": 36292
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 14547800
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\editor.py": {
-        "fileSize": 16162
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 49594259
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\align.cpython-37.pyc": {
-        "fileSize": 2602
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 44549943
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\images\\undefined.png": {
-        "fileSize": 10814
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 52987481
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\attributes.cpython-37.pyc": {
-        "fileSize": 23637
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 9534776
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__init__.py": {
-        "fileSize": 2492
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png": {
+        "fileSize": 65408
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\python_handlers.py": {
-        "fileSize": 396
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
+        "fileSize": 44529694
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\qt_handlers.py": {
-        "fileSize": 1589
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 151857063
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\README": {
-        "fileSize": 1993
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_Utility - Raw.png": {
+        "fileSize": 108451524
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\highlighter.py": {
-        "fileSize": 3048
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 8134849
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_bottom.png": {
-        "fileSize": 11821
+    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png": {
+        "fileSize": 59277416
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\editarea.cpython-37.pyc": {
-        "fileSize": 6058
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 11439490
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\appinfos.cpython-37.pyc": {
-        "fileSize": 347
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 17865336
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\__init__.py": {
-        "fileSize": 293
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1003.tif": {
+        "fileSize": 14352372
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\python_handlers.pyc": {
-        "fileSize": 653
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1004.tif": {
+        "fileSize": 16287472
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\menu.py": {
-        "fileSize": 10763
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1001.tif": {
+        "fileSize": 2870936
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\converter.py": {
-        "fileSize": 3653
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1002.tif": {
+        "fileSize": 4377466
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\qt_handlers.pyc": {
-        "fileSize": 1959
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1003.tif": {
+        "fileSize": 3272522
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_h_center.png": {
-        "fileSize": 12653
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1004.tif": {
+        "fileSize": 4156150
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 190
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 10986602
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\arrayutils.cpython-37.pyc": {
-        "fileSize": 1502
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1002.tif": {
+        "fileSize": 17671770
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\editor.cpython-37.pyc": {
-        "fileSize": 15316
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1003.tif": {
+        "fileSize": 14605218
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\qt_handlers.py": {
-        "fileSize": 1589
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1004.tif": {
+        "fileSize": 16605260
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__init__.py": {
-        "fileSize": 0
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\__init__.pyc": {
-        "fileSize": 504
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\parser.py": {
-        "fileSize": 8293
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1003.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_left.png": {
-        "fileSize": 12659
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1004.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\__init__.py": {
-        "fileSize": 300
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1001.tif": {
+        "fileSize": 1998450
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\highlighter.cpython-37.pyc": {
-        "fileSize": 2801
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1002.tif": {
+        "fileSize": 3020248
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__pycache__\\converter.cpython-37.pyc": {
-        "fileSize": 4185
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1003.tif": {
+        "fileSize": 2137036
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\clipboard.cpython-37.pyc": {
-        "fileSize": 401
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1004.tif": {
+        "fileSize": 2906008
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\qt_handlers.pyc": {
-        "fileSize": 2027
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": {
+        "fileSize": 7020314
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_right.png": {
-        "fileSize": 12595
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Displacement_Utility - Raw.png": {
+        "fileSize": 1712643
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\handlers\\__init__.pyc": {
-        "fileSize": 330
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Normal_Utility - Raw.png": {
+        "fileSize": 6652715
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__init__.py": {
-        "fileSize": 57
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": {
+        "fileSize": 29467
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\colorwheel.cpython-37.pyc": {
-        "fileSize": 8018
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": {
+        "fileSize": 1517087
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\menu.cpython-37.pyc": {
-        "fileSize": 7374
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": {
+        "fileSize": 7222805
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\license\\gpl-3.0.txt": {
-        "fileSize": 35147
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Displacement_Utility - Raw.png": {
+        "fileSize": 1712643
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\__init__.py": {
-        "fileSize": 300
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Normal_Utility - Raw.png": {
+        "fileSize": 6652715
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_top.png": {
-        "fileSize": 11614
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": {
+        "fileSize": 29467
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__pycache__\\parser.cpython-37.pyc": {
-        "fileSize": 7486
+    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": {
+        "fileSize": 1517087
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\designer\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 192
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 23273874
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\license\\lgpl-3.0.txt": {
-        "fileSize": 7651
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Displacement_Utility - Raw.1001.tif": {
+        "fileSize": 4846938
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\compatibility.cpython-37.pyc": {
-        "fileSize": 824
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 24626440
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\anim_picker\\anim_picker\\handlers\\__init__.pyc": {
-        "fileSize": 347
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\ingest\\animschool\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 269
+    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\align_v_center.png": {
-        "fileSize": 12811
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 15970528
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Height_Utility - Raw.1001.tif": {
+        "fileSize": 3671752
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 160526
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 5431
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 16894622
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\AETemplates\\AEarcTracerTemplate.mel": {
-        "fileSize": 4740
+    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 2519892
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\dialog.cpython-37.pyc": {
-        "fileSize": 6229
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 3623620
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\center.png": {
-        "fileSize": 3547
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\arcTracer.py": {
-        "fileSize": 28677
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 184330
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\run_tests.sh": {
-        "fileSize": 278
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 1510926
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\python\\arcTracer.py": {
-        "fileSize": 26042
+    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 3110988
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\geometry.cpython-37.pyc": {
-        "fileSize": 16395
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 496486
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\icons\\arcTracerOnMesh.png": {
-        "fileSize": 4501
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 411046
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\copy.png": {
-        "fileSize": 1521
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 491110
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_move_my_objects.py": {
-        "fileSize": 6100
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 409464
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\.DS_Store": {
-        "fileSize": 6148
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\arcTracer.py.bak": {
-        "fileSize": 28671
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1002.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\arcTracer.cpython-37.pyc": {
-        "fileSize": 17082
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1001.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\python\\arcTracer.py.bak": {
-        "fileSize": 26009
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1002.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\decorator.cpython-37.pyc": {
-        "fileSize": 2191
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 169730
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\interactive.cpython-37.pyc": {
-        "fileSize": 7232
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1002.tif": {
+        "fileSize": 162716
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\icons\\LICENSE.txt": {
-        "fileSize": 675
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 1049434
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\__pycache__\\stickyMod_funcs.cpython-37.pyc": {
-        "fileSize": 16398
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1002.tif": {
+        "fileSize": 645798
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\gui\\frame_32x32.ico": {
-        "fileSize": 4286
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 2016986
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\delete.png": {
-        "fileSize": 2235
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1002.tif": {
+        "fileSize": 930816
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\decorator.py": {
-        "fileSize": 2158
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 418554
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_move_my_objects.py.bak": {
-        "fileSize": 6104
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 401862
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\cleverKeys.py": {
-        "fileSize": 15870
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1001.tif": {
+        "fileSize": 2016986
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Dynamic_Symmetry.png": {
-        "fileSize": 99584
+    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1002.tif": {
+        "fileSize": 930816
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\plugins\\python\\lock_n_hide.py": {
-        "fileSize": 6951
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_BaseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 568462
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\cleverKeys.cpython-37.pyc": {
-        "fileSize": 11573
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif": {
+        "fileSize": 162038
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\gui\\mainWindow.ui": {
-        "fileSize": 47917
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Metallic_Utility - Raw.1001.tif": {
+        "fileSize": 169768
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_attach.xpm": {
-        "fileSize": 3304
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 931682
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\__pycache__\\ui.cpython-37.pyc": {
-        "fileSize": 26942
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Presence_Utility - Raw.1001.tif": {
+        "fileSize": 163060
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\languages.cpython-37.pyc": {
-        "fileSize": 688
+    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif": {
+        "fileSize": 1880918
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\observer.cpython-37.pyc": {
-        "fileSize": 5093
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 15008242
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\observer.py": {
-        "fileSize": 4197
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 20067866
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\edit.png": {
-        "fileSize": 784
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": {
+        "fileSize": 4014518
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_slide_animation_keys.py": {
-        "fileSize": 3537
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": {
+        "fileSize": 4855984
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Ratio.png": {
-        "fileSize": 86346
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 18185934
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\js_stickyMod\\__pycache__\\ui.cpython-37.pyc": {
-        "fileSize": 6606
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": {
+        "fileSize": 22189234
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\main.cpython-37.pyc": {
-        "fileSize": 25646
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_destroy.xpm": {
-        "fileSize": 3797
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\cleverKeys.py.bak": {
-        "fileSize": 15869
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": {
+        "fileSize": 2242394
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\qt.cpython-37.pyc": {
-        "fileSize": 40392
+    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": {
+        "fileSize": 3324226
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\lock_n_hide.cpython-37.pyc": {
-        "fileSize": 21772
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 15008242
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 189
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 20067866
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\observer.py.bak": {
-        "fileSize": 4204
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": {
+        "fileSize": 4014518
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\frame.png": {
-        "fileSize": 22871
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": {
+        "fileSize": 4855984
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\tests\\test_slide_animation_keys.py.bak": {
-        "fileSize": 3539
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": {
+        "fileSize": 18185934
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\ui.cpython-37.pyc": {
-        "fileSize": 7827
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": {
+        "fileSize": 22189234
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Ratio_Mirror.png": {
-        "fileSize": 87473
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\optionvar.cpython-37.pyc": {
-        "fileSize": 3560
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
+        "fileSize": 393474
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\lock_n_hide.py": {
-        "fileSize": 23287
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": {
+        "fileSize": 2242394
     },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\moveMyObjects.cpython-37.pyc": {
-        "fileSize": 13226
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_detach.xpm": {
-        "fileSize": 3355
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\qt.py": {
-        "fileSize": 65918
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\h_symmetry.png": {
-        "fileSize": 12893
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\painting.cpython-37.pyc": {
-        "fileSize": 4314
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Section.png": {
-        "fileSize": 33712
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 3976
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\lock_n_hide.py.bak": {
-        "fileSize": 23214
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\pickleAttr.cpython-37.pyc": {
-        "fileSize": 3763
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_fixsnap.xpm": {
-        "fileSize": 3627
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\link.png": {
-        "fileSize": 14590
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\qt.py.bak": {
-        "fileSize": 65886
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\picker.cpython-37.pyc": {
-        "fileSize": 14095
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Golden_Triangles.png": {
-        "fileSize": 51748
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\moveMyObjects.py": {
-        "fileSize": 16242
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\pointOnMesh.cpython-37.pyc": {
-        "fileSize": 7611
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_select.xpm": {
-        "fileSize": 3627
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\lock-non-interactive.png": {
-        "fileSize": 22520
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\ui.py": {
-        "fileSize": 8013
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\preference.cpython-37.pyc": {
-        "fileSize": 4807
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Harmonious_Triangles.png": {
-        "fileSize": 51649
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\moveMyObjects.py.bak": {
-        "fileSize": 16256
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\zvparentmaster\\icons\\pm_timeline.xpm": {
-        "fileSize": 3202
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\renameIt.cpython-37.pyc": {
-        "fileSize": 12722
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\ui.py.bak": {
-        "fileSize": 8014
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-delete.png": {
-        "fileSize": 1988
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\qtutils.cpython-37.pyc": {
-        "fileSize": 3514
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pickleAttr.py": {
-        "fileSize": 4190
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Leading_Lines.png": {
-        "fileSize": 57916
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\selectedAttributes.cpython-37.pyc": {
-        "fileSize": 15015
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-edit.png": {
-        "fileSize": 963
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\internal\\__init__.py": {
-        "fileSize": 3457
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pickleAttr.py.bak": {
-        "fileSize": 4192
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\quick.cpython-37.pyc": {
-        "fileSize": 4404
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Rule_of_Thirds.png": {
-        "fileSize": 20818
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\references.cpython-37.pyc": {
-        "fileSize": 1158
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pointOnMesh.py": {
-        "fileSize": 12050
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\slideAnimationKeys.cpython-37.pyc": {
-        "fileSize": 27648
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-export.png": {
-        "fileSize": 6653
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\Maya-Framing-Assistant-main\\pictures\\Triangle.png": {
-        "fileSize": 41225
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\pointOnMesh.py.bak": {
-        "fileSize": 12051
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\scenedata.cpython-37.pyc": {
-        "fileSize": 2517
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\slideAnimationKeysUI.cpython-37.pyc": {
-        "fileSize": 26273
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-import.png": {
-        "fileSize": 6481
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\renameIt.py": {
-        "fileSize": 16372
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__pycache__\\zeroSelection.cpython-37.pyc": {
-        "fileSize": 2402
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\selection.cpython-37.pyc": {
-        "fileSize": 5674
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\manager-new.png": {
-        "fileSize": 998
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\renameIt.py.bak": {
-        "fileSize": 16368
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\templates.cpython-37.pyc": {
-        "fileSize": 2833
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\movedown.png": {
-        "fileSize": 3684
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\selectedAttributes.py": {
-        "fileSize": 23987
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\undo.cpython-37.pyc": {
-        "fileSize": 1780
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\moveup.png": {
-        "fileSize": 3676
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\selectedAttributes.py.bak": {
-        "fileSize": 23985
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\widgets.cpython-37.pyc": {
-        "fileSize": 8881
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\new.png": {
-        "fileSize": 4610
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeys.py": {
-        "fileSize": 36083
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\__pycache__\\__init__.cpython-37.pyc": {
-        "fileSize": 2598
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeys.py.bak": {
-        "fileSize": 36129
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\onbottom.png": {
-        "fileSize": 3685
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeysUI.py": {
-        "fileSize": 30010
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\ontop.png": {
-        "fileSize": 3622
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\slideAnimationKeysUI.py.bak": {
-        "fileSize": 30013
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\open.png": {
-        "fileSize": 24449
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\zeroSelection.py": {
-        "fileSize": 2641
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\paste.png": {
-        "fileSize": 1594
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\zeroSelection.py.bak": {
-        "fileSize": 2634
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\picker.png": {
-        "fileSize": 567
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\guppy_animation_tools\\scripts\\__init__.py": {
-        "fileSize": 1190
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\play.png": {
-        "fileSize": 1020
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\redo.png": {
-        "fileSize": 1204
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\reload.png": {
-        "fileSize": 11542
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\save.png": {
-        "fileSize": 15401
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\search.png": {
-        "fileSize": 21641
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\snap.png": {
-        "fileSize": 4429
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\touch.png": {
-        "fileSize": 15095
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\undo.png": {
-        "fileSize": 1186
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\unlink.png": {
-        "fileSize": 478
-    },
-    "D:/TOOLS\\Animtools 6.0\\scripts\\dwpicker\\icons\\v_symmetry.png": {
-        "fileSize": 16286
+    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": {
+        "fileSize": 3324226
     }
 }

@@ -55,7 +55,7 @@ class ASPC_CommonApplication:
 
 
 	def show_message_function(self, message):
-		self.notify(message, timeout=3)
+		self.notify(message, timeout=8)
 
 
 
