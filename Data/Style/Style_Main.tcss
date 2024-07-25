@@ -52,7 +52,7 @@ Vertical {
 	height: 1fr;
 }
 
-ListView, Markdown {
+ListView {
 	width: 1fr;
 	padding:0;
 	margin-right:0;
@@ -68,8 +68,13 @@ ListView, Markdown {
 
 
 /* SPECIFIC STYLE SETTINGS */
-#markdown_file_info {
-	min-height:30%;
+#markdown_file_info, #markdown_folder_info {
+	height:1fr;
+
+	border: hkey $secondary;
+	border-title-color:$secondary;
 }
 
-
+#input_folder_path {
+	margin-top: 10;
+}

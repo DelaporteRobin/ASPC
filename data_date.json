@@ -1,218 +1,38 @@
 {
+    "D:/TRASH2\\aircon02\\substance_aircon02_project.spp": {
+        "timeDelta": -5358271.387878418,
+        "creationDate": 1721746980.3450692,
+        "modificationDate": 1716388708.9571908
+    },
+    "D:/TRASH2\\aircon02\\substance_aircon02_project_autosave_0.spp": {
+        "timeDelta": -5356437.618978739,
+        "creationDate": 1721746983.8576243,
+        "modificationDate": 1716390546.2386456
+    },
+    "D:/TRASH2\\aircon02\\substance_aircon02_project_autosave_1.spp": {
+        "timeDelta": -5354591.885406017,
+        "creationDate": 1721746986.1008754,
+        "modificationDate": 1716392394.2154694
+    },
     "D:/TRASH2\\aircon02\\input\\aircon02.usd": {
         "timeDelta": -5358572.9252951145,
         "creationDate": 1721746988.4407024,
         "modificationDate": 1716388415.5154073
     },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5362462.171695232,
-        "creationDate": 1721746979.6464436,
-        "modificationDate": 1716384517.4747484
+    "D:/TRASH2\\bread\\substance_bread_project.spp": {
+        "timeDelta": -4142869.326735735,
+        "creationDate": 1721747065.1336186,
+        "modificationDate": 1717604195.8068829
     },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd": {
-        "timeDelta": -5358587.272215843,
-        "creationDate": 1721746980.0289156,
-        "modificationDate": 1716388392.7566998
+    "D:/TRASH2\\bread\\substance_bread_project_autosave_0.spp": {
+        "timeDelta": -4145586.256263733,
+        "creationDate": 1721747074.4423504,
+        "modificationDate": 1717601488.1860867
     },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5362462.034483671,
-        "creationDate": 1721746979.652455,
-        "modificationDate": 1716384517.6179714
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5358638.422596455,
-        "creationDate": 1721746980.0299132,
-        "modificationDate": 1716388341.6073167
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5362462.231319904,
-        "creationDate": 1721746979.6785343,
-        "modificationDate": 1716384517.4472144
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5358637.644159555,
-        "creationDate": 1721746980.048862,
-        "modificationDate": 1716388342.4047024
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp": {
-        "timeDelta": -5876989.7934651375,
-        "creationDate": 1721746994.145589,
-        "modificationDate": 1715870004.352124
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1002.tif": {
-        "timeDelta": -5362462.085660696,
-        "creationDate": 1721746979.725574,
-        "modificationDate": 1716384517.6399133
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5358638.79192853,
-        "creationDate": 1721746980.0598328,
-        "modificationDate": 1716388341.2679043
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp": {
-        "timeDelta": -5877919.4414970875,
-        "creationDate": 1721746995.5005927,
-        "modificationDate": 1715869076.0590956
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5362462.584086895,
-        "creationDate": 1721746979.7455168,
-        "modificationDate": 1716384517.16143
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1002.tif": {
-        "timeDelta": -5358638.221997023,
-        "creationDate": 1721746980.064819,
-        "modificationDate": 1716388341.842822
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp": {
-        "timeDelta": -5818274.347380638,
-        "creationDate": 1721746996.4936206,
-        "modificationDate": 1715928722.14624
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": {
-        "timeDelta": -5362462.330615044,
-        "creationDate": 1721746979.7758348,
-        "modificationDate": 1716384517.4452198
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5358639.449903727,
-        "creationDate": 1721746980.0688086,
-        "modificationDate": 1716388340.6189048
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp": {
-        "timeDelta": -5545140.720912218,
-        "creationDate": 1721746998.270888,
-        "modificationDate": 1716201857.5499759
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5362462.14964056,
-        "creationDate": 1721746979.8214717,
-        "modificationDate": 1716384517.6718311
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": {
-        "timeDelta": -5358638.569818974,
-        "creationDate": 1721746980.0708039,
-        "modificationDate": 1716388341.500985
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp": {
-        "timeDelta": -5873854.277006149,
-        "creationDate": 1721746999.8037794,
-        "modificationDate": 1715873145.5267732
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": -5362462.11605382,
-        "creationDate": 1721746979.9162178,
-        "modificationDate": 1716384517.800164
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5358637.697003365,
-        "creationDate": 1721746980.0737956,
-        "modificationDate": 1716388342.3767922
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp": {
-        "timeDelta": -5874146.433756113,
-        "creationDate": 1721747002.0666938,
-        "modificationDate": 1715872855.6329377
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5362462.796675205,
-        "creationDate": 1721746979.9920144,
-        "modificationDate": 1716384517.1953392
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": -5358637.363445997,
-        "creationDate": 1721746980.1206703,
-        "modificationDate": 1716388342.7572243
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp": {
-        "timeDelta": -5795497.165555477,
-        "creationDate": 1721747003.9865873,
-        "modificationDate": 1715951506.8210318
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5362462.541202545,
-        "creationDate": 1721746980.0109637,
-        "modificationDate": 1716384517.4697611
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5358639.382055998,
-        "creationDate": 1721746980.1326382,
-        "modificationDate": 1716388340.7505822
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp": {
-        "timeDelta": -5550179.062240839,
-        "creationDate": 1721747005.0237746,
-        "modificationDate": 1716196825.9615338
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5358638.59715867,
-        "creationDate": 1721746980.1356301,
-        "modificationDate": 1716388341.5384715
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp": {
-        "timeDelta": -5550391.552125692,
-        "creationDate": 1721747015.3824098,
-        "modificationDate": 1716196623.830284
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp": {
-        "timeDelta": -5353176.169891357,
-        "creationDate": 1721746980.1396194,
-        "modificationDate": 1716393803.969728
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp": {
-        "timeDelta": -5552233.152731419,
-        "creationDate": 1721747025.0011525,
-        "modificationDate": 1716194791.848421
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angbed_mod.usd": {
-        "timeDelta": -5880554.713226318,
-        "creationDate": 1721747036.2599983,
-        "modificationDate": 1715866481.546772
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angbed_realmod.usd": {
-        "timeDelta": -5880042.370597124,
-        "creationDate": 1721747036.2699718,
-        "modificationDate": 1715866993.8993747
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angcarpet_mod.usd": {
-        "timeDelta": -5819266.785575867,
-        "creationDate": 1721747036.448493,
-        "modificationDate": 1715927769.6629171
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angDoor_mod.usd": {
-        "timeDelta": -5549954.166372776,
-        "creationDate": 1721747037.173587,
-        "modificationDate": 1716197083.0072143
-    },
-    "D:/TRASH2\\ang\\substance\\input\\anglamp.usd": {
-        "timeDelta": -5815108.747127533,
-        "creationDate": 1721747037.2184315,
-        "modificationDate": 1715931928.471304
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angmirror_mod.usd": {
-        "timeDelta": -5877041.209420204,
-        "creationDate": 1721747038.384309,
-        "modificationDate": 1715869997.1748888
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angnighttable.mtl": {
-        "timeDelta": -5807709.714103699,
-        "creationDate": 1721747038.4002652,
-        "modificationDate": 1715939328.6861615
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angnighttable.usd": {
-        "timeDelta": -5807663.26120615,
-        "creationDate": 1721747039.0336003,
-        "modificationDate": 1715939375.7723942
-    },
-    "D:/TRASH2\\ang\\substance\\input\\angWalls_mod.usd": {
-        "timeDelta": -5794304.384683132,
-        "creationDate": 1721747039.7865524,
-        "modificationDate": 1715952735.4018693
-    },
-    "D:/TRASH2\\ang\\substance\\input\\vintage-art-deco-seamless-pattern-600nw-744426328.webp": {
-        "timeDelta": -5794581.346591473,
-        "creationDate": 1721747039.9321666,
-        "modificationDate": 1715952458.585575
+    "D:/TRASH2\\bread\\substance_bread_project_autosave_1.spp": {
+        "timeDelta": -4143792.978694916,
+        "creationDate": 1721747081.8826306,
+        "modificationDate": 1717603288.9039357
     },
     "D:/TRASH2\\bread\\input\\bread.usd": {
         "timeDelta": -4319138.713499308,
@@ -239,1094 +59,109 @@
         "creationDate": 1721747099.1141422,
         "modificationDate": 1717426886.034475
     },
+    "D:/TRASH2\\brickpourrob1\\induswallbottom.spp": {
+        "timeDelta": -19778672.196237803,
+        "creationDate": 1721747131.7235744,
+        "modificationDate": 1701968459.5273366
+    },
     "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.assbin": {
         "timeDelta": -4154532.1976497173,
         "creationDate": 1721747108.2285304,
         "modificationDate": 1717592576.0308807
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp": {
+        "timeDelta": -5876989.7934651375,
+        "creationDate": 1721746994.145589,
+        "modificationDate": 1715870004.352124
+    },
+    "D:/TRASH2\\brickpourrob1\\induswallbottom_autosave_0.spp": {
+        "timeDelta": -19778797.323380947,
+        "creationDate": 1721747149.3024862,
+        "modificationDate": 1701968351.9791052
     },
     "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl": {
         "timeDelta": -4166718.4373397827,
         "creationDate": 1721747111.6054587,
         "modificationDate": 1717580393.168119
     },
-    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj": {
-        "timeDelta": -4166718.491195202,
-        "creationDate": 1721747111.655325,
-        "modificationDate": 1717580393.1641297
+    "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp": {
+        "timeDelta": -5877919.4414970875,
+        "creationDate": 1721746995.5005927,
+        "modificationDate": 1715869076.0590956
     },
-    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5358239.496343851,
-        "creationDate": 1721746988.9712822,
-        "modificationDate": 1716388749.4749384
-    },
-    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5358242.736109018,
-        "creationDate": 1721746992.1969795,
-        "modificationDate": 1716388749.4608705
-    },
-    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5358243.243391991,
-        "creationDate": 1721746992.2684743,
-        "modificationDate": 1716388749.0250823
-    },
-    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5358243.6861412525,
-        "creationDate": 1721746993.5903606,
-        "modificationDate": 1716388749.9042194
-    },
-    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5358244.626660824,
-        "creationDate": 1721746993.6023269,
-        "modificationDate": 1716388748.975666
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew.json": {
-        "timeDelta": -5794891.881914377,
-        "creationDate": 1721747039.9391444,
-        "modificationDate": 1715952148.05723
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg": {
-        "timeDelta": -5794902.406564474,
-        "creationDate": 1721747049.897833,
-        "modificationDate": 1715952147.4912686
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Albedo.jpg": {
-        "timeDelta": -5794888.5488266945,
-        "creationDate": 1721747040.5696652,
-        "modificationDate": 1715952152.0208385
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_AO.jpg": {
-        "timeDelta": -5794893.301391125,
-        "creationDate": 1721747042.6023107,
-        "modificationDate": 1715952149.3009195
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.exr": {
-        "timeDelta": -5794887.187144518,
-        "creationDate": 1721747042.9619899,
-        "modificationDate": 1715952155.7748454
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Displacement.jpg": {
-        "timeDelta": -5794897.242196083,
-        "creationDate": 1721747046.6979537,
-        "modificationDate": 1715952149.4557576
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Normal.jpg": {
-        "timeDelta": -5794894.489086151,
-        "creationDate": 1721747047.4306517,
-        "modificationDate": 1715952152.9415655
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_8K_Roughness.jpg": {
-        "timeDelta": -5794894.902797461,
-        "creationDate": 1721747048.4942377,
-        "modificationDate": 1715952153.5914402
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\ufipfbmew_Preview.png": {
-        "timeDelta": -5794902.389156342,
-        "creationDate": 1721747049.8569396,
-        "modificationDate": 1715952147.4677832
+    "D:/TRASH2\\brickpourrob1\\induswallbottom_autosave_1.spp": {
+        "timeDelta": -19780623.52857709,
+        "creationDate": 1721747175.7736168,
+        "modificationDate": 1701966552.2450397
     },
     "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
         "timeDelta": -19885520.934651613,
         "creationDate": 1721747201.6970606,
         "modificationDate": 1701861680.762409
     },
+    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj": {
+        "timeDelta": -4166718.491195202,
+        "creationDate": 1721747111.655325,
+        "modificationDate": 1717580393.1641297
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp": {
+        "timeDelta": -5818274.347380638,
+        "creationDate": 1721746996.4936206,
+        "modificationDate": 1715928722.14624
+    },
     "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
         "timeDelta": -19885455.76816511,
         "creationDate": 1721747201.7578778,
         "modificationDate": 1701861745.9897127
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp": {
+        "timeDelta": -5545140.720912218,
+        "creationDate": 1721746998.270888,
+        "modificationDate": 1716201857.5499759
     },
     "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": {
         "timeDelta": -19885522.619116306,
         "creationDate": 1721747203.5131772,
         "modificationDate": 1701861680.8940609
     },
+    "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp": {
+        "timeDelta": -5873854.277006149,
+        "creationDate": 1721746999.8037794,
+        "modificationDate": 1715873145.5267732
+    },
     "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
         "timeDelta": -19885522.30398035,
         "creationDate": 1721747204.355947,
         "modificationDate": 1701861682.0519667
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp": {
+        "timeDelta": -5874146.433756113,
+        "creationDate": 1721747002.0666938,
+        "modificationDate": 1715872855.6329377
     },
     "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": {
         "timeDelta": -19885523.75906253,
         "creationDate": 1721747204.8924825,
         "modificationDate": 1701861681.13342
     },
-    "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg": {
-        "timeDelta": -4319756.444715977,
-        "creationDate": 1721747114.870713,
-        "modificationDate": 1717427358.425997
-    },
-    "D:/TRASH2\\bread\\input\\textures\\360_F_40524560_yTpTQxidzZior4laEOc4p3EHbXbgN4JB.jpg": {
-        "timeDelta": -4248783.720751047,
-        "creationDate": 1721747114.9525669,
-        "modificationDate": 1717498331.2318158
-    },
-    "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg": {
-        "timeDelta": -4248790.27682209,
-        "creationDate": 1721747114.989395,
-        "modificationDate": 1717498324.7125728
-    },
-    "D:/TRASH2\\bread\\input\\textures\\360_F_49146307_H9Xw7JEQGimKfTvWcSRu8CDtQbsOu8z2.jpg": {
-        "timeDelta": -4319796.109269857,
-        "creationDate": 1721747116.3088908,
-        "modificationDate": 1717427320.199621
-    },
-    "D:/TRASH2\\bread\\input\\textures\\360_F_627039124_rbOEPYqSXiU1AD7uOttXcjADISPlcBxp.jpg": {
-        "timeDelta": -4319790.736683607,
-        "creationDate": 1721747116.3348203,
-        "modificationDate": 1717427325.5981367
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg": {
-        "timeDelta": -5794885.467493534,
-        "creationDate": 1721747050.4922392,
-        "modificationDate": 1715952165.0247457
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg": {
-        "timeDelta": -5794885.661849499,
-        "creationDate": 1721747050.907132,
-        "modificationDate": 1715952165.2452824
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Displacement.jpg": {
-        "timeDelta": -5794886.084661245,
-        "creationDate": 1721747051.575309,
-        "modificationDate": 1715952165.4906478
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg": {
-        "timeDelta": -5794886.544267893,
-        "creationDate": 1721747052.3153274,
-        "modificationDate": 1715952165.7710595
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg": {
-        "timeDelta": -5794886.933802128,
-        "creationDate": 1721747052.6843667,
-        "modificationDate": 1715952165.7505646
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": {
-        "timeDelta": -5794889.276045561,
-        "creationDate": 1721747052.7122648,
-        "modificationDate": 1715952163.4362192
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": {
-        "timeDelta": -5794888.966566801,
-        "creationDate": 1721747052.7531552,
-        "modificationDate": 1715952163.7865884
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": {
-        "timeDelta": -5794888.96300292,
-        "creationDate": 1721747053.1311712,
-        "modificationDate": 1715952164.1681683
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": {
-        "timeDelta": -5794888.441482544,
-        "creationDate": 1721747053.1830387,
-        "modificationDate": 1715952164.7415562
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": {
-        "timeDelta": -5794888.61806345,
-        "creationDate": 1721747053.2319014,
-        "modificationDate": 1715952164.613838
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": {
-        "timeDelta": -5794893.6810622215,
-        "creationDate": 1721747053.2518196,
-        "modificationDate": 1715952159.5707574
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -4150700.741009474,
-        "creationDate": 1721747119.3437598,
-        "modificationDate": 1717596418.6027503
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -4313274.159556389,
-        "creationDate": 1721747117.6074111,
-        "modificationDate": 1717433843.4478548
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -4150589.979933262,
-        "creationDate": 1721747123.6402242,
-        "modificationDate": 1717596533.660291
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": {
-        "timeDelta": -5794892.942053318,
-        "creationDate": 1721747053.3565662,
-        "modificationDate": 1715952160.4145129
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -4150701.4156229496,
-        "creationDate": 1721747119.799511,
-        "modificationDate": 1717596418.383888
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -4313274.637328863,
-        "creationDate": 1721747117.9544537,
-        "modificationDate": 1717433843.3171248
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -4150591.215393305,
-        "creationDate": 1721747124.715376,
-        "modificationDate": 1717596533.4999826
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": {
-        "timeDelta": -5794892.09474349,
-        "creationDate": 1721747053.4144106,
-        "modificationDate": 1715952161.319667
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -4150702.9886848927,
-        "creationDate": 1721747120.190465,
-        "modificationDate": 1717596417.20178
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -4313275.171563387,
-        "creationDate": 1721747118.0801163,
-        "modificationDate": 1717433842.908553
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -4150592.416810751,
-        "creationDate": 1721747125.2349815,
-        "modificationDate": 1717596532.8181708
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": {
-        "timeDelta": -5794890.697133303,
-        "creationDate": 1721747053.5729601,
-        "modificationDate": 1715952162.8758268
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -4150701.31473732,
-        "creationDate": 1721747120.20742,
-        "modificationDate": 1717596418.8926828
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -4313274.492425442,
-        "creationDate": 1721747118.1908205,
-        "modificationDate": 1717433843.698395
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -4150591.0508344173,
-        "creationDate": 1721747125.2499144,
-        "modificationDate": 1717596534.19908
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": {
-        "timeDelta": -5794891.420059681,
-        "creationDate": 1721747053.9619184,
-        "modificationDate": 1715952162.5418587
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -4313275.656330347,
-        "creationDate": 1721747118.6117258,
-        "modificationDate": 1717433842.9553955
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -4150703.1721773148,
-        "creationDate": 1721747120.5734665,
-        "modificationDate": 1717596417.4012892
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -4150592.89102602,
-        "creationDate": 1721747125.770544,
-        "modificationDate": 1717596532.879518
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -4166309.0410203934,
-        "creationDate": 1721747120.799862,
-        "modificationDate": 1717580811.7588415
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -4166309.4415786266,
-        "creationDate": 1721747121.1220083,
-        "modificationDate": 1717580811.6804297
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -4166310.3127729893,
-        "creationDate": 1721747121.4311724,
-        "modificationDate": 1717580811.1183994
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -4166309.6856172085,
-        "creationDate": 1721747121.7353268,
-        "modificationDate": 1717580812.0497096
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -4166312.126870632,
-        "creationDate": 1721747123.3260944,
-        "modificationDate": 1717580811.1992238
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -4149312.0313162804,
-        "creationDate": 1721747126.3768945,
-        "modificationDate": 1717597814.3455782
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -4149312.493167162,
-        "creationDate": 1721747126.7200053,
-        "modificationDate": 1717597814.226838
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -4149313.1624131203,
-        "creationDate": 1721747126.9104674,
-        "modificationDate": 1717597813.7480543
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -4149312.3167004585,
-        "creationDate": 1721747126.9623654,
-        "modificationDate": 1717597814.645665
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -4149314.153758049,
-        "creationDate": 1721747127.9606526,
-        "modificationDate": 1717597813.8068945
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -4145641.961475849,
-        "creationDate": 1721747128.0364504,
-        "modificationDate": 1717601486.0749745
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -4145643.4046108723,
-        "creationDate": 1721747129.346968,
-        "modificationDate": 1717601485.942357
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -4145644.044233322,
-        "creationDate": 1721747129.4945757,
-        "modificationDate": 1717601485.4503424
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -4145643.129372835,
-        "creationDate": 1721747129.5065405,
-        "modificationDate": 1717601486.3771677
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -4145644.6376399994,
-        "creationDate": 1721747130.1707613,
-        "modificationDate": 1717601485.5331213
-    },
-    "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp": {
-        "timeDelta": -4231324.880818367,
-        "creationDate": 1721747130.2704992,
-        "modificationDate": 1717515805.3896809
-    },
-    "D:/TRASH2\\bread\\output\\substance_mask\\bread_holes_mask.1001.bmp": {
-        "timeDelta": -4255695.776377916,
-        "creationDate": 1721747130.570662,
-        "modificationDate": 1717491434.794284
-    },
-    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.1001.bmp": {
-        "timeDelta": -4146033.8844337463,
-        "creationDate": 1721747130.7631476,
-        "modificationDate": 1717601096.8787138
-    },
-    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.bmp": {
-        "timeDelta": -4146390.8531706333,
-        "creationDate": 1721747131.315667,
-        "modificationDate": 1717600740.4624963
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19798757.726619482,
-        "creationDate": 1721747205.2395804,
-        "modificationDate": 1701948447.512961
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19791512.308058023,
-        "creationDate": 1721747205.5975938,
-        "modificationDate": 1701955693.2895358
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19784077.327323675,
-        "creationDate": 1721747206.43934,
-        "modificationDate": 1701963129.1120164
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "timeDelta": -19806780.310525656,
-        "creationDate": 1721747207.957274,
-        "modificationDate": 1701940427.6467483
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
-        "timeDelta": -19806765.542800426,
-        "creationDate": 1721747209.5091414,
-        "modificationDate": 1701940443.966341
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "timeDelta": -19806782.224388123,
-        "creationDate": 1721747212.7584143,
-        "modificationDate": 1701940430.5340261
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png": {
-        "timeDelta": -19806788.031854153,
-        "creationDate": 1721747212.9209793,
-        "modificationDate": 1701940424.889125
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
-        "timeDelta": -19806785.307131767,
-        "creationDate": 1721747213.6191337,
-        "modificationDate": 1701940428.312002
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "timeDelta": -19806781.288885593,
-        "creationDate": 1721747213.955209,
-        "modificationDate": 1701940432.6663234
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_Utility - Raw.png": {
-        "timeDelta": -19806776.285049915,
-        "creationDate": 1721747216.1014903,
-        "modificationDate": 1701940439.8164403
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "timeDelta": -19806786.80811405,
-        "creationDate": 1721747217.6174357,
-        "modificationDate": 1701940430.8093216
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "timeDelta": -19805543.96928072,
-        "creationDate": 1721747218.9368668,
-        "modificationDate": 1701941674.967586
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19805527.11009264,
-        "creationDate": 1721747219.5861578,
-        "modificationDate": 1701941692.4760652
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "timeDelta": -19805542.166196823,
-        "creationDate": 1721747220.1645784,
-        "modificationDate": 1701941677.9983816
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png": {
-        "timeDelta": -19805548.44973612,
-        "creationDate": 1721747220.3500814,
-        "modificationDate": 1701941671.9003453
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
-        "timeDelta": -19805544.915911674,
-        "creationDate": 1721747220.5595207,
-        "modificationDate": 1701941675.643609
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "timeDelta": -19805541.70224309,
-        "creationDate": 1721747221.8869958,
-        "modificationDate": 1701941680.1847527
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_Utility - Raw.png": {
-        "timeDelta": -19805537.01288271,
-        "creationDate": 1721747223.992327,
-        "modificationDate": 1701941686.9794443
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "timeDelta": -19805547.369626284,
-        "creationDate": 1721747225.6539428,
-        "modificationDate": 1701941678.2843165
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "timeDelta": -19798963.45942068,
-        "creationDate": 1721747226.0638025,
-        "modificationDate": 1701948262.6043818
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19798944.40940976,
-        "creationDate": 1721747226.9394333,
-        "modificationDate": 1701948282.5300236
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "timeDelta": -19798964.437093496,
-        "creationDate": 1721747228.3167436,
-        "modificationDate": 1701948263.87965
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png": {
-        "timeDelta": -19798968.88378501,
-        "creationDate": 1721747228.956032,
-        "modificationDate": 1701948260.072247
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
-        "timeDelta": -19798966.31386304,
-        "creationDate": 1721747229.6481783,
-        "modificationDate": 1701948263.3343153
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "timeDelta": -19798962.151765108,
-        "creationDate": 1721747229.8915262,
-        "modificationDate": 1701948267.739761
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_Utility - Raw.png": {
-        "timeDelta": -19798957.47453046,
-        "creationDate": 1721747231.0404491,
-        "modificationDate": 1701948273.5659187
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "timeDelta": -19798966.63838911,
-        "creationDate": 1721747232.037778,
-        "modificationDate": 1701948265.3993888
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "timeDelta": -19791744.55135846,
-        "creationDate": 1721747232.869551,
-        "modificationDate": 1701955488.3181925
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19791732.169472694,
-        "creationDate": 1721747234.2647376,
-        "modificationDate": 1701955502.095265
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "timeDelta": -19791747.27188468,
-        "creationDate": 1721747235.1357956,
-        "modificationDate": 1701955487.863911
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png": {
-        "timeDelta": -19791749.475033045,
-        "creationDate": 1721747235.392155,
-        "modificationDate": 1701955485.917122
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
-        "timeDelta": -19791746.51873398,
-        "creationDate": 1721747235.5961063,
-        "modificationDate": 1701955489.0773723
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "timeDelta": -19791740.503075838,
-        "creationDate": 1721747235.9234333,
-        "modificationDate": 1701955495.4203575
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_Utility - Raw.png": {
-        "timeDelta": -19791738.97785425,
-        "creationDate": 1721747238.379262,
-        "modificationDate": 1701955499.4014077
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "timeDelta": -19791750.688254833,
-        "creationDate": 1721747240.118605,
-        "modificationDate": 1701955489.43035
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "timeDelta": -19790946.325053692,
-        "creationDate": 1721747240.3799038,
-        "modificationDate": 1701956294.05485
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19790928.267130375,
-        "creationDate": 1721747241.0391383,
-        "modificationDate": 1701956312.772008
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "timeDelta": -19790944.63629031,
-        "creationDate": 1721747241.485944,
-        "modificationDate": 1701956296.8496537
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png": {
-        "timeDelta": -19790950.303100348,
-        "creationDate": 1721747241.8280258,
-        "modificationDate": 1701956291.5249255
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
-        "timeDelta": -19790947.21452689,
-        "creationDate": 1721747242.7176433,
-        "modificationDate": 1701956295.5031164
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "timeDelta": -19790942.51334524,
-        "creationDate": 1721747243.0278127,
-        "modificationDate": 1701956300.5144675
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_Utility - Raw.png": {
-        "timeDelta": -19790939.28130102,
-        "creationDate": 1721747244.5457478,
-        "modificationDate": 1701956305.2644467
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "timeDelta": -19790950.396831036,
-        "creationDate": 1721747246.6880121,
-        "modificationDate": 1701956296.291181
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19788520.90735221,
-        "creationDate": 1721747246.8007088,
-        "modificationDate": 1701958725.8933566
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "timeDelta": -19787113.792925358,
-        "creationDate": 1721747248.0134625,
-        "modificationDate": 1701960134.2205372
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19787108.45616746,
-        "creationDate": 1721747250.0380394,
-        "modificationDate": 1701960141.581872
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "timeDelta": -19787118.472398996,
-        "creationDate": 1721747250.537702,
-        "modificationDate": 1701960132.065303
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png": {
-        "timeDelta": -19787119.081796408,
-        "creationDate": 1721747250.8977673,
-        "modificationDate": 1701960131.815971
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": {
-        "timeDelta": -19787116.147643328,
-        "creationDate": 1721747251.1281476,
-        "modificationDate": 1701960134.9805043
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "timeDelta": -19787111.553970337,
-        "creationDate": 1721747251.9978857,
-        "modificationDate": 1701960140.4439154
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_Utility - Raw.png": {
-        "timeDelta": -19787110.204508066,
-        "creationDate": 1721747253.113802,
-        "modificationDate": 1701960142.909294
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "timeDelta": -19787122.92854309,
-        "creationDate": 1721747255.1075704,
-        "modificationDate": 1701960132.1790273
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png": {
-        "timeDelta": -19784452.088357687,
-        "creationDate": 1721747255.197889,
-        "modificationDate": 1701962803.1095314
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5880914.729595184,
-        "creationDate": 1721747054.1464236,
-        "modificationDate": 1715866139.4168284
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5880914.655286789,
-        "creationDate": 1721747054.3109837,
-        "modificationDate": 1715866139.6556969
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1003.tif": {
-        "timeDelta": -5880914.6298244,
-        "creationDate": 1721747054.5563498,
-        "modificationDate": 1715866139.9265254
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1004.tif": {
-        "timeDelta": -5880914.672083855,
-        "creationDate": 1721747054.8560586,
-        "modificationDate": 1715866140.1839747
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": -5880916.2311992645,
-        "creationDate": 1721747055.633064,
-        "modificationDate": 1715866139.4018648
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1002.tif": {
-        "timeDelta": -5880916.0656096935,
-        "creationDate": 1721747055.7477746,
-        "modificationDate": 1715866139.682165
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1003.tif": {
-        "timeDelta": -5880915.847162962,
-        "creationDate": 1721747055.7926378,
-        "modificationDate": 1715866139.9454749
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1004.tif": {
-        "timeDelta": -5880915.32683444,
-        "creationDate": 1721747055.8494842,
-        "modificationDate": 1715866140.5226498
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5880916.482015133,
-        "creationDate": 1721747055.9911048,
-        "modificationDate": 1715866139.5090897
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": -5880916.414656162,
-        "creationDate": 1721747056.2244804,
-        "modificationDate": 1715866139.8098242
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1003.tif": {
-        "timeDelta": -5880916.504498482,
-        "creationDate": 1721747056.5675893,
-        "modificationDate": 1715866140.0630908
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1004.tif": {
-        "timeDelta": -5880916.239977598,
-        "creationDate": 1721747056.9076514,
-        "modificationDate": 1715866140.6676738
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5880917.685305357,
-        "creationDate": 1721747057.0333142,
-        "modificationDate": 1715866139.3480089
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5880917.658891678,
-        "creationDate": 1721747057.243778,
-        "modificationDate": 1715866139.5848863
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1003.tif": {
-        "timeDelta": -5880918.090198755,
-        "creationDate": 1721747057.950886,
-        "modificationDate": 1715866139.8606873
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1004.tif": {
-        "timeDelta": -5880917.9620604515,
-        "creationDate": 1721747058.0974634,
-        "modificationDate": 1715866140.135403
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5880918.738512754,
-        "creationDate": 1721747058.1294072,
-        "modificationDate": 1715866139.3908944
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5880918.817786932,
-        "creationDate": 1721747058.4834573,
-        "modificationDate": 1715866139.6656704
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1003.tif": {
-        "timeDelta": -5880918.609790325,
-        "creationDate": 1721747058.5432975,
-        "modificationDate": 1715866139.9335072
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1004.tif": {
-        "timeDelta": -5880918.07148242,
-        "creationDate": 1721747058.5881498,
-        "modificationDate": 1715866140.5166674
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": {
-        "timeDelta": -5879753.819731474,
-        "creationDate": 1721747058.610091,
-        "modificationDate": 1715867304.7903595
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Displacement_Utility - Raw.png": {
-        "timeDelta": -5879754.079573631,
-        "creationDate": 1721747058.7227893,
-        "modificationDate": 1715867304.6432157
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Normal_Utility - Raw.png": {
-        "timeDelta": -5879753.887795687,
-        "creationDate": 1721747058.8394766,
-        "modificationDate": 1715867304.951681
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": {
-        "timeDelta": -5879754.29000926,
-        "creationDate": 1721747058.8773754,
-        "modificationDate": 1715867304.587366
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": {
-        "timeDelta": -5879754.418694019,
-        "creationDate": 1721747059.04296,
-        "modificationDate": 1715867304.624266
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": {
-        "timeDelta": -5879420.633433819,
-        "creationDate": 1721747059.084819,
-        "modificationDate": 1715867638.4513853
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Displacement_Utility - Raw.png": {
-        "timeDelta": -5879420.953577518,
-        "creationDate": 1721747059.325176,
-        "modificationDate": 1715867638.3715985
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Normal_Utility - Raw.png": {
-        "timeDelta": -5879420.751147747,
-        "creationDate": 1721747059.4329145,
-        "modificationDate": 1715867638.6817667
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": {
-        "timeDelta": -5879421.178972483,
-        "creationDate": 1721747059.5017023,
-        "modificationDate": 1715867638.3227298
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": {
-        "timeDelta": -5879421.239839315,
-        "creationDate": 1721747059.5944836,
-        "modificationDate": 1715867638.3546443
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5818346.09692049,
-        "creationDate": 1721747059.6273947,
-        "modificationDate": 1715928713.5304742
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": -5818346.027160883,
-        "creationDate": 1721747059.7740016,
-        "modificationDate": 1715928713.7468407
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5818345.964312315,
-        "creationDate": 1721747059.8258638,
-        "modificationDate": 1715928713.8615515
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5818346.43199563,
-        "creationDate": 1721747059.9574833,
-        "modificationDate": 1715928713.5254877
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5818346.287839413,
-        "creationDate": 1721747059.9694507,
-        "modificationDate": 1715928713.6816113
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5548586.474386692,
-        "creationDate": 1721747059.981418,
-        "modificationDate": 1716198473.5070312
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5548586.698817015,
-        "creationDate": 1721747060.086137,
-        "modificationDate": 1716198473.38732
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5548586.896523476,
-        "creationDate": 1721747060.1569474,
-        "modificationDate": 1716198473.260424
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5548586.555761814,
-        "creationDate": 1721747060.2198138,
-        "modificationDate": 1716198473.664052
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5548587.004262686,
-        "creationDate": 1721747060.311561,
-        "modificationDate": 1716198473.3072984
-    },
-    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5814574.46495986,
-        "creationDate": 1721747060.341484,
-        "modificationDate": 1715932485.8765242
-    },
-    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5814574.487396479,
-        "creationDate": 1721747060.3943448,
-        "modificationDate": 1715932485.9069483
-    },
-    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5814574.728780508,
-        "creationDate": 1721747060.4950426,
-        "modificationDate": 1715932485.766262
-    },
-    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5814574.666882753,
-        "creationDate": 1721747060.6446419,
-        "modificationDate": 1715932485.9777591
-    },
-    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5814574.900337696,
-        "creationDate": 1721747060.707491,
-        "modificationDate": 1715932485.8071532
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5875928.346059799,
-        "creationDate": 1721747060.8241882,
-        "modificationDate": 1715871132.4781284
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5875928.25700593,
-        "creationDate": 1721747060.8740582,
-        "modificationDate": 1715871132.6170523
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5875963.339412689,
-        "creationDate": 1721747060.9249158,
-        "modificationDate": 1715871097.585503
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5875963.186748028,
-        "creationDate": 1721747060.9937322,
-        "modificationDate": 1715871097.8069842
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": -5875963.370771408,
-        "creationDate": 1721747061.0415788,
-        "modificationDate": 1715871097.6708074
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1002.tif": {
-        "timeDelta": -5875963.170856714,
-        "creationDate": 1721747061.0944374,
-        "modificationDate": 1715871097.9235806
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5875928.631589413,
-        "creationDate": 1721747061.1353545,
-        "modificationDate": 1715871132.503765
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1002.tif": {
-        "timeDelta": -5875928.545236111,
-        "creationDate": 1721747061.1971953,
-        "modificationDate": 1715871132.6519592
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5875928.828741312,
-        "creationDate": 1721747061.2530124,
-        "modificationDate": 1715871132.424271
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1002.tif": {
-        "timeDelta": -5875928.729732037,
-        "creationDate": 1721747061.3009076,
-        "modificationDate": 1715871132.5711756
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5875928.730706215,
-        "creationDate": 1721747061.312852,
-        "modificationDate": 1715871132.5821457
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": -5875928.597364426,
-        "creationDate": 1721747061.3328257,
-        "modificationDate": 1715871132.7354612
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5875928.897557259,
-        "creationDate": 1721747061.3487568,
-        "modificationDate": 1715871132.4511995
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5875928.793539047,
-        "creationDate": 1721747061.371695,
-        "modificationDate": 1715871132.578156
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5875963.747296095,
-        "creationDate": 1721747061.3876522,
-        "modificationDate": 1715871097.640356
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5875963.513481379,
-        "creationDate": 1721747061.3976252,
-        "modificationDate": 1715871097.8841438
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5875963.725820065,
-        "creationDate": 1721747061.4135828,
-        "modificationDate": 1715871097.6877627
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5875963.496908426,
-        "creationDate": 1721747061.4315348,
-        "modificationDate": 1715871097.9346263
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_BaseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5806929.171052694,
-        "creationDate": 1721747061.4535046,
-        "modificationDate": 1715940132.2824519
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif": {
-        "timeDelta": -5806929.110156059,
-        "creationDate": 1721747061.4834228,
-        "modificationDate": 1715940132.3732667
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Metallic_Utility - Raw.1001.tif": {
-        "timeDelta": -5806929.244827986,
-        "creationDate": 1721747061.4953632,
-        "modificationDate": 1715940132.2505352
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5806929.103173256,
-        "creationDate": 1721747061.546227,
-        "modificationDate": 1715940132.4430537
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Presence_Utility - Raw.1001.tif": {
-        "timeDelta": -5806795.594753027,
-        "creationDate": 1721747061.6619172,
-        "modificationDate": 1715940266.0671642
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5806929.416396141,
-        "creationDate": 1721747061.667929,
-        "modificationDate": 1715940132.2515328
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5793307.291638613,
-        "creationDate": 1721747061.714775,
-        "modificationDate": 1715953754.4231365
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5793307.077104092,
-        "creationDate": 1721747061.802541,
-        "modificationDate": 1715953754.725437
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": -5793307.563937902,
-        "creationDate": 1721747061.97411,
-        "modificationDate": 1715953754.410172
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": {
-        "timeDelta": -5793307.386273146,
-        "creationDate": 1721747062.0448918,
-        "modificationDate": 1715953754.6586187
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5793307.494999886,
-        "creationDate": 1721747062.1266723,
-        "modificationDate": 1715953754.6316724
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": -5793307.517726183,
-        "creationDate": 1721747062.3620753,
-        "modificationDate": 1715953754.8443491
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5793308.263036013,
-        "creationDate": 1721747062.629326,
-        "modificationDate": 1715953754.36629
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5793308.057494402,
-        "creationDate": 1721747062.6871722,
-        "modificationDate": 1715953754.6296778
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5793308.331883907,
-        "creationDate": 1721747062.7380676,
-        "modificationDate": 1715953754.4061837
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5793308.5880723,
-        "creationDate": 1721747063.237724,
-        "modificationDate": 1715953754.6496518
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5555862.453672886,
-        "creationDate": 1721747063.3494277,
-        "modificationDate": 1716191200.8957548
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5555862.239230394,
-        "creationDate": 1721747063.4541442,
-        "modificationDate": 1716191201.2149138
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": {
-        "timeDelta": -5555862.74791646,
-        "creationDate": 1721747063.6296816,
-        "modificationDate": 1716191200.8817651
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": {
-        "timeDelta": -5555862.82661891,
-        "creationDate": 1721747063.9907074,
-        "modificationDate": 1716191201.1640885
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": {
-        "timeDelta": -5555862.980796814,
-        "creationDate": 1721747064.031599,
-        "modificationDate": 1716191201.0508022
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": {
-        "timeDelta": -5555862.805085182,
-        "creationDate": 1721747064.1402793,
-        "modificationDate": 1716191201.335194
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": {
-        "timeDelta": -5555864.171093941,
-        "creationDate": 1721747065.004987,
-        "modificationDate": 1716191200.833893
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": {
-        "timeDelta": -5555863.94862771,
-        "creationDate": 1721747065.0508678,
-        "modificationDate": 1716191201.10224
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": {
-        "timeDelta": -5555864.192013741,
-        "creationDate": 1721747065.0628083,
-        "modificationDate": 1716191200.8707945
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": {
-        "timeDelta": -5555863.928639889,
-        "creationDate": 1721747065.0837524,
-        "modificationDate": 1716191201.1551125
+    "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp": {
+        "timeDelta": -5795497.165555477,
+        "creationDate": 1721747003.9865873,
+        "modificationDate": 1715951506.8210318
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp": {
+        "timeDelta": -5550179.062240839,
+        "creationDate": 1721747005.0237746,
+        "modificationDate": 1716196825.9615338
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp": {
+        "timeDelta": -5550391.552125692,
+        "creationDate": 1721747015.3824098,
+        "modificationDate": 1716196623.830284
+    },
+    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp": {
+        "timeDelta": -5552233.152731419,
+        "creationDate": 1721747025.0011525,
+        "modificationDate": 1716194791.848421
     }
 }

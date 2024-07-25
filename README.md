@@ -14,32 +14,11 @@ gives you, while using the same widgets you are used to.
 
 
 # TASKLIST
-- [ ] Define the main TUI design for the application
+- [x] Define the main TUI design for the application
 - [x] Scanning the whole pipeline (each folder, files and subfolders)
 - [ ] Creating the autorun program for automatic scan
-
-
-# STATISTICS TO GIVE BACK AFTER ANALYSIS
-- [x] Gives main data about the whole project
-	number of files
-	average files size
-	average folder size
-	number of folder
-	size of the project
-	
-- [x] content for each folder
-- [x] size for each folder and file
-- [x] size classement for files and folders 
-- [x] average size for each folder and for the global project
-- [x] in a folder, size of a file compared to the filename proximity (file repetition / archiving)
-- [x] create a dictionnary for each file extension and sort files by size in it!
-
-- [x] get data about creation / modification date for each file (and calculate the delta)
-- [ ] sort folders by size (after running through the whole pipeline)
-- [ ] sorted folders by numbers of files / subfolders contained
-
-- [x] speed test for lightest and heaviest file (for each folder?)
-- [ ] create a threshold value - max file size to do the speed test (to avoid moving 50 Go files :) )
+- [ ] Define settings for the scan (to skip specified scan task)
+- [ ] Get the previous scan informations when launching the program
 
 
 

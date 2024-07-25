@@ -1,4 +1,23 @@
 {
+    "D:/TRASH2\\aircon01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 2,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "D:/TRASH2\\aircon01\\input",
+            "D:/TRASH2\\aircon01\\output"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {
+            "heavy": null,
+            "light": null
+        }
+    },
     "D:/TRASH2\\aircon01\\input": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -16,7 +35,7 @@
         }
     },
     "D:/TRASH2\\aircon01\\output": {
-        "folderSize": 976475088,
+        "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 2,
         "filesNumber": 0,
@@ -33,30 +52,6 @@
             "heavy": null,
             "light": null
         }
-    },
-    "D:/TRASH2\\aircon01": {
-        "folderSize": 976475088
-    },
-    "D:/TRASH2\\aircon02\\output": {
-        "folderSize": 114773688,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "D:/TRASH2\\aircon02\\output\\substance_v001"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {
-            "heavy": null,
-            "light": null
-        }
-    },
-    "D:/TRASH2\\aircon02": {
-        "folderSize": 114858194
     },
     "D:/TRASH2\\aircon02\\input": {
         "folderSize": 84506,
@@ -87,20 +82,59 @@
         "speedTest": {
             "heavy": {
                 "filename": "D:/TRASH2\\aircon02\\input\\aircon02.usd",
-                "speedTestDelta": 0.014959096908569336,
-                "copyDelta": 0.014959096908569336,
+                "speedTestDelta": 0.004985809326171875,
+                "copyDelta": 0.004985809326171875,
                 "removeDelta": 0.0
             },
             "light": {
                 "filename": "D:/TRASH2\\aircon02\\input\\aircon02.usd",
-                "speedTestDelta": 0.019946813583374023,
-                "copyDelta": 0.019946813583374023,
+                "speedTestDelta": 0.006981849670410156,
+                "copyDelta": 0.006981849670410156,
                 "removeDelta": 0.0
             }
         }
     },
+    "D:/TRASH2\\aircon02": {
+        "folderSize": 84506
+    },
+    "D:/TRASH2\\aircon02\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "D:/TRASH2\\aircon02\\output\\substance_v001"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {
+            "heavy": null,
+            "light": null
+        }
+    },
+    "D:/TRASH2\\ang": {
+        "folderSize": 3108707348,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "D:/TRASH2\\ang\\substance"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {
+            "heavy": null,
+            "light": null
+        }
+    },
     "D:/TRASH2\\bread\\output": {
-        "folderSize": 725052276,
+        "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 6,
         "filesNumber": 0,
@@ -122,61 +156,11 @@
             "light": null
         }
     },
-    "D:/TRASH2\\ang\\substance\\output": {
-        "folderSize": 477731737,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 10,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002",
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003",
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001",
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {
-            "heavy": null,
-            "light": null
-        }
-    },
     "D:/TRASH2\\bread": {
-        "folderSize": 1533792854
-    },
-    "D:/TRASH2\\ang\\substance": {
-        "folderSize": 863116332
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs": {
-        "folderSize": 65769325,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 3,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k",
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k",
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {
-            "heavy": null,
-            "light": null
-        }
+        "folderSize": 808328318
     },
     "D:/TRASH2\\brickpourrob1\\output": {
-        "folderSize": 2812445505,
+        "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 11,
         "filesNumber": 0,
@@ -203,918 +187,8 @@
             "light": null
         }
     },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew": {
-        "folderSize": 66021042
-    },
-    "D:/TRASH2\\ang": {
-        "folderSize": 3971823680
-    },
     "D:/TRASH2\\brickpourrob1": {
-        "folderSize": 2962049885
-    },
-    "D:/TRASH2\\ang\\substance\\input": {
-        "folderSize": 384143838
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v001": {
-        "folderSize": 72402200,
-        "fileContainedSize": 72402200,
-        "subfoldersNumber": 0,
-        "filesNumber": 10,
-        "averageFileSize": 7240220.0,
-        "maxFileSize": [
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif",
-            18416784
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif",
-            158966
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": 18416784,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": 11477688,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1001.tif": 3606508,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1002.tif": 3046040,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": 158966,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": 1457958,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": 15924046,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": 12369076,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": 2634924,
-            "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": 3310210
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    18416784
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif",
-                    11477688
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1001.tif",
-                    3606508
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Height_Utility - Raw.1002.tif",
-                    3046040
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif",
-                    158966
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1001.tif",
-                    15924046
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Normal_Utility - Raw.1002.tif",
-                    12369076
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif",
-                    2634924
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif",
-                    1457958
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif",
-                    3310210
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.7320384979248047,
-                "copyDelta": 0.7320384979248047,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\aircon01\\output\\substance_v001\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.847731351852417,
-                "copyDelta": 0.7330355644226074,
-                "removeDelta": 0.11469578742980957
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\input\\textures": {
-        "folderSize": 412260,
-        "fileContainedSize": 412260,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 82452.0,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg",
-            102779
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg",
-            61677
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg": 102779,
-            "D:/TRASH2\\bread\\input\\textures\\360_F_40524560_yTpTQxidzZior4laEOc4p3EHbXbgN4JB.jpg": 65202,
-            "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg": 61677,
-            "D:/TRASH2\\bread\\input\\textures\\360_F_49146307_H9Xw7JEQGimKfTvWcSRu8CDtQbsOu8z2.jpg": 97913,
-            "D:/TRASH2\\bread\\input\\textures\\360_F_627039124_rbOEPYqSXiU1AD7uOttXcjADISPlcBxp.jpg": 84689
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg",
-                    102779
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\input\\textures\\360_F_40524560_yTpTQxidzZior4laEOc4p3EHbXbgN4JB.jpg",
-                    65202
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg",
-                    61677
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\input\\textures\\360_F_49146307_H9Xw7JEQGimKfTvWcSRu8CDtQbsOu8z2.jpg",
-                    97913
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\bread\\input\\textures\\360_F_627039124_rbOEPYqSXiU1AD7uOttXcjADISPlcBxp.jpg",
-                    84689
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\input\\textures\\23-crust-free-bread-textures-download.jpg",
-                "speedTestDelta": 0.4168827533721924,
-                "copyDelta": 0.3041853904724121,
-                "removeDelta": 0.11269736289978027
-            },
-            "light": {
-                "filename": "D:/TRASH2\\bread\\input\\textures\\360_F_432090830_Uqtgqmrp1O129RFlhAZIRPoJ4oPlwdtG.jpg",
-                "speedTestDelta": 0.4478287696838379,
-                "copyDelta": 0.4478287696838379,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\input": {
-        "folderSize": 412260
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews": {
-        "folderSize": 251717,
-        "fileContainedSize": 251717,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 251717.0,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-            251717
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-            251717
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg": 251717
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-                    251717
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.5346052646636963,
-                "copyDelta": 0.5346052646636963,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\previews\\ufipfbmew_Popup_3840_sp.jpg",
-                "speedTestDelta": 0.5355947017669678,
-                "copyDelta": 0.5355947017669678,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k": {
-        "folderSize": 3072489,
-        "fileContainedSize": 3072489,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 614497.8,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg",
-            1229148
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg",
-            91591
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg": 1229148,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg": 91591,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Displacement.jpg": 176741,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg": 756559,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg": 818450
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg",
-                    1229148
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg",
-                    91591
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Displacement.jpg",
-                    176741
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Normal.jpg",
-                    756559
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Roughness.jpg",
-                    818450
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_Albedo.jpg",
-                "speedTestDelta": 0.4178800582885742,
-                "copyDelta": 0.4168827533721924,
-                "removeDelta": 0.000997304916381836
-            },
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\1k\\ufipfbmew_1K_AO.jpg",
-                "speedTestDelta": 0.684168815612793,
-                "copyDelta": 0.684168815612793,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k": {
-        "folderSize": 12881053,
-        "fileContainedSize": 12881053,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 2576210.6,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
-            4852472
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
-            408782
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg": 4852472,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg": 408782,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg": 684684,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg": 3681523,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg": 3253592
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
-                    4852472
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
-                    408782
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Displacement.jpg",
-                    684684
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Normal.jpg",
-                    3681523
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Roughness.jpg",
-                    3253592
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_AO.jpg",
-                "speedTestDelta": 0.41588640213012695,
-                "copyDelta": 0.41588640213012695,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\2k\\ufipfbmew_2K_Albedo.jpg",
-                "speedTestDelta": 1.5498783588409424,
-                "copyDelta": 1.5498783588409424,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\output\\substance_mask": {
-        "folderSize": 16781528,
-        "fileContainedSize": 16781528,
-        "subfoldersNumber": 0,
-        "filesNumber": 4,
-        "averageFileSize": 4195382.0,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp",
-            4195382
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp",
-            4195382
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp": 4195382,
-            "D:/TRASH2\\bread\\output\\substance_mask\\bread_holes_mask.1001.bmp": 4195382,
-            "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.1001.bmp": 4195382,
-            "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.bmp": 4195382
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp",
-                    4195382
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_mask\\bread_holes_mask.1001.bmp",
-                    4195382
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.1001.bmp",
-                    4195382
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_mask\\break_drycrumb_mask.1001.bmp",
-                    4195382
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp",
-                "speedTestDelta": 1.4511418342590332,
-                "copyDelta": 1.4511418342590332,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_mask\\bread_dry_mask.1001.bmp",
-                "speedTestDelta": 1.4521124362945557,
-                "copyDelta": 1.4521124362945557,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k": {
-        "folderSize": 49815783,
-        "fileContainedSize": 49815783,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 9963156.6,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
-            17420003
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-            1787819
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg": 17420003,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg": 1787819,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg": 2700423,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg": 15698684,
-            "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg": 12208854
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
-                    17420003
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-                    1787819
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Displacement.jpg",
-                    2700423
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Normal.jpg",
-                    15698684
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Roughness.jpg",
-                    12208854
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_AO.jpg",
-                "speedTestDelta": 0.8547117710113525,
-                "copyDelta": 0.8547117710113525,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\input\\wood_parquet_ufipfbmew\\Thumbs\\4k\\ufipfbmew_4K_Albedo.jpg",
-                "speedTestDelta": 5.648902177810669,
-                "copyDelta": 5.374640703201294,
-                "removeDelta": 0.274261474609375
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v003": {
-        "folderSize": 117097294,
-        "fileContainedSize": 117097294,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 23419458.8,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-            53582936
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-            635126
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": 43122642,
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Height_Utility - Raw.1001.tif": 13148390,
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif": 53582936,
-            "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Roughness_Utility - Raw.1001.tif": 6608200
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    43122642
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Height_Utility - Raw.1001.tif",
-                    13148390
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                    53582936
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Roughness_Utility - Raw.1001.tif",
-                    6608200
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.21442747116088867,
-                "copyDelta": 0.21442747116088867,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v003\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 8.342023611068726,
-                "copyDelta": 8.342023611068726,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v005": {
-        "folderSize": 118572832,
-        "fileContainedSize": 118572832,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 23714566.4,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-            53449434
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-            635126
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": 43761284,
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Height_Utility - Raw.1001.tif": 13036174,
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif": 53449434,
-            "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Roughness_Utility - Raw.1001.tif": 7690814
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    43761284
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Height_Utility - Raw.1001.tif",
-                    13036174
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                    53449434
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Roughness_Utility - Raw.1001.tif",
-                    7690814
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.3300819396972656,
-                "copyDelta": 0.3300819396972656,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v005\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 8.794392108917236,
-                "copyDelta": 8.794392108917236,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v004": {
-        "folderSize": 117550490,
-        "fileContainedSize": 117550490,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 23510098.0,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-            53569238
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-            635126
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": 43611816,
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Height_Utility - Raw.1001.tif": 13140814,
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif": 53569238,
-            "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Roughness_Utility - Raw.1001.tif": 6593496
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    43611816
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Height_Utility - Raw.1001.tif",
-                    13140814
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                    53569238
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Roughness_Utility - Raw.1001.tif",
-                    6593496
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.23337674140930176,
-                "copyDelta": 0.23337674140930176,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v004\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 9.784059762954712,
-                "copyDelta": 9.784059762954712,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v002": {
-        "folderSize": 233530458,
-        "fileContainedSize": 233530458,
-        "subfoldersNumber": 0,
-        "filesNumber": 10,
-        "averageFileSize": 23353045.8,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-            53581246
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-            635126
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif": 43122600,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Height_Utility - Raw.1001.tif": 13148368,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif": 53581246,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Roughness_Utility - Raw.1001.tif": 6608150,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_BaseColor_Utility - sRGB - Texture.1001.tif": 44326206,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Height_Utility - Raw.1001.tif": 13304072,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Normal_Utility - Raw.1001.tif": 51393634,
-            "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Roughness_Utility - Raw.1001.tif": 6775930
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    43122600
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Height_Utility - Raw.1001.tif",
-                    13148368
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                    53581246
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Roughness_Utility - Raw.1001.tif",
-                    6608150
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    44326206
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Height_Utility - Raw.1001.tif",
-                    13304072
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Normal_Utility - Raw.1001.tif",
-                    51393634
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v002\\prop_sculpt_breadHigh_v002_defaultMat_Roughness_Utility - Raw.1001.tif",
-                    6775930
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.26132869720458984,
-                "copyDelta": 0.26132869720458984,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v002\\bread_bread_2_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 10.395697355270386,
-                "copyDelta": 10.391711950302124,
-                "removeDelta": 0.003985404968261719
-            }
-        }
-    },
-    "D:/TRASH2\\aircon02\\output\\substance_v001": {
-        "folderSize": 114773688,
-        "fileContainedSize": 114773688,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 22954737.6,
-        "maxFileSize": [
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif",
-            43778978
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif",
-            8225148
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif": 43778978,
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Height_Utility - Raw.1001.tif": 10167160,
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Metallic_Utility - Raw.1001.tif": 10025330,
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Normal_Utility - Raw.1001.tif": 42577072,
-            "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif": 8225148
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    43778978
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Height_Utility - Raw.1001.tif",
-                    10167160
-                ],
-                [
-                    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Metallic_Utility - Raw.1001.tif",
-                    10025330
-                ],
-                [
-                    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Normal_Utility - Raw.1001.tif",
-                    42577072
-                ],
-                [
-                    "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif",
-                    8225148
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_Roughness_Utility - Raw.1001.tif",
-                "speedTestDelta": 3.897562026977539,
-                "copyDelta": 3.3191118240356445,
-                "removeDelta": 0.5784502029418945
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\aircon02\\output\\substance_v001\\aircon02_aircon02_BaseColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 11.841779470443726,
-                "copyDelta": 11.83779001235962,
-                "removeDelta": 0.003989458084106445
-            }
-        }
-    },
-    "D:/TRASH2\\bread\\output\\substance_bread_v001": {
-        "folderSize": 121519674,
-        "fileContainedSize": 121519674,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 24303934.8,
-        "maxFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif",
-            54592484
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif",
-            635126
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_BaseColor_Utility - sRGB - Texture.1001.tif": 45712408,
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Height_Utility - Raw.1001.tif": 13606952,
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif": 54592484,
-            "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Roughness_Utility - Raw.1001.tif": 6972704
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    45712408
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Height_Utility - Raw.1001.tif",
-                    13606952
-                ],
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif",
-                    54592484
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Roughness_Utility - Raw.1001.tif",
-                    6972704
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.24138212203979492,
-                "copyDelta": 0.24138212203979492,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\bread\\output\\substance_bread_v001\\bread_bread_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 12.55390191078186,
-                "copyDelta": 12.241709470748901,
-                "removeDelta": 0.312192440032959
-            }
-        }
+        "folderSize": 149604380
     },
     "D:/TRASH2\\brickpourrob1\\7": {
         "folderSize": 149604380,
@@ -1173,1721 +247,198 @@
         "speedTest": {
             "light": {
                 "filename": "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png",
-                "speedTestDelta": 2.1841518878936768,
-                "copyDelta": 2.18318247795105,
-                "removeDelta": 0.0
+                "speedTestDelta": 0.015958547592163086,
+                "copyDelta": 0.01396322250366211,
+                "removeDelta": 0.0019953250885009766
             },
             "heavy": {
                 "filename": "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png",
-                "speedTestDelta": 18.248653888702393,
-                "copyDelta": 18.242640018463135,
-                "removeDelta": 0.0060138702392578125
+                "speedTestDelta": 0.2563133239746094,
+                "copyDelta": 0.21342802047729492,
+                "removeDelta": 0.04288530349731445
             }
         }
     },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001": {
-        "folderSize": 146126232,
-        "fileContainedSize": 146126232,
-        "subfoldersNumber": 0,
-        "filesNumber": 20,
-        "averageFileSize": 7306311.6,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif",
-            17865336
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-            393474
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1001.tif": 11439490,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif": 17865336,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1003.tif": 14352372,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1004.tif": 16287472,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1001.tif": 2870936,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1002.tif": 4377466,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1003.tif": 3272522,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1004.tif": 4156150,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1001.tif": 10986602,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1002.tif": 17671770,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1003.tif": 14605218,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1004.tif": 16605260,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1003.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1004.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1001.tif": 1998450,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1002.tif": 3020248,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1003.tif": 2137036,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1004.tif": 2906008
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    11439490
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif",
-                    17865336
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1003.tif",
-                    14352372
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1004.tif",
-                    16287472
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    393474
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1001.tif",
-                    2870936
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1002.tif",
-                    4377466
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1003.tif",
-                    3272522
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Displacement_Utility - Raw.1004.tif",
-                    4156150
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1001.tif",
-                    10986602
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1002.tif",
-                    17671770
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1003.tif",
-                    14605218
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_Normal_Utility - Raw.1004.tif",
-                    16605260
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1002.tif",
-                    393474
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1003.tif",
-                    393474
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1004.tif",
-                    393474
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1001.tif",
-                    1998450
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1002.tif",
-                    3020248
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1003.tif",
-                    2137036
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularRoughness_Utility - Raw.1004.tif",
-                    2906008
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 0.16957855224609375,
-                "copyDelta": 0.1685802936553955,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v001\\angbed_mod_angbed_DiffuseColor_Utility - sRGB - Texture.1002.tif",
-                "speedTestDelta": 4.12806248664856,
-                "copyDelta": 4.126039743423462,
-                "removeDelta": 0.0018877983093261719
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002": {
-        "folderSize": 16932226,
-        "fileContainedSize": 16932226,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 3386445.2,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png",
-            7020314
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png",
-            29467
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": 7020314,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Displacement_Utility - Raw.png": 1712643,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Normal_Utility - Raw.png": 6652715,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": 29467,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": 1517087
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png",
-                    7020314
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png",
-                    29467
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Displacement_Utility - Raw.png",
-                    1712643
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_Normal_Utility - Raw.png",
-                    6652715
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png",
-                    1517087
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png",
-                "speedTestDelta": 0.1934812068939209,
-                "copyDelta": 0.1934812068939209,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v002\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png",
-                "speedTestDelta": 1.504368782043457,
-                "copyDelta": 1.504368782043457,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003": {
-        "folderSize": 17134717,
-        "fileContainedSize": 17134717,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 3426943.4,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png",
-            7222805
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png",
-            29467
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png": 7222805,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Displacement_Utility - Raw.png": 1712643,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Normal_Utility - Raw.png": 6652715,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png": 29467,
-            "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png": 1517087
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png",
-                    7222805
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png",
-                    29467
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Displacement_Utility - Raw.png",
-                    1712643
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_Normal_Utility - Raw.png",
-                    6652715
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularRoughness_Utility - Raw.png",
-                    1517087
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_SpecularFaceColor_Utility - sRGB - Texture.png",
-                "speedTestDelta": 0.20545053482055664,
-                "copyDelta": 0.20448017120361328,
-                "removeDelta": 0.0009703636169433594
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angbed_substance_v003\\angbed_realmod_angbed_DiffuseColor_Utility - sRGB - Texture.png",
-                "speedTestDelta": 1.4744493961334229,
-                "copyDelta": 1.4744493961334229,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001": {
-        "folderSize": 39217320,
-        "fileContainedSize": 39217320,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 7843464.0,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif",
-            16894622
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif",
-            160526
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_BaseColor_Utility - sRGB - Texture.1001.tif": 15970528,
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Height_Utility - Raw.1001.tif": 3671752,
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif": 160526,
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": 16894622,
-            "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Roughness_Utility - Raw.1001.tif": 2519892
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    15970528
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Height_Utility - Raw.1001.tif",
-                    3671752
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif",
-                    160526
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif",
-                    16894622
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Roughness_Utility - Raw.1001.tif",
-                    2519892
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Metallic_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.6921589374542236,
-                "copyDelta": 0.6921589374542236,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angDoor_substance_v001\\angDoor_mod_prop_Angdoor_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 4.82984185218811,
-                "copyDelta": 4.828816890716553,
-                "removeDelta": 0.0010249614715576172
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004": {
-        "folderSize": 45836671,
-        "fileContainedSize": 45836671,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 45836671.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png",
-            45836671
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png",
-            45836671
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png": 45836671
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    45836671
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 28.11545968055725,
-                "copyDelta": 28.11545968055725,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v004\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 28.11545968055725,
-                "copyDelta": 28.11545968055725,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004": {
-        "folderSize": 416277418,
-        "fileContainedSize": 416277418,
-        "subfoldersNumber": 0,
+    "D:/TRASH2\\bread\\input": {
+        "folderSize": 808328318,
+        "fileContainedSize": 808328318,
+        "subfoldersNumber": 1,
         "filesNumber": 8,
-        "averageFileSize": 52034677.25,
+        "averageFileSize": 101041039.75,
         "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-            142541325
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj",
+            264438580
         ],
         "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png",
-            65408
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl",
+            121
         ],
-        "subfolderList": [],
+        "subfolderList": [
+            "D:/TRASH2\\bread\\input\\textures"
+        ],
         "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 44550211,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Base_color_srgb_texture.png": 51000356,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Height_Utility - Raw.png": 18750193,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png": 65408,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": 44529908,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 142541325,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_Utility - Raw.png": 95166925,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Roughness_Utility - Raw.png": 19673092
+            "D:/TRASH2\\bread\\input\\bread.usd": 61368,
+            "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.mtl": 205,
+            "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.obj": 487752,
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.assbin": 126816346,
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.obj": 223213578,
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.assbin": 193310368,
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl": 121,
+            "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj": 264438580
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    44550211
+                    "D:/TRASH2\\bread\\input\\bread.usd",
+                    61368
                 ]
             ],
             "1": [
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    51000356
+                    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.mtl",
+                    205
+                ],
+                [
+                    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.obj",
+                    487752
                 ]
             ],
             "2": [
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Height_Utility - Raw.png",
-                    18750193
+                    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.assbin",
+                    126816346
+                ],
+                [
+                    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.assbin",
+                    193310368
                 ]
             ],
             "3": [
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                    65408
-                ]
-            ],
-            "4": [
+                    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.obj",
+                    223213578
+                ],
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Mixed_AO_Utility - Raw.png",
-                    44529908
-                ]
-            ],
-            "5": [
+                    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl",
+                    121
+                ],
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    142541325
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_Utility - Raw.png",
-                    95166925
-                ]
-            ],
-            "7": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    19673092
+                    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj",
+                    264438580
                 ]
             ]
         },
         "speedTest": {
             "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                "speedTestDelta": 0.9976506233215332,
-                "copyDelta": 0.9976506233215332,
+                "filename": "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl",
+                "speedTestDelta": 0.005983591079711914,
+                "copyDelta": 0.005983591079711914,
                 "removeDelta": 0.0
             },
             "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v004\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                "speedTestDelta": 20.928196907043457,
-                "copyDelta": 20.928196907043457,
-                "removeDelta": 0.0
+                "filename": "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj",
+                "speedTestDelta": 0.5285837650299072,
+                "copyDelta": 0.47871875762939453,
+                "removeDelta": 0.049865007400512695
             }
         }
     },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence": {
-        "folderSize": 47456259,
-        "fileContainedSize": 47456259,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 47456259.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png",
-            47456259
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png",
-            47456259
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png": 47456259
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    47456259
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 29.582505464553833,
-                "copyDelta": 29.582505464553833,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_mask_presence\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 29.583502769470215,
-                "copyDelta": 29.583502769470215,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001": {
-        "folderSize": 53302764,
-        "fileContainedSize": 53302764,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 10660552.8,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif",
-            24626440
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif",
-            162038
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_DiffuseColor_Utility - sRGB - Texture.1001.tif": 23273874,
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Displacement_Utility - Raw.1001.tif": 4846938,
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif": 24626440,
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif": 162038
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    23273874
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    393474
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Displacement_Utility - Raw.1001.tif",
-                    4846938
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif",
-                    24626440
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif",
-                    162038
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_SpecularRoughness_Utility - Raw.1001.tif",
-                "speedTestDelta": 0.7151246070861816,
-                "copyDelta": 0.7151246070861816,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angcarpet_substance_v001\\angcarpet_mod_item_angcarpet_mod_publish_PxrSurface7SG_Normal_Utility - Raw.1001.tif",
-                "speedTestDelta": 6.7576799392700195,
-                "copyDelta": 6.756682395935059,
-                "removeDelta": 0.0009975433349609375
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002": {
-        "folderSize": 440281608,
-        "fileContainedSize": 440281608,
-        "subfoldersNumber": 0,
-        "filesNumber": 8,
-        "averageFileSize": 55035201.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-            150046208
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png",
-            65408
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 42011658,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Base_color_srgb_texture.png": 83667946,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Height_Utility - Raw.png": 24552623,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png": 65408,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": 42031136,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 150046208,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_Utility - Raw.png": 75952321,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Roughness_Utility - Raw.png": 21954308
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    42011658
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    83667946
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Height_Utility - Raw.png",
-                    24552623
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                    65408
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Mixed_AO_Utility - Raw.png",
-                    42031136
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    150046208
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_Utility - Raw.png",
-                    75952321
-                ]
-            ],
-            "7": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    21954308
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                "speedTestDelta": 0.7688429355621338,
-                "copyDelta": 0.7688429355621338,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v002\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                "speedTestDelta": 24.745486974716187,
-                "copyDelta": 24.745486974716187,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003": {
-        "folderSize": 47456259,
-        "fileContainedSize": 47456259,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 47456259.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png",
-            47456259
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png",
-            47456259
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png": 47456259
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    47456259
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 30.921947717666626,
-                "copyDelta": 30.921947717666626,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_presence_v003\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 30.921947717666626,
-                "copyDelta": 30.921947717666626,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001": {
-        "folderSize": 8591902,
-        "fileContainedSize": 8591902,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 1718380.4,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif",
-            3623620
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif",
-            162038
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif": 3623620,
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif": 162038,
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Metallic_Utility - Raw.1001.tif": 184330,
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Normal_Utility - Raw.1001.tif": 1510926,
-            "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Roughness_Utility - Raw.1001.tif": 3110988
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    3623620
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif",
-                    162038
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Metallic_Utility - Raw.1001.tif",
-                    184330
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Normal_Utility - Raw.1001.tif",
-                    1510926
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Roughness_Utility - Raw.1001.tif",
-                    3110988
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_Height_Utility - Raw.1001.tif",
-                "speedTestDelta": 1.1220285892486572,
-                "copyDelta": 1.1220285892486572,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\anglamp_susbtance_v001\\anglamp_anglamp_BaseColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 2.8982391357421875,
-                "copyDelta": 2.8982391357421875,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001": {
-        "folderSize": 434336624,
-        "fileContainedSize": 434336624,
-        "subfoldersNumber": 0,
-        "filesNumber": 8,
-        "averageFileSize": 54292078.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-            150045614
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png",
-            65408
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 42009186,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Base_color_ACES - ACEScg.png": 77726333,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Height_Utility - Raw.png": 24552662,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png": 65408,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": 42030527,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 150045614,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_Utility - Raw.png": 75952292,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Roughness_Utility - Raw.png": 21954602
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    42009186
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Base_color_ACES - ACEScg.png",
-                    77726333
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Height_Utility - Raw.png",
-                    24552662
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                    65408
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Mixed_AO_Utility - Raw.png",
-                    42030527
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    150045614
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_Utility - Raw.png",
-                    75952292
-                ]
-            ],
-            "7": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    21954602
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                "speedTestDelta": 1.3164749145507812,
-                "copyDelta": 0.9185400009155273,
-                "removeDelta": 0.3979349136352539
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v001\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                "speedTestDelta": 29.74013662338257,
-                "copyDelta": 29.74013662338257,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001": {
-        "folderSize": 11199956,
-        "fileContainedSize": 11199956,
-        "subfoldersNumber": 0,
-        "filesNumber": 18,
-        "averageFileSize": 622219.7777777778,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif",
-            2016986
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif",
-            162038
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1001.tif": 496486,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1002.tif": 411046,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1001.tif": 491110,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1002.tif": 409464,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif": 162038,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1002.tif": 162038,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1001.tif": 162038,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1002.tif": 162038,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1001.tif": 169730,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1002.tif": 162716,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1001.tif": 1049434,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1002.tif": 645798,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif": 2016986,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1002.tif": 930816,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 418554,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 401862,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1001.tif": 2016986,
-            "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1002.tif": 930816
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    496486
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_BaseColor_Utility - sRGB - Texture.1002.tif",
-                    411046
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    491110
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_DiffuseColor_Utility - sRGB - Texture.1002.tif",
-                    409464
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    418554
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularFaceColor_Utility - sRGB - Texture.1002.tif",
-                    401862
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif",
-                    162038
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1002.tif",
-                    162038
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1001.tif",
-                    162038
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Height_Utility - Raw.1002.tif",
-                    162038
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1001.tif",
-                    169730
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Metallic_Utility - Raw.1002.tif",
-                    162716
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1001.tif",
-                    1049434
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Normal_Utility - Raw.1002.tif",
-                    645798
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif",
-                    2016986
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1002.tif",
-                    930816
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1001.tif",
-                    2016986
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_SpecularRoughness_Utility - Raw.1002.tif",
-                    930816
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Displacement_Utility - Raw.1001.tif",
-                "speedTestDelta": 1.9747107028961182,
-                "copyDelta": 1.9747107028961182,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angmirror_substance_v001\\angmirror_mod_angmirror_Roughness_Utility - Raw.1001.tif",
-                "speedTestDelta": 2.332780361175537,
-                "copyDelta": 2.332780361175537,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001": {
-        "folderSize": 3875928,
-        "fileContainedSize": 3875928,
-        "subfoldersNumber": 0,
-        "filesNumber": 6,
-        "averageFileSize": 645988.0,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif",
-            1880918
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif",
-            162038
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_BaseColor_Utility - sRGB - Texture.1001.tif": 568462,
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif": 162038,
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Metallic_Utility - Raw.1001.tif": 169768,
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Normal_Utility - Raw.1001.tif": 931682,
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Presence_Utility - Raw.1001.tif": 163060,
-            "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif": 1880918
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    568462
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif",
-                    162038
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Metallic_Utility - Raw.1001.tif",
-                    169768
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Normal_Utility - Raw.1001.tif",
-                    931682
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Presence_Utility - Raw.1001.tif",
-                    163060
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif",
-                    1880918
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Height_Utility - Raw.1001.tif",
-                "speedTestDelta": 1.687453031539917,
-                "copyDelta": 1.687453031539917,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angnighttable_substance_v001\\angnighttable_angnighttable_Roughness_Utility - Raw.1001.tif",
-                "speedTestDelta": 1.8320939540863037,
-                "copyDelta": 1.8320939540863037,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006": {
-        "folderSize": 49594259,
-        "fileContainedSize": 49594259,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 49594259.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png",
-            49594259
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png",
-            49594259
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png": 49594259
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    49594259
-                ]
-            ]
-        },
-        "speedTest": {
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 22.812156438827515,
-                "copyDelta": 22.812156438827515,
-                "removeDelta": 0.0
-            },
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v006\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 22.812156438827515,
-                "copyDelta": 22.812156438827515,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007": {
-        "folderSize": 420110738,
-        "fileContainedSize": 420110738,
-        "subfoldersNumber": 0,
-        "filesNumber": 8,
-        "averageFileSize": 52513842.25,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-            151857063
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png",
-            65408
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 44549943,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Base_color_srgb_texture.png": 52987481,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Height_Utility - Raw.png": 9534776,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png": 65408,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": 44529694,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 151857063,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_Utility - Raw.png": 108451524,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Roughness_Utility - Raw.png": 8134849
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    44549943
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    52987481
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Height_Utility - Raw.png",
-                    9534776
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                    65408
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Mixed_AO_Utility - Raw.png",
-                    44529694
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    151857063
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_Utility - Raw.png",
-                    108451524
-                ]
-            ],
-            "7": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    8134849
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                "speedTestDelta": 1.117037057876587,
-                "copyDelta": 0.8048446178436279,
-                "removeDelta": 0.312192440032959
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v007\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                "speedTestDelta": 21.969457864761353,
-                "copyDelta": 21.969457864761353,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001": {
-        "folderSize": 90675346,
-        "fileContainedSize": 90675346,
-        "subfoldersNumber": 0,
+    "D:/TRASH2\\ang\\substance": {
+        "folderSize": 3108707348,
+        "fileContainedSize": 3108707348,
+        "subfoldersNumber": 2,
         "filesNumber": 10,
-        "averageFileSize": 9067534.6,
+        "averageFileSize": 310870734.8,
         "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif",
-            22189234
+            "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp",
+            779156968
         ],
         "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-            393474
+            "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp",
+            79481825
         ],
-        "subfolderList": [],
+        "subfolderList": [
+            "D:/TRASH2\\ang\\substance\\input",
+            "D:/TRASH2\\ang\\substance\\output"
+        ],
         "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": 15008242,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": 20067866,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": 4014518,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": 4855984,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": 18185934,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": 22189234,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": 2242394,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": 3324226
+            "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp": 91932905,
+            "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp": 91932905,
+            "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp": 79481825,
+            "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp": 156179612,
+            "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp": 128522695,
+            "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp": 128522695,
+            "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp": 94663807,
+            "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp": 779156968,
+            "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp": 779156968,
+            "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp": 779156968
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    15008242
+                    "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp",
+                    91932905
                 ],
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif",
-                    20067866
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    393474
+                    "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp",
+                    156179612
                 ]
             ],
             "1": [
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif",
-                    4014518
+                    "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp",
+                    91932905
                 ],
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif",
-                    4855984
+                    "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp",
+                    128522695
+                ],
+                [
+                    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp",
+                    779156968
+                ],
+                [
+                    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp",
+                    779156968
                 ]
             ],
             "2": [
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif",
-                    18185934
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif",
-                    22189234
+                    "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp",
+                    79481825
                 ]
             ],
             "3": [
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif",
-                    393474
+                    "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp",
+                    128522695
                 ]
             ],
             "4": [
                 [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif",
-                    2242394
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif",
-                    3324226
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 1.5987186431884766,
-                "copyDelta": 1.5987186431884766,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angwall_substance_v001\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif",
-                "speedTestDelta": 4.98564887046814,
-                "copyDelta": 4.984652042388916,
-                "removeDelta": 0.0
-            }
-        }
-    },
-    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002": {
-        "folderSize": 90675346,
-        "fileContainedSize": 90675346,
-        "subfoldersNumber": 0,
-        "filesNumber": 10,
-        "averageFileSize": 9067534.6,
-        "maxFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif",
-            22189234
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-            393474
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif": 15008242,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif": 20067866,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif": 4014518,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif": 4855984,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif": 18185934,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif": 22189234,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif": 393474,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif": 2242394,
-            "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif": 3324226
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1001.tif",
-                    15008242
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_DiffuseColor_Utility - sRGB - Texture.1002.tif",
-                    20067866
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                    393474
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1001.tif",
-                    4014518
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Displacement_Utility - Raw.1002.tif",
-                    4855984
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1001.tif",
-                    18185934
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif",
-                    22189234
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1002.tif",
-                    393474
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1001.tif",
-                    2242394
-                ],
-                [
-                    "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularRoughness_Utility - Raw.1002.tif",
-                    3324226
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_SpecularFaceColor_Utility - sRGB - Texture.1001.tif",
-                "speedTestDelta": 1.2187690734863281,
-                "copyDelta": 1.2187690734863281,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\ang\\substance\\output\\angwall_susbtance_v002\\angWalls_mod_angwall_Normal_Utility - Raw.1002.tif",
-                "speedTestDelta": 4.886913776397705,
-                "copyDelta": 4.885916233062744,
-                "removeDelta": 0.0009975433349609375
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008": {
-        "folderSize": 59277416,
-        "fileContainedSize": 59277416,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 59277416.0,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png",
-            59277416
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png",
-            59277416
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png": 59277416
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    59277416
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 23.711795330047607,
-                "copyDelta": 23.711795330047607,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v008\\PxrSurface1SG_Base_color_srgb_texture.png",
-                "speedTestDelta": 23.715785264968872,
-                "copyDelta": 23.711795330047607,
-                "removeDelta": 0.0039899349212646484
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005": {
-        "folderSize": 419642846,
-        "fileContainedSize": 419642846,
-        "subfoldersNumber": 0,
-        "filesNumber": 8,
-        "averageFileSize": 52455355.75,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-            147290579
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png",
-            65408
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 44549586,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Base_color_srgb_texture.png": 51685286,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Height_Utility - Raw.png": 21878144,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png": 65408,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": 44529169,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 147290579,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_Utility - Raw.png": 95096874,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Roughness_Utility - Raw.png": 14547800
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    44549586
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    51685286
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Height_Utility - Raw.png",
-                    21878144
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                    65408
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Mixed_AO_Utility - Raw.png",
-                    44529169
+                    "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp",
+                    94663807
                 ]
             ],
             "5": [
                 [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    147290579
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_Utility - Raw.png",
-                    95096874
-                ]
-            ],
-            "7": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    14547800
+                    "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp",
+                    779156968
                 ]
             ]
         },
         "speedTest": {
             "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                "speedTestDelta": 0.544217586517334,
-                "copyDelta": 0.544217586517334,
-                "removeDelta": 0.0
+                "filename": "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp",
+                "speedTestDelta": 0.279252290725708,
+                "copyDelta": 0.25830841064453125,
+                "removeDelta": 0.020943880081176758
             },
             "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v005\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                "speedTestDelta": 29.130483627319336,
-                "copyDelta": 28.80039882659912,
-                "removeDelta": 0.33008480072021484
-            }
-        }
-    },
-    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003": {
-        "folderSize": 432175407,
-        "fileContainedSize": 432175407,
-        "subfoldersNumber": 0,
-        "filesNumber": 8,
-        "averageFileSize": 54021925.875,
-        "maxFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-            153647612
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png",
-            65408
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 44550203,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Base_color_srgb_texture.png": 60360312,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Height_Utility - Raw.png": 18745939,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png": 65408,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Mixed_AO_Utility - Raw.png": 44530112,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 153647612,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_Utility - Raw.png": 95025845,
-            "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Roughness_Utility - Raw.png": 15249976
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    44550203
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Base_color_srgb_texture.png",
-                    60360312
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Height_Utility - Raw.png",
-                    18745939
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                    65408
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Mixed_AO_Utility - Raw.png",
-                    44530112
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    153647612
-                ]
-            ],
-            "6": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_Utility - Raw.png",
-                    95025845
-                ]
-            ],
-            "7": [
-                [
-                    "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    15249976
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Metallic_Utility - Raw.png",
-                "speedTestDelta": 1.2380962371826172,
-                "copyDelta": 1.2380962371826172,
-                "removeDelta": 0.0
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\brickpourrob1\\output\\brick_substance_v003\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                "speedTestDelta": 30.574514865875244,
-                "copyDelta": 30.564542055130005,
-                "removeDelta": 0.009972810745239258
-            }
-        }
-    },
-    "D:/TRASH2\\aircon01\\output\\substance_v002": {
-        "folderSize": 904072888,
-        "fileContainedSize": 904072888,
-        "subfoldersNumber": 0,
-        "filesNumber": 12,
-        "averageFileSize": 75339407.33333333,
-        "maxFileSize": [
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp",
-            624366012
-        ],
-        "minFileSize": [
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd",
-            84506
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd": 84506,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif": 70939822,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif": 40580368,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1001.tif": 13823886,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1002.tif": 11316638,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif": 635126,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif": 5297622,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1001.tif": 65692342,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1002.tif": 48852552,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif": 10380768,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif": 12103246,
-            "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp": 624366012
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd",
-                    84506
-                ]
-            ],
-            "1": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1001.tif",
-                    70939822
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_BaseColor_Utility - sRGB - Texture.1002.tif",
-                    40580368
-                ]
-            ],
-            "2": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1001.tif",
-                    13823886
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Height_Utility - Raw.1002.tif",
-                    11316638
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1001.tif",
-                    635126
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1001.tif",
-                    65692342
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Normal_Utility - Raw.1002.tif",
-                    48852552
-                ],
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1001.tif",
-                    10380768
-                ]
-            ],
-            "3": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Metallic_Utility - Raw.1002.tif",
-                    5297622
-                ]
-            ],
-            "4": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01_aircon01_Roughness_Utility - Raw.1002.tif",
-                    12103246
-                ]
-            ],
-            "5": [
-                [
-                    "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp",
-                    624366012
-                ]
-            ]
-        },
-        "speedTest": {
-            "light": {
-                "filename": "D:/TRASH2\\aircon01\\output\\substance_v002\\aircon01.usd",
-                "speedTestDelta": 0.958432674407959,
-                "copyDelta": 0.7609894275665283,
-                "removeDelta": 0.19744324684143066
-            },
-            "heavy": {
-                "filename": "D:/TRASH2\\aircon01\\output\\substance_v002\\substance_aircon02_project.spp",
-                "speedTestDelta": 47.87158823013306,
-                "copyDelta": 47.71899485588074,
-                "removeDelta": 0.15259337425231934
+                "filename": "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp",
+                "speedTestDelta": 12.97174334526062,
+                "copyDelta": 12.693925142288208,
+                "removeDelta": 0.2778182029724121
             }
         }
     }

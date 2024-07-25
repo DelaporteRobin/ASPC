@@ -6,13 +6,9 @@
 $background: #151416;
 $surface: #151416;
 $primary-background: #151416;
-
+$accent: #F9A47C;
 
 $primary: #44D68B;
-
 $secondary: white;
 
-
-
-
-$accent: #80F3B8;
+$accent: #44D68B;

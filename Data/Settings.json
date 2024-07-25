@@ -1,0 +1,10 @@
+{
+    "Manual": {
+        "saveJson": false,
+        "executeSpeedTest": true,
+        "speedTestThreshold": null,
+        "numberOfProcessMode": "core",
+        "numberOfProcess": 16
+    },
+    "Live": {}
+}

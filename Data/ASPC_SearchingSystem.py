@@ -83,14 +83,18 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				thread_lock = threading.Lock()
 
 				for content in root_content:
+					self.main_folder_queue.put(os.path.join(root_folder,content))
 					thread = threading.Thread(target=self.get_folder_content_worker, args=(os.path.join(root_folder, content), thread_lock))
 					try:
 						thread.start()
 						thread_list.append(thread)
-						self.display_success_function("Thread started: [%s]" % thread)
-						self.display_message_function("Searching in %s"%content)
+						self.display_success_function("Thread started [%s]: [%s]" % (content,thread))
+						#self.display_message_function("Searching in %s"%content)
 					except:
 						self.display_warning_function("Impossible to launch thread [%s]"%thread)
+
+
+
 				self.display_message_function("Waiting for threads to terminate...")
 				for thread in thread_list:
 					self.display_success_function("Thread terminated : %s"%thread)
@@ -103,14 +107,18 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				print(self.main_folder_queue)
 				return self.main_folder_queue
 
+
+
+
+
 	def get_folder_content_worker(self, root_folder, lock):
+		print("thread for %s"%root_folder)
+		
 		for root, dirs, files in scandir.walk(root_folder):
 			for d in dirs:
 				with lock:
-					
-					#self.main_folder_list.append(os.path.join(root, d))
-					self.main_folder_queue.put(os.path.join(root, d))
-					
+					self.main_folder_queue.put(os.path.join(root_folder,d))
+		
 
 
 

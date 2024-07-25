@@ -10,6 +10,7 @@ from textual.app import App, ComposeResult
 from textual.widgets import Markdown, RadioSet, RadioButton, Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
+from textual.validation import Function, Number
 from textual.screen import Screen 
 from textual import events
 from textual.containers import Horizontal, Vertical, Container, VerticalScroll
@@ -26,7 +27,6 @@ from Data.ASPC_Common import ASPC_CommonApplication
 from Data.ASPC_SearchingSystem import ASPC_SearchingApplication
 
 
-
 colorama.init()
  
 
@@ -39,14 +39,22 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 	def __init__(self):
 		super().__init__()
 
+
+		#check for scan settings file
+		self.settings = {}
+		self.load_settings_function()
+		for key, value in self.settings.items():
+			print(key, value)
+
 		self.color_dictionnary = {
 			"background": "#151416",
 			"selected": "gray",
 			"secondary": "white",
 
-			"heaviest":"red",
-			"lightest":"green"
+			"heaviest":"#F99461",
+			"lightest":"#B1D94D"
 		}
+
 
 		self.font_title = Figlet(font="delta_corps_priest_1")
 		#self.font_title = Figlet(font="bloody")
@@ -93,8 +101,39 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 				#saved into a JSON Files
 				#coming in the next updates as soon as the whole
 				#system of statistics in working
+
+				self.root_folder_input = Input(placeholder="Root folder path", type="text", id="input_folder_path")
+				yield self.root_folder_input
+
 				with Collapsible(title="MANUAL SCAN SETTINGS", classes="collapsible_manual_scan"):
-					yield Static("All the settings that can be changed to customize the manual scan\nComing soon...")
+					#yield Static("All the settings that can be changed to customize the manual scan\nComing soon...")
+					"""
+					LIST OF THE SETTINGS
+						path of the root folder
+						save json file
+						root folder
+						speedtest ?
+						speedtest threshold for heaviest file?
+						number of multiprocessing (cpu count?)
+					"""
+					yield Static("Max number of process during scan")
+					self.input_process_number = Input(type="integer",placeholder="Process number", validators = [Number(minimum=1, maximum=multiprocessing.cpu_count())])
+					yield self.input_process_number
+
+					with RadioSet(id = "radio_scan_settings"):
+						yield RadioButton("Number of Core")
+						yield RadioButton("Custom")
+
+					self.checkbox_savejson = Checkbox("Save json file after scan", id="checkbox_savejson")
+					self.checkbox_speedtest = Checkbox("Use speedtest during scan", id="checkbox_speedtest")
+					self.checkbox_threshold = Checkbox("Use speedtest threshold", id="checkbox_threshold")
+
+					yield self.checkbox_savejson
+					yield self.checkbox_speedtest
+					yield self.checkbox_threshold
+
+					
+
 
 				yield Button("Launch Scan", id="button_launch")
 				#yield Button("TEST BUTTON", id="test_button")
@@ -130,16 +169,30 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 								self.listview_files.border_title = "FILE LIST"
 								yield self.listview_files
 
+							with Vertical(classes="files_stat_column"):
+								self.markdown_folder_info = Markdown(id="markdown_folder_info")
+								self.markdown_folder_info.border_title = "FOLDER STATS"
+								yield self.markdown_folder_info
+
 								self.markdown_file_info = Markdown(id="markdown_file_info")
-								self.markdown_file_info.border_title = "FILE INFO"
+								self.markdown_file_info.border_title = "FILE STATS"
 								yield self.markdown_file_info
 					with TabPane("Global Project View"):
 						yield Button("hello world")
 
 
+			self.apply_settings_function()
 
 
 
+
+
+
+	def apply_settings_function(self):
+		self.checkbox_savejson.value = self.settings["Manual"]["saveJson"]
+		self.checkbox_speedtest.value = self.settings["Manual"]["executeSpeedTest"]
+		self.checkbox_threshold.value = self.settings["Manual"]["speedTestThreshold"]
+		self.input_process_number.value = str(self.settings["Manual"]["numberOfProcess"])
 
 
 
@@ -149,6 +202,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			self.exit()
 
 
+
+
+
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "button_launch":
 			self.launch_process_function()
@@ -156,10 +212,40 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		if event.button.id == "test_button":
 			item = self.listview_files.children[2]
 			item.styles.background = "blue"
+
+
+
+	def on_checkbox_changed(self, event:Checkbox.Changed) -> None:
+		if event.checkbox.id in ["checkbox_savejson", "checkbox_speedtest", "checkbox_threshold"]:
+			manual = self.settings["Manual"]
+			manual["saveJson"] = self.query_one("#checkbox_savejson").value 
+			manual["speedTestThreshold"] = self.query_one("#checkbox_threshold").value
+			manual["executeSpeedTest"] = self.query_one("#checkbox_speedtest").value
+			self.settings["Manual"] = manual 
+
+			self.save_settings_function()
+			self.show_message_function("Settings saved")
+
+
+	def on_radio_set_changed(self, event:RadioSet.Changed) -> None:
+		if event.radio_set.id == "radio_scan_settings":
+			#get the value
+			radio_button = self.query_one("#radio_scan_settings").pressed_index
+			manual = self.settings["Manual"]
+			if radio_button == 0:
+				manual["numberOfProcessMode"] = "core"
+			else:
+				manual["numberOfProcessMode"] = "custom"
+			self.settings["Manual"] = manual
+			self.save_settings_function()
+			self.show_message_function("Settings saved")
 			
 
 
 	
+
+
+
 	def on_list_view_selected(self,event:ListView.Selected) -> None:
 		#self.show_message_function("hello world")
 		#get the index of the item selected
@@ -168,8 +254,8 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			self.show_message_function(self.current_lobby_filelist[selection])
 
 			#get all informations about the given file
-			self.create_markdown_for_file_function(self.current_lobby_filelist[selection])
-
+			final_markdown = self.create_markdown_for_file_function(self.current_lobby_filelist[selection])
+			self.markdown_file_info.update(final_markdown)
 
 
 
@@ -194,6 +280,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					self.listview_files.children[i].styles.background = self.design["dark"].background
 				self.show_error_function("No file contained in this folder")
 			else:
+				#get the markdown for the current folder to display stats
+				final_markdown = self.create_markdown_for_folder_function(folder_selected)
+				self.markdown_folder_info.update(final_markdown)
+
 				#add the file list to the current file list
 				self.listview_files.clear()
 				self.current_lobby_filelist = []
@@ -204,10 +294,73 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 					if file == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
 						#list_item.styles.background = self.color_dictionnary["lightest"]
-						list_item.styles.background = self.design["dark"].primary
+						list_item.styles.background = self.color_dictionnary["lightest"]
 					if file == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
-						list_item.styles.background = self.design["dark"].secondary
+						list_item.styles.background = self.color_dictionnary["heaviest"]
 						#list_item.styles.background = self.color_dictionnary["heaviest"]
+
+
+
+
+	def create_markdown_for_folder_function(self, filepath):
+		final_markdown="""
+## General informations on folder
+Folder : %s\n
+"""%filepath
+		#get general informations about the folder
+		try:
+			folder_size = self.get_size_mo_function(self.folder_dictionnary[filepath]["folderSize"])
+			folder_size_contained = self.get_size_mo_function(self.folder_dictionnary[filepath]["fileContainedSize"])
+			file_number = self.folder_dictionnary[filepath]["filesNumber"]
+			subfolder_number = (self.folder_dictionnary[filepath]["subfolderNumber"])
+			
+		except:
+			final_markdown+= """
+> [!CAUTION] 
+> Impossible to get global folder informations\n
+"""
+		else:
+			final_markdown+= """
+Folder size: %s Mo\n
+Folder size (files contained) : %s Mo\n
+Number of files in folder : %s\n
+Number of subfolder : %s\n
+"""%(folder_size,folder_size_contained,file_number,subfolder_number)
+
+
+		final_markdown+="""
+## Speed test informations
+"""
+		#get informations about file size
+		try:
+			speedtest_heavy = self.folder_dictionnary[filepath]["speedTest"]["heavy"]["speedTestDelta"]
+			speedtest_light = self.folder_dictionnary[filepath]["speedTest"]["light"]["speedTestDelta"]
+
+			lightest_file = self.folder_dictionnary[filepath]["minFileSize"][0]
+			lightest_file_size = self.folder_dictionnary[filepath]["minFileSize"][1]
+
+			heaviest_file = self.folder_dictionnary[filepath]["maxFileSize"][0]
+			heaviest_file_size = self.folder_dictionnary[filepath]["maxFileSize"][1]
+		except:
+			final_markdown+="""
+> [!CAUTION]
+> Impossible to get data about speedtest for this folder
+"""
+		else:
+			final_markdown += """
+Speed test for lightest file : %s\n
+Lightest file : %s\n
+Lightest file size : %s\n
+\n
+Speed test for heaviest file : %s\n
+Heaviest file : %s\n
+Heaviest file size : %s\n
+
+"""%(speedtest_light,lightest_file, lightest_file_size, speedtest_heavy, heaviest_file, heaviest_file_size)
+		
+
+		return final_markdown
+
 
 
 
@@ -215,25 +368,74 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 	def create_markdown_for_file_function(self, filepath):
+		final_markdown = """
+"""
 		#check if it possible to get all informations about the given
 		#file in the dictionnary created by the manual scan
 		file_date_data = self.manual_scan_data["GlobalDateData"][filepath]
 		file_size = self.file_dictionnary[filepath]
 		file_size_position = list(self.file_dictionnary.keys()).index(filepath)
-		extension_dictionnary = self.extension_dictionnary[os.path.splitext(filepath)[1]]
 
-		#creation_date = time.localtime(file_date_data["creationDate"])
-		#for key, value in file_date_data.items():
-		#	self.show_message_function("%s : %s"%(key, value))
+		final_markdown+="""
+## Extension data\n
+"""
+		try:
+			#GET EXTENSION INFORMATIONS ABOUT THE FILE
+			extension_dictionnary = self.extension_dictionnary[os.path.splitext(filepath)[1]]
+			extension_average_size = extension_dictionnary["fileSizeAverage"]
+			extension_file_position = list(extension_dictionnary["fileList"].keys()).index(filepath)
+			#self.show_message_function("%s / %s"%(file_size, extension_average_size))
+			#self.show_message_function("%s / %s"%())
 
-		creation_date = datetime.fromtimestamp(file_date_data["creationDate"])
-		creation_date_format = "%s/%s/%s"%(creation_date.year, creation_date.month, creation_date.day)
-		self.show_message_function(creation_date_format)
+
+		except:
+			self.show_error_function("Impossible to gather data about file extension")
+			final_markdown+= """
+> [!CAUTION]
+> Impossible to get data from file extension!\n
+"""
+		else:
+			extension_markdown = """
+Number of files with this extension : %s\n
+Average size for that extension : %s Mo\n
+Size of the current file : %s Mo\n
+
+> [!IMPORTANT]
+> on %s file(s) this file is the %sth heaviest\n
+"""%(extension_dictionnary["fileCount"],self.get_size_mo_function(extension_average_size),self.get_size_mo_function(file_size),extension_dictionnary["fileCount"],extension_file_position)
+		
+		final_markdown+= extension_markdown
+
+		
+		final_markdown+="""
+\n## Date data
+"""
+		try:
+			#GET DATE INFORMATIONS ABOUT THE FILE
+			creation_date = datetime.fromtimestamp(file_date_data["creationDate"])
+			last_date = datetime.fromtimestamp(file_date_data["modificationDate"])
+			current_date = datetime.fromtimestamp(time.time())
+			date_difference = (current_date - last_date).days
+			creation_date_format = "%s/%s/%s"%(creation_date.year, creation_date.month, creation_date.day)
+			modification_date_format = "%s/%s/%s"%(last_date.year, last_date.month, last_date.day)
+		except:
+			final_markdown+="""
+> [!CAUTION]
+> Impossible to get date data\n
+"""
+		else:
+			final_markdown+="""
+Date of creation : %s\n
+Last time modified : %s\n
+Modified for the last time %s day(s) ago\n
+"""%(creation_date_format, modification_date_format, date_difference)
 		#creation_date_format = "%s/%s/%s"%(creation_date.tm_year, creation_date.tm_mon, creation_date.tm_mday)
 		#self.show_message_function(creation_date_format)
 
 		#self.show_message_function("%s : %s"%(filepath, self.file_dictionnary[filepath]))
 
+
+		return final_markdown
 		
 
 
@@ -306,6 +508,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		
 		self.manual_scan_value = None
 		with self.suspend():
+			self.display_notification_function("Starting folder : %s"%self.root_folder)
 			try:
 				self.main_folder_queue = self.sa.file_queue_init_function(self.root_folder)
 				#x = threading.Thread(target=self.sa.file_queue_init_function, args=(self.root_folder,), daemon=True)
@@ -315,7 +518,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 				print(self.main_folder_queue)
 
 				self.manual_scan_data = self.sa.get_data_init(self.root_folder, self.main_folder_queue)
-
+				#sys.exit()
 				#if exit after the scan is toggled
 				#because why not after all
 				#sys.exit()

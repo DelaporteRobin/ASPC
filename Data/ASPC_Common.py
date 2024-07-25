@@ -4,6 +4,7 @@ import colorama
 import datetime
 import Levenshtein
 import time 
+import json
 import shutil
 
 import pyfiglet
@@ -54,8 +55,55 @@ class ASPC_CommonApplication:
 
 
 
-	def show_message_function(self, message):
-		self.notify(message, timeout=8)
+
+
+
+
+
+	def load_settings_function(self):
+		#check for the settings file
+		try:
+
+			with open(os.path.join(os.getcwd(), "Data/Settings.json"), "r") as read_settings:
+				self.settings = json.load(read_settings)
+		except:
+			self.display_error_function("Impossible to load settings file")
+			self.create_settings_function()
+		
+
+
+
+
+	def create_settings_function(self):
+		self.settings = {
+			"Manual": {
+				"saveJson":True,
+				"executeSpeedTest":True,
+				"speedTestThreshold":None,
+				"numberOfProcessMode":"core",
+				"numberOfProcess":multiprocessing.cpu_count(),
+			},
+			"Live": {}
+		}
+
+		self.save_settings_function()
+
+
+	def save_settings_function(self):
+
+		
+		self.show_message_function(os.path.join(os.getcwd(), "Data/Settings.json"))
+		with open(os.path.join(os.getcwd(), "Data/Settings.json"), "w") as save_file:
+			json.dump(self.settings, save_file, indent=4)
+
+		for key, value in self.settings.items():
+			self.show_message_function("%s : %s"%(key, value))
+	
+
+
+	def update_settings_function(self):
+		self.show_message_function("hello world!")
+
 
 
 
@@ -79,6 +127,11 @@ class ASPC_CommonApplication:
 			return a_value / b_value
 		else:
 			return
+
+
+	def get_size_mo_function(self,size):
+
+		return size / (1024 ** 2)
 
 
 	def get_extremum_size_function(self, type="max", file_list = None):
@@ -177,3 +230,5 @@ class ASPC_CommonApplication:
 			}
 		else:
 			self.speed_test_data[type] = None
+
+
