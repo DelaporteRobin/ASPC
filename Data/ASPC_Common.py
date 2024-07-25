@@ -77,6 +77,7 @@ class ASPC_CommonApplication:
 	def create_settings_function(self):
 		self.settings = {
 			"Manual": {
+				"rootFolder":"",
 				"saveJson":True,
 				"executeSpeedTest":True,
 				"speedTestThreshold":None,
@@ -92,12 +93,10 @@ class ASPC_CommonApplication:
 	def save_settings_function(self):
 
 		
-		self.show_message_function(os.path.join(os.getcwd(), "Data/Settings.json"))
+		#self.show_message_function(os.path.join(os.getcwd(), "Data/Settings.json"))
 		with open(os.path.join(os.getcwd(), "Data/Settings.json"), "w") as save_file:
 			json.dump(self.settings, save_file, indent=4)
 
-		for key, value in self.settings.items():
-			self.show_message_function("%s : %s"%(key, value))
 	
 
 

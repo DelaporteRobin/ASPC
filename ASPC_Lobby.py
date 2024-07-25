@@ -117,12 +117,15 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 						number of multiprocessing (cpu count?)
 					"""
 					yield Static("Max number of process during scan")
-					self.input_process_number = Input(type="integer",placeholder="Process number", validators = [Number(minimum=1, maximum=multiprocessing.cpu_count())])
+					self.input_process_number = Input(id="input_process_number", type="integer", validate_on=["submitted"], placeholder="Process number", validators = [Number(minimum=1, maximum=multiprocessing.cpu_count())])
 					yield self.input_process_number
 
 					with RadioSet(id = "radio_scan_settings"):
-						yield RadioButton("Number of Core")
-						yield RadioButton("Custom")
+						self.radio_core = RadioButton("Number of Core")
+						self.radio_custom = RadioButton("Custom")
+
+						yield self.radio_core
+						yield self.radio_custom
 
 					self.checkbox_savejson = Checkbox("Save json file after scan", id="checkbox_savejson")
 					self.checkbox_speedtest = Checkbox("Use speedtest during scan", id="checkbox_speedtest")
@@ -193,6 +196,20 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		self.checkbox_speedtest.value = self.settings["Manual"]["executeSpeedTest"]
 		self.checkbox_threshold.value = self.settings["Manual"]["speedTestThreshold"]
 		self.input_process_number.value = str(self.settings["Manual"]["numberOfProcess"])
+		self.root_folder_input.value = str(self.settings["Manual"]["rootFolder"])
+
+		
+
+		if self.settings["Manual"]["numberOfProcessMode"] == "custom":
+			self.input_process_number.value = self.settings["Manual"]["numberOfProcess"]
+			self.input_process_number.disabled = False
+			self.radio_custom.value = True
+			self.radio_core.value = False
+		else:
+			self.input_process_number.disabled = True
+			self.radio_custom.value = False
+			self.radio_core.value = True
+			self.input_process_number.value =str( multiprocessing.cpu_count())
 
 
 
@@ -204,14 +221,27 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 
+	def on_input_submitted(self, event:Input.Submitted) -> None:
+		manual = self.settings["Manual"]
+		#self.show_message_function("hello world")
+		if event.input.id == "input_process_number":
+			#get the value and update settings
+			
+			manual["numberOfProcess"] = self.query_one("#input_process_number").value
+			self.save_settings_function()
+		if event.input.id == "input_folder_path":
+			manual["rootFolder"] = self.query_one("#input_folder_path").value
+			self.save_settings_function()
+
+
+
+
+
 
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "button_launch":
 			self.launch_process_function()
 
-		if event.button.id == "test_button":
-			item = self.listview_files.children[2]
-			item.styles.background = "blue"
 
 
 
@@ -224,7 +254,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			self.settings["Manual"] = manual 
 
 			self.save_settings_function()
-			self.show_message_function("Settings saved")
+			#self.show_message_function("Settings saved")
+
+
 
 
 	def on_radio_set_changed(self, event:RadioSet.Changed) -> None:
@@ -234,11 +266,14 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			manual = self.settings["Manual"]
 			if radio_button == 0:
 				manual["numberOfProcessMode"] = "core"
+				self.input_process_number.disabled = True
+				self.input_process_number.value = str(multiprocessing.cpu_count())
 			else:
 				manual["numberOfProcessMode"] = "custom"
+				self.input_process_number.disabled = False
 			self.settings["Manual"] = manual
 			self.save_settings_function()
-			self.show_message_function("Settings saved")
+			#self.show_message_function("Settings saved")
 			
 
 
@@ -445,65 +480,19 @@ Modified for the last time %s day(s) ago\n
 
 
 	def launch_process_function(self):
-		self.root_folder = "D:/TRASH2"
+		self.root_folder = self.root_folder_input.value
+		if os.path.isdir(self.root_folder) == False:
+			self.show_error_function("Impossible to launch scan\nFolder doesn't exists!")
+			return
 
 		#self.queue_size_limit = 50000
 		self.main_data_set_dictionnary = {}
 		self.main_log_list = []
 
-		
 
-		
-
-
-		"""
-		LIST OF INFORMATIONS TO RETURN
-
-		FOR EACH FILES
-			average file size in folder
-			average file size for extension
-			average file size in pipeline
-
-			apply the performance test and get results
-
-			name recognition algorythm
-		FOR EACH FOLDERS
-			get traffic for this folder
-			average size in pipeline
-			define if main folder?
-			number of subfolders and files
-			time to read files
-			time to read folder
-
-			size contained (global) compared to global size
-			size contained (only files)
-			--> size of the files contained compared to the number of files
-
-
-
-		Set an observer file over time to follow folder hierarchy modification
-			update the amount of time a folder or file is being used / modified.
-
-		"""
-
-
-
-
-		#IMPORT THE SIDE CLASS TO LAUNCH RESEARCH
-		
+		#IMPORT THE MULTIPROCESSING CLASS 
 		self.sa = ASPC_SearchingApplication()
-		
-		#self.display_message_function(type(self.main_folder_queue))
-		#self.display_message_function(self.main_folder_queue)
 
-		#display the content of the folder list
-		#for folder in self.main_folder_list:
-		#	print(folder)
-
-
-		#create the test class
-		#self.mpa = ASPC_ProcessApplication()
-		#self.mpa.get_data_init(self.root_folder, self.main_folder_list)
 		
 		
 		self.manual_scan_value = None
@@ -515,9 +504,9 @@ Modified for the last time %s day(s) ago\n
 				#x.start()
 				#x.join()
 				self.show_message_function("done")
-				print(self.main_folder_queue)
+				#print(self.main_folder_queue)
 
-				self.manual_scan_data = self.sa.get_data_init(self.root_folder, self.main_folder_queue)
+				self.manual_scan_data = self.sa.get_data_init(self.root_folder, self.main_folder_queue, self.settings)
 				#sys.exit()
 				#if exit after the scan is toggled
 				#because why not after all
@@ -536,6 +525,15 @@ Modified for the last time %s day(s) ago\n
 
 			if type(self.manual_scan_data) != None:
 				self.update_list_informations_function()
+
+
+
+
+
+
+
+
+
 
 
 

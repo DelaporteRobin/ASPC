@@ -1,101 +1,4757 @@
 {
-    "D:/TRASH2\\aircon02\\substance_aircon02_project.spp": {
+    "d:/trash/.mayaSwatches\\sq030_blockingCam.mb.swatches": {
+        "fileSize": 957524
+    },
+    "d:/trash/09_3d_animatique\\character_rat_mod_publish.ma": {
+        "fileSize": 4340486
+    },
+    "d:/trash/09_3d_animatique\\escalier_update.ma": {
+        "fileSize": 11455816
+    },
+    "d:/trash/09_3d_animatique\\layout_blockCam.ma": {
+        "fileSize": 476884213
+    },
+    "d:/trash/09_3d_animatique\\MBM_Robert_P_Rig_v0001.ma": {
+        "fileSize": 50663022
+    },
+    "d:/trash/09_3d_animatique\\pigeon_blocking.ma": {
+        "fileSize": 70234
+    },
+    "d:/trash/09_3d_animatique\\rono_blocking.ma": {
+        "fileSize": 3589264
+    },
+    "d:/trash/09_3d_animatique\\sq0030_animCam.avi": {
+        "fileSize": 1916197376
+    },
+    "d:/trash/09_3d_animatique\\trash_camera_rig_publish.ma": {
+        "fileSize": 139379
+    },
+    "d:/trash/09_3d_animatique\\edit\\seq0080_blockCam_v001.ma": {
+        "fileSize": 2481355
+    },
+    "d:/trash/09_3d_animatique\\edit\\seq0090_blockCam_v001.ma": {
+        "fileSize": 2386269
+    },
+    "d:/trash/09_3d_animatique\\edit\\seq0100_blockCam_v001.ma": {
+        "fileSize": 2886125
+    },
+    "d:/trash/aircon02\\substance_aircon02_project.spp": {
         "fileSize": 220458320
     },
-    "D:/TRASH2\\aircon02\\substance_aircon02_project_autosave_0.spp": {
+    "d:/trash/aircon02\\substance_aircon02_project_autosave_0.spp": {
         "fileSize": 220462954
     },
-    "D:/TRASH2\\aircon02\\substance_aircon02_project_autosave_1.spp": {
+    "d:/trash/aircon02\\substance_aircon02_project_autosave_1.spp": {
         "fileSize": 220462954
     },
-    "D:/TRASH2\\aircon02\\input\\aircon02.usd": {
+    "d:/trash/aircon02\\input\\aircon02.usd": {
         "fileSize": 84506
     },
-    "D:/TRASH2\\bread\\substance_bread_project.spp": {
-        "fileSize": 824659940
-    },
-    "D:/TRASH2\\bread\\substance_bread_project_autosave_0.spp": {
-        "fileSize": 824600744
-    },
-    "D:/TRASH2\\bread\\substance_bread_project_autosave_1.spp": {
-        "fileSize": 824600744
-    },
-    "D:/TRASH2\\bread\\input\\bread.usd": {
-        "fileSize": 61368
-    },
-    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.mtl": {
-        "fileSize": 205
-    },
-    "D:/TRASH2\\bread\\input\\prop_bread_mod_v001.obj": {
-        "fileSize": 487752
-    },
-    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.assbin": {
-        "fileSize": 126816346
-    },
-    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v001.obj": {
-        "fileSize": 223213578
-    },
-    "D:/TRASH2\\brickpourrob1\\induswallbottom.spp": {
-        "fileSize": 1627133939
-    },
-    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.assbin": {
-        "fileSize": 193310368
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angbed_project.spp": {
+    "d:/trash/ang\\substance\\substance_angbed_project.spp": {
         "fileSize": 91932905
     },
-    "D:/TRASH2\\brickpourrob1\\induswallbottom_autosave_0.spp": {
-        "fileSize": 1627133939
-    },
-    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.mtl": {
-        "fileSize": 121
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angbed_project_autosave_0.spp": {
+    "d:/trash/ang\\substance\\substance_angbed_project_autosave_0.spp": {
         "fileSize": 91932905
     },
-    "D:/TRASH2\\brickpourrob1\\induswallbottom_autosave_1.spp": {
-        "fileSize": 1627133939
-    },
-    "D:/TRASH2\\bread\\input\\prop_sculpt_breadHigh_v002.obj": {
-        "fileSize": 264438580
-    },
-    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
-        "fileSize": 9463805
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angcarpet_project.spp": {
+    "d:/trash/ang\\substance\\substance_angcarpet_project.spp": {
         "fileSize": 79481825
     },
-    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
-        "fileSize": 94422734
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angDoor_project.spp": {
+    "d:/trash/ang\\substance\\substance_angDoor_project.spp": {
         "fileSize": 156179612
     },
-    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": {
-        "fileSize": 6721179
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angmirror_project.spp": {
+    "d:/trash/ang\\substance\\substance_angmirror_project.spp": {
         "fileSize": 128522695
     },
-    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
-        "fileSize": 31710330
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angmirror_project_autosave_0.spp": {
+    "d:/trash/ang\\substance\\substance_angmirror_project_autosave_0.spp": {
         "fileSize": 128522695
     },
-    "D:/TRASH2\\brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": {
-        "fileSize": 7286332
-    },
-    "D:/TRASH2\\ang\\substance\\substance_angnighttable_project.spp": {
+    "d:/trash/ang\\substance\\substance_angnighttable_project.spp": {
         "fileSize": 94663807
     },
-    "D:/TRASH2\\ang\\substance\\substance_angWalls_project.spp": {
+    "d:/trash/ang\\substance\\substance_angWalls_project.spp": {
         "fileSize": 779156968
     },
-    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_0.spp": {
+    "d:/trash/ang\\substance\\substance_angWalls_project_autosave_0.spp": {
         "fileSize": 779156968
     },
-    "D:/TRASH2\\ang\\substance\\substance_angWalls_project_autosave_1.spp": {
+    "d:/trash/ang\\substance\\substance_angWalls_project_autosave_1.spp": {
         "fileSize": 779156968
+    },
+    "d:/trash/bread\\substance_bread_project.spp": {
+        "fileSize": 824659940
+    },
+    "d:/trash/bread\\substance_bread_project_autosave_0.spp": {
+        "fileSize": 824600744
+    },
+    "d:/trash/bread\\substance_bread_project_autosave_1.spp": {
+        "fileSize": 824600744
+    },
+    "d:/trash/brickpourrob1\\induswallbottom.spp": {
+        "fileSize": 1627133939
+    },
+    "d:/trash/brickpourrob1\\induswallbottom_autosave_0.spp": {
+        "fileSize": 1627133939
+    },
+    "d:/trash/brickpourrob1\\induswallbottom_autosave_1.spp": {
+        "fileSize": 1627133939
+    },
+    "d:/trash/bread\\input\\bread.usd": {
+        "fileSize": 61368
+    },
+    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": {
+        "fileSize": 9463805
+    },
+    "d:/trash/bread\\input\\prop_bread_mod_v001.mtl": {
+        "fileSize": 205
+    },
+    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": {
+        "fileSize": 94422734
+    },
+    "d:/trash/bread\\input\\prop_bread_mod_v001.obj": {
+        "fileSize": 487752
+    },
+    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": {
+        "fileSize": 6721179
+    },
+    "d:/trash/bread\\input\\prop_sculpt_breadHigh_v001.assbin": {
+        "fileSize": 126816346
+    },
+    "d:/trash/bread\\input\\prop_sculpt_breadHigh_v001.obj": {
+        "fileSize": 223213578
+    },
+    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": {
+        "fileSize": 31710330
+    },
+    "d:/trash/bread\\input\\prop_sculpt_breadHigh_v002.assbin": {
+        "fileSize": 193310368
+    },
+    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": {
+        "fileSize": 7286332
+    },
+    "d:/trash/bread\\input\\prop_sculpt_breadHigh_v002.mtl": {
+        "fileSize": 121
+    },
+    "d:/trash/bread\\input\\prop_sculpt_breadHigh_v002.obj": {
+        "fileSize": 264438580
+    },
+    "d:/trash/brush photoshop\\2021_BRUSHES.abr": {
+        "fileSize": 92983909
+    },
+    "d:/trash/brush photoshop\\artificial_tree_brushes.abr": {
+        "fileSize": 435320
+    },
+    "d:/trash/brush photoshop\\BOYZ.abr": {
+        "fileSize": 3427559
+    },
+    "d:/trash/brush photoshop\\brush toshop.abr": {
+        "fileSize": 86048896
+    },
+    "d:/trash/brush photoshop\\Brushes BIM 2019.abr": {
+        "fileSize": 19091619
+    },
+    "d:/trash/brush photoshop\\brushes_by_88grzes_dauxasm.abr": {
+        "fileSize": 22575803
+    },
+    "d:/trash/brush photoshop\\concept.abr": {
+        "fileSize": 125562339
+    },
+    "d:/trash/brush photoshop\\conceptart_tree_brushes.abr": {
+        "fileSize": 1763780
+    },
+    "d:/trash/brush photoshop\\crosshatch.abr": {
+        "fileSize": 59517115
+    },
+    "d:/trash/brush photoshop\\Free Spray Photoshop Brushes 1.abr": {
+        "fileSize": 41950080
+    },
+    "d:/trash/brush photoshop\\Ink_and_Watercolor_Brushes.abr": {
+        "fileSize": 6585996
+    },
+    "d:/trash/brush photoshop\\megapack.abr": {
+        "fileSize": 375036773
+    },
+    "d:/trash/brush photoshop\\snow_brush.abr": {
+        "fileSize": 4519
+    },
+    "d:/trash/brush photoshop\\spring-brushes-2021.abr": {
+        "fileSize": 23257371
+    },
+    "d:/trash/brush photoshop\\stitch_by_boyingopaw.abr": {
+        "fileSize": 39942
+    },
+    "d:/trash/cables\\substance_Cables_project.spp": {
+        "fileSize": 437540222
+    },
+    "d:/trash/cables\\input\\item_cables_mod_publish.usd": {
+        "fileSize": 14453789
+    },
+    "d:/trash/cigarret\\substance_cigarret_project.spp": {
+        "fileSize": 455443757
+    },
+    "d:/trash/cigarret\\substance_cigarret_project_autosave_0.spp": {
+        "fileSize": 408547462
+    },
+    "d:/trash/electricPipes\\refs_electricPipes.pur": {
+        "fileSize": 2251544
+    },
+    "d:/trash/electricPipes\\substance_machine01_project.spp": {
+        "fileSize": 290642583
+    },
+    "d:/trash/electricPipes\\substance_machine01_project_autosave_0.spp": {
+        "fileSize": 290642583
+    },
+    "d:/trash/electricPipes\\substance_machine02_project.spp": {
+        "fileSize": 195656491
+    },
+    "d:/trash/electricPipes\\substance_machine02_project_autosave_0.spp": {
+        "fileSize": 140166675
+    },
+    "d:/trash/electricPipes\\substance_machine02_project_autosave_1.spp": {
+        "fileSize": 140235077
+    },
+    "d:/trash/cigarret\\input\\cigarret.usd": {
+        "fileSize": 37295
+    },
+    "d:/trash/electricPipes\\substance_pipes_project.spp": {
+        "fileSize": 439227171
+    },
+    "d:/trash/electricPipes\\substance_pipes_project_autosave_0.spp": {
+        "fileSize": 439227171
+    },
+    "d:/trash/electricPipes\\substance_pipes_project_autosave_1.spp": {
+        "fileSize": 383547509
+    },
+    "d:/trash/gregWallBottom\\substance_gregWallBottomWall_substance.spp": {
+        "fileSize": 492002481
+    },
+    "d:/trash/gregWallBottom\\substance_gregWallBottom_substance.spp": {
+        "fileSize": 3586844675
+    },
+    "d:/trash/gregWallBottom\\substance_gregWallBottom_substance_autosave_0.spp": {
+        "fileSize": 3466486301
+    },
+    "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd": {
+        "fileSize": 1499740
+    },
+    "d:/trash/gregWallBottom\\substance_gregWallBottom_substance_autosave_1.spp": {
+        "fileSize": 3465353828
+    },
+    "d:/trash/electricPipes\\input\\item_electricPipesMachine01_mod_publish.usd": {
+        "fileSize": 906614
+    },
+    "d:/trash/gregWallBottom\\substance_gregWPipes_substance.spp": {
+        "fileSize": 228079869
+    },
+    "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd": {
+        "fileSize": 600897
+    },
+    "d:/trash/haussmanWallMid\\NewScene.pur": {
+        "fileSize": 12447226
+    },
+    "d:/trash/gregWallBottom\\substance_gregWPipes_substance_autosave_0.spp": {
+        "fileSize": 227877670
+    },
+    "d:/trash/haussmanWallMid\\substance_hausmann_project.spp": {
+        "fileSize": 6341191328
+    },
+    "d:/trash/gregWallBottom\\substance_gregWPipes_substance_autosave_1.spp": {
+        "fileSize": 228079869
+    },
+    "d:/trash/haussmanWallMid\\substance_hausmann_project_autosave_0.spp": {
+        "fileSize": 6313957236
+    },
+    "d:/trash/gregWallBottom\\substance_roofGregWallBottom_project.spp": {
+        "fileSize": 2268096355
+    },
+    "d:/trash/haussmanWallMid\\substance_hausmann_project_autosave_1.spp": {
+        "fileSize": 6318491689
+    },
+    "d:/trash/hotelSign\\substance_hotelSign_project.spp": {
+        "fileSize": 663426547
+    },
+    "d:/trash/hotelSign\\substance_hotelSign_project.usd": {
+        "fileSize": 197837
+    },
+    "d:/trash/hotelSign\\substance_hotelSign_project_autosave_0.spp": {
+        "fileSize": 663426547
+    },
+    "d:/trash/hotelSign\\substance_hotelSign_project_autosave_1.spp": {
+        "fileSize": 663426547
+    },
+    "d:/trash/gregWallBottom\\input\\set_gregWallBottomPipes_mod_publish.usd": {
+        "fileSize": 367163
+    },
+    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl": {
+        "fileSize": 5411
+    },
+    "d:/trash/gregWallBottom\\input\\set_gregWallBottomWall_mod_publish.usd": {
+        "fileSize": 713459
+    },
+    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj": {
+        "fileSize": 11643003
+    },
+    "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd": {
+        "fileSize": 909626
+    },
+    "d:/trash/hotelSign\\input\\hotelSign_scatter.abc": {
+        "fileSize": 1347610
+    },
+    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.usd": {
+        "fileSize": 7441010
+    },
+    "d:/trash/gregWallBottom\\input\\taule.usd": {
+        "fileSize": 165325
+    },
+    "d:/trash/hotelSign\\input\\item_hotelSign_mod_v001.mtl": {
+        "fileSize": 728
+    },
+    "d:/trash/hotelSign\\input\\item_hotelSign_mod_v001.obj": {
+        "fileSize": 1476494
+    },
+    "d:/trash/hotelSign\\input\\PROPS_setup_bozo_paint_publish.hipnc": {
+        "fileSize": 2980141
+    },
+    "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp": {
+        "fileSize": 4004955612
+    },
+    "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp": {
+        "fileSize": 220323799
+    },
+    "d:/trash/hotelWallMid\\substance_hotelWallMid_project.spp": {
+        "fileSize": 3945365186
+    },
+    "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_0.spp": {
+        "fileSize": 3945365186
+    },
+    "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_1.spp": {
+        "fileSize": 3945365186
+    },
+    "d:/trash/indusPipes\\substance_indusPipeTag_v001.spp": {
+        "fileSize": 739910262
+    },
+    "d:/trash/indusPipes\\substance_indusPipeTag_v001_autosave_0.spp": {
+        "fileSize": 739910262
+    },
+    "d:/trash/indusPipes\\substance_indusPipeTag_v001_autosave_1.spp": {
+        "fileSize": 739910262
+    },
+    "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd": {
+        "fileSize": 1944537
+    },
+    "d:/trash/indusPipes\\substance_indusPipe_v001.spp": {
+        "fileSize": 912162514
+    },
+    "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd": {
+        "fileSize": 50679
+    },
+    "d:/trash/indusPipes\\substance_indusPipe_v001_autosave_0.spp": {
+        "fileSize": 912162514
+    },
+    "d:/trash/indusPipes\\substance_indusPipe_v001_autosave_1.spp": {
+        "fileSize": 912162514
+    },
+    "d:/trash/indusPipes\\substance_indusPipe_v002.spp": {
+        "fileSize": 662631721
+    },
+    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp": {
+        "fileSize": 291814611
+    },
+    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_0.spp": {
+        "fileSize": 291814611
+    },
+    "d:/trash/pavementEnd\\input\\pavement.usd": {
+        "fileSize": 47133
+    },
+    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_1.spp": {
+        "fileSize": 291814611
+    },
+    "d:/trash/pizza\\NewScene.pur": {
+        "fileSize": 1133911
+    },
+    "d:/trash/pizza\\prop_pizza_mod_publish.ma": {
+        "fileSize": 3340587
+    },
+    "d:/trash/pizza\\prop_pizza_mod_v001.ma": {
+        "fileSize": 3407777
+    },
+    "d:/trash/pizza\\prop_pizza_mod_v002.ma": {
+        "fileSize": 3407777
+    },
+    "d:/trash/poster\\substance_poster_project.spp": {
+        "fileSize": 167566997
+    },
+    "d:/trash/pizza\\substance_pizza2_project.spp": {
+        "fileSize": 1264131747
+    },
+    "d:/trash/poster\\substance_poster_project.spp.painter_lock": {
+        "fileSize": 82
+    },
+    "d:/trash/pizza\\substance_pizza2_project.spp.painter_lock": {
+        "fileSize": 82
+    },
+    "d:/trash/poster\\substance_poster_project_autosave_0.spp": {
+        "fileSize": 169547066
+    },
+    "d:/trash/pizza\\substance_pizza2_project_autosave_0.spp": {
+        "fileSize": 1264342595
+    },
+    "d:/trash/poster\\substance_poster_project_autosave_1.spp": {
+        "fileSize": 171054394
+    },
+    "d:/trash/pizza\\substance_pizza2_project_autosave_1.spp": {
+        "fileSize": 1264342595
+    },
+    "d:/trash/pizza\\substance_pizza_project.spp": {
+        "fileSize": 473166438
+    },
+    "d:/trash/pizza\\substance_pizza_project_autosave_0.spp": {
+        "fileSize": 473166438
+    },
+    "d:/trash/pizza\\.mayaSwatches\\prop_pizza_mod_v001.ma.swatches": {
+        "fileSize": 65646
+    },
+    "d:/trash/pizza\\substance_pizza_project_autosave_1.spp": {
+        "fileSize": 473166438
+    },
+    "d:/trash/pizza\\input\\old_pizza_modeling.mtl": {
+        "fileSize": 97
+    },
+    "d:/trash/pizza\\input\\old_pizza_modeling.obj": {
+        "fileSize": 311253
+    },
+    "d:/trash/poster\\input\\albedo_poster_birdnotreal_sale_02.png": {
+        "fileSize": 8621885
+    },
+    "d:/trash/pizza\\input\\pp1.obj": {
+        "fileSize": 20894
+    },
+    "d:/trash/poster\\input\\albedo_tag_bangbang.png": {
+        "fileSize": 1880413
+    },
+    "d:/trash/poster\\input\\albedo_tag_moneyworld.png": {
+        "fileSize": 4596515
+    },
+    "d:/trash/pizza\\input\\pp2.obj": {
+        "fileSize": 21262
+    },
+    "d:/trash/poster\\input\\albedo_tag_skull.png": {
+        "fileSize": 153970
+    },
+    "d:/trash/pizza\\input\\pp3.obj": {
+        "fileSize": 22168
+    },
+    "d:/trash/rono\\substance_rono_project.spp": {
+        "fileSize": 696048161
+    },
+    "d:/trash/rat\\zdisplace_v001_rat\\ratrat_fur_v04-DM1001.exr": {
+        "fileSize": 4001857
+    },
+    "d:/trash/poster\\input\\albedo_tag_small.png": {
+        "fileSize": 3018844
+    },
+    "d:/trash/pizza\\input\\pp4.obj": {
+        "fileSize": 23673
+    },
+    "d:/trash/rono\\substance_rono_project_autosave_0.spp": {
+        "fileSize": 696048161
+    },
+    "d:/trash/rat\\zdisplace_v001_rat\\ratrat_fur_v04-DM1002.exr": {
+        "fileSize": 20121713
+    },
+    "d:/trash/pizza\\input\\prop_pizzaHP_mod_v001.assbin": {
+        "fileSize": 126047010
+    },
+    "d:/trash/poster\\input\\item_poster_mod_publish.usd": {
+        "fileSize": 71282
+    },
+    "d:/trash/rono\\substance_rono_project_autosave_1.spp": {
+        "fileSize": 696048161
+    },
+    "d:/trash/rat\\zdisplace_v001_rat\\ratrat_fur_v04-NM1001.tif": {
+        "fileSize": 50331852
+    },
+    "d:/trash/poster\\input\\item_poster_mod_publish_old.usd": {
+        "fileSize": 51681
+    },
+    "d:/trash/pizza\\input\\prop_pizzaHP_mod_v001.mtl": {
+        "fileSize": 116
+    },
+    "d:/trash/rat\\zdisplace_v001_rat\\ratrat_fur_v04-NM1002.tif": {
+        "fileSize": 50331852
+    },
+    "d:/trash/poster\\input\\tag_jesus.png": {
+        "fileSize": 930693
+    },
+    "d:/trash/pizza\\input\\prop_pizzaHP_mod_v001.obj": {
+        "fileSize": 166975744
+    },
+    "d:/trash/pizza\\input\\prop_pizzaHP_mod_v002.mtl": {
+        "fileSize": 116
+    },
+    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr": {
+        "fileSize": 36216731
+    },
+    "d:/trash/pizza\\input\\prop_pizzaHP_mod_v002.obj": {
+        "fileSize": 40357826
+    },
+    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1002.exr": {
+        "fileSize": 36888212
+    },
+    "d:/trash/pizza\\input\\prop_pizza_mod_publish.mtl": {
+        "fileSize": 117
+    },
+    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif": {
+        "fileSize": 50331852
+    },
+    "d:/trash/raticide\\input\\item_raticide_mod_publish.usd": {
+        "fileSize": 65204
+    },
+    "d:/trash/pizza\\input\\prop_pizza_mod_publish.obj": {
+        "fileSize": 133874
+    },
+    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1002.tif": {
+        "fileSize": 50331852
+    },
+    "d:/trash/pizza\\input\\prop_pizza_mod_v001.mtl": {
+        "fileSize": 114
+    },
+    "d:/trash/pizza\\input\\prop_pizza_mod_v001.obj": {
+        "fileSize": 2325786
+    },
+    "d:/trash/pizza\\input\\prop_pizza_mod_v001.usd": {
+        "fileSize": 633141
+    },
+    "d:/trash/pizza\\input\\prop_pizza_mod_v002.usd": {
+        "fileSize": 9486723
+    },
+    "d:/trash/ronoCap\\substance_ronoCap_project.spp": {
+        "fileSize": 367835338
+    },
+    "d:/trash/rono\\input\\character_ronoEye_mod_v001.usd": {
+        "fileSize": 57303
+    },
+    "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp": {
+        "fileSize": 367835010
+    },
+    "d:/trash/rono\\input\\character_ronoHead_mod_v001.mtl": {
+        "fileSize": 97
+    },
+    "d:/trash/ronoCap\\substance_ronoCap_project_autosave_1.spp": {
+        "fileSize": 367835010
+    },
+    "d:/trash/rono\\input\\character_ronoHead_mod_v001.obj": {
+        "fileSize": 8728431
+    },
+    "d:/trash/rono\\input\\character_ronoHead_mod_v001.usd": {
+        "fileSize": 3449581
+    },
+    "d:/trash/scan_pizza\\29 f\u00e9vr. 2024.mtl": {
+        "fileSize": 281
+    },
+    "d:/trash/scan_pizza\\29 f\u00e9vr. 2024.obj": {
+        "fileSize": 7932848
+    },
+    "d:/trash/seq0030_blockCam\\character_rat_mod_publish.ma": {
+        "fileSize": 4142961
+    },
+    "d:/trash/scan_pizza\\29 f\u00e9vr. 2024_0_ESuQ91ID.jpg": {
+        "fileSize": 1288812
+    },
+    "d:/trash/ronoCap\\usd\\item_ronoCap_geometry.usd": {
+        "fileSize": 341783
+    },
+    "d:/trash/seq0030_blockCam\\layout_blockCam.ma": {
+        "fileSize": 476884213
+    },
+    "d:/trash/scan_pizza\\29 f\u00e9vr. 2024_1_ESuQ91ID.jpg": {
+        "fileSize": 689556
+    },
+    "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif": {
+        "fileSize": 5916434
+    },
+    "d:/trash/seq0030_blockCam\\refanimcamsquat.obj": {
+        "fileSize": 5652
+    },
+    "d:/trash/scan_pizza\\29 f\u00e9vr. 2024_2_ESuQ91ID.jpg": {
+        "fileSize": 1479392
+    },
+    "d:/trash/ronoCap\\usd\\substance_ronoCap_project.material.usda": {
+        "fileSize": 3660
+    },
+    "d:/trash/seq0030_blockCam\\sq0030_blockCam_v001.mov": {
+        "fileSize": 66998476
+    },
+    "d:/trash/scan_pizza\\29_f\u00e9vr._2024_2_ESuQ91ID.jpg": {
+        "fileSize": 1479392
+    },
+    "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd": {
+        "fileSize": 270
+    },
+    "d:/trash/seq0030_blockCam\\sq030_blockCam_v001.ma": {
+        "fileSize": 739224
+    },
+    "d:/trash/scan_pizza\\scan_pizza.mtl": {
+        "fileSize": 133
+    },
+    "d:/trash/scan_pizza\\scan_pizza.obj": {
+        "fileSize": 5189538
+    },
+    "d:/trash/squat\\substance_squatDead_project.spp": {
+        "fileSize": 2590270665
+    },
+    "d:/trash/staCamera\\substance_camera_project.spp": {
+        "fileSize": 1127775473
+    },
+    "d:/trash/squat\\inputs\\32acae515a6f533b3e2b82c76b3fece7.png": {
+        "fileSize": 58659
+    },
+    "d:/trash/squat\\substance_squatDead_project_autosave_0.spp": {
+        "fileSize": 2590270665
+    },
+    "d:/trash/staCamera\\substance_camera_project_autosave_0.spp": {
+        "fileSize": 1127775473
+    },
+    "d:/trash/squat\\inputs\\IMG_20240626_183316_031.jpg": {
+        "fileSize": 22793
+    },
+    "d:/trash/squat\\substance_squatDead_project_autosave_1.spp": {
+        "fileSize": 2590270665
+    },
+    "d:/trash/staCamera\\substance_camera_project_autosave_1.spp": {
+        "fileSize": 1127773377
+    },
+    "d:/trash/squat\\inputs\\pochoir-tatouage-araignee.jpg": {
+        "fileSize": 18424
+    },
+    "d:/trash/squat\\substance_squatwalls_project.spp": {
+        "fileSize": 426168548
+    },
+    "d:/trash/squat\\inputs\\squat_deadbody.usd": {
+        "fileSize": 5768136
+    },
+    "d:/trash/squat\\substance_squatwalls_project_autosave_0.spp": {
+        "fileSize": 191742527
+    },
+    "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp": {
+        "fileSize": 374266680
+    },
+    "d:/trash/squat\\inputs\\squat_deadbody2.usd": {
+        "fileSize": 3386924
+    },
+    "d:/trash/squat\\substance_squatwalls_project_autosave_1.spp": {
+        "fileSize": 191742527
+    },
+    "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd": {
+        "fileSize": 652481
+    },
+    "d:/trash/squat\\inputs\\squat_deadbody3.usd": {
+        "fileSize": 3545299
+    },
+    "d:/trash/squat\\substance_syringe_project.spp": {
+        "fileSize": 251957564
+    },
+    "d:/trash/squat\\inputs\\squat_syringe.usd": {
+        "fileSize": 66457
+    },
+    "d:/trash/squat\\substance_syringe_project_autosave_0.spp": {
+        "fileSize": 251919800
+    },
+    "d:/trash/squat\\inputs\\squat_walls.usd": {
+        "fileSize": 684045
+    },
+    "d:/trash/squat\\substance_syringe_project_autosave_1.spp": {
+        "fileSize": 251919800
+    },
+    "d:/trash/staDesk\\substance_staDesk_project.spp": {
+        "fileSize": 371204100
+    },
+    "d:/trash/staCeilingLamp\\input\\staCeilingLamp_mod.usd": {
+        "fileSize": 65072
+    },
+    "d:/trash/staDesk\\substance_staDesk_project.spp.painter_lock": {
+        "fileSize": 81
+    },
+    "d:/trash/stalker\\substance_stabucket_project_v001.spp": {
+        "fileSize": 171372168
+    },
+    "d:/trash/staDesk\\input\\stadesk_input.mtl": {
+        "fileSize": 235
+    },
+    "d:/trash/surface_imperfection\\01_deposits_pixels.tif": {
+        "fileSize": 33335556
+    },
+    "d:/trash/staDesk\\input\\stadesk_input.obj": {
+        "fileSize": 3327152
+    },
+    "d:/trash/stalker\\substance_stabucket_project_v001_autosave_0.spp": {
+        "fileSize": 171372168
+    },
+    "d:/trash/surface_imperfection\\02_deposits.tif": {
+        "fileSize": 37796964
+    },
+    "d:/trash/stalker\\input\\stalker_lab.usd": {
+        "fileSize": 933377
+    },
+    "d:/trash/staDesk\\input\\stadesk_input.usd": {
+        "fileSize": 404518
+    },
+    "d:/trash/stalker\\substance_stabucket_project_v001_autosave_1.spp": {
+        "fileSize": 168836195
+    },
+    "d:/trash/surface_imperfection\\03_deposits.tif": {
+        "fileSize": 29896112
+    },
+    "d:/trash/stalker\\input\\stalker_lab_bucket.usd": {
+        "fileSize": 52941
+    },
+    "d:/trash/stalker\\substance_stalab_project_v001.spp": {
+        "fileSize": 1940670596
+    },
+    "d:/trash/surface_imperfection\\04_deposits.tif": {
+        "fileSize": 28560468
+    },
+    "d:/trash/stalker\\input\\stalker_lab_combined.usd": {
+        "fileSize": 984016
+    },
+    "d:/trash/stalker\\substance_stalab_project_v001_autosave_0.spp": {
+        "fileSize": 1940670596
+    },
+    "d:/trash/surface_imperfection\\05_deposits.tif": {
+        "fileSize": 34078036
+    },
+    "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp": {
+        "fileSize": 423405754
+    },
+    "d:/trash/stalker\\input\\stalker_lab_combined2.usd": {
+        "fileSize": 933559
+    },
+    "d:/trash/stalker\\substance_stalab_project_v001_autosave_1.spp": {
+        "fileSize": 1940670596
+    },
+    "d:/trash/surface_imperfection\\06_deposits.tif": {
+        "fileSize": 28778072
+    },
+    "d:/trash/stalker\\substance_stalab_project_v002.spp": {
+        "fileSize": 1424687524
+    },
+    "d:/trash/surface_imperfection\\07_deposits.tif": {
+        "fileSize": 33485248
+    },
+    "d:/trash/surface_imperfection\\08_desposits_dust.tif": {
+        "fileSize": 22271808
+    },
+    "d:/trash/surface_imperfection\\09_bonus_fingerprints_smudges_smartphone.tif": {
+        "fileSize": 20298120
+    },
+    "d:/trash/surface_imperfection\\10_fingerprints_smudges_combined.tif": {
+        "fileSize": 36238948
+    },
+    "d:/trash/surface_imperfection\\118712562-stain-of-rust-on-dirty-fabric-cloth-texture.jpg": {
+        "fileSize": 117077
+    },
+    "d:/trash/surface_imperfection\\11_fingerprints_smudges.tif": {
+        "fileSize": 38132572
+    },
+    "d:/trash/surface_imperfection\\12_fingerprints_smudges.tif": {
+        "fileSize": 36771300
+    },
+    "d:/trash/surface_imperfection\\13_fingerprints_smudges.tif": {
+        "fileSize": 35323108
+    },
+    "d:/trash/surface_imperfection\\14_fingerprints_smudges.tif": {
+        "fileSize": 34795348
+    },
+    "d:/trash/surface_imperfection\\15_fingerprints_smudges.tif": {
+        "fileSize": 35016960
+    },
+    "d:/trash/surface_imperfection\\16_fingerprints_smudges.tif": {
+        "fileSize": 34721420
+    },
+    "d:/trash/surface_imperfection\\17_fingerprints_smudges.tif": {
+        "fileSize": 12164728
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1001.exr": {
+        "fileSize": 105313889
+    },
+    "d:/trash/surface_imperfection\\18_fingerprints_smudges.tif": {
+        "fileSize": 33259040
+    },
+    "d:/trash/tire\\substance_tire_project.spp": {
+        "fileSize": 248720175
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1002.exr": {
+        "fileSize": 105316158
+    },
+    "d:/trash/surface_imperfection\\19_fingerprints_smudges.tif": {
+        "fileSize": 13416576
+    },
+    "d:/trash/tire\\substance_tire_project_autosave_0.spp": {
+        "fileSize": 248720175
+    },
+    "d:/trash/tire\\input\\item_tire01_mod_publish.usd": {
+        "fileSize": 6391069
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1003.exr": {
+        "fileSize": 105314085
+    },
+    "d:/trash/surface_imperfection\\20_fingerprints_smudges_specs.tif": {
+        "fileSize": 13422968
+    },
+    "d:/trash/tire\\substance_tire_project_autosave_1.spp": {
+        "fileSize": 248720175
+    },
+    "d:/trash/tire\\output\\painted.tif": {
+        "fileSize": 1212306
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1004.exr": {
+        "fileSize": 105311417
+    },
+    "d:/trash/surface_imperfection\\21_hairs_deposits.tif": {
+        "fileSize": 31070736
+    },
+    "d:/trash/trashContent\\substance_trashContent2_project.spp": {
+        "fileSize": 922969666
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1005.exr": {
+        "fileSize": 105314166
+    },
+    "d:/trash/surface_imperfection\\22_hairs_fabric.tif": {
+        "fileSize": 37734784
+    },
+    "d:/trash/trashOverturned\\substance_trashOverturned_project.spp": {
+        "fileSize": 457023123
+    },
+    "d:/trash/trashContent\\substance_trashContent_project.spp": {
+        "fileSize": 1252018592
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1006.exr": {
+        "fileSize": 105312516
+    },
+    "d:/trash/surface_imperfection\\23_hairs_fibres.tif": {
+        "fileSize": 26381668
+    },
+    "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_0.spp": {
+        "fileSize": 457023123
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1007.exr": {
+        "fileSize": 105311749
+    },
+    "d:/trash/trashContent\\substance_trashContent_project_autosave_0.spp": {
+        "fileSize": 1252013878
+    },
+    "d:/trash/surface_imperfection\\24_hairs_fibres.tif": {
+        "fileSize": 29784032
+    },
+    "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_1.spp": {
+        "fileSize": 457023123
+    },
+    "d:/trash/trashContent\\substance_trashContent_project_autosave_1.spp": {
+        "fileSize": 1252013878
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1008.exr": {
+        "fileSize": 105307128
+    },
+    "d:/trash/surface_imperfection\\25_bonus_isolatedFingerprints.tif": {
+        "fileSize": 9556080
+    },
+    "d:/trash/trashContent\\input\\can_uv.iff": {
+        "fileSize": 2520872
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1009.exr": {
+        "fileSize": 105312372
+    },
+    "d:/trash/trashContent\\input\\item_squMaLubulule_Sticker_v001.png": {
+        "fileSize": 169703
+    },
+    "d:/trash/surface_imperfection\\26_bonus_isolatedPalmprint.tif": {
+        "fileSize": 5211812
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1010.exr": {
+        "fileSize": 105307752
+    },
+    "d:/trash/trashBag\\input\\item_trashBagSimu_mod_publish.mtl": {
+        "fileSize": 675
+    },
+    "d:/trash/surface_imperfection\\27_metal_aluminum.tif": {
+        "fileSize": 40867612
+    },
+    "d:/trash/trashContent\\input\\item_squMonksterEnergy_Sticker_v001.png": {
+        "fileSize": 1428553
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1011.exr": {
+        "fileSize": 105309476
+    },
+    "d:/trash/trashBag\\input\\item_trashBagSimu_mod_publish.obj": {
+        "fileSize": 16190357
+    },
+    "d:/trash/surface_imperfection\\28_metal_castIron.tif": {
+        "fileSize": 27754440
+    },
+    "d:/trash/trashContent\\input\\item_squSacDaniele_Sticker_v001.png": {
+        "fileSize": 574061
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1012.exr": {
+        "fileSize": 105316708
+    },
+    "d:/trash/trashBag\\input\\item_trashBagSimu_mod_publish.usd": {
+        "fileSize": 4053400
+    },
+    "d:/trash/surface_imperfection\\29_scratcehes_deposits_shapes.tif": {
+        "fileSize": 41427408
+    },
+    "d:/trash/tv\\substance_tvbooks_project.spp": {
+        "fileSize": 175325301
+    },
+    "d:/trash/trashContent\\input\\item_squSillyTex_Sticker_v001.png": {
+        "fileSize": 424019
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1013.exr": {
+        "fileSize": 105312857
+    },
+    "d:/trash/trashBag\\input\\item_trashBagSimu_mod_publish2.usd": {
+        "fileSize": 4053400
+    },
+    "d:/trash/surface_imperfection\\30_scratches_deposits.tif": {
+        "fileSize": 35369812
+    },
+    "d:/trash/trashContent\\input\\monster_texture.png": {
+        "fileSize": 2074141
+    },
+    "d:/trash/tv\\substance_tvbooks_project.spp.painter_lock": {
+        "fileSize": 82
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1014.exr": {
+        "fileSize": 105313091
+    },
+    "d:/trash/surface_imperfection\\31_scratches_dust_deposits.tif": {
+        "fileSize": 37450844
+    },
+    "d:/trash/trashContent\\input\\trashContent2_v001.usd": {
+        "fileSize": 508028
+    },
+    "d:/trash/tv\\substance_tvbooks_project_autosave_0.spp": {
+        "fileSize": 175325301
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1015.exr": {
+        "fileSize": 105312091
+    },
+    "d:/trash/trashContent\\input\\trashContent_v001.usd": {
+        "fileSize": 550595
+    },
+    "d:/trash/surface_imperfection\\32_scratches_dust_specs.tif": {
+        "fileSize": 36032272
+    },
+    "d:/trash/tv\\substance_tvbooks_project_autosave_1.spp": {
+        "fileSize": 175325301
+    },
+    "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd": {
+        "fileSize": 1612662
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1016.exr": {
+        "fileSize": 105314304
+    },
+    "d:/trash/surface_imperfection\\33_bonus_scratches_edges_nonTiled.tif": {
+        "fileSize": 29713020
+    },
+    "d:/trash/tv\\substance_tvchandelier_project.spp": {
+        "fileSize": 130583635
+    },
+    "d:/trash/trashOverturned\\input\\yolo.mtl": {
+        "fileSize": 427
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1017.exr": {
+        "fileSize": 105311154
+    },
+    "d:/trash/surface_imperfection\\33_bonus_scratches_edges_nonTiled_mask.png": {
+        "fileSize": 12455341
+    },
+    "d:/trash/tv\\substance_tvchandelier_project_autosave_0.spp": {
+        "fileSize": 130583635
+    },
+    "d:/trash/trashOverturned\\input\\yolo.obj": {
+        "fileSize": 596265
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1018.exr": {
+        "fileSize": 105315378
+    },
+    "d:/trash/surface_imperfection\\34_scratches_smudges_deposits.tif": {
+        "fileSize": 34178388
+    },
+    "d:/trash/tv\\substance_tvchandelier_project_autosave_1.spp": {
+        "fileSize": 130583635
+    },
+    "d:/trash/tvSign\\substance_tvSign_project.spp": {
+        "fileSize": 142661443
+    },
+    "d:/trash/surface_imperfection\\35_scratches_smudges_dust.tif": {
+        "fileSize": 14031332
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1019.exr": {
+        "fileSize": 105312567
+    },
+    "d:/trash/tv\\substance_tvcontroller_projec.spp": {
+        "fileSize": 109063897
+    },
+    "d:/trash/tvSign\\substance_tvSign_project_autosave_0.spp": {
+        "fileSize": 142661115
+    },
+    "d:/trash/surface_imperfection\\36_scratches_smudges_fingerprints_specs.tif": {
+        "fileSize": 34615708
+    },
+    "d:/trash/tv\\substance_tvDoor.spp": {
+        "fileSize": 440034088
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1020.exr": {
+        "fileSize": 105313603
+    },
+    "d:/trash/tvSign\\substance_tvSign_project_autosave_1.spp": {
+        "fileSize": 142661443
+    },
+    "d:/trash/surface_imperfection\\37502651-white-seamless-texture-of-green-veins-background-pattern.jpg": {
+        "fileSize": 275147
+    },
+    "d:/trash/tv\\substance_tvDoor.spp.painter_lock": {
+        "fileSize": 81
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1021.exr": {
+        "fileSize": 105312587
+    },
+    "d:/trash/surface_imperfection\\37_scratches_smudges.tif": {
+        "fileSize": 32875624
+    },
+    "d:/trash/tv\\substance_tvDoor_autosave_0.spp": {
+        "fileSize": 439957124
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1022.exr": {
+        "fileSize": 105312293
+    },
+    "d:/trash/tv\\substance_tvDoor_autosave_1.spp": {
+        "fileSize": 439957124
+    },
+    "d:/trash/surface_imperfection\\38_scratches_smudges_specs.tif": {
+        "fileSize": 33757296
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1023.exr": {
+        "fileSize": 105315315
+    },
+    "d:/trash/surface_imperfection\\39_scratches_smudges_specs.tif": {
+        "fileSize": 31048036
+    },
+    "d:/trash/tv\\substance_tvHeater_project.spp": {
+        "fileSize": 171422167
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1024.exr": {
+        "fileSize": 105318601
+    },
+    "d:/trash/surface_imperfection\\40_bonus_scratches_strip.tif": {
+        "fileSize": 75042780
+    },
+    "d:/trash/tv\\substance_tvshelf.spp": {
+        "fileSize": 1166994349
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1025.exr": {
+        "fileSize": 105321331
+    },
+    "d:/trash/surface_imperfection\\41_scratches.tif": {
+        "fileSize": 36340732
+    },
+    "d:/trash/tv\\substance_tvshelf_autosave_0.spp": {
+        "fileSize": 1166982090
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1026.exr": {
+        "fileSize": 105317552
+    },
+    "d:/trash/surface_imperfection\\42_scratches.tif": {
+        "fileSize": 40357824
+    },
+    "d:/trash/tv\\substance_tvshelf_autosave_1.spp": {
+        "fileSize": 1166982090
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1027.exr": {
+        "fileSize": 105316723
+    },
+    "d:/trash/surface_imperfection\\43_scratches.tif": {
+        "fileSize": 7189936
+    },
+    "d:/trash/tv\\substance_tvsofa_project.spp": {
+        "fileSize": 332743524
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1028.exr": {
+        "fileSize": 105317758
+    },
+    "d:/trash/tv\\substance_tvsofa_project_autosave_0.spp": {
+        "fileSize": 332295567
+    },
+    "d:/trash/surface_imperfection\\44_smudges_scratches_specs.tif": {
+        "fileSize": 32649320
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1029.exr": {
+        "fileSize": 105321549
+    },
+    "d:/trash/tv\\substance_tvsofa_project_autosave_1.spp": {
+        "fileSize": 332743524
+    },
+    "d:/trash/surface_imperfection\\45_smudges.tif": {
+        "fileSize": 31186540
+    },
+    "d:/trash/tvSign\\input\\item_tvSign_mod_publish.usd": {
+        "fileSize": 44920
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1030.exr": {
+        "fileSize": 105320244
+    },
+    "d:/trash/tv\\substance_tvTable_project.spp": {
+        "fileSize": 1131935392
+    },
+    "d:/trash/surface_imperfection\\45_smudges_mask.png": {
+        "fileSize": 29455874
+    },
+    "d:/trash/tvSign\\input\\panneau_aVendre.png": {
+        "fileSize": 270404
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1031.exr": {
+        "fileSize": 105318983
+    },
+    "d:/trash/surface_imperfection\\46_smudges.tif": {
+        "fileSize": 36296052
+    },
+    "d:/trash/tv\\substance_tvtelevision.spp": {
+        "fileSize": 266818735
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1032.exr": {
+        "fileSize": 105321821
+    },
+    "d:/trash/surface_imperfection\\47_smudges_swirls.tif": {
+        "fileSize": 34882348
+    },
+    "d:/trash/tv\\substance_tvtelevision_autosave_0.spp": {
+        "fileSize": 266648275
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1033.exr": {
+        "fileSize": 105317481
+    },
+    "d:/trash/surface_imperfection\\48_smudges.tif": {
+        "fileSize": 11617824
+    },
+    "d:/trash/tv\\substance_tvtelevision_autosave_1.spp": {
+        "fileSize": 266640120
+    },
+    "d:/trash/tv\\substance_tvVentilator_project.spp": {
+        "fileSize": 133064941
+    },
+    "d:/trash/tv\\input\\tvChandelier_mod.usd": {
+        "fileSize": 68049
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1034.exr": {
+        "fileSize": 105322143
+    },
+    "d:/trash/tv\\output\\substance_tv_book_mask.1001.bmp": {
+        "fileSize": 4195382
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_69_latrik.png": {
+        "fileSize": 389715
+    },
+    "d:/trash/surface_imperfection\\48_smudges_mask.tiff": {
+        "fileSize": 12631922
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_anar.png": {
+        "fileSize": 155073
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1035.exr": {
+        "fileSize": 105319432
+    },
+    "d:/trash/tv\\input\\tvclothstack_mod.usd": {
+        "fileSize": 544144
+    },
+    "d:/trash/surface_imperfection\\49_smudges_specs.tif": {
+        "fileSize": 32215744
+    },
+    "d:/trash/tv\\substance_tvwalls_project.spp": {
+        "fileSize": 633234987
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1036.exr": {
+        "fileSize": 105323622
+    },
+    "d:/trash/surface_imperfection\\4f2b26f73b7662ef55761466fdbebef3e.jpg": {
+        "fileSize": 24933
+    },
+    "d:/trash/tv\\substance_tvwalls_project.spp.painter_lock": {
+        "fileSize": 82
+    },
+    "d:/trash/tv\\input\\tvController.usd": {
+        "fileSize": 5786
+    },
+    "d:/trash/_ressource_deco\\posters\\affiche_pute_01.png": {
+        "fileSize": 269556
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_daze.png": {
+        "fileSize": 377810
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1037.exr": {
+        "fileSize": 105320657
+    },
+    "d:/trash/surface_imperfection\\500_F_170421920_PeiWJogBStbJPAWJOCBwlDJeAWOfgK9w.jpg": {
+        "fileSize": 100539
+    },
+    "d:/trash/tv\\substance_tvwalls_project_autosave_0.spp": {
+        "fileSize": 640653552
+    },
+    "d:/trash/tv\\input\\tvDoor.usd": {
+        "fileSize": 76957
+    },
+    "d:/trash/_ressource_deco\\posters\\affiche_pute_02.png": {
+        "fileSize": 255197
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_fuck_walls.png": {
+        "fileSize": 212303
+    },
+    "d:/trash/tv\\input\\tvHeater_mod.usd": {
+        "fileSize": 61206
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1038.exr": {
+        "fileSize": 105318980
+    },
+    "d:/trash/tv\\substance_tvwalls_project_autosave_1.spp": {
+        "fileSize": 640653552
+    },
+    "d:/trash/surface_imperfection\\50_smudges_specs.tif": {
+        "fileSize": 34987780
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_gross.png": {
+        "fileSize": 458380
+    },
+    "d:/trash/_ressource_deco\\posters\\Thumbs.db": {
+        "fileSize": 68096
+    },
+    "d:/trash/tv\\input\\tvShelf.usd": {
+        "fileSize": 45254
+    },
+    "d:/trash/surface_imperfection\\51_specs_fingerprints_hairs.tif": {
+        "fileSize": 28568576
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1039.exr": {
+        "fileSize": 105319294
+    },
+    "d:/trash/tv\\tvbooks.psd": {
+        "fileSize": 13456295
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_jesus.png": {
+        "fileSize": 792736
+    },
+    "d:/trash/tv\\input\\tvsofa_mod.usd": {
+        "fileSize": 64310
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_landrouha.png": {
+        "fileSize": 2691939
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1040.exr": {
+        "fileSize": 105321649
+    },
+    "d:/trash/surface_imperfection\\52_specs_hairs.tif": {
+        "fileSize": 28687168
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_behappy.png": {
+        "fileSize": 6133546
+    },
+    "d:/trash/tv\\input\\tvTable.usd": {
+        "fileSize": 129068
+    },
+    "d:/trash/surface_imperfection\\53_specs_hairs.tif": {
+        "fileSize": 25941956
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_nature.png": {
+        "fileSize": 291422
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1041.exr": {
+        "fileSize": 105322834
+    },
+    "d:/trash/tv\\input\\tvTelevision.usd": {
+        "fileSize": 209498
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_chooseViolence.png": {
+        "fileSize": 2387442
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_no_future.png": {
+        "fileSize": 281984
+    },
+    "d:/trash/surface_imperfection\\54_specs_hairs.tif": {
+        "fileSize": 27846784
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1042.exr": {
+        "fileSize": 105321245
+    },
+    "d:/trash/tv\\input\\tvVentilator.usd": {
+        "fileSize": 101150
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_greg.png": {
+        "fileSize": 1864730
+    },
+    "d:/trash/__TEXTURES\\SW_Wrinkles_01.psd": {
+        "fileSize": 191165
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_N_squatt.png": {
+        "fileSize": 72825
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1043.exr": {
+        "fileSize": 105323115
+    },
+    "d:/trash/surface_imperfection\\55_specs_leather.tif": {
+        "fileSize": 32610932
+    },
+    "d:/trash/tv\\input\\tv_books.usd": {
+        "fileSize": 311721
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_macrong.png": {
+        "fileSize": 656680
+    },
+    "d:/trash/__TEXTURES\\sw_wrinkles_01.zip": {
+        "fileSize": 119227
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_petasse.png": {
+        "fileSize": 80283
+    },
+    "d:/trash/surface_imperfection\\56_specs_pixels.tif": {
+        "fileSize": 34335156
+    },
+    "d:/trash/tv\\input\\tv_walls.usd": {
+        "fileSize": 96972
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1044.exr": {
+        "fileSize": 105322814
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_mynameis.png": {
+        "fileSize": 149734
+    },
+    "d:/trash/__TEXTURES\\SW_Wrinkles_02.psd": {
+        "fileSize": 138695
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_quazar.png": {
+        "fileSize": 42627
+    },
+    "d:/trash/surface_imperfection\\57_specs_smudges.tif": {
+        "fileSize": 15778868
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1045.exr": {
+        "fileSize": 105322905
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_rastaGarfield.png": {
+        "fileSize": 3695513
+    },
+    "d:/trash/__TEXTURES\\sw_wrinkles_02.zip": {
+        "fileSize": 87614
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_smile.png": {
+        "fileSize": 1566311
+    },
+    "d:/trash/surface_imperfection\\aaaaaaaaaaaaaaaaaaaaa.jpg": {
+        "fileSize": 118337
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1046.exr": {
+        "fileSize": 105326387
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_skullHi.png": {
+        "fileSize": 384246
+    },
+    "d:/trash/__TEXTURES\\SW_Wrinkles_04.psd": {
+        "fileSize": 134935
+    },
+    "d:/trash/_ressource_deco\\graff\\tag_vote_here.png": {
+        "fileSize": 52499
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1047.exr": {
+        "fileSize": 105326349
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_GRUNGE_big_01_base_tiled.tif": {
+        "fileSize": 23721600
+    },
+    "d:/trash/_ressource_deco\\stickers\\sticker_vegan.png": {
+        "fileSize": 3268088
+    },
+    "d:/trash/__TEXTURES\\sw_wrinkles_04.zip": {
+        "fileSize": 85431
+    },
+    "d:/trash/_ressource_deco\\graff\\Thumbs.db": {
+        "fileSize": 79360
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_hard_01.tif": {
+        "fileSize": 22092128
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1048.exr": {
+        "fileSize": 105328026
+    },
+    "d:/trash/_ressource_deco\\stickers\\Thumbs.db": {
+        "fileSize": 81408
+    },
+    "d:/trash/__TEXTURES\\SW_Wrinkles_06.psd": {
+        "fileSize": 401883
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_hard_03_base.tif": {
+        "fileSize": 30398796
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1049.exr": {
+        "fileSize": 105326702
+    },
+    "d:/trash/__TEXTURES\\sw_wrinkles_06.zip": {
+        "fileSize": 250406
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_hard_03_tiled_01.tif": {
+        "fileSize": 109462028
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1050.exr": {
+        "fileSize": 105326697
+    },
+    "d:/trash/__TEXTURES\\SW_Wrinkles_12.psd": {
+        "fileSize": 261640
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_medium_01_base.tif": {
+        "fileSize": 11133226
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1051.exr": {
+        "fileSize": 105327414
+    },
+    "d:/trash/__TEXTURES\\sw_wrinkles_12.zip": {
+        "fileSize": 163329
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_medium_02_base.tif": {
+        "fileSize": 16590076
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1052.exr": {
+        "fileSize": 105334635
+    },
+    "d:/trash/surface_imperfection\\BRUSHED_medium_04.tif": {
+        "fileSize": 18444860
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1053.exr": {
+        "fileSize": 105326916
+    },
+    "d:/trash/surface_imperfection\\cracks.tiff": {
+        "fileSize": 517560
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1054.exr": {
+        "fileSize": 105329963
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\BrushMap1.png": {
+        "fileSize": 27944310
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\Concrete_Dirty_ugqiccps_surface_Preview.png": {
+        "fileSize": 960282
+    },
+    "d:/trash/surface_imperfection\\dust_tile.png": {
+        "fileSize": 201295
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1001.exr": {
+        "fileSize": 53688088
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1055.exr": {
+        "fileSize": 105327025
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\Concrete_Cast in situ_vdxicg2_surface_Preview.png": {
+        "fileSize": 909087
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps.json": {
+        "fileSize": 42731
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Concrete_Castinsitu_vdxicg2_8K_surface_ms.zip": {
+        "fileSize": 343588230
+    },
+    "d:/trash/surface_imperfection\\fond-criqu\u00e9-de-vecteur-texture-sol-la-terre-128714270.jpg": {
+        "fileSize": 180684
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1002.exr": {
+        "fileSize": 53686995
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1056.exr": {
+        "fileSize": 105331955
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1001.exr": {
+        "fileSize": 184863512
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps_8K_Albedo.jpg": {
+        "fileSize": 54542150
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Concrete_Dirty_ugqiccps_8K_surface_ms.zip": {
+        "fileSize": 327752567
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json": {
+        "fileSize": 42833
+    },
+    "d:/trash/surface_imperfection\\heavy-grungy-paint-textures.jpg": {
+        "fileSize": 485900
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1003.exr": {
+        "fileSize": 53688584
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1057.exr": {
+        "fileSize": 105329262
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1002.exr": {
+        "fileSize": 184865526
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps_8K_AO.jpg": {
+        "fileSize": 30560091
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Imperfections_Grunge_sgeubajc_4K_surface_ms.zip": {
+        "fileSize": 7532241
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Albedo.jpg": {
+        "fileSize": 49765334
+    },
+    "d:/trash/surface_imperfection\\hi-defintion-cracked-paint-texture-photoshop-textures.jpg": {
+        "fileSize": 139744
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1004.exr": {
+        "fileSize": 53687444
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1058.exr": {
+        "fileSize": 105331144
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1003.exr": {
+        "fileSize": 184864459
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps_8K_Displacement.exr": {
+        "fileSize": 140580734
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Imperfections_Grunge_slnnejbc_4K_surface_ms.zip": {
+        "fileSize": 12098298
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_AO.jpg": {
+        "fileSize": 24609981
+    },
+    "d:/trash/surface_imperfection\\istockphoto-1003615270-1024x1024.jpg": {
+        "fileSize": 518336
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1005.exr": {
+        "fileSize": 53685519
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1059.exr": {
+        "fileSize": 105332866
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1004.exr": {
+        "fileSize": 184862400
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr": {
+        "fileSize": 167916878
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps_8K_Displacement.jpg": {
+        "fileSize": 6324436
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Imperfections_Grunge_tedxaboc_8K_surface_ms.zip": {
+        "fileSize": 41273330
+    },
+    "d:/trash/surface_imperfection\\istockphoto-1251285725-1024x1024.jpg": {
+        "fileSize": 743086
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1006.exr": {
+        "fileSize": 53687115
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1005.exr": {
+        "fileSize": 184864278
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1060.exr": {
+        "fileSize": 105334960
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.jpg": {
+        "fileSize": 6115434
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps_8K_Normal.jpg": {
+        "fileSize": 71378357
+    },
+    "d:/trash/surface_imperfection\\Leaking05_col.jpg": {
+        "fileSize": 4207634
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Imperfections_Grunge_tedxadjc_8K_surface_ms.zip": {
+        "fileSize": 44019033
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1007.exr": {
+        "fileSize": 53685922
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1006.exr": {
+        "fileSize": 184872680
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Normal.jpg": {
+        "fileSize": 51333429
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms\\ugqiccps_8K_Roughness.jpg": {
+        "fileSize": 23362630
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1061.exr": {
+        "fileSize": 105331538
+    },
+    "d:/trash/surface_imperfection\\Leaking05_disp.jpg": {
+        "fileSize": 3109564
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Metal_Rusty_tjzjeaaaw_8K_surface_ms.zip": {
+        "fileSize": 307806518
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1007.exr": {
+        "fileSize": 184860004
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1008.exr": {
+        "fileSize": 53683689
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1062.exr": {
+        "fileSize": 105330634
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Roughness.jpg": {
+        "fileSize": 42894100
+    },
+    "d:/trash/surface_imperfection\\Leaking05_mask.jpg": {
+        "fileSize": 3023535
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Metal_Rusty_tkdicbgew_8K_surface_ms.zip": {
+        "fileSize": 295535954
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1008.exr": {
+        "fileSize": 184863366
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1009.exr": {
+        "fileSize": 53684559
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1063.exr": {
+        "fileSize": 105332656
+    },
+    "d:/trash/surface_imperfection\\Leaking05_mask.png": {
+        "fileSize": 3077051
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1001.exr": {
+        "fileSize": 131991454
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Metal_Sheet_vckieff_8K_surface_ms.zip": {
+        "fileSize": 160046181
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1009.exr": {
+        "fileSize": 184861045
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1010.exr": {
+        "fileSize": 53684240
+    },
+    "d:/trash/surface_imperfection\\Leaking05_nrm.jpg": {
+        "fileSize": 10758531
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1064.exr": {
+        "fileSize": 105333262
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1001.exr": {
+        "fileSize": 394259100
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Metal_Sheet_xeutbhl_8K_surface_ms.zip": {
+        "fileSize": 227286865
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1002.exr": {
+        "fileSize": 131982261
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1010.exr": {
+        "fileSize": 184868445
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1065.exr": {
+        "fileSize": 105332406
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1011.exr": {
+        "fileSize": 53687314
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1002.exr": {
+        "fileSize": 394249465
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Metal_Sheet_xhtnbhlg_8K_surface_ms.zip": {
+        "fileSize": 127597281
+    },
+    "d:/trash/surface_imperfection\\Leaking05_rgh.jpg": {
+        "fileSize": 2481383
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1003.exr": {
+        "fileSize": 131978344
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1012.exr": {
+        "fileSize": 53686810
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1066.exr": {
+        "fileSize": 105331386
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1011.exr": {
+        "fileSize": 184862971
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Plaster_Damaged_ugzgdfzlw_8K_surface_ms.zip": {
+        "fileSize": 315221108
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1003.exr": {
+        "fileSize": 394248271
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1004.exr": {
+        "fileSize": 131985265
+    },
+    "d:/trash/surface_imperfection\\LIQUID_hard_04_base_tiled.tif": {
+        "fileSize": 47030190
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1013.exr": {
+        "fileSize": 53686742
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1067.exr": {
+        "fileSize": 105332595
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1012.exr": {
+        "fileSize": 184863327
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Plaster_Damaged_ugzgdfzlw_surface_Preview.png": {
+        "fileSize": 972106
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1004.exr": {
+        "fileSize": 394247864
+    },
+    "d:/trash/surface_imperfection\\mud-brush-strokes-H7MFAR.png": {
+        "fileSize": 969177
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1005.exr": {
+        "fileSize": 131991276
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1014.exr": {
+        "fileSize": 53685936
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1068.exr": {
+        "fileSize": 105336527
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Plaster_Dirty_xepmej1ga_8K_surface_ms.zip": {
+        "fileSize": 304287388
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1013.exr": {
+        "fileSize": 184869592
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1006.exr": {
+        "fileSize": 131986200
+    },
+    "d:/trash/surface_imperfection\\Pottery_imperfections_001.png": {
+        "fileSize": 1702967
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1005.exr": {
+        "fileSize": 394251364
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1069.exr": {
+        "fileSize": 105335287
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1015.exr": {
+        "fileSize": 53686654
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Plaster_Dirty_xepmej1ga_surface_Preview.png": {
+        "fileSize": 949176
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1007.exr": {
+        "fileSize": 131986798
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1006.exr": {
+        "fileSize": 394258635
+    },
+    "d:/trash/surface_imperfection\\Pottery_imperfections_002.png": {
+        "fileSize": 2985037
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1014.exr": {
+        "fileSize": 184871524
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1070.exr": {
+        "fileSize": 105331772
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Plaster_Painted_vhqkeff_8K_surface_ms.zip": {
+        "fileSize": 300369275
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1016.exr": {
+        "fileSize": 53687429
+    },
+    "d:/trash/surface_imperfection\\Pottery_imperfections_003.png": {
+        "fileSize": 710947
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1007.exr": {
+        "fileSize": 394245465
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1008.exr": {
+        "fileSize": 131991167
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1015.exr": {
+        "fileSize": 184869470
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1071.exr": {
+        "fileSize": 105336218
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Plaster_Painted_vhqkeff_surface_Preview.png": {
+        "fileSize": 992553
+    },
+    "d:/trash/surface_imperfection\\Stains_01.tiff": {
+        "fileSize": 420164
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1017.exr": {
+        "fileSize": 53689457
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1016.exr": {
+        "fileSize": 184868808
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1009.exr": {
+        "fileSize": 131989847
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1008.exr": {
+        "fileSize": 394250605
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep0.json": {
+        "fileSize": 41611
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1072.exr": {
+        "fileSize": 105335367
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1018.exr": {
+        "fileSize": 53686170
+    },
+    "d:/trash/surface_imperfection\\Stains_02.tiff": {
+        "fileSize": 290518
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1017.exr": {
+        "fileSize": 184865326
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep_4K_Albedo.jpg": {
+        "fileSize": 2854232
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1010.exr": {
+        "fileSize": 131983944
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1009.exr": {
+        "fileSize": 394248083
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1073.exr": {
+        "fileSize": 105335271
+    },
+    "d:/trash/surface_imperfection\\Stains_03.tiff": {
+        "fileSize": 462588
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1019.exr": {
+        "fileSize": 53686008
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1018.exr": {
+        "fileSize": 184865713
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep_4K_AO.jpg": {
+        "fileSize": 2055961
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1074.exr": {
+        "fileSize": 105331684
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1011.exr": {
+        "fileSize": 131991982
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1010.exr": {
+        "fileSize": 394249284
+    },
+    "d:/trash/surface_imperfection\\Stains_04.tiff": {
+        "fileSize": 759694
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1020.exr": {
+        "fileSize": 53688128
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep_4K_Displacement.exr": {
+        "fileSize": 45117457
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1019.exr": {
+        "fileSize": 184868673
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1075.exr": {
+        "fileSize": 105332219
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1012.exr": {
+        "fileSize": 131991272
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1011.exr": {
+        "fileSize": 394253180
+    },
+    "d:/trash/surface_imperfection\\stretched_noise.tiff": {
+        "fileSize": 229994
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1021.exr": {
+        "fileSize": 53691406
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1076.exr": {
+        "fileSize": 105331380
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1020.exr": {
+        "fileSize": 184872332
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep_4K_Displacement.jpg": {
+        "fileSize": 425256
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1013.exr": {
+        "fileSize": 131987794
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1012.exr": {
+        "fileSize": 394259377
+    },
+    "d:/trash/surface_imperfection\\strips_grunge_tiled.png": {
+        "fileSize": 3877031
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1022.exr": {
+        "fileSize": 53690601
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1021.exr": {
+        "fileSize": 184870353
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1077.exr": {
+        "fileSize": 105328392
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1014.exr": {
+        "fileSize": 131990103
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep_4K_Normal.jpg": {
+        "fileSize": 4055434
+    },
+    "d:/trash/surface_imperfection\\SurfaceImperfections03_nrm.jpg": {
+        "fileSize": 30567008
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1013.exr": {
+        "fileSize": 394259149
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1022.exr": {
+        "fileSize": 184868377
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1023.exr": {
+        "fileSize": 53691488
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1078.exr": {
+        "fileSize": 105327317
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1015.exr": {
+        "fileSize": 131995067
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1014.exr": {
+        "fileSize": 394263306
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolaep_4K_Roughness.jpg": {
+        "fileSize": 2518025
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1023.exr": {
+        "fileSize": 184873997
+    },
+    "d:/trash/surface_imperfection\\SurfaceImperfections03_var1.jpg": {
+        "fileSize": 7905830
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1001.exr": {
+        "fileSize": 63710
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1024.exr": {
+        "fileSize": 53691471
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1016.exr": {
+        "fileSize": 131990958
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1079.exr": {
+        "fileSize": 105321256
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1015.exr": {
+        "fileSize": 394268061
+    },
+    "d:/trash/surface_imperfection\\SurfaceImperfections03_var2.jpg": {
+        "fileSize": 7905813
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1002.exr": {
+        "fileSize": 63291
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp0.json": {
+        "fileSize": 41332
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1025.exr": {
+        "fileSize": 53691174
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1024.exr": {
+        "fileSize": 184878953
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1017.exr": {
+        "fileSize": 131986805
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1081.exr": {
+        "fileSize": 105321244
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1003.exr": {
+        "fileSize": 63488
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1016.exr": {
+        "fileSize": 394266262
+    },
+    "d:/trash/surface_imperfection\\texture-de-recouvrement-fil-125916342.jpg": {
+        "fileSize": 248612
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp_4K_Albedo.jpg": {
+        "fileSize": 3041952
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1026.exr": {
+        "fileSize": 53690148
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1025.exr": {
+        "fileSize": 184880367
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1018.exr": {
+        "fileSize": 131989689
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1082.exr": {
+        "fileSize": 105313917
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1017.exr": {
+        "fileSize": 394255811
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_DecalsStain0001_2_M.tif": {
+        "fileSize": 2334100
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp_4K_AO.jpg": {
+        "fileSize": 2121160
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1004.exr": {
+        "fileSize": 63314
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1027.exr": {
+        "fileSize": 53689680
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1026.exr": {
+        "fileSize": 184878896
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1019.exr": {
+        "fileSize": 131983017
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1018.exr": {
+        "fileSize": 394256380
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1083.exr": {
+        "fileSize": 105314562
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1005.exr": {
+        "fileSize": 63347
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp_4K_Displacement.exr": {
+        "fileSize": 45876580
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1028.exr": {
+        "fileSize": 53689239
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_DecalsStain0012_2_M.tif": {
+        "fileSize": 2400340
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1027.exr": {
+        "fileSize": 184876269
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1084.exr": {
+        "fileSize": 105305890
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1020.exr": {
+        "fileSize": 131985217
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1019.exr": {
+        "fileSize": 394255628
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1006.exr": {
+        "fileSize": 63260
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1029.exr": {
+        "fileSize": 53693324
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp_4K_Displacement.jpg": {
+        "fileSize": 472905
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_DecalsStain0078_1_masked_S.tif": {
+        "fileSize": 1565940
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1028.exr": {
+        "fileSize": 184874234
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1085.exr": {
+        "fileSize": 105304750
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1021.exr": {
+        "fileSize": 131992742
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1020.exr": {
+        "fileSize": 394262929
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp_4K_Normal.jpg": {
+        "fileSize": 3863378
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1007.exr": {
+        "fileSize": 63344
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_DirtyFloorA_overlay_S.png": {
+        "fileSize": 975161
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1030.exr": {
+        "fileSize": 53695358
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1029.exr": {
+        "fileSize": 184878766
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1022.exr": {
+        "fileSize": 131989623
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1086.exr": {
+        "fileSize": 105301636
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\scolcjp_4K_Roughness.jpg": {
+        "fileSize": 2672711
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1021.exr": {
+        "fileSize": 394268696
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1008.exr": {
+        "fileSize": 63298
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_DirtyPaint1_overlay_S.tif": {
+        "fileSize": 686123
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1031.exr": {
+        "fileSize": 53692821
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1030.exr": {
+        "fileSize": 184874252
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1023.exr": {
+        "fileSize": 131989072
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp.json": {
+        "fileSize": 41965
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1087.exr": {
+        "fileSize": 105300160
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1022.exr": {
+        "fileSize": 394266612
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_Overlay_Dirt3_512_overlay.tif": {
+        "fileSize": 668165
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1009.exr": {
+        "fileSize": 63580
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1032.exr": {
+        "fileSize": 53691780
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1031.exr": {
+        "fileSize": 184876923
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1024.exr": {
+        "fileSize": 131994765
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1088.exr": {
+        "fileSize": 105295689
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp_8K_Albedo.jpg": {
+        "fileSize": 68493586
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1023.exr": {
+        "fileSize": 394270128
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1033.exr": {
+        "fileSize": 53691719
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1010.exr": {
+        "fileSize": 63318
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_Overlay_Stains5_512_overlay.tif": {
+        "fileSize": 597055
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp_8K_AO.jpg": {
+        "fileSize": 27144384
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1032.exr": {
+        "fileSize": 184883241
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1025.exr": {
+        "fileSize": 131992803
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1089.exr": {
+        "fileSize": 105294325
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1024.exr": {
+        "fileSize": 394284623
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_PlywoodPainted0022_M.tif": {
+        "fileSize": 7765400
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1011.exr": {
+        "fileSize": 63645
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1034.exr": {
+        "fileSize": 53693634
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1033.exr": {
+        "fileSize": 184882654
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp_8K_Displacement.exr": {
+        "fileSize": 41400569
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1090.exr": {
+        "fileSize": 105286007
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1026.exr": {
+        "fileSize": 131993091
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1025.exr": {
+        "fileSize": 394288757
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1035.exr": {
+        "fileSize": 53695847
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_PlywoodPainted0044_M.tif": {
+        "fileSize": 8650148
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1012.exr": {
+        "fileSize": 63344
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1091.exr": {
+        "fileSize": 105284083
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp_8K_Displacement.jpg": {
+        "fileSize": 6762819
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1034.exr": {
+        "fileSize": 184892299
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1027.exr": {
+        "fileSize": 131993254
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1036.exr": {
+        "fileSize": 53697186
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1026.exr": {
+        "fileSize": 394283744
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1092.exr": {
+        "fileSize": 105286292
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp_8K_Normal.jpg": {
+        "fileSize": 107914830
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1013.exr": {
+        "fileSize": 63261
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_PlywoodPainted0044_M_invert.tif": {
+        "fileSize": 8651940
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1035.exr": {
+        "fileSize": 184880604
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1028.exr": {
+        "fileSize": 131993610
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1037.exr": {
+        "fileSize": 53692436
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1093.exr": {
+        "fileSize": 105279176
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1027.exr": {
+        "fileSize": 394282157
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\sl3gfdnp_8K_Roughness.jpg": {
+        "fileSize": 41948320
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1014.exr": {
+        "fileSize": 63669
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_PlywoodPainted0073_2_M.tif": {
+        "fileSize": 5192700
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1036.exr": {
+        "fileSize": 184890160
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1029.exr": {
+        "fileSize": 131991043
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1038.exr": {
+        "fileSize": 53692168
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1028.exr": {
+        "fileSize": 394280933
+    },
+    "d:/trash/surface_imperfection\\TexturesCom_PlywoodPainted0080_2_M.tif": {
+        "fileSize": 3235652
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg.json": {
+        "fileSize": 42004
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1094.exr": {
+        "fileSize": 105280309
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1015.exr": {
+        "fileSize": 63328
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1037.exr": {
+        "fileSize": 184887056
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1030.exr": {
+        "fileSize": 131991046
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1029.exr": {
+        "fileSize": 394286868
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg_8K_Albedo.jpg": {
+        "fileSize": 28396682
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1039.exr": {
+        "fileSize": 53694095
+    },
+    "d:/trash/surface_imperfection\\Thumbs.db": {
+        "fileSize": 1737216
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1095.exr": {
+        "fileSize": 105279468
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1016.exr": {
+        "fileSize": 63292
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1038.exr": {
+        "fileSize": 184887732
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1031.exr": {
+        "fileSize": 131993070
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg_8K_AO.jpg": {
+        "fileSize": 9988716
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1040.exr": {
+        "fileSize": 53696963
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1096.exr": {
+        "fileSize": 105277453
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1030.exr": {
+        "fileSize": 394284006
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1017.exr": {
+        "fileSize": 63319
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1039.exr": {
+        "fileSize": 184890309
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1032.exr": {
+        "fileSize": 131990144
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg_8K_Displacement.exr": {
+        "fileSize": 32854106
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1041.exr": {
+        "fileSize": 53698558
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1031.exr": {
+        "fileSize": 394287436
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1097.exr": {
+        "fileSize": 105277454
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1033.exr": {
+        "fileSize": 131989721
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1040.exr": {
+        "fileSize": 184894746
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1018.exr": {
+        "fileSize": 63569
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg_8K_Displacement.jpg": {
+        "fileSize": 6068787
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1042.exr": {
+        "fileSize": 53696177
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1032.exr": {
+        "fileSize": 394291598
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1098.exr": {
+        "fileSize": 105274558
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1034.exr": {
+        "fileSize": 131992435
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1041.exr": {
+        "fileSize": 184895798
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1019.exr": {
+        "fileSize": 63752
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1043.exr": {
+        "fileSize": 53696497
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1033.exr": {
+        "fileSize": 394287507
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg_8K_Normal.jpg": {
+        "fileSize": 33613477
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1099.exr": {
+        "fileSize": 105274732
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1042.exr": {
+        "fileSize": 184901635
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1035.exr": {
+        "fileSize": 131994137
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1020.exr": {
+        "fileSize": 63436
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1044.exr": {
+        "fileSize": 53695796
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1100.exr": {
+        "fileSize": 105271596
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\teilffxg_8K_Roughness.jpg": {
+        "fileSize": 15968941
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1034.exr": {
+        "fileSize": 394302863
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1043.exr": {
+        "fileSize": 184899481
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw.json": {
+        "fileSize": 42728
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1036.exr": {
+        "fileSize": 131992509
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1045.exr": {
+        "fileSize": 53697687
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1035.exr": {
+        "fileSize": 394297551
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1101.exr": {
+        "fileSize": 105271788
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1044.exr": {
+        "fileSize": 184899529
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1021.exr": {
+        "fileSize": 63275
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1037.exr": {
+        "fileSize": 131990545
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1102.exr": {
+        "fileSize": 105275852
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw_8K_Albedo.jpg": {
+        "fileSize": 45814280
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1045.exr": {
+        "fileSize": 184909904
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1036.exr": {
+        "fileSize": 394308826
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1046.exr": {
+        "fileSize": 53698970
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1022.exr": {
+        "fileSize": 63475
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw_8K_AO.jpg": {
+        "fileSize": 26452913
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1103.exr": {
+        "fileSize": 105266273
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1038.exr": {
+        "fileSize": 131993085
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1047.exr": {
+        "fileSize": 53697105
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1046.exr": {
+        "fileSize": 184906379
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1037.exr": {
+        "fileSize": 394301960
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1023.exr": {
+        "fileSize": 63500
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw_8K_Displacement.exr": {
+        "fileSize": 169875835
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1039.exr": {
+        "fileSize": 131991564
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1104.exr": {
+        "fileSize": 105270760
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1047.exr": {
+        "fileSize": 184902665
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1038.exr": {
+        "fileSize": 394302199
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1048.exr": {
+        "fileSize": 53698663
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1024.exr": {
+        "fileSize": 63407
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw_8K_Displacement.jpg": {
+        "fileSize": 6410791
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1040.exr": {
+        "fileSize": 131996847
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1105.exr": {
+        "fileSize": 105271731
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1049.exr": {
+        "fileSize": 53703311
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1039.exr": {
+        "fileSize": 394307869
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1048.exr": {
+        "fileSize": 184900491
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw_8K_Normal.jpg": {
+        "fileSize": 43695764
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1025.exr": {
+        "fileSize": 63578
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1041.exr": {
+        "fileSize": 131994774
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1040.exr": {
+        "fileSize": 394318855
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1106.exr": {
+        "fileSize": 105268587
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1050.exr": {
+        "fileSize": 53701766
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1049.exr": {
+        "fileSize": 184901091
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\ugzgdfzlw_8K_Roughness.jpg": {
+        "fileSize": 21955517
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1026.exr": {
+        "fileSize": 63346
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1051.exr": {
+        "fileSize": 53701880
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1041.exr": {
+        "fileSize": 394323000
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1042.exr": {
+        "fileSize": 131989844
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1107.exr": {
+        "fileSize": 105268865
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1050.exr": {
+        "fileSize": 184908682
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff.json": {
+        "fileSize": 43012
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1027.exr": {
+        "fileSize": 63322
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1043.exr": {
+        "fileSize": 131991812
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1052.exr": {
+        "fileSize": 53701460
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1108.exr": {
+        "fileSize": 105272009
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1042.exr": {
+        "fileSize": 394325227
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff_8K_Albedo.jpg": {
+        "fileSize": 40766053
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1051.exr": {
+        "fileSize": 184908766
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1044.exr": {
+        "fileSize": 131996552
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1053.exr": {
+        "fileSize": 53701782
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1028.exr": {
+        "fileSize": 63285
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1109.exr": {
+        "fileSize": 105270099
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1043.exr": {
+        "fileSize": 394324408
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff_8K_AO.jpg": {
+        "fileSize": 26102409
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1052.exr": {
+        "fileSize": 184911962
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1045.exr": {
+        "fileSize": 131993733
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1054.exr": {
+        "fileSize": 53700818
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1029.exr": {
+        "fileSize": 63281
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1110.exr": {
+        "fileSize": 105271692
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff_8K_Displacement.exr": {
+        "fileSize": 166058067
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1044.exr": {
+        "fileSize": 394329648
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1055.exr": {
+        "fileSize": 53697747
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1053.exr": {
+        "fileSize": 184911464
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1046.exr": {
+        "fileSize": 131997605
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1030.exr": {
+        "fileSize": 63564
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1111.exr": {
+        "fileSize": 105270882
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1056.exr": {
+        "fileSize": 53703546
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff_8K_Displacement.jpg": {
+        "fileSize": 6473557
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1054.exr": {
+        "fileSize": 184915148
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1047.exr": {
+        "fileSize": 131991626
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1045.exr": {
+        "fileSize": 394343236
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1031.exr": {
+        "fileSize": 63457
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff_8K_Normal.jpg": {
+        "fileSize": 29762873
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1112.exr": {
+        "fileSize": 105264641
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1057.exr": {
+        "fileSize": 53704638
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1055.exr": {
+        "fileSize": 184910348
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1048.exr": {
+        "fileSize": 131995484
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1046.exr": {
+        "fileSize": 394342592
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1032.exr": {
+        "fileSize": 63059
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\vhqkeff_8K_Roughness.jpg": {
+        "fileSize": 30169609
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1113.exr": {
+        "fileSize": 105265941
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1056.exr": {
+        "fileSize": 184912974
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1058.exr": {
+        "fileSize": 53703316
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1049.exr": {
+        "fileSize": 131994367
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1033.exr": {
+        "fileSize": 63051
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1047.exr": {
+        "fileSize": 394332566
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Wood_Misc_scolaep0_4K_surface_ms.zip": {
+        "fileSize": 57988845
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1114.exr": {
+        "fileSize": 105264535
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1057.exr": {
+        "fileSize": 184916860
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1059.exr": {
+        "fileSize": 53704022
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1050.exr": {
+        "fileSize": 131988565
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Wood_Misc_scolaep0_surface_Preview.png": {
+        "fileSize": 919735
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1034.exr": {
+        "fileSize": 63116
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1048.exr": {
+        "fileSize": 394335050
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1115.exr": {
+        "fileSize": 105268481
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1058.exr": {
+        "fileSize": 184919416
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1051.exr": {
+        "fileSize": 131993806
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1060.exr": {
+        "fileSize": 53705580
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Wood_Misc_scolcjp0_4K_surface_ms.zip": {
+        "fileSize": 59052477
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1116.exr": {
+        "fileSize": 105265604
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1035.exr": {
+        "fileSize": 63545
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1059.exr": {
+        "fileSize": 184922693
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1049.exr": {
+        "fileSize": 394337004
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1052.exr": {
+        "fileSize": 131994795
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1061.exr": {
+        "fileSize": 53706184
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Wood_Misc_scolcjp0_surface_Preview.png": {
+        "fileSize": 961325
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1117.exr": {
+        "fileSize": 105267458
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1060.exr": {
+        "fileSize": 184918048
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1036.exr": {
+        "fileSize": 63035
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1053.exr": {
+        "fileSize": 131992217
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1050.exr": {
+        "fileSize": 394337272
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1062.exr": {
+        "fileSize": 53705299
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Wood_Planks_sl3gfdnp_surface_Preview.png": {
+        "fileSize": 1031757
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1061.exr": {
+        "fileSize": 184923188
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1118.exr": {
+        "fileSize": 105267857
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1037.exr": {
+        "fileSize": 63449
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1051.exr": {
+        "fileSize": 394345333
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1054.exr": {
+        "fileSize": 131990390
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1063.exr": {
+        "fileSize": 53703710
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\Wood_Planks_teilffxg_surface_Preview.png": {
+        "fileSize": 1051415
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1062.exr": {
+        "fileSize": 184927024
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1119.exr": {
+        "fileSize": 105269592
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1055.exr": {
+        "fileSize": 131998307
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1052.exr": {
+        "fileSize": 394360463
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1038.exr": {
+        "fileSize": 63254
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1063.exr": {
+        "fileSize": 184922878
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga.json": {
+        "fileSize": 42639
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1064.exr": {
+        "fileSize": 53707467
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1120.exr": {
+        "fileSize": 105266338
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1056.exr": {
+        "fileSize": 131997658
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1053.exr": {
+        "fileSize": 394352433
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1064.exr": {
+        "fileSize": 184925241
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_Albedo.jpg": {
+        "fileSize": 43646919
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1039.exr": {
+        "fileSize": 63237
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1121.exr": {
+        "fileSize": 105267366
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1057.exr": {
+        "fileSize": 131990179
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1065.exr": {
+        "fileSize": 53709114
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1065.exr": {
+        "fileSize": 184920598
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_AO.jpg": {
+        "fileSize": 17297803
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1054.exr": {
+        "fileSize": 394355387
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1040.exr": {
+        "fileSize": 63353
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1122.exr": {
+        "fileSize": 105267511
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1066.exr": {
+        "fileSize": 53707689
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1058.exr": {
+        "fileSize": 131992557
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1066.exr": {
+        "fileSize": 184923602
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_Displacement.exr": {
+        "fileSize": 168340096
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1055.exr": {
+        "fileSize": 394352143
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1123.exr": {
+        "fileSize": 105267321
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1041.exr": {
+        "fileSize": 63489
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1067.exr": {
+        "fileSize": 53709519
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1059.exr": {
+        "fileSize": 131991032
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_Displacement.jpg": {
+        "fileSize": 6287119
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1067.exr": {
+        "fileSize": 184922220
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1124.exr": {
+        "fileSize": 105266944
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1042.exr": {
+        "fileSize": 63506
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1056.exr": {
+        "fileSize": 394366480
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1068.exr": {
+        "fileSize": 53712555
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_Normal.jpg": {
+        "fileSize": 48268008
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1068.exr": {
+        "fileSize": 184927523
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1060.exr": {
+        "fileSize": 131990738
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1043.exr": {
+        "fileSize": 63538
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1125.exr": {
+        "fileSize": 105266040
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1057.exr": {
+        "fileSize": 394361237
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1061.exr": {
+        "fileSize": 131991345
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1069.exr": {
+        "fileSize": 53708553
+    },
+    "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_Roughness.jpg": {
+        "fileSize": 19454458
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1069.exr": {
+        "fileSize": 184918130
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1126.exr": {
+        "fileSize": 105264385
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1044.exr": {
+        "fileSize": 63406
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1058.exr": {
+        "fileSize": 394365835
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1070.exr": {
+        "fileSize": 184928324
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1070.exr": {
+        "fileSize": 53709312
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1127.exr": {
+        "fileSize": 105265490
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1062.exr": {
+        "fileSize": 131992484
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1045.exr": {
+        "fileSize": 63032
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1059.exr": {
+        "fileSize": 394370849
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr": {
+        "fileSize": 184933541
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1071.exr": {
+        "fileSize": 53707800
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1128.exr": {
+        "fileSize": 105263463
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1060.exr": {
+        "fileSize": 394367970
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1063.exr": {
+        "fileSize": 131992985
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1046.exr": {
+        "fileSize": 63502
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1072.exr": {
+        "fileSize": 184931981
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1072.exr": {
+        "fileSize": 53711350
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1061.exr": {
+        "fileSize": 394375251
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1129.exr": {
+        "fileSize": 105263560
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1064.exr": {
+        "fileSize": 131999253
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1047.exr": {
+        "fileSize": 63165
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1073.exr": {
+        "fileSize": 184927794
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1073.exr": {
+        "fileSize": 53710901
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1130.exr": {
+        "fileSize": 105261101
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1062.exr": {
+        "fileSize": 394380292
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1065.exr": {
+        "fileSize": 131991624
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1048.exr": {
+        "fileSize": 63356
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1074.exr": {
+        "fileSize": 184925029
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1074.exr": {
+        "fileSize": 53708345
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1063.exr": {
+        "fileSize": 394376707
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1131.exr": {
+        "fileSize": 105261341
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1066.exr": {
+        "fileSize": 131994181
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1049.exr": {
+        "fileSize": 63413
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1075.exr": {
+        "fileSize": 184922401
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1075.exr": {
+        "fileSize": 53711684
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1064.exr": {
+        "fileSize": 394392178
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1067.exr": {
+        "fileSize": 131994623
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1132.exr": {
+        "fileSize": 105260317
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1050.exr": {
+        "fileSize": 62811
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1076.exr": {
+        "fileSize": 184919897
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1076.exr": {
+        "fileSize": 53710443
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1065.exr": {
+        "fileSize": 394379370
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1068.exr": {
+        "fileSize": 131987738
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1051.exr": {
+        "fileSize": 63061
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1133.exr": {
+        "fileSize": 105263100
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1077.exr": {
+        "fileSize": 184927449
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1066.exr": {
+        "fileSize": 394386380
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1069.exr": {
+        "fileSize": 131987840
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1077.exr": {
+        "fileSize": 53705067
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1052.exr": {
+        "fileSize": 63141
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1134.exr": {
+        "fileSize": 105261953
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1078.exr": {
+        "fileSize": 184918030
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1070.exr": {
+        "fileSize": 131984068
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1067.exr": {
+        "fileSize": 394384206
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1079.exr": {
+        "fileSize": 184910588
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1078.exr": {
+        "fileSize": 53709544
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1135.exr": {
+        "fileSize": 105261988
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1053.exr": {
+        "fileSize": 62978
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1071.exr": {
+        "fileSize": 131989035
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1081.exr": {
+        "fileSize": 184907884
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1068.exr": {
+        "fileSize": 394388214
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1054.exr": {
+        "fileSize": 63063
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1079.exr": {
+        "fileSize": 53709150
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1136.exr": {
+        "fileSize": 105262630
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1082.exr": {
+        "fileSize": 184903508
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1072.exr": {
+        "fileSize": 131985756
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1069.exr": {
+        "fileSize": 394375594
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1081.exr": {
+        "fileSize": 53706409
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1137.exr": {
+        "fileSize": 105260762
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1055.exr": {
+        "fileSize": 63171
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1083.exr": {
+        "fileSize": 184894450
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1073.exr": {
+        "fileSize": 131987394
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1070.exr": {
+        "fileSize": 394381926
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1082.exr": {
+        "fileSize": 53704808
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1056.exr": {
+        "fileSize": 63053
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1138.exr": {
+        "fileSize": 105267302
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1084.exr": {
+        "fileSize": 184891632
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1074.exr": {
+        "fileSize": 131976669
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1071.exr": {
+        "fileSize": 394399411
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1083.exr": {
+        "fileSize": 53707302
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1139.exr": {
+        "fileSize": 105262364
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1057.exr": {
+        "fileSize": 62989
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1075.exr": {
+        "fileSize": 131977439
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1085.exr": {
+        "fileSize": 184881226
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1072.exr": {
+        "fileSize": 394394478
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1084.exr": {
+        "fileSize": 53703644
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1140.exr": {
+        "fileSize": 105260378
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1058.exr": {
+        "fileSize": 63147
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1073.exr": {
+        "fileSize": 394391744
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1076.exr": {
+        "fileSize": 131978939
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1086.exr": {
+        "fileSize": 184876209
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1085.exr": {
+        "fileSize": 53705547
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1141.exr": {
+        "fileSize": 105264792
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1059.exr": {
+        "fileSize": 63086
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1074.exr": {
+        "fileSize": 394372361
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1077.exr": {
+        "fileSize": 131983458
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1142.exr": {
+        "fileSize": 105257966
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1087.exr": {
+        "fileSize": 184868016
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1086.exr": {
+        "fileSize": 53700898
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1060.exr": {
+        "fileSize": 63063
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1075.exr": {
+        "fileSize": 394372155
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1078.exr": {
+        "fileSize": 131970222
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1143.exr": {
+        "fileSize": 105259341
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1088.exr": {
+        "fileSize": 184859564
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1087.exr": {
+        "fileSize": 53701856
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1061.exr": {
+        "fileSize": 62939
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1079.exr": {
+        "fileSize": 131962478
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1076.exr": {
+        "fileSize": 394370606
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1144.exr": {
+        "fileSize": 105260771
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1089.exr": {
+        "fileSize": 184865822
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1088.exr": {
+        "fileSize": 53703714
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1077.exr": {
+        "fileSize": 394373542
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1062.exr": {
+        "fileSize": 62992
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1081.exr": {
+        "fileSize": 131961796
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1090.exr": {
+        "fileSize": 184859814
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1145.exr": {
+        "fileSize": 105258776
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1089.exr": {
+        "fileSize": 53702304
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1063.exr": {
+        "fileSize": 62967
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1078.exr": {
+        "fileSize": 394354801
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1082.exr": {
+        "fileSize": 131956879
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1091.exr": {
+        "fileSize": 184852888
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1090.exr": {
+        "fileSize": 53695379
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1146.exr": {
+        "fileSize": 105259493
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1064.exr": {
+        "fileSize": 62993
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1079.exr": {
+        "fileSize": 394333400
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1083.exr": {
+        "fileSize": 131954307
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1092.exr": {
+        "fileSize": 184840130
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1147.exr": {
+        "fileSize": 105262343
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1091.exr": {
+        "fileSize": 53698649
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1065.exr": {
+        "fileSize": 63131
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1081.exr": {
+        "fileSize": 394326898
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1092.exr": {
+        "fileSize": 53700436
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1148.exr": {
+        "fileSize": 105258154
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1084.exr": {
+        "fileSize": 131950772
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1093.exr": {
+        "fileSize": 184852655
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1066.exr": {
+        "fileSize": 62917
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1082.exr": {
+        "fileSize": 394306757
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1094.exr": {
+        "fileSize": 184837726
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1085.exr": {
+        "fileSize": 131938281
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1093.exr": {
+        "fileSize": 53698545
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1149.exr": {
+        "fileSize": 105258804
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1083.exr": {
+        "fileSize": 394295649
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1067.exr": {
+        "fileSize": 62864
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1094.exr": {
+        "fileSize": 53698438
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1150.exr": {
+        "fileSize": 105260157
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1095.exr": {
+        "fileSize": 184840494
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1086.exr": {
+        "fileSize": 131927305
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1084.exr": {
+        "fileSize": 394279748
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1095.exr": {
+        "fileSize": 53699343
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1151.exr": {
+        "fileSize": 105260085
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1068.exr": {
+        "fileSize": 63102
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1087.exr": {
+        "fileSize": 131940291
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1096.exr": {
+        "fileSize": 184842919
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1085.exr": {
+        "fileSize": 394254953
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1152.exr": {
+        "fileSize": 105254242
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1096.exr": {
+        "fileSize": 53699462
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1069.exr": {
+        "fileSize": 62802
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1088.exr": {
+        "fileSize": 131929830
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1097.exr": {
+        "fileSize": 184847937
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1153.exr": {
+        "fileSize": 105256498
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1086.exr": {
+        "fileSize": 394234222
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1097.exr": {
+        "fileSize": 53698879
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1070.exr": {
+        "fileSize": 62976
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1089.exr": {
+        "fileSize": 131918408
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1098.exr": {
+        "fileSize": 184830584
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1154.exr": {
+        "fileSize": 105259828
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1087.exr": {
+        "fileSize": 394226762
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1098.exr": {
+        "fileSize": 53696020
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1090.exr": {
+        "fileSize": 131922893
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1071.exr": {
+        "fileSize": 62909
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1099.exr": {
+        "fileSize": 184840163
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1155.exr": {
+        "fileSize": 105257240
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1091.exr": {
+        "fileSize": 131915881
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1099.exr": {
+        "fileSize": 53699570
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1088.exr": {
+        "fileSize": 394216328
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1072.exr": {
+        "fileSize": 62950
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1156.exr": {
+        "fileSize": 105262119
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1100.exr": {
+        "fileSize": 184839861
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1092.exr": {
+        "fileSize": 131912676
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1100.exr": {
+        "fileSize": 53698093
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1157.exr": {
+        "fileSize": 105261017
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1089.exr": {
+        "fileSize": 394206818
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1073.exr": {
+        "fileSize": 63288
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1101.exr": {
+        "fileSize": 184838825
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1093.exr": {
+        "fileSize": 131904281
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1101.exr": {
+        "fileSize": 53699994
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1158.exr": {
+        "fileSize": 105263382
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1102.exr": {
+        "fileSize": 184838958
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1074.exr": {
+        "fileSize": 62763
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1090.exr": {
+        "fileSize": 394196856
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1094.exr": {
+        "fileSize": 131900976
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1102.exr": {
+        "fileSize": 53701227
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1075.exr": {
+        "fileSize": 62985
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1159.exr": {
+        "fileSize": 105262340
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1103.exr": {
+        "fileSize": 184840151
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1091.exr": {
+        "fileSize": 394178593
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1095.exr": {
+        "fileSize": 131893538
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1103.exr": {
+        "fileSize": 53700222
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1076.exr": {
+        "fileSize": 63111
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1160.exr": {
+        "fileSize": 105262828
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1092.exr": {
+        "fileSize": 394159912
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1104.exr": {
+        "fileSize": 184834707
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1096.exr": {
+        "fileSize": 131901073
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1104.exr": {
+        "fileSize": 53699852
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1077.exr": {
+        "fileSize": 63052
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1161.exr": {
+        "fileSize": 105261215
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1105.exr": {
+        "fileSize": 184846774
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1093.exr": {
+        "fileSize": 394156577
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1097.exr": {
+        "fileSize": 131884860
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1078.exr": {
+        "fileSize": 63471
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1105.exr": {
+        "fileSize": 53701900
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1162.exr": {
+        "fileSize": 105257750
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1094.exr": {
+        "fileSize": 394141923
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1106.exr": {
+        "fileSize": 184833872
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1098.exr": {
+        "fileSize": 131879003
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1079.exr": {
+        "fileSize": 63333
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1163.exr": {
+        "fileSize": 105264132
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1106.exr": {
+        "fileSize": 53699781
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1107.exr": {
+        "fileSize": 184835722
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1095.exr": {
+        "fileSize": 394135566
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1099.exr": {
+        "fileSize": 131883609
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1164.exr": {
+        "fileSize": 105263952
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1081.exr": {
+        "fileSize": 63289
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1107.exr": {
+        "fileSize": 53702602
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1108.exr": {
+        "fileSize": 184847449
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1096.exr": {
+        "fileSize": 394143339
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1165.exr": {
+        "fileSize": 105262004
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1100.exr": {
+        "fileSize": 131878502
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1108.exr": {
+        "fileSize": 53704435
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1082.exr": {
+        "fileSize": 63106
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1109.exr": {
+        "fileSize": 184839719
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1097.exr": {
+        "fileSize": 394134390
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1166.exr": {
+        "fileSize": 105253212
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1101.exr": {
+        "fileSize": 131870418
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1110.exr": {
+        "fileSize": 184841304
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1083.exr": {
+        "fileSize": 63263
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1109.exr": {
+        "fileSize": 53702694
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1098.exr": {
+        "fileSize": 394107450
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1167.exr": {
+        "fileSize": 105263649
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1111.exr": {
+        "fileSize": 184836745
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1102.exr": {
+        "fileSize": 131866693
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1084.exr": {
+        "fileSize": 63481
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1110.exr": {
+        "fileSize": 53701981
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1099.exr": {
+        "fileSize": 394125126
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1168.exr": {
+        "fileSize": 105257898
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1112.exr": {
+        "fileSize": 184837694
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1103.exr": {
+        "fileSize": 131869081
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1085.exr": {
+        "fileSize": 63321
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1111.exr": {
+        "fileSize": 53702171
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1113.exr": {
+        "fileSize": 184839618
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1100.exr": {
+        "fileSize": 394116435
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1169.exr": {
+        "fileSize": 105253753
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1104.exr": {
+        "fileSize": 131864919
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1086.exr": {
+        "fileSize": 63263
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1114.exr": {
+        "fileSize": 184842075
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1112.exr": {
+        "fileSize": 53700476
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1101.exr": {
+        "fileSize": 394110626
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1105.exr": {
+        "fileSize": 131869052
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1170.exr": {
+        "fileSize": 105256210
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1087.exr": {
+        "fileSize": 63492
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1115.exr": {
+        "fileSize": 184839179
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1113.exr": {
+        "fileSize": 53704968
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1106.exr": {
+        "fileSize": 131859007
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1171.exr": {
+        "fileSize": 105255196
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1088.exr": {
+        "fileSize": 63556
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1102.exr": {
+        "fileSize": 394110598
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1116.exr": {
+        "fileSize": 184833375
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1114.exr": {
+        "fileSize": 53703961
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1107.exr": {
+        "fileSize": 131858141
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1172.exr": {
+        "fileSize": 105256297
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1117.exr": {
+        "fileSize": 184838985
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1103.exr": {
+        "fileSize": 394111233
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1089.exr": {
+        "fileSize": 63600
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1115.exr": {
+        "fileSize": 53704036
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1108.exr": {
+        "fileSize": 131856449
+    },
+    "d:/trash/test_denoise\\sq0010_render_publish_RL_env_beauty.1173.exr": {
+        "fileSize": 105262445
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1118.exr": {
+        "fileSize": 184837679
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1104.exr": {
+        "fileSize": 394101928
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1090.exr": {
+        "fileSize": 63665
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1116.exr": {
+        "fileSize": 53703053
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1109.exr": {
+        "fileSize": 131850413
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1105.exr": {
+        "fileSize": 394127254
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1119.exr": {
+        "fileSize": 184848721
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1117.exr": {
+        "fileSize": 53704892
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1110.exr": {
+        "fileSize": 131848837
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1091.exr": {
+        "fileSize": 63489
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1106.exr": {
+        "fileSize": 394094943
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1120.exr": {
+        "fileSize": 184836005
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1111.exr": {
+        "fileSize": 131844601
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1107.exr": {
+        "fileSize": 394102578
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1118.exr": {
+        "fileSize": 53701933
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1092.exr": {
+        "fileSize": 63021
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1121.exr": {
+        "fileSize": 184838345
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1093.exr": {
+        "fileSize": 63268
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1119.exr": {
+        "fileSize": 53703787
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1112.exr": {
+        "fileSize": 131839935
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1108.exr": {
+        "fileSize": 394119561
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1122.exr": {
+        "fileSize": 184843065
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1094.exr": {
+        "fileSize": 63397
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1120.exr": {
+        "fileSize": 53702486
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1109.exr": {
+        "fileSize": 394095603
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1113.exr": {
+        "fileSize": 131841953
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1123.exr": {
+        "fileSize": 184845088
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1121.exr": {
+        "fileSize": 53703649
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1095.exr": {
+        "fileSize": 63529
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1110.exr": {
+        "fileSize": 394103858
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1114.exr": {
+        "fileSize": 131841421
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1124.exr": {
+        "fileSize": 184843881
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1111.exr": {
+        "fileSize": 394090575
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1115.exr": {
+        "fileSize": 131836308
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1096.exr": {
+        "fileSize": 63609
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1122.exr": {
+        "fileSize": 53700475
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1125.exr": {
+        "fileSize": 184833712
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1112.exr": {
+        "fileSize": 394082187
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1097.exr": {
+        "fileSize": 63714
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1123.exr": {
+        "fileSize": 53703280
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1116.exr": {
+        "fileSize": 131830162
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1126.exr": {
+        "fileSize": 184833692
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1113.exr": {
+        "fileSize": 394086454
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1098.exr": {
+        "fileSize": 63808
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1124.exr": {
+        "fileSize": 53701075
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1117.exr": {
+        "fileSize": 131839492
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1127.exr": {
+        "fileSize": 184830185
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1114.exr": {
+        "fileSize": 394091338
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1099.exr": {
+        "fileSize": 63635
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1125.exr": {
+        "fileSize": 53700437
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1128.exr": {
+        "fileSize": 184835229
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1118.exr": {
+        "fileSize": 131841424
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1115.exr": {
+        "fileSize": 394087383
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1126.exr": {
+        "fileSize": 53700488
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1100.exr": {
+        "fileSize": 63654
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1129.exr": {
+        "fileSize": 184833131
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1119.exr": {
+        "fileSize": 131833996
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1116.exr": {
+        "fileSize": 394073630
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1127.exr": {
+        "fileSize": 53698653
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1130.exr": {
+        "fileSize": 184827974
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1101.exr": {
+        "fileSize": 63508
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1120.exr": {
+        "fileSize": 131838060
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1128.exr": {
+        "fileSize": 53698990
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1117.exr": {
+        "fileSize": 394092018
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1131.exr": {
+        "fileSize": 184828273
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1102.exr": {
+        "fileSize": 63740
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1121.exr": {
+        "fileSize": 131836752
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1129.exr": {
+        "fileSize": 53699424
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1118.exr": {
+        "fileSize": 394084641
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1103.exr": {
+        "fileSize": 63612
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1132.exr": {
+        "fileSize": 184834095
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1122.exr": {
+        "fileSize": 131833668
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1130.exr": {
+        "fileSize": 53699103
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1119.exr": {
+        "fileSize": 394093198
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1133.exr": {
+        "fileSize": 184828427
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1104.exr": {
+        "fileSize": 63709
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1123.exr": {
+        "fileSize": 131834873
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1120.exr": {
+        "fileSize": 394078570
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1131.exr": {
+        "fileSize": 53695292
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1134.exr": {
+        "fileSize": 184828814
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1105.exr": {
+        "fileSize": 63752
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1124.exr": {
+        "fileSize": 131831696
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1121.exr": {
+        "fileSize": 394082765
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1132.exr": {
+        "fileSize": 53697748
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1135.exr": {
+        "fileSize": 184824833
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1106.exr": {
+        "fileSize": 63700
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1133.exr": {
+        "fileSize": 53698744
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1125.exr": {
+        "fileSize": 131831709
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1122.exr": {
+        "fileSize": 394079180
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1136.exr": {
+        "fileSize": 184832738
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1134.exr": {
+        "fileSize": 53698669
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1107.exr": {
+        "fileSize": 63773
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1126.exr": {
+        "fileSize": 131828280
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1123.exr": {
+        "fileSize": 394084266
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1135.exr": {
+        "fileSize": 53698304
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1137.exr": {
+        "fileSize": 184829873
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1108.exr": {
+        "fileSize": 64207
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1127.exr": {
+        "fileSize": 131834191
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1124.exr": {
+        "fileSize": 394076438
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1136.exr": {
+        "fileSize": 53699697
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1109.exr": {
+        "fileSize": 63844
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1138.exr": {
+        "fileSize": 184829731
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1128.exr": {
+        "fileSize": 131827130
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1125.exr": {
+        "fileSize": 394067165
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1110.exr": {
+        "fileSize": 64101
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1137.exr": {
+        "fileSize": 53697030
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1139.exr": {
+        "fileSize": 184827718
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1126.exr": {
+        "fileSize": 394057355
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1129.exr": {
+        "fileSize": 131823746
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1111.exr": {
+        "fileSize": 64066
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1138.exr": {
+        "fileSize": 53700679
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1127.exr": {
+        "fileSize": 394059522
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1140.exr": {
+        "fileSize": 184821087
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1130.exr": {
+        "fileSize": 131823521
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1112.exr": {
+        "fileSize": 64261
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1139.exr": {
+        "fileSize": 53702284
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1128.exr": {
+        "fileSize": 394056326
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1141.exr": {
+        "fileSize": 184822869
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1113.exr": {
+        "fileSize": 64216
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1131.exr": {
+        "fileSize": 131827028
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1140.exr": {
+        "fileSize": 53699820
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1142.exr": {
+        "fileSize": 184821056
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1129.exr": {
+        "fileSize": 394054239
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1132.exr": {
+        "fileSize": 131825794
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1114.exr": {
+        "fileSize": 64291
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1141.exr": {
+        "fileSize": 53701119
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1143.exr": {
+        "fileSize": 184819414
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1130.exr": {
+        "fileSize": 394043946
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1133.exr": {
+        "fileSize": 131826277
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1142.exr": {
+        "fileSize": 53699786
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1144.exr": {
+        "fileSize": 184814478
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1115.exr": {
+        "fileSize": 64438
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1131.exr": {
+        "fileSize": 394040885
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1143.exr": {
+        "fileSize": 53698509
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1134.exr": {
+        "fileSize": 131826671
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1145.exr": {
+        "fileSize": 184819193
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1116.exr": {
+        "fileSize": 64637
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1144.exr": {
+        "fileSize": 53697212
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1132.exr": {
+        "fileSize": 394047880
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1146.exr": {
+        "fileSize": 184818102
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1135.exr": {
+        "fileSize": 131816741
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1117.exr": {
+        "fileSize": 64091
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1133.exr": {
+        "fileSize": 394042530
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1145.exr": {
+        "fileSize": 53697142
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1136.exr": {
+        "fileSize": 131817436
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1147.exr": {
+        "fileSize": 184808516
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1118.exr": {
+        "fileSize": 64546
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1146.exr": {
+        "fileSize": 53695236
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1134.exr": {
+        "fileSize": 394037579
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1137.exr": {
+        "fileSize": 131824431
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1148.exr": {
+        "fileSize": 184813222
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1119.exr": {
+        "fileSize": 64597
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1147.exr": {
+        "fileSize": 53695203
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1135.exr": {
+        "fileSize": 394021157
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1149.exr": {
+        "fileSize": 184811164
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1138.exr": {
+        "fileSize": 131817720
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1120.exr": {
+        "fileSize": 64408
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1148.exr": {
+        "fileSize": 53693800
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1136.exr": {
+        "fileSize": 394033446
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1150.exr": {
+        "fileSize": 184803446
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1139.exr": {
+        "fileSize": 131818548
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1121.exr": {
+        "fileSize": 64508
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1149.exr": {
+        "fileSize": 53700001
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1137.exr": {
+        "fileSize": 394032619
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1151.exr": {
+        "fileSize": 184806649
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1140.exr": {
+        "fileSize": 131816977
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1122.exr": {
+        "fileSize": 64810
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1138.exr": {
+        "fileSize": 394029629
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1150.exr": {
+        "fileSize": 53697216
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1152.exr": {
+        "fileSize": 184813216
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1141.exr": {
+        "fileSize": 131819078
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1139.exr": {
+        "fileSize": 394025870
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1123.exr": {
+        "fileSize": 64722
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1151.exr": {
+        "fileSize": 53696759
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1142.exr": {
+        "fileSize": 131816364
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1153.exr": {
+        "fileSize": 184802497
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1124.exr": {
+        "fileSize": 65016
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1140.exr": {
+        "fileSize": 394016712
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1143.exr": {
+        "fileSize": 131816007
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1152.exr": {
+        "fileSize": 53693984
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1154.exr": {
+        "fileSize": 184804620
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1125.exr": {
+        "fileSize": 64905
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1141.exr": {
+        "fileSize": 394021398
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1144.exr": {
+        "fileSize": 131821495
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1153.exr": {
+        "fileSize": 53693361
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1155.exr": {
+        "fileSize": 184800893
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1126.exr": {
+        "fileSize": 64962
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1142.exr": {
+        "fileSize": 394014019
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1154.exr": {
+        "fileSize": 53694223
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1156.exr": {
+        "fileSize": 184803175
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1145.exr": {
+        "fileSize": 131817476
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1127.exr": {
+        "fileSize": 64627
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1146.exr": {
+        "fileSize": 131822914
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1155.exr": {
+        "fileSize": 53693256
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1143.exr": {
+        "fileSize": 394012430
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr": {
+        "fileSize": 184793359
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1147.exr": {
+        "fileSize": 131817636
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1128.exr": {
+        "fileSize": 64826
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1156.exr": {
+        "fileSize": 53692343
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1158.exr": {
+        "fileSize": 184803670
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1144.exr": {
+        "fileSize": 394010857
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1129.exr": {
+        "fileSize": 64837
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1148.exr": {
+        "fileSize": 131823463
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1157.exr": {
+        "fileSize": 53691162
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1145.exr": {
+        "fileSize": 394009836
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1159.exr": {
+        "fileSize": 184803321
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1149.exr": {
+        "fileSize": 131823511
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1146.exr": {
+        "fileSize": 394013343
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1130.exr": {
+        "fileSize": 64772
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1158.exr": {
+        "fileSize": 53691086
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1160.exr": {
+        "fileSize": 184797284
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1159.exr": {
+        "fileSize": 53690288
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1131.exr": {
+        "fileSize": 65290
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1150.exr": {
+        "fileSize": 131816773
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1147.exr": {
+        "fileSize": 393994756
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1161.exr": {
+        "fileSize": 184808018
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1160.exr": {
+        "fileSize": 53690868
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1132.exr": {
+        "fileSize": 64951
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1148.exr": {
+        "fileSize": 394004298
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1151.exr": {
+        "fileSize": 131823176
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1161.exr": {
+        "fileSize": 53691552
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1162.exr": {
+        "fileSize": 184803831
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1133.exr": {
+        "fileSize": 65367
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1149.exr": {
+        "fileSize": 394008112
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1152.exr": {
+        "fileSize": 131821059
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1162.exr": {
+        "fileSize": 53692345
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1163.exr": {
+        "fileSize": 184811857
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1134.exr": {
+        "fileSize": 65191
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1150.exr": {
+        "fileSize": 393990475
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1153.exr": {
+        "fileSize": 131833528
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1164.exr": {
+        "fileSize": 184807604
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1163.exr": {
+        "fileSize": 53691915
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1135.exr": {
+        "fileSize": 65207
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1151.exr": {
+        "fileSize": 393997173
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1154.exr": {
+        "fileSize": 131829204
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1164.exr": {
+        "fileSize": 53694583
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1165.exr": {
+        "fileSize": 184808197
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1136.exr": {
+        "fileSize": 64909
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1152.exr": {
+        "fileSize": 393994505
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1155.exr": {
+        "fileSize": 131831623
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1166.exr": {
+        "fileSize": 184804923
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1137.exr": {
+        "fileSize": 64572
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1153.exr": {
+        "fileSize": 394000247
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1165.exr": {
+        "fileSize": 53692788
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1156.exr": {
+        "fileSize": 131824265
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1167.exr": {
+        "fileSize": 184799801
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1166.exr": {
+        "fileSize": 53692093
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1154.exr": {
+        "fileSize": 394000493
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1138.exr": {
+        "fileSize": 64928
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1157.exr": {
+        "fileSize": 131829650
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1168.exr": {
+        "fileSize": 184807101
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1155.exr": {
+        "fileSize": 393991207
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1167.exr": {
+        "fileSize": 53694735
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1139.exr": {
+        "fileSize": 65112
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1158.exr": {
+        "fileSize": 131831959
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1169.exr": {
+        "fileSize": 184810693
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1156.exr": {
+        "fileSize": 393988000
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1168.exr": {
+        "fileSize": 53697461
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1140.exr": {
+        "fileSize": 65337
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1159.exr": {
+        "fileSize": 131827874
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1170.exr": {
+        "fileSize": 184806452
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1141.exr": {
+        "fileSize": 65627
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1169.exr": {
+        "fileSize": 53694862
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1157.exr": {
+        "fileSize": 393976942
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1171.exr": {
+        "fileSize": 184822195
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1142.exr": {
+        "fileSize": 65111
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1170.exr": {
+        "fileSize": 53697669
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1160.exr": {
+        "fileSize": 131820454
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1158.exr": {
+        "fileSize": 393991824
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1172.exr": {
+        "fileSize": 184820476
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1143.exr": {
+        "fileSize": 65442
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1171.exr": {
+        "fileSize": 53697569
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1159.exr": {
+        "fileSize": 393989021
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1161.exr": {
+        "fileSize": 131822496
+    },
+    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1173.exr": {
+        "fileSize": 184819988
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1144.exr": {
+        "fileSize": 65287
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1160.exr": {
+        "fileSize": 393974007
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1162.exr": {
+        "fileSize": 131815650
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1172.exr": {
+        "fileSize": 53699188
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1145.exr": {
+        "fileSize": 65289
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1163.exr": {
+        "fileSize": 131820709
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1161.exr": {
+        "fileSize": 393986294
+    },
+    "d:/trash/test_denoise\\aux-albedo\\sq0010_render_publish_RL_env_beauty.1173.exr": {
+        "fileSize": 53699038
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1146.exr": {
+        "fileSize": 65456
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1164.exr": {
+        "fileSize": 131816974
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1162.exr": {
+        "fileSize": 393971790
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1147.exr": {
+        "fileSize": 65581
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1165.exr": {
+        "fileSize": 131811333
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1163.exr": {
+        "fileSize": 393988398
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1148.exr": {
+        "fileSize": 65384
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1166.exr": {
+        "fileSize": 131812709
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1164.exr": {
+        "fileSize": 393982271
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1149.exr": {
+        "fileSize": 65574
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1167.exr": {
+        "fileSize": 131810327
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1165.exr": {
+        "fileSize": 393977678
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1150.exr": {
+        "fileSize": 65432
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1168.exr": {
+        "fileSize": 131801715
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1166.exr": {
+        "fileSize": 393972330
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1169.exr": {
+        "fileSize": 131793226
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1151.exr": {
+        "fileSize": 65348
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1167.exr": {
+        "fileSize": 393967550
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1170.exr": {
+        "fileSize": 131792468
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1152.exr": {
+        "fileSize": 65403
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1168.exr": {
+        "fileSize": 393971912
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1171.exr": {
+        "fileSize": 131788731
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1153.exr": {
+        "fileSize": 65611
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1169.exr": {
+        "fileSize": 393966195
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1172.exr": {
+        "fileSize": 131789812
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1170.exr": {
+        "fileSize": 393963848
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1154.exr": {
+        "fileSize": 66062
+    },
+    "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1173.exr": {
+        "fileSize": 131791127
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1171.exr": {
+        "fileSize": 393976398
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1155.exr": {
+        "fileSize": 66119
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1172.exr": {
+        "fileSize": 393979311
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1156.exr": {
+        "fileSize": 66043
+    },
+    "d:/trash/test_denoise\\Output_Combined_0\\Combined_sq0010_render_publish_RL_env_beauty.1173.exr": {
+        "fileSize": 393982099
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1157.exr": {
+        "fileSize": 66021
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1158.exr": {
+        "fileSize": 65896
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1159.exr": {
+        "fileSize": 66041
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1160.exr": {
+        "fileSize": 66159
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1161.exr": {
+        "fileSize": 65880
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1162.exr": {
+        "fileSize": 66280
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1163.exr": {
+        "fileSize": 66317
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1164.exr": {
+        "fileSize": 66457
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1165.exr": {
+        "fileSize": 66085
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1166.exr": {
+        "fileSize": 66157
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1167.exr": {
+        "fileSize": 66248
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1168.exr": {
+        "fileSize": 65885
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1169.exr": {
+        "fileSize": 65881
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1170.exr": {
+        "fileSize": 66288
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1171.exr": {
+        "fileSize": 65593
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1172.exr": {
+        "fileSize": 65645
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1173.exr": {
+        "fileSize": 65854
+    },
+    "d:/trash/test_denoise\\sequence_alpha_folder\\sq0010_render_publish_RL_env_beauty.1174.exr": {
+        "fileSize": 9125
     }
 }

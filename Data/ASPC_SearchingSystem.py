@@ -170,7 +170,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 ##############################################################################
 
 	@time_stamp
-	def get_data_init(self,root_folder, folder_queue):
+	def get_data_init(self,root_folder, folder_queue, settings):
 
 
 		self.display_notification_function("STARTING TO GET DATA FROM PROJECT\nReady to launch processes...")
@@ -225,11 +225,11 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					file_queue.put(folder)
 			self.display_message_function("Queue created")
 			"""
-			
+			number_of_process = int(settings["Manual"]["numberOfProcess"])
 			
 			for i in range(multiprocessing.cpu_count()):
 				try:
-					p = multiprocessing.Process(target=self.get_data_worker, args=(folder_queue,self.root_folder,))
+					p = multiprocessing.Process(target=self.get_data_worker, args=(folder_queue,self.root_folder, settings,))
 					#self.display_notification_function("Process created : %s"%p)
 					p.start()
 					
@@ -312,7 +312,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 
 
 
-	def get_data_worker(self, test_queue, root_folder):
+	def get_data_worker(self, test_queue, root_folder, settings):
 
 
 		while not test_queue.empty():
@@ -572,27 +572,28 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					#THIS IS THE FUCKING SPEED TEST TEST
 					self.speed_test_data = {}
 					
-					if os.path.isdir(self.temp_path)==False:
-						os.makedirs(self.temp_path, exist_ok=True)
-					thread_heavy = threading.Thread(target=self.worker_speed_test_function, args=("heavy",self.temp_path,heaviest_filename,), daemon=True)
-					thread_light = threading.Thread(target=self.worker_speed_test_function, args=("light",self.temp_path,lightest_filename,), daemon=True)
+					if settings["Manual"]["executeSpeedTest"]==True:
+						if os.path.isdir(self.temp_path)==False:
+							os.makedirs(self.temp_path, exist_ok=True)
+						thread_heavy = threading.Thread(target=self.worker_speed_test_function, args=("heavy",self.temp_path,heaviest_filename,), daemon=True)
+						thread_light = threading.Thread(target=self.worker_speed_test_function, args=("light",self.temp_path,lightest_filename,), daemon=True)
 
-					thread_heavy.start()
-					thread_light.start()
+						thread_heavy.start()
+						thread_light.start()
 
-					thread_heavy.join()
-					thread_light.join()
+						thread_heavy.join()
+						thread_light.join()
 
-					#get the content of the actual speed test delta classement
-					#self.project_speedtest_classement_heavy[self.speed_test_data["heavy"]["filename"]] = self.speed_test_data["heavy"]["speedTestDelta"]
-					
+						#get the content of the actual speed test delta classement
+						#self.project_speedtest_classement_heavy[self.speed_test_data["heavy"]["filename"]] = self.speed_test_data["heavy"]["speedTestDelta"]
+						
 
 
-					#get the list of keys and values
-					if self.speed_test_data["heavy"] != None:
-						position = bisect.bisect(self.project_speedtest_classement_heavy_size,self.speed_test_data["heavy"]["speedTestDelta"])
-						self.project_speedtest_classement_heavy_size.insert(position,self.speed_test_data["heavy"]["speedTestDelta"])
-						self.project_speedtest_classement_heavy_filename.insert(position, self.speed_test_data["heavy"]["filename"])
+						#get the list of keys and values
+						if self.speed_test_data["heavy"] != None:
+							position = bisect.bisect(self.project_speedtest_classement_heavy_size,self.speed_test_data["heavy"]["speedTestDelta"])
+							self.project_speedtest_classement_heavy_size.insert(position,self.speed_test_data["heavy"]["speedTestDelta"])
+							self.project_speedtest_classement_heavy_filename.insert(position, self.speed_test_data["heavy"]["filename"])
 
 
 

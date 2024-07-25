@@ -1,10 +1,11 @@
 {
     "Manual": {
-        "saveJson": false,
-        "executeSpeedTest": true,
+        "rootFolder": "d:/trash/",
+        "saveJson": true,
+        "executeSpeedTest": false,
         "speedTestThreshold": null,
         "numberOfProcessMode": "core",
-        "numberOfProcess": 16
+        "numberOfProcess": "4"
     },
     "Live": {}
 }
