@@ -56,6 +56,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		}
 
 
+		self.font_lobby = Figlet(font="ansi_shadow")
 		self.font_title = Figlet(font="delta_corps_priest_1")
 		#self.font_title = Figlet(font="bloody")
 		self.font_subtitle = Figlet(font="bubble")
@@ -66,6 +67,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		self.file_dictionnary = {}
 		self.folder_dictionnary = {}
 		self.current_lobby_filelist = []
+
+		self.folder_list = []
+		self.file_list = []
 
 
 
@@ -96,6 +100,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		with Horizontal(classes="main_horizontal_container"):
 
 			with Vertical(classes="main_leftcolumn"):
+
+
+
+				yield Label(self.font_lobby.renderText("ASPC"), id="label_title")
 				
 				#collapsible containing all the scan settings
 				#saved into a JSON Files
@@ -149,7 +157,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 							
 							with Vertical(classes="folder_column"):
-								self.folder_searchbar = Input(placeholder="Search for ...", type="text")
+								self.folder_searchbar = Input(placeholder="Search for ...", type="text", id="input_folder_searchbar")
 								yield self.folder_searchbar
 								with RadioSet(id="radio_folder_options"):
 									yield RadioButton("Sort by size")
@@ -221,6 +229,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 
+
+
+
+
 	def on_input_submitted(self, event:Input.Submitted) -> None:
 		manual = self.settings["Manual"]
 		#self.show_message_function("hello world")
@@ -232,6 +244,24 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		if event.input.id == "input_folder_path":
 			manual["rootFolder"] = self.query_one("#input_folder_path").value
 			self.save_settings_function()
+		
+
+		if event.input.id == "input_folder_searchbar":
+			searchbar_content = str(self.query_one("#input_folder_searchbar").value).lower()
+
+			self.optionlist_folder.clear_options()
+
+			if searchbar_content != "":
+				#update the folder list
+				result_folder_list = []
+				for folder in self.folder_list:
+					if searchbar_content in folder.lower():
+						result_folder_list.append(folder)
+				
+				self.optionlist_folder.add_options(result_folder_list)
+			else:
+				self.optionlist_folder.add_options(self.folder_list)
+
 
 
 

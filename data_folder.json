@@ -28,7 +28,7 @@
         "speedTest": {}
     },
     "d:/trash": {
-        "folderSize": 283657441966
+        "folderSize": 283657376320
     },
     "d:/trash/09_3d_animatique": {
         "folderSize": 2471093539,
@@ -111,22 +111,6 @@
                 ]
             ]
         },
-        "speedTest": {}
-    },
-    "d:/trash/aircon01": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/aircon01\\input",
-            "d:/trash/aircon01\\output"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/09_3d_animatique\\BL_proxy": {
@@ -230,6 +214,51 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
+    "d:/trash/aircon01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 2,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/aircon01\\input",
+            "d:/trash/aircon01\\output"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/aircon01\\input": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/aircon01\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 2,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/aircon01\\output\\substance_v001",
+            "d:/trash/aircon01\\output\\substance_v002"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
     "d:/trash/aircon02": {
         "folderSize": 661468734,
         "fileContainedSize": 661384228,
@@ -271,35 +300,6 @@
                 ]
             ]
         },
-        "speedTest": {}
-    },
-    "d:/trash/aircon01\\input": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/aircon01\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/aircon01\\output\\substance_v001",
-            "d:/trash/aircon01\\output\\substance_v002"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/ang": {
@@ -552,62 +552,6 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/trash/brickpourrob1\\7": {
-        "folderSize": 149604380,
-        "fileContainedSize": 149604380,
-        "subfoldersNumber": 0,
-        "filesNumber": 5,
-        "averageFileSize": 29920876.0,
-        "maxFileSize": [
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png",
-            94422734
-        ],
-        "minFileSize": [
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png",
-            6721179
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 9463805,
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": 94422734,
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": 6721179,
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 31710330,
-            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": 7286332
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
-                    9463805
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png",
-                    94422734
-                ]
-            ],
-            "2": [
-                [
-                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png",
-                    6721179
-                ]
-            ],
-            "3": [
-                [
-                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
-                    31710330
-                ]
-            ],
-            "4": [
-                [
-                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png",
-                    7286332
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/trash/bread\\input": {
         "folderSize": 808328318,
         "fileContainedSize": 808328318,
@@ -679,6 +623,62 @@
         },
         "speedTest": {}
     },
+    "d:/trash/brickpourrob1\\7": {
+        "folderSize": 149604380,
+        "fileContainedSize": 149604380,
+        "subfoldersNumber": 0,
+        "filesNumber": 5,
+        "averageFileSize": 29920876.0,
+        "maxFileSize": [
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png",
+            94422734
+        ],
+        "minFileSize": [
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png",
+            6721179
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png": 9463805,
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png": 94422734,
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png": 6721179,
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png": 31710330,
+            "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png": 7286332
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Ambient_occlusion_Utility - Raw.png",
+                    9463805
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Base_color_ACES - ACEScg.png",
+                    94422734
+                ]
+            ],
+            "2": [
+                [
+                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Height_Utility - Raw.png",
+                    6721179
+                ]
+            ],
+            "3": [
+                [
+                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Normal_DirectX_Utility - Raw.png",
+                    31710330
+                ]
+            ],
+            "4": [
+                [
+                    "d:/trash/brickpourrob1\\7\\PxrSurface1SG_Roughness_Utility - Raw.png",
+                    7286332
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/brickpourrob1\\output": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -702,37 +702,6 @@
         ],
         "fileList": {},
         "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/cables": {
-        "folderSize": 451994011,
-        "fileContainedSize": 437540222,
-        "subfoldersNumber": 2,
-        "filesNumber": 1,
-        "averageFileSize": 437540222.0,
-        "maxFileSize": [
-            "d:/trash/cables\\substance_Cables_project.spp",
-            437540222
-        ],
-        "minFileSize": [
-            "d:/trash/cables\\substance_Cables_project.spp",
-            437540222
-        ],
-        "subfolderList": [
-            "d:/trash/cables\\input",
-            "d:/trash/cables\\output"
-        ],
-        "fileList": {
-            "d:/trash/cables\\substance_Cables_project.spp": 437540222
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/cables\\substance_Cables_project.spp",
-                    437540222
-                ]
-            ]
-        },
         "speedTest": {}
     },
     "d:/trash/brush photoshop": {
@@ -861,6 +830,37 @@
         },
         "speedTest": {}
     },
+    "d:/trash/cables": {
+        "folderSize": 451994011,
+        "fileContainedSize": 437540222,
+        "subfoldersNumber": 2,
+        "filesNumber": 1,
+        "averageFileSize": 437540222.0,
+        "maxFileSize": [
+            "d:/trash/cables\\substance_Cables_project.spp",
+            437540222
+        ],
+        "minFileSize": [
+            "d:/trash/cables\\substance_Cables_project.spp",
+            437540222
+        ],
+        "subfolderList": [
+            "d:/trash/cables\\input",
+            "d:/trash/cables\\output"
+        ],
+        "fileList": {
+            "d:/trash/cables\\substance_Cables_project.spp": 437540222
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/cables\\substance_Cables_project.spp",
+                    437540222
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/cigaret": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -871,6 +871,24 @@
         "minFileSize": null,
         "subfolderList": [
             "d:/trash/cigaret\\output"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/cables\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 4,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/cables\\output\\substanceHigh_v001",
+            "d:/trash/cables\\output\\substanceHigh_v002",
+            "d:/trash/cables\\output\\substanceHigh_v003",
+            "d:/trash/cables\\output\\substanceLow_v001"
         ],
         "fileList": {},
         "fileBySimilarity": {},
@@ -902,24 +920,6 @@
                 ]
             ]
         },
-        "speedTest": {}
-    },
-    "d:/trash/cables\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 4,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/cables\\output\\substanceHigh_v001",
-            "d:/trash/cables\\output\\substanceHigh_v002",
-            "d:/trash/cables\\output\\substanceHigh_v003",
-            "d:/trash/cables\\output\\substanceLow_v001"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/cigaret\\output": {
@@ -1097,68 +1097,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/electricPipes\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 8,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/electricPipes\\output\\substance_machine01_v001",
-            "d:/trash/electricPipes\\output\\substance_machine01_v002",
-            "d:/trash/electricPipes\\output\\substance_machine01_v003",
-            "d:/trash/electricPipes\\output\\substance_machine02_v001",
-            "d:/trash/electricPipes\\output\\substance_machine02_v002",
-            "d:/trash/electricPipes\\output\\substance_pipes_v001",
-            "d:/trash/electricPipes\\output\\substance_pipes_v002",
-            "d:/trash/electricPipes\\output\\substance_pipes_v003"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/electricPipes\\input": {
-        "folderSize": 3007251,
-        "fileContainedSize": 3007251,
-        "subfoldersNumber": 0,
-        "filesNumber": 3,
-        "averageFileSize": 1002417.0,
-        "maxFileSize": [
-            "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd",
-            1499740
-        ],
-        "minFileSize": [
-            "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd",
-            600897
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd": 1499740,
-            "d:/trash/electricPipes\\input\\item_electricPipesMachine01_mod_publish.usd": 906614,
-            "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd": 600897
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd",
-                    1499740
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/electricPipes\\input\\item_electricPipesMachine01_mod_publish.usd",
-                    906614
-                ],
-                [
-                    "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd",
-                    600897
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/trash/gregWallBottom": {
         "folderSize": 13964976621,
         "fileContainedSize": 13962821048,
@@ -1233,6 +1171,68 @@
         },
         "speedTest": {}
     },
+    "d:/trash/electricPipes\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 8,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/electricPipes\\output\\substance_machine01_v001",
+            "d:/trash/electricPipes\\output\\substance_machine01_v002",
+            "d:/trash/electricPipes\\output\\substance_machine01_v003",
+            "d:/trash/electricPipes\\output\\substance_machine02_v001",
+            "d:/trash/electricPipes\\output\\substance_machine02_v002",
+            "d:/trash/electricPipes\\output\\substance_pipes_v001",
+            "d:/trash/electricPipes\\output\\substance_pipes_v002",
+            "d:/trash/electricPipes\\output\\substance_pipes_v003"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/electricPipes\\input": {
+        "folderSize": 3007251,
+        "fileContainedSize": 3007251,
+        "subfoldersNumber": 0,
+        "filesNumber": 3,
+        "averageFileSize": 1002417.0,
+        "maxFileSize": [
+            "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd",
+            1499740
+        ],
+        "minFileSize": [
+            "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd",
+            600897
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd": 1499740,
+            "d:/trash/electricPipes\\input\\item_electricPipesMachine01_mod_publish.usd": 906614,
+            "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd": 600897
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/electricPipes\\input\\item_electricPipePipes_mod_publish.usd",
+                    1499740
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/electricPipes\\input\\item_electricPipesMachine01_mod_publish.usd",
+                    906614
+                ],
+                [
+                    "d:/trash/electricPipes\\input\\item_electricPipesMachine02_mod_publish.usd",
+                    600897
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/haussmanWallMid": {
         "folderSize": 19005176903,
         "fileContainedSize": 18986087479,
@@ -1277,6 +1277,125 @@
                 [
                     "d:/trash/haussmanWallMid\\substance_hausmann_project_autosave_1.spp",
                     6318491689
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/gregWallBottom\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 18,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/gregWallBottom\\output\\substanceItems_v001",
+            "d:/trash/gregWallBottom\\output\\substanceItems_v002",
+            "d:/trash/gregWallBottom\\output\\substanceItems_v003",
+            "d:/trash/gregWallBottom\\output\\substanceItems_v004",
+            "d:/trash/gregWallBottom\\output\\substanceItems_v005",
+            "d:/trash/gregWallBottom\\output\\substanceItems_v006",
+            "d:/trash/gregWallBottom\\output\\substanceItems_v007",
+            "d:/trash/gregWallBottom\\output\\substanceRoof_v001",
+            "d:/trash/gregWallBottom\\output\\substance_mask_v001",
+            "d:/trash/gregWallBottom\\output\\substance_pipes_v001",
+            "d:/trash/gregWallBottom\\output\\substance_pipes_v002",
+            "d:/trash/gregWallBottom\\output\\substance_pipes_v003",
+            "d:/trash/gregWallBottom\\output\\substance_pipes_v004",
+            "d:/trash/gregWallBottom\\output\\substance_pipes_v005",
+            "d:/trash/gregWallBottom\\output\\substance_pipes_v006",
+            "d:/trash/gregWallBottom\\output\\substance_RoofMask_v001",
+            "d:/trash/gregWallBottom\\output\\substance_roof_v001",
+            "d:/trash/gregWallBottom\\output\\substance_roof_v002"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/gregWallBottom\\input": {
+        "folderSize": 2155573,
+        "fileContainedSize": 2155573,
+        "subfoldersNumber": 0,
+        "filesNumber": 4,
+        "averageFileSize": 538893.25,
+        "maxFileSize": [
+            "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd",
+            909626
+        ],
+        "minFileSize": [
+            "d:/trash/gregWallBottom\\input\\taule.usd",
+            165325
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/gregWallBottom\\input\\set_gregWallBottomPipes_mod_publish.usd": 367163,
+            "d:/trash/gregWallBottom\\input\\set_gregWallBottomWall_mod_publish.usd": 713459,
+            "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd": 909626,
+            "d:/trash/gregWallBottom\\input\\taule.usd": 165325
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/gregWallBottom\\input\\set_gregWallBottomPipes_mod_publish.usd",
+                    367163
+                ],
+                [
+                    "d:/trash/gregWallBottom\\input\\set_gregWallBottomWall_mod_publish.usd",
+                    713459
+                ],
+                [
+                    "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd",
+                    909626
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/gregWallBottom\\input\\taule.usd",
+                    165325
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/haussmanWallMid\\input": {
+        "folderSize": 19089424,
+        "fileContainedSize": 19089424,
+        "subfoldersNumber": 3,
+        "filesNumber": 3,
+        "averageFileSize": 6363141.333333333,
+        "maxFileSize": [
+            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj",
+            11643003
+        ],
+        "minFileSize": [
+            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl",
+            5411
+        ],
+        "subfolderList": [
+            "d:/trash/haussmanWallMid\\input\\concrete_cast in situ_xevkfgos",
+            "d:/trash/haussmanWallMid\\input\\concrete_dirty_vdxibhs",
+            "d:/trash/haussmanWallMid\\input\\plaster_fresh_ulelehncw"
+        ],
+        "fileList": {
+            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl": 5411,
+            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj": 11643003,
+            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.usd": 7441010
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl",
+                    5411
+                ],
+                [
+                    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj",
+                    11643003
+                ],
+                [
+                    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.usd",
+                    7441010
                 ]
             ]
         },
@@ -1330,120 +1449,54 @@
         },
         "speedTest": {}
     },
-    "d:/trash/gregWallBottom\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 18,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/gregWallBottom\\output\\substanceItems_v001",
-            "d:/trash/gregWallBottom\\output\\substanceItems_v002",
-            "d:/trash/gregWallBottom\\output\\substanceItems_v003",
-            "d:/trash/gregWallBottom\\output\\substanceItems_v004",
-            "d:/trash/gregWallBottom\\output\\substanceItems_v005",
-            "d:/trash/gregWallBottom\\output\\substanceItems_v006",
-            "d:/trash/gregWallBottom\\output\\substanceItems_v007",
-            "d:/trash/gregWallBottom\\output\\substanceRoof_v001",
-            "d:/trash/gregWallBottom\\output\\substance_mask_v001",
-            "d:/trash/gregWallBottom\\output\\substance_pipes_v001",
-            "d:/trash/gregWallBottom\\output\\substance_pipes_v002",
-            "d:/trash/gregWallBottom\\output\\substance_pipes_v003",
-            "d:/trash/gregWallBottom\\output\\substance_pipes_v004",
-            "d:/trash/gregWallBottom\\output\\substance_pipes_v005",
-            "d:/trash/gregWallBottom\\output\\substance_pipes_v006",
-            "d:/trash/gregWallBottom\\output\\substance_RoofMask_v001",
-            "d:/trash/gregWallBottom\\output\\substance_roof_v001",
-            "d:/trash/gregWallBottom\\output\\substance_roof_v002"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/haussmanWallMid\\input": {
-        "folderSize": 19089424,
-        "fileContainedSize": 19089424,
-        "subfoldersNumber": 3,
-        "filesNumber": 3,
-        "averageFileSize": 6363141.333333333,
+    "d:/trash/hotelWallMid": {
+        "folderSize": 16063370185,
+        "fileContainedSize": 16061374969,
+        "subfoldersNumber": 2,
+        "filesNumber": 5,
+        "averageFileSize": 3212274993.8,
         "maxFileSize": [
-            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj",
-            11643003
+            "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp",
+            4004955612
         ],
         "minFileSize": [
-            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl",
-            5411
+            "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp",
+            220323799
         ],
         "subfolderList": [
-            "d:/trash/haussmanWallMid\\input\\concrete_cast in situ_xevkfgos",
-            "d:/trash/haussmanWallMid\\input\\concrete_dirty_vdxibhs",
-            "d:/trash/haussmanWallMid\\input\\plaster_fresh_ulelehncw"
+            "d:/trash/hotelWallMid\\input",
+            "d:/trash/hotelWallMid\\output"
         ],
         "fileList": {
-            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl": 5411,
-            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj": 11643003,
-            "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.usd": 7441010
+            "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp": 4004955612,
+            "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp": 220323799,
+            "d:/trash/hotelWallMid\\substance_hotelWallMid_project.spp": 3945365186,
+            "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_0.spp": 3945365186,
+            "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_1.spp": 3945365186
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.mtl",
-                    5411
+                    "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp",
+                    4004955612
                 ],
                 [
-                    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.obj",
-                    11643003
+                    "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp",
+                    220323799
                 ],
                 [
-                    "d:/trash/haussmanWallMid\\input\\item_haussmanWallMid_mod_publish.usd",
-                    7441010
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/gregWallBottom\\input": {
-        "folderSize": 2155573,
-        "fileContainedSize": 2155573,
-        "subfoldersNumber": 0,
-        "filesNumber": 4,
-        "averageFileSize": 538893.25,
-        "maxFileSize": [
-            "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd",
-            909626
-        ],
-        "minFileSize": [
-            "d:/trash/gregWallBottom\\input\\taule.usd",
-            165325
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/trash/gregWallBottom\\input\\set_gregWallBottomPipes_mod_publish.usd": 367163,
-            "d:/trash/gregWallBottom\\input\\set_gregWallBottomWall_mod_publish.usd": 713459,
-            "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd": 909626,
-            "d:/trash/gregWallBottom\\input\\taule.usd": 165325
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/gregWallBottom\\input\\set_gregWallBottomPipes_mod_publish.usd",
-                    367163
-                ],
-                [
-                    "d:/trash/gregWallBottom\\input\\set_gregWallBottomWall_mod_publish.usd",
-                    713459
-                ],
-                [
-                    "d:/trash/gregWallBottom\\input\\set_gregWallBottom_mod_publish.usd",
-                    909626
+                    "d:/trash/hotelWallMid\\substance_hotelWallMid_project.spp",
+                    3945365186
                 ]
             ],
             "1": [
                 [
-                    "d:/trash/gregWallBottom\\input\\taule.usd",
-                    165325
+                    "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_0.spp",
+                    3945365186
+                ],
+                [
+                    "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_1.spp",
+                    3945365186
                 ]
             ]
         },
@@ -1513,143 +1566,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/hotelWallMid": {
-        "folderSize": 16063370185,
-        "fileContainedSize": 16061374969,
-        "subfoldersNumber": 2,
-        "filesNumber": 5,
-        "averageFileSize": 3212274993.8,
-        "maxFileSize": [
-            "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp",
-            4004955612
-        ],
-        "minFileSize": [
-            "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp",
-            220323799
-        ],
-        "subfolderList": [
-            "d:/trash/hotelWallMid\\input",
-            "d:/trash/hotelWallMid\\output"
-        ],
-        "fileList": {
-            "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp": 4004955612,
-            "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp": 220323799,
-            "d:/trash/hotelWallMid\\substance_hotelWallMid_project.spp": 3945365186,
-            "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_0.spp": 3945365186,
-            "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_1.spp": 3945365186
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/hotelWallMid\\substance_hotelWallMid2_project.spp",
-                    4004955612
-                ],
-                [
-                    "d:/trash/hotelWallMid\\substance_hotelWallMidMasks_project.spp",
-                    220323799
-                ],
-                [
-                    "d:/trash/hotelWallMid\\substance_hotelWallMid_project.spp",
-                    3945365186
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_0.spp",
-                    3945365186
-                ],
-                [
-                    "d:/trash/hotelWallMid\\substance_hotelWallMid_project_autosave_1.spp",
-                    3945365186
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/hotelSign\\OUTPUT": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/hotelSign\\OUTPUT\\substance_v001"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/hotelWallMid\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 5,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/hotelWallMid\\output\\substanceWall_v001",
-            "d:/trash/hotelWallMid\\output\\substance_v001",
-            "d:/trash/hotelWallMid\\output\\substance_v002",
-            "d:/trash/hotelWallMid\\output\\substance_v003",
-            "d:/trash/hotelWallMid\\output\\substance_v004"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/hotelWallMid\\input": {
-        "folderSize": 1995216,
-        "fileContainedSize": 1995216,
-        "subfoldersNumber": 0,
-        "filesNumber": 2,
-        "averageFileSize": 997608.0,
-        "maxFileSize": [
-            "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd",
-            1944537
-        ],
-        "minFileSize": [
-            "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd",
-            50679
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd": 1944537,
-            "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd": 50679
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd",
-                    1944537
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd",
-                    50679
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/mrcaca": {
-        "folderSize": 875443833,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/mrcaca\\substance"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/trash/indusPipes": {
         "folderSize": 5618850049,
         "fileContainedSize": 5618850049,
@@ -1712,6 +1628,75 @@
         },
         "speedTest": {}
     },
+    "d:/trash/hotelWallMid\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 5,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/hotelWallMid\\output\\substanceWall_v001",
+            "d:/trash/hotelWallMid\\output\\substance_v001",
+            "d:/trash/hotelWallMid\\output\\substance_v002",
+            "d:/trash/hotelWallMid\\output\\substance_v003",
+            "d:/trash/hotelWallMid\\output\\substance_v004"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/hotelSign\\OUTPUT": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/hotelSign\\OUTPUT\\substance_v001"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/hotelWallMid\\input": {
+        "folderSize": 1995216,
+        "fileContainedSize": 1995216,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 997608.0,
+        "maxFileSize": [
+            "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd",
+            1944537
+        ],
+        "minFileSize": [
+            "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd",
+            50679
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd": 1944537,
+            "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd": 50679
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/hotelWallMid\\input\\set_hotelWallMidElements_mod_publish.usd",
+                    1944537
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/hotelWallMid\\input\\set_hotelWallMidWall_mod_publish.usd",
+                    50679
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/indusPipes\\substance": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -1723,6 +1708,21 @@
         "subfolderList": [
             "d:/trash/indusPipes\\substance\\input",
             "d:/trash/indusPipes\\substance\\output"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/mrcaca": {
+        "folderSize": 875443833,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/mrcaca\\substance"
         ],
         "fileList": {},
         "fileBySimilarity": {},
@@ -1742,6 +1742,49 @@
         ],
         "fileList": {},
         "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/mrcaca\\substance": {
+        "folderSize": 875443833,
+        "fileContainedSize": 875443833,
+        "subfoldersNumber": 2,
+        "filesNumber": 3,
+        "averageFileSize": 291814611.0,
+        "maxFileSize": [
+            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp",
+            291814611
+        ],
+        "minFileSize": [
+            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp",
+            291814611
+        ],
+        "subfolderList": [
+            "d:/trash/mrcaca\\substance\\input",
+            "d:/trash/mrcaca\\substance\\output"
+        ],
+        "fileList": {
+            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp": 291814611,
+            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_0.spp": 291814611,
+            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_1.spp": 291814611
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp",
+                    291814611
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_0.spp",
+                    291814611
+                ],
+                [
+                    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_1.spp",
+                    291814611
+                ]
+            ]
+        },
         "speedTest": {}
     },
     "d:/trash/pavementEnd\\output": {
@@ -1783,49 +1826,6 @@
                 [
                     "d:/trash/pavementEnd\\input\\pavement.usd",
                     47133
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/mrcaca\\substance": {
-        "folderSize": 875443833,
-        "fileContainedSize": 875443833,
-        "subfoldersNumber": 2,
-        "filesNumber": 3,
-        "averageFileSize": 291814611.0,
-        "maxFileSize": [
-            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp",
-            291814611
-        ],
-        "minFileSize": [
-            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp",
-            291814611
-        ],
-        "subfolderList": [
-            "d:/trash/mrcaca\\substance\\input",
-            "d:/trash/mrcaca\\substance\\output"
-        ],
-        "fileList": {
-            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp": 291814611,
-            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_0.spp": 291814611,
-            "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_1.spp": 291814611
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001.spp",
-                    291814611
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_0.spp",
-                    291814611
-                ],
-                [
-                    "d:/trash/mrcaca\\substance\\substance_mrcaca_project_v001_autosave_1.spp",
-                    291814611
                 ]
             ]
         },
@@ -1897,6 +1897,98 @@
         },
         "speedTest": {}
     },
+    "d:/trash/pizza": {
+        "folderSize": 5570031945,
+        "fileContainedSize": 5223606385,
+        "subfoldersNumber": 3,
+        "filesNumber": 11,
+        "averageFileSize": 474873307.72727275,
+        "maxFileSize": [
+            "d:/trash/pizza\\substance_pizza2_project_autosave_0.spp",
+            1264342595
+        ],
+        "minFileSize": [
+            "d:/trash/pizza\\substance_pizza2_project.spp.painter_lock",
+            82
+        ],
+        "subfolderList": [
+            "d:/trash/pizza\\.mayaSwatches",
+            "d:/trash/pizza\\input",
+            "d:/trash/pizza\\output"
+        ],
+        "fileList": {
+            "d:/trash/pizza\\NewScene.pur": 1133911,
+            "d:/trash/pizza\\prop_pizza_mod_publish.ma": 3340587,
+            "d:/trash/pizza\\prop_pizza_mod_v001.ma": 3407777,
+            "d:/trash/pizza\\prop_pizza_mod_v002.ma": 3407777,
+            "d:/trash/pizza\\substance_pizza2_project.spp": 1264131747,
+            "d:/trash/pizza\\substance_pizza2_project.spp.painter_lock": 82,
+            "d:/trash/pizza\\substance_pizza2_project_autosave_0.spp": 1264342595,
+            "d:/trash/pizza\\substance_pizza2_project_autosave_1.spp": 1264342595,
+            "d:/trash/pizza\\substance_pizza_project.spp": 473166438,
+            "d:/trash/pizza\\substance_pizza_project_autosave_0.spp": 473166438,
+            "d:/trash/pizza\\substance_pizza_project_autosave_1.spp": 473166438
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/pizza\\NewScene.pur",
+                    1133911
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/pizza\\prop_pizza_mod_publish.ma",
+                    3340587
+                ]
+            ],
+            "2": [
+                [
+                    "d:/trash/pizza\\prop_pizza_mod_v001.ma",
+                    3407777
+                ],
+                [
+                    "d:/trash/pizza\\prop_pizza_mod_v002.ma",
+                    3407777
+                ]
+            ],
+            "3": [
+                [
+                    "d:/trash/pizza\\substance_pizza2_project.spp",
+                    1264131747
+                ],
+                [
+                    "d:/trash/pizza\\substance_pizza_project.spp",
+                    473166438
+                ]
+            ],
+            "4": [
+                [
+                    "d:/trash/pizza\\substance_pizza2_project.spp.painter_lock",
+                    82
+                ]
+            ],
+            "5": [
+                [
+                    "d:/trash/pizza\\substance_pizza2_project_autosave_0.spp",
+                    1264342595
+                ],
+                [
+                    "d:/trash/pizza\\substance_pizza2_project_autosave_1.spp",
+                    1264342595
+                ],
+                [
+                    "d:/trash/pizza\\substance_pizza_project_autosave_0.spp",
+                    473166438
+                ],
+                [
+                    "d:/trash/pizza\\substance_pizza_project_autosave_1.spp",
+                    473166438
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/pizza\\.mayaSwatches": {
         "folderSize": 65646,
         "fileContainedSize": 65646,
@@ -1924,9 +2016,6 @@
             ]
         },
         "speedTest": {}
-    },
-    "d:/trash/pizza": {
-        "folderSize": 346425560
     },
     "d:/trash/pizza\\output": {
         "folderSize": 0,
@@ -1957,21 +2046,6 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/trash/poster\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/poster\\output\\substance_v010"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/trash/raticide": {
         "folderSize": 65204,
         "fileContainedSize": 0,
@@ -1987,47 +2061,19 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/trash/rono": {
-        "folderSize": 2100379895,
-        "fileContainedSize": 2088144483,
-        "subfoldersNumber": 2,
-        "filesNumber": 3,
-        "averageFileSize": 696048161.0,
-        "maxFileSize": [
-            "d:/trash/rono\\substance_rono_project.spp",
-            696048161
-        ],
-        "minFileSize": [
-            "d:/trash/rono\\substance_rono_project.spp",
-            696048161
-        ],
+    "d:/trash/poster\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
         "subfolderList": [
-            "d:/trash/rono\\input",
-            "d:/trash/rono\\output"
+            "d:/trash/poster\\output\\substance_v010"
         ],
-        "fileList": {
-            "d:/trash/rono\\substance_rono_project.spp": 696048161,
-            "d:/trash/rono\\substance_rono_project_autosave_0.spp": 696048161,
-            "d:/trash/rono\\substance_rono_project_autosave_1.spp": 696048161
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/rono\\substance_rono_project.spp",
-                    696048161
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/rono\\substance_rono_project_autosave_0.spp",
-                    696048161
-                ],
-                [
-                    "d:/trash/rono\\substance_rono_project_autosave_1.spp",
-                    696048161
-                ]
-            ]
-        },
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/rat\\zdisplace_v001_rat": {
@@ -2069,6 +2115,51 @@
                 ],
                 [
                     "d:/trash/rat\\zdisplace_v001_rat\\ratrat_fur_v04-NM1002.tif",
+                    50331852
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/rat\\zdisplace_v002_rat": {
+        "folderSize": 173768647,
+        "fileContainedSize": 173768647,
+        "subfoldersNumber": 0,
+        "filesNumber": 4,
+        "averageFileSize": 43442161.75,
+        "maxFileSize": [
+            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif",
+            50331852
+        ],
+        "minFileSize": [
+            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr",
+            36216731
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr": 36216731,
+            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1002.exr": 36888212,
+            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif": 50331852,
+            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1002.tif": 50331852
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr",
+                    36216731
+                ],
+                [
+                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1002.exr",
+                    36888212
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif",
+                    50331852
+                ],
+                [
+                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1002.tif",
                     50331852
                 ]
             ]
@@ -2148,6 +2239,49 @@
         },
         "speedTest": {}
     },
+    "d:/trash/rono": {
+        "folderSize": 2100379895,
+        "fileContainedSize": 2088144483,
+        "subfoldersNumber": 2,
+        "filesNumber": 3,
+        "averageFileSize": 696048161.0,
+        "maxFileSize": [
+            "d:/trash/rono\\substance_rono_project.spp",
+            696048161
+        ],
+        "minFileSize": [
+            "d:/trash/rono\\substance_rono_project.spp",
+            696048161
+        ],
+        "subfolderList": [
+            "d:/trash/rono\\input",
+            "d:/trash/rono\\output"
+        ],
+        "fileList": {
+            "d:/trash/rono\\substance_rono_project.spp": 696048161,
+            "d:/trash/rono\\substance_rono_project_autosave_0.spp": 696048161,
+            "d:/trash/rono\\substance_rono_project_autosave_1.spp": 696048161
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/rono\\substance_rono_project.spp",
+                    696048161
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/rono\\substance_rono_project_autosave_0.spp",
+                    696048161
+                ],
+                [
+                    "d:/trash/rono\\substance_rono_project_autosave_1.spp",
+                    696048161
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/raticide\\input": {
         "folderSize": 65204,
         "fileContainedSize": 65204,
@@ -2176,46 +2310,43 @@
         },
         "speedTest": {}
     },
-    "d:/trash/rat\\zdisplace_v002_rat": {
-        "folderSize": 173768647,
-        "fileContainedSize": 173768647,
-        "subfoldersNumber": 0,
-        "filesNumber": 4,
-        "averageFileSize": 43442161.75,
+    "d:/trash/ronoCap": {
+        "folderSize": 1109767505,
+        "fileContainedSize": 1103505358,
+        "subfoldersNumber": 1,
+        "filesNumber": 3,
+        "averageFileSize": 367835119.3333333,
         "maxFileSize": [
-            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif",
-            50331852
+            "d:/trash/ronoCap\\substance_ronoCap_project.spp",
+            367835338
         ],
         "minFileSize": [
-            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr",
-            36216731
+            "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp",
+            367835010
         ],
-        "subfolderList": [],
+        "subfolderList": [
+            "d:/trash/ronoCap\\usd"
+        ],
         "fileList": {
-            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr": 36216731,
-            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1002.exr": 36888212,
-            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif": 50331852,
-            "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1002.tif": 50331852
+            "d:/trash/ronoCap\\substance_ronoCap_project.spp": 367835338,
+            "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp": 367835010,
+            "d:/trash/ronoCap\\substance_ronoCap_project_autosave_1.spp": 367835010
         },
         "fileBySimilarity": {
             "0": [
                 [
-                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1001.exr",
-                    36216731
-                ],
-                [
-                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-DM1002.exr",
-                    36888212
+                    "d:/trash/ronoCap\\substance_ronoCap_project.spp",
+                    367835338
                 ]
             ],
             "1": [
                 [
-                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1001.tif",
-                    50331852
+                    "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp",
+                    367835010
                 ],
                 [
-                    "d:/trash/rat\\zdisplace_v002_rat\\ratrat_fur_v06-NM1002.tif",
-                    50331852
+                    "d:/trash/ronoCap\\substance_ronoCap_project_autosave_1.spp",
+                    367835010
                 ]
             ]
         },
@@ -2359,48 +2490,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/ronoCap": {
-        "folderSize": 1109767505,
-        "fileContainedSize": 1103505358,
-        "subfoldersNumber": 1,
-        "filesNumber": 3,
-        "averageFileSize": 367835119.3333333,
-        "maxFileSize": [
-            "d:/trash/ronoCap\\substance_ronoCap_project.spp",
-            367835338
-        ],
-        "minFileSize": [
-            "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp",
-            367835010
-        ],
-        "subfolderList": [
-            "d:/trash/ronoCap\\usd"
-        ],
-        "fileList": {
-            "d:/trash/ronoCap\\substance_ronoCap_project.spp": 367835338,
-            "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp": 367835010,
-            "d:/trash/ronoCap\\substance_ronoCap_project_autosave_1.spp": 367835010
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/ronoCap\\substance_ronoCap_project.spp",
-                    367835338
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/ronoCap\\substance_ronoCap_project_autosave_0.spp",
-                    367835010
-                ],
-                [
-                    "d:/trash/ronoCap\\substance_ronoCap_project_autosave_1.spp",
-                    367835010
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/trash/rono\\input": {
         "folderSize": 12235412,
         "fileContainedSize": 12235412,
@@ -2503,63 +2592,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/ronoCap\\usd": {
-        "folderSize": 6262147,
-        "fileContainedSize": 6262147,
-        "subfoldersNumber": 7,
-        "filesNumber": 4,
-        "averageFileSize": 1565536.75,
-        "maxFileSize": [
-            "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif",
-            5916434
-        ],
-        "minFileSize": [
-            "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd",
-            270
-        ],
-        "subfolderList": [
-            "d:/trash/ronoCap\\usd\\substance_ronoCap_project_textures",
-            "d:/trash/ronoCap\\usd\\textures",
-            "d:/trash/ronoCap\\usd\\textures_v002",
-            "d:/trash/ronoCap\\usd\\textures_v003",
-            "d:/trash/ronoCap\\usd\\textures_v004",
-            "d:/trash/ronoCap\\usd\\textures_v005",
-            "d:/trash/ronoCap\\usd\\zdisplace_v001"
-        ],
-        "fileList": {
-            "d:/trash/ronoCap\\usd\\item_ronoCap_geometry.usd": 341783,
-            "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif": 5916434,
-            "d:/trash/ronoCap\\usd\\substance_ronoCap_project.material.usda": 3660,
-            "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd": 270
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/ronoCap\\usd\\item_ronoCap_geometry.usd",
-                    341783
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif",
-                    5916434
-                ]
-            ],
-            "2": [
-                [
-                    "d:/trash/ronoCap\\usd\\substance_ronoCap_project.material.usda",
-                    3660
-                ]
-            ],
-            "3": [
-                [
-                    "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd",
-                    270
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/trash/scan_pizza": {
         "folderSize": 18059952,
         "fileContainedSize": 18059952,
@@ -2653,6 +2685,63 @@
         ],
         "fileList": {},
         "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/ronoCap\\usd": {
+        "folderSize": 6262147,
+        "fileContainedSize": 6262147,
+        "subfoldersNumber": 7,
+        "filesNumber": 4,
+        "averageFileSize": 1565536.75,
+        "maxFileSize": [
+            "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif",
+            5916434
+        ],
+        "minFileSize": [
+            "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd",
+            270
+        ],
+        "subfolderList": [
+            "d:/trash/ronoCap\\usd\\substance_ronoCap_project_textures",
+            "d:/trash/ronoCap\\usd\\textures",
+            "d:/trash/ronoCap\\usd\\textures_v002",
+            "d:/trash/ronoCap\\usd\\textures_v003",
+            "d:/trash/ronoCap\\usd\\textures_v004",
+            "d:/trash/ronoCap\\usd\\textures_v005",
+            "d:/trash/ronoCap\\usd\\zdisplace_v001"
+        ],
+        "fileList": {
+            "d:/trash/ronoCap\\usd\\item_ronoCap_geometry.usd": 341783,
+            "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif": 5916434,
+            "d:/trash/ronoCap\\usd\\substance_ronoCap_project.material.usda": 3660,
+            "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd": 270
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/ronoCap\\usd\\item_ronoCap_geometry.usd",
+                    341783
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/ronoCap\\usd\\item_ronoCap_geometry_initialShadingGroup_DiffuseColor_ACES - ACEScg.1001.tif",
+                    5916434
+                ]
+            ],
+            "2": [
+                [
+                    "d:/trash/ronoCap\\usd\\substance_ronoCap_project.material.usda",
+                    3660
+                ]
+            ],
+            "3": [
+                [
+                    "d:/trash/ronoCap\\usd\\substance_ronoCap_project.usd",
+                    270
+                ]
+            ]
+        },
         "speedTest": {}
     },
     "d:/trash/seq0030_blockCam\\ruelleExt": {
@@ -2752,80 +2841,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/staCeilingLamp": {
-        "folderSize": 374331752,
-        "fileContainedSize": 374266680,
-        "subfoldersNumber": 2,
-        "filesNumber": 1,
-        "averageFileSize": 374266680.0,
-        "maxFileSize": [
-            "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp",
-            374266680
-        ],
-        "minFileSize": [
-            "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp",
-            374266680
-        ],
-        "subfolderList": [
-            "d:/trash/staCeilingLamp\\input",
-            "d:/trash/staCeilingLamp\\output"
-        ],
-        "fileList": {
-            "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp": 374266680
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp",
-                    374266680
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/staCamera\\input": {
-        "folderSize": 652481,
-        "fileContainedSize": 652481,
-        "subfoldersNumber": 1,
-        "filesNumber": 1,
-        "averageFileSize": 652481.0,
-        "maxFileSize": [
-            "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd",
-            652481
-        ],
-        "minFileSize": [
-            "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd",
-            652481
-        ],
-        "subfolderList": [
-            "d:/trash/staCamera\\input\\leather"
-        ],
-        "fileList": {
-            "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd": 652481
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd",
-                    652481
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/staCamera\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/trash/squat\\inputs": {
         "folderSize": 13550737,
         "fileContainedSize": 13550737,
@@ -2901,6 +2916,67 @@
         },
         "speedTest": {}
     },
+    "d:/trash/staCamera\\input": {
+        "folderSize": 652481,
+        "fileContainedSize": 652481,
+        "subfoldersNumber": 1,
+        "filesNumber": 1,
+        "averageFileSize": 652481.0,
+        "maxFileSize": [
+            "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd",
+            652481
+        ],
+        "minFileSize": [
+            "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd",
+            652481
+        ],
+        "subfolderList": [
+            "d:/trash/staCamera\\input\\leather"
+        ],
+        "fileList": {
+            "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd": 652481
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/staCamera\\input\\item_staCamera_mod_v001.usd",
+                    652481
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/staCeilingLamp": {
+        "folderSize": 374331752,
+        "fileContainedSize": 374266680,
+        "subfoldersNumber": 2,
+        "filesNumber": 1,
+        "averageFileSize": 374266680.0,
+        "maxFileSize": [
+            "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp",
+            374266680
+        ],
+        "minFileSize": [
+            "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp",
+            374266680
+        ],
+        "subfolderList": [
+            "d:/trash/staCeilingLamp\\input",
+            "d:/trash/staCeilingLamp\\output"
+        ],
+        "fileList": {
+            "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp": 374266680
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/staCeilingLamp\\substance_staCeilingLamp_project.spp",
+                    374266680
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/trash/staCeilingLamp\\input": {
         "folderSize": 65072,
         "fileContainedSize": 65072,
@@ -2927,6 +3003,19 @@
                 ]
             ]
         },
+        "speedTest": {}
+    },
+    "d:/trash/staCamera\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/staCeilingLamp\\output": {
@@ -3015,26 +3104,6 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/trash/stalker\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 3,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/stalker\\output\\substance_labbucket_v002",
-            "d:/trash/stalker\\output\\substance_labpresence_v001",
-            "d:/trash/stalker\\output\\substance_lab_v006"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/stalker": {
-        "folderSize": 2903893
-    },
     "d:/trash/staDesk\\input": {
         "folderSize": 3731905,
         "fileContainedSize": 3731905,
@@ -3077,36 +3146,25 @@
         },
         "speedTest": {}
     },
-    "d:/trash/stalkerSofa\\substance": {
-        "folderSize": 423405754,
-        "fileContainedSize": 423405754,
-        "subfoldersNumber": 2,
-        "filesNumber": 1,
-        "averageFileSize": 423405754.0,
-        "maxFileSize": [
-            "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp",
-            423405754
-        ],
-        "minFileSize": [
-            "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp",
-            423405754
-        ],
+    "d:/trash/stalker\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 3,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
         "subfolderList": [
-            "d:/trash/stalkerSofa\\substance\\input",
-            "d:/trash/stalkerSofa\\substance\\output"
+            "d:/trash/stalker\\output\\substance_labbucket_v002",
+            "d:/trash/stalker\\output\\substance_labpresence_v001",
+            "d:/trash/stalker\\output\\substance_lab_v006"
         ],
-        "fileList": {
-            "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp": 423405754
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp",
-                    423405754
-                ]
-            ]
-        },
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
+    },
+    "d:/trash/stalker": {
+        "folderSize": 2903893
     },
     "d:/trash/stalker\\input": {
         "folderSize": 2903893,
@@ -3152,6 +3210,37 @@
                 [
                     "d:/trash/stalker\\input\\stalker_lab_combined2.usd",
                     933559
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/stalkerSofa\\substance": {
+        "folderSize": 423405754,
+        "fileContainedSize": 423405754,
+        "subfoldersNumber": 2,
+        "filesNumber": 1,
+        "averageFileSize": 423405754.0,
+        "maxFileSize": [
+            "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp",
+            423405754
+        ],
+        "minFileSize": [
+            "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp",
+            423405754
+        ],
+        "subfolderList": [
+            "d:/trash/stalkerSofa\\substance\\input",
+            "d:/trash/stalkerSofa\\substance\\output"
+        ],
+        "fileList": {
+            "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp": 423405754
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/stalkerSofa\\substance\\substance_stalkersofa_project.spp",
+                    423405754
                 ]
             ]
         },
@@ -3237,49 +3326,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/trashOverturned": {
-        "folderSize": 1373278723,
-        "fileContainedSize": 1371069369,
-        "subfoldersNumber": 2,
-        "filesNumber": 3,
-        "averageFileSize": 457023123.0,
-        "maxFileSize": [
-            "d:/trash/trashOverturned\\substance_trashOverturned_project.spp",
-            457023123
-        ],
-        "minFileSize": [
-            "d:/trash/trashOverturned\\substance_trashOverturned_project.spp",
-            457023123
-        ],
-        "subfolderList": [
-            "d:/trash/trashOverturned\\input",
-            "d:/trash/trashOverturned\\output"
-        ],
-        "fileList": {
-            "d:/trash/trashOverturned\\substance_trashOverturned_project.spp": 457023123,
-            "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_0.spp": 457023123,
-            "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_1.spp": 457023123
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/trashOverturned\\substance_trashOverturned_project.spp",
-                    457023123
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_0.spp",
-                    457023123
-                ],
-                [
-                    "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_1.spp",
-                    457023123
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/trash/trashContent": {
         "folderSize": 4687265986,
         "fileContainedSize": 4679016014,
@@ -3326,22 +3372,6 @@
                 ]
             ]
         },
-        "speedTest": {}
-    },
-    "d:/trash/trashContent\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/trashContent\\output\\substance2_v001",
-            "d:/trash/trashContent\\output\\substance_v002"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/trashBag\\output": {
@@ -3401,6 +3431,123 @@
                 ]
             ]
         },
+        "speedTest": {}
+    },
+    "d:/trash/trashOverturned": {
+        "folderSize": 1373278723,
+        "fileContainedSize": 1371069369,
+        "subfoldersNumber": 2,
+        "filesNumber": 3,
+        "averageFileSize": 457023123.0,
+        "maxFileSize": [
+            "d:/trash/trashOverturned\\substance_trashOverturned_project.spp",
+            457023123
+        ],
+        "minFileSize": [
+            "d:/trash/trashOverturned\\substance_trashOverturned_project.spp",
+            457023123
+        ],
+        "subfolderList": [
+            "d:/trash/trashOverturned\\input",
+            "d:/trash/trashOverturned\\output"
+        ],
+        "fileList": {
+            "d:/trash/trashOverturned\\substance_trashOverturned_project.spp": 457023123,
+            "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_0.spp": 457023123,
+            "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_1.spp": 457023123
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/trashOverturned\\substance_trashOverturned_project.spp",
+                    457023123
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_0.spp",
+                    457023123
+                ],
+                [
+                    "d:/trash/trashOverturned\\substance_trashOverturned_project_autosave_1.spp",
+                    457023123
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/trashContent\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 2,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/trashContent\\output\\substance2_v001",
+            "d:/trash/trashContent\\output\\substance_v002"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/trash/trashOverturned\\input": {
+        "folderSize": 2209354,
+        "fileContainedSize": 2209354,
+        "subfoldersNumber": 0,
+        "filesNumber": 3,
+        "averageFileSize": 736451.3333333334,
+        "maxFileSize": [
+            "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd",
+            1612662
+        ],
+        "minFileSize": [
+            "d:/trash/trashOverturned\\input\\yolo.mtl",
+            427
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd": 1612662,
+            "d:/trash/trashOverturned\\input\\yolo.mtl": 427,
+            "d:/trash/trashOverturned\\input\\yolo.obj": 596265
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd",
+                    1612662
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/trashOverturned\\input\\yolo.mtl",
+                    427
+                ]
+            ],
+            "2": [
+                [
+                    "d:/trash/trashOverturned\\input\\yolo.obj",
+                    596265
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/trashOverturned\\output": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 2,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/trashOverturned\\output\\substance_v001",
+            "d:/trash/trashOverturned\\output\\substance_v002"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/trashContent\\input": {
@@ -3478,64 +3625,6 @@
         },
         "speedTest": {}
     },
-    "d:/trash/trashOverturned\\output": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 2,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/trashOverturned\\output\\substance_v001",
-            "d:/trash/trashOverturned\\output\\substance_v002"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/trash/trashOverturned\\input": {
-        "folderSize": 2209354,
-        "fileContainedSize": 2209354,
-        "subfoldersNumber": 0,
-        "filesNumber": 3,
-        "averageFileSize": 736451.3333333334,
-        "maxFileSize": [
-            "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd",
-            1612662
-        ],
-        "minFileSize": [
-            "d:/trash/trashOverturned\\input\\yolo.mtl",
-            427
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd": 1612662,
-            "d:/trash/trashOverturned\\input\\yolo.mtl": 427,
-            "d:/trash/trashOverturned\\input\\yolo.obj": 596265
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/trashOverturned\\input\\item_trashOverturned_mod_publish.usd",
-                    1612662
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/trashOverturned\\input\\yolo.mtl",
-                    427
-                ]
-            ],
-            "2": [
-                [
-                    "d:/trash/trashOverturned\\input\\yolo.obj",
-                    596265
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/trash/tvSign": {
         "folderSize": 428299325,
         "fileContainedSize": 427984001,
@@ -3580,7 +3669,7 @@
         "speedTest": {}
     },
     "d:/trash/_ressource_deco": {
-        "folderSize": 8138116,
+        "folderSize": 26759503,
         "fileContainedSize": 0,
         "subfoldersNumber": 3,
         "filesNumber": 0,
@@ -3694,6 +3783,23 @@
     "d:/trash/tv": {
         "folderSize": 5909497
     },
+    "d:/trash/__SUBSTANCE_TEXTURES": {
+        "folderSize": 5090374085,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 3,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms",
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms",
+            "d:/trash/__SUBSTANCE_TEXTURES\\data"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
     "d:/trash/_ressource_deco\\posters": {
         "folderSize": 592849,
         "fileContainedSize": 592849,
@@ -3737,23 +3843,6 @@
                 ]
             ]
         },
-        "speedTest": {}
-    },
-    "d:/trash/__SUBSTANCE_TEXTURES": {
-        "folderSize": 5090374085,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 3,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms",
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms",
-            "d:/trash/__SUBSTANCE_TEXTURES\\data"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/trash/tv\\input": {
@@ -4160,21 +4249,80 @@
         },
         "speedTest": {}
     },
-    "d:/trash/test_denoise\\aux-color": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
+    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms": {
+        "folderSize": 343587076,
+        "fileContainedSize": 343587076,
         "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
+        "filesNumber": 8,
+        "averageFileSize": 42948384.5,
+        "maxFileSize": [
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr",
+            167916878
+        ],
+        "minFileSize": [
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json",
+            42833
+        ],
         "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
+        "fileList": {
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\Concrete_Cast in situ_vdxicg2_surface_Preview.png": 909087,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json": 42833,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Albedo.jpg": 49765334,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_AO.jpg": 24609981,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr": 167916878,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.jpg": 6115434,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Normal.jpg": 51333429,
+            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Roughness.jpg": 42894100
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\Concrete_Cast in situ_vdxicg2_surface_Preview.png",
+                    909087
+                ]
+            ],
+            "1": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json",
+                    42833
+                ]
+            ],
+            "2": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Albedo.jpg",
+                    49765334
+                ]
+            ],
+            "3": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_AO.jpg",
+                    24609981
+                ]
+            ],
+            "4": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr",
+                    167916878
+                ],
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.jpg",
+                    6115434
+                ]
+            ],
+            "5": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Normal.jpg",
+                    51333429
+                ]
+            ],
+            "6": [
+                [
+                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Roughness.jpg",
+                    42894100
+                ]
+            ]
+        },
         "speedTest": {}
-    },
-    "d:/trash/test_denoise": {
-        "folderSize": 131531711459
     },
     "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Dirty_ugqiccps_8K_surface_ms": {
         "folderSize": 327751411,
@@ -4251,80 +4399,21 @@
         },
         "speedTest": {}
     },
-    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms": {
-        "folderSize": 343587076,
-        "fileContainedSize": 343587076,
+    "d:/trash/test_denoise\\aux-color": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
         "subfoldersNumber": 0,
-        "filesNumber": 8,
-        "averageFileSize": 42948384.5,
-        "maxFileSize": [
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr",
-            167916878
-        ],
-        "minFileSize": [
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json",
-            42833
-        ],
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
         "subfolderList": [],
-        "fileList": {
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\Concrete_Cast in situ_vdxicg2_surface_Preview.png": 909087,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json": 42833,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Albedo.jpg": 49765334,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_AO.jpg": 24609981,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr": 167916878,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.jpg": 6115434,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Normal.jpg": 51333429,
-            "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Roughness.jpg": 42894100
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\Concrete_Cast in situ_vdxicg2_surface_Preview.png",
-                    909087
-                ]
-            ],
-            "1": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2.json",
-                    42833
-                ]
-            ],
-            "2": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Albedo.jpg",
-                    49765334
-                ]
-            ],
-            "3": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_AO.jpg",
-                    24609981
-                ]
-            ],
-            "4": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.exr",
-                    167916878
-                ],
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Displacement.jpg",
-                    6115434
-                ]
-            ],
-            "5": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Normal.jpg",
-                    51333429
-                ]
-            ],
-            "6": [
-                [
-                    "d:/trash/__SUBSTANCE_TEXTURES\\Concrete_Castinsitu_vdxicg2_8K_surface_ms\\vdxicg2_8K_Roughness.jpg",
-                    42894100
-                ]
-            ]
-        },
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
+    },
+    "d:/trash/test_denoise": {
+        "folderSize": 131531711459
     },
     "d:/trash/surface_imperfection": {
         "folderSize": 2194152273,
@@ -5570,889 +5659,6 @@
                 [
                     "d:/trash/__SUBSTANCE_TEXTURES\\data\\xepmej1ga_8K_Roughness.jpg",
                     19454458
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/trash/test_denoise\\aux-diffuse": {
-        "folderSize": 31796054621,
-        "fileContainedSize": 31796054621,
-        "subfoldersNumber": 0,
-        "filesNumber": 172,
-        "averageFileSize": 184860782.68023255,
-        "maxFileSize": [
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr",
-            184933541
-        ],
-        "minFileSize": [
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr",
-            184793359
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1001.exr": 184863512,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1002.exr": 184865526,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1003.exr": 184864459,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1004.exr": 184862400,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1005.exr": 184864278,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1006.exr": 184872680,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1007.exr": 184860004,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1008.exr": 184863366,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1009.exr": 184861045,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1010.exr": 184868445,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1011.exr": 184862971,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1012.exr": 184863327,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1013.exr": 184869592,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1014.exr": 184871524,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1015.exr": 184869470,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1016.exr": 184868808,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1017.exr": 184865326,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1018.exr": 184865713,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1019.exr": 184868673,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1020.exr": 184872332,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1021.exr": 184870353,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1022.exr": 184868377,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1023.exr": 184873997,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1024.exr": 184878953,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1025.exr": 184880367,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1026.exr": 184878896,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1027.exr": 184876269,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1028.exr": 184874234,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1029.exr": 184878766,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1030.exr": 184874252,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1031.exr": 184876923,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1032.exr": 184883241,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1033.exr": 184882654,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1034.exr": 184892299,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1035.exr": 184880604,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1036.exr": 184890160,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1037.exr": 184887056,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1038.exr": 184887732,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1039.exr": 184890309,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1040.exr": 184894746,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1041.exr": 184895798,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1042.exr": 184901635,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1043.exr": 184899481,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1044.exr": 184899529,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1045.exr": 184909904,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1046.exr": 184906379,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1047.exr": 184902665,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1048.exr": 184900491,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1049.exr": 184901091,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1050.exr": 184908682,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1051.exr": 184908766,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1052.exr": 184911962,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1053.exr": 184911464,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1054.exr": 184915148,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1055.exr": 184910348,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1056.exr": 184912974,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1057.exr": 184916860,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1058.exr": 184919416,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1059.exr": 184922693,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1060.exr": 184918048,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1061.exr": 184923188,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1062.exr": 184927024,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1063.exr": 184922878,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1064.exr": 184925241,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1065.exr": 184920598,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1066.exr": 184923602,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1067.exr": 184922220,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1068.exr": 184927523,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1069.exr": 184918130,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1070.exr": 184928324,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr": 184933541,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1072.exr": 184931981,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1073.exr": 184927794,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1074.exr": 184925029,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1075.exr": 184922401,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1076.exr": 184919897,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1077.exr": 184927449,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1078.exr": 184918030,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1079.exr": 184910588,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1081.exr": 184907884,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1082.exr": 184903508,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1083.exr": 184894450,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1084.exr": 184891632,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1085.exr": 184881226,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1086.exr": 184876209,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1087.exr": 184868016,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1088.exr": 184859564,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1089.exr": 184865822,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1090.exr": 184859814,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1091.exr": 184852888,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1092.exr": 184840130,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1093.exr": 184852655,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1094.exr": 184837726,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1095.exr": 184840494,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1096.exr": 184842919,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1097.exr": 184847937,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1098.exr": 184830584,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1099.exr": 184840163,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1100.exr": 184839861,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1101.exr": 184838825,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1102.exr": 184838958,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1103.exr": 184840151,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1104.exr": 184834707,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1105.exr": 184846774,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1106.exr": 184833872,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1107.exr": 184835722,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1108.exr": 184847449,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1109.exr": 184839719,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1110.exr": 184841304,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1111.exr": 184836745,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1112.exr": 184837694,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1113.exr": 184839618,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1114.exr": 184842075,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1115.exr": 184839179,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1116.exr": 184833375,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1117.exr": 184838985,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1118.exr": 184837679,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1119.exr": 184848721,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1120.exr": 184836005,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1121.exr": 184838345,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1122.exr": 184843065,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1123.exr": 184845088,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1124.exr": 184843881,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1125.exr": 184833712,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1126.exr": 184833692,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1127.exr": 184830185,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1128.exr": 184835229,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1129.exr": 184833131,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1130.exr": 184827974,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1131.exr": 184828273,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1132.exr": 184834095,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1133.exr": 184828427,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1134.exr": 184828814,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1135.exr": 184824833,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1136.exr": 184832738,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1137.exr": 184829873,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1138.exr": 184829731,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1139.exr": 184827718,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1140.exr": 184821087,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1141.exr": 184822869,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1142.exr": 184821056,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1143.exr": 184819414,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1144.exr": 184814478,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1145.exr": 184819193,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1146.exr": 184818102,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1147.exr": 184808516,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1148.exr": 184813222,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1149.exr": 184811164,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1150.exr": 184803446,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1151.exr": 184806649,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1152.exr": 184813216,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1153.exr": 184802497,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1154.exr": 184804620,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1155.exr": 184800893,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1156.exr": 184803175,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr": 184793359,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1158.exr": 184803670,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1159.exr": 184803321,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1160.exr": 184797284,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1161.exr": 184808018,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1162.exr": 184803831,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1163.exr": 184811857,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1164.exr": 184807604,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1165.exr": 184808197,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1166.exr": 184804923,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1167.exr": 184799801,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1168.exr": 184807101,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1169.exr": 184810693,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1170.exr": 184806452,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1171.exr": 184822195,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1172.exr": 184820476,
-            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1173.exr": 184819988
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1001.exr",
-                    184863512
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1002.exr",
-                    184865526
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1003.exr",
-                    184864459
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1004.exr",
-                    184862400
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1005.exr",
-                    184864278
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1006.exr",
-                    184872680
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1007.exr",
-                    184860004
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1008.exr",
-                    184863366
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1009.exr",
-                    184861045
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1010.exr",
-                    184868445
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1011.exr",
-                    184862971
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1012.exr",
-                    184863327
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1013.exr",
-                    184869592
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1014.exr",
-                    184871524
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1015.exr",
-                    184869470
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1016.exr",
-                    184868808
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1017.exr",
-                    184865326
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1018.exr",
-                    184865713
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1019.exr",
-                    184868673
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1020.exr",
-                    184872332
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1021.exr",
-                    184870353
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1022.exr",
-                    184868377
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1023.exr",
-                    184873997
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1024.exr",
-                    184878953
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1025.exr",
-                    184880367
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1026.exr",
-                    184878896
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1027.exr",
-                    184876269
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1028.exr",
-                    184874234
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1029.exr",
-                    184878766
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1030.exr",
-                    184874252
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1031.exr",
-                    184876923
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1032.exr",
-                    184883241
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1033.exr",
-                    184882654
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1034.exr",
-                    184892299
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1035.exr",
-                    184880604
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1036.exr",
-                    184890160
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1037.exr",
-                    184887056
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1038.exr",
-                    184887732
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1039.exr",
-                    184890309
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1040.exr",
-                    184894746
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1041.exr",
-                    184895798
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1042.exr",
-                    184901635
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1043.exr",
-                    184899481
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1044.exr",
-                    184899529
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1045.exr",
-                    184909904
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1046.exr",
-                    184906379
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1047.exr",
-                    184902665
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1048.exr",
-                    184900491
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1049.exr",
-                    184901091
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1050.exr",
-                    184908682
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1051.exr",
-                    184908766
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1052.exr",
-                    184911962
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1053.exr",
-                    184911464
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1054.exr",
-                    184915148
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1055.exr",
-                    184910348
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1056.exr",
-                    184912974
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1057.exr",
-                    184916860
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1058.exr",
-                    184919416
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1059.exr",
-                    184922693
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1060.exr",
-                    184918048
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1061.exr",
-                    184923188
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1062.exr",
-                    184927024
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1063.exr",
-                    184922878
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1064.exr",
-                    184925241
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1065.exr",
-                    184920598
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1066.exr",
-                    184923602
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1067.exr",
-                    184922220
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1068.exr",
-                    184927523
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1069.exr",
-                    184918130
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1070.exr",
-                    184928324
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr",
-                    184933541
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1072.exr",
-                    184931981
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1073.exr",
-                    184927794
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1074.exr",
-                    184925029
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1075.exr",
-                    184922401
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1076.exr",
-                    184919897
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1077.exr",
-                    184927449
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1078.exr",
-                    184918030
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1079.exr",
-                    184910588
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1081.exr",
-                    184907884
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1082.exr",
-                    184903508
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1083.exr",
-                    184894450
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1084.exr",
-                    184891632
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1085.exr",
-                    184881226
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1086.exr",
-                    184876209
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1087.exr",
-                    184868016
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1088.exr",
-                    184859564
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1089.exr",
-                    184865822
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1090.exr",
-                    184859814
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1091.exr",
-                    184852888
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1092.exr",
-                    184840130
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1093.exr",
-                    184852655
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1094.exr",
-                    184837726
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1095.exr",
-                    184840494
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1096.exr",
-                    184842919
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1097.exr",
-                    184847937
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1098.exr",
-                    184830584
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1099.exr",
-                    184840163
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1100.exr",
-                    184839861
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1101.exr",
-                    184838825
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1102.exr",
-                    184838958
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1103.exr",
-                    184840151
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1104.exr",
-                    184834707
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1105.exr",
-                    184846774
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1106.exr",
-                    184833872
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1107.exr",
-                    184835722
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1108.exr",
-                    184847449
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1109.exr",
-                    184839719
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1110.exr",
-                    184841304
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1111.exr",
-                    184836745
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1112.exr",
-                    184837694
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1113.exr",
-                    184839618
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1114.exr",
-                    184842075
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1115.exr",
-                    184839179
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1116.exr",
-                    184833375
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1117.exr",
-                    184838985
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1118.exr",
-                    184837679
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1119.exr",
-                    184848721
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1120.exr",
-                    184836005
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1121.exr",
-                    184838345
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1122.exr",
-                    184843065
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1123.exr",
-                    184845088
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1124.exr",
-                    184843881
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1125.exr",
-                    184833712
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1126.exr",
-                    184833692
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1127.exr",
-                    184830185
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1128.exr",
-                    184835229
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1129.exr",
-                    184833131
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1130.exr",
-                    184827974
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1131.exr",
-                    184828273
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1132.exr",
-                    184834095
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1133.exr",
-                    184828427
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1134.exr",
-                    184828814
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1135.exr",
-                    184824833
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1136.exr",
-                    184832738
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1137.exr",
-                    184829873
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1138.exr",
-                    184829731
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1139.exr",
-                    184827718
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1140.exr",
-                    184821087
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1141.exr",
-                    184822869
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1142.exr",
-                    184821056
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1143.exr",
-                    184819414
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1144.exr",
-                    184814478
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1145.exr",
-                    184819193
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1146.exr",
-                    184818102
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1147.exr",
-                    184808516
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1148.exr",
-                    184813222
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1149.exr",
-                    184811164
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1150.exr",
-                    184803446
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1151.exr",
-                    184806649
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1152.exr",
-                    184813216
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1153.exr",
-                    184802497
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1154.exr",
-                    184804620
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1155.exr",
-                    184800893
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1156.exr",
-                    184803175
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr",
-                    184793359
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1158.exr",
-                    184803670
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1159.exr",
-                    184803321
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1160.exr",
-                    184797284
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1161.exr",
-                    184808018
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1162.exr",
-                    184803831
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1163.exr",
-                    184811857
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1164.exr",
-                    184807604
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1165.exr",
-                    184808197
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1166.exr",
-                    184804923
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1167.exr",
-                    184799801
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1168.exr",
-                    184807101
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1169.exr",
-                    184810693
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1170.exr",
-                    184806452
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1171.exr",
-                    184822195
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1172.exr",
-                    184820476
-                ],
-                [
-                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1173.exr",
-                    184819988
                 ]
             ]
         },
@@ -8219,6 +7425,889 @@
                 [
                     "d:/trash/test_denoise\\aux-specular\\sq0010_render_publish_RL_env_beauty.1173.exr",
                     131791127
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/trash/test_denoise\\aux-diffuse": {
+        "folderSize": 31796054621,
+        "fileContainedSize": 31796054621,
+        "subfoldersNumber": 0,
+        "filesNumber": 172,
+        "averageFileSize": 184860782.68023255,
+        "maxFileSize": [
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr",
+            184933541
+        ],
+        "minFileSize": [
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr",
+            184793359
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1001.exr": 184863512,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1002.exr": 184865526,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1003.exr": 184864459,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1004.exr": 184862400,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1005.exr": 184864278,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1006.exr": 184872680,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1007.exr": 184860004,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1008.exr": 184863366,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1009.exr": 184861045,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1010.exr": 184868445,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1011.exr": 184862971,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1012.exr": 184863327,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1013.exr": 184869592,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1014.exr": 184871524,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1015.exr": 184869470,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1016.exr": 184868808,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1017.exr": 184865326,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1018.exr": 184865713,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1019.exr": 184868673,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1020.exr": 184872332,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1021.exr": 184870353,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1022.exr": 184868377,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1023.exr": 184873997,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1024.exr": 184878953,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1025.exr": 184880367,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1026.exr": 184878896,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1027.exr": 184876269,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1028.exr": 184874234,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1029.exr": 184878766,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1030.exr": 184874252,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1031.exr": 184876923,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1032.exr": 184883241,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1033.exr": 184882654,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1034.exr": 184892299,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1035.exr": 184880604,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1036.exr": 184890160,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1037.exr": 184887056,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1038.exr": 184887732,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1039.exr": 184890309,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1040.exr": 184894746,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1041.exr": 184895798,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1042.exr": 184901635,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1043.exr": 184899481,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1044.exr": 184899529,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1045.exr": 184909904,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1046.exr": 184906379,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1047.exr": 184902665,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1048.exr": 184900491,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1049.exr": 184901091,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1050.exr": 184908682,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1051.exr": 184908766,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1052.exr": 184911962,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1053.exr": 184911464,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1054.exr": 184915148,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1055.exr": 184910348,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1056.exr": 184912974,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1057.exr": 184916860,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1058.exr": 184919416,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1059.exr": 184922693,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1060.exr": 184918048,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1061.exr": 184923188,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1062.exr": 184927024,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1063.exr": 184922878,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1064.exr": 184925241,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1065.exr": 184920598,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1066.exr": 184923602,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1067.exr": 184922220,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1068.exr": 184927523,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1069.exr": 184918130,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1070.exr": 184928324,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr": 184933541,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1072.exr": 184931981,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1073.exr": 184927794,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1074.exr": 184925029,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1075.exr": 184922401,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1076.exr": 184919897,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1077.exr": 184927449,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1078.exr": 184918030,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1079.exr": 184910588,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1081.exr": 184907884,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1082.exr": 184903508,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1083.exr": 184894450,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1084.exr": 184891632,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1085.exr": 184881226,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1086.exr": 184876209,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1087.exr": 184868016,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1088.exr": 184859564,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1089.exr": 184865822,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1090.exr": 184859814,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1091.exr": 184852888,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1092.exr": 184840130,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1093.exr": 184852655,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1094.exr": 184837726,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1095.exr": 184840494,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1096.exr": 184842919,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1097.exr": 184847937,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1098.exr": 184830584,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1099.exr": 184840163,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1100.exr": 184839861,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1101.exr": 184838825,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1102.exr": 184838958,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1103.exr": 184840151,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1104.exr": 184834707,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1105.exr": 184846774,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1106.exr": 184833872,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1107.exr": 184835722,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1108.exr": 184847449,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1109.exr": 184839719,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1110.exr": 184841304,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1111.exr": 184836745,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1112.exr": 184837694,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1113.exr": 184839618,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1114.exr": 184842075,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1115.exr": 184839179,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1116.exr": 184833375,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1117.exr": 184838985,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1118.exr": 184837679,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1119.exr": 184848721,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1120.exr": 184836005,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1121.exr": 184838345,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1122.exr": 184843065,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1123.exr": 184845088,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1124.exr": 184843881,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1125.exr": 184833712,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1126.exr": 184833692,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1127.exr": 184830185,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1128.exr": 184835229,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1129.exr": 184833131,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1130.exr": 184827974,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1131.exr": 184828273,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1132.exr": 184834095,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1133.exr": 184828427,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1134.exr": 184828814,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1135.exr": 184824833,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1136.exr": 184832738,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1137.exr": 184829873,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1138.exr": 184829731,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1139.exr": 184827718,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1140.exr": 184821087,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1141.exr": 184822869,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1142.exr": 184821056,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1143.exr": 184819414,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1144.exr": 184814478,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1145.exr": 184819193,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1146.exr": 184818102,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1147.exr": 184808516,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1148.exr": 184813222,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1149.exr": 184811164,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1150.exr": 184803446,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1151.exr": 184806649,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1152.exr": 184813216,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1153.exr": 184802497,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1154.exr": 184804620,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1155.exr": 184800893,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1156.exr": 184803175,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr": 184793359,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1158.exr": 184803670,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1159.exr": 184803321,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1160.exr": 184797284,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1161.exr": 184808018,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1162.exr": 184803831,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1163.exr": 184811857,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1164.exr": 184807604,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1165.exr": 184808197,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1166.exr": 184804923,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1167.exr": 184799801,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1168.exr": 184807101,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1169.exr": 184810693,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1170.exr": 184806452,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1171.exr": 184822195,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1172.exr": 184820476,
+            "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1173.exr": 184819988
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1001.exr",
+                    184863512
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1002.exr",
+                    184865526
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1003.exr",
+                    184864459
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1004.exr",
+                    184862400
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1005.exr",
+                    184864278
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1006.exr",
+                    184872680
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1007.exr",
+                    184860004
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1008.exr",
+                    184863366
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1009.exr",
+                    184861045
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1010.exr",
+                    184868445
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1011.exr",
+                    184862971
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1012.exr",
+                    184863327
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1013.exr",
+                    184869592
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1014.exr",
+                    184871524
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1015.exr",
+                    184869470
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1016.exr",
+                    184868808
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1017.exr",
+                    184865326
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1018.exr",
+                    184865713
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1019.exr",
+                    184868673
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1020.exr",
+                    184872332
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1021.exr",
+                    184870353
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1022.exr",
+                    184868377
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1023.exr",
+                    184873997
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1024.exr",
+                    184878953
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1025.exr",
+                    184880367
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1026.exr",
+                    184878896
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1027.exr",
+                    184876269
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1028.exr",
+                    184874234
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1029.exr",
+                    184878766
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1030.exr",
+                    184874252
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1031.exr",
+                    184876923
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1032.exr",
+                    184883241
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1033.exr",
+                    184882654
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1034.exr",
+                    184892299
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1035.exr",
+                    184880604
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1036.exr",
+                    184890160
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1037.exr",
+                    184887056
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1038.exr",
+                    184887732
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1039.exr",
+                    184890309
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1040.exr",
+                    184894746
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1041.exr",
+                    184895798
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1042.exr",
+                    184901635
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1043.exr",
+                    184899481
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1044.exr",
+                    184899529
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1045.exr",
+                    184909904
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1046.exr",
+                    184906379
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1047.exr",
+                    184902665
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1048.exr",
+                    184900491
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1049.exr",
+                    184901091
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1050.exr",
+                    184908682
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1051.exr",
+                    184908766
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1052.exr",
+                    184911962
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1053.exr",
+                    184911464
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1054.exr",
+                    184915148
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1055.exr",
+                    184910348
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1056.exr",
+                    184912974
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1057.exr",
+                    184916860
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1058.exr",
+                    184919416
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1059.exr",
+                    184922693
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1060.exr",
+                    184918048
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1061.exr",
+                    184923188
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1062.exr",
+                    184927024
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1063.exr",
+                    184922878
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1064.exr",
+                    184925241
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1065.exr",
+                    184920598
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1066.exr",
+                    184923602
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1067.exr",
+                    184922220
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1068.exr",
+                    184927523
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1069.exr",
+                    184918130
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1070.exr",
+                    184928324
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1071.exr",
+                    184933541
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1072.exr",
+                    184931981
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1073.exr",
+                    184927794
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1074.exr",
+                    184925029
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1075.exr",
+                    184922401
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1076.exr",
+                    184919897
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1077.exr",
+                    184927449
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1078.exr",
+                    184918030
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1079.exr",
+                    184910588
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1081.exr",
+                    184907884
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1082.exr",
+                    184903508
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1083.exr",
+                    184894450
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1084.exr",
+                    184891632
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1085.exr",
+                    184881226
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1086.exr",
+                    184876209
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1087.exr",
+                    184868016
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1088.exr",
+                    184859564
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1089.exr",
+                    184865822
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1090.exr",
+                    184859814
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1091.exr",
+                    184852888
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1092.exr",
+                    184840130
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1093.exr",
+                    184852655
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1094.exr",
+                    184837726
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1095.exr",
+                    184840494
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1096.exr",
+                    184842919
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1097.exr",
+                    184847937
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1098.exr",
+                    184830584
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1099.exr",
+                    184840163
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1100.exr",
+                    184839861
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1101.exr",
+                    184838825
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1102.exr",
+                    184838958
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1103.exr",
+                    184840151
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1104.exr",
+                    184834707
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1105.exr",
+                    184846774
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1106.exr",
+                    184833872
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1107.exr",
+                    184835722
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1108.exr",
+                    184847449
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1109.exr",
+                    184839719
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1110.exr",
+                    184841304
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1111.exr",
+                    184836745
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1112.exr",
+                    184837694
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1113.exr",
+                    184839618
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1114.exr",
+                    184842075
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1115.exr",
+                    184839179
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1116.exr",
+                    184833375
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1117.exr",
+                    184838985
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1118.exr",
+                    184837679
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1119.exr",
+                    184848721
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1120.exr",
+                    184836005
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1121.exr",
+                    184838345
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1122.exr",
+                    184843065
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1123.exr",
+                    184845088
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1124.exr",
+                    184843881
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1125.exr",
+                    184833712
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1126.exr",
+                    184833692
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1127.exr",
+                    184830185
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1128.exr",
+                    184835229
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1129.exr",
+                    184833131
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1130.exr",
+                    184827974
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1131.exr",
+                    184828273
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1132.exr",
+                    184834095
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1133.exr",
+                    184828427
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1134.exr",
+                    184828814
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1135.exr",
+                    184824833
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1136.exr",
+                    184832738
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1137.exr",
+                    184829873
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1138.exr",
+                    184829731
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1139.exr",
+                    184827718
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1140.exr",
+                    184821087
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1141.exr",
+                    184822869
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1142.exr",
+                    184821056
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1143.exr",
+                    184819414
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1144.exr",
+                    184814478
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1145.exr",
+                    184819193
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1146.exr",
+                    184818102
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1147.exr",
+                    184808516
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1148.exr",
+                    184813222
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1149.exr",
+                    184811164
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1150.exr",
+                    184803446
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1151.exr",
+                    184806649
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1152.exr",
+                    184813216
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1153.exr",
+                    184802497
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1154.exr",
+                    184804620
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1155.exr",
+                    184800893
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1156.exr",
+                    184803175
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1157.exr",
+                    184793359
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1158.exr",
+                    184803670
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1159.exr",
+                    184803321
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1160.exr",
+                    184797284
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1161.exr",
+                    184808018
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1162.exr",
+                    184803831
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1163.exr",
+                    184811857
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1164.exr",
+                    184807604
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1165.exr",
+                    184808197
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1166.exr",
+                    184804923
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1167.exr",
+                    184799801
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1168.exr",
+                    184807101
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1169.exr",
+                    184810693
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1170.exr",
+                    184806452
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1171.exr",
+                    184822195
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1172.exr",
+                    184820476
+                ],
+                [
+                    "d:/trash/test_denoise\\aux-diffuse\\sq0010_render_publish_RL_env_beauty.1173.exr",
+                    184819988
                 ]
             ]
         },

@@ -75,6 +75,14 @@ ListView {
 	border-title-color:$secondary;
 }
 
-#input_folder_path {
+#label_title {
 	margin-top: 10;
+	color:$primary;
+}
+
+#button_launch {
+	width:1fr;
+
+	background:$primary;
+	color:$background;
 }
