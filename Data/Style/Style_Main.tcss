@@ -80,7 +80,7 @@ ListView {
 	color:$primary;
 }
 
-#button_launch {
+#button_launch, #button_live {
 	width:1fr;
 
 	background:$primary;

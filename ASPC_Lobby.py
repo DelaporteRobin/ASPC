@@ -146,7 +146,8 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					
 
 
-				yield Button("Launch Scan", id="button_launch")
+				yield Button("Launch manual Scan", id="button_launch")
+				yield Button("Trigger live mode", id="button_live")
 				#yield Button("TEST BUTTON", id="test_button")
 
 
@@ -271,6 +272,14 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "button_launch":
 			self.launch_process_function()
+
+		if event.button.id == "button_live":
+			project = self.query_one("#input_folder_path").value
+			if os.path.isdir(project) == False:
+				self.show_error_function("Impossible to launch live mode\nFolder doesn't exists!")
+			else:
+				self.create_live_mode_config_function(project)
+
 
 
 
