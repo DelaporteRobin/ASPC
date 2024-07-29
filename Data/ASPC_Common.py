@@ -8,6 +8,7 @@ import json
 import shutil
 import win32com.client
 import getpass
+import sys
 
 import pyfiglet
 
@@ -240,7 +241,7 @@ class ASPC_CommonApplication:
 		#check if there is already a log existing for that project
 		defined = False
 		for i in range(500):
-			log_path = os.path.join(os.getcwd(), "live_data_%s_%s.json"%(project_path,i))
+			log_path = os.path.join(os.getcwd(), "live_data_%s_%s.json"%(os.path.basename(os.path.normpath(project_path)),i))
 			if os.path.isfile(log_path)==False:
 				defined=True
 				break
@@ -268,8 +269,8 @@ class ASPC_CommonApplication:
 				
 			bat_code = """
 @echo off
-start %s
-"""%(os.path.join(os.getcwd(), "ASPC_BBrother.py"))
+start /min python.exe %s
+			"""%(os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])),"ASPC_BBrother.py"))
 
 			with open(os.path.join(startup_folder, "aspc_autorun.bat"),"w") as save_file:
 				save_file.write(bat_code)
