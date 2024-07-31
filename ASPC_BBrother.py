@@ -45,6 +45,9 @@ class MyHandler(FileSystemEventHandler):
 			print(colored("Log dictionnary loaded", "green"))
 
 
+
+
+
 	def save_log_function(self):
 		try:
 			with open(self.settings["logPath"], "w") as save_file:
@@ -53,11 +56,10 @@ class MyHandler(FileSystemEventHandler):
 			print(colored("Impossible to save log", "red"))
 
 
-	def on_created(self, event):
-		print(f"Created: {event.src_path}")
-		target_folder = event.src_path
-		proxy_folder = target_folder
 
+	def add_folder_use_function(self,folder):
+
+		proxy_folder = folder
 		for i in range(100):
 			proxy_folder = os.path.dirname(os.path.normpath(proxy_folder))
 			if os.path.normcase(os.path.normpath(proxy_folder)) == os.path.normcase(os.path.normpath(self.settings["projectPath"])):
@@ -68,6 +70,12 @@ class MyHandler(FileSystemEventHandler):
 				else:
 					self.main_log[proxy_folder] = self.main_log[proxy_folder] + 1
 
+
+	def on_created(self, event):
+		print(f"Created: {event.src_path}")
+		target_folder = event.src_path
+		
+		self.add_folder_use_function(target_folder)
 		self.save_log_function()
 
 
@@ -79,23 +87,16 @@ class MyHandler(FileSystemEventHandler):
 	def on_deleted(self, event):
 		print(f"Deleted: {event.src_path}")
 		target_folder = event.src_path
-		proxy_folder = target_folder
-
-		for i in range(100):
-			proxy_folder = os.path.dirname(os.path.normpath(proxy_folder))
-			if os.path.normcase(os.path.normpath(proxy_folder)) == os.path.normcase(os.path.normpath(self.settings["projectPath"])):
-				break
-			else:
-
-				if self.main_log[proxy_folder] == 1:
-					self.main_log.pop(proxy_folder)
-				else:
-					self.main_log[proxy_folder] = self.main_log[proxy_folder] - 1
-
+		
+		self.add_folder_use_function(target_folder)
 		self.save_log_function()
+
 
 	def on_moved(self, event):
 		print(f"Moved: {event.src_path} to {event.dest_path}")
+		self.add_folder_use_fucntion(event.scr_path)
+		self.add_folderr_use_function(event.dest_path)
+		self.save_log_function()
 
 
 

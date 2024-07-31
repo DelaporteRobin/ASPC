@@ -280,3 +280,14 @@ start /min python.exe %s
 
 
 
+
+
+
+	def check_live_is_enabled_function(self):
+		#get the path of the startup folder on the machine
+		shell = win32com.client.Dispatch("WScript.Shell")
+		startup_folder = shell.SpecialFolders("Startup")
+
+		return os.path.isfile(os.path.join(startup_folder, "aspc_autorun.bat"))
+
+

@@ -18,6 +18,7 @@ from textual import on
 
 from datetime import datetime
 from pyfiglet import Figlet
+from time import sleep
 
 import threading
 import json
@@ -189,11 +190,88 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 								self.markdown_file_info = Markdown(id="markdown_file_info")
 								self.markdown_file_info.border_title = "FILE STATS"
 								yield self.markdown_file_info
-					with TabPane("Global Project View"):
-						yield Button("hello world")
+					with TabPane("Live project statistics"):
+						"""
+						additionnal informations
+							start of the live mode
+
+
+						display a list (updated in real time)
+						modified folder by number of time
+
+						display last date of modification (list of modification)
+						"""
+						with Horizontal(classes="live_row"):
+							with Vertical(classes="live_column_folder"):
+								self.live_folderlist = ListView(id="list_folderlist")
+								self.live_folderlist.border_title = "Folder activity"
+								yield self.live_folderlist
+
+							with Vertical(classes="live_info_column"):
+								self.markdown_live_info = Markdown(id="markdown_live_info")
+								self.markdown_live_info.border_title = "Folder data"
+								yield self.markdown_live_info
 
 
 			self.apply_settings_function()
+			self.check_for_live_mode_function()
+
+
+
+
+
+
+
+	def check_for_live_mode_function(self):
+		#check if the live mode is enabled
+		if self.check_live_is_enabled_function()==True:
+			#get the log of the folder
+			#get the settings of the current live mode
+			#get the log file linked to the current live mode
+			if os.path.isfile(os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])),"Data/Live_settings.json"))==True:
+				#load settings of the current live 
+				try:
+					with open(os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])),"Data/Live_settings.json"), "r") as read_file:
+						live_settings = json.load(read_file)
+				except:
+					self.show_error_function("Impossible to load live mode settings")
+				else:
+					self.show_message_function("Live mode settings recovered")
+					
+					#get data from live mode settings
+					live_project_path = live_settings["projectPath"]
+					live_log_path = live_settings["logPath"]
+
+					#check if the log file exists
+					#launch the thread to read it real time
+					if os.path.isfile(live_log_path)==True:
+						read_live_log = threading.Thread(target=self.read_live_worker, args=(live_log_path, live_project_path,), daemon=True)
+						read_live_log.start()
+						self.show_message_function("Read live mode log activated")
+					else:
+						self.show_error_function("Impossible to get the live mode log")
+
+
+
+	def read_live_worker(self,log_path,project_path):
+		while True:
+			#self.show_message_function("added")
+			try:
+				with open(log_path, "r") as read_file:
+					content = json.load(read_file)
+			except:
+				pass
+			else:
+				self.list_folderlist.clear()
+
+				list_keys = list(content.keys())
+				list_values = list(content.values())
+
+				for key, value in content.items():
+					list_item = ListItem("%s | %s"%(value, key))
+			sleep(1)
+
+
 
 
 
