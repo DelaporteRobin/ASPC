@@ -284,7 +284,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		
 		
 
-		#self.set_timer(2, partial(self.read_live_worker, log_path, project_path))
+		self.set_timer(2, partial(self.read_live_worker, log_path, project_path))
 	
 
 
