@@ -61,14 +61,27 @@ class MyHandler(FileSystemEventHandler):
 
 		proxy_folder = folder
 		for i in range(100):
-			proxy_folder = os.path.dirname(os.path.normpath(proxy_folder))
 			if os.path.normcase(os.path.normpath(proxy_folder)) == os.path.normcase(os.path.normpath(self.settings["projectPath"])):
+				print("broken")
 				break
 			else:
 				if proxy_folder not in self.main_log:
+					print(colored("		New folder added to log", "yellow"))
 					self.main_log[proxy_folder] = 1
 				else:
 					self.main_log[proxy_folder] = self.main_log[proxy_folder] + 1
+					print(colored("		Value updated", "magenta"))
+			proxy_folder = os.path.dirname(os.path.normpath(proxy_folder))
+
+
+
+	def remove_folder_use_function(self, folder):
+		if os.path.isdir(folder)==False:
+			print(colored("		Folder removed from log", "red"))
+			if folder in self.main_log:
+				del self.main_log[folder]
+
+			
 
 
 	def on_created(self, event):
@@ -94,8 +107,8 @@ class MyHandler(FileSystemEventHandler):
 
 	def on_moved(self, event):
 		print(f"Moved: {event.src_path} to {event.dest_path}")
-		self.add_folder_use_fucntion(event.scr_path)
-		self.add_folderr_use_function(event.dest_path)
+		self.remove_folder_use_function(event.src_path)
+		self.add_folder_use_function(event.dest_path)
 		self.save_log_function()
 
 
@@ -149,7 +162,7 @@ class Application:
 		try:
 			observer = Observer()
 			handler = MyHandler(self.settings)
-			observer.schedule(handler, path="D:/TRASH", recursive=True)
+			observer.schedule(handler, path=self.settings["projectPath"], recursive=True)
 			observer.start() 
 
 			print(colored("Observer launched", "cyan"))
@@ -162,9 +175,9 @@ class Application:
 			except KeyboardInterrupt:
 				observer.stop()
 			observer.join()
-		except:
+		except Exception as e:
 			print(colored("Impossible to launch observer", "red"))
-
+			print(colored(e, "red"))
 
 
 Application()

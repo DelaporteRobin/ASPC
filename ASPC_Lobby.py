@@ -72,6 +72,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		self.folder_list = []
 		self.file_list = []
 
+		self.live_folderlist_proxy = None
 
 
 
@@ -203,9 +204,14 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 						"""
 						with Horizontal(classes="live_row"):
 							with Vertical(classes="live_column_folder"):
+								self.live_folderlist = ListView(id = "list_folderlist")
+								self.live_folderlist.border_title = "Folder list"
+								yield self.live_folderlist
+								"""
 								self.live_folderlist = ListView(id="list_folderlist")
 								self.live_folderlist.border_title = "Folder activity"
 								yield self.live_folderlist
+								"""
 
 							with Vertical(classes="live_info_column"):
 								self.markdown_live_info = Markdown(id="markdown_live_info")
@@ -254,22 +260,50 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 	def read_live_worker(self,log_path,project_path):
+		"""
 		while True:
-			#self.show_message_function("added")
 			try:
+				#get the content of the log file
 				with open(log_path, "r") as read_file:
 					content = json.load(read_file)
-			except:
-				pass
-			else:
-				self.list_folderlist.clear()
+				content_key_list = list(content.keys())
+				content_value_list = list(content.values())
 
-				list_keys = list(content.keys())
-				list_values = list(content.values())
+				#clear the content of the current option list
+				if content_key_list != self.live_folderlist_proxy:
+					self.live_folderlist.clear_options()
+					self.live_folderlist.add_options(content_key_list)
+					#update the proxy 
+					self.live_folderlist_proxy = content_key_list
+			except Exception as e:
+				self.show_message_function(e)
 
-				for key, value in content.items():
-					list_item = ListItem("%s | %s"%(value, key))
 			sleep(1)
+		"""
+
+
+		#USING LIST VIEW
+		
+		while True:
+			#self.show_message_function("added")
+			self.show_message_function(log_path)
+			
+
+			"""
+			with open(log_path, "r") as read_file:
+				content = json.load(read_file)
+			"""
+			
+			try:	
+				self.live_folderlist.append(ListItem(Label("hello world")))
+				self.show_message_function("added")
+
+			except Exception as e:
+				self.show_error_function(e)
+			
+
+			sleep(1)
+		
 
 
 
