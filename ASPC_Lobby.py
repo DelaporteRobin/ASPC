@@ -208,6 +208,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 						"""
 					with Horizontal(classes="live_row"):
 						with Vertical(classes="live_column_folder"):
+
+							
+							#yield Button("trigger", id = "trigger_live")
 							self.live_folderlist = ListView(id = "list_folderlist")
 							self.live_folderlist.border_title = "Folder list"
 							yield self.live_folderlist
@@ -224,8 +227,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 							yield self.markdown_live_info
 
 
-			self.apply_settings_function()
-			self.check_for_live_mode_function()
+	async def on_mount(self) -> None:
+		self.apply_settings_function()
+		#self.check_for_live_mode_function()
+		self.check_for_live_mode_function()
 
 
 
@@ -256,19 +261,25 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					#check if the log file exists
 					#launch the thread to read it real time
 					if os.path.isfile(live_log_path)==True:
-						read_live_log = threading.Thread(target=self.read_live_worker, args=(live_log_path, live_project_path,), daemon=True)
-						read_live_log.start()
+						#read_live_log = threading.Thread(target=self.read_live_worker, args=(live_log_path, live_project_path,), daemon=True)
+						#read_live_log.start()
+						self.read_live_worker(live_log_path, live_project_path)
 						self.show_message_function("Read live mode log activated")
 					else:
 						self.show_error_function("Impossible to get the live mode log")
 
 
 
-	def read_live_worker(self,log_path,project_path):
+	def read_live_worker(self,log_path=None,project_path=None):
 		self.show_message_function("hello")
 
-		list_item = ListItem(Label("hello"))
-		self.live_folderlist.append(list_item)
+		
+		try:
+			list_item = ListItem(Label("hello"))
+			self.live_folderlist.append(list_item)
+		except Exception as e:
+			self.show_error_function(e)
+
 		
 		
 		
@@ -353,6 +364,8 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 	def on_button_pressed(self, event: Button.Pressed) -> None:
+		if event.button.id == "trigger_live":
+			self.read_live_worker()
 		if event.button.id == "button_launch":
 			self.launch_process_function()
 

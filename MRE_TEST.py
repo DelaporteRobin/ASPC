@@ -28,7 +28,7 @@ class Application(App):
 
 					self.test_list = ListView(id = "test_list")
 					yield self.test_list
-					self.mount(self.test_list)
+
 
 
 				with VerticalScroll():
@@ -36,7 +36,7 @@ class Application(App):
 
 				
 
-
+	async def on_mount(self) -> None:
 		self.update_function()
 
 
