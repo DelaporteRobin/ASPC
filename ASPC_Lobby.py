@@ -6,6 +6,9 @@ import multiprocessing
 from rich.console import Console
 
 
+from functools import partial
+
+
 from textual.app import App, ComposeResult
 from textual.widgets import Markdown, RadioSet, RadioButton, Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
@@ -155,43 +158,44 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 			with Vertical(classes="main_rightcolumn"):
 				with TabbedContent():
-					with TabPane("Classement"):
-						with Horizontal(classes="classement_horizontal"):
+					#with TabPane("Classement"):
+					with Horizontal(classes="classement_horizontal"):
 
-							
-							with Vertical(classes="folder_column"):
-								self.folder_searchbar = Input(placeholder="Search for ...", type="text", id="input_folder_searchbar")
-								yield self.folder_searchbar
-								with RadioSet(id="radio_folder_options"):
-									yield RadioButton("Sort by size")
-									yield RadioButton("Sort by size contained")
-									yield RadioButton("Number of subfolders contained")
-									yield RadioButton("Number of files contained")
-									yield RadioButton("Ratio of the project contained")
+						
+						with Vertical(classes="folder_column"):
+							self.folder_searchbar = Input(placeholder="Search for ...", type="text", id="input_folder_searchbar")
+							yield self.folder_searchbar
+							with RadioSet(id="radio_folder_options"):
+								yield RadioButton("Sort by size")
+								yield RadioButton("Sort by size contained")
+								yield RadioButton("Number of subfolders contained")
+								yield RadioButton("Number of files contained")
+								yield RadioButton("Ratio of the project contained")
 
-								self.optionlist_folder = OptionList(id="optionlist_folder", wrap=False)
-								self.optionlist_folder.border_title = "FOLDER LIST"
-								yield self.optionlist_folder
+							self.optionlist_folder = OptionList(id="optionlist_folder", wrap=False)
+							self.optionlist_folder.border_title = "FOLDER LIST"
+							yield self.optionlist_folder
 
-							with Vertical(classes="files_column"):
-								"""
-								self.optionlist_files = OptionList(id="optionlist_files",wrap=False)
-								self.optionlist_files.border_title = "FILE LIST"
-								yield self.optionlist_files
-								"""
-								self.listview_files = ListView(id="listview_files")
-								self.listview_files.border_title = "FILE LIST"
-								yield self.listview_files
+						with Vertical(classes="files_column"):
+							"""
+							self.optionlist_files = OptionList(id="optionlist_files",wrap=False)
+							self.optionlist_files.border_title = "FILE LIST"
+							yield self.optionlist_files
+							"""
+							self.listview_files = ListView(id="listview_files")
+							self.listview_files.border_title = "FILE LIST"
+							yield self.listview_files
 
-							with Vertical(classes="files_stat_column"):
-								self.markdown_folder_info = Markdown(id="markdown_folder_info")
-								self.markdown_folder_info.border_title = "FOLDER STATS"
-								yield self.markdown_folder_info
 
-								self.markdown_file_info = Markdown(id="markdown_file_info")
-								self.markdown_file_info.border_title = "FILE STATS"
-								yield self.markdown_file_info
-					with TabPane("Live project statistics"):
+						with Vertical(classes="files_stat_column"):
+							self.markdown_folder_info = Markdown(id="markdown_folder_info")
+							self.markdown_folder_info.border_title = "FOLDER STATS"
+							yield self.markdown_folder_info
+
+							self.markdown_file_info = Markdown(id="markdown_file_info")
+							self.markdown_file_info.border_title = "FILE STATS"
+							yield self.markdown_file_info
+					#with TabPane("Live project statistics"):
 						"""
 						additionnal informations
 							start of the live mode
@@ -202,21 +206,22 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 						display last date of modification (list of modification)
 						"""
-						with Horizontal(classes="live_row"):
-							with Vertical(classes="live_column_folder"):
-								self.live_folderlist = ListView(id = "list_folderlist")
-								self.live_folderlist.border_title = "Folder list"
-								yield self.live_folderlist
-								"""
-								self.live_folderlist = ListView(id="list_folderlist")
-								self.live_folderlist.border_title = "Folder activity"
-								yield self.live_folderlist
-								"""
+					with Horizontal(classes="live_row"):
+						with Vertical(classes="live_column_folder"):
+							self.live_folderlist = ListView(id = "list_folderlist")
+							self.live_folderlist.border_title = "Folder list"
+							yield self.live_folderlist
+							#self.mount(self.live_folderlist)
+							"""
+							self.live_folderlist = ListView(id="list_folderlist")
+							self.live_folderlist.border_title = "Folder activity"
+							yield self.live_folderlist
+							"""
 
-							with Vertical(classes="live_info_column"):
-								self.markdown_live_info = Markdown(id="markdown_live_info")
-								self.markdown_live_info.border_title = "Folder data"
-								yield self.markdown_live_info
+						with Vertical(classes="live_info_column"):
+							self.markdown_live_info = Markdown(id="markdown_live_info")
+							self.markdown_live_info.border_title = "Folder data"
+							yield self.markdown_live_info
 
 
 			self.apply_settings_function()
@@ -260,50 +265,16 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 	def read_live_worker(self,log_path,project_path):
-		"""
-		while True:
-			try:
-				#get the content of the log file
-				with open(log_path, "r") as read_file:
-					content = json.load(read_file)
-				content_key_list = list(content.keys())
-				content_value_list = list(content.values())
+		self.show_message_function("hello")
 
-				#clear the content of the current option list
-				if content_key_list != self.live_folderlist_proxy:
-					self.live_folderlist.clear_options()
-					self.live_folderlist.add_options(content_key_list)
-					#update the proxy 
-					self.live_folderlist_proxy = content_key_list
-			except Exception as e:
-				self.show_message_function(e)
-
-			sleep(1)
-		"""
-
-
-		#USING LIST VIEW
+		list_item = ListItem(Label("hello"))
+		self.live_folderlist.append(list_item)
 		
-		while True:
-			#self.show_message_function("added")
-			self.show_message_function(log_path)
-			
-
-			"""
-			with open(log_path, "r") as read_file:
-				content = json.load(read_file)
-			"""
-			
-			try:	
-				self.live_folderlist.append(ListItem(Label("hello world")))
-				self.show_message_function("added")
-
-			except Exception as e:
-				self.show_error_function(e)
-			
-
-			sleep(1)
 		
+		
+
+		#self.set_timer(2, partial(self.read_live_worker, log_path, project_path))
+	
 
 
 
