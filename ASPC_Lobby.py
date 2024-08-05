@@ -54,6 +54,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			"background": "#151416",
 			"selected": "gray",
 			"secondary": "white",
+			"error": "red",
 
 			"heaviest":"#F99461",
 			"lightest":"#B1D94D"
@@ -261,6 +262,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					#check if the log file exists
 					#launch the thread to read it real time
 					if os.path.isfile(live_log_path)==True:
+						self.read_live_worker(live_log_path, live_project_path)
 						#read_live_log = threading.Thread(target=self.read_live_worker, args=(live_log_path, live_project_path,), daemon=True)
 						#read_live_log.start()
 						self.read_live_worker(live_log_path, live_project_path)
@@ -271,15 +273,41 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 
 	def read_live_worker(self,log_path=None,project_path=None):
-		self.show_message_function("hello")
-
 		
-		try:
-			list_item = ListItem(Label("hello"))
-			self.live_folderlist.append(list_item)
-		except Exception as e:
-			self.show_error_function(e)
 
+
+		#try to read the content of the live log
+		try:
+			with open(log_path, "r") as read_log:
+				content = json.load(read_log)
+		except Exception as e:
+			self.show_error_function("Impossible to read log!")
+			return
+		else:
+			if content != self.live_folderlist_proxy:
+				#clear the list view
+				#add the new options
+				list_keys = list(content.keys())
+				list_values = list(content.values())
+
+				self.live_folderlist.clear()
+
+				for key, value in content.items():
+					label = Label("[%s] %s"%(str(value),str(key)))
+					list_item = ListItem(label)
+					self.live_folderlist.append(list_item)
+					
+					#IT IS A DIRECTORY
+					#self.show_message_function(os.path.isdir(key))
+					if (os.path.splitext(key)[1] == "") and os.path.isdir(key)==False:
+						label.styles.color = self.color_dictionnary["error"]
+
+					else:
+						if os.path.isfile(key)==True:
+							label.styles.color = self.color_dictionnary["error"]
+
+				#update the proxy value
+				self.live_folderlist_proxy = content
 		
 		
 		
