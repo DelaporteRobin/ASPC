@@ -54,7 +54,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			"background": "#151416",
 			"selected": "gray",
 			"secondary": "white",
-			"error": "red",
+			"error": "#f06042",
 
 			"heaviest":"#F99461",
 			"lightest":"#B1D94D"
@@ -290,10 +290,22 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 				list_keys = list(content.keys())
 				list_values = list(content.values())
 
+				#get the min values
+				min_value = min(list_values)
+				#get the max values
+				max_value = max(list_values)
+
+				min_values_index = list_values.index(min_value)
+				max_values_index = list_values.index(max_value)
+				#
+
+
+		
+
 				self.live_folderlist.clear()
 
 				for key, value in content.items():
-					label = Label("[%s] %s"%(str(value),str(key)))
+					label = Label("%s | %s"%(str(value), str(key)))
 					list_item = ListItem(label)
 					self.live_folderlist.append(list_item)
 					
@@ -305,6 +317,11 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					else:
 						if os.path.isfile(key)==True:
 							label.styles.color = self.color_dictionnary["error"]
+
+
+				#color the heaviest and lowest values
+
+
 
 				#update the proxy value
 				self.live_folderlist_proxy = content

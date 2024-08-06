@@ -19,6 +19,13 @@ gives you, while using the same widgets you are used to.
 - display more filters to display informations in the TUI
 
 
+- Informations to display when selecting a folder
+	percentage of the project contained in the folder
+	number of items contained in the folder
+	compared to the number of items contained in the project
+	
+
+
 
 > [!WARNING]
 > Pack important informations in a file so the TUI can load / update them quickly!

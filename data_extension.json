@@ -1,0 +1,10 @@
+{
+    ".txt": {
+        "fileSizeAverage": 0.0,
+        "fileCount": 2,
+        "fileList": {
+            "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt": 0,
+            "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt": 0
+        }
+    }
+}

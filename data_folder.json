@@ -1,0 +1,60 @@
+{
+    "C:/Users/3D4/Desktop/target_folder\\hello": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 1,
+        "averageFileSize": 0.0,
+        "maxFileSize": [
+            "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt",
+            0
+        ],
+        "minFileSize": [
+            "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt",
+            0
+        ],
+        "subfolderList": [
+            "C:/Users/3D4/Desktop/target_folder\\hello\\hey"
+        ],
+        "fileList": {
+            "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt": 0
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt",
+                    0
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "C:/Users/3D4/Desktop/target_folder\\hello\\hey": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 0.0,
+        "maxFileSize": [
+            "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt",
+            0
+        ],
+        "minFileSize": [
+            "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt",
+            0
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt": 0
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt",
+                    0
+                ]
+            ]
+        },
+        "speedTest": {}
+    }
+}
