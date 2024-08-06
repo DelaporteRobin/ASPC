@@ -86,3 +86,7 @@ ListView {
 	background:$primary;
 	color:$background;
 }
+
+#optionlist_extension {
+	height:10;
+}

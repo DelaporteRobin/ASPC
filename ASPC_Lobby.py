@@ -164,14 +164,15 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 						
 						with Vertical(classes="folder_column"):
-							self.folder_searchbar = Input(placeholder="Search for ...", type="text", id="input_folder_searchbar")
-							yield self.folder_searchbar
-							with RadioSet(id="radio_folder_options"):
-								yield RadioButton("Sort by size")
-								yield RadioButton("Sort by size contained")
-								yield RadioButton("Number of subfolders contained")
-								yield RadioButton("Number of files contained")
-								yield RadioButton("Ratio of the project contained")
+							with Collapsible(title="Folder settings", id="folder_collapsible"):
+								self.folder_searchbar = Input(placeholder="Search for ...", type="text", id="input_folder_searchbar")
+								yield self.folder_searchbar
+								with RadioSet(id="radio_folder_options"):
+									yield RadioButton("Sort by size")
+									yield RadioButton("Sort by size contained")
+									yield RadioButton("Number of subfolders contained")
+									yield RadioButton("Number of files contained")
+									yield RadioButton("Ratio of the project contained")
 
 							self.optionlist_folder = OptionList(id="optionlist_folder", wrap=False)
 							self.optionlist_folder.border_title = "FOLDER LIST"
@@ -183,6 +184,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 							self.optionlist_files.border_title = "FILE LIST"
 							yield self.optionlist_files
 							"""
+							with Collapsible(title="File settings", id = "file_collapsible"):
+								self.extension_list = OptionList(id="optionlist_extension")
+								yield self.extension_list
+								self.extension_list.border_title = "Extension list"
 							self.listview_files = ListView(id="listview_files")
 							self.listview_files.border_title = "FILE LIST"
 							yield self.listview_files
