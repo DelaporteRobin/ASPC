@@ -188,6 +188,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 								self.extension_list = OptionList(id="optionlist_extension")
 								yield self.extension_list
 								self.extension_list.border_title = "Extension list"
+
+								self.markdown_extension_info = Markdown(id="markdown_extension_info")
+								yield self.markdown_extension_info
 							self.listview_files = ListView(id="listview_files")
 							self.listview_files.border_title = "FILE LIST"
 							yield self.listview_files
@@ -274,6 +277,10 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 						self.show_message_function("Read live mode log activated")
 					else:
 						self.show_error_function("Impossible to get the live mode log")
+
+
+
+
 
 
 
@@ -471,7 +478,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		#get the index of the item selected
 		if event.list_view.id == "listview_files":
 			selection = self.query_one("#listview_files").index
-			self.show_message_function(self.current_lobby_filelist[selection])
+			#self.show_message_function(self.current_lobby_filelist[selection])
 
 			#get all informations about the given file
 			final_markdown = self.create_markdown_for_file_function(self.current_lobby_filelist[selection])
@@ -531,13 +538,20 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			#replace it by the filelist
 			self.listview_files.clear()
 			self.current_lobby_filelist = []
-			
+
 			for file in file_list:
 				label = Label(file)
 				self.listview_files.append(ListItem(label))
 				self.current_lobby_filelist.append(file)
 
 
+			#display datas about the current extension selected
+			extension_markdown="""
+## Average file size : %s
+## File count : %s"
+"""%(self.extension_dictionnary[extension_selected]["fileSizeAverage"], self.extension_dictionnary[extension_selected]["fileCount"])
+
+			self.markdown_extension_info.update(extension_markdown)
 
 
 
@@ -558,7 +572,7 @@ Folder : %s\n
 			folder_size = self.get_size_mo_function(self.folder_dictionnary[filepath]["folderSize"])
 			folder_size_contained = self.get_size_mo_function(self.folder_dictionnary[filepath]["fileContainedSize"])
 			file_number = self.folder_dictionnary[filepath]["filesNumber"]
-			subfolder_number = (self.folder_dictionnary[filepath]["subfolderNumber"])
+			subfolder_number = (self.folder_dictionnary[filepath]["subfoldersNumber"])
 			
 		except:
 			final_markdown+= """
