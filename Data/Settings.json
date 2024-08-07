@@ -1,6 +1,6 @@
 {
     "Manual": {
-        "rootFolder": "//storage01/3d4/trash/04_asset/character",
+        "rootFolder": "//storage01/3d4/trash/04_asset/item",
         "saveJson": true,
         "executeSpeedTest": false,
         "speedTestThreshold": null,

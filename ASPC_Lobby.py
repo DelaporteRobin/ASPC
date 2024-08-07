@@ -530,9 +530,12 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			#remove the content of the file list
 			#replace it by the filelist
 			self.listview_files.clear()
+			self.current_lobby_filelist = []
+			
 			for file in file_list:
 				label = Label(file)
 				self.listview_files.append(ListItem(label))
+				self.current_lobby_filelist.append(file)
 
 
 

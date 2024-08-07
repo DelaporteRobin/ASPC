@@ -116,9 +116,14 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 		
 		for root, dirs, files in scandir.walk(root_folder):
 			for d in dirs:
-				with lock:
-					self.main_folder_queue.put(os.path.join(root_folder,d))
-		
+				#define the path
+				
+				path = os.path.join(root,d)
+				if os.path.isdir(path)==True:
+					with lock:
+						self.main_folder_queue.put(path)
+
+			
 
 
 
@@ -304,6 +309,32 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 			}
 			#return all the values
 			return global_folder_dictionnary
+
+
+
+
+
+
+
+
+	def get_data_from_folder_worker(self, test_queue, root_folder, settings):
+
+
+		while not test_queue.empty():
+			folder = test_queue.get()
+ 
+			if os.path.isdir(str(folder))==False:
+				print(colored(str(folder), "red"))
+			else:
+				print(str(folder))
+			"""
+		if folder == None:
+			break
+		else:
+			self.display_ascii_function("")
+			self.display_notification_function("Checking folder : %s"%folder)
+			return
+		"""
 
 
 
