@@ -1,8 +1,932 @@
 {
-    "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt": {
-        "fileSize": 0
+    "//storage01/3d4/trash/04_asset/character\\beatenwoman\\NewScene.pur": {
+        "fileSize": 1129103
     },
-    "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt": {
-        "fileSize": 0
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\NewScene.pur": {
+        "fileSize": 13580265
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\RefBoard_PIGEON.pur": {
+        "fileSize": 54897977
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\RefBoard_RAT.pur": {
+        "fileSize": 23263279
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\workspace.mel": {
+        "fileSize": 2515
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_collier_v01.hipnc": {
+        "fileSize": 365892
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v01.hipnc": {
+        "fileSize": 7871886
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v02.hipnc": {
+        "fileSize": 11137940
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v03.hipnc": {
+        "fileSize": 11091230
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v04.hipnc": {
+        "fileSize": 11124993
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v05.hipnc": {
+        "fileSize": 11957143
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v06.hipnc": {
+        "fileSize": 12270083
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\universalHuman_Refs.pur": {
+        "fileSize": 76281795
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v07.hipnc": {
+        "fileSize": 11955775
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v08.hipnc": {
+        "fileSize": 12498387
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v09.hipnc": {
+        "fileSize": 12403924
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v10.hipnc": {
+        "fileSize": 9896947
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\colere_sourcil_v01.hipnc": {
+        "fileSize": 16197315
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\colere_sourcil_v02.hipnc": {
+        "fileSize": 16202386
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_angdress.hipnc": {
+        "fileSize": 18017208
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_angdress_v02.hipnc": {
+        "fileSize": 28885086
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyface.hipnc": {
+        "fileSize": 10201848
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin.hipnc": {
+        "fileSize": 21742073
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin_LEFT_v01.hipnc": {
+        "fileSize": 32079665
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin_RIGHT_v01.hipnc": {
+        "fileSize": 31269632
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin_v02.hipnc": {
+        "fileSize": 21816685
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\deform_scene.hipnc": {
+        "fileSize": 212466
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\maya\\character - Shortcut.lnk": {
+        "fileSize": 1980
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\fumeur_fur_groom_v01.hipnc": {
+        "fileSize": 829814731
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\maya\\workspace.mel": {
+        "fileSize": 1621
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\fumeur_fur_groom_v02.hipnc": {
+        "fileSize": 830442736
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\fumeur_fur_groom_v03.hipnc": {
+        "fileSize": 421142251
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static.abc": {
+        "fileSize": 401711015
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v02.abc": {
+        "fileSize": 401680007
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v03.abc": {
+        "fileSize": 80086071
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v04.abc": {
+        "fileSize": 93316151
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v05.abc": {
+        "fileSize": 84930887
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v06.abc": {
+        "fileSize": 85281031
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v07.abc": {
+        "fileSize": 85772343
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v08.abc": {
+        "fileSize": 85870311
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\output_cards_clump_fumeur.abc": {
+        "fileSize": 10930442
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\output_cards_clump_fumeur_v02.abc": {
+        "fileSize": 10930442
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeur.hipnc": {
+        "fileSize": 4008964
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurCil.hipnc": {
+        "fileSize": 4176966
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurCloth.hipnc": {
+        "fileSize": 4200620
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurEyes.hipnc": {
+        "fileSize": 3650809
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurLunette.hipnc": {
+        "fileSize": 4080318
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain.hipnc": {
+        "fileSize": 4375967
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain_v02.hipnc": {
+        "fileSize": 14554656
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\maya\\workspace.mel": {
+        "fileSize": 2786
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\sculpt\\fumeur_clothes_proxy.obj": {
+        "fileSize": 2091000
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_body.hipnc": {
+        "fileSize": 4073087
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_groom_v01.hipnc": {
+        "fileSize": 29268116
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_groom_v02.hipnc": {
+        "fileSize": 29970915
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_groom_v03.hipnc": {
+        "fileSize": 19316566
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\scatter_levgirlBra.hipnc": {
+        "fileSize": 4285714
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\scatter_levgirlSock.hipnc": {
+        "fileSize": 3759488
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain_v03.hipnc": {
+        "fileSize": 14635463
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\maya\\workspace.mel": {
+        "fileSize": 2688
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_body_groom_v01.hipnc": {
+        "fileSize": 91853932
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_body_groom_v02.hipnc": {
+        "fileSize": 92207406
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_groom_v01.hipnc": {
+        "fileSize": 17239016
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_groom_v02.hipnc": {
+        "fileSize": 17838958
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_bottle_v01.hipnc": {
+        "fileSize": 3122779
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\maya\\workspace.mel": {
+        "fileSize": 1621
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_head__v01.hipnc": {
+        "fileSize": 14320218
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_head__v02.hipnc": {
+        "fileSize": 14447758
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_v01.hipnc": {
+        "fileSize": 17590494
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\maya\\workspace.mel": {
+        "fileSize": 2786
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_v02.hipnc": {
+        "fileSize": 32185380
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_sourcil_v01.hipnc": {
+        "fileSize": 99040720
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_sourcil_v02.hipnc": {
+        "fileSize": 99042446
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\maya\\workspace.mel": {
+        "fileSize": 2746
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_body.hipnc": {
+        "fileSize": 3858132
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_voyeurbody.hipnc": {
+        "fileSize": 3885060
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_voyeurjean.hipnc": {
+        "fileSize": 3611672
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_voyeurtshirt.hipnc": {
+        "fileSize": 3650279
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\setup_bozo_voyjeans.hipnc": {
+        "fileSize": 7958519
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\setup_bozo_voytshirt.hipnc": {
+        "fileSize": 8582289
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\voyeur_groom_v01.hipnc": {
+        "fileSize": 17226479
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\preg_groom_v001.hipnc": {
+        "fileSize": 30088768
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\preg_groom_v002.hipnc": {
+        "fileSize": 10087216
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\preg_groom_v003.hipnc": {
+        "fileSize": 90694281
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\maya\\workspace.mel": {
+        "fileSize": 1621
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_body.hipnc": {
+        "fileSize": 3929157
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_face.hipnc": {
+        "fileSize": 3915797
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_joggo.hipnc": {
+        "fileSize": 4115636
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_soustop.hipnc": {
+        "fileSize": 3072563
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_tanktop.hipnc": {
+        "fileSize": 4165449
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_body.hipnc": {
+        "fileSize": 7804229
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_crocs.hipnc": {
+        "fileSize": 3867542
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_face.hipnc": {
+        "fileSize": 29282406
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_jogging.hipnc": {
+        "fileSize": 3280050
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_socks.hipnc": {
+        "fileSize": 3038546
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_soustop.hipnc": {
+        "fileSize": 2948473
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_tanktop.hipnc": {
+        "fileSize": 4137361
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_testall.hipnc": {
+        "fileSize": 7255198
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\belt.mtl": {
+        "fileSize": 204
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\PROPS_setup_bozo_paint_rono_skin_v003.hipnc": {
+        "fileSize": 10126101
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\belt.obj": {
+        "fileSize": 324891
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 2975821
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\character_rono_cloth.ma": {
+        "fileSize": 52515639
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\maya\\workspace.mel": {
+        "fileSize": 1621
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\merdouille.mtl": {
+        "fileSize": 102
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 2965808
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\merdouille.obj": {
+        "fileSize": 17733
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 2972055
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants.mtl": {
+        "fileSize": 103
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_v001.hipnc": {
+        "fileSize": 2929649
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants.obj": {
+        "fileSize": 739737
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_democap.hipnc": {
+        "fileSize": 2972103
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_pasSim.mtl": {
+        "fileSize": 214
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_demo_deform.hipnc": {
+        "fileSize": 32030641
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_pasSim.obj": {
+        "fileSize": 992467
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sim_sq0010_sh0010.hipnc": {
+        "fileSize": 26373747
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_sim.mtl": {
+        "fileSize": 358
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh40_deform.hipnc": {
+        "fileSize": 29834910
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_sim.obj": {
+        "fileSize": 912079
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh50_deform.hipnc": {
+        "fileSize": 31332284
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\peignoir.mtl": {
+        "fileSize": 419
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh50_deform_v02.hipnc": {
+        "fileSize": 29866169
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\peignoir.obj": {
+        "fileSize": 421566
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh80_deform.hipnc": {
+        "fileSize": 29844425
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\plastic_sim.mtl": {
+        "fileSize": 213
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_Demo.hipnc": {
+        "fileSize": 12721225
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 12668694
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\plastic_sim.obj": {
+        "fileSize": 205592
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 12671385
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\plastic_simRetopo.obj": {
+        "fileSize": 651437
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v002.hipnc": {
+        "fileSize": 12705109
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono.mtl": {
+        "fileSize": 97
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono.obj": {
+        "fileSize": 6732596
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v003.hipnc": {
+        "fileSize": 12705304
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_retopo.mtl": {
+        "fileSize": 112
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v004.hipnc": {
+        "fileSize": 12710806
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_retopo.obj": {
+        "fileSize": 1263993
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 12668689
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_v001.png": {
+        "fileSize": 84455
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_v001.hipnc": {
+        "fileSize": 8380936
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_v001.zprj": {
+        "fileSize": 3783854
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_v002.hipnc": {
+        "fileSize": 9150850
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\sweater.mtl": {
+        "fileSize": 419
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_v003.hipnc": {
+        "fileSize": 11461781
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v012.hipnc": {
+        "fileSize": 34026210
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\sweater.obj": {
+        "fileSize": 1367366
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v013.hipnc": {
+        "fileSize": 53490453
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v014.hipnc": {
+        "fileSize": 23920786
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v015.hipnc": {
+        "fileSize": 24644365
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v016.hipnc": {
+        "fileSize": 22819705
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v017.hipnc": {
+        "fileSize": 26322170
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v018.hipnc": {
+        "fileSize": 28146565
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v019.hipnc": {
+        "fileSize": 28362640
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v10_deform.hipnc": {
+        "fileSize": 29818854
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 3621949
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 3612108
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 3622159
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\preprod\\cursed_greg.obj": {
+        "fileSize": 9651471
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_v001.hipnc": {
+        "fileSize": 3611017
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh40_v1.hipnc": {
+        "fileSize": 10155263
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\levboy_body.hipnc": {
+        "fileSize": 11862792
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh50.hipnc": {
+        "fileSize": 8540814
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\levboy_fur_groom_v02.hipnc": {
+        "fileSize": 527988244
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh50_v2.hipnc": {
+        "fileSize": 9936918
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\scatter_levboyShirt_02.hipnc": {
+        "fileSize": 3545159
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh80_v1.hipnc": {
+        "fileSize": 9459036
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\scatter_levboySocks.hipnc": {
+        "fileSize": 3545131
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_v001.hipnc": {
+        "fileSize": 8180347
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\setup_bozo_paint_body.hipnc": {
+        "fileSize": 8016477
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 6631234
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\usd\\character_ronoHead_mod_v001.usd": {
+        "fileSize": 3449581
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\setup_bozo_paint_face.hipnc": {
+        "fileSize": 20300027
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 6406802
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\preprod\\rono_sculpt.obj": {
+        "fileSize": 4935448
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0050_v002.hipnc": {
+        "fileSize": 6409797
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\maya\\workspace.mel": {
+        "fileSize": 1621
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 6469984
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_v001.hipnc": {
+        "fileSize": 2952955
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh000_v001.hipnc": {
+        "fileSize": 5966936
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 6003137
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 5692131
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 5966936
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_v001.hipnc": {
+        "fileSize": 5138782
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_v002.hipnc": {
+        "fileSize": 5662714
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_peignoiBody_v001.hipnc": {
+        "fileSize": 3808791
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_peignoirArm_v001.hipnc": {
+        "fileSize": 3713545
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_plasticBag_sq100_sh50.hipnc": {
+        "fileSize": 3176540
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_plasticBag_sq100_sh80.hipnc": {
+        "fileSize": 3176544
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\rono_projectMax_v004.ZPR": {
+        "fileSize": 3464838208
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_plasticBag_v001.hipnc": {
+        "fileSize": 3184778
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 3184264
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\usd\\item_ronoCap_geometry.usd": {
+        "fileSize": 341783
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 3217916
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 3184757
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_v001.hipnc": {
+        "fileSize": 3169792
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 2969804
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 2960403
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 2965953
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_v001.hipnc": {
+        "fileSize": 2941489
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_sq0100_sh0040_v001.hipnc": {
+        "fileSize": 3721943
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_sq0100_sh0050_v001.hipnc": {
+        "fileSize": 3747491
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_sq0100_sh0080_v001.hipnc": {
+        "fileSize": 3715888
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_v001.hipnc": {
+        "fileSize": 3514624
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_turnsim_v2.hipnc": {
+        "fileSize": 10102541
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\rono_projectRobin_v001.ZPR": {
+        "fileSize": 2927262928
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\setup_bozo_paint_rono_skin_sq100_sh40.hipnc": {
+        "fileSize": 10180734
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\setup_bozo_paint_rono_skin_sq100_sh50.hipnc": {
+        "fileSize": 10179982
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\setup_bozo_paint_rono_skin_sq100_sh80.hipnc": {
+        "fileSize": 10180223
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\sculpt\\levboy_project.zpr": {
+        "fileSize": 811183176
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\rono_projectRobin_v002.ZPR": {
+        "fileSize": 280010120
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\Rono_sculpt_fix_v003.mtl": {
+        "fileSize": 115
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\sculpt\\zbrush_mrcacaDisplace_project.zpr": {
+        "fileSize": 110891320
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain_v04.hipnc": {
+        "fileSize": 14650494
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurVeste.hipnc": {
+        "fileSize": 4029300
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\sculpt\\zbrush_mrcaca_project.zpr": {
+        "fileSize": 139378188
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeur_v02.hipnc": {
+        "fileSize": 4331406
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeur_v03.hipnc": {
+        "fileSize": 9722330
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\vest_workflowbase.hipnc": {
+        "fileSize": 8310975
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\vest_workflowbase_2.hipnc": {
+        "fileSize": 8314658
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\Rono_sculpt_fix_v003.obj": {
+        "fileSize": 4927196
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\houdini\\clothesqudead.abc": {
+        "fileSize": 110115
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\vest_workflowplanes.hipnc": {
+        "fileSize": 6584715
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\Zbrush_ronoCap_project.zpr": {
+        "fileSize": 33685292
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\houdini\\clothesqudead2.abc": {
+        "fileSize": 60269
+    },
+    "//storage01/3d4/trash/04_asset/character\\beatenwoman\\sculpt\\zbrush_beatenwomanDisplace_project.zpr": {
+        "fileSize": 453497300
+    },
+    "//storage01/3d4/trash/04_asset/character\\beatenwoman\\sculpt\\zbrush_beatenwoman_project.zpr": {
+        "fileSize": 33362428
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_body.hipnc": {
+        "fileSize": 3906800
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_body_v02.hipnc": {
+        "fileSize": 3906808
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_face.hipnc": {
+        "fileSize": 3783505
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_face_v02.hipnc": {
+        "fileSize": 3783577
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_paint_publish.hipnc": {
+        "fileSize": 3068954
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tanktop.hipnc": {
+        "fileSize": 3070286
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tanktop_v02.hipnc": {
+        "fileSize": 3114266
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tvguyshort.hipnc": {
+        "fileSize": 3164741
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\maya\\workspace.mel": {
+        "fileSize": 2786
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tvguyshort_v02.hipnc": {
+        "fileSize": 3164747
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tvguytanktop.hipnc": {
+        "fileSize": 3121906
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_groom_v01.hipnc": {
+        "fileSize": 12820949
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_groom_v02.hipnc": {
+        "fileSize": 14050824
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_groom_v03.hipnc": {
+        "fileSize": 14114428
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_sourcil_v01.hipnc": {
+        "fileSize": 14973308
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_sourcil_v02.hipnc": {
+        "fileSize": 16106283
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_DAMAGED.hipnc": {
+        "fileSize": 497089100
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_FAMILY_FRIENDLY.hipnc": {
+        "fileSize": 424957935
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_sq0021_sh0010.hipnc": {
+        "fileSize": 424839249
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_sq0100_sh0080_v01.hipnc": {
+        "fileSize": 497208459
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_test_Dmg.hipnc": {
+        "fileSize": 497090016
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\maya\\workspace.mel": {
+        "fileSize": 2746
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_turn.hipnc": {
+        "fileSize": 424850319
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_turnaround_v1.hipnc": {
+        "fileSize": 424810581
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v001.hipnc": {
+        "fileSize": 288204731
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v002.hipnc": {
+        "fileSize": 387985040
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v003.hipnc": {
+        "fileSize": 400404376
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v004.hipnc": {
+        "fileSize": 412024834
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v005.hipnc": {
+        "fileSize": 422730861
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\sculpt\\UniversalHuman_DisplaceBody_project.zpr": {
+        "fileSize": 7910112
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\wing_dissolve.hipnc": {
+        "fileSize": 140771
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\Illustration_sans_titre (5).png": {
+        "fileSize": 835187
+    },
+    "//storage01/3d4/trash/04_asset/character\\squGuy\\houdini\\sqguybody_publish_new.hipnc": {
+        "fileSize": 2559692
+    },
+    "//storage01/3d4/trash/04_asset/character\\squGuy\\houdini\\sqguyclothes_publish_new.hipnc": {
+        "fileSize": 7027842
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\sculpt\\UniversalHuman_project.zpr": {
+        "fileSize": 4995928
+    },
+    "//storage01/3d4/trash/04_asset/character\\squGuy\\maya\\workspace.mel": {
+        "fileSize": 2712
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\MV2_Loose Fit Cargo Pants.zpac": {
+        "fileSize": 3809841
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants.mtl": {
+        "fileSize": 3435
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\houdini\\PROPS_setup_bozo_paint_publish.hipnc": {
+        "fileSize": 2993156
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\maya\\workspace.mel": {
+        "fileSize": 2786
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\maya\\workspace.mel": {
+        "fileSize": 2746
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants.obj": {
+        "fileSize": 3641611
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\houdini\\SquDead_sourcil_v01.hipnc": {
+        "fileSize": 23270250
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants_v002.mtl": {
+        "fileSize": 1200
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants_v002.obj": {
+        "fileSize": 3582283
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\PLAIN HOODED SWEATSHIRT.zpac": {
+        "fileSize": 25656466
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\squat_ded_clothes.png": {
+        "fileSize": 140087
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\squat_ded_clothes.zprj": {
+        "fileSize": 82647326
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt.mtl": {
+        "fileSize": 24639
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt.obj": {
+        "fileSize": 109325316
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\Thumbs.db": {
+        "fileSize": 15360
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt_flat.mtl": {
+        "fileSize": 7887
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt_flat.obj": {
+        "fileSize": 109236365
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_02.mtl": {
+        "fileSize": 946
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_02.obj": {
+        "fileSize": 37714026
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_03.mtl": {
+        "fileSize": 6647
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_03.obj": {
+        "fileSize": 102078775
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\character_squatDead_mod_v001.fbx": {
+        "fileSize": 10239136
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\groom_rat_ref_attributes.abc": {
+        "fileSize": 344980553
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\Thumbs.db": {
+        "fileSize": 366080
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\maya\\workspace.mel": {
+        "fileSize": 2642
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_cache_scene.hipnc": {
+        "fileSize": 315353023
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\ZBrushProject_pigeon.zpr": {
+        "fileSize": 22447540
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_sh0010_v2.hipnc": {
+        "fileSize": 1108755096
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_sq_0010_sh0010_v2.hipnc": {
+        "fileSize": 511056647
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_sq_0100_sh0080_v1.hipnc": {
+        "fileSize": 1111181845
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_turnaround_v1.hipnc": {
+        "fileSize": 511054383
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_DAMAGED_v2.hipnc": {
+        "fileSize": 1111185183
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_FAMILYFRIENDLY.hipnc": {
+        "fileSize": 510932015
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_FAMILYFRIENDLY_LOD2.hipnc": {
+        "fileSize": 510824986
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_sq01008sh0021_clean.hipnc": {
+        "fileSize": 511057580
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\NewScene.pur": {
+        "fileSize": 3142951
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\ZBrushProject_pigeonDetails.zpr": {
+        "fileSize": 295173972
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\nuke\\rat_turn.nk": {
+        "fileSize": 80721
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_oldProjectArchive.7z": {
+        "fileSize": 7403365502
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\ZBrushProject_pigeonMouth.zpr": {
+        "fileSize": 16389124
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\nuke\\rat_turn.nk~": {
+        "fileSize": 3751
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\squatDead_v01.zpr": {
+        "fileSize": 30387452
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_ratMouth_project.zpr": {
+        "fileSize": 4361564
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\zbrush_squatDead_proejct.zpr": {
+        "fileSize": 193153256
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_rat_project.zpr": {
+        "fileSize": 416274108
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_rat_project2.zpr": {
+        "fileSize": 441704712
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\houdini\\setup_bozo_squdeadclothes.hipnc": {
+        "fileSize": 5901259
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\sculpt\\NewScene.pur": {
+        "fileSize": 6319222
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\sculpt\\zbrush_tvguy_project.zpr": {
+        "fileSize": 108333872
     }
 }

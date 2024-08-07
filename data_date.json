@@ -1,12 +1,1552 @@
 {
-    "C:/Users/3D4/Desktop/target_folder\\hello\\heyhey.txt": {
-        "timeDelta": 0.0,
-        "creationDate": 1722953134.4182253,
-        "modificationDate": 1722953134.4182253
+    "//storage01/3d4/trash/04_asset/character\\beatenwoman\\NewScene.pur": {
+        "timeDelta": 0.2499537467956543,
+        "creationDate": 1713514697.527681,
+        "modificationDate": 1713514697.7776349
     },
-    "C:/Users/3D4/Desktop/target_folder\\hello\\hey\\test.txt": {
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\NewScene.pur": {
+        "timeDelta": 11311.206383943558,
+        "creationDate": 1713181643.0678184,
+        "modificationDate": 1713192954.2742023
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\RefBoard_PIGEON.pur": {
+        "timeDelta": 8910269.054724932,
+        "creationDate": 1702634789.612446,
+        "modificationDate": 1711545058.667171
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\RefBoard_RAT.pur": {
+        "timeDelta": 4224458.411536455,
+        "creationDate": 1701451566.5592847,
+        "modificationDate": 1705676024.9708211
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\workspace.mel": {
         "timeDelta": 0.0,
-        "creationDate": 1722859323.8127708,
-        "modificationDate": 1722859323.8127708
+        "creationDate": 1721029445.31702,
+        "modificationDate": 1721029445.31702
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_collier_v01.hipnc": {
+        "timeDelta": 4.019331693649292,
+        "creationDate": 1720788665.4572814,
+        "modificationDate": 1720788669.476613
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v01.hipnc": {
+        "timeDelta": 6.694814682006836,
+        "creationDate": 1716211504.52792,
+        "modificationDate": 1716211511.2227347
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v02.hipnc": {
+        "timeDelta": 10.6226224899292,
+        "creationDate": 1716220845.2701645,
+        "modificationDate": 1716220855.892787
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v03.hipnc": {
+        "timeDelta": 7.485001087188721,
+        "creationDate": 1716278598.857843,
+        "modificationDate": 1716278606.342844
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v04.hipnc": {
+        "timeDelta": 11.638829708099365,
+        "creationDate": 1716283780.092691,
+        "modificationDate": 1716283791.7315207
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v05.hipnc": {
+        "timeDelta": 25.406274557113647,
+        "creationDate": 1720607175.147421,
+        "modificationDate": 1720607200.5536954
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v06.hipnc": {
+        "timeDelta": 10.66378116607666,
+        "creationDate": 1720614844.6138394,
+        "modificationDate": 1720614855.2776206
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\universalHuman_Refs.pur": {
+        "timeDelta": 3611432.2877504826,
+        "creationDate": 1704806908.236152,
+        "modificationDate": 1708418340.5239024
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v07.hipnc": {
+        "timeDelta": 465.13441157341003,
+        "creationDate": 1720682846.277122,
+        "modificationDate": 1720683311.4115336
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v08.hipnc": {
+        "timeDelta": 255.85289096832275,
+        "creationDate": 1720685785.4203002,
+        "modificationDate": 1720686041.2731912
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v09.hipnc": {
+        "timeDelta": 18.907265663146973,
+        "creationDate": 1720700211.0807617,
+        "modificationDate": 1720700229.9880273
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\ang_groom_v10.hipnc": {
+        "timeDelta": 38.74026894569397,
+        "creationDate": 1720797194.6099403,
+        "modificationDate": 1720797233.3502092
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\colere_sourcil_v01.hipnc": {
+        "timeDelta": 82.93948197364807,
+        "creationDate": 1720796012.8790104,
+        "modificationDate": 1720796095.8184924
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\colere_sourcil_v02.hipnc": {
+        "timeDelta": 43.40419793128967,
+        "creationDate": 1720797242.7787235,
+        "modificationDate": 1720797286.1829214
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_angdress.hipnc": {
+        "timeDelta": 4.609430551528931,
+        "creationDate": 1715779997.1118658,
+        "modificationDate": 1715780001.7212963
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_angdress_v02.hipnc": {
+        "timeDelta": 11.250614166259766,
+        "creationDate": 1720599383.3612678,
+        "modificationDate": 1720599394.611882
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyface.hipnc": {
+        "timeDelta": 29.451533555984497,
+        "creationDate": 1720798553.0547488,
+        "modificationDate": 1720798582.5062823
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin.hipnc": {
+        "timeDelta": 3.147510051727295,
+        "creationDate": 1715778861.35811,
+        "modificationDate": 1715778864.50562
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin_LEFT_v01.hipnc": {
+        "timeDelta": 43.346298694610596,
+        "creationDate": 1720800102.6939008,
+        "modificationDate": 1720800146.0401995
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin_RIGHT_v01.hipnc": {
+        "timeDelta": 37.537933588027954,
+        "creationDate": 1720800154.5516164,
+        "modificationDate": 1720800192.08955
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\houdini\\setup_bozo_voyskin_v02.hipnc": {
+        "timeDelta": 14.398573637008667,
+        "creationDate": 1720787399.2238185,
+        "modificationDate": 1720787413.6223922
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\deform_scene.hipnc": {
+        "timeDelta": 0.30930566787719727,
+        "creationDate": 1707821946.0984504,
+        "modificationDate": 1707821946.407756
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\maya\\character - Shortcut.lnk": {
+        "timeDelta": 0.0,
+        "creationDate": 1710754478.221028,
+        "modificationDate": 1710754478.221028
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\fumeur_fur_groom_v01.hipnc": {
+        "timeDelta": 425.13709568977356,
+        "creationDate": 1719839662.6104417,
+        "modificationDate": 1719840087.7475374
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\maya\\workspace.mel": {
+        "timeDelta": 444654.8829431534,
+        "creationDate": 1706697027.8992963,
+        "modificationDate": 1707141682.7822394
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\fumeur_fur_groom_v02.hipnc": {
+        "timeDelta": 69.71160173416138,
+        "creationDate": 1719826701.3048518,
+        "modificationDate": 1719826771.0164535
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\fumeur_fur_groom_v03.hipnc": {
+        "timeDelta": 87.05547904968262,
+        "creationDate": 1719837969.3582125,
+        "modificationDate": 1719838056.4136915
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static.abc": {
+        "timeDelta": 2008.2874910831451,
+        "creationDate": 1707218302.0203183,
+        "modificationDate": 1707220310.3078094
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v02.abc": {
+        "timeDelta": 4.485854625701904,
+        "creationDate": 1707401280.7611847,
+        "modificationDate": 1707401285.2470393
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v03.abc": {
+        "timeDelta": 1.0331966876983643,
+        "creationDate": 1707401950.2285872,
+        "modificationDate": 1707401951.2617838
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v04.abc": {
+        "timeDelta": 1.1437573432922363,
+        "creationDate": 1707403008.0523455,
+        "modificationDate": 1707403009.1961029
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v05.abc": {
+        "timeDelta": 1.0795624256134033,
+        "creationDate": 1707403320.2624345,
+        "modificationDate": 1707403321.341997
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v06.abc": {
+        "timeDelta": 1.096609115600586,
+        "creationDate": 1707403607.206479,
+        "modificationDate": 1707403608.3030882
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v07.abc": {
+        "timeDelta": 1.0914795398712158,
+        "creationDate": 1707404012.8949203,
+        "modificationDate": 1707404013.9864
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\groom_fumeur_base_static_v08.abc": {
+        "timeDelta": 1.125936508178711,
+        "creationDate": 1707405384.5218854,
+        "modificationDate": 1707405385.647822
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\output_cards_clump_fumeur.abc": {
+        "timeDelta": 1575.042753458023,
+        "creationDate": 1707218112.908284,
+        "modificationDate": 1707219687.9510374
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\output_cards_clump_fumeur_v02.abc": {
+        "timeDelta": 157.62289714813232,
+        "creationDate": 1707401116.050942,
+        "modificationDate": 1707401273.673839
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeur.hipnc": {
+        "timeDelta": 1.9784753322601318,
+        "creationDate": 1707145383.1920793,
+        "modificationDate": 1707145385.1705546
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurCil.hipnc": {
+        "timeDelta": 26.70303964614868,
+        "creationDate": 1719844193.1969059,
+        "modificationDate": 1719844219.8999455
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurCloth.hipnc": {
+        "timeDelta": 8.459079265594482,
+        "creationDate": 1720517817.0082183,
+        "modificationDate": 1720517825.4672976
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurEyes.hipnc": {
+        "timeDelta": 1.9627861976623535,
+        "creationDate": 1707145783.7925541,
+        "modificationDate": 1707145785.7553403
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurLunette.hipnc": {
+        "timeDelta": 4.614134788513184,
+        "creationDate": 1720546751.5783055,
+        "modificationDate": 1720546756.1924403
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain.hipnc": {
+        "timeDelta": 1.8482224941253662,
+        "creationDate": 1707390722.5535252,
+        "modificationDate": 1707390724.4017477
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain_v02.hipnc": {
+        "timeDelta": 2.7081940174102783,
+        "creationDate": 1707733740.4201298,
+        "modificationDate": 1707733743.1283238
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_body.hipnc": {
+        "timeDelta": 2.1164512634277344,
+        "creationDate": 1716995023.005247,
+        "modificationDate": 1716995025.1216984
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_groom_v01.hipnc": {
+        "timeDelta": 9.80234956741333,
+        "creationDate": 1715696999.1075294,
+        "modificationDate": 1715697008.909879
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_groom_v02.hipnc": {
+        "timeDelta": -117.241938829422,
+        "creationDate": 1715698624.782545,
+        "modificationDate": 1715698507.5406063
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\levgirl_groom_v03.hipnc": {
+        "timeDelta": 8.679160118103027,
+        "creationDate": 1717063490.2489064,
+        "modificationDate": 1717063498.9280665
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\scatter_levgirlBra.hipnc": {
+        "timeDelta": -1148430.0150539875,
+        "creationDate": 1716821449.831584,
+        "modificationDate": 1715673019.81653
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\houdini\\scatter_levgirlSock.hipnc": {
+        "timeDelta": -1206882.5427765846,
+        "creationDate": 1716821449.9411032,
+        "modificationDate": 1715614567.3983266
+    },
+    "//storage01/3d4/trash/04_asset/character\\angWomen\\maya\\workspace.mel": {
+        "timeDelta": 64.30544877052307,
+        "creationDate": 1716219840.525569,
+        "modificationDate": 1716219904.8310177
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\sculpt\\fumeur_clothes_proxy.obj": {
+        "timeDelta": -596000.2769665718,
+        "creationDate": 1706697134.0780878,
+        "modificationDate": 1706101133.8011212
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\maya\\workspace.mel": {
+        "timeDelta": 430652.97074747086,
+        "creationDate": 1720607847.5810323,
+        "modificationDate": 1721038500.5517797
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_body_groom_v01.hipnc": {
+        "timeDelta": 30.531723976135254,
+        "creationDate": 1716367183.1101234,
+        "modificationDate": 1716367213.6418474
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_body_groom_v02.hipnc": {
+        "timeDelta": 209.7956190109253,
+        "creationDate": 1719240640.713304,
+        "modificationDate": 1719240850.508923
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_groom_v01.hipnc": {
+        "timeDelta": 13.65291452407837,
+        "creationDate": 1716199507.9424222,
+        "modificationDate": 1716199521.5953367
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_groom_v02.hipnc": {
+        "timeDelta": 12.672004461288452,
+        "creationDate": 1719237494.130659,
+        "modificationDate": 1719237506.8026636
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_bottle_v01.hipnc": {
+        "timeDelta": 1.3125958442687988,
+        "creationDate": 1716823831.3421674,
+        "modificationDate": 1716823832.6547632
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_head__v01.hipnc": {
+        "timeDelta": 10.456502914428711,
+        "creationDate": 1716823628.426707,
+        "modificationDate": 1716823638.88321
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_head__v02.hipnc": {
+        "timeDelta": 6.024983882904053,
+        "creationDate": 1719323235.5218167,
+        "modificationDate": 1719323241.5468006
+    },
+    "//storage01/3d4/trash/04_asset/character\\levgirl\\maya\\workspace.mel": {
+        "timeDelta": 3651956.211114168,
+        "creationDate": 1712128695.8083055,
+        "modificationDate": 1715780652.0194197
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_v01.hipnc": {
+        "timeDelta": 4.560708045959473,
+        "creationDate": 1719215240.1209514,
+        "modificationDate": 1719215244.6816595
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\maya\\workspace.mel": {
+        "timeDelta": 19.88204336166382,
+        "creationDate": 1716200595.4749405,
+        "modificationDate": 1716200615.356984
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_scatter_v02.hipnc": {
+        "timeDelta": 3.9114975929260254,
+        "creationDate": 1719321059.4899173,
+        "modificationDate": 1719321063.4014149
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_sourcil_v01.hipnc": {
+        "timeDelta": 13.099055051803589,
+        "creationDate": 1719238059.9427202,
+        "modificationDate": 1719238073.0417752
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\houdini\\caca_sourcil_v02.hipnc": {
+        "timeDelta": 17.32557964324951,
+        "creationDate": 1719239746.1700814,
+        "modificationDate": 1719239763.495661
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\maya\\workspace.mel": {
+        "timeDelta": 3656758.934739828,
+        "creationDate": 1712128758.1238935,
+        "modificationDate": 1715785517.0586333
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_body.hipnc": {
+        "timeDelta": 1.8734464645385742,
+        "creationDate": 1716388409.982803,
+        "modificationDate": 1716388411.8562496
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_voyeurbody.hipnc": {
+        "timeDelta": 2.017303705215454,
+        "creationDate": 1716882506.9118013,
+        "modificationDate": 1716882508.929105
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_voyeurjean.hipnc": {
+        "timeDelta": 2.1250460147857666,
+        "creationDate": 1716882501.2553906,
+        "modificationDate": 1716882503.3804367
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\PROPS_setup_bozo_voyeurtshirt.hipnc": {
+        "timeDelta": 2.8046040534973145,
+        "creationDate": 1716881975.0954664,
+        "modificationDate": 1716881977.9000704
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\setup_bozo_voyjeans.hipnc": {
+        "timeDelta": 2.1038482189178467,
+        "creationDate": 1715760933.3255887,
+        "modificationDate": 1715760935.429437
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\setup_bozo_voytshirt.hipnc": {
+        "timeDelta": 2.1864852905273438,
+        "creationDate": 1715758536.9979231,
+        "modificationDate": 1715758539.1844084
+    },
+    "//storage01/3d4/trash/04_asset/character\\voyeur\\houdini\\voyeur_groom_v01.hipnc": {
+        "timeDelta": 12.081417798995972,
+        "creationDate": 1716992976.2761934,
+        "modificationDate": 1716992988.3576112
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\preg_groom_v001.hipnc": {
+        "timeDelta": 5.186093091964722,
+        "creationDate": 1711700495.150689,
+        "modificationDate": 1711700500.336782
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\preg_groom_v002.hipnc": {
+        "timeDelta": 3.894566297531128,
+        "creationDate": 1711711477.4633882,
+        "modificationDate": 1711711481.3579545
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\preg_groom_v003.hipnc": {
+        "timeDelta": 22.059728860855103,
+        "creationDate": 1716546300.2494738,
+        "modificationDate": 1716546322.3092027
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\maya\\workspace.mel": {
+        "timeDelta": 2746667.7645993233,
+        "creationDate": 1708358055.2017252,
+        "modificationDate": 1711104722.9663246
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_body.hipnc": {
+        "timeDelta": 1.8781566619873047,
+        "creationDate": 1716538091.957732,
+        "modificationDate": 1716538093.8358886
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_face.hipnc": {
+        "timeDelta": 2.017629623413086,
+        "creationDate": 1716538066.622162,
+        "modificationDate": 1716538068.6397917
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_joggo.hipnc": {
+        "timeDelta": 1.8154451847076416,
+        "creationDate": 1716533672.8714082,
+        "modificationDate": 1716533674.6868534
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_soustop.hipnc": {
+        "timeDelta": 1.9527051448822021,
+        "creationDate": 1716533988.8909838,
+        "modificationDate": 1716533990.843689
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\PROPS_setup_bozo_tanktop.hipnc": {
+        "timeDelta": 1.984011173248291,
+        "creationDate": 1716538088.3537297,
+        "modificationDate": 1716538090.337741
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_body.hipnc": {
+        "timeDelta": 3.7924578189849854,
+        "creationDate": 1714587824.062953,
+        "modificationDate": 1714587827.8554108
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_crocs.hipnc": {
+        "timeDelta": 1.7358198165893555,
+        "creationDate": 1711105382.5008628,
+        "modificationDate": 1711105384.2366827
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_face.hipnc": {
+        "timeDelta": 11.280622959136963,
+        "creationDate": 1714588552.2418468,
+        "modificationDate": 1714588563.5224698
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_jogging.hipnc": {
+        "timeDelta": 2.3295888900756836,
+        "creationDate": 1711105051.7525518,
+        "modificationDate": 1711105054.0821407
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_socks.hipnc": {
+        "timeDelta": 2.0247416496276855,
+        "creationDate": 1711105890.0745142,
+        "modificationDate": 1711105892.0992558
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_soustop.hipnc": {
+        "timeDelta": 1.6061365604400635,
+        "creationDate": 1711108425.191404,
+        "modificationDate": 1711108426.7975407
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_tanktop.hipnc": {
+        "timeDelta": 2.18133282661438,
+        "creationDate": 1711106269.3341935,
+        "modificationDate": 1711106271.5155263
+    },
+    "//storage01/3d4/trash/04_asset/character\\pregnant\\houdini\\setup_bozo_paint_testall.hipnc": {
+        "timeDelta": 1.359114408493042,
+        "creationDate": 1712141025.4776757,
+        "modificationDate": 1712141026.83679
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\belt.mtl": {
+        "timeDelta": 0.04686570167541504,
+        "creationDate": 1708505264.8546102,
+        "modificationDate": 1708505264.901476
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\PROPS_setup_bozo_paint_rono_skin_v003.hipnc": {
+        "timeDelta": -8025656.617941856,
+        "creationDate": 1721222527.0375164,
+        "modificationDate": 1713196870.4195745
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\belt.obj": {
+        "timeDelta": 0.04686570167541504,
+        "creationDate": 1708505264.8546102,
+        "modificationDate": 1708505264.901476
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\character_rono_cloth.ma": {
+        "timeDelta": 1.2194583415985107,
+        "creationDate": 1708681200.9016626,
+        "modificationDate": 1708681202.121121
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 8.976685047149658,
+        "creationDate": 1721317254.1684182,
+        "modificationDate": 1721317263.1451032
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\maya\\workspace.mel": {
+        "timeDelta": 11806705.885193586,
+        "creationDate": 1701454334.1668627,
+        "modificationDate": 1713261040.0520563
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\merdouille.mtl": {
+        "timeDelta": 1.7818610668182373,
+        "creationDate": 1708525906.9780245,
+        "modificationDate": 1708525908.7598855
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 23.398340463638306,
+        "creationDate": 1721134685.5496688,
+        "modificationDate": 1721134708.9480093
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\merdouille.obj": {
+        "timeDelta": 1.7974841594696045,
+        "creationDate": 1708525906.9780245,
+        "modificationDate": 1708525908.7755086
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 2.339977502822876,
+        "creationDate": 1721311166.5273075,
+        "modificationDate": 1721311168.867285
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants.mtl": {
+        "timeDelta": 6381.900684118271,
+        "creationDate": 1708504915.6937335,
+        "modificationDate": 1708511297.5944176
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_cap_v001.hipnc": {
+        "timeDelta": 1.0808148384094238,
+        "creationDate": 1712045411.402416,
+        "modificationDate": 1712045412.4832308
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants.obj": {
+        "timeDelta": 0.0937349796295166,
+        "creationDate": 1708511297.5006826,
+        "modificationDate": 1708511297.5944176
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_democap.hipnc": {
+        "timeDelta": 8.11779236793518,
+        "creationDate": 1722947408.2113519,
+        "modificationDate": 1722947416.3291442
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_pasSim.mtl": {
+        "timeDelta": 0.0,
+        "creationDate": 1708528959.586193,
+        "modificationDate": 1708528959.586193
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_demo_deform.hipnc": {
+        "timeDelta": 17.068692684173584,
+        "creationDate": 1722953966.087772,
+        "modificationDate": 1722953983.1564646
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_pasSim.obj": {
+        "timeDelta": 0.14058780670166016,
+        "creationDate": 1708528959.429983,
+        "modificationDate": 1708528959.5705707
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sim_sq0010_sh0010.hipnc": {
+        "timeDelta": 5.377929449081421,
+        "creationDate": 1713878921.664627,
+        "modificationDate": 1713878927.0425565
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_sim.mtl": {
+        "timeDelta": 4060.726763010025,
+        "creationDate": 1708520978.723165,
+        "modificationDate": 1708525039.449928
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh40_deform.hipnc": {
+        "timeDelta": 17.48119831085205,
+        "creationDate": 1721290069.8475401,
+        "modificationDate": 1721290087.3287385
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\pants_sim.obj": {
+        "timeDelta": 4060.9141743183136,
+        "creationDate": 1708520978.5201337,
+        "modificationDate": 1708525039.434308
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh50_deform.hipnc": {
+        "timeDelta": 21.21983003616333,
+        "creationDate": 1721899578.428389,
+        "modificationDate": 1721899599.648219
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\peignoir.mtl": {
+        "timeDelta": 0.06248664855957031,
+        "creationDate": 1708680147.7388062,
+        "modificationDate": 1708680147.801293
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh50_deform_v02.hipnc": {
+        "timeDelta": -84254.5004632473,
+        "creationDate": 1721811205.5104191,
+        "modificationDate": 1721726951.009956
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\peignoir.obj": {
+        "timeDelta": 0.0781099796295166,
+        "creationDate": 1708680147.7388062,
+        "modificationDate": 1708680147.8169162
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_sq100_sh80_deform.hipnc": {
+        "timeDelta": 16.4140522480011,
+        "creationDate": 1722956310.8197849,
+        "modificationDate": 1722956327.2338371
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\plastic_sim.mtl": {
+        "timeDelta": 4871.275918483734,
+        "creationDate": 1708521282.915297,
+        "modificationDate": 1708526154.1912155
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_Demo.hipnc": {
+        "timeDelta": 22.151592254638672,
+        "creationDate": 1722950122.3270078,
+        "modificationDate": 1722950144.4786
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\plastic_sim.obj": {
+        "timeDelta": 4871.32271528244,
+        "creationDate": 1708521282.852878,
+        "modificationDate": 1708526154.1755934
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 27.91227078437805,
+        "creationDate": 1721297875.8344476,
+        "modificationDate": 1721297903.7467184
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\plastic_simRetopo.obj": {
+        "timeDelta": 0.01562643051147461,
+        "creationDate": 1708675253.0161674,
+        "modificationDate": 1708675253.0317938
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 43.905773639678955,
+        "creationDate": 1721747847.9603782,
+        "modificationDate": 1721747891.8661518
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono.mtl": {
+        "timeDelta": 0.7718939781188965,
+        "creationDate": 1708505227.985053,
+        "modificationDate": 1708505228.756947
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v002.hipnc": {
+        "timeDelta": 23.780361652374268,
+        "creationDate": 1721235283.3838077,
+        "modificationDate": 1721235307.1641693
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono.obj": {
+        "timeDelta": 0.7718939781188965,
+        "creationDate": 1708505227.985053,
+        "modificationDate": 1708505228.756947
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v003.hipnc": {
+        "timeDelta": 6.102511167526245,
+        "creationDate": 1721756535.0680797,
+        "modificationDate": 1721756541.1705909
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_retopo.mtl": {
+        "timeDelta": 0.0,
+        "creationDate": 1708673816.5460026,
+        "modificationDate": 1708673816.5460026
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0050_v004.hipnc": {
+        "timeDelta": 10.114155769348145,
+        "creationDate": 1721837397.960923,
+        "modificationDate": 1721837408.0750787
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_retopo.obj": {
+        "timeDelta": 0.04690122604370117,
+        "creationDate": 1708673816.4678907,
+        "modificationDate": 1708673816.514792
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 25.99866533279419,
+        "creationDate": 1721296799.090932,
+        "modificationDate": 1721296825.0895972
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_v001.png": {
+        "timeDelta": 19242.26162290573,
+        "creationDate": 1708506060.2451024,
+        "modificationDate": 1708525302.5067253
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_v001.hipnc": {
+        "timeDelta": 3.793259859085083,
+        "creationDate": 1712301141.6348794,
+        "modificationDate": 1712301145.4281392
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\rono_pants_v001.zprj": {
+        "timeDelta": 19242.35148334503,
+        "creationDate": 1708506060.3075747,
+        "modificationDate": 1708525302.659058
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_v002.hipnc": {
+        "timeDelta": 5.734302282333374,
+        "creationDate": 1712304802.3300495,
+        "modificationDate": 1712304808.0643518
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\sweater.mtl": {
+        "timeDelta": 1731.8190939426422,
+        "creationDate": 1708679504.7071302,
+        "modificationDate": 1708681236.5262241
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_tummy_v003.hipnc": {
+        "timeDelta": 4.59213662147522,
+        "creationDate": 1712329182.55191,
+        "modificationDate": 1712329187.1440465
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v012.hipnc": {
+        "timeDelta": 5.059357166290283,
+        "creationDate": 1711123156.5166442,
+        "modificationDate": 1711123161.5760014
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\marvelous\\sweater.obj": {
+        "timeDelta": 0.20308661460876465,
+        "creationDate": 1708681236.3387547,
+        "modificationDate": 1708681236.5418413
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v013.hipnc": {
+        "timeDelta": 5.717852354049683,
+        "creationDate": 1712129693.4759483,
+        "modificationDate": 1712129699.1938007
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v014.hipnc": {
+        "timeDelta": 10.271315574645996,
+        "creationDate": 1712214478.4477348,
+        "modificationDate": 1712214488.7190504
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v015.hipnc": {
+        "timeDelta": 6.2335968017578125,
+        "creationDate": 1712318708.1712313,
+        "modificationDate": 1712318714.404828
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v016.hipnc": {
+        "timeDelta": 4.21315598487854,
+        "creationDate": 1713432878.5081296,
+        "modificationDate": 1713432882.7212856
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v017.hipnc": {
+        "timeDelta": 5.7721498012542725,
+        "creationDate": 1713456024.8628347,
+        "modificationDate": 1713456030.6349845
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v018.hipnc": {
+        "timeDelta": 11.520753622055054,
+        "creationDate": 1719822185.810813,
+        "modificationDate": 1719822197.3315666
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v019.hipnc": {
+        "timeDelta": 9.91477632522583,
+        "creationDate": 1720019063.901052,
+        "modificationDate": 1720019073.8158283
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_groom_v10_deform.hipnc": {
+        "timeDelta": 97.68989896774292,
+        "creationDate": 1720427842.65864,
+        "modificationDate": 1720427940.3485389
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 16.48692798614502,
+        "creationDate": 1721227926.2090256,
+        "modificationDate": 1721227942.6959536
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 79.71827411651611,
+        "creationDate": 1721218206.824718,
+        "modificationDate": 1721218286.542992
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 1.1248552799224854,
+        "creationDate": 1721147839.4106,
+        "modificationDate": 1721147840.5354552
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_hoodie_v001.hipnc": {
+        "timeDelta": 1.7808887958526611,
+        "creationDate": 1712598320.7827582,
+        "modificationDate": 1712598322.563647
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh40_v1.hipnc": {
+        "timeDelta": 8.670283317565918,
+        "creationDate": 1721379003.9023397,
+        "modificationDate": 1721379012.572623
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\levboy_body.hipnc": {
+        "timeDelta": 4.365165948867798,
+        "creationDate": 1717055762.152272,
+        "modificationDate": 1717055766.517438
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh50.hipnc": {
+        "timeDelta": 27.15103030204773,
+        "creationDate": 1720782277.128035,
+        "modificationDate": 1720782304.2790654
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\levboy_fur_groom_v02.hipnc": {
+        "timeDelta": 22.947362661361694,
+        "creationDate": 1716969578.8379638,
+        "modificationDate": 1716969601.7853265
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh50_v2.hipnc": {
+        "timeDelta": 15.690395593643188,
+        "creationDate": 1721312479.4099414,
+        "modificationDate": 1721312495.100337
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\scatter_levboyShirt_02.hipnc": {
+        "timeDelta": -1224604.8102753162,
+        "creationDate": 1716821439.9653745,
+        "modificationDate": 1715596835.1550992
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_sq100_sh80_v1.hipnc": {
+        "timeDelta": 6.1142661571502686,
+        "creationDate": 1721567760.096226,
+        "modificationDate": 1721567766.2104921
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\scatter_levboySocks.hipnc": {
+        "timeDelta": -1210218.1394793987,
+        "creationDate": 1716821442.2045465,
+        "modificationDate": 1715611224.065067
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mainSim_v001.hipnc": {
+        "timeDelta": 5.8011627197265625,
+        "creationDate": 1712647325.9727674,
+        "modificationDate": 1712647331.77393
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\preprod\\cursed_greg.obj": {
+        "timeDelta": -3405242.766093254,
+        "creationDate": 1701454365.4303927,
+        "modificationDate": 1698049122.6642995
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\setup_bozo_paint_body.hipnc": {
+        "timeDelta": 44.04140114784241,
+        "creationDate": 1715788804.8533616,
+        "modificationDate": 1715788848.8947628
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 33.723381996154785,
+        "creationDate": 1721376140.022976,
+        "modificationDate": 1721376173.746358
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\houdini\\setup_bozo_paint_face.hipnc": {
+        "timeDelta": 2.2714664936065674,
+        "creationDate": 1715788905.514652,
+        "modificationDate": 1715788907.7861185
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 5.546616077423096,
+        "creationDate": 1721235443.897699,
+        "modificationDate": 1721235449.4443152
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0050_v002.hipnc": {
+        "timeDelta": 10.795995473861694,
+        "creationDate": 1721313907.0072544,
+        "modificationDate": 1721313917.8032498
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\maya\\workspace.mel": {
+        "timeDelta": 3722315.384908676,
+        "creationDate": 1712128675.3012302,
+        "modificationDate": 1715850990.6861389
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 15.739918231964111,
+        "creationDate": 1721296611.5937717,
+        "modificationDate": 1721296627.33369
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_mitenne_v001.hipnc": {
+        "timeDelta": 2.0164010524749756,
+        "creationDate": 1712601559.2472062,
+        "modificationDate": 1712601561.2636073
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh000_v001.hipnc": {
+        "timeDelta": -81468.21278047562,
+        "creationDate": 1721376432.5584257,
+        "modificationDate": 1721294964.3456452
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 6.502404451370239,
+        "creationDate": 1721381538.9650092,
+        "modificationDate": 1721381545.4674137
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\usd\\character_ronoHead_mod_v001.usd": {
+        "timeDelta": -326.96624636650085,
+        "creationDate": 1702975980.329431,
+        "modificationDate": 1702975653.3631847
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 7.300797462463379,
+        "creationDate": 1721137120.0895777,
+        "modificationDate": 1721137127.3903751
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 5.368753910064697,
+        "creationDate": 1721294958.9768913,
+        "modificationDate": 1721294964.3456452
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_v001.hipnc": {
+        "timeDelta": 1.194178819656372,
+        "creationDate": 1712129180.9667354,
+        "modificationDate": 1712129182.1609142
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pants_v002.hipnc": {
+        "timeDelta": 4.403180360794067,
+        "creationDate": 1720106029.5045013,
+        "modificationDate": 1720106033.9076817
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_peignoiBody_v001.hipnc": {
+        "timeDelta": 1.1900489330291748,
+        "creationDate": 1712221883.0606694,
+        "modificationDate": 1712221884.2507184
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_peignoirArm_v001.hipnc": {
+        "timeDelta": 1.5726802349090576,
+        "creationDate": 1712224846.4693644,
+        "modificationDate": 1712224848.0420446
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_plasticBag_sq100_sh50.hipnc": {
+        "timeDelta": 60.47474479675293,
+        "creationDate": 1721218140.2705643,
+        "modificationDate": 1721218200.745309
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_plasticBag_sq100_sh80.hipnc": {
+        "timeDelta": 4.765926837921143,
+        "creationDate": 1721229503.7441258,
+        "modificationDate": 1721229508.5100527
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\preprod\\rono_sculpt.obj": {
+        "timeDelta": -1929101.9301695824,
+        "creationDate": 1701454365.647028,
+        "modificationDate": 1699525263.7168584
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_plasticBag_v001.hipnc": {
+        "timeDelta": 62.3917121887207,
+        "creationDate": 1712613796.1003158,
+        "modificationDate": 1712613858.492028
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\rono_projectMax_v004.ZPR": {
+        "timeDelta": -1588538.0760388374,
+        "creationDate": 1701454492.7661874,
+        "modificationDate": 1699865954.6901486
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 5.193833827972412,
+        "creationDate": 1721380382.7494104,
+        "modificationDate": 1721380387.9432442
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 5.364089488983154,
+        "creationDate": 1721141272.7429526,
+        "modificationDate": 1721141278.107042
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 13.357661008834839,
+        "creationDate": 1721377536.1650076,
+        "modificationDate": 1721377549.5226686
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_pull_v001.hipnc": {
+        "timeDelta": 1.1727371215820312,
+        "creationDate": 1712129572.746772,
+        "modificationDate": 1712129573.9195092
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 5.365962028503418,
+        "creationDate": 1721382515.971513,
+        "modificationDate": 1721382521.337475
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 14.004302024841309,
+        "creationDate": 1721142468.7662807,
+        "modificationDate": 1721142482.7705827
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 14.84688115119934,
+        "creationDate": 1721310683.8052802,
+        "modificationDate": 1721310698.6521614
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesL_v001.hipnc": {
+        "timeDelta": 2.5183658599853516,
+        "creationDate": 1712647310.8419652,
+        "modificationDate": 1712647313.360331
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_sq0100_sh0040_v001.hipnc": {
+        "timeDelta": 43.06292653083801,
+        "creationDate": 1721382521.2528546,
+        "modificationDate": 1721382564.315781
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_sq0100_sh0050_v001.hipnc": {
+        "timeDelta": 68.62591004371643,
+        "creationDate": 1721205518.6349707,
+        "modificationDate": 1721205587.2608807
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_sq0100_sh0080_v001.hipnc": {
+        "timeDelta": 14.605899095535278,
+        "creationDate": 1721315264.68856,
+        "modificationDate": 1721315279.294459
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_shoesR_v001.hipnc": {
+        "timeDelta": 2.2622358798980713,
+        "creationDate": 1712667532.6626692,
+        "modificationDate": 1712667534.924905
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\usd\\item_ronoCap_geometry.usd": {
+        "timeDelta": -887160.5301685333,
+        "creationDate": 1701454596.8829002,
+        "modificationDate": 1700567436.3527317
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\rono_turnsim_v2.hipnc": {
+        "timeDelta": 25.24260973930359,
+        "creationDate": 1722951924.304967,
+        "modificationDate": 1722951949.5475767
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\setup_bozo_paint_rono_skin_sq100_sh40.hipnc": {
+        "timeDelta": 4.530680418014526,
+        "creationDate": 1721295848.2822118,
+        "modificationDate": 1721295852.8128922
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\rono_projectRobin_v001.ZPR": {
+        "timeDelta": -2783219.3421702385,
+        "creationDate": 1701454547.8930871,
+        "modificationDate": 1698671328.550917
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\setup_bozo_paint_rono_skin_sq100_sh50.hipnc": {
+        "timeDelta": 48.36941194534302,
+        "creationDate": 1721289416.3134499,
+        "modificationDate": 1721289464.6828618
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\houdini\\setup_bozo_paint_rono_skin_sq100_sh80.hipnc": {
+        "timeDelta": 4.593283414840698,
+        "creationDate": 1721295866.554809,
+        "modificationDate": 1721295871.1480925
+    },
+    "//storage01/3d4/trash/04_asset/character\\levboy\\sculpt\\levboy_project.zpr": {
+        "timeDelta": 11.08538269996643,
+        "creationDate": 1712154485.3136783,
+        "modificationDate": 1712154496.399061
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\rono_projectRobin_v002.ZPR": {
+        "timeDelta": 4.187975168228149,
+        "creationDate": 1712131185.2455764,
+        "modificationDate": 1712131189.4335515
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\Rono_sculpt_fix_v003.mtl": {
+        "timeDelta": -1588615.5625257492,
+        "creationDate": 1701454596.0683484,
+        "modificationDate": 1699865980.5058227
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain_v03.hipnc": {
+        "timeDelta": 8.18952226638794,
+        "creationDate": 1719845231.555101,
+        "modificationDate": 1719845239.7446232
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\sculpt\\zbrush_mrcacaDisplace_project.zpr": {
+        "timeDelta": 2.0724847316741943,
+        "creationDate": 1713781469.3983974,
+        "modificationDate": 1713781471.4708822
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurMain_v04.hipnc": {
+        "timeDelta": 3.642313003540039,
+        "creationDate": 1720460678.494552,
+        "modificationDate": 1720460682.136865
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeurVeste.hipnc": {
+        "timeDelta": 1.82584547996521,
+        "creationDate": 1707307026.226594,
+        "modificationDate": 1707307028.0524395
+    },
+    "//storage01/3d4/trash/04_asset/character\\mrcaca\\sculpt\\zbrush_mrcaca_project.zpr": {
+        "timeDelta": 2.096035957336426,
+        "creationDate": 1713186732.3585677,
+        "modificationDate": 1713186734.4546037
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeur_v02.hipnc": {
+        "timeDelta": 1.7899794578552246,
+        "creationDate": 1707324985.9429348,
+        "modificationDate": 1707324987.7329142
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\setup_bozo_paint_fumeur_v03.hipnc": {
+        "timeDelta": 4.569472312927246,
+        "creationDate": 1720513443.6031804,
+        "modificationDate": 1720513448.1726527
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\vest_workflowbase.hipnc": {
+        "timeDelta": 0.46866297721862793,
+        "creationDate": 1718892841.0311632,
+        "modificationDate": 1718892841.4998262
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\vest_workflowbase_2.hipnc": {
+        "timeDelta": 0.9261565208435059,
+        "creationDate": 1719823948.6579769,
+        "modificationDate": 1719823949.5841334
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\Rono_sculpt_fix_v003.obj": {
+        "timeDelta": -1588615.634160757,
+        "creationDate": 1701454596.1133766,
+        "modificationDate": 1699865980.4792159
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\houdini\\clothesqudead.abc": {
+        "timeDelta": 2.974882125854492,
+        "creationDate": 1721211624.298502,
+        "modificationDate": 1721211627.273384
+    },
+    "//storage01/3d4/trash/04_asset/character\\fumeur\\houdini\\vest_workflowplanes.hipnc": {
+        "timeDelta": 4.5520501136779785,
+        "creationDate": 1719823942.2829428,
+        "modificationDate": 1719823946.834993
+    },
+    "//storage01/3d4/trash/04_asset/character\\rono\\sculpt\\Zbrush_ronoCap_project.zpr": {
+        "timeDelta": -868668.1984539032,
+        "creationDate": 1701454596.2543862,
+        "modificationDate": 1700585928.0559323
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\houdini\\clothesqudead2.abc": {
+        "timeDelta": 5.120649814605713,
+        "creationDate": 1721212767.0786717,
+        "modificationDate": 1721212772.1993215
+    },
+    "//storage01/3d4/trash/04_asset/character\\beatenwoman\\sculpt\\zbrush_beatenwomanDisplace_project.zpr": {
+        "timeDelta": 5.799307584762573,
+        "creationDate": 1713770799.0073276,
+        "modificationDate": 1713770804.8066351
+    },
+    "//storage01/3d4/trash/04_asset/character\\beatenwoman\\sculpt\\zbrush_beatenwoman_project.zpr": {
+        "timeDelta": 0.6405103206634521,
+        "creationDate": 1713509644.8440053,
+        "modificationDate": 1713509645.4845157
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_body.hipnc": {
+        "timeDelta": 5.918587684631348,
+        "creationDate": 1721033159.4506538,
+        "modificationDate": 1721033165.3692415
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_body_v02.hipnc": {
+        "timeDelta": 7.363798141479492,
+        "creationDate": 1721033175.0609324,
+        "modificationDate": 1721033182.4247305
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_face.hipnc": {
+        "timeDelta": 107.96736717224121,
+        "creationDate": 1721033675.193802,
+        "modificationDate": 1721033783.1611693
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_face_v02.hipnc": {
+        "timeDelta": 45.625495195388794,
+        "creationDate": 1721034915.710402,
+        "modificationDate": 1721034961.3358972
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_paint_publish.hipnc": {
+        "timeDelta": 1.5633485317230225,
+        "creationDate": 1716359035.0755465,
+        "modificationDate": 1716359036.638895
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tanktop.hipnc": {
+        "timeDelta": 3.250319480895996,
+        "creationDate": 1716360532.2096815,
+        "modificationDate": 1716360535.460001
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tanktop_v02.hipnc": {
+        "timeDelta": 3.712907314300537,
+        "creationDate": 1721035926.087317,
+        "modificationDate": 1721035929.8002243
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tvguyshort.hipnc": {
+        "timeDelta": 60.97437334060669,
+        "creationDate": 1721036219.2866304,
+        "modificationDate": 1721036280.2610037
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\maya\\workspace.mel": {
+        "timeDelta": 87.64459252357483,
+        "creationDate": 1716293051.106328,
+        "modificationDate": 1716293138.7509205
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tvguyshort_v02.hipnc": {
+        "timeDelta": 39.1012327671051,
+        "creationDate": 1721036788.2331874,
+        "modificationDate": 1721036827.3344202
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\PROPS_setup_bozo_tvguytanktop.hipnc": {
+        "timeDelta": 1.284308671951294,
+        "creationDate": 1716359377.176648,
+        "modificationDate": 1716359378.4609566
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_groom_v01.hipnc": {
+        "timeDelta": 12.177506923675537,
+        "creationDate": 1716293960.7363596,
+        "modificationDate": 1716293972.9138665
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_groom_v02.hipnc": {
+        "timeDelta": 45.11941623687744,
+        "creationDate": 1721116956.8433287,
+        "modificationDate": 1721117001.962745
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_groom_v03.hipnc": {
+        "timeDelta": 42.45599627494812,
+        "creationDate": 1721132021.5281627,
+        "modificationDate": 1721132063.984159
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_sourcil_v01.hipnc": {
+        "timeDelta": 8.67132019996643,
+        "creationDate": 1716300588.678729,
+        "modificationDate": 1716300597.3500493
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\houdini\\tv_sourcil_v02.hipnc": {
+        "timeDelta": 47.240105628967285,
+        "creationDate": 1721124034.948096,
+        "modificationDate": 1721124082.1882017
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_DAMAGED.hipnc": {
+        "timeDelta": 293.3065619468689,
+        "creationDate": 1719328624.2368963,
+        "modificationDate": 1719328917.5434582
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_FAMILY_FRIENDLY.hipnc": {
+        "timeDelta": -1753065.8276648521,
+        "creationDate": 1721229765.0909848,
+        "modificationDate": 1719476699.26332
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_sq0021_sh0010.hipnc": {
+        "timeDelta": 364.93958950042725,
+        "creationDate": 1720077718.2176445,
+        "modificationDate": 1720078083.157234
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_sq0100_sh0080_v01.hipnc": {
+        "timeDelta": 207.66840386390686,
+        "creationDate": 1720510246.314915,
+        "modificationDate": 1720510453.9833188
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_test_Dmg.hipnc": {
+        "timeDelta": 117.48436641693115,
+        "creationDate": 1719320291.7882967,
+        "modificationDate": 1719320409.272663
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\maya\\workspace.mel": {
+        "timeDelta": 1813454.885686636,
+        "creationDate": 1705394325.519509,
+        "modificationDate": 1707207780.4051957
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_turn.hipnc": {
+        "timeDelta": 77.28834772109985,
+        "creationDate": 1718267255.4733188,
+        "modificationDate": 1718267332.7616665
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_turnaround_v1.hipnc": {
+        "timeDelta": 137.67262744903564,
+        "creationDate": 1722956340.8408668,
+        "modificationDate": 1722956478.5134943
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v001.hipnc": {
+        "timeDelta": 61.98000764846802,
+        "creationDate": 1707749224.2435048,
+        "modificationDate": 1707749286.2235124
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v002.hipnc": {
+        "timeDelta": 52.43418860435486,
+        "creationDate": 1708084489.19804,
+        "modificationDate": 1708084541.6322286
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v003.hipnc": {
+        "timeDelta": 67.00119185447693,
+        "creationDate": 1709541300.8802066,
+        "modificationDate": 1709541367.8813984
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v004.hipnc": {
+        "timeDelta": 56.09490442276001,
+        "creationDate": 1709657887.8530657,
+        "modificationDate": 1709657943.9479702
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\pigeon_fur_simGroom_v005.hipnc": {
+        "timeDelta": 73.2720832824707,
+        "creationDate": 1712851059.1719878,
+        "modificationDate": 1712851132.444071
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\houdini\\wing_dissolve.hipnc": {
+        "timeDelta": 0.21874308586120605,
+        "creationDate": 1708013373.56595,
+        "modificationDate": 1708013373.784693
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\sculpt\\UniversalHuman_DisplaceBody_project.zpr": {
+        "timeDelta": 0.3500993251800537,
+        "creationDate": 1707144546.5831795,
+        "modificationDate": 1707144546.9332788
+    },
+    "//storage01/3d4/trash/04_asset/character\\squGuy\\houdini\\sqguybody_publish_new.hipnc": {
+        "timeDelta": 10.94024658203125,
+        "creationDate": 1719406756.9269533,
+        "modificationDate": 1719406767.8672
+    },
+    "//storage01/3d4/trash/04_asset/character\\squGuy\\houdini\\sqguyclothes_publish_new.hipnc": {
+        "timeDelta": 3.249452829360962,
+        "creationDate": 1719404355.0170114,
+        "modificationDate": 1719404358.2664642
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\Illustration_sans_titre (5).png": {
+        "timeDelta": 0.08991599082946777,
+        "creationDate": 1702542225.61844,
+        "modificationDate": 1702542225.708356
+    },
+    "//storage01/3d4/trash/04_asset/character\\squGuy\\maya\\workspace.mel": {
+        "timeDelta": 0.0,
+        "creationDate": 1719396603.0662124,
+        "modificationDate": 1719396603.0662124
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\MV2_Loose Fit Cargo Pants.zpac": {
+        "timeDelta": -3045053.165479183,
+        "creationDate": 1708424387.1654792,
+        "modificationDate": 1705379334.0
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\sculpt\\UniversalHuman_project.zpr": {
+        "timeDelta": 0.2404167652130127,
+        "creationDate": 1708351802.3653083,
+        "modificationDate": 1708351802.605725
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants.mtl": {
+        "timeDelta": 65171.18516278267,
+        "creationDate": 1708359136.132658,
+        "modificationDate": 1708424307.3178208
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\houdini\\PROPS_setup_bozo_paint_publish.hipnc": {
+        "timeDelta": 24.790858507156372,
+        "creationDate": 1720630233.8472557,
+        "modificationDate": 1720630258.6381142
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\maya\\workspace.mel": {
+        "timeDelta": 1810937.837688446,
+        "creationDate": 1718790450.8723705,
+        "modificationDate": 1720601388.710059
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants.obj": {
+        "timeDelta": 65194.971421957016,
+        "creationDate": 1708359112.3307407,
+        "modificationDate": 1708424307.3021626
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\houdini\\SquDead_sourcil_v01.hipnc": {
+        "timeDelta": 46.25974154472351,
+        "creationDate": 1721064603.7532609,
+        "modificationDate": 1721064650.0130024
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants_v002.mtl": {
+        "timeDelta": 0.0,
+        "creationDate": 1718881210.7670372,
+        "modificationDate": 1718881210.7670372
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\pants_v002.obj": {
+        "timeDelta": 1.7501709461212158,
+        "creationDate": 1718881209.0012455,
+        "modificationDate": 1718881210.7514164
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\PLAIN HOODED SWEATSHIRT.zpac": {
+        "timeDelta": -18074830.289076805,
+        "creationDate": 1708424384.2890768,
+        "modificationDate": 1690349554.0
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\squat_ded_clothes.png": {
+        "timeDelta": 72249.19470453262,
+        "creationDate": 1708352089.6656113,
+        "modificationDate": 1708424338.8603158
+    },
+    "//storage01/3d4/trash/04_asset/character\\universalHuman\\maya\\workspace.mel": {
+        "timeDelta": 7419748.003857374,
+        "creationDate": 1704732494.606238,
+        "modificationDate": 1712152242.6100953
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\squat_ded_clothes.zprj": {
+        "timeDelta": 72250.00758004189,
+        "creationDate": 1708352089.7281003,
+        "modificationDate": 1708424339.7356803
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt.mtl": {
+        "timeDelta": 63614.10095381737,
+        "creationDate": 1708359433.1484668,
+        "modificationDate": 1708423047.2494206
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt.obj": {
+        "timeDelta": 63647.2465262413,
+        "creationDate": 1708359399.924716,
+        "modificationDate": 1708423047.1712422
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt_flat.mtl": {
+        "timeDelta": 0.0019910335540771484,
+        "creationDate": 1708943781.384499,
+        "modificationDate": 1708943781.38649
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweatshirt_flat.obj": {
+        "timeDelta": 11.092221975326538,
+        "creationDate": 1708943770.2245731,
+        "modificationDate": 1708943781.316795
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_02.mtl": {
+        "timeDelta": 1084.7393832206726,
+        "creationDate": 1708939420.2658486,
+        "modificationDate": 1708940505.0052319
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_02.obj": {
+        "timeDelta": 3.9138922691345215,
+        "creationDate": 1708940501.0913396,
+        "modificationDate": 1708940505.0052319
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_03.mtl": {
+        "timeDelta": 186.4383409023285,
+        "creationDate": 1708944024.5719275,
+        "modificationDate": 1708944211.0102684
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\Thumbs.db": {
+        "timeDelta": 19714542.774502277,
+        "creationDate": 1703234021.5854976,
+        "modificationDate": 1722948564.36
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\sweat_03.obj": {
+        "timeDelta": 196.52054500579834,
+        "creationDate": 1708944014.4210248,
+        "modificationDate": 1708944210.9415698
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\groom_rat_ref_attributes.abc": {
+        "timeDelta": -9650484.50406313,
+        "creationDate": 1715071105.8703098,
+        "modificationDate": 1705420621.3662467
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\marvelous\\Thumbs.db": {
+        "timeDelta": 7924.525281667709,
+        "creationDate": 1708416497.8217182,
+        "modificationDate": 1708424422.347
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\character_squatDead_mod_v001.fbx": {
+        "timeDelta": 0.4530446529388428,
+        "creationDate": 1708425031.5416691,
+        "modificationDate": 1708425031.9947138
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\maya\\workspace.mel": {
+        "timeDelta": 0.0,
+        "creationDate": 1722346209.9803338,
+        "modificationDate": 1722346209.9803338
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_cache_scene.hipnc": {
+        "timeDelta": -2469.7753167152405,
+        "creationDate": 1702554450.658826,
+        "modificationDate": 1702551980.8835094
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_sh0010_v2.hipnc": {
+        "timeDelta": 86.97190046310425,
+        "creationDate": 1715071193.7940118,
+        "modificationDate": 1715071280.7659123
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_sq_0010_sh0010_v2.hipnc": {
+        "timeDelta": 1818.350406885147,
+        "creationDate": 1721719223.801959,
+        "modificationDate": 1721721042.152366
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\ZBrushProject_pigeon.zpr": {
+        "timeDelta": 0.4842853546142578,
+        "creationDate": 1706115763.2408931,
+        "modificationDate": 1706115763.7251785
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_sq_0100_sh0080_v1.hipnc": {
+        "timeDelta": 197.6073865890503,
+        "creationDate": 1720427205.7616508,
+        "modificationDate": 1720427403.3690374
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_conformed_turnaround_v1.hipnc": {
+        "timeDelta": 75.64836072921753,
+        "creationDate": 1722846797.0595288,
+        "modificationDate": 1722846872.7078896
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_DAMAGED_v2.hipnc": {
+        "timeDelta": 150.23400926589966,
+        "creationDate": 1720189025.8768547,
+        "modificationDate": 1720189176.110864
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_FAMILYFRIENDLY.hipnc": {
+        "timeDelta": 86.61673188209534,
+        "creationDate": 1718878873.043016,
+        "modificationDate": 1718878959.6597478
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_FAMILYFRIENDLY_LOD2.hipnc": {
+        "timeDelta": 132.31419897079468,
+        "creationDate": 1718879748.4739974,
+        "modificationDate": 1718879880.7881963
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\houdini\\rat_fur_simGroom_sq01008sh0021_clean.hipnc": {
+        "timeDelta": 91.52362704277039,
+        "creationDate": 1720172274.978714,
+        "modificationDate": 1720172366.502341
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\NewScene.pur": {
+        "timeDelta": 0.749861478805542,
+        "creationDate": 1713196689.725669,
+        "modificationDate": 1713196690.4755304
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\ZBrushProject_pigeonDetails.zpr": {
+        "timeDelta": 4.659596681594849,
+        "creationDate": 1710410968.270387,
+        "modificationDate": 1710410972.9299836
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\nuke\\rat_turn.nk": {
+        "timeDelta": 826.1745271682739,
+        "creationDate": 1709279725.8566253,
+        "modificationDate": 1709280552.0311525
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_oldProjectArchive.7z": {
+        "timeDelta": 470.9335992336273,
+        "creationDate": 1703147856.9266498,
+        "modificationDate": 1703148327.860249
+    },
+    "//storage01/3d4/trash/04_asset/character\\pigeon\\zbrush\\ZBrushProject_pigeonMouth.zpr": {
+        "timeDelta": 0.40982842445373535,
+        "creationDate": 1707213470.401438,
+        "modificationDate": 1707213470.8112664
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\nuke\\rat_turn.nk~": {
+        "timeDelta": 0.0,
+        "creationDate": 1709279095.7037947,
+        "modificationDate": 1709279095.7037947
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\squatDead_v01.zpr": {
+        "timeDelta": 0.6019012928009033,
+        "creationDate": 1708350552.1283166,
+        "modificationDate": 1708350552.730218
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_ratMouth_project.zpr": {
+        "timeDelta": 0.24995112419128418,
+        "creationDate": 1706806636.4846284,
+        "modificationDate": 1706806636.7345796
+    },
+    "//storage01/3d4/trash/04_asset/character\\squatDead\\sculpt\\zbrush_squatDead_proejct.zpr": {
+        "timeDelta": 2.7447128295898438,
+        "creationDate": 1713271873.2430465,
+        "modificationDate": 1713271875.9877594
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_rat_project.zpr": {
+        "timeDelta": 10.476290225982666,
+        "creationDate": 1702049201.5314362,
+        "modificationDate": 1702049212.0077264
+    },
+    "//storage01/3d4/trash/04_asset/character\\rat\\sculpt\\Zbrush_rat_project2.zpr": {
+        "timeDelta": 5.627042055130005,
+        "creationDate": 1701794851.1559477,
+        "modificationDate": 1701794856.7829897
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\sculpt\\NewScene.pur": {
+        "timeDelta": 1.2845008373260498,
+        "creationDate": 1713354407.79444,
+        "modificationDate": 1713354409.0789409
+    },
+    "//storage01/3d4/trash/04_asset/character\\tvguy\\sculpt\\zbrush_tvguy_project.zpr": {
+        "timeDelta": 1.6777029037475586,
+        "creationDate": 1713428006.309654,
+        "modificationDate": 1713428007.987357
+    },
+    "//storage01/3d4/trash/04_asset/character\\SquDead\\houdini\\setup_bozo_squdeadclothes.hipnc": {
+        "timeDelta": 2.548656463623047,
+        "creationDate": 1721213454.0287995,
+        "modificationDate": 1721213456.577456
     }
 }

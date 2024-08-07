@@ -195,11 +195,11 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 						with Vertical(classes="files_stat_column"):
 							self.markdown_folder_info = Markdown(id="markdown_folder_info")
-							self.markdown_folder_info.border_title = "FOLDER STATS"
+							#self.markdown_folder_info.border_title = "FOLDER STATS"
 							yield self.markdown_folder_info
 
 							self.markdown_file_info = Markdown(id="markdown_file_info")
-							self.markdown_file_info.border_title = "FILE STATS"
+							#self.markdown_file_info.border_title = "FILE STATS"
 							yield self.markdown_file_info
 					#with TabPane("Live project statistics"):
 						"""
@@ -519,6 +519,29 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 						list_item.styles.background = self.color_dictionnary["heaviest"]
 						#list_item.styles.background = self.color_dictionnary["heaviest"]
 
+		if event.option_list.id == "optionlist_extension":
+			#get the file linked to that extension
+			extension_selection = self.query_one("#optionlist_extension").highlighted 
+			extension_selected = list(self.extension_dictionnary.keys())[extension_selection]
+			extension_data = self.extension_dictionnary[extension_selected]
+
+			file_list = extension_data["fileList"]
+
+			#remove the content of the file list
+			#replace it by the filelist
+			self.listview_files.clear()
+			for file in file_list:
+				label = Label(file)
+				self.listview_files.append(ListItem(label))
+
+
+
+
+
+
+
+
+
 
 
 
@@ -748,6 +771,13 @@ Modified for the last time %s day(s) ago\n
 		#ADD OPTIONS
 
 		self.optionlist_folder.add_options(self.folder_list)
+
+
+
+		#ADD EXTENSION
+		extension_list = list(self.extension_dictionnary.keys())
+		self.extension_list.clear_options()
+		self.extension_list.add_options(extension_list)
 		
 		"""
 		for i in range(len(self.filename_list)):

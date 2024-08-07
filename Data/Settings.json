@@ -1,6 +1,6 @@
 {
     "Manual": {
-        "rootFolder": "C:/Users/3D4/Desktop/target_folder",
+        "rootFolder": "//storage01/3d4/trash/04_asset/character",
         "saveJson": true,
         "executeSpeedTest": false,
         "speedTestThreshold": null,

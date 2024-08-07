@@ -233,11 +233,13 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 					#self.display_notification_function("Process created : %s"%p)
 					p.start()
 					
-					self.display_success_function("Process created successfully : %s"%p)
-					p_list.append(p)
+					
 				except:
 					self.display_error_function("Impossible to create process : %s"%p)
 					break
+				else:
+					self.display_success_function("Process created successfully : %s"%p)
+					p_list.append(p)
 			
 			
 			self.display_message_function("Waiting for processes to end!")
@@ -350,7 +352,7 @@ class ASPC_SearchingApplication(ASPC_CommonApplication):
 				Set an observer file over time to follow folder hierarchy modification
 				update the amount of time a folder or file is being used / modified.
 				"""
-
+				
 
 
 				#print("%s : %s"%(os.path.isdir(folder),folder))
