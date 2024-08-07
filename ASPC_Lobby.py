@@ -185,6 +185,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 							yield self.optionlist_files
 							"""
 							with Collapsible(title="File settings", id = "file_collapsible"):
+								self.file_searchbar = Input(placeholder="Search for ...", type="text", id="input_file_searchbar")
+								yield self.file_searchbar
+
 								self.extension_list = OptionList(id="optionlist_extension")
 								yield self.extension_list
 								self.extension_list.border_title = "Extension list"
@@ -403,12 +406,21 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 			self.optionlist_folder.clear_options()
 
+
 			if searchbar_content != "":
+				#try to split the elements of the searchbar
+				items_to_search_list = searchbar_content.split(";")
 				#update the folder list
 				result_folder_list = []
 				for folder in self.folder_list:
-					if searchbar_content in folder.lower():
+					found=True
+					for item in items_to_search_list:
+						if item not in folder:
+							found=False
+					if found == True:
 						result_folder_list.append(folder)
+					#if folder in items_to_search_list:
+					#	result_folder_list.append(folder)
 				
 				self.optionlist_folder.add_options(result_folder_list)
 			else:

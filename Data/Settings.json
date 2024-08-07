@@ -1,8 +1,8 @@
 {
     "Manual": {
-        "rootFolder": "//storage01/3d4/trash/04_asset/item",
+        "rootFolder": "d:/work/lighting/prospect",
         "saveJson": true,
-        "executeSpeedTest": true,
+        "executeSpeedTest": false,
         "speedTestThreshold": null,
         "numberOfProcessMode": "core",
         "numberOfProcess": "4"
