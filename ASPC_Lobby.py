@@ -188,6 +188,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 								self.file_searchbar = Input(placeholder="Search for ...", type="text", id="input_file_searchbar")
 								yield self.file_searchbar
 
+								self.file_proximity_checkbox = Checkbox("Display files by name proximity", id="files_proximity_checkbox")
+								yield self.file_proximity_checkbox
+
 								self.extension_list = OptionList(id="optionlist_extension")
 								yield self.extension_list
 								self.extension_list.border_title = "Extension list"
@@ -509,9 +512,14 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			folder_selection = self.query_one("#optionlist_folder").highlighted
 			#get the name of the folder
 			folder_selected = self.folder_list[folder_selection]
+			files_by_proximity_value = self.query_one("#files_proximity_checkbox").value
+			#self.show_message_function(files_by_proximity_value)
 			#get the files in that folder
 			try:
-				file_list = self.folder_dictionnary[folder_selected]["fileList"]
+				if files_by_proximity_value == False:
+					file_list = self.folder_dictionnary[folder_selected]["fileList"]
+				else:
+					file_list = self.folder_dictionnary[folder_selected]["fileBySimilarity"]
 			except:
 				#remove all colors
 				for i in range(len(self.listview_files.children)):
@@ -526,17 +534,29 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 				#add the file list to the current file list
 				self.listview_files.clear()
 				self.current_lobby_filelist = []
-				for file in file_list:
-					self.current_lobby_filelist.append(file)
-					list_item = ListItem(Label(os.path.basename(file)))
-					self.listview_files.append(list_item)
 
-					if file == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
-						#list_item.styles.background = self.color_dictionnary["lightest"]
-						list_item.styles.background = self.color_dictionnary["lightest"]
-					if file == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
-						list_item.styles.background = self.color_dictionnary["heaviest"]
-						#list_item.styles.background = self.color_dictionnary["heaviest"]
+				if files_by_proximity_value == False:
+					for file in file_list:
+						self.current_lobby_filelist.append(file)
+						list_item = ListItem(Label(os.path.basename(file)))
+						self.listview_files.append(list_item)
+
+						if file == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
+							#list_item.styles.background = self.color_dictionnary["lightest"]
+							list_item.styles.background = self.color_dictionnary["lightest"]
+						if file == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
+							list_item.styles.background = self.color_dictionnary["heaviest"]
+							#list_item.styles.background = self.color_dictionnary["heaviest"]4
+				else:
+					for key, value in file_list.items():
+						separator = ListItem(Label("_________________________________"))
+						self.listview_files.append(separator)
+
+						for v in value:
+							list_item = ListItem(Label(os.path.basename(v[0])))
+							self.listview_files.append(list_item)
+
+			
 
 		if event.option_list.id == "optionlist_extension":
 			#get the file linked to that extension
