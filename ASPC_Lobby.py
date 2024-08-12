@@ -174,9 +174,12 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 									yield RadioButton("Number of files contained")
 									yield RadioButton("Ratio of the project contained")
 
-							self.optionlist_folder = OptionList(id="optionlist_folder", wrap=False)
-							self.optionlist_folder.border_title = "FOLDER LIST"
-							yield self.optionlist_folder
+							#self.optionlist_folder = OptionList(id="optionlist_folder", wrap=False)
+							#self.optionlist_folder.border_title = "FOLDER LIST"
+
+							self.listview_folder = ListView(id="listview_folder")
+							self.listview_folder.border_title = "FOLDER LIST"
+							yield self.listview_folder
 
 						with Vertical(classes="files_column"):
 							"""
@@ -407,7 +410,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 		if event.input.id == "input_folder_searchbar":
 			searchbar_content = str(self.query_one("#input_folder_searchbar").value).lower()
 
-			self.optionlist_folder.clear_options()
+			self.listview_folder.clear()
 
 
 			if searchbar_content != "":
@@ -425,9 +428,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 					#if folder in items_to_search_list:
 					#	result_folder_list.append(folder)
 				
-				self.optionlist_folder.add_options(result_folder_list)
+				self.listview_folder.append(ListItem(Label(result_folder_list)))
 			else:
-				self.optionlist_folder.add_options(self.folder_list)
+				self.listview_folder.append(ListItem(Label(self.folder_list)))
 
 
 
@@ -498,6 +501,60 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			#get all informations about the given file
 			final_markdown = self.create_markdown_for_file_function(self.current_lobby_filelist[selection])
 			self.markdown_file_info.update(final_markdown)
+
+
+
+
+		if event.list_view.id == "listview_folder":
+
+			#get the list of files for that folder in the dictionnary
+			#get the selected folder
+			folder_selection = self.query_one("#listview_folder").index
+			#get the name of the folder
+			folder_selected = self.folder_list[folder_selection]
+			files_by_proximity_value = self.query_one("#files_proximity_checkbox").value
+			#self.show_message_function(files_by_proximity_value)
+			#get the files in that folder
+			try:
+				if files_by_proximity_value == False:
+					file_list = self.folder_dictionnary[folder_selected]["fileList"]
+				else:
+					file_list = self.folder_dictionnary[folder_selected]["fileBySimilarity"]
+			except:
+				#remove all colors
+				for i in range(len(self.listview_files.children)):
+					#self.listview_files.children[i].styles.background = self.color_dictionnary["background"]
+					self.listview_files.children[i].styles.background = self.design["dark"].background
+				self.show_error_function("No file contained in this folder")
+			else:
+				#get the markdown for the current folder to display stats
+				final_markdown = self.create_markdown_for_folder_function(folder_selected)
+				self.markdown_folder_info.update(final_markdown)
+
+				#add the file list to the current file list
+				self.listview_files.clear()
+				self.current_lobby_filelist = []
+
+				if files_by_proximity_value == False:
+					for file in file_list:
+						self.current_lobby_filelist.append(file)
+						list_item = ListItem(Label(os.path.basename(file)))
+						self.listview_files.append(list_item)
+
+						if file == self.folder_dictionnary[folder_selected]["minFileSize"][0]:
+							#list_item.styles.background = self.color_dictionnary["lightest"]
+							list_item.styles.background = self.color_dictionnary["lightest"]
+						if file == self.folder_dictionnary[folder_selected]["maxFileSize"][0]:
+							list_item.styles.background = self.color_dictionnary["heaviest"]
+							#list_item.styles.background = self.color_dictionnary["heaviest"]4
+				else:
+					for key, value in file_list.items():
+						separator = ListItem(Label("_________________________________"))
+						self.listview_files.append(separator)
+
+						for v in value:
+							list_item = ListItem(Label(os.path.basename(v[0])))
+							self.listview_files.append(list_item)
 
 
 
@@ -808,18 +865,59 @@ Modified for the last time %s day(s) ago\n
 		self.filename_list = list(self.file_dictionnary.keys())
 		self.filesize_list = list(self.file_dictionnary.values())
 
+		self.global_project_data = self.manual_scan_data["ProjectGeneralInformations"]
+
+
 		self.extension_dictionnary = self.manual_scan_data["GlobalExtensionData"]
 
 
 
 
 		#CLEAR OPTIONS
-		self.optionlist_folder.clear_options()
+		self.listview_folder.clear()
 		self.listview_files.clear()
 
-		#ADD OPTIONS
+		#get main informations
+		project_size = self.get_size_mo_function(self.global_project_data["ProjectSize"])
+		self.show_message_function(project_size)
 
-		self.optionlist_folder.add_options(self.folder_list)
+
+
+
+
+		#define values for ratio (percentage)
+		percentage_biggest = 0
+		percentage_biggest_folder_name = None
+		percentage_average = 0
+
+		for folder_name, folder_data in self.folder_dictionnary.items():
+			folder_size = self.get_size_mo_function(folder_data["folderSize"])
+			ratio = (folder_size / project_size) * 100
+
+			if ratio > percentage_biggest:
+				percentage_biggest = ratio 
+				percentage_biggest_folder_name = folder_name
+
+			percentage_average += ratio
+
+		percentage_average = percentage_average / len(list(self.folder_dictionnary.keys()))
+
+
+
+		"""
+		for folder_name, folder_data in self.folder_dictionnary.items():
+			#get the folder size
+			folder_size = self.get_size_mo_function(folder_data["folderSize"])
+
+			
+			self.show_message_function(ratio)
+			
+			self.listview_folder.append(ListItem(Label(str(ratio))))
+		"""
+
+
+
+
 
 
 
