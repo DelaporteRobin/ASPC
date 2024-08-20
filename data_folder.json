@@ -1,6 +1,6 @@
 {
     "d:/work/lighting/prospect\\maya": {
-        "folderSize": 31625182631,
+        "folderSize": 31297887893,
         "fileContainedSize": 2740,
         "subfoldersNumber": 15,
         "filesNumber": 1,
@@ -113,32 +113,6 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\clips": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\data": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/work/lighting/prospect\\photoshop\\input": {
         "folderSize": 3457643816,
         "fileContainedSize": 1179301214,
@@ -204,21 +178,15 @@
         },
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\images": {
-        "folderSize": 7175847311,
+    "d:/work/lighting/prospect\\maya\\clips": {
+        "folderSize": 0,
         "fileContainedSize": 0,
-        "subfoldersNumber": 5,
+        "subfoldersNumber": 0,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v001_v001_t01",
-            "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v002_v001_t01",
-            "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v003_v001_t01",
-            "d:/work/lighting/prospect\\maya\\images\\character_prospect_render_v001_v001_t01",
-            "d:/work/lighting/prospect\\maya\\images\\render"
-        ],
+        "subfolderList": [],
         "fileList": {},
         "fileBySimilarity": {},
         "speedTest": {}
@@ -268,7 +236,7 @@
         },
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\movies": {
+    "d:/work/lighting/prospect\\maya\\data": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -281,20 +249,34 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\renderData": {
-        "folderSize": 0,
+    "d:/work/lighting/prospect\\maya\\images": {
+        "folderSize": 7175847311,
         "fileContainedSize": 0,
-        "subfoldersNumber": 4,
+        "subfoldersNumber": 5,
         "filesNumber": 0,
         "averageFileSize": null,
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\renderData\\depth",
-            "d:/work/lighting/prospect\\maya\\renderData\\fur",
-            "d:/work/lighting/prospect\\maya\\renderData\\iprImages",
-            "d:/work/lighting/prospect\\maya\\renderData\\shaders"
+            "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v001_v001_t01",
+            "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v002_v001_t01",
+            "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v003_v001_t01",
+            "d:/work/lighting/prospect\\maya\\images\\character_prospect_render_v001_v001_t01",
+            "d:/work/lighting/prospect\\maya\\images\\render"
         ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\movies": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
         "fileList": {},
         "fileBySimilarity": {},
         "speedTest": {}
@@ -397,6 +379,24 @@
                 ]
             ]
         },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderData": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 4,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\renderData\\depth",
+            "d:/work/lighting/prospect\\maya\\renderData\\fur",
+            "d:/work/lighting/prospect\\maya\\renderData\\iprImages",
+            "d:/work/lighting/prospect\\maya\\renderData\\shaders"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/work/lighting/prospect\\maya\\renderman": {
@@ -596,49 +596,6 @@
         "maxFileSize": null,
         "minFileSize": null,
         "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\sound": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\sourceimages": {
-        "folderSize": 9082960548,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\Time Editor": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\Time Editor\\Clip Exports"
-        ],
         "fileList": {},
         "fileBySimilarity": {},
         "speedTest": {}
@@ -861,6 +818,19 @@
         },
         "speedTest": {}
     },
+    "d:/work/lighting/prospect\\maya\\sound": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
     "d:/work/lighting/prospect\\zbrush": {
         "folderSize": 4397080843,
         "fileContainedSize": 2891000849,
@@ -899,6 +869,64 @@
                 [
                     "d:/work/lighting/prospect\\zbrush\\ZBrushProject_ProspectMain.zpr",
                     2617490672
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\sourceimages": {
+        "folderSize": 10120495243,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\Time Editor": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\Time Editor\\Clip Exports"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\substance\\output": {
+        "folderSize": 116042265,
+        "fileContainedSize": 116042265,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 116042265.0,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\substance\\output\\mesh.usd",
+            116042265
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\substance\\output\\mesh.usd",
+            116042265
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\substance\\output\\mesh.usd": 116042265
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\substance\\output\\mesh.usd",
+                    116042265
                 ]
             ]
         },
@@ -1122,34 +1150,6 @@
         },
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\substance\\output": {
-        "folderSize": 116042265,
-        "fileContainedSize": 116042265,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 116042265.0,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\substance\\output\\mesh.usd",
-            116042265
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\substance\\output\\mesh.usd",
-            116042265
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\substance\\output\\mesh.usd": 116042265
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\substance\\output\\mesh.usd",
-                    116042265
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
     "d:/work/lighting/prospect\\touchdesigner\\input": {
         "folderSize": 326440948,
         "fileContainedSize": 326440948,
@@ -1220,6 +1220,142 @@
                 [
                     "d:/work/lighting/prospect\\touchdesigner\\input\\shunned_v001.ma.fbx",
                     35681120
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\substance\\input": {
+        "folderSize": 5240303815,
+        "fileContainedSize": 4234309274,
+        "subfoldersNumber": 3,
+        "filesNumber": 19,
+        "averageFileSize": 222858382.84210527,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.obj",
+            1038330840
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.mtl",
+            124
+        ],
+        "subfolderList": [
+            "d:/work/lighting/prospect\\substance\\input\\fabric",
+            "d:/work/lighting/prospect\\substance\\input\\zbrush_body_v001",
+            "d:/work/lighting/prospect\\substance\\input\\zbrush_eye_v001"
+        ],
+        "fileList": {
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHighsculpt_v001.zzz": 360785639,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.assbin": 904136267,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.bmp": 50331702,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.mtl": 125,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.obj": 1038330840,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v002.assbin": 364003731,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v002.obj": 363213194,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v003.assbin": 349125091,
+            "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v003.obj": 348186901,
+            "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.assbin": 20573918,
+            "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.mtl": 124,
+            "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.obj": 30409107,
+            "d:/work/lighting/prospect\\substance\\input\\Fabric_xkskbia_8K_surface_ms.zip": 361223037,
+            "d:/work/lighting/prospect\\substance\\input\\prospect_eye_v001.usd": 6248060,
+            "d:/work/lighting/prospect\\substance\\input\\prospect_low_v001.usd": 7640270,
+            "d:/work/lighting/prospect\\substance\\input\\prospect_low_v002.usd": 7640270,
+            "d:/work/lighting/prospect\\substance\\input\\prospect_low_v003.usd": 6247575,
+            "d:/work/lighting/prospect\\substance\\input\\prospect_pant_v001.usd": 10447442,
+            "d:/work/lighting/prospect\\substance\\input\\ShunnedNoUdim.usd": 5765981
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHighsculpt_v001.zzz",
+                    360785639
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.bmp",
+                    50331702
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.mtl",
+                    125
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.obj",
+                    1038330840
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v002.obj",
+                    363213194
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v003.obj",
+                    348186901
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v001.assbin",
+                    904136267
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v002.assbin",
+                    364003731
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_bodyHigh_sculpt_v003.assbin",
+                    349125091
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.assbin",
+                    20573918
+                ]
+            ],
+            "2": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.mtl",
+                    124
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\character_eyeHigh_sculpt_v001.obj",
+                    30409107
+                ]
+            ],
+            "3": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\Fabric_xkskbia_8K_surface_ms.zip",
+                    361223037
+                ]
+            ],
+            "4": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\prospect_eye_v001.usd",
+                    6248060
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\prospect_low_v001.usd",
+                    7640270
+                ]
+            ],
+            "5": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\prospect_low_v002.usd",
+                    7640270
+                ],
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\prospect_low_v003.usd",
+                    6247575
+                ]
+            ],
+            "6": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\prospect_pant_v001.usd",
+                    10447442
+                ]
+            ],
+            "7": [
+                [
+                    "d:/work/lighting/prospect\\substance\\input\\ShunnedNoUdim.usd",
+                    5765981
                 ]
             ]
         },
@@ -1333,9 +1469,6 @@
         },
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\substance\\input": {
-        "folderSize": 1005994541
-    },
     "d:/work/lighting/prospect\\substance\\input\\zbrush_body_v001": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -1350,6 +1483,34 @@
         "speedTest": {}
     },
     "d:/work/lighting/prospect\\substance\\input\\zbrush_eye_v001": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\cache\\nCache": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\cache\\nCache\\fluid"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\cache\\particles": {
         "folderSize": 0,
         "fileContainedSize": 0,
         "subfoldersNumber": 0,
@@ -1393,34 +1554,6 @@
     "d:/work/lighting/prospect\\maya\\autosave": {
         "folderSize": 131273
     },
-    "d:/work/lighting/prospect\\maya\\cache\\nCache": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\cache\\nCache\\fluid"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\cache\\particles": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/work/lighting/prospect\\maya\\cache\\nCache\\fluid": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -1447,19 +1580,6 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v003_v001_t01": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v002_v001_t01": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -1473,66 +1593,17 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\images\\render": {
-        "folderSize": 24878145,
-        "fileContainedSize": 24878145,
+    "d:/work/lighting/prospect\\maya\\images\\character_prospect_lookdev_v003_v001_t01": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
         "subfoldersNumber": 0,
-        "filesNumber": 7,
-        "averageFileSize": 3554020.714285714,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\images\\render\\test_v004.png",
-            7291209
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\images\\render\\test_v002.png",
-            566300
-        ],
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
         "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0000.png": 6200514,
-            "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0001.png": 4511991,
-            "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_render_v001__cameraShape7_beauty.0000.png": 4322995,
-            "d:/work/lighting/prospect\\maya\\images\\render\\test_v001.png": 1116596,
-            "d:/work/lighting/prospect\\maya\\images\\render\\test_v002.png": 566300,
-            "d:/work/lighting/prospect\\maya\\images\\render\\test_v003.png": 868540,
-            "d:/work/lighting/prospect\\maya\\images\\render\\test_v004.png": 7291209
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0000.png",
-                    6200514
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0001.png",
-                    4511991
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_render_v001__cameraShape7_beauty.0000.png",
-                    4322995
-                ]
-            ],
-            "2": [
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v001.png",
-                    1116596
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v002.png",
-                    566300
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v003.png",
-                    868540
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v004.png",
-                    7291209
-                ]
-            ]
-        },
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/work/lighting/prospect\\zbrush\\input": {
@@ -1811,6 +1882,68 @@
         "fileBySimilarity": {},
         "speedTest": {}
     },
+    "d:/work/lighting/prospect\\maya\\images\\render": {
+        "folderSize": 24878145,
+        "fileContainedSize": 24878145,
+        "subfoldersNumber": 0,
+        "filesNumber": 7,
+        "averageFileSize": 3554020.714285714,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\images\\render\\test_v004.png",
+            7291209
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\images\\render\\test_v002.png",
+            566300
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0000.png": 6200514,
+            "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0001.png": 4511991,
+            "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_render_v001__cameraShape7_beauty.0000.png": 4322995,
+            "d:/work/lighting/prospect\\maya\\images\\render\\test_v001.png": 1116596,
+            "d:/work/lighting/prospect\\maya\\images\\render\\test_v002.png": 566300,
+            "d:/work/lighting/prospect\\maya\\images\\render\\test_v003.png": 868540,
+            "d:/work/lighting/prospect\\maya\\images\\render\\test_v004.png": 7291209
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0000.png",
+                    6200514
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_lookdev_v001__perspShape_beauty.0001.png",
+                    4511991
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\character_prospect_render_v001__cameraShape7_beauty.0000.png",
+                    4322995
+                ]
+            ],
+            "2": [
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v001.png",
+                    1116596
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v002.png",
+                    566300
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v003.png",
+                    868540
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\images\\render\\test_v004.png",
+                    7291209
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/work/lighting/prospect\\maya\\renderData\\shaders": {
         "folderSize": 0,
         "fileContainedSize": 0,
@@ -1961,270 +2094,6 @@
         "minFileSize": null,
         "subfolderList": [
             "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001": {
-        "folderSize": 1509578,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED": {
-        "folderSize": 489978,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 1,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01"
-        ],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01": {
-        "folderSize": 109781,
-        "fileContainedSize": 109781,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 109781.0,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml",
-            109781
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml",
-            109781
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml": 109781
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml",
-                    109781
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01": {
-        "folderSize": 388443,
-        "fileContainedSize": 388443,
-        "subfoldersNumber": 0,
-        "filesNumber": 2,
-        "averageFileSize": 194221.5,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0000.xml",
-            196142
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0455.xml",
-            192301
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0000.xml": 196142,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0455.xml": 192301
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0000.xml",
-                    196142
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0455.xml",
-                    192301
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01": {
-        "folderSize": 113506,
-        "fileContainedSize": 113506,
-        "subfoldersNumber": 0,
-        "filesNumber": 1,
-        "averageFileSize": 113506.0,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml",
-            113506
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml",
-            113506
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml": 113506
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml",
-                    113506
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01": {
-        "folderSize": 489978,
-        "fileContainedSize": 489978,
-        "subfoldersNumber": 0,
-        "filesNumber": 2,
-        "averageFileSize": 244989.0,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\cameraShape1.0000.xml",
-            248280
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\perspShape.0000.xml",
-            241698
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\cameraShape1.0000.xml": 248280,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\perspShape.0000.xml": 241698
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\cameraShape1.0000.xml",
-                    248280
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\perspShape.0000.xml",
-                    241698
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\scenes\\edits": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01": {
-        "folderSize": 1509578,
-        "fileContainedSize": 1509578,
-        "subfoldersNumber": 0,
-        "filesNumber": 6,
-        "averageFileSize": 251596.33333333334,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape6.0000.xml",
-            452213
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\perspShape.0000.xml",
-            125049
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape1.0000.xml": 231754,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape3.0000.xml": 241038,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape5.0000.xml": 231117,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape6.0000.xml": 452213,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape7.0000.xml": 228407,
-            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\perspShape.0000.xml": 125049
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape1.0000.xml",
-                    231754
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape3.0000.xml",
-                    241038
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape5.0000.xml",
-                    231117
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape6.0000.xml",
-                    452213
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape7.0000.xml",
-                    228407
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\perspShape.0000.xml",
-                    125049
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures": {
-        "folderSize": 9083336631,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 26,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v010",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v012",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v013",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v014",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_cavity_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_eye_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_pant_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_pant_v002",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_subsurface_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_subsurface_v002",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_v016",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v002",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v003",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v004",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_pant_v001",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v003",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v009",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v011",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v012",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013",
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v014"
         ],
         "fileList": {},
         "fileBySimilarity": {},
@@ -2508,6 +2377,270 @@
         },
         "speedTest": {}
     },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001": {
+        "folderSize": 1509578,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED": {
+        "folderSize": 489978,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 1,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01": {
+        "folderSize": 109781,
+        "fileContainedSize": 109781,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 109781.0,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml",
+            109781
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml",
+            109781
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml": 109781
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v002\\v001_t01\\perspShape.0455.xml",
+                    109781
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01": {
+        "folderSize": 113506,
+        "fileContainedSize": 113506,
+        "subfoldersNumber": 0,
+        "filesNumber": 1,
+        "averageFileSize": 113506.0,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml",
+            113506
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml",
+            113506
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml": 113506
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v003\\v001_t01\\perspShape.0455.xml",
+                    113506
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01": {
+        "folderSize": 388443,
+        "fileContainedSize": 388443,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 194221.5,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0000.xml",
+            196142
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0455.xml",
+            192301
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0000.xml": 196142,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0455.xml": 192301
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0000.xml",
+                    196142
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_lookdev_v001\\v001_t01\\perspShape.0455.xml",
+                    192301
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\scenes\\edits": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 0,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01": {
+        "folderSize": 489978,
+        "fileContainedSize": 489978,
+        "subfoldersNumber": 0,
+        "filesNumber": 2,
+        "averageFileSize": 244989.0,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\cameraShape1.0000.xml",
+            248280
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\perspShape.0000.xml",
+            241698
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\cameraShape1.0000.xml": 248280,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\perspShape.0000.xml": 241698
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\cameraShape1.0000.xml",
+                    248280
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\UNTITLED\\v001_t01\\perspShape.0000.xml",
+                    241698
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures": {
+        "folderSize": 10182502505,
+        "fileContainedSize": 0,
+        "subfoldersNumber": 26,
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
+        "subfolderList": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v010",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v012",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v013",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v014",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_cavity_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_eye_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_pant_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_pant_v002",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_subsurface_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_subsurface_v002",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_v016",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v002",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v003",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v004",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_pant_v001",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v003",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v009",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v011",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v012",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013",
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v014"
+        ],
+        "fileList": {},
+        "fileBySimilarity": {},
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01": {
+        "folderSize": 1509578,
+        "fileContainedSize": 1509578,
+        "subfoldersNumber": 0,
+        "filesNumber": 6,
+        "averageFileSize": 251596.33333333334,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape6.0000.xml",
+            452213
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\perspShape.0000.xml",
+            125049
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape1.0000.xml": 231754,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape3.0000.xml": 241038,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape5.0000.xml": 231117,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape6.0000.xml": 452213,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape7.0000.xml": 228407,
+            "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\perspShape.0000.xml": 125049
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape1.0000.xml",
+                    231754
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape3.0000.xml",
+                    241038
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape5.0000.xml",
+                    231117
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape6.0000.xml",
+                    452213
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\cameraShape7.0000.xml",
+                    228407
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\renderman\\rib\\character_prospect_render_v001\\v001_t01\\perspShape.0000.xml",
+                    125049
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/work/lighting/prospect\\maya\\scenes\\.mayaSwatches": {
         "folderSize": 1707250,
         "fileContainedSize": 1707250,
@@ -2715,281 +2848,6 @@
                 [
                     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v012\\prospect_low_v002_initialShadingGroup_Normal.1013.tif.tex",
                     9472282
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002": {
-        "folderSize": 1243850571,
-        "fileContainedSize": 1243850571,
-        "subfoldersNumber": 0,
-        "filesNumber": 48,
-        "averageFileSize": 25913553.5625,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1011.tif",
-            54271050
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1012.tif",
-            1126240
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1001.tif": 38780184,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1002.tif": 37648596,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1003.tif": 30626492,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1011.tif": 48206468,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1012.tif": 36786170,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1013.tif": 10823604,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1001.tif": 39758782,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1002.tif": 34637784,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1003.tif": 24808566,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1011.tif": 42051742,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1012.tif": 31451674,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1013.tif": 10506032,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1001.tif": 1149412,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1002.tif": 1144262,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1003.tif": 1147586,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1011.tif": 1140098,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1012.tif": 1126240,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1013.tif": 1199126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1001.tif": 42173000,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1002.tif": 36093632,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1003.tif": 22199156,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1011.tif": 43663316,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1012.tif": 32219716,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1013.tif": 13149240,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1001.tif": 20741130,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1002.tif": 20451136,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1003.tif": 11445316,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1011.tif": 21429414,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1012.tif": 16694820,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1013.tif": 6219538,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif": 43646898,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif.tex": 16784806,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif": 45476980,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif.tex": 17501880,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif": 38427614,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif.tex": 14417408,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif": 51773682,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif.tex": 19293532,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif": 39444478,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif.tex": 15237397,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif": 11647402,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif.tex": 5565816,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1001.tif": 51968848,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1002.tif": 47265752,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1003.tif": 37297480,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1011.tif": 54271050,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1012.tif": 40670254,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1013.tif": 13687062
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1001.tif",
-                    38780184
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1002.tif",
-                    37648596
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1003.tif",
-                    30626492
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1011.tif",
-                    48206468
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1012.tif",
-                    36786170
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1013.tif",
-                    10823604
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1001.tif",
-                    39758782
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1002.tif",
-                    34637784
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1003.tif",
-                    24808566
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1011.tif",
-                    42051742
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1012.tif",
-                    31451674
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1013.tif",
-                    10506032
-                ]
-            ],
-            "2": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1001.tif",
-                    1149412
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1002.tif",
-                    1144262
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1003.tif",
-                    1147586
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1011.tif",
-                    1140098
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1012.tif",
-                    1126240
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1013.tif",
-                    1199126
-                ]
-            ],
-            "3": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1001.tif",
-                    42173000
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1002.tif",
-                    36093632
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1003.tif",
-                    22199156
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1011.tif",
-                    43663316
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1012.tif",
-                    32219716
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1013.tif",
-                    13149240
-                ]
-            ],
-            "4": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1001.tif",
-                    20741130
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1002.tif",
-                    20451136
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1003.tif",
-                    11445316
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1011.tif",
-                    21429414
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1012.tif",
-                    16694820
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1013.tif",
-                    6219538
-                ]
-            ],
-            "5": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif",
-                    43646898
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif.tex",
-                    16784806
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif",
-                    45476980
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif.tex",
-                    17501880
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif",
-                    38427614
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif.tex",
-                    14417408
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif",
-                    51773682
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif.tex",
-                    19293532
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif",
-                    39444478
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif.tex",
-                    15237397
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif",
-                    11647402
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif.tex",
-                    5565816
-                ]
-            ],
-            "6": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1001.tif",
-                    51968848
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1002.tif",
-                    47265752
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1003.tif",
-                    37297480
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1011.tif",
-                    54271050
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1012.tif",
-                    40670254
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1013.tif",
-                    13687062
                 ]
             ]
         },
@@ -3270,6 +3128,281 @@
         },
         "speedTest": {}
     },
+    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002": {
+        "folderSize": 1243850571,
+        "fileContainedSize": 1243850571,
+        "subfoldersNumber": 0,
+        "filesNumber": 48,
+        "averageFileSize": 25913553.5625,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1011.tif",
+            54271050
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1012.tif",
+            1126240
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1001.tif": 38780184,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1002.tif": 37648596,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1003.tif": 30626492,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1011.tif": 48206468,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1012.tif": 36786170,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1013.tif": 10823604,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1001.tif": 39758782,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1002.tif": 34637784,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1003.tif": 24808566,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1011.tif": 42051742,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1012.tif": 31451674,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1013.tif": 10506032,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1001.tif": 1149412,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1002.tif": 1144262,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1003.tif": 1147586,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1011.tif": 1140098,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1012.tif": 1126240,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1013.tif": 1199126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1001.tif": 42173000,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1002.tif": 36093632,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1003.tif": 22199156,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1011.tif": 43663316,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1012.tif": 32219716,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1013.tif": 13149240,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1001.tif": 20741130,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1002.tif": 20451136,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1003.tif": 11445316,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1011.tif": 21429414,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1012.tif": 16694820,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1013.tif": 6219538,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif": 43646898,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif.tex": 16784806,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif": 45476980,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif.tex": 17501880,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif": 38427614,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif.tex": 14417408,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif": 51773682,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif.tex": 19293532,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif": 39444478,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif.tex": 15237397,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif": 11647402,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif.tex": 5565816,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1001.tif": 51968848,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1002.tif": 47265752,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1003.tif": 37297480,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1011.tif": 54271050,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1012.tif": 40670254,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1013.tif": 13687062
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1001.tif",
+                    38780184
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1002.tif",
+                    37648596
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1003.tif",
+                    30626492
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1011.tif",
+                    48206468
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1012.tif",
+                    36786170
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_ambient_occlusion.1013.tif",
+                    10823604
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1001.tif",
+                    39758782
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1002.tif",
+                    34637784
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1003.tif",
+                    24808566
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1011.tif",
+                    42051742
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1012.tif",
+                    31451674
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_curvature.1013.tif",
+                    10506032
+                ]
+            ],
+            "2": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1001.tif",
+                    1149412
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1002.tif",
+                    1144262
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1003.tif",
+                    1147586
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1011.tif",
+                    1140098
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1012.tif",
+                    1126240
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_id.1013.tif",
+                    1199126
+                ]
+            ],
+            "3": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1001.tif",
+                    42173000
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1002.tif",
+                    36093632
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1003.tif",
+                    22199156
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1011.tif",
+                    43663316
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1012.tif",
+                    32219716
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_normal_base.1013.tif",
+                    13149240
+                ]
+            ],
+            "4": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1001.tif",
+                    20741130
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1002.tif",
+                    20451136
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1003.tif",
+                    11445316
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1011.tif",
+                    21429414
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1012.tif",
+                    16694820
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_position.1013.tif",
+                    6219538
+                ]
+            ],
+            "5": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif",
+                    43646898
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1001.tif.tex",
+                    16784806
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif",
+                    45476980
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1002.tif.tex",
+                    17501880
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif",
+                    38427614
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1003.tif.tex",
+                    14417408
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif",
+                    51773682
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1011.tif.tex",
+                    19293532
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif",
+                    39444478
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1012.tif.tex",
+                    15237397
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif",
+                    11647402
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_thickness.1013.tif.tex",
+                    5565816
+                ]
+            ],
+            "6": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1001.tif",
+                    51968848
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1002.tif",
+                    47265752
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1003.tif",
+                    37297480
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1011.tif",
+                    54271050
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1012.tif",
+                    40670254
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_bodymaps_v002\\initialShadingGroup_world_space_normals.1013.tif",
+                    13687062
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v013": {
         "folderSize": 471427606,
         "fileContainedSize": 471427606,
@@ -3410,307 +3543,6 @@
                 [
                     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v013\\prospect_low_v002_initialShadingGroup_Normal.1013.tif.tex",
                     9472282
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011": {
-        "folderSize": 682849651,
-        "fileContainedSize": 682849651,
-        "subfoldersNumber": 0,
-        "filesNumber": 54,
-        "averageFileSize": 12645363.907407407,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif",
-            60728738
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1001.tif",
-            635126
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif": 22451426,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif.tex": 21454494,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif": 17716734,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif.tex": 18784487,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif": 1085698,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif.tex": 1726468,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif": 25815322,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif.tex": 24486410,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif": 14327856,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif.tex": 13939039,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif": 1085698,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif.tex": 1726468,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif": 7202868,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif.tex": 7194362,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif": 7506764,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif.tex": 7187327,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif": 643318,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif.tex": 1267658,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif": 7785000,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif.tex": 7587309,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif": 4384350,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif.tex": 4581909,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif": 643318,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif.tex": 1267658,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1001.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1002.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1003.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1011.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1012.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1013.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif": 54924618,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif.tex": 37778217,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif": 56535880,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif.tex": 37991344,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif": 22170464,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif.tex": 12094646,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif": 60728738,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif.tex": 40905904,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif": 41033866,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif.tex": 26605326,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif": 13140120,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif.tex": 9472282,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif": 5145340,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif.tex": 7579053,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif": 2817142,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif.tex": 4739123,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif": 643318,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif.tex": 1333201,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif": 4593116,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif.tex": 7386546,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif": 2890616,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif.tex": 4701575,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif": 643318,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif.tex": 1333201
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif",
-                    22451426
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif.tex",
-                    21454494
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif",
-                    17716734
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif.tex",
-                    18784487
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif",
-                    1085698
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif.tex",
-                    1726468
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif",
-                    25815322
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif.tex",
-                    24486410
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif",
-                    14327856
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif.tex",
-                    13939039
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif",
-                    1085698
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif.tex",
-                    1726468
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif",
-                    7202868
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1001.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif",
-                    54924618
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif.tex",
-                    7194362
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif",
-                    7506764
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif.tex",
-                    7187327
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif",
-                    643318
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif.tex",
-                    1267658
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif",
-                    7785000
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif.tex",
-                    7587309
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif",
-                    4384350
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif.tex",
-                    4581909
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif",
-                    643318
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif.tex",
-                    1267658
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif.tex",
-                    37778217
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif.tex",
-                    37991344
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif.tex",
-                    12094646
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif.tex",
-                    40905904
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif.tex",
-                    26605326
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif.tex",
-                    9472282
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif.tex",
-                    7579053
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif.tex",
-                    4739123
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif.tex",
-                    1333201
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif.tex",
-                    7386546
-                ]
-            ],
-            "2": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1002.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1003.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1011.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1012.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1013.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif",
-                    56535880
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif",
-                    22170464
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif",
-                    41033866
-                ]
-            ],
-            "3": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif",
-                    60728738
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif",
-                    13140120
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif",
-                    4593116
-                ]
-            ],
-            "4": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif",
-                    5145340
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif",
-                    2817142
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif",
-                    643318
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif",
-                    2890616
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif.tex",
-                    4701575
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif",
-                    643318
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif.tex",
-                    1333201
                 ]
             ]
         },
@@ -4011,6 +3843,307 @@
                 ],
                 [
                     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v010\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif.tex",
+                    1333201
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011": {
+        "folderSize": 682849651,
+        "fileContainedSize": 682849651,
+        "subfoldersNumber": 0,
+        "filesNumber": 54,
+        "averageFileSize": 12645363.907407407,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif",
+            60728738
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1001.tif",
+            635126
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif": 22451426,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif.tex": 21454494,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif": 17716734,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif.tex": 18784487,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif": 1085698,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif.tex": 1726468,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif": 25815322,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif.tex": 24486410,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif": 14327856,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif.tex": 13939039,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif": 1085698,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif.tex": 1726468,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif": 7202868,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif.tex": 7194362,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif": 7506764,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif.tex": 7187327,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif": 643318,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif.tex": 1267658,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif": 7785000,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif.tex": 7587309,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif": 4384350,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif.tex": 4581909,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif": 643318,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif.tex": 1267658,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1001.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1002.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1003.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1011.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1012.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1013.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif": 54924618,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif.tex": 37778217,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif": 56535880,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif.tex": 37991344,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif": 22170464,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif.tex": 12094646,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif": 60728738,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif.tex": 40905904,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif": 41033866,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif.tex": 26605326,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif": 13140120,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif.tex": 9472282,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif": 5145340,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif.tex": 7579053,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif": 2817142,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif.tex": 4739123,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif": 643318,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif.tex": 1333201,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif": 4593116,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif.tex": 7386546,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif": 2890616,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif.tex": 4701575,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif": 643318,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif.tex": 1333201
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif",
+                    22451426
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1001.tif.tex",
+                    21454494
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif",
+                    17716734
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1002.tif.tex",
+                    18784487
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif",
+                    1085698
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1003.tif.tex",
+                    1726468
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif",
+                    25815322
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1011.tif.tex",
+                    24486410
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif",
+                    14327856
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1012.tif.tex",
+                    13939039
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif",
+                    1085698
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_BaseColor.1013.tif.tex",
+                    1726468
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif",
+                    7202868
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1001.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif",
+                    54924618
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1001.tif.tex",
+                    7194362
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif",
+                    7506764
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1002.tif.tex",
+                    7187327
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif",
+                    643318
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1003.tif.tex",
+                    1267658
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif",
+                    7785000
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1011.tif.tex",
+                    7587309
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif",
+                    4384350
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1012.tif.tex",
+                    4581909
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif",
+                    643318
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Height.1013.tif.tex",
+                    1267658
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1001.tif.tex",
+                    37778217
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif.tex",
+                    37991344
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif.tex",
+                    12094646
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif.tex",
+                    40905904
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif.tex",
+                    26605326
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif.tex",
+                    9472282
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif.tex",
+                    7579053
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif.tex",
+                    4739123
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif.tex",
+                    1333201
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif.tex",
+                    7386546
+                ]
+            ],
+            "2": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1002.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1003.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1011.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1012.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Metallic.1013.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1002.tif",
+                    56535880
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1003.tif",
+                    22170464
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1012.tif",
+                    41033866
+                ]
+            ],
+            "3": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1011.tif",
+                    60728738
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Normal.1013.tif",
+                    13140120
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1011.tif",
+                    4593116
+                ]
+            ],
+            "4": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1001.tif",
+                    5145340
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1002.tif",
+                    2817142
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1003.tif",
+                    643318
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif",
+                    2890616
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1012.tif.tex",
+                    4701575
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif",
+                    643318
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v011\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif.tex",
                     1333201
                 ]
             ]
@@ -4670,19 +4803,6 @@
         },
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v003": {
-        "folderSize": 0,
-        "fileContainedSize": 0,
-        "subfoldersNumber": 0,
-        "filesNumber": 0,
-        "averageFileSize": null,
-        "maxFileSize": null,
-        "minFileSize": null,
-        "subfolderList": [],
-        "fileList": {},
-        "fileBySimilarity": {},
-        "speedTest": {}
-    },
     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_eye_v004": {
         "folderSize": 61985401,
         "fileContainedSize": 61985401,
@@ -4728,264 +4848,17 @@
         },
         "speedTest": {}
     },
-    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015": {
-        "folderSize": 576697852,
-        "fileContainedSize": 576697852,
+    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v003": {
+        "folderSize": 0,
+        "fileContainedSize": 0,
         "subfoldersNumber": 0,
-        "filesNumber": 36,
-        "averageFileSize": 16019384.777777778,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif",
-            43277704
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1001.tif",
-            635126
-        ],
+        "filesNumber": 0,
+        "averageFileSize": null,
+        "maxFileSize": null,
+        "minFileSize": null,
         "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif": 24544964,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif.tex": 24181281,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif": 28923844,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif.tex": 29029918,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif": 29319112,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif.tex": 28716471,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif": 15046734,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif.tex": 15627292,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif": 7700108,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif.tex": 7898017,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif": 8253504,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif.tex": 8416019,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif": 8425212,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif.tex": 8444581,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif": 4667478,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif.tex": 4958828,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1001.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1002.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1011.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1012.tif": 635126,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif": 39357940,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif.tex": 32417363,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif": 42580240,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif.tex": 34978522,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif": 43277704,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif.tex": 35045649,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif": 21946420,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif.tex": 18932728,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif": 5603594,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif.tex": 8317164,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif": 5324168,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif.tex": 8898276,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif": 5708772,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif.tex": 9081967,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif": 3309876,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif.tex": 5223602
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif",
-                    24544964
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif.tex",
-                    24181281
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif",
-                    28923844
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif.tex",
-                    29029918
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif",
-                    29319112
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif.tex",
-                    28716471
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif",
-                    15046734
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif.tex",
-                    15627292
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif",
-                    7700108
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif.tex",
-                    7898017
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif",
-                    8253504
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif.tex",
-                    8416019
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif",
-                    8425212
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif.tex",
-                    8444581
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif",
-                    4667478
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif.tex",
-                    4958828
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1001.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif",
-                    39357940
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif",
-                    42580240
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif",
-                    43277704
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif",
-                    5603594
-                ]
-            ],
-            "2": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1002.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1011.tif",
-                    635126
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1012.tif",
-                    635126
-                ]
-            ],
-            "3": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif.tex",
-                    32417363
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif.tex",
-                    34978522
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif.tex",
-                    35045649
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif",
-                    21946420
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif.tex",
-                    18932728
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif.tex",
-                    8317164
-                ]
-            ],
-            "4": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif",
-                    5324168
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif.tex",
-                    8898276
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif",
-                    5708772
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif.tex",
-                    9081967
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif",
-                    3309876
-                ],
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif.tex",
-                    5223602
-                ]
-            ]
-        },
-        "speedTest": {}
-    },
-    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013": {
-        "folderSize": 118303357,
-        "fileContainedSize": 118303357,
-        "subfoldersNumber": 0,
-        "filesNumber": 4,
-        "averageFileSize": 29575839.25,
-        "maxFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u-2_v-2.tif",
-            50331852
-        ],
-        "minFileSize": [
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u-2_v-2.exr",
-            206649
-        ],
-        "subfolderList": [],
-        "fileList": {
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u-2_v-2.exr": 206649,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u0_v0.exr": 17433004,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u-2_v-2.tif": 50331852,
-            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u0_v0.tif": 50331852
-        },
-        "fileBySimilarity": {
-            "0": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u-2_v-2.exr",
-                    206649
-                ]
-            ],
-            "1": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u0_v0.exr",
-                    17433004
-                ]
-            ],
-            "2": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u-2_v-2.tif",
-                    50331852
-                ]
-            ],
-            "3": [
-                [
-                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u0_v0.tif",
-                    50331852
-                ]
-            ]
-        },
+        "fileList": {},
+        "fileBySimilarity": {},
         "speedTest": {}
     },
     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_v016": {
@@ -5152,6 +5025,55 @@
                 ],
                 [
                     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v009\\Output0-NM_u1_v1.tif",
+                    50331852
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013": {
+        "folderSize": 118303357,
+        "fileContainedSize": 118303357,
+        "subfoldersNumber": 0,
+        "filesNumber": 4,
+        "averageFileSize": 29575839.25,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u-2_v-2.tif",
+            50331852
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u-2_v-2.exr",
+            206649
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u-2_v-2.exr": 206649,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u0_v0.exr": 17433004,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u-2_v-2.tif": 50331852,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u0_v0.tif": 50331852
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u-2_v-2.exr",
+                    206649
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-DM4096_u0_v0.exr",
+                    17433004
+                ]
+            ],
+            "2": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u-2_v-2.tif",
+                    50331852
+                ]
+            ],
+            "3": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\zmaps_v013\\Output1-NM_u0_v0.tif",
                     50331852
                 ]
             ]
@@ -5375,6 +5297,217 @@
                 [
                     "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_cavity_v001\\prospect_low_v002_initialShadingGroup_Roughness.1013.tif.tex",
                     4953756
+                ]
+            ]
+        },
+        "speedTest": {}
+    },
+    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015": {
+        "folderSize": 576697852,
+        "fileContainedSize": 576697852,
+        "subfoldersNumber": 0,
+        "filesNumber": 36,
+        "averageFileSize": 16019384.777777778,
+        "maxFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif",
+            43277704
+        ],
+        "minFileSize": [
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1001.tif",
+            635126
+        ],
+        "subfolderList": [],
+        "fileList": {
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif": 24544964,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif.tex": 24181281,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif": 28923844,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif.tex": 29029918,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif": 29319112,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif.tex": 28716471,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif": 15046734,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif.tex": 15627292,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif": 7700108,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif.tex": 7898017,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif": 8253504,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif.tex": 8416019,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif": 8425212,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif.tex": 8444581,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif": 4667478,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif.tex": 4958828,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1001.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1002.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1011.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1012.tif": 635126,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif": 39357940,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif.tex": 32417363,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif": 42580240,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif.tex": 34978522,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif": 43277704,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif.tex": 35045649,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif": 21946420,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif.tex": 18932728,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif": 5603594,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif.tex": 8317164,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif": 5324168,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif.tex": 8898276,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif": 5708772,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif.tex": 9081967,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif": 3309876,
+            "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif.tex": 5223602
+        },
+        "fileBySimilarity": {
+            "0": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif",
+                    24544964
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1001.tif.tex",
+                    24181281
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif",
+                    28923844
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1002.tif.tex",
+                    29029918
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif",
+                    29319112
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1011.tif.tex",
+                    28716471
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif",
+                    15046734
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_BaseColor.1012.tif.tex",
+                    15627292
+                ]
+            ],
+            "1": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif",
+                    7700108
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1001.tif.tex",
+                    7898017
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif",
+                    8253504
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1002.tif.tex",
+                    8416019
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif",
+                    8425212
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1011.tif.tex",
+                    8444581
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif",
+                    4667478
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Height.1012.tif.tex",
+                    4958828
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1001.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif",
+                    39357940
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif",
+                    42580240
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif",
+                    43277704
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif",
+                    5603594
+                ]
+            ],
+            "2": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1002.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1011.tif",
+                    635126
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Metallic.1012.tif",
+                    635126
+                ]
+            ],
+            "3": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1001.tif.tex",
+                    32417363
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1002.tif.tex",
+                    34978522
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1011.tif.tex",
+                    35045649
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif",
+                    21946420
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Normal.1012.tif.tex",
+                    18932728
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1001.tif.tex",
+                    8317164
+                ]
+            ],
+            "4": [
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif",
+                    5324168
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1002.tif.tex",
+                    8898276
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif",
+                    5708772
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1011.tif.tex",
+                    9081967
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif",
+                    3309876
+                ],
+                [
+                    "d:/work/lighting/prospect\\maya\\sourceimages\\3dPaintTextures\\substance_body_v015\\prospect_low_v003_PxrSurface4SG_Roughness.1012.tif.tex",
+                    5223602
                 ]
             ]
         },

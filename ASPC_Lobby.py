@@ -54,7 +54,9 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			"background": "#151416",
 			"selected": "gray",
 			"secondary": "white",
+
 			"error": "#f06042",
+			"warning": "orange",
 
 			"heaviest":"#F99461",
 			"lightest":"#B1D94D"
@@ -890,6 +892,8 @@ Modified for the last time %s day(s) ago\n
 		percentage_biggest_folder_name = None
 		percentage_average = 0
 
+
+		"""
 		for folder_name, folder_data in self.folder_dictionnary.items():
 			folder_size = self.get_size_mo_function(folder_data["folderSize"])
 			ratio = (folder_size / project_size) * 100
@@ -901,19 +905,45 @@ Modified for the last time %s day(s) ago\n
 			percentage_average += ratio
 
 		percentage_average = percentage_average / len(list(self.folder_dictionnary.keys()))
-
-
-
 		"""
+
+
+
+		
 		for folder_name, folder_data in self.folder_dictionnary.items():
+			
+
+
+			label = Label(folder_name)
+
+
 			#get the folder size
 			folder_size = self.get_size_mo_function(folder_data["folderSize"])
 
+
 			
-			self.show_message_function(ratio)
+
+			#if number of files is over 5 by default
+			#check the proximity ratio
+			try:
+				if folder_data["filesNumber"] > 5:
+					folder_similiraty_dictionnary = folder_data["fileBySimilarity"]
+
+					for key, value in folder_similiraty_dictionnary.items():
+						value_percentage = (len(value) * 100) / folder_data["filesNumber"]
+						if value_percentage > 20:
+							label.styles.background = self.color_dictionnary["warning"]
+							break
+			except KeyError:
+				self.show_message_function(folder_name)
+
+
+
 			
-			self.listview_folder.append(ListItem(Label(str(ratio))))
-		"""
+			#self.show_message_function(ratio)
+			
+			#self.listview_folder.append(ListItem(Label(str(ratio))))
+			self.listview_folder.append(ListItem(label))
 
 
 

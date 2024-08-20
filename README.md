@@ -23,6 +23,8 @@ gives you, while using the same widgets you are used to.
 	percentage of the project contained in the folder
 	number of items contained in the folder
 	compared to the number of items contained in the project
+
+	-> remember to enable similarity feature only for specific kind of files (most of the time useless for textures because of UDIMS)
 	
 
 
