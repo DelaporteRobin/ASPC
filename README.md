@@ -25,6 +25,18 @@ gives you, while using the same widgets you are used to.
 	compared to the number of items contained in the project
 
 	-> remember to enable similarity feature only for specific kind of files (most of the time useless for textures because of UDIMS)
+
+	-> when selecting a folder, checkbox to highlight childrens
+
+	-> warnings about a folder are stored as markdown for the markdown viewer on the right side
+
+	-> folder searching bug has a bug
+	-> file searching bar doesn't search for anything
+
+
+	-> update in live the live mode window
+	-> color files and folder depending of is they exists or not
+	-> button to relaunch the live mode exec
 	
 
 

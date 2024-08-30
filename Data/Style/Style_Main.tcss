@@ -64,6 +64,9 @@ ListView {
 	border-title-align:left;
 	border-title-style:bold;
 }
+ListItem {
+	background: $background;
+}
 
 
 

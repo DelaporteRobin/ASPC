@@ -54,6 +54,7 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			"background": "#151416",
 			"selected": "gray",
 			"secondary": "white",
+			"highlighted": "#496258",
 
 			"error": "#f06042",
 			"warning": "orange",
@@ -73,10 +74,14 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 		self.file_dictionnary = {}
 		self.folder_dictionnary = {}
+		self.folder_warning_dictionnary = {}
+
 		self.current_lobby_filelist = []
 
 		self.folder_list = []
 		self.file_list = []
+		self.labelfile_list = []
+		self.folder_list = []
 
 		self.live_folderlist_proxy = None
 
@@ -517,6 +522,8 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 			files_by_proximity_value = self.query_one("#files_proximity_checkbox").value
 			#self.show_message_function(files_by_proximity_value)
 			#get the files in that folder
+
+
 			try:
 				if files_by_proximity_value == False:
 					file_list = self.folder_dictionnary[folder_selected]["fileList"]
@@ -558,9 +565,26 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 							list_item = ListItem(Label(os.path.basename(v[0])))
 							self.listview_files.append(list_item)
 
+			#get the list of all the children folders from the root folder
+			#and color them
+			#clean the children folder color
+			for item in self.labelfile_list:
+				item.styles.background = self.color_dictionnary["background"]
+
+			for i in range(len(self.folder_list)):
+				if folder_selected in self.folder_list[i]:
+					#self.show_message_function(self.folder_list[i])
+					try:
+						self.labelfile_list[i].styles.background = self.color_dictionnary["highlighted"]
+					except:
+						pass
+						#self.show_error_function("Impossible")
+					else:
+						pass
 
 
-	
+
+
 
 
 	def on_option_list_option_selected(self, event: OptionList.OptionHighlighted) -> None:
@@ -655,10 +679,22 @@ class ASPC_MainApplication(App, ASPC_CommonApplication):
 
 	def create_markdown_for_folder_function(self, filepath):
 		final_markdown="""
-## General informations on folder
+# General informations on folder
 Folder : %s\n
 """%filepath
+
+		#try to get existing warnings about this folder
 		#get general informations about the folder
+		if filepath in self.folder_warning_dictionnary:
+			#get warning list
+			final_markdown+= """
+> [!CAUTION]
+> ## Global warning about folder:\n
+"""
+			for warning in self.folder_warning_dictionnary[filepath]:
+				final_markdown+="""
+> # %s
+"""%warning
 		try:
 			folder_size = self.get_size_mo_function(self.folder_dictionnary[filepath]["folderSize"])
 			folder_size_contained = self.get_size_mo_function(self.folder_dictionnary[filepath]["fileContainedSize"])
@@ -680,7 +716,7 @@ Number of subfolder : %s\n
 
 
 		final_markdown+="""
-## Speed test informations
+# Speed test informations
 """
 		#get informations about file size
 		try:
@@ -851,6 +887,21 @@ Modified for the last time %s day(s) ago\n
 
 
 
+	def add_warning_for_folder_function(self, folder_name, warning):
+		if folder_name in self.folder_warning_dictionnary:
+			#get data
+			warning_list = self.folder_warning_dictionnary[folder_name]
+			warning_list.append(warning)
+			self.folder_warning_dictionnary[folder_name] = warning_list
+
+		else:
+			self.folder_warning_dictionnary[folder_name] = [warning]
+
+
+
+
+
+
 
 
 
@@ -878,6 +929,7 @@ Modified for the last time %s day(s) ago\n
 		#CLEAR OPTIONS
 		self.listview_folder.clear()
 		self.listview_files.clear()
+		self.labelfile_list.clear()
 
 		#get main informations
 		project_size = self.get_size_mo_function(self.global_project_data["ProjectSize"])
@@ -893,19 +945,10 @@ Modified for the last time %s day(s) ago\n
 		percentage_average = 0
 
 
-		"""
-		for folder_name, folder_data in self.folder_dictionnary.items():
-			folder_size = self.get_size_mo_function(folder_data["folderSize"])
-			ratio = (folder_size / project_size) * 100
+		
 
-			if ratio > percentage_biggest:
-				percentage_biggest = ratio 
-				percentage_biggest_folder_name = folder_name
-
-			percentage_average += ratio
-
-		percentage_average = percentage_average / len(list(self.folder_dictionnary.keys()))
-		"""
+		#EMPTY FOLDER WARNING DICTIONNARY
+		self.folder_warning_dictionnary = {}
 
 
 
@@ -932,10 +975,39 @@ Modified for the last time %s day(s) ago\n
 					for key, value in folder_similiraty_dictionnary.items():
 						value_percentage = (len(value) * 100) / folder_data["filesNumber"]
 						if value_percentage > 20:
-							label.styles.background = self.color_dictionnary["warning"]
+							label.styles.color = self.color_dictionnary["warning"]
+
+							self.add_warning_for_folder_function(folder_name, "Files with similar names detected in folder")
 							break
 			except KeyError:
 				self.show_message_function(folder_name)
+
+
+
+
+			#check the size ratio
+			#if the folder contains children compare the size of files contained compared to the folder 
+			#size without the size of the files contained (with children size)
+			#initial ratio is based at 70%
+			size_ratio = None
+
+			try:
+				if folder_data["subfoldersNumber"] > 0:
+					try:
+						size_ratio = (folder_data["fileContainedSize"] * 100) / folder_data["folderSize"]
+					except ZeroDivisionError:
+						pass
+			except KeyError:
+				pass
+
+			#in any case compare the size of the global folder with the size of the whole project
+			#initial ratio is based at 5%
+			global_size_ratio = (folder_data["folderSize"] * 100) / self.global_project_data["ProjectSize"]
+			global_size_ratio_threshold = 5
+			if global_size_ratio > global_size_ratio_threshold:
+				label.styles.background = self.color_dictionnary["error"]
+				self.add_warning_for_folder_function(folder_name, "This folder is containing more than %s %% of the project"%global_size_ratio_threshold)
+
 
 
 
@@ -944,6 +1016,8 @@ Modified for the last time %s day(s) ago\n
 			
 			#self.listview_folder.append(ListItem(Label(str(ratio))))
 			self.listview_folder.append(ListItem(label))
+			self.labelfile_list.append(label)
+			self.folder_list.append(folder_name)
 
 
 

@@ -4,8 +4,8 @@
         "saveJson": true,
         "executeSpeedTest": false,
         "speedTestThreshold": null,
-        "numberOfProcessMode": "core",
-        "numberOfProcess": "4"
+        "numberOfProcessMode": "custom",
+        "numberOfProcess": "5"
     },
     "Live": {}
 }
