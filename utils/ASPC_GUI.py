@@ -20,6 +20,7 @@ import sys
 import copy
 import os
 
+from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListView, MultiListItem
 
 
 
@@ -185,7 +186,7 @@ class ASPC_GUI:
 							pass
 						#self.message_function(gradient_number)
 
-				list_listitem.append(ListItem(label))
+				list_listitem.append(MultiListItem(label))
 				self.progress_files.advance(1)
 
 			self.message_function("Refreshing file list...\nThis process can take some while", "notification")

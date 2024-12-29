@@ -6,14 +6,22 @@ from textual.widgets import Tree, ProgressBar, Input, Log, Rule, Collapsible, Ch
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen 
+from textual.await_complete import AwaitComplete
+from textual.await_remove import AwaitRemove
+from textual.binding import Binding, BindingType
 from textual import events
 from textual import work
 from textual.containers import Horizontal, Vertical, Container, VerticalScroll
 from textual import on
+from textual.events import Mount
+from textual.message import Message
+from textual.reactive import reactive
 from textual.await_complete import AwaitComplete 
 from textual.widgets._directory_tree import DirEntry
 from textual.widgets._tree import TreeNode
 from textual.errors import TextualError
+from textual.widgets._list_item import ListItem
+from textual.widget import AwaitMount, Widget
 
 
 from pathlib import Path
@@ -34,106 +42,9 @@ from utils.ASPC_Log import ASPC_LOG
 from utils.ASPC_Snoop import ASPC_SNOOP
 from utils.ASPC_Utils import ASPC_UTILS
 from utils.ASPC_GUI import ASPC_GUI
+from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListItem, MultiListView
 
 from styles.theme_file import *
-
-
-
-
-class HighlightableDirectoryTree(DirectoryTree):
-    """DirectoryTree with path highlighting support."""
-
-    class PathNotFoundError(TextualError):
-        def __init__(self, path: Path) -> None:
-            self.path = path
-
-    def highlight_path(self, path: Path) -> AwaitComplete:
-        """Highlight a path in the tree.
-
-        Highlights a path that may be nested several levels deep in the tree.
-        This can be done at all times, even when the tree has never been
-        expanded and thus the directory contents containing the path have not
-        been cached yet. This method will walk the tree, expanding nodes when
-        necessary and waiting on the contents before taking another step until
-        it arrives at the requested path. The node containing the path is
-        subsequently highlighted.
-
-        Args:
-            path (Path): the path to highlight.
-
-        Returns:
-            AwaitComplete: An optionally awaitable that ensures the path is
-                highlighted.
-        """
-        return AwaitComplete(self._highlight_path(path))
-
-    async def _highlight_path(self, path: Path) -> None:
-        """Highlight a path in the tree, while expanding parents.
-
-        Args:
-            path (Path): the path to highlight.
-        """
-        node = await self._expand_parents_and_find_node(path)
-        self.move_cursor(node)
-
-    async def _expand_parents_and_find_node(self, path: Path) -> TreeNode[DirEntry]:
-        """Traverse all parts of the path and expand all parents.
-
-        This method will traverse all parts of the path and expand all parents
-        in the tree when necessary. Finally, the node containing the requested
-        path is returned.
-
-        Args:
-            path (Path): the requested path that must become visible.
-
-        Returns:
-            TreeNode[DirEntry]: the tree node containing the requested path.
-        """
-        node = self.root
-        for part in Path(path).parts:
-            node = self._find_node_from_path(node, part)
-            if not node.children:
-                await self.reload_node(node)
-            node.expand()
-        return node
-
-    def _find_node_from_path(
-        self, parent: TreeNode[DirEntry], path: str
-    ) -> TreeNode[DirEntry]:
-        """Search a node's children for a specific path.
-
-        The path must be a direct child of the parent. For example, if the
-        parent's path is /home/alice, then the path may be /home/alice/work, or
-        /home/alice/documents, but _not_ /home/alice/work/software since that is
-        not a direct child of /home/alice.
-
-        Args:
-            parent (TreeNode[DirEntry]): the parent node.
-            path (str): the path to search for.
-
-        Raises:
-            PathNotFoundError: raised when the path is not found.
-
-        Returns:
-            TreeNode[DirEntry]: the node containing the requested path.
-        """
-        root = parent.data.path.absolute()
-        for node in parent.children:
-            if str(node.data.path.relative_to(root)) == path:
-                return node
-        raise self.PathNotFoundError(path)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -285,7 +196,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 					self.progress_files = ProgressBar(id="progress_files")
 					yield self.progress_files
 
-					self.listview_files = ListView(id = "listview_files")
+					self.listview_files = MultiListView(id = "listview_files")
 					yield self.listview_files
 					self.listview_files.border_title = "Files list"
 
@@ -317,6 +228,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 		self.load_user_settings_function()
 
 
+		for i in range(10):
+			self.listview_files.append(MultiListItem(Label("hello world")))
+
+
 		for checkbox_id, checkbox_value in self.user_settings["WIDGETS"].items():
 			try:
 				self.query_one("#%s"%checkbox_id).value = checkbox_value
@@ -333,48 +248,15 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 
 
-	"""
-	def get_children_function(self, root, folder):
-		children = root.children
-		tree = self.query_one(DirectoryTree)
-
-		for i in range(len(children)):
-			label = str(children[i].label)
-			#self.message_function(label)
-			if label == folder:
-				self.message_function("children located : %s"%folder, "success")
-				self.message_function(children[i])
-				self.message_function(children[i].line)
-
-
-				try:    
-					
-					tree.focus()
-					tree.cursor_line = children[i].line
-					tree.scroll_to_line(children[i].line)
-					children[i].expand()
-
-					
-					for i in range(3):
-						self.message_function("TRYING TO GET CHILDS", "error")
-
-						gen = children[i].children 
-
-						self.message_function(gen)
-						for x in gen:
-							self.message_function(x, "error")
 
 
 
+	def on_key(self, event:events.Key) -> None:
+		if (event.key == "enter") and (self.focused.id == "listview_files"):
+			children_item = self.listview_files.children[self.listview_files.index]
+			children_item.highlight_item(children_item)
 
-				except Exception as e:
-					self.message_function(e, "error")
-				else:
-					self.message_function("focus %s"%children[i].label, "success")
-					self.message_function(children[i].children)
-	"""
-					
-
+		
 
 
 
@@ -557,11 +439,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 
 
-	def on_key(self, event:events.Key) -> None:
-		self.message_function(self.focused)
-		self.message_function(event)
 
-		
 			
 
 			

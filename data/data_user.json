@@ -1,6 +1,6 @@
 {
     "WIDGETS": {
-        "checkbox_file_size": true,
+        "checkbox_file_size": false,
         "checkbox_file_children": true,
         "checkbox_find_folder": true,
         "checkbox_size_gradient": true
