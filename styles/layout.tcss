@@ -1,0 +1,65 @@
+/* GENERAL WIDGET CODE */
+ListItem {
+	width:auto;
+}
+/* SPECIFIC CONTAINER CODE */
+#homepage_horizontal_container {
+	align: center middle;
+	background: $background;
+}
+#homepage_vertical_container {
+	background: $surface;
+	align:center top;
+	max-width:70;
+
+	border: vkey $primary;
+}
+#homepage_info_container {
+	border:hkey $primary;
+	height: 7;
+}
+
+
+
+/* SPECIFIC WIDGETS CODE */
+#listview_folders, #listview_files {
+	border: solid $primary;
+	overflow-x:auto;
+	overflow-y:auto;
+}
+#listview_log {
+	overflow-x:auto;
+	overflow-y: auto;
+}
+.static_title_homepage {
+
+	margin-top: 7;
+	text-align: left;
+	color: $primary;
+	background: $surface;
+	width:75;
+	height:25;
+}
+#button_remove_project {
+	margin-bottom: 1;
+}
+#homepage_button_open {
+	background: $primary;
+	color: $surface;
+
+	width:100%;
+
+	padding-top:1;
+	padding-bottom:2;
+}
+#directorytree_main {
+	min-height:70%;
+	max-height:80%;
+}
+#button_explore_project {
+	width:100%;
+}
+#collapsible_project_list {
+	max-height:40%;
+}
+

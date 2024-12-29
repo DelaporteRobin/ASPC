@@ -1,0 +1,14 @@
+{
+    "WIDGETS": {
+        "checkbox_file_size": true,
+        "checkbox_file_children": true,
+        "checkbox_find_folder": true,
+        "checkbox_size_gradient": true
+    },
+    "COLOR": {
+        "notification": "#edff3e",
+        "warning": "#ffb33e",
+        "important": "#ff4a3e",
+        "alert": "#cb0e30"
+    }
+}
