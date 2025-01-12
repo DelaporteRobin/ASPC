@@ -76,6 +76,12 @@ class ASPC_SNOOP():
 			print(colored("All processes terminated", "green"))
 
 
+
+			"""
+			create the size classement for folders
+			"""
+
+
 			
 			print(colored("Sort size list", "yellow"))
 			self.data_file_size_list = list(self.data_file_size)
@@ -97,8 +103,43 @@ class ASPC_SNOOP():
 				"DATA_FILES":dict(self.data_file),
 				"DATA_FILE_SIZE":list(self.data_file_size_list),
 				"DATA_FILE_LIFE":list(self.data_file_life_list),
-				"DATA_FILE_MODIF":list(self.data_file_modif_list)
+				"DATA_FILE_MODIF":list(self.data_file_modif_list),
+				"DATA_ITEM_SIZE":[],
+				"DATA_CHILDREN_SIZE":[],
 			}
+
+
+			print(colored("Create folder size classification", "yellow"))
+			#create the folder list
+			folder_item_size_classification = []
+			folder_children_size_classification = []
+
+			try:
+				for folder_name, folder_data in self.data_global["DATA_FOLDER"].items():
+					#block of instructions for the items contained in folder
+					if len(folder_item_size_classification) == 0:
+						folder_item_size_classification.append((folder_name, folder_data["ITEMS_SIZE"]))
+					else:
+						bisect.insort(folder_item_size_classification, (folder_name, folder_data["ITEMS_SIZE"]), key=lambda x: x[1])
+
+					
+					#block of instructions for children contained in the folder
+					if len(folder_children_size_classification) == 0:
+						folder_children_size_classification.append((folder_name, folder_data["CHILDREN_SIZE"]))
+					else:
+						bisect.insort(folder_children_size_classification, (folder_name, folder_data["CHILDREN_SIZE"]), key=lambda x: x[1])
+
+				#insert values in the final dictionnary
+				self.data_global["DATA_ITEM_SIZE"] = folder_item_size_classification
+				self.data_global["DATA_CHILDREN_SIZE"] = folder_children_size_classification
+			except Exception as e:
+				print(colored("Impossible to create folder size classification","red"))
+				print(colored(e, "red"))
+			else:
+				print(colored("Folder classification done", "green"))
+
+
+
 
 
 
@@ -224,6 +265,7 @@ class ASPC_SNOOP():
 
 
 
+					sim_checked = []
 					for item in folder_content:
 						if os.path.isfile(os.path.join(folder,item))==True:
 							#get informations about the file
@@ -256,11 +298,28 @@ class ASPC_SNOOP():
 
 
 							#get the similarity dictionnary for the folder
-							similarity_dictionnary = folder_data["SIMILARITY"]
+							sim_dict = folder_data["SIMILARITY"]
+
+							if sim_dict == {}:
+								sim_dict[item] = [item]
+								sim_checked.append(item)
+
+							else:
+								added = False
+								for sim_key, sim_data in sim_dict.items():
+									ratio = Levenshtein.ratio(os.path.splitext(sim_key)[0],os.path.splitext(item)[0])
+									if ratio > 0.9:
+										sim_data.append(item)
+										sim_dict[sim_key] = sim_data
+										added=True
+										break
+
+								if added == False:
+									sim_dict[item] = [item]
 
 
 
-
+							"""	
 							#starting to create the similarity dictionnary
 							if similarity_dictionnary == {}:
 								similarity_dictionnary[item] = [item]
@@ -281,6 +340,7 @@ class ASPC_SNOOP():
 
 								if found == False:
 									similarity_dictionnary[item] = [item]
+							"""
 
 						
 
@@ -318,7 +378,7 @@ class ASPC_SNOOP():
 
 							
 							#add the similarity back in dictionnary
-							folder_data["SIMILARITY"] = similarity_dictionnary				
+							folder_data["SIMILARITY"] = sim_dict				
 							#update the value of the global dictionnary						
 							self.data_folder[folder] = folder_data
 									
@@ -332,7 +392,7 @@ class ASPC_SNOOP():
 
 
 			except Exception as e:
-				print(colored(e, "red"))
-				print(colored(traceback.format_exc(), "red"))
+				#print(colored(e, "red"))
+				#print(colored(traceback.format_exc(), "red"))
 				return
 				

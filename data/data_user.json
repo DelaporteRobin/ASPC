@@ -1,9 +1,12 @@
 {
     "WIDGETS": {
         "checkbox_file_size": false,
-        "checkbox_file_children": true,
-        "checkbox_find_folder": true,
-        "checkbox_size_gradient": true
+        "checkbox_file_children": false,
+        "checkbox_find_folder": false,
+        "checkbox_size_gradient": true,
+        "checkbox_file_similarity": true,
+        "checkbox_folder_children": false,
+        "checkbox_folder_items": true
     },
     "COLOR": {
         "notification": "#edff3e",

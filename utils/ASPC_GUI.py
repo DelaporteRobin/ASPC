@@ -20,7 +20,7 @@ import sys
 import copy
 import os
 
-from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListView, MultiListItem
+from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 
 
@@ -36,6 +36,33 @@ class ASPC_GUI:
 		try:
 
 			#self.call_from_thread(self.add_list_line_function, self.current_project_data["SCAN_DATE"], "listview_folders")
+			#self.current_folder_list = (self.current_project_data["DATA_FOLDER"].keys())
+
+
+			#create the label list
+			label_folder_list = []
+
+			for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
+
+				#create the folder label 
+				if folder_name.replace(self.current_project_name, "") == "":
+					label = Label("\\")
+				else:
+					label = Label(folder_name.replace(self.current_project_name, ""))
+
+				#check if the data still exists in the project
+				if os.path.isdir(folder_name)==False:
+					label.styles.color = self.theme_variables["text-secondary"]
+
+
+				label_folder_list.append(ListItem(label))
+
+
+
+
+			self.call_from_thread(self.listview_folders.extend, label_folder_list)
+
+			"""
 			for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
 				
 				if self.stop_event_folder.is_set():
@@ -55,10 +82,13 @@ class ASPC_GUI:
 				if os.path.isdir(folder_name)==False:
 					label.styles.color = self.theme_variables["text-error"]
 				self.call_from_thread(self.add_list_line_function, label, "listview_folders")
+			"""
 			
 
 		except Exception as e:
 			self.notify(e, timeout=2)
+
+
 
 
 
@@ -92,7 +122,18 @@ class ASPC_GUI:
 		#self.message_function("%s\n%s"%(folder_heaviest_size, folder_lightest_size), "error", False)
 
 		try:
-			if self.checkbox_file_children.value == True:
+			if self.checkbox_file_similarity.value == True:
+				self.current_file_list = []
+				similarity_data = self.current_project_data["DATA_FOLDER"][folder_selected]["SIMILARITY"]
+				for key, value in similarity_data.items():
+					if len(self.current_file_list) != 0:
+						self.current_file_list.append("_"*40)
+
+					for v in value:
+						self.current_file_list.append(v)
+
+
+			elif self.checkbox_file_children.value == True:
 				
 				
 				self.current_file_list = self.current_project_data["DATA_FOLDER"][folder_selected]["FILE_LIST"]
@@ -155,8 +196,10 @@ class ASPC_GUI:
 				#self.message_function("adding file : %s"%file)
 				label = Label(os.path.basename(file))
 
+				if file == "_"*40:
+					pass
 				#self.current_file_list.append(file)
-				if os.path.isfile(os.path.join(folder_selected, file))==False:
+				elif os.path.isfile(os.path.join(folder_selected, file))==False:
 					label.styles.color = self.theme_variables["text-secondary"]
 				else:
 					#check if the gradient checkbox is checked
@@ -186,7 +229,10 @@ class ASPC_GUI:
 							pass
 						#self.message_function(gradient_number)
 
-				list_listitem.append(MultiListItem(label))
+				if file == "_"*40:
+					list_listitem.append(MultiListItem(label, classes="separator"))
+				else:
+					list_listitem.append(MultiListItem(label))
 				self.progress_files.advance(1)
 
 			self.message_function("Refreshing file list...\nThis process can take some while", "notification")

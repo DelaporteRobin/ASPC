@@ -42,9 +42,99 @@ from utils.ASPC_Log import ASPC_LOG
 from utils.ASPC_Snoop import ASPC_SNOOP
 from utils.ASPC_Utils import ASPC_UTILS
 from utils.ASPC_GUI import ASPC_GUI
-from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListItem, MultiListView
+#from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListItem, MultiListView
+from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 from styles.theme_file import *
+
+
+
+
+#IMPORT MAIN CLASSES OF CUSTOMIZED WIDGETS FROM TEXTUAL
+class HighlightableDirectoryTree(DirectoryTree):
+    """DirectoryTree with path highlighting support."""
+
+    class PathNotFoundError(TextualError):
+        def __init__(self, path: Path) -> None:
+            self.path = path
+
+    def highlight_path(self, path: Path) -> AwaitComplete:
+        """Highlight a path in the tree.
+
+        Highlights a path that may be nested several levels deep in the tree.
+        This can be done at all times, even when the tree has never been
+        expanded and thus the directory contents containing the path have not
+        been cached yet. This method will walk the tree, expanding nodes when
+        necessary and waiting on the contents before taking another step until
+        it arrives at the requested path. The node containing the path is
+        subsequently highlighted.
+
+        Args:
+            path (Path): the path to highlight.
+
+        Returns:
+            AwaitComplete: An optionally awaitable that ensures the path is
+                highlighted.
+        """
+        return AwaitComplete(self._highlight_path(path))
+
+    async def _highlight_path(self, path: Path) -> None:
+        """Highlight a path in the tree, while expanding parents.
+
+        Args:
+            path (Path): the path to highlight.
+        """
+        node = await self._expand_parents_and_find_node(path)
+        self.move_cursor(node)
+
+    async def _expand_parents_and_find_node(self, path: Path) -> TreeNode[DirEntry]:
+        """Traverse all parts of the path and expand all parents.
+
+        This method will traverse all parts of the path and expand all parents
+        in the tree when necessary. Finally, the node containing the requested
+        path is returned.
+
+        Args:
+            path (Path): the requested path that must become visible.
+
+        Returns:
+            TreeNode[DirEntry]: the tree node containing the requested path.
+        """
+        node = self.root
+        for part in Path(path).parts:
+            node = self._find_node_from_path(node, part)
+            if not node.children:
+                await self.reload_node(node)
+            node.expand()
+        return node
+
+    def _find_node_from_path(
+        self, parent: TreeNode[DirEntry], path: str
+    ) -> TreeNode[DirEntry]:
+        """Search a node's children for a specific path.
+
+        The path must be a direct child of the parent. For example, if the
+        parent's path is /home/alice, then the path may be /home/alice/work, or
+        /home/alice/documents, but _not_ /home/alice/work/software since that is
+        not a direct child of /home/alice.
+
+        Args:
+            parent (TreeNode[DirEntry]): the parent node.
+            path (str): the path to search for.
+
+        Raises:
+            PathNotFoundError: raised when the path is not found.
+
+        Returns:
+            TreeNode[DirEntry]: the node containing the requested path.
+        """
+        root = parent.data.path.absolute()
+        for node in parent.children:
+            if str(node.data.path.relative_to(root)) == path:
+                return node
+        raise self.PathNotFoundError(path)
+
+
 
 
 
@@ -172,8 +262,12 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 				with Vertical(id = "vertical_container_center_left"):
 					with Collapsible(title = "Folder Display Settings", id="collapsible_folder_display"):
 						self.checkbox_find_folder = Checkbox("Find in DirTree", id="checkbox_find_folder")
+						self.checkbox_folder_children = Checkbox("Sort by children size", id="checkbox_folder_children")
+						self.checkbox_folder_items = Checkbox("Sort by items contained size", id="checkbox_folder_items")
 
 						yield self.checkbox_find_folder
+						yield self.checkbox_folder_children
+						yield self.checkbox_folder_items
 
 					self.progress_folder = ProgressBar(id="progress_folder")
 					yield self.progress_folder
@@ -188,10 +282,13 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 						self.checkbox_file_size = Checkbox("Sort by size", id="checkbox_file_size")
 						self.checkbox_file_children = Checkbox("Only folder children's", id="checkbox_file_children")
 						self.checkbox_file_gradient = Checkbox("Display size gradient", id="checkbox_size_gradient")
+						self.checkbox_file_similarity = Checkbox("Display by similarity", id="checkbox_file_similarity")
 
+						yield self.checkbox_file_similarity
 						yield self.checkbox_file_size
 						yield self.checkbox_file_children
 						yield self.checkbox_file_gradient
+						
 
 					self.progress_files = ProgressBar(id="progress_files")
 					yield self.progress_files
@@ -264,74 +361,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 
 
-	def on_list_view_selected(self, event: ListView.Selected) -> None:
-		self.message_function("%s\n\n"%("_"*120), "message", False)
-		if event.control.id == "listview_projectlist":
-			#update the dictory tree starting folder
-			self.input_global_root_path.value = self.project_list[self.listview_projectlist.index][1]
-			self.directorytree_main.path = self.project_list[self.listview_projectlist.index][1]
-			#self.update_dir_tree_starting_folder(self.project_list[self.listview_projectlist.index][1])
 
-		
-			#self.message_function("hello world : %s"%self.listview_projectlist.index)
-			if self.thread_update_folder_list.is_alive():
-				self.stop_event_folder.set()
-				self.stop_event_folder.wait()
-				#self.thread_update_list.join()
-				return
-			
-
-
-			self.listview_folders.clear()
-			self.listview_files.clear()
-			 
-			
-
-			#clean the folder list
-			self.current_folder_list = []
-
-
-			#get the project name
-			self.current_project_name = self.project_list[self.listview_projectlist.index][1]
-			#get the current project data
-			self.current_project_data = self.project_data[self.current_project_name]
-			#self.message_function(len(list(self.project_data[self.current_project_name]["DATA_FOLDER"].keys())))   
-			
-			
-			self.progress_folder.update(progress=0)
-			self.progress_folder.update(total = len(list(self.project_data[self.current_project_name]["DATA_FOLDER"].keys())))
-			
-			try:
-				
-				self.thread_update_folder_list = threading.Thread(target=self.update_folder_list_function, daemon=True, args=())
-				self.stop_event_folder.clear()  
-				self.thread_update_folder_list.start()
-			except Exception as e:
-				self.message_function("Impossible to start thread", "error")
-				self.message_function(e, "error")
-
-
-
-		if event.control.id == "listview_folders":
-			
-			self.current_folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
-
-
-			#find folder in directory tree
-			if (self.checkbox_find_folder.value == True):
-				path = (self.current_folder_selected.replace(self.current_project_name, "")).replace("\\", "/").lstrip("/")
-				#self.message_function(path)
-				tree = self.query_one(HighlightableDirectoryTree)
-				node = tree.highlight_path(path)
-				tree.focus()
-
- 
-
-			self.reset_folder_children_color_function()
-			self.highlight_folder_children_function()
-			#self.query_one("#directorytree_main").focus()
-			#self.update_directorytree_function()
-			self.check_for_file_process_function()
 
 
 			
@@ -359,9 +389,21 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 		#save the new setting file
 		self.save_user_settings_function()
 
-		if event.control.id in ["checkbox_file_size", "checkbox_file_children", "checkbox_size_gradient"]:
+		if (event.control.id == "checkbox_file_similarity"):
+			self.checkbox_file_size.disabled = self.checkbox_file_similarity.value
+
+		if (event.control.id == "checkbox_folder_items") and (self.checkbox_folder_items.value==True):
+			self.checkbox_folder_children.value = not self.checkbox_folder_items.value
+		if (event.control.id == "checkbox_folder_children") and (self.checkbox_folder_children.value==True):
+			self.checkbox_folder_items.value = not self.checkbox_folder_children.value
+
+		if event.control.id in ["checkbox_file_size", "checkbox_file_children", "checkbox_size_gradient", "checkbox_file_similarity"]:
 			self.check_for_file_process_function(True)
 
+		if event.control.id in ["checkbox_folder_items", "checkbox_folder_children"]:
+			self.check_for_folder_process_function(True)
+
+		
 
 
 
@@ -432,6 +474,100 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 			self.message_function("Impossible to start thread", "error")
 			self.message_function(e,"error")
 
+
+
+
+
+	def check_for_folder_process_function(self, checkbox_change=False):
+
+		self.message_function("hello world : %s"%self.listview_projectlist.index)
+		if self.thread_update_folder_list.is_alive():
+			self.stop_event_folder.set()
+			self.stop_event_folder.wait()
+			#self.thread_update_list.join()
+			return
+		
+
+
+		self.listview_folders.clear()
+		self.listview_files.clear()
+		 
+		
+
+		#clean the folder list
+		self.current_folder_list = []
+
+
+		#get the project name
+		try:
+			self.current_project_name = self.project_list[self.listview_projectlist.index][1]
+			#get the current project data
+			self.current_project_data = self.project_data[self.current_project_name]
+			#self.message_function(len(list(self.project_data[self.current_project_name]["DATA_FOLDER"].keys())))   
+		except TypeError:
+			return
+		
+		
+		self.progress_folder.update(progress=0)
+		self.progress_folder.update(total = len(list(self.project_data[self.current_project_name]["DATA_FOLDER"].keys())))
+		
+		try:
+			
+			self.thread_update_folder_list = threading.Thread(target=self.update_folder_list_function, daemon=True, args=())
+			self.stop_event_folder.clear()  
+			self.thread_update_folder_list.start()
+		except Exception as e:
+			self.message_function("Impossible to start thread", "error")
+			self.message_function(e, "error")
+
+
+
+
+
+
+
+	def on_list_view_selected(self, event: ListView.Selected) -> None:
+		self.message_function("%s\n\n"%("_"*120), "message", False)
+		if event.control.id == "listview_projectlist":
+			#update the dictory tree starting folder
+			self.input_global_root_path.value = self.project_list[self.listview_projectlist.index][1]
+			self.directorytree_main.path = self.project_list[self.listview_projectlist.index][1]
+			#self.update_dir_tree_starting_folder(self.project_list[self.listview_projectlist.index][1])
+
+			#call the threading checking function
+			self.check_for_folder_process_function()
+
+		
+
+
+		if event.control.id == "listview_folders":
+			
+			self.current_folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+
+
+			#find folder in directory tree
+			if (self.checkbox_find_folder.value == True):
+				path = (self.current_folder_selected.replace(self.current_project_name, "")).replace("\\", "/").lstrip("/")
+				#self.message_function(path)
+				tree = self.query_one(HighlightableDirectoryTree)
+				try:
+					node = tree.highlight_path(path)
+					tree.focus()
+				except Exception as e:
+					self.message_function("Impossible to focus directory in tree", "error")
+					self.message_function(traceback.format_exc(), "error")
+				else:
+					self.message_function("Folder node found in tree : %s"%node, "success")
+						
+
+
+ 
+
+			self.reset_folder_children_color_function()
+			self.highlight_folder_children_function()
+			#self.query_one("#directorytree_main").focus()
+			#self.update_directorytree_function()
+			self.check_for_file_process_function()
 
 
 
