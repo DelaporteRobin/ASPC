@@ -16,3 +16,11 @@ Application to remove from Huge folder project unused / old / repetitive files, 
 	--> can be useful for an asset manager feature
 ...
 and a lot of things
+
+
+## TARGET ELEMENTS
+
+FOLDERS 
+	by size
+	by number of element contained?
+	--> combo

@@ -42,7 +42,35 @@ class ASPC_GUI:
 			#create the label list
 			label_folder_list = []
 
-			for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
+
+			folder_min_size = False 
+			folder_max_size = False
+
+			folder_list = self.current_project_data["DATA_FOLDER"].keys()
+			#get the folder list according to checkbox selection
+			if self.checkbox_folder_children.value==True:
+				folder_list = [item[0] for item in self.current_project_data["DATA_CHILDREN_SIZE"]]
+				folder_min_size = self.current_project_data["DATA_CHILDREN_SIZE"][0][1]
+				folder_max_size = self.current_project_data["DATA_CHILDREN_SIZE"][-1][1]
+
+			elif self.checkbox_folder_items.value==True:
+				folder_list = [item[0] for item in self.current_project_data["DATA_ITEM_SIZE"]]
+				folder_min_size = self.current_project_data["DATA_ITEM_SIZE"][0][1]
+				folder_max_size = self.current_project_data["DATA_ITEM_SIZE"][-1][1]
+
+			else:
+				folder_min_size = self.current_project_data["DATA_ITEM_SIZE"][0][1] + self.current_project_data["DATA_CHILDREN_SIZE"][0][1]
+				folder_max_size = self.current_project_data["DATA_ITEM_SIZE"][-1][1] + self.current_project_data["DATA_CHILDREN_SIZE"][-1][1]
+
+			self.message_function("%s %s"%(self.checkbox_folder_children.value,self.checkbox_folder_items.value))
+			self.message_function("Min folder size : %s\nMax folder size : %s"%(folder_min_size, folder_max_size), "message", False)
+
+			#for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
+			for folder_name in folder_list:
+				folder_data = self.current_project_data["DATA_FOLDER"][folder_name]
+
+				
+
 
 				#create the folder label 
 				if folder_name.replace(self.current_project_name, "") == "":
@@ -51,8 +79,72 @@ class ASPC_GUI:
 					label = Label(folder_name.replace(self.current_project_name, ""))
 
 				#check if the data still exists in the project
+
+				"""
 				if os.path.isdir(folder_name)==False:
 					label.styles.color = self.theme_variables["text-secondary"]
+				"""
+
+				#check if the color gradient variable is engaged
+				if (self.checkbox_folder_gradient.value==True):
+					if self.checkbox_folder_children.value==True:
+						folder_size = self.current_project_data["DATA_FOLDER"][folder_name]["CHILDREN_SIZE"]
+						#gradient_number = ((folder_size - folder_min_size)/(folder_max_size - folder_min_size)) * 100
+
+					elif self.checkbox_folder_items.value==True:
+						folder_size = self.current_project_data["DATA_FOLDER"][folder_name]["ITEMS_SIZE"]
+
+					else:
+						folder_size = self.current_project_data["DATA_FOLDER"][folder_name]["CHILDREN_SIZE"] + self.current_project_data["DATA_FOLDER"][folder_name]["ITEMS_SIZE"]
+
+					#self.message_function(folder_size, "message")
+					try:
+						gradient_number = ((folder_size - folder_min_size) / (folder_max_size - folder_min_size)) * 100
+					except Exception as e:
+						#self.message_function("Impossible to get folder gradient value", "error")
+						self.message_function(traceback.format_exc(), "error", False)
+						pass
+					else:
+						#self.message_function("Folder gradient value : %s"%gradient_number, "notification")
+						#color the label according to the gradient value
+						if (gradient_number <= 10):
+							pass
+						elif (gradient_number > 10) and (gradient_number <= 45):
+							label.styles.color = self.user_settings["COLOR"]["warning"]
+						elif (gradient_number > 45) and (gradient_number <= 75):
+							label.styles.color = self.user_settings["COLOR"]["important"]
+						else:
+							label.styles.color = self.user_settings["COLOR"]["alert"]
+
+				try:
+					if self.checkbox_folder_items_gradient.value == True:
+						#get the min and max value
+						min_items_value = self.current_project_data["SCAN_GLOBAL_DATA"]["MIN_ITEMS"]
+						max_items_value = self.current_project_data["SCAN_GLOBAL_DATA"]["MAX_ITEMS"]
+						#get the current number of children for this folder
+						items_number = self.current_project_data["DATA_FOLDER"][folder_name]["ITEMS_NUMBER"]
+						#get the ratio
+						items_ratio = ((items_number - min_items_value) / (max_items_value - min_items_value)) * 100
+						#add a border to the text
+						#and adapt the color to the value of the ratio
+						if (items_ratio <= 10):
+							label.styles.border_left = ("heavy", "white")
+						
+						elif (items_ratio > 10) and (items_ratio <= 50):
+							label.styles.border_left = ("heavy", self.user_settings["COLOR"]["warning"])
+						elif (items_ratio > 50) and (items_ratio <= 75):
+							label.styles.border_left = ("heavy", self.user_settings["COLOR"]["important"])
+						else:
+							label.styles.border_left = ("heavy", self.user_settings["COLOR"]["alert"])
+					else:
+						label.styles.border = None
+				except Exception as e:
+					self.message_function(traceback.format_exc(), "error")
+				else:
+					pass
+
+
+
 
 
 				label_folder_list.append(ListItem(label))
@@ -198,9 +290,12 @@ class ASPC_GUI:
 
 				if file == "_"*40:
 					pass
-				#self.current_file_list.append(file)
-				elif os.path.isfile(os.path.join(folder_selected, file))==False:
-					label.styles.color = self.theme_variables["text-secondary"]
+
+				
+				#elif os.path.isfile(os.path.join(folder_selected, file))==False:
+				#	label.styles.color = self.theme_variables["text-secondary"]
+				
+
 				else:
 					#check if the gradient checkbox is checked
 					if self.checkbox_file_gradient.value==True:

@@ -51,11 +51,17 @@ class ASPC_SNOOP():
 
 
 			self.data_global = manager.dict()
+			self.scan_global_data = manager.dict()
 			self.data_folder = manager.dict()
 			self.data_file = manager.dict()
 			self.data_file_size = manager.list()
 			self.data_file_life = manager.list()
 			self.data_file_modif = manager.list()
+			#self.data_folder_global = manager.dict()
+
+			#create min and max items number
+			self.scan_global_data["MIN_ITEMS"] = float("inf")
+			self.scan_global_data["MAX_ITEMS"] = float("-inf")
 
 
 			process_pool = []
@@ -99,6 +105,7 @@ class ASPC_SNOOP():
 
 			self.data_global = {
 				"SCAN_DATE":datetime.now().timestamp(),
+				"SCAN_GLOBAL_DATA": dict(self.scan_global_data),
 				"DATA_FOLDER":dict(self.data_folder),
 				"DATA_FILES":dict(self.data_file),
 				"DATA_FILE_SIZE":list(self.data_file_size_list),
@@ -205,6 +212,14 @@ class ASPC_SNOOP():
 
 					#check if the folder is already in the folder dictionnay
 					if folder not in self.data_folder:
+
+
+						#adapt the value of the min and max items values
+						if len(folder_content) > self.scan_global_data["MAX_ITEMS"]:
+							self.scan_global_data["MAX_ITEMS"] = len(folder_content)
+						if len(folder_content) < self.scan_global_data["MIN_ITEMS"]:
+							self.scan_global_data["MIN_ITEMS"] = len(folder_content)
+
 
 						#get the folder content size 
 						self.data_folder[folder] = {

@@ -264,10 +264,14 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 						self.checkbox_find_folder = Checkbox("Find in DirTree", id="checkbox_find_folder")
 						self.checkbox_folder_children = Checkbox("Sort by children size", id="checkbox_folder_children")
 						self.checkbox_folder_items = Checkbox("Sort by items contained size", id="checkbox_folder_items")
+						self.checkbox_folder_gradient = Checkbox("Display size gradient", id = "checkbox_folder_gradient")
+						self.checkbox_folder_items_gradient = Checkbox("Display items number gradient", id = "checkbox_folder_items_gradient")
 
 						yield self.checkbox_find_folder
 						yield self.checkbox_folder_children
 						yield self.checkbox_folder_items
+						yield self.checkbox_folder_gradient
+						yield self.checkbox_folder_items_gradient
 
 					self.progress_folder = ProgressBar(id="progress_folder")
 					yield self.progress_folder
@@ -302,8 +306,13 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 
 			with VerticalScroll(id = "verticalscroll_container_right"):
-				self.listview_log = ListView(id = "listview_log")
-				yield self.listview_log
+				with TabbedContent(id = "tabbedcontent_right"):
+					with TabPane(title = "LOG", id = "tabpane_log"):
+						self.listview_log = ListView(id = "listview_log")
+						yield self.listview_log
+					with TabPane(title = "ARCHIVE CONTENT", id = "tabpane_archive"):
+						self.selectionlist_archive_content = SelectionList(id="selectionlist_archive_content")
+						yield self.selectionlist_archive_content
 
 
 
@@ -400,7 +409,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 		if event.control.id in ["checkbox_file_size", "checkbox_file_children", "checkbox_size_gradient", "checkbox_file_similarity"]:
 			self.check_for_file_process_function(True)
 
-		if event.control.id in ["checkbox_folder_items", "checkbox_folder_children"]:
+		if event.control.id in ["checkbox_folder_items", "checkbox_folder_gradient", "checkbox_folder_children", "checkbox_folder_items_gradient"]:
 			self.check_for_folder_process_function(True)
 
 		
@@ -543,6 +552,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 		if event.control.id == "listview_folders":
 			
 			self.current_folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+			#display information about the selected widget
+			label = event.control.children[self.listview_folders.index].children[0]
+			self.message_function(label.styles.color)
+			self.message_function(label.styles.border_left)
 
 
 			#find folder in directory tree
@@ -563,7 +576,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
  
 
-			self.reset_folder_children_color_function()
+			#self.reset_folder_children_color_function()
 			self.highlight_folder_children_function()
 			#self.query_one("#directorytree_main").focus()
 			#self.update_directorytree_function()
