@@ -6,10 +6,10 @@
         "checkbox_size_gradient": true,
         "checkbox_file_similarity": true,
         "checkbox_folder_children": false,
-        "checkbox_folder_items": true,
-        "checkox_folder_gradient": false,
+        "checkbox_folder_items": false,
+        "checkbox_folder_gradient": false,
         "checkbox_folder_items_gradient": true,
-        "checkbox_folder_gradient": true
+        "checkbox_folder_highlight_children": false
     },
     "COLOR": {
         "notification": "#edff3e",

@@ -2,3 +2,4 @@ __pycache__/
 env/
 utils/__pycache__/
 crashtest/
+NOTES.txt

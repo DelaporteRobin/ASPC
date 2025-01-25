@@ -199,9 +199,12 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 		self.current_project_name = None
 		self.current_folder_selected = None
 
+		self.current_folder_children_list = []
 		self.current_folder_list = []
 		self.current_file_list = []
 		self.current_file_list_copy = []
+
+		self.content_to_archive = []
 
 		self.project_data = {}
 		self.project_list = []
@@ -261,12 +264,14 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 			with Horizontal(id = "horizontal_container_center"):
 				with Vertical(id = "vertical_container_center_left"):
 					with Collapsible(title = "Folder Display Settings", id="collapsible_folder_display"):
+						self.checkbox_folder_highlight_children = Checkbox("Highlight children", id = "checkbox_folder_highlight_children")
 						self.checkbox_find_folder = Checkbox("Find in DirTree", id="checkbox_find_folder")
 						self.checkbox_folder_children = Checkbox("Sort by children size", id="checkbox_folder_children")
 						self.checkbox_folder_items = Checkbox("Sort by items contained size", id="checkbox_folder_items")
 						self.checkbox_folder_gradient = Checkbox("Display size gradient", id = "checkbox_folder_gradient")
 						self.checkbox_folder_items_gradient = Checkbox("Display items number gradient", id = "checkbox_folder_items_gradient")
 
+						yield self.checkbox_folder_highlight_children
 						yield self.checkbox_find_folder
 						yield self.checkbox_folder_children
 						yield self.checkbox_folder_items
@@ -276,7 +281,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 					self.progress_folder = ProgressBar(id="progress_folder")
 					yield self.progress_folder
 
-					self.listview_folders = ListView(id="listview_folders")
+					self.listview_folders = MultiListView(id="listview_folders")
 					yield self.listview_folders 
 					self.listview_folders.border_title = "Folders list"
 
@@ -307,13 +312,42 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 			with VerticalScroll(id = "verticalscroll_container_right"):
 				with TabbedContent(id = "tabbedcontent_right"):
+					with TabPane(title = "ARCHIVE CONTENT", id = "tabpane_archive"):
+
+						with Horizontal(id = "tab_horizontal_archivecontent"):
+							with VerticalScroll(id = "tab_vertical_archivecontent_left"):
+
+								self.listview_addarchive_selected = MultiListView(id="listview_addarchive_selected")
+								yield self.listview_addarchive_selected
+								self.listview_addarchive_selected.border_title = "Items to archive"
+
+								yield Button("Clear Items in list", id = "button_addarchive_clearlist")
+
+								yield Rule(line_style="heavy")
+
+								yield Button("Add selected folder", id="button_addarchive_selectedfolder")
+								yield Button("Add selected files", id ="button_addarchive_selectedfiles")
+								
+								yield Rule(line_style="heavy")
+
+								yield Button("Apply Filter", id="button_addarchive_applyfilter")
+								yield Button("Highlight Filtered", id="button_addarchive_highlightfiltered")
+								yield Button("Add Filtered Items", id="button_addarchive_addfiltered")
+
+
+							with Vertical(id = "tab_vertical_archivecontent_right"):
+								self.listview_archive_content = MultiListView(id="listview_archive_content")
+								yield self.listview_archive_content
+								self.listview_archive_content.border_title = "Archive content"
+
+					with TabPane(title = "FOLDER INFORMATIONS", id = "tabpane_folderinformation"):
+						yield Label("folder informations tab")
+
 					with TabPane(title = "LOG", id = "tabpane_log"):
 						self.listview_log = ListView(id = "listview_log")
 						yield self.listview_log
-					with TabPane(title = "ARCHIVE CONTENT", id = "tabpane_archive"):
-						self.selectionlist_archive_content = SelectionList(id="selectionlist_archive_content")
-						yield self.selectionlist_archive_content
-
+					
+					
 
 
 
@@ -360,6 +394,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 	def on_key(self, event:events.Key) -> None:
 		if (event.key == "enter") and (self.focused.id == "listview_files"):
 			children_item = self.listview_files.children[self.listview_files.index]
+			children_item.highlight_item(children_item)
+
+		if (event.key == "enter") and (self.focused.id == "listview_folders"):
+			children_item = self.listview_folders.children[self.listview_folders.index]
 			children_item.highlight_item(children_item)
 
 		
@@ -421,6 +459,50 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "test_log":
 			self.message_function(self.current_folder_selected)
+
+
+
+		#add archive buttons
+		if event.button.id == "button_addarchive_selectedfiles":
+			#get selected files
+			selected_files_label = []
+			selected_index = self.listview_files.index_list
+
+			#get the last folder selected to build the full path for each file
+			selected_folder = self.current_folder_list[self.listview_folders.index]
+
+			#self.message_function("CURRENT FOLDER\n%s"%selected_folder, "notification",False)
+			try:
+				for index in selected_index:
+					filepath = os.path.join(selected_folder,self.current_file_list[index])
+					label = Label(os.path.basename(filepath))
+
+					if os.path.isfile(filepath)==False:
+						label.styles.color = self.theme_variables["text-secondary"]
+					self.content_to_archive.append(filepath)
+					selected_files_label.append(ListItem(label))
+			except IndexError:
+				self.message_function("Filelist content has changed", "warning")
+			
+
+			self.listview_addarchive_selected.extend(selected_files_label)
+
+		if event.button.id == "button_addarchive_selectedfolder":
+
+			selected_folder_label = []
+			selected_index = self.listview_folders.index_list
+
+			for index in selected_index:
+				folder = self.current_folder_list[index]
+				label = Label(os.path.basename(folder))
+
+				if os.path.isdir(folder)==False:
+					label.styles.color = self.theme_variables["text-secondary"]
+
+				self.content_to_archive.append(folder)
+				selected_folder_label.append(ListItem(label))
+
+			self.listview_addarchive_selected.extend(selected_folder_label)
 			
 
 
@@ -551,11 +633,13 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 		if event.control.id == "listview_folders":
 			
-			self.current_folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+
+			self.current_folder_selected = self.current_folder_list[self.listview_folders.index]
+			#self.message_function(self.current_folder_selected, "message", False)
 			#display information about the selected widget
 			label = event.control.children[self.listview_folders.index].children[0]
-			self.message_function(label.styles.color)
-			self.message_function(label.styles.border_left)
+			#self.message_function(label.styles.color)
+			#self.message_function(label.styles.border_left)
 
 
 			#find folder in directory tree
@@ -574,13 +658,11 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 						
 
 
- 
 
-			#self.reset_folder_children_color_function()
-			self.highlight_folder_children_function()
-			#self.query_one("#directorytree_main").focus()
-			#self.update_directorytree_function()
+			#call function to update the file list content
 			self.check_for_file_process_function()
+			#call function to highlight children if highlight children is checked
+			self.highlight_folder_children_function()
 
 
 

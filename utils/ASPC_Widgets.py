@@ -84,7 +84,11 @@ class MultiListItem(ListItem):
 
 
 class MultiListView(ListView):
-    index_list = reactive[list]([], init=False)
+    #reactive to share index_list with all instances
+    #index_list = reactive[list]([], init=False)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.index_list = []
 
     @property
     def highlighted_child(self) -> ListItem | None:
@@ -100,13 +104,18 @@ class MultiListView(ListView):
             else:
                 self.index_list.remove(self.index)
 
-            #self.notify(str(self.index_list))
+            self.notify(str(self.index_list))
 
 
             assert isinstance(list_item, ListItem)
             return list_item
         else:
             return None
+
+
+
+    def clear_list(self) -> ListItem | None:
+        self.index_list.clear()
 
 
 

@@ -47,6 +47,7 @@ class ASPC_GUI:
 			folder_max_size = False
 
 			folder_list = self.current_project_data["DATA_FOLDER"].keys()
+
 			#get the folder list according to checkbox selection
 			if self.checkbox_folder_children.value==True:
 				folder_list = [item[0] for item in self.current_project_data["DATA_CHILDREN_SIZE"]]
@@ -64,6 +65,10 @@ class ASPC_GUI:
 
 			self.message_function("%s %s"%(self.checkbox_folder_children.value,self.checkbox_folder_items.value))
 			self.message_function("Min folder size : %s\nMax folder size : %s"%(folder_min_size, folder_max_size), "message", False)
+
+
+			#update the value of the current folder list
+			self.current_folder_list = list(folder_list)
 
 			#for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
 			for folder_name in folder_list:
@@ -147,13 +152,15 @@ class ASPC_GUI:
 
 
 
-				label_folder_list.append(ListItem(label))
+				label_folder_list.append(MultiListItem(label))
 
 
 
-
+			#clear the content of the index list for folders
+			self.listview_folders.clear_list()
+			#update the content of the listview
 			self.call_from_thread(self.listview_folders.extend, label_folder_list)
-
+			#self.current_folder_list = label_folder_list
 			"""
 			for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
 				
@@ -198,10 +205,10 @@ class ASPC_GUI:
 
 		#APPLY ALL THE FILTERS TO BUILD THE CURRENT FILE LIST TO DISPLAY IN THE LISTVIEW
 		list_listitem = []
-		folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+		#folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
 		#CREATE THE SIZE RANGE
-		folder_heaviest = self.current_project_data["DATA_FOLDER"][folder_selected]["HEAVIEST_FILE"]
-		folder_lightest = self.current_project_data["DATA_FOLDER"][folder_selected]["LIGHTEST_FILE"]
+		folder_heaviest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["HEAVIEST_FILE"]
+		folder_lightest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["LIGHTEST_FILE"]
 		#get the size for each file
 		folder_heaviest_size = self.current_project_data["DATA_FILES"][folder_heaviest]["FILESIZE"]
 		folder_lightest_size = self.current_project_data["DATA_FILES"][folder_lightest]["FILESIZE"]
@@ -216,7 +223,7 @@ class ASPC_GUI:
 		try:
 			if self.checkbox_file_similarity.value == True:
 				self.current_file_list = []
-				similarity_data = self.current_project_data["DATA_FOLDER"][folder_selected]["SIMILARITY"]
+				similarity_data = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["SIMILARITY"]
 				for key, value in similarity_data.items():
 					if len(self.current_file_list) != 0:
 						self.current_file_list.append("_"*40)
@@ -228,7 +235,7 @@ class ASPC_GUI:
 			elif self.checkbox_file_children.value == True:
 				
 				
-				self.current_file_list = self.current_project_data["DATA_FOLDER"][folder_selected]["FILE_LIST"]
+				self.current_file_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]
 			
 
 				if self.checkbox_file_size.value == True:
@@ -331,6 +338,10 @@ class ASPC_GUI:
 				self.progress_files.advance(1)
 
 			self.message_function("Refreshing file list...\nThis process can take some while", "notification")
+
+			#clear the content of the list
+			self.listview_files.clear_list()
+			#update the content of the listview
 			self.call_from_thread(self.listview_files.extend, list_listitem)
 			#self.call_from_thread(self.add_list_line_function, label, "listview_files")
 
@@ -406,12 +417,7 @@ class ASPC_GUI:
 							
 							#self.message_function(node_selected.id)
 							node_selected.expand_all()
-
 							self.automatic_refresh()
-
-
-							
-
 
 							return node_selected
 						else:
@@ -441,19 +447,33 @@ class ASPC_GUI:
 
 
 	def highlight_folder_children_function(self):
-		self.message_function("Checking children from folder selection\n%s"%self.current_folder_selected, "notification")
+		#clean all children colors before updating
+		for children in self.current_folder_children_list:
+			children.styles.background = None
 
-		#get all children in the folder listview
-		#self.message_function(self.current_folder_selected, "notification")
-		children_list = self.query_one("#listview_folders").children
+		#clean the children list
+		self.current_folder_children_list.clear()
 
-		for i in range(len(self.current_folder_list)):
-			if self.current_folder_list[i].startswith(self.current_folder_selected):
-				#self.message_function("detected : %s"%self.current_folder_list[i], "notification")
-				label = children_list[i].children[0]
-				label.styles.color = self.theme_variables["text-accent"]
+		if self.checkbox_folder_highlight_children.value==True:
+			#get all children for the given / selected folder
+			list_children = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FOLDER_LIST"]
+			#get children of the current listview (folders)
+			list_listview_children = self.listview_folders.children
 
+			
 
+			#get the index of each children in the current folder list
+			for children in list_children:
+				self.message_function("children detected : %s"%children)
+				children_index = self.current_folder_list.index(os.path.join(self.current_folder_selected,children))
+				#get the list item for this index in the listview
+				listitem = list_listview_children[children_index]
+				#get the label
+				label_children = listitem.children[0]
+				#color the label
+				label_children.styles.background = self.theme_variables["secondary"]
+				self.current_folder_children_list.append(label_children)
+			#highlight each item/children
 
 
 

@@ -18,11 +18,20 @@ ListItem {
 	border:hkey $primary;
 	height: 7;
 }
+#tab_vertical_archivecontent_left {
+	width: 35%;
+}
+#verticalscroll_container_left {
+	width:20%;
+}
 
 
 
 /* SPECIFIC WIDGETS CODE */
-#listview_folders, #listview_files {
+#listview_addarchive_selected {
+	max-height:60%;
+}
+#listview_folders, #listview_files, #listview_addarchive_selected, #listview_archive_content {
 	border: solid $primary;
 	overflow-x:auto;
 	overflow-y:auto;
@@ -62,4 +71,6 @@ ListItem {
 #collapsible_project_list {
 	max-height:40%;
 }
+
+
 
