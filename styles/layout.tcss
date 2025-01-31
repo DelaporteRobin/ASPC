@@ -2,6 +2,9 @@
 ListItem {
 	width:auto;
 }
+Button,Input,Checkbox {
+	width:1fr;
+}
 /* SPECIFIC CONTAINER CODE */
 #homepage_horizontal_container {
 	align: center middle;
@@ -70,6 +73,10 @@ ListItem {
 }
 #collapsible_project_list {
 	max-height:40%;
+}
+
+#tab_verticao_archiveoptions {
+	width: 1fr;
 }
 
 

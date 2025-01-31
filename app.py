@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-
-
 from textual.app import App, ComposeResult
-from textual.widgets import Tree, ProgressBar, Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+from textual.widgets import Tree, ProgressBar, Input, RadioSet, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen 
@@ -321,18 +319,73 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 								yield self.listview_addarchive_selected
 								self.listview_addarchive_selected.border_title = "Items to archive"
 
-								yield Button("Clear Items in list", id = "button_addarchive_clearlist")
+								with VerticalScroll(id = "tab_vertical_archiveoptions"):
+									yield Button("Clear Items in list", id = "button_addarchive_clearlist")
 
-								yield Rule(line_style="heavy")
+									yield Rule(line_style="heavy")
 
-								yield Button("Add selected folder", id="button_addarchive_selectedfolder")
-								yield Button("Add selected files", id ="button_addarchive_selectedfiles")
-								
-								yield Rule(line_style="heavy")
+									yield Button("Add selected folder", id="button_addarchive_selectedfolder")
+									yield Button("Add selected files", id ="button_addarchive_selectedfiles")
+									
+									yield Rule(line_style="heavy")
 
-								yield Button("Apply Filter", id="button_addarchive_applyfilter")
-								yield Button("Highlight Filtered", id="button_addarchive_highlightfiltered")
-								yield Button("Add Filtered Items", id="button_addarchive_addfiltered")
+									with Collapsible(title="FILTERS", id="collapsible_archive_filters"):
+
+										self.checkbox_archive_filter_foldertarget = Checkbox("Filter only on selected folders", id="checkbox_archive_filter_foldertarget")
+
+										self.checkbox_archive_filter_extension = Checkbox("Filter by extension", id="checkbox_archive_filter_extension")
+										self.input_archive_filter_extension = Input(placeholder = "Extension list", id="input_archive_filter_extension")
+
+										self.checkbox_archive_filter_size = Checkbox("Filter by size", id="checkbox_archive_filter_size")
+										self.input_archive_filter_size = Input(placeholder = "File size threshold", id="input_archive_filter_size", type="integer")
+
+										#self.checkbox_archive_filter_age = Checkbox("Filter by age", id="checkbox_archive_filter_age")
+										self.checkbox_archive_filter_similarity = Checkbox("Filter by similarity", id="checkbox_archive_filter_similarity")
+										self.input_archive_filter_similarity = Input(placeholder="similarity number threshold", id="input_archive_filter_similarity", type="integer")
+
+										self.checkbox_archive_filter_number = Checkbox("Filter by file number in folder", id="checkbox_archive_filter_number")
+										self.input_archive_filter_number = Input(placeholder="Minimum file number", id="input_archive_filter_number", type="integer")
+
+										self.checkbox_archive_filter_keyword = Checkbox("Filter by keywords", id="checkbox_archive_filter_keyword")
+										self.input_archive_filter_keyword = Input(placeholder="Keyword list", id="input_archive_filter_keyword")
+
+										
+										yield self.checkbox_archive_filter_foldertarget
+
+										yield Rule(line_style="heavy")
+
+										yield self.checkbox_archive_filter_extension
+										yield self.input_archive_filter_extension
+
+										yield self.checkbox_archive_filter_size
+										yield self.input_archive_filter_size
+
+										yield self.checkbox_archive_filter_similarity
+										yield self.input_archive_filter_similarity
+
+										yield self.checkbox_archive_filter_number
+										yield self.input_archive_filter_number
+
+										yield self.checkbox_archive_filter_keyword
+										yield self.input_archive_filter_keyword
+
+										yield Rule(line_style="heavy")
+
+										with RadioSet(id = "radioset_archivefilter_mode"):
+											yield RadioButton("Replace selection")
+											yield RadioButton("Add to selection")
+
+
+
+										yield Button("Apply Filter", id="button_addarchive_applyfilter")
+										yield Button("Highlight Filtered", id="button_addarchive_highlightfiltered")
+										yield Button("Add Filtered Items", id="button_addarchive_addfiltered")
+
+									yield Rule(line_style="heavy")
+
+	
+
+									yield Button("Add to archive", id="button_add_to_archive")
 
 
 							with Vertical(id = "tab_vertical_archivecontent_right"):
