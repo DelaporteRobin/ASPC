@@ -276,7 +276,7 @@ class ASPC_SNOOP():
 						
 						self.data_folder[folder] = data_folder
 
-
+	
 
 
 
@@ -309,28 +309,51 @@ class ASPC_SNOOP():
 
 
 
+							#create the file dictionnary
+							self.data_file[os.path.join(folder,item)] = {
+								"FILESIZE":file_size,
+								"FILECREATION":file_creation,
+								"FILEMODIFICATION":file_modification,
+							}
+
+
+
 
 
 
 							#get the similarity dictionnary for the folder
 							sim_dict = folder_data["SIMILARITY"]
+							file_dict = self.data_file[os.path.join(folder,item)]
 
 							if sim_dict == {}:
 								sim_dict[item] = [item]
+								file_dict["SIMKEY"] = item
 								sim_checked.append(item)
 
 							else:
 								added = False
 								for sim_key, sim_data in sim_dict.items():
 									ratio = Levenshtein.ratio(os.path.splitext(sim_key)[0],os.path.splitext(item)[0])
+
+									#ADD THE FILE TO THIS SIMILARITY KEY!
 									if ratio > 0.9:
 										sim_data.append(item)
 										sim_dict[sim_key] = sim_data
 										added=True
+
+										#when adding a file to folder data dictionnary
+										#create also a data in file data dictionnary
+										file_dict["SIMKEY"] = sim_key
 										break
 
 								if added == False:
 									sim_dict[item] = [item]
+									file_dict["SIMKEY"] = item
+
+							file_dict["SIMPARENT"] = folder
+							self.data_file[os.path.join(folder,item)] = file_dict
+
+
 
 
 
@@ -361,11 +384,7 @@ class ASPC_SNOOP():
 
 
 
-							self.data_file[os.path.join(folder,item)] = {
-								"FILESIZE":file_size,
-								"FILECREATION":file_creation,
-								"FILEMODIFICATION":file_modification,
-							}
+							
 
 							#update all the parent folder size in dictionnary
 							parent_folder = folder

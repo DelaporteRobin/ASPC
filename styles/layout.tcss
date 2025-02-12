@@ -30,6 +30,16 @@ Button,Input,Checkbox {
 
 
 
+/* MODAL */
+ModalASPCFilterScreen {
+	align:center middle;
+}
+#vertical_modal_container {
+	width:50%;
+	align:center middle;
+}
+
+
 /* SPECIFIC WIDGETS CODE */
 #listview_addarchive_selected {
 	max-height:60%;

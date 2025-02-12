@@ -40,6 +40,8 @@ from utils.ASPC_Log import ASPC_LOG
 from utils.ASPC_Snoop import ASPC_SNOOP
 from utils.ASPC_Utils import ASPC_UTILS
 from utils.ASPC_GUI import ASPC_GUI
+from utils.ASPC_Archive import ASPC_ARCHIVE
+from modal import ModalASPCFilterScreen
 #from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListItem, MultiListView
 from utils.ASPC_Widgets import MultiListView, MultiListItem
 
@@ -177,7 +179,7 @@ class ASPC_HOMEPAGE(Screen):
 
 
 
-class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
+class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 
 	CSS_PATH = ["styles/layout.tcss"]
@@ -331,13 +333,14 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 									with Collapsible(title="FILTERS", id="collapsible_archive_filters"):
 
-										self.checkbox_archive_filter_foldertarget = Checkbox("Filter only on selected folders", id="checkbox_archive_filter_foldertarget")
+										self.checkbox_archive_filter_selected = Checkbox("Filter only on selected folders", id="checkbox_archive_filter_selected")
 
 										self.checkbox_archive_filter_extension = Checkbox("Filter by extension", id="checkbox_archive_filter_extension")
 										self.input_archive_filter_extension = Input(placeholder = "Extension list", id="input_archive_filter_extension")
 
 										self.checkbox_archive_filter_size = Checkbox("Filter by size", id="checkbox_archive_filter_size")
-										self.input_archive_filter_size = Input(placeholder = "File size threshold", id="input_archive_filter_size", type="integer")
+										self.input_archive_filter_minsize = Input(placeholder = "File min size (Mo)", id="input_archive_filter_minsize", type="integer")
+										self.input_archive_filter_maxsize = Input(placeholder = "File max size (Mo)", id="input_archive_filter_maxsize", type="integer")
 
 										#self.checkbox_archive_filter_age = Checkbox("Filter by age", id="checkbox_archive_filter_age")
 										self.checkbox_archive_filter_similarity = Checkbox("Filter by similarity", id="checkbox_archive_filter_similarity")
@@ -349,8 +352,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 										self.checkbox_archive_filter_keyword = Checkbox("Filter by keywords", id="checkbox_archive_filter_keyword")
 										self.input_archive_filter_keyword = Input(placeholder="Keyword list", id="input_archive_filter_keyword")
 
+										self.input_archive_filter_exclusekeyword = Input(placeholder="Excluse keyword list", id="input_archive_filter_exclusekeyword")
+
 										
-										yield self.checkbox_archive_filter_foldertarget
+										yield self.checkbox_archive_filter_selected
 
 										yield Rule(line_style="heavy")
 
@@ -358,7 +363,8 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 										yield self.input_archive_filter_extension
 
 										yield self.checkbox_archive_filter_size
-										yield self.input_archive_filter_size
+										yield self.input_archive_filter_minsize
+										yield self.input_archive_filter_maxsize
 
 										yield self.checkbox_archive_filter_similarity
 										yield self.input_archive_filter_similarity
@@ -368,6 +374,8 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 										yield self.checkbox_archive_filter_keyword
 										yield self.input_archive_filter_keyword
+										yield Rule(line_style="heavy")
+										yield self.input_archive_filter_exclusekeyword
 
 										yield Rule(line_style="heavy")
 
@@ -513,6 +521,13 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 		if event.button.id == "test_log":
 			self.message_function(self.current_folder_selected)
 
+		if event.button.id == "button_addarchive_applyfilter":
+			
+			
+
+			#launch the screen
+			self.push_screen(ModalASPCFilterScreen())
+			
 
 
 		#add archive buttons
@@ -532,7 +547,21 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 
 					if os.path.isfile(filepath)==False:
 						label.styles.color = self.theme_variables["text-secondary"]
-					self.content_to_archive.append(filepath)
+
+					#before adding the file in the filelist check if there is a container in the list
+					container_in_list = False
+					pathlib_filepath = Path(filepath).resolve()
+					for element in self.content_to_archive:
+						#get the parent and create the pathlib values
+						if Path(element).resolve() in pathlib_filepath.parents:
+							container_in_list=True 
+							break
+					if container_in_list == True:
+						self.message_function("File skipped : %s\nContainer folder is already in the list"%filepath, "error")
+						return
+					#check if the filepath is already in the list
+					if filepath not in self.content_to_archive:
+						self.content_to_archive.append(filepath)
 					selected_files_label.append(ListItem(label))
 			except IndexError:
 				self.message_function("Filelist content has changed", "warning")
@@ -545,6 +574,17 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 			selected_folder_label = []
 			selected_index = self.listview_folders.index_list
 
+
+			"""
+			ADD FOLDER CONDITIONS
+			-check if children (files / folders) are already in list
+				- yes : remove all children and replace by the parent folder
+				- no : just add the folder
+			-check if parent folder are already in list
+				- yes: don't add and show error
+				- no: add the folder to the list
+			"""
+
 			for index in selected_index:
 				folder = self.current_folder_list[index]
 				label = Label(os.path.basename(folder))
@@ -552,6 +592,30 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI):
 				if os.path.isdir(folder)==False:
 					label.styles.color = self.theme_variables["text-secondary"]
 
+
+				#check if children are already in list
+				#create a list of children to remove
+				children_to_remove_list = []
+				for i in range(len(self.content_to_archive)):
+					#check if the list item is a parent of the selected folder
+					#if it is a folder of course
+					if Path(self.content_to_archive[i]).resolve() in Path(folder).resolve().parents:
+						self.message_function("A parent of this folder is already in the list", "error")
+						return
+
+					#check if the list item is a children of the selected folder
+					if Path(folder).resolve() in Path(self.content_to_archive[i]).resolve().parents:
+						self.message_function("Children of the selected folder detected in list\n%s"%self.content_to_archive[i], "warning")
+						children_to_remove_list.append(i)
+
+				#remove children from the content to archive list
+				#remove children from the listview
+				for index in children_to_remove_list:
+					self.content_to_archive.pop(index)
+					self.listview_addarchive_selected.remove_items([index])
+
+
+				#finally add the folder and the label to the list
 				self.content_to_archive.append(folder)
 				selected_folder_label.append(ListItem(label))
 

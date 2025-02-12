@@ -34,10 +34,15 @@ class ASPC_LOG():
 				self.global_log.append(format_dictionnary)
 			try:
 				self.call_from_thread(self.add_log_message_function, str(message), severity, time)
+
+
 			except:
 				self.add_log_message_function(str(message), severity, time)
 		except Exception as e:
 			self.notify(e, timeout=5)
+		else:
+			if severity in ["error", "warning"]:
+				self.notify(str(message), severity=severity, timeout=3)
 		
 
 
