@@ -31,6 +31,11 @@ from utils.ASPC_Archive import ASPC_ARCHIVE
 from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 
+from pathlib import Path
+
+
+import copy
+import json
 import os 
 import threading
 import traceback
@@ -52,9 +57,9 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 	def compose(self) -> ComposeResult:
 
 		with VerticalScroll(id = "vertical_modal_container"):
-			self.progress_modal_filtered = ProgressBar(id = "progress_modal_filtered")
+			#self.progress_modal_filtered = ProgressBar(id = "progress_modal_filtered")
 			self.listview_modal_filtered = MultiListView(id="listview_modal_filtered")
-			yield self.progress_modal_filtered
+			#yield self.progress_modal_filtered
 			yield self.listview_modal_filtered
 			yield Button("ADD ELEMENT", id="button_modal_add")
 			yield Button("QUIT", id="button_modal_quit", disabled=False)
@@ -72,11 +77,71 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 
 
+
+	def add_item_function(self):
+		#create the final filtered list
+		self.app.message_function(self.listview_modal_filtered.index_list)
+		final_filtered_list = []
+		for index in self.listview_modal_filtered.index_list:
+			final_filtered_list.append(self.filtered_list[index])
+		#for each file check if there is already a container in the list
+		final_filtered_list_copy = copy.copy(final_filtered_list)
+
+		for file in final_filtered_list_copy:
+			for element in self.app.content_to_archive:
+				if os.path.isdir(element)==True:
+					#check if the given folder is a container of the current file
+					#if yes remove the file from the filtered list
+					if Path(element).resolve() in Path(file).resolve().parents:
+						try:
+							final_filtered_list.remove(file)
+						except Exception as e:
+							self.app.message_function("Impossible to remove file from list\n%s"%file, "error")
+							self.app.message_function(traceback.format_exc(), "error")
+						else:
+							self.app.message_function("File removed because container already in list", "notification")
+
+		#add the filtered list to content to archive
+		self.app.content_to_archive.extend(final_filtered_list)
+		#extend the listview
+		#create listitems
+		filtered_item_list = []
+		for file in final_filtered_list:
+			self.app.message_function("Filtered file added : %s"%file)
+			filtered_item_list.append(ListItem(Label(os.path.basename(file))))
+		self.app.listview_addarchive_selected.extend(filtered_item_list)
+		#pop the screen
+		self.app.pop_screen()
+
+
+
+
+
+
 	def on_key(self, event:events.Key) -> None:
 		if (event.key == "enter") and (self.focused.id == "listview_modal_filtered"):
 			children_item = self.listview_modal_filtered.children[self.listview_modal_filtered.index]
 			children_item.highlight_item(children_item)
 
+
+		if (event.key == "space") and (self.focused.id == "listview_modal_filtered"):
+			#check if the selection list is empty
+			if len(self.listview_modal_filtered.index_list) != 0:
+				#get the last index selected
+				last_children = self.listview_modal_filtered.index_list[-1]
+				#sort the list
+				start,end = sorted([last_children,self.listview_modal_filtered.index])
+				#intermediate list
+				for i in range(start,end):
+
+					if i not in self.listview_modal_filtered.index_list:
+						self.listview_modal_filtered.index_list.append(i)
+					else:
+						self.listview_modal_filtered.index_list.remove(i)
+					children_item = self.listview_modal_filtered.children[i]
+					children_item.highlight_item(children_item)
+					
+					#self.app.message_function("appened : %s"%children_item)
 
 
 	
@@ -160,6 +225,26 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 	
 			ASPC_ARCHIVE(filter_dictionnary, origin_list, self.app.current_project_data)
 			os.system("pause")
+
+
+		self.filtered_list = []
+		self.filtered_multilistitem = []
+		#try to read the content of the filtered file if it exists
+		try:
+			with open("temp_filtered.dll", "r") as read_file:
+				self.filtered_list = json.load(read_file)
+			os.remove("temp_filtered.dll")
+		except Exception as e:
+			self.app.message_function("Impossible to get the filtered list", "error")
+			self.app.message_function(traceback.format_exc(), "error")
+		else:
+			self.app.message_function("Filtered list retrived", "success")
+
+			#create the multilistitem list
+			for file in self.filtered_list:
+				self.filtered_multilistitem.append(MultiListItem(Label(str(os.path.basename(file)))))
+
+			self.listview_modal_filtered.extend(self.filtered_multilistitem)
 
 
 		#THREAD MODE

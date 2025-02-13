@@ -98,13 +98,14 @@ class MultiListView(ListView):
 
             #self.notify(str(list_item.classes))
             #self.notify(str("separator" in list_item.classes))
-
+            #self.notify(str(self.index))
             if self.index not in self.index_list:
                 self.index_list.append(self.index)
+
             else:
                 self.index_list.remove(self.index)
 
-            self.notify(str(self.index_list))
+        
 
 
             assert isinstance(list_item, ListItem)

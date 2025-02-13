@@ -41,6 +41,7 @@ class ASPC_ARCHIVE:
 		self.origin_list = origin_list
 
 
+		
 
 		#define the multiprocressing manager
 		with mp.Manager() as manager:
@@ -78,7 +79,19 @@ class ASPC_ARCHIVE:
 				p.join()
 
 			print(colored("All processes terminated", "green"))
-			return
+			
+
+			try:
+				with open("temp_filtered.dll", "w") as save_file:
+					json.dump(list(self.final_filtered_list), save_file, indent=4)
+			except Exception as e:
+				print(colored("Error while exporting filtered list", "red"))
+				print(colored(traceback.format_exc(), "red"))
+			else:
+				print(colored("Filtered list exported successfully", "green"))
+
+
+
 
 
 
@@ -102,6 +115,15 @@ class ASPC_ARCHIVE:
 
 
 
+					#FILENUMBER FILTER
+					if self.filter_dictionnary["FilterByFileNumber"]==True:
+						if len(folder_file_list) < int(self.filter_dictionnary["FilterFileNumber"]):
+							print(colored("File Number Filter : Folder skipped : %s"%self.folder, "yellow"))
+							continue
+
+
+					#SIMILARITY FILTER
+					#CREATE A NEW FILELIST
 					if self.filter_dictionnary["FilterBySimilarity"]==True:
 						
 						#get the sim dictionnary for this folder
@@ -174,7 +196,7 @@ class ASPC_ARCHIVE:
 
 
 
-			print(colored("File filtered successfully : %s"%os.path.join(self.folder,file), "green"))
+			print(colored("File filtered successfully : %s"%os.path.join(self.folder,file), "white"))
 			self.final_filtered_list.append(os.path.join(self.folder,file))
 
 

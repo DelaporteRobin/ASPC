@@ -457,6 +457,19 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 			children_item = self.listview_files.children[self.listview_files.index]
 			children_item.highlight_item(children_item)
 
+		if (event.key == "space") and (self.focused.id == "listview_files"):
+			#check if the selection list is empty
+			if len(self.listview_files.index_list) != 0:
+				#get the last index selected
+				last_children = self.listview_files.index_list[-1]
+				#sort the list
+				start,end = sorted([last_children,self.listview_files.index])
+				#intermediate list
+				for i in range(start,end):
+					children_item = self.listview_files.children[i]
+					children_item.highlight_item(children_item)
+
+
 		if (event.key == "enter") and (self.focused.id == "listview_folders"):
 			children_item = self.listview_folders.children[self.listview_folders.index]
 			children_item.highlight_item(children_item)
