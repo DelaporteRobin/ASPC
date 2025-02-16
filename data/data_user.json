@@ -15,7 +15,7 @@
         "checkbox_archive_filter_selected": false,
         "checkbox_archive_filter_extension": true,
         "checkbox_archive_filter_similarity": false,
-        "checkbox_archive_filter_keyword": false
+        "checkbox_archive_filter_keyword": true
     },
     "COLOR": {
         "notification": "#edff3e",
