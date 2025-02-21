@@ -13,9 +13,10 @@
         "checkbox_archive_filter_size": false,
         "checkbox_archive_filter_number": false,
         "checkbox_archive_filter_selected": false,
-        "checkbox_archive_filter_extension": true,
-        "checkbox_archive_filter_similarity": false,
-        "checkbox_archive_filter_keyword": true
+        "checkbox_archive_filter_extension": false,
+        "checkbox_archive_filter_similarity": true,
+        "checkbox_archive_filter_keyword": true,
+        "checkbox_filter_fromselection": true
     },
     "COLOR": {
         "notification": "#edff3e",

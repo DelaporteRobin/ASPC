@@ -331,63 +331,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 									
 									yield Rule(line_style="heavy")
 
-									with Collapsible(title="FILTERS", id="collapsible_archive_filters"):
 
-										self.checkbox_archive_filter_selected = Checkbox("Filter only on selected folders", id="checkbox_archive_filter_selected")
-
-										self.checkbox_archive_filter_extension = Checkbox("Filter by extension", id="checkbox_archive_filter_extension")
-										self.input_archive_filter_extension = Input(placeholder = "Extension list", id="input_archive_filter_extension")
-
-										self.checkbox_archive_filter_size = Checkbox("Filter by size", id="checkbox_archive_filter_size")
-										self.input_archive_filter_minsize = Input(placeholder = "File min size (Mo)", id="input_archive_filter_minsize", type="integer")
-										self.input_archive_filter_maxsize = Input(placeholder = "File max size (Mo)", id="input_archive_filter_maxsize", type="integer")
-
-										#self.checkbox_archive_filter_age = Checkbox("Filter by age", id="checkbox_archive_filter_age")
-										self.checkbox_archive_filter_similarity = Checkbox("Filter by similarity", id="checkbox_archive_filter_similarity")
-										self.input_archive_filter_similarity = Input(placeholder="similarity number threshold", id="input_archive_filter_similarity", type="integer")
-
-										self.checkbox_archive_filter_number = Checkbox("Filter by file number in folder", id="checkbox_archive_filter_number")
-										self.input_archive_filter_number = Input(placeholder="Minimum file number", id="input_archive_filter_number", type="integer")
-
-										self.checkbox_archive_filter_keyword = Checkbox("Filter by keywords", id="checkbox_archive_filter_keyword")
-										self.input_archive_filter_keyword = Input(placeholder="Keyword list", id="input_archive_filter_keyword")
-
-										self.input_archive_filter_exclusekeyword = Input(placeholder="Excluse keyword list", id="input_archive_filter_exclusekeyword")
-
-										
-										yield self.checkbox_archive_filter_selected
-
-										yield Rule(line_style="heavy")
-
-										yield self.checkbox_archive_filter_extension
-										yield self.input_archive_filter_extension
-
-										yield self.checkbox_archive_filter_size
-										yield self.input_archive_filter_minsize
-										yield self.input_archive_filter_maxsize
-
-										yield self.checkbox_archive_filter_similarity
-										yield self.input_archive_filter_similarity
-
-										yield self.checkbox_archive_filter_number
-										yield self.input_archive_filter_number
-
-										yield self.checkbox_archive_filter_keyword
-										yield self.input_archive_filter_keyword
-										yield Rule(line_style="heavy")
-										yield self.input_archive_filter_exclusekeyword
-
-										yield Rule(line_style="heavy")
-
-										with RadioSet(id = "radioset_archivefilter_mode"):
-											yield RadioButton("Replace selection")
-											yield RadioButton("Add to selection")
-
-
-
-										yield Button("Apply Filter", id="button_addarchive_applyfilter")
-										yield Button("Highlight Filtered", id="button_addarchive_highlightfiltered")
-										yield Button("Add Filtered Items", id="button_addarchive_addfiltered")
+									self.checkbox_filter_fromselection = Checkbox("Apply only on folder selection",id="checkbox_filter_fromselection")
+									yield self.checkbox_filter_fromselection
+									yield Button("Apply Filter", id="button_addarchive_applyfilter")
 
 									yield Rule(line_style="heavy")
 
@@ -533,10 +480,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 		if event.button.id == "button_addarchive_applyfilter":
 			
-			
-
 			#launch the screen
 			self.push_screen(ModalASPCFilterScreen())
+			
+
 			
 
 

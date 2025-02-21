@@ -21,6 +21,8 @@ import json
 import traceback
 import copy
 import multiprocessing as mp
+import threading
+import queue
 
 from datetime import datetime
 from pathlib import Path
@@ -33,7 +35,7 @@ colorama.init()
 
 
 
-
+"""
 class ASPC_ARCHIVE:
 	def __init__(self, filter_dictionnary, origin_list, current_project_data):
 		self.filter_dictionnary = filter_dictionnary
@@ -90,15 +92,6 @@ class ASPC_ARCHIVE:
 			else:
 				print(colored("Filtered list exported successfully", "green"))
 
-
-
-
-
-
-
-
-
-
 	def filter_folder_function(self, index):
 		while True:
 			try:
@@ -141,11 +134,6 @@ class ASPC_ARCHIVE:
 			except Exception as e:
 				print(colored(traceback.format_exc(), "red"))
 				return
-
-
-
-
-
 
 	def apply_filter_on_files_function(self, filelist):
 		#print(filelist)
@@ -198,27 +186,6 @@ class ASPC_ARCHIVE:
 
 			print(colored("File filtered successfully : %s"%os.path.join(self.folder,file), "white"))
 			self.final_filtered_list.append(os.path.join(self.folder,file))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	def check_for_filtered_function(self, filter_dictionnary):
 
@@ -309,11 +276,6 @@ class ASPC_ARCHIVE:
 			self.query_one("#button_modal_quit").disabled=False
 		else:
 			self.app.message_function("Arching thread terminated", "success")
-
-
-
-
-
 
 	def explore_function(self, element):
 		self.app.message_function("checking folder : %s"%element, "message", False)
@@ -419,14 +381,6 @@ class ASPC_ARCHIVE:
 
 			self.progress_modal_filtered.advance(1)
 
-
-
-
-
-
-
-
-
 	def add_filtered_line_function(self, message):
 		try:
 			self.listview_modal_filtered.append(MultiListItem(Label(str(message))))
@@ -439,3 +393,125 @@ class ASPC_ARCHIVE:
 		except Exception as e:
 			self.app.message_function(traceback.format_exc, "error")
 		
+"""
+
+class ASPC_ARCHIVE_MULTIPROCESSING:
+	def __init__(self, filter_dictionnary, origin_file_list, current_project_data):
+		
+		#check if similarity is enabled
+		#if yes create the new file list
+		if filter_dictionnary["FilterBySimilarity"]==True:
+
+			print(colored("Checking similarity", "magenta"))
+
+			new_file_list = []
+
+			for i in range(len(origin_file_list)):
+				if origin_file_list[i] not in new_file_list:
+					#get the similarity list for this file
+					sim_key = current_project_data["DATA_FILES"][origin_file_list[i]]["SIMKEY"]
+					sim_parent = current_project_data["DATA_FILES"][origin_file_list[i]]["SIMPARENT"]
+
+					#get the similarity list in the current project data
+					try:
+						sim_list = current_project_data["DATA_FOLDER"][sim_parent]["SIMILARITY"][sim_key]
+					except Exception as e:
+						print(colored("Impossible to get similarity data for this file : %s"%origin_file_list[i], "red"))
+					else:
+						#check if the sim list is big enough
+						#if yes add each file from that list in the new_file_list
+						if len(sim_list) >= int(filter_dictionnary["FilterSimilarityNumber"]):
+							for f in sim_list:
+								if f not in new_file_list:
+									print(colored("File added : %s"%f, "white"))
+									new_file_list.append(f)
+
+				else:
+					print(colored("File skipped because already added in list : %s"%origin_file_list[i], "yellow"))
+			origin_file_list = new_file_list
+
+			print(colored("\nDone checking similarity", "green"))
+			print("Origin file list replaced")
+
+		#create the file queue for multiprocessing
+		
+
+
+		#multiprocessing manager
+		with mp.Manager() as manager:
+		
+			#create the file queue
+			self.file_queue = mp.Queue()
+			for f in origin_file_list:
+				self.file_queue.put(f)
+
+			
+			
+			#define the multiprocessing shared variables
+			self.final_filtered_list = manager.list()
+
+
+
+			#launch multiprocessing
+			process_pool = []
+			#define the process number
+			process_number = mp.cpu_count()
+			for i in range(process_number):
+				try:
+					p = mp.Process(target=self.filter_folder_function, args=(i,))
+					p.start()
+					process_pool.append(p)
+				except Exception as e:
+					print(colored("\nFailed to launch process", "red"))
+					print(colored(traceback.format_exc(), "red"))
+				else:
+					print(colored("Process launched : %s"%p, "green"))
+
+
+			for p in process_pool:
+				print(colored("Process terminated : %s"%str(p), "green"))
+				p.join()
+
+			print(colored("All processes terminated", "green"))
+			
+
+			try:
+				with open("temp_filtered.dll", "w") as save_file:
+					json.dump(list(self.final_filtered_list), save_file, indent=4)
+			except Exception as e:
+				print(colored("Error while exporting filtered list", "red"))
+				print(colored(traceback.format_exc(), "red"))
+			else:
+				print(colored("Filtered list exported successfully", "green"))
+
+
+
+
+
+
+class ASPC_ARCHIVE:
+	def init_apply_filter_function(self):
+		#apply filters on file list
+		self.app.message_function("Starting to apply filter on file list", "notification")
+		#create the list of index to highlight <==> filtered
+		already_checked_list = []
+		filtered_file_list = []
+		#create the file queue
+		
+
+
+
+		#call the multiprocessing class
+		with self.app.suspend():
+			ASPC_ARCHIVE_MULTIPROCESSING(self.filter_dictionnary, self.filter_origin_list, self.app.current_project_data)
+			os.system("pause")
+
+
+
+
+
+
+							
+
+
+

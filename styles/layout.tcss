@@ -38,8 +38,9 @@ ModalASPCFilterScreen {
 	width:50%;
 	align:center middle;
 }
-
-
+#listview_modal_filterorigin, #listview_modal_filterdestination {
+	border:solid $primary;
+}
 /* SPECIFIC WIDGETS CODE */
 #listview_addarchive_selected {
 	max-height:60%;

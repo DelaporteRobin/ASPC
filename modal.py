@@ -34,6 +34,8 @@ from utils.ASPC_Widgets import MultiListView, MultiListItem
 from pathlib import Path
 
 
+import queue
+import time
 import copy
 import json
 import os 
@@ -50,6 +52,11 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 
 	def __init__(self):
+
+
+		self.filter_origin_list = []
+		self.filter_destination_list = []
+		self.final_filered_list = []
 		super().__init__()
 
 
@@ -57,10 +64,72 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 	def compose(self) -> ComposeResult:
 
 		with VerticalScroll(id = "vertical_modal_container"):
+			with Horizontal(id = "horizontal_modal_container"):
+				with VerticalScroll(id = "vertical_modal_container_left"):
+
+					self.progress_filterorigin = ProgressBar(id="progress_filterorigin")
+					yield self.progress_filterorigin
+
+					self.listview_modal_filterorigin = MultiListView(id = "listview_modal_filterorigin")
+					yield self.listview_modal_filterorigin
+					self.listview_modal_filterorigin.border_title = "Origin list"
+
+				with VerticalScroll(id = "vertical_modal_container_right"):
+
+					self.checkbox_archive_filter_extension = Checkbox("Filter by extension", id="checkbox_archive_filter_extension")
+					self.input_archive_filter_extension = Input(placeholder = "Extension list", id="input_archive_filter_extension")
+
+					self.checkbox_archive_filter_size = Checkbox("Filter by size", id="checkbox_archive_filter_size")
+					self.input_archive_filter_minsize = Input(placeholder = "File min size (Mo)", id="input_archive_filter_minsize", type="integer")
+					self.input_archive_filter_maxsize = Input(placeholder = "File max size (Mo)", id="input_archive_filter_maxsize", type="integer")
+
+					#self.checkbox_archive_filter_age = Checkbox("Filter by age", id="checkbox_archive_filter_age")
+					self.checkbox_archive_filter_similarity = Checkbox("Filter by similarity", id="checkbox_archive_filter_similarity")
+					self.input_archive_filter_similarity = Input(placeholder="similarity number threshold", id="input_archive_filter_similarity", type="integer")
+
+					self.checkbox_archive_filter_number = Checkbox("Filter by file number in folder", id="checkbox_archive_filter_number")
+					self.input_archive_filter_number = Input(placeholder="Minimum file number", id="input_archive_filter_number", type="integer")
+
+					self.checkbox_archive_filter_keyword = Checkbox("Filter by keywords", id="checkbox_archive_filter_keyword")
+					self.input_archive_filter_keyword = Input(placeholder="Keyword list", id="input_archive_filter_keyword")
+
+					self.input_archive_filter_exclusekeyword = Input(placeholder="Excluse keyword list", id="input_archive_filter_exclusekeyword")
+
+					yield self.checkbox_archive_filter_extension
+					yield self.input_archive_filter_extension
+
+					yield self.checkbox_archive_filter_size
+					yield self.input_archive_filter_minsize
+					yield self.input_archive_filter_maxsize
+
+					yield self.checkbox_archive_filter_similarity
+					yield self.input_archive_filter_similarity
+
+					yield self.checkbox_archive_filter_number
+					yield self.input_archive_filter_number
+
+					yield self.checkbox_archive_filter_keyword
+					yield self.input_archive_filter_keyword
+					yield Rule(line_style="heavy")
+					yield self.input_archive_filter_exclusekeyword
+
+					yield Rule(line_style="heavy")
+
+					with RadioSet(id = "radioset_archivefilter_mode"):
+						yield RadioButton("Filter all file list")
+						yield RadioButton("Filter only filtered elements")
+
+
+
+					yield Button("Apply Filter", id="button_applyfilter")
+
+
+			"""
 			#self.progress_modal_filtered = ProgressBar(id = "progress_modal_filtered")
 			self.listview_modal_filtered = MultiListView(id="listview_modal_filtered")
 			#yield self.progress_modal_filtered
 			yield self.listview_modal_filtered
+			"""
 			yield Button("ADD ELEMENT", id="button_modal_add")
 			yield Button("QUIT", id="button_modal_quit", disabled=False)
 
@@ -68,6 +137,26 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		#if event.button.id == "test":
 		#	self.display_message_function(self.query("#modal_newcontactname"))
+
+
+		if event.button.id == "button_applyfilter":
+			#create the filter dictionnary
+			self.filter_dictionnary = {
+				#"FilterOnlySelected":self.checkbox_archive_filter_selected.value,
+				"FilterByExtension":self.checkbox_archive_filter_extension.value,
+				"FilterExtensionList":self.input_archive_filter_extension.value.split(" "),
+				"FilterBySize":self.checkbox_archive_filter_size.value,
+				"FilterMinSize":self.input_archive_filter_minsize.value,
+				"FilterMaxSize":self.input_archive_filter_maxsize.value,
+				"FilterBySimilarity":self.checkbox_archive_filter_similarity.value,
+				"FilterSimilarityNumber":self.input_archive_filter_similarity.value,
+				"FilterByFileNumber":self.checkbox_archive_filter_number.value,
+				"FilterFileNumber":self.input_archive_filter_number.value,
+				"FilterByKeyword":self.checkbox_archive_filter_keyword.value,
+				"FilterKeywordList":self.input_archive_filter_keyword.value.split(" "),
+				"FilterKeywordListExcluse":self.input_archive_filter_exclusekeyword.value.split(" "),
+			}
+			self.init_apply_filter_function()
 
 		if event.button.id == "button_modal_quit":
 			self.app.pop_screen()
@@ -141,13 +230,60 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 					children_item = self.listview_modal_filtered.children[i]
 					children_item.highlight_item(children_item)
 					
-					#self.app.message_function("appened : %s"%children_item)
+					#thonself.app.message_function("appened : %s"%children_item)
 
 
 	
 	def on_mount(self) -> None:
-		#launch the thread with selection
-		#gather all informations
+		#get the origin sample of files and folders
+		#from the checkbox selection on the aspc lobby
+		#get only children of the folder selection
+		try:
+			#clear the list
+			origin_folder_list = []
+			self.filter_origin_list.clear()
+			#clear the listview
+			self.listview_modal_filterorigin.clear()
+			origin_listitem_list = []
+
+			if self.app.checkbox_filter_fromselection.value==True:
+				origin_index_list = self.app.listview_folders.index_list
+				for index in origin_index_list:
+					origin_folder_list.append(self.app.current_folder_list[index])
+
+				self.progress_filterorigin.total = len(self.filter_origin_list)
+				for file in self.app.current_project_data["DATA_FILES"].keys():
+					for root_folder in origin_folder_list:
+						if Path(root_folder).resolve() in Path(file).resolve().parents:
+							self.filter_origin_list.append(file)
+
+					self.progress_filterorigin.advance(1)
+			#--> check all folders
+			else:
+				#create multilistitem list		
+				self.filter_origin_list.extend(self.app.current_project_data["DATA_FILES"].keys())
+
+
+
+			
+			self.progress_filterorigin.total = len(self.filter_origin_list)
+			self.progress_filterorigin.progress=0
+
+			for file in self.filter_origin_list:
+				origin_listitem_list.append(MultiListItem(Label(os.path.basename(file))))
+				self.progress_filterorigin.advance(1)
+			self.listview_modal_filterorigin.extend(origin_listitem_list)
+
+		except AttributeError:
+			self.app.message_function("You must select a project before launching filter system!", "error")
+			self.app.pop_screen()
+
+
+
+
+	#MULTIPROCESSING EXPLORATION
+	"""
+	def on_mount(self) -> None:
 		filter_dictionnary = {
 			"FilterOnlySelected":self.app.checkbox_archive_filter_selected.value,
 			"FilterByExtension":self.app.checkbox_archive_filter_extension.value,
@@ -246,21 +382,5 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 			self.listview_modal_filtered.extend(self.filtered_multilistitem)
 
+	"""
 
-		#THREAD MODE
-
-		"""
-		try:
-			thread_filtered = threading.Thread(target=self.check_for_filtered_function, daemon=True, args=(filter_dictionnary,))
-			thread_filtered.start()
-			#thread_filtered.join()
-
-			#self.query_one("#button_modal_quit").disabled=False
-		except Exception as e:
-			self.app.message_function(traceback.format_exc(), "error")
-		else:
-			self.app.message_function("LAUNCHED")
-		"""
-
-		#self.listview_modal_filtered.append(ListItem(Label("added")))
-	
