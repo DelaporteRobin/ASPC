@@ -56,7 +56,7 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 		self.filter_origin_list = []
 		self.filter_destination_list = []
-		self.final_filered_list = []
+		self.final_file_list = []
 		super().__init__()
 
 
@@ -92,7 +92,9 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 					self.checkbox_archive_filter_keyword = Checkbox("Filter by keywords", id="checkbox_archive_filter_keyword")
 					self.input_archive_filter_keyword = Input(placeholder="Keyword list", id="input_archive_filter_keyword")
-
+					self.checkbox_archive_filter_absolutekeyword = Checkbox("All keywords filter", id = "checkbox_archive_filter_absolutekeyword")
+					
+					self.checkbox_archive_filter_exclusekeyword = Checkbox("Excluse keywords", id="checkbox_archive_filter_exclusekeyword")
 					self.input_archive_filter_exclusekeyword = Input(placeholder="Excluse keyword list", id="input_archive_filter_exclusekeyword")
 
 					yield self.checkbox_archive_filter_extension
@@ -110,7 +112,10 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 					yield self.checkbox_archive_filter_keyword
 					yield self.input_archive_filter_keyword
+					yield self.checkbox_archive_filter_absolutekeyword
+
 					yield Rule(line_style="heavy")
+					yield self.checkbox_archive_filter_exclusekeyword
 					yield self.input_archive_filter_exclusekeyword
 
 					yield Rule(line_style="heavy")
@@ -122,7 +127,11 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 
 					yield Button("Apply Filter", id="button_applyfilter")
+					yield Button("Clear selection", id="button_clearselection")
 
+					yield Rule(line_style="heavy")
+
+					yield Button("Validate selection", id="button_modal_validateselection")
 
 			"""
 			#self.progress_modal_filtered = ProgressBar(id = "progress_modal_filtered")
@@ -137,6 +146,24 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		#if event.button.id == "test":
 		#	self.display_message_function(self.query("#modal_newcontactname"))
+
+		if event.button.id == "button_clearselection":
+			self.listview_modal_filterorigin.clear_list()
+			self.app.message_function("list : %s"%self.listview_modal_filterorigin.index_list)
+
+			for children in self.listview_modal_filterorigin.children:
+				children.highlighted = False
+
+		if event.button.id == "button_modal_validateselection":
+			#add the highlighted selection to the listview in the lobby
+			filtered_item_list = []
+			for index in self.listview_modal_filterorigin.index_list:
+				if self.filter_origin_list[index] not in self.app.content_to_archive:
+					filtered_item_list.append(ListItem(Label(os.path.basename(self.filter_origin_list[index]))))
+					self.app.content_to_archive.append(self.filter_origin_list[index])
+			self.app.listview_addarchive_selected.extend(filtered_item_list)
+			self.app.pop_screen()
+
 
 
 		if event.button.id == "button_applyfilter":
@@ -154,56 +181,14 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 				"FilterFileNumber":self.input_archive_filter_number.value,
 				"FilterByKeyword":self.checkbox_archive_filter_keyword.value,
 				"FilterKeywordList":self.input_archive_filter_keyword.value.split(" "),
+				"FilterKeywordAbsolute":self.checkbox_archive_filter_absolutekeyword.value,
+				"FilterKeywordExclude":self.checkbox_archive_filter_exclusekeyword.value,
 				"FilterKeywordListExcluse":self.input_archive_filter_exclusekeyword.value.split(" "),
 			}
 			self.init_apply_filter_function()
 
 		if event.button.id == "button_modal_quit":
 			self.app.pop_screen()
-
-		if event.button.id == "button_modal_add":
-			self.add_item_function()
-
-
-
-
-	def add_item_function(self):
-		#create the final filtered list
-		self.app.message_function(self.listview_modal_filtered.index_list)
-		final_filtered_list = []
-		for index in self.listview_modal_filtered.index_list:
-			final_filtered_list.append(self.filtered_list[index])
-		#for each file check if there is already a container in the list
-		final_filtered_list_copy = copy.copy(final_filtered_list)
-
-		for file in final_filtered_list_copy:
-			for element in self.app.content_to_archive:
-				if os.path.isdir(element)==True:
-					#check if the given folder is a container of the current file
-					#if yes remove the file from the filtered list
-					if Path(element).resolve() in Path(file).resolve().parents:
-						try:
-							final_filtered_list.remove(file)
-						except Exception as e:
-							self.app.message_function("Impossible to remove file from list\n%s"%file, "error")
-							self.app.message_function(traceback.format_exc(), "error")
-						else:
-							self.app.message_function("File removed because container already in list", "notification")
-
-		#add the filtered list to content to archive
-		self.app.content_to_archive.extend(final_filtered_list)
-		#extend the listview
-		#create listitems
-		filtered_item_list = []
-		for file in final_filtered_list:
-			self.app.message_function("Filtered file added : %s"%file)
-			filtered_item_list.append(ListItem(Label(os.path.basename(file))))
-		self.app.listview_addarchive_selected.extend(filtered_item_list)
-		#pop the screen
-		self.app.pop_screen()
-
-
-
 
 
 
@@ -281,106 +266,9 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 
 
-	#MULTIPROCESSING EXPLORATION
-	"""
-	def on_mount(self) -> None:
-		filter_dictionnary = {
-			"FilterOnlySelected":self.app.checkbox_archive_filter_selected.value,
-			"FilterByExtension":self.app.checkbox_archive_filter_extension.value,
-			"FilterExtensionList":self.app.input_archive_filter_extension.value.split(" "),
-			"FilterBySize":self.app.checkbox_archive_filter_size.value,
-			"FilterMinSize":self.app.input_archive_filter_minsize.value,
-			"FilterMaxSize":self.app.input_archive_filter_maxsize.value,
-			"FilterBySimilarity":self.app.checkbox_archive_filter_similarity.value,
-			"FilterSimilarityNumber":self.app.input_archive_filter_similarity.value,
-			"FilterByFileNumber":self.app.checkbox_archive_filter_number.value,
-			"FilterFileNumber":self.app.input_archive_filter_number.value,
-			"FilterByKeyword":self.app.checkbox_archive_filter_keyword.value,
-			"FilterKeywordList":self.app.input_archive_filter_keyword.value.split(" "),
-			"FilterKeywordListExcluse":self.app.input_archive_filter_exclusekeyword.value.split(" "),
-		}
-		
 
 
-		
-		
-
-		
-			
-		#define the target
-		#self.app.call_from_thread(self.add_filtered_line_function, filter_dictionnary["FilterOnlySelected"])
-		if filter_dictionnary["FilterOnlySelected"]==True:
-			#get folder selected
-			index_list = self.app.listview_folders.index_list
-			origin_folder_list = []
-			origin_list = []
-
-			if len(index_list) == 0:
-				self.app.mesage_function("You must select folders to apply filters!")
-				self.query_one("#button_modal_quit").disabled=False
-				return
-			
-			for index in index_list:
-				#add the source folder to the list
-				origin_folder_list.append(self.app.current_folder_list[index])	
-			#for each folder selected check that there is no folder in the list that is parent of this folder
-
-			for x in origin_folder_list:
-
-				if len(origin_list) == 0:
-					origin_list.append(x)
-				else:
-					folder_checked = False
-
-					for y in origin_list:
-						if (Path(x).resolve() in Path(y).resolve().parents) or (Path(y).resolve() in Path(x).resolve().parents):
-							folder_checked=True
-							break
-
-					if folder_checked == False:
-						origin_list.append(x)
-					else:
-						self.app.message_function("Folder skipped because children or parent of an other folder in the list\n%s\n%s\n"%(x,y), "warning")
-						continue
 
 
-			
 
-		else:
-			try:
-				origin_list = self.app.current_project_data["DATA_FOLDER"].keys()
-			except Exception as e:
-				self.app.message_function("You have to select a project before applying filters", "error")
-				self.query_one("#button_modal_quit").disabled=False
-				return
-
-
-		#LAUNCH THE INIT FILTER FUNCTION
-		self.app.message_function("Launching multiprocessing exploration...", "notification")
-		with self.app.suspend():
-	
-			ASPC_ARCHIVE(filter_dictionnary, origin_list, self.app.current_project_data)
-			os.system("pause")
-
-
-		self.filtered_list = []
-		self.filtered_multilistitem = []
-		#try to read the content of the filtered file if it exists
-		try:
-			with open("temp_filtered.dll", "r") as read_file:
-				self.filtered_list = json.load(read_file)
-			os.remove("temp_filtered.dll")
-		except Exception as e:
-			self.app.message_function("Impossible to get the filtered list", "error")
-			self.app.message_function(traceback.format_exc(), "error")
-		else:
-			self.app.message_function("Filtered list retrived", "success")
-
-			#create the multilistitem list
-			for file in self.filtered_list:
-				self.filtered_multilistitem.append(MultiListItem(Label(str(os.path.basename(file)))))
-
-			self.listview_modal_filtered.extend(self.filtered_multilistitem)
-
-	"""
 

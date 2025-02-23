@@ -3,7 +3,7 @@ from textual.app import App, ComposeResult
 from textual.widgets import Tree, ProgressBar, Input, RadioSet, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
-from textual.screen import Screen 
+from textual.screen import Screen, ModalScreen
 from textual.await_complete import AwaitComplete
 from textual.await_remove import AwaitRemove
 from textual.binding import Binding, BindingType
@@ -168,6 +168,34 @@ class ASPC_HOMEPAGE(Screen):
 		if event.button.id == "homepage_button_open":
 			#kill the screen
 			self.app.pop_screen()
+
+
+
+
+
+
+
+
+class ModalASPCCreateArchive(ModalScreen):
+	CSS_PATH = ["styles/layout.tcss"]
+
+	def __init__(self):
+
+		super().__init__()
+
+
+	def compose(self) -> ComposeResult:
+
+		with VerticalScroll(id = "modal_archive_vertical_container"):
+
+			yield Label("No archive detected for this project\nDo you want to create a new one?", id="label_modal_question")
+
+			self.input_modal_archive_path = Input(placeholder = "Archive path", id = "input_modal_archive_path")
+			yield self.input_modal_archive_path
+
+			with Horizontal(id = "modal_archive_horizontal_container"):
+				yield Button("Create", id="button_modal_create_archive")
+				yield Button("Dismiss", id="button_modal_dismiss_archive")
 
 	
 
@@ -482,6 +510,17 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 			
 			#launch the screen
 			self.push_screen(ModalASPCFilterScreen())
+
+
+
+		if event.button.id == "button_add_to_archive":
+			#CHECK FOR ARCHIVE PATH
+			archive_exists = self.check_for_archive_function()
+
+			if archive_exists == False:
+				self.push_screen(ModalASPCCreateArchive())
+
+	
 			
 
 			
@@ -519,7 +558,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 					#check if the filepath is already in the list
 					if filepath not in self.content_to_archive:
 						self.content_to_archive.append(filepath)
-					selected_files_label.append(ListItem(label))
+						selected_files_label.append(ListItem(label))
 			except IndexError:
 				self.message_function("Filelist content has changed", "warning")
 			

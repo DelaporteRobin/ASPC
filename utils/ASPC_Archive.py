@@ -5,7 +5,7 @@ from textual.app import App, ComposeResult
 from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
-from textual.screen import Screen 
+from textual.screen import Screen, ModalScreen
 from textual import events
 from textual import work
 from textual.containers import Horizontal, Vertical, Container, VerticalScroll
@@ -423,7 +423,7 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 						if len(sim_list) >= int(filter_dictionnary["FilterSimilarityNumber"]):
 							for f in sim_list:
 								if f not in new_file_list:
-									print(colored("File added : %s"%f, "white"))
+									#print(colored("File added : %s"%f, "white"))
 									new_file_list.append(f)
 
 				else:
@@ -433,7 +433,9 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 			print(colored("\nDone checking similarity", "green"))
 			print("Origin file list replaced")
 
-		#create the file queue for multiprocessing
+		#create self variables
+		self.filter_dictionnary = filter_dictionnary
+		self.current_project_data = current_project_data
 		
 
 
@@ -444,45 +446,139 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 			self.file_queue = mp.Queue()
 			for f in origin_file_list:
 				self.file_queue.put(f)
-
-			
-			
+	
 			#define the multiprocessing shared variables
 			self.final_filtered_list = manager.list()
-
-
 
 			#launch multiprocessing
 			process_pool = []
 			#define the process number
-			process_number = mp.cpu_count()
+			process_number = 5
 			for i in range(process_number):
 				try:
-					p = mp.Process(target=self.filter_folder_function, args=(i,))
-					p.start()
-					process_pool.append(p)
-				except Exception as e:
-					print(colored("\nFailed to launch process", "red"))
-					print(colored(traceback.format_exc(), "red"))
+					x = mp.Process(target=self.filter_worker_function, args=(i,))
+					x.start()
+				except:
+					print(colored("Impossile to launch process\n%s"%traceback.format_exc(), "red"))
 				else:
-					print(colored("Process launched : %s"%p, "green"))
+					process_pool.append(x)
+					print(colored("Process launched", "green"))
 
 
-			for p in process_pool:
-				print(colored("Process terminated : %s"%str(p), "green"))
-				p.join()
+			for process in process_pool:
+				process.join()
+				print(colored("Process terminated : %s"%process, "yellow"))
 
-			print(colored("All processes terminated", "green"))
-			
+
+
+			print("\n\nFiltered file list:")
+			for file in self.final_filtered_list:
+				print("\t%s"%file)
+
 
 			try:
-				with open("temp_filtered.dll", "w") as save_file:
+				with open("data/temp_filtered.dll", "w") as save_file:
 					json.dump(list(self.final_filtered_list), save_file, indent=4)
 			except Exception as e:
-				print(colored("Error while exporting filtered list", "red"))
-				print(colored(traceback.format_exc(), "red"))
+				print(colored("Impossible to save file\n%s"%traceback.format_exc(), "red"))
 			else:
-				print(colored("Filtered list exported successfully", "green"))
+				print(colored("Filtered list saved", "green"))
+
+
+
+	#FILTER FILE PROCESS
+	def filter_worker_function(self,i):
+		while True:
+			try:
+				file = self.file_queue.get(timeout=3)
+				if file == None:
+					break
+
+				else:
+					#print("\t[%s] -> %s"%(i,file))
+					#APPLY FILTER ON THE GIVEN FILE
+
+					value = True
+
+
+					#FILTER SIZE
+					if self.filter_dictionnary["FilterBySize"]==True:
+						#get the size of the given file
+						filesize = self.current_project_data["DATA_FILES"][file]["FILESIZE"] / (1024*1024)
+						#check if the given filesize is superior to min size and inferior to max size
+						#if max size == 0 convert it to inf
+						min_value = int(self.filter_dictionnary["FilterMinSize"])
+						if int(self.filter_dictionnary["FilterMaxSize"])==0:
+							max_value = float("inf")
+						else:
+							max_value = int(self.filter_dictionnary["FilterMaxSize"])
+
+						#print("%s ; %s ; %s"%(min_value,filesize,max_value))
+						if (filesize < min_value) or (filesize > max_value):
+							value=False
+
+
+					#FILTER EXTENSION
+					if self.filter_dictionnary["FilterByExtension"]==True:
+						if os.path.splitext(file)[1] not in self.filter_dictionnary["FilterExtensionList"]:
+							value=False
+
+
+					#FILTER EXCLUDE KEYWORDS
+					if self.filter_dictionnary["FilterKeywordExclude"]==True:
+						for keyword in self.filter_dictionnary["FilterKeywordListExcluse"]:
+							if keyword in os.path.splitext(os.path.basename(file))[0]:
+								value=False
+								break
+
+
+					#FILTER KEYWORD
+					if self.filter_dictionnary["FilterByKeyword"]==True:
+						#ALL KEYWORDS MUST BE IN THE FILENAME
+						if self.filter_dictionnary["FilterKeywordAbsolute"]==True:
+							validated=True
+							for keyword in self.filter_dictionnary["FilterKeywordList"]:
+								if keyword not in os.path.splitext(os.path.basename(file))[0]:
+									validated=False
+									break
+						
+
+						#ONLY ONE KEYWORD NEEDS TO BE IN THE FILENAME
+						else:
+							validated=False
+							for keyword in self.filter_dictionnary["FilterKeywordList"]:
+								if keyword in os.path.splitext(os.path.basename(file))[0]:
+									validated=True
+									break
+
+						value=validated
+
+
+
+
+
+					if value == True:
+						print(colored("True : %s"%file, "green"))
+
+						if file not in self.final_filtered_list:
+							self.final_filtered_list.append(file)
+						else:
+							print(colored("File skipped because already added", "yellow"))
+					else:
+						print(colored("False : %s"%file, "red"))
+
+
+
+			except mp.queues.Empty:
+					print(colored("process done", "red"))
+					return
+
+			except Exception as e:
+				print(colored(traceback.format_exc(), "red"))
+				return
+
+
+
 
 
 
@@ -495,7 +591,7 @@ class ASPC_ARCHIVE:
 		self.app.message_function("Starting to apply filter on file list", "notification")
 		#create the list of index to highlight <==> filtered
 		already_checked_list = []
-		filtered_file_list = []
+		self.final_filtered_list = []
 		#create the file queue
 		
 
@@ -507,11 +603,88 @@ class ASPC_ARCHIVE:
 			os.system("pause")
 
 
+		#try to load the temp file
+		try:
+			with open("data/temp_filtered.dll", "r") as read_file:
+				self.final_filtered_list = json.load(read_file)
+		except Exception as e:
+			self.app.message_function("Impossile to load temp filtered file\n%s"%traceback.format_exc(), "error")
+		else:
+			self.app.message_function("Filtered list retrived", "success")
+			#remove the temp filtered file
+			try:
+				os.remove("data/temp_filtered.dll")
+			except Exception as e:
+				self.app.message_function("Impossible to remove temp filtered file\n%s"%traceback.format_exc(), "error")
+			else:
+				self.app.message_function("Temp filtered file removed")
+
+
+		#clear the index list
+		#self.listview_modal_filterorigin.clear_list()
+		self.listview_modal_filterorigin.clear_list()
+
+		for children in self.listview_modal_filterorigin.children:
+			children.highlighted = False
+		
+
+		#highlight filtered elements in the list
+		for file in self.final_filtered_list:
+			#get the index of the element in the list
+			#self.app.message_function("[%s] %s"%(file in self.filter_origin_list, file))
+			index = self.filter_origin_list.index(file)
+
+			if index not in self.listview_modal_filterorigin.index_list:
+				self.listview_modal_filterorigin.index_list.append(index)
+				self.listview_modal_filterorigin.children[index].highlighted=True
+
+			
+
+
+		
+
+
+
 
 
 
 
 							
+
+
+
+
+
+		
+
+
+	def check_for_archive_function(self):
+		#get the current project selected
+		self.app.message_function("Checking for archive", "notification")
+		if self.current_project_name != None:
+			self.app.message_function("Current project selected : %s"%self.current_project_name)
+
+			#check if the key is in the dictionnary
+			try:
+				archive_data = self.current_project_data["ARCHIVE_DATA"]
+				archive_path = archive_data["ARCHIVE_PATH"]
+				archive_log = archive_data["ARCHIVE_LOG"]
+			except KeyError:
+				self.app.message_function("Archive doesn't exists yet for this project", "warning")
+				return False
+
+			except Exception as e:
+				self.app.message_function("Impossible to check for archive data\n%s"%traceback.format_exc(), "error")
+				return False
+
+			else:
+				return True
+		else:
+			self.app.message_function("No project selected","error")
+			return False
+
+
+
 
 
 
