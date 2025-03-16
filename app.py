@@ -197,6 +197,19 @@ class ModalASPCCreateArchive(ModalScreen):
 				yield Button("Create", id="button_modal_create_archive")
 				yield Button("Dismiss", id="button_modal_dismiss_archive")
 
+
+	def on_button_pressed(self, event: Button.Pressed) -> None:
+		if event.button.id == "button_modal_dismiss_archive":
+			self.app.pop_screen()
+		if event.button.id == "button_modal_create_archive":
+			#check if the path is correct
+			if os.path.isdir(self.input_modal_archive_path.value)==False:
+				self.app.message_function("The path isn't valid!", "error")
+
+			else:
+				self.app.project_data["ARCHIVE_PATH"] = self.input_modal_archive_path
+				self.app.project_data["ARCHIVE_LOG"] = os.path.join(self.input_modal_archive_path, "ASPC_ArchiveLog_%s"%os.path.isdir(self.app.current_project_name))
+
 	
 
 
