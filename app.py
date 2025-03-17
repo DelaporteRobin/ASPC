@@ -27,6 +27,7 @@ from time import sleep
 
 import multiprocessing
 import threading
+import traceback
 import pyfiglet
 
 import sys
@@ -176,7 +177,7 @@ class ASPC_HOMEPAGE(Screen):
 
 
 
-class ModalASPCCreateArchive(ModalScreen):
+class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 	CSS_PATH = ["styles/layout.tcss"]
 
 	def __init__(self):
@@ -202,14 +203,26 @@ class ModalASPCCreateArchive(ModalScreen):
 		if event.button.id == "button_modal_dismiss_archive":
 			self.app.pop_screen()
 		if event.button.id == "button_modal_create_archive":
+
+			if self.app.current_project_name == None:
+				self.app.message_function("You must select a project to create an archive!")
+				return
 			#check if the path is correct
 			if os.path.isdir(self.input_modal_archive_path.value)==False:
 				self.app.message_function("The path isn't valid!", "error")
 
 			else:
-				self.app.project_data["ARCHIVE_PATH"] = self.input_modal_archive_path
-				self.app.project_data["ARCHIVE_LOG"] = os.path.join(self.input_modal_archive_path, "ASPC_ArchiveLog_%s"%os.path.isdir(self.app.current_project_name))
+				try:
+					self.app.project_data[self.app.current_project_name]["ARCHIVE_PATH"] = os.path.join(self.input_modal_archive_path.value, "ASPC_Archive_%s.zip"%os.path.basename(self.app.current_project_name))
+					self.app.project_data[self.app.current_project_name]["ARCHIVE_LOG"] = os.path.join(self.input_modal_archive_path.value, "ASPC_ArchiveLog_%s"%os.path.basename(self.app.current_project_name))
+					#save the content of the new project dictionnary in file
+					self.save_dictionnary_function()
 
+				except Exception as e:
+					self.app.message_function("Impossible to save the archive path", "error")
+					self.app.message_function(traceback.format_exc(), "error")
+				else:
+					self.app.message_function(os.path.basename(self.app.current_project_name), "success")
 	
 
 

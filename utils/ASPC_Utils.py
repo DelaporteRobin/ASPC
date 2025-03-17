@@ -87,6 +87,20 @@ class ASPC_UTILS:
 
 
 
+	def save_dictionnary_function(self):
+		#try to overwrite the current project data
+		#in the json file
+		try:
+			with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
+				json.dump(self.app.project_data, save_file,indent=4)
+		except Exception as e:
+			self.app.message_function("Impossible to save the data file", "error")
+			self.app.message_function(traceback.format_exc(), "error")
+		else:
+			self.app.message_function("Project data file saved", "success")
+
+
+
 	def create_user_settings_function(self):
 		self.user_settings = {
 			"WIDGETS": {

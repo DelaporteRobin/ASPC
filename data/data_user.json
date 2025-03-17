@@ -16,7 +16,7 @@
         "checkbox_archive_filter_extension": true,
         "checkbox_archive_filter_similarity": true,
         "checkbox_archive_filter_keyword": true,
-        "checkbox_filter_fromselection": true,
+        "checkbox_filter_fromselection": false,
         "checkbox_archive_filter_absolutekeyword": false,
         "checkbox_archive_filter_exclusekeyword": true
     },
