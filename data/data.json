@@ -87584,7 +87584,8 @@
                 "FILECREATION": "2024-12-30 19:21:05",
                 "FILEMODIFICATION": "2024-12-30 19:21:14",
                 "SIMKEY": "pixel.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\renders\\renderSeq_turn\\renderSeq_turn_0001.psd": {
                 "FILESIZE": 73962772,
@@ -88165,7 +88166,8 @@
                 "FILECREATION": "2024-12-06 19:56:37",
                 "FILEMODIFICATION": "2024-12-06 19:56:43",
                 "SIMKEY": "6d46f14e1a1a128cfc1453ee76daf759.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v002\\item_nokia2_mod_publish_standardSurface1_Emissive.1002.tif": {
                 "FILESIZE": 1065218,
@@ -88186,7 +88188,8 @@
                 "FILECREATION": "2024-12-30 18:49:59",
                 "FILEMODIFICATION": "2024-12-30 18:50:04",
                 "SIMKEY": "20927540-nokia-logo-marque-telephone-symbole-noir-conception-finlande-mobile-vecteur-illustration-gratuit-vectoriel.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v003\\substance_nokia_textures\\item_nokia3_mod_publish_PhoneGlobal_SURFACE_Emissive.1001.tif": {
                 "FILESIZE": 1065218,
@@ -88235,7 +88238,8 @@
                 "FILECREATION": "2024-12-06 19:43:25",
                 "FILEMODIFICATION": "2024-12-06 19:43:58",
                 "SIMKEY": "ref_nokia.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input\\apple_keyboard_shift_icon_137950.png": {
                 "FILESIZE": 3707,
@@ -88277,21 +88281,24 @@
                 "FILECREATION": "2025-01-02 18:19:47",
                 "FILEMODIFICATION": "2025-01-02 18:19:48",
                 "SIMKEY": "render_tolate_render1_finish.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs\\ref_nokia_all.jpg": {
                 "FILESIZE": 37246,
                 "FILECREATION": "2024-12-06 20:11:21",
                 "FILEMODIFICATION": "2024-12-06 20:11:26",
                 "SIMKEY": "ref_nokia_all.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input\\crumpled-grunge-plastic-texture-overlay-thumb39.jpg": {
                 "FILESIZE": 632558,
                 "FILECREATION": "2024-12-12 15:26:47",
                 "FILEMODIFICATION": "2024-12-12 15:26:59",
                 "SIMKEY": "crumpled-grunge-plastic-texture-overlay-thumb39.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v002\\item_nokia2_mod_publish_standardSurface1_Emissive.1011.tif": {
                 "FILESIZE": 1065218,
@@ -88305,7 +88312,8 @@
                 "FILECREATION": "2025-01-02 18:28:56",
                 "FILEMODIFICATION": "2025-01-02 18:28:57",
                 "SIMKEY": "render_tolate_render1_finish.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v001\\item_nokia_mod_publish_nokia 3310_Emissive.1003.tif": {
                 "FILESIZE": 1361392,
@@ -88550,7 +88558,8 @@
                 "FILECREATION": "2024-12-12 15:27:05",
                 "FILEMODIFICATION": "2024-12-12 15:27:07",
                 "SIMKEY": "plastic-texture-seamless-thumb24.jpg",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v002\\item_nokia2_mod_publish_standardSurface1_Metallic.1003.tif": {
                 "FILESIZE": 5330970,

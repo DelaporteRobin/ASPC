@@ -280,17 +280,52 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		"""
 
 
-
+		self.app.message_function("Archiving process started", "notification")
 		#MULTIPROCESSING MODE
 		#create instance of the archiving class
 		with self.app.suspend():
-			ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
-			os.system("pause")
+			fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
+			returned_dictionnary = fill_archive.run()
+
+		
+		self.app.message_function("Archiving process terminated", "notification")
+
+
+		if type(returned_dictionnary)==dict:
+			self.app.current_project_data = returned_dictionnary	
+			self.app.project_data[self.app.current_project_name] = self.app.current_project_data
+			self.app.message_function("Dictionnary updated")
+
+		
+
+			self.app.message_function(type(self.app.current_project_data))
+			try:
+				
+				self.save_dictionnary_function()
+			except Exception as e:
+				self.app.message_function("Impossible to update the dictionnary\n%s"%traceback.format_exc(), "error")
+			else:
+				self.app.message_function("Archiving changes saved successfully", "success")
+
+		else:
+			pass
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

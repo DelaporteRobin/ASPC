@@ -13,6 +13,7 @@ from textual import on
 from termcolor import *
 
 from utils.ASPC_Widgets import MultiListView, MultiListItem
+from utils.ASPC_Utils import ASPC_UTILS
 
 
 import colorama
@@ -441,30 +442,42 @@ class ASPC_ARCHIVE:
 
 
 
-class ASPC_FILL_ARCHIVE:
+class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 	def __init__(self, selection_to_archive, current_project, current_project_data):
 
 
+		self.current_project = current_project 
+		self.selection_to_archive = selection_to_archive
+		self.current_project_data = current_project_data
 		print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
+
+		
+
+
+		#self.run(selection_to_archive, current_project, current_project_data)
+
+
+
+	def run(self,):
 
 		"""
 		check if the path of the archive is defined
 		check if the path of the archive exists (create it if not)
 		check the lengh of the selection to archive
 		"""
-		print("Current project selected : %s"%current_project)
+		print("Current project selected : %s"%self.current_project)
 
 		try:
-			print("Archive path : %s"%current_project_data["ARCHIVE_PATH"])
+			print("Archive path : %s"%self.current_project_data["ARCHIVE_PATH"])
 		except KeyError:
 			print(colored("Path of the archive is not defined!", "red"))
 			
-		if os.path.isdir(os.path.dirname(current_project_data["ARCHIVE_PATH"]))==False:
+		if os.path.isdir(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]))==False:
 			print(colored("Path to archive isn't valid", "yellow"))
 
 
 			try:
-				os.makedirs(os.path.dirname(current_project_data["ARCHIVE_PATH"]), exist_ok=True)
+				os.makedirs(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]), exist_ok=True)
 			except Exception as e:
 				print(colored("Impossible to create path to archive", "red"))
 				print(colored(traceback.format_exc(), "red"))
@@ -472,7 +485,7 @@ class ASPC_FILL_ARCHIVE:
 			else:
 				print(colored("Path to archive created", "green"))
 
-		if len(selection_to_archive) == 0:
+		if len(self.selection_to_archive) == 0:
 			print(colored("No elements to archive!", "red"))
 			return
 
@@ -487,7 +500,7 @@ class ASPC_FILL_ARCHIVE:
 			print(colored("Creating the file queue ...", "cyan"))
 			#create the filequeue for the multiprocesses
 			self.file_queue = mp.Queue()
-			for element in selection_to_archive:
+			for element in self.selection_to_archive:
 				if os.path.isdir(element) == True:
 					folder_counter += 1
 				elif os.path.isfile(element) == True:
@@ -508,13 +521,14 @@ class ASPC_FILL_ARCHIVE:
 				self.ns = manager.Namespace()
 				self.ns.global_count = 0
 				self.ns.total_count = folder_counter + file_counter
+				self.shared_current_project_data = manager.dict(self.current_project_data)
 
 				#create multiprocesses
 				process_pool = []
 				temp_archive_list = []
 				for i in range(mp.cpu_count()):
-					temp_archive_name = os.path.join(os.path.dirname(current_project_data["ARCHIVE_PATH"]),"tempArchive_%s_%s.zip"%(os.path.basename(current_project),i))
-					p = mp.Process(target=self.archive_item_worker,args=(i, temp_archive_name,current_project_data["ARCHIVE_PATH"], current_project))
+					temp_archive_name = os.path.join(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]),"tempArchive_%s_%s.zip"%(os.path.basename(self.current_project),i))
+					p = mp.Process(target=self.archive_item_worker,args=(i, temp_archive_name,self.current_project_data["ARCHIVE_PATH"], self.current_project))
 					p.start()
 					process_pool.append(p)
 					temp_archive_list.append(temp_archive_name)
@@ -527,16 +541,24 @@ class ASPC_FILL_ARCHIVE:
 
 
 
+				#CONVERT BACK THE CURRENT PROJECT DATA
+				self.current_project_data = dict(self.shared_current_project_data)
+
+
+
 				#MERGING ALL ARCHIVES
 				print(colored("\nMerging TEMP archives ...", "cyan"))
-				with zipfile.ZipFile(current_project_data["ARCHIVE_PATH"], "a", compression=zipfile.ZIP_LZMA, compresslevel=9) as final_archive:
+				with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=zipfile.ZIP_LZMA, compresslevel=9) as final_archive:
 					for temp_archive in temp_archive_list:
 						print("\n\t%s"%temp_archive)
-						with zipfile.ZipFile(temp_archive, "r") as read_temp_archive:
-							for info in read_temp_archive.infolist():
-								print("\t\treading %s"%info)
-								with read_temp_archive.open(info) as writer:
-									final_archive.writestr(info, writer.read())
+						try:
+							with zipfile.ZipFile(temp_archive, "r") as read_temp_archive:
+								for info in read_temp_archive.infolist():
+									print("\t\treading %s"%info)
+									with read_temp_archive.open(info) as writer:
+										final_archive.writestr(info, writer.read())
+						except FileNotFoundError:
+							print(colored("\tTemp archive not existing", "red"))
 
 						#remove the temp archive
 						try:
@@ -546,10 +568,13 @@ class ASPC_FILL_ARCHIVE:
 						else:
 							print(colored("\tArchive removed successfully", "green"))
 
+
+
 			except Exception as e:
 				print(colored("Fatal error happened during archiving process\n%s"%traceback.format_exc(), "red"))
 			else:
 				print(colored("Archiving process terminated", "green"))
+				return self.current_project_data
 
 
 
@@ -580,7 +605,10 @@ class ASPC_FILL_ARCHIVE:
 							else:
 								self.ns.global_count += 1
 								print(colored("[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
-
+								#update the statut of the file in the dictionnary
+								data_file = self.shared_current_project_data["DATA_FILES"]
+								data_file[item_to_archive]["ARCHIVE"]=True
+								self.shared_current_project_data["DATA_FILES"] = data_file
 
 
 			except Exception as e:
