@@ -23,6 +23,8 @@ import copy
 import multiprocessing as mp
 import threading
 import queue
+import zipfile
+import pyfiglet
 
 from datetime import datetime
 from pathlib import Path
@@ -223,10 +225,6 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 
 
 
-
-
-
-
 class ASPC_ARCHIVE:
 	def init_apply_filter_function(self):
 		#apply filters on file list
@@ -338,46 +336,253 @@ class ASPC_ARCHIVE:
 
 		try:
 			#self.app.call_from_thread(self.archiving_display_message_function, "hello world")
-			self.app.call_from_thread(self.archiving_display_message_function, "Starting archiving process")
+			self.app.call_from_thread(self.archiving_display_message_function, "Starting archiving process", "notification")
 
 			#get the filelist in the listview
 			#self.app.content_to_archive
-			self.app.call_from_thread(self.archiving_display_message_function, "Number of item to archive : %s"%len(self.app.content_to_archive), "message")
+			self.app.call_from_thread(self.archiving_display_message_function, "Number of item to archive : %s"%len(self.app.content_to_archive), "content")
 			#get the project selected
-			self.app.call_from_thread(self.archiving_display_message_function, "Current project selected : %s"%self.app.current_project_name, "message")
+			self.app.call_from_thread(self.archiving_display_message_function, "Current project selected : %s"%self.app.current_project_name, "content")
 			#get the archive path
 			try:
 				archive_path = self.app.current_project_data["ARCHIVE_PATH"]
 				archive_log = self.app.current_project_data["ARCHIVE_LOG"]
-				self.app.call_from_thread(self.archiving_display_message_function, "Archive path : %s"%archive_path, "message")
+				self.app.call_from_thread(self.archiving_display_message_function, "Archive path : %s"%archive_path, "content")
 
 			except KeyError:
 				self.app.call_from_thread(self.archiving_display_message_function, "Archive path not defined", "error")
 			else:
-				pass
-			
+				
+
+
+				#check the lenght of the list before archiving
+				if len(self.app.content_to_archive) == 0:
+					self.app.call_from_thread(self.archiving_display_message_function, "No element to archive", "error")
+				else:
+					#open the archive
+					try:
+						with zipfile.ZipFile(archive_path, mode="a", compression=zipfile.ZIP_LZMA, compresslevel=9) as archive:
+
+							self.app.call_from_thread(self.archiving_display_message_function, "Archive opened", "notification")
+							#create the archiving loop
+							for item in self.app.content_to_archive:
+
+								self.app.call_from_thread(self.archiving_display_message_function, "\n", "content")
+								self.app.call_from_thread(self.archiving_display_message_function, "Archiving %s..."%item)
+
+								#check if the item exists
+								if (os.path.isdir(item)==False) and (os.path.isfile(item)==False):
+									self.app.call_from_thread(self.archiving_display_message_function, "%s - Element doesn't exists", "error")
+									continue
+
+								#if the item is a folder, archive the whole folder hierarchy
+
+								#if the item is a file, rebuilt the parent folder hierarchy
+								if os.path.isfile(item) == True:
+									#write the file in archive
+									try:
+										archive.write(item, arcname=Path(item).relative_to(Path(self.app.current_project_name)))
+									except Exception as e:
+										self.app.call_from_thread(self.archiving_display_message_function, "%s - Impossible to archive file", "error")
+										self.app.call_from_thread(self.archiving_display_message_function, traceback.format_exc(), "error")
+									else:
+										self.app.call_from_thread(self.archiving_display_message_function, "%s - File archived successfully", "success")
+					except Exception as e:
+						self.app.call_from_thread(self.archiving_display_message_function, "\n", "content")
+						self.app.call_from_thread(self.archiving_display_message_function, "Fatal error during archiving process", "error")
+						self.app.call_from_thread(self.archiving_display_message_function, traceback.format_exc(), "error")
+					else:
+						self.app.call_from_thread(self.archiving_display_message_function, "\n", "content")
+						self.app.call_from_thread(self.archiving_display_message_function, "archiving process terminated", "success")
+
 
 		except Exception as e:
 			self.app.message_function("Error happened", "error")
 			self.app.message_function(traceback.format_exc(), "error")
 
 		else:
-			self.app.message_function("Thread terminated", "success")
+			pass
+
+
+
+
 
 
 
 
 	def archiving_display_message_function(self, message = "", type="message"):
 
-
 		if type == "content":
-			label = Label("   %s"%message)
+			label = Label("  %s"%message)
 		else:
 			label = Label("[%s] %s"%(type.upper(),message))
 
 
+		#get the color for the created label before printing it
+		if type.upper() == "NOTIFICATION":
+			color = "text-accent"
+		elif type.upper() == "ERROR":
+			color = "text-error"
+		elif type.upper() == "SUCCESS":
+			color = "text-success"
+
+		else:
+			color = "text-primary"
+
+		#color the label
+		label.styles.color = self.app.theme_variables[color]
 		self.listview_modal_addarchive_filelog.append(ListItem(label))
 
 
 
 
+
+
+
+
+
+class ASPC_FILL_ARCHIVE:
+	def __init__(self, selection_to_archive, current_project, current_project_data):
+
+
+		print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
+
+		"""
+		check if the path of the archive is defined
+		check if the path of the archive exists (create it if not)
+		check the lengh of the selection to archive
+		"""
+		print("Current project selected : %s"%current_project)
+
+		try:
+			print("Archive path : %s"%current_project_data["ARCHIVE_PATH"])
+		except KeyError:
+			print(colored("Path of the archive is not defined!", "red"))
+			
+		if os.path.isdir(os.path.dirname(current_project_data["ARCHIVE_PATH"]))==False:
+			print(colored("Path to archive isn't valid", "yellow"))
+
+
+			try:
+				os.makedirs(os.path.dirname(current_project_data["ARCHIVE_PATH"]), exist_ok=True)
+			except Exception as e:
+				print(colored("Impossible to create path to archive", "red"))
+				print(colored(traceback.format_exc(), "red"))
+				return
+			else:
+				print(colored("Path to archive created", "green"))
+
+		if len(selection_to_archive) == 0:
+			print(colored("No elements to archive!", "red"))
+			return
+
+
+
+		#create the multiprocessing manager
+		with mp.Manager() as manager:
+
+			folder_counter = 0 
+			file_counter = 0 
+
+			print(colored("Creating the file queue ...", "cyan"))
+			#create the filequeue for the multiprocesses
+			self.file_queue = mp.Queue()
+			for element in selection_to_archive:
+				if os.path.isdir(element) == True:
+					folder_counter += 1
+				elif os.path.isfile(element) == True:
+					file_counter += 1 
+				else:
+					print(colored("Item not existing : %s"%element, "red"))
+					continue 
+				self.file_queue.put(element)
+
+
+
+			#open the zipfile manager for archive
+			try:
+				print("\nOpening archive...\nReady to archive")
+				#with zipfile.ZipFile(current_project_data["ARCHIVE_PATH"], mode="a",compression=zipfile.ZIP_LZMA, compresslevel=9) as self.archive:
+
+
+				self.ns = manager.Namespace()
+				self.ns.global_count = 0
+				self.ns.total_count = folder_counter + file_counter
+
+				#create multiprocesses
+				process_pool = []
+				temp_archive_list = []
+				for i in range(mp.cpu_count()):
+					temp_archive_name = os.path.join(os.path.dirname(current_project_data["ARCHIVE_PATH"]),"tempArchive_%s_%s.zip"%(os.path.basename(current_project),i))
+					p = mp.Process(target=self.archive_item_worker,args=(i, temp_archive_name,current_project_data["ARCHIVE_PATH"], current_project))
+					p.start()
+					process_pool.append(p)
+					temp_archive_list.append(temp_archive_name)
+					print("\t[%s] Process launched"%i)
+
+
+				for i in range(len(process_pool)):
+					print(colored("Process terminated : %s"%process_pool[i], "green"))
+					process_pool[i].join()
+
+
+
+				#MERGING ALL ARCHIVES
+				print(colored("\nMerging TEMP archives ...", "cyan"))
+				with zipfile.ZipFile(current_project_data["ARCHIVE_PATH"], "a", compression=zipfile.ZIP_LZMA, compresslevel=9) as final_archive:
+					for temp_archive in temp_archive_list:
+						print("\n\t%s"%temp_archive)
+						with zipfile.ZipFile(temp_archive, "r") as read_temp_archive:
+							for info in read_temp_archive.infolist():
+								print("\t\treading %s"%info)
+								with read_temp_archive.open(info) as writer:
+									final_archive.writestr(info, writer.read())
+
+						#remove the temp archive
+						try:
+							os.remove(temp_archive)
+						except Exception as e:
+							print(colored("\tImpossible to remove archive", "red"))
+						else:
+							print(colored("\tArchive removed successfully", "green"))
+
+			except Exception as e:
+				print(colored("Fatal error happened during archiving process\n%s"%traceback.format_exc(), "red"))
+			else:
+				print(colored("Archiving process terminated", "green"))
+
+
+
+
+
+	def archive_item_worker(self, index, temp_archive, archive_path, project_path):
+		while True:
+			try:
+				item_to_archive = self.file_queue.get(timeout=5)
+
+				if item_to_archive == None:
+					print(colored("Process broken [%s]"%index, "yellow"))
+					break
+				else:
+					#print("[%s] checking %s"%(index,item_to_archive))
+
+					#OPEN THE ZIPFILE ARCHIVE
+					with zipfile.ZipFile(temp_archive, mode="a", compression=zipfile.ZIP_LZMA, compresslevel=9) as archive:
+
+						if os.path.isfile(item_to_archive) == True:
+							print("[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
+							
+							try:
+								archive.write(item_to_archive, arcname=Path(item_to_archive).relative_to(Path(project_path)))
+							except Exception as e:
+								self.ns.global_count += 1
+								print(colored("[%s] Impossible to save file : %s"%(index,os.path.basename(item_to_archive)), "red"))
+							else:
+								self.ns.global_count += 1
+								print(colored("[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
+
+
+
+			except Exception as e:
+				#print(colored(traceback.format_exc(), "red"))
+				return

@@ -41,7 +41,7 @@ from utils.ASPC_Log import ASPC_LOG
 from utils.ASPC_Snoop import ASPC_SNOOP
 from utils.ASPC_Utils import ASPC_UTILS
 from utils.ASPC_GUI import ASPC_GUI
-from utils.ASPC_Archive import ASPC_ARCHIVE
+from utils.ASPC_Archive import ASPC_ARCHIVE, ASPC_FILL_ARCHIVE
 from modal import ModalASPCFilterScreen
 #from utils.ASPC_Widgets import HighlightableDirectoryTree, MultiListItem, MultiListView
 from utils.ASPC_Widgets import MultiListView, MultiListItem
@@ -237,7 +237,7 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 
 
 
-class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_UTILS):
+class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_UTILS):
 	CSS_PATH = ["styles/layout.tcss"]
 
 
@@ -266,7 +266,8 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_UTILS):
 
 	def on_mount(self):
 
-		#create the archiving process thread
+		#THREAD MODE
+		"""
 		try:
 			self.thread_archiving = threading.Thread(target=self.archiving_thread, args=())
 			#call the thread
@@ -276,7 +277,16 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_UTILS):
 			self.app.message_function(traceback.format_exc(), "error")
 		else:
 			self.app.message_function("Archiving thread launched", "success")
-	
+		"""
+
+
+
+		#MULTIPROCESSING MODE
+		#create instance of the archiving class
+		with self.app.suspend():
+			ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
+			os.system("pause")
+
 
 
 
