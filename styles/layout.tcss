@@ -31,13 +31,13 @@ Button,Input,Checkbox {
 
 
 /* MODAL */
-ModalASPCFilterScreen, ModalASPCCreateArchive {
+ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive {
 	align:center middle;
 }
 #modal_archive_vertical_container {
 	width:50%;
 }
-#vertical_modal_container {
+#vertical_modal_container,#vertical_modal_addarchive {
 	width:50%;
 	align:center middle;
 }

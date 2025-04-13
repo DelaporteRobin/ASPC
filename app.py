@@ -192,7 +192,9 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 			yield Label("No archive detected for this project\nDo you want to create a new one?", id="label_modal_question")
 
 			self.input_modal_archive_path = Input(placeholder = "Archive path", id = "input_modal_archive_path")
+			self.input_modal_archivelog_path = Input(placeholder = "Archive log path", id="input_modal_archivelog_path")
 			yield self.input_modal_archive_path
+			yield self.input_modal_archivelog_path
 
 			with Horizontal(id = "modal_archive_horizontal_container"):
 				yield Button("Create", id="button_modal_create_archive")
@@ -214,7 +216,12 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 			else:
 				try:
 					self.app.project_data[self.app.current_project_name]["ARCHIVE_PATH"] = os.path.join(self.input_modal_archive_path.value, "ASPC_Archive_%s.zip"%os.path.basename(self.app.current_project_name))
-					self.app.project_data[self.app.current_project_name]["ARCHIVE_LOG"] = os.path.join(self.input_modal_archive_path.value, "ASPC_ArchiveLog_%s"%os.path.basename(self.app.current_project_name))
+					#archive log file located next to the archive
+					#self.app.project_data[self.app.current_project_name]["ARCHIVE_LOG"] = os.path.join(self.input_modal_archive_path.value, "ASPC_ArchiveLog_%s"%os.path.basename(self.app.current_project_name))
+					
+					#archive log file located in data
+					self.app.project_data[self.app.current_project_name]["ARCHIVE_LOG"] = os.path.join(os.getcwd(), "data/ASPC_ArchiveLog_%s.json"%os.path.basename(self.app.current_project_name))
+
 					#save the content of the new project dictionnary in file
 					self.save_dictionnary_function()
 
@@ -223,6 +230,52 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 					self.app.message_function(traceback.format_exc(), "error")
 				else:
 					self.app.message_function(os.path.basename(self.app.current_project_name), "success")
+
+
+
+
+
+
+
+class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_UTILS):
+	CSS_PATH = ["styles/layout.tcss"]
+
+
+	def __init__(self):
+		super().__init__()
+
+
+	def compose(self) -> ComposeResult:
+		with Vertical(id = "vertical_modal_addarchive"):
+		
+
+		
+
+			self.listview_modal_addarchive_filelog = ListView(id = "listview_modal_addarchive_filelog")
+			yield self.listview_modal_addarchive_filelog
+			self.listview_modal_addarchive_filelog.border_title = "Archiving log"
+					
+			yield Button("QUIT", id="button_modal_quit")
+
+
+	def on_button_pressed(self, event:Button.Pressed) -> None:
+		if event.button.id == "button_modal_quit":
+			self.app.pop_screen()
+
+
+
+	def on_mount(self):
+
+		#create the archiving process thread
+		try:
+			self.thread_archiving = threading.Thread(target=self.archiving_thread, args=())
+			#call the thread
+			self.thread_archiving.start()
+		except Exception as e:
+			self.app.message_function("Impossible to launch archiving thread", "error")
+			self.app.message_function(traceback.format_exc(), "error")
+		else:
+			self.app.message_function("Archiving thread launched", "success")
 	
 
 
@@ -545,6 +598,9 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 			if archive_exists == False:
 				self.push_screen(ModalASPCCreateArchive())
+
+			else:
+				self.push_screen(ModalASPCAddToArchive())
 
 	
 			

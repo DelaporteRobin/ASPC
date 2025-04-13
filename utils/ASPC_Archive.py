@@ -311,9 +311,9 @@ class ASPC_ARCHIVE:
 
 			#check if the key is in the dictionnary
 			try:
-				archive_data = self.current_project_data["ARCHIVE_DATA"]
-				archive_path = archive_data["ARCHIVE_PATH"]
-				archive_log = archive_data["ARCHIVE_LOG"]
+				
+				archive_path = self.current_project_data["ARCHIVE_PATH"]
+				archive_log = self.current_project_data["ARCHIVE_LOG"]
 			except KeyError:
 				self.app.message_function("Archive doesn't exists yet for this project", "warning")
 				return False
@@ -329,6 +329,54 @@ class ASPC_ARCHIVE:
 			return False
 
 
+
+
+
+	def archiving_thread(self):
+		#launch notification
+
+
+		try:
+			#self.app.call_from_thread(self.archiving_display_message_function, "hello world")
+			self.app.call_from_thread(self.archiving_display_message_function, "Starting archiving process")
+
+			#get the filelist in the listview
+			#self.app.content_to_archive
+			self.app.call_from_thread(self.archiving_display_message_function, "Number of item to archive : %s"%len(self.app.content_to_archive), "message")
+			#get the project selected
+			self.app.call_from_thread(self.archiving_display_message_function, "Current project selected : %s"%self.app.current_project_name, "message")
+			#get the archive path
+			try:
+				archive_path = self.app.current_project_data["ARCHIVE_PATH"]
+				archive_log = self.app.current_project_data["ARCHIVE_LOG"]
+				self.app.call_from_thread(self.archiving_display_message_function, "Archive path : %s"%archive_path, "message")
+
+			except KeyError:
+				self.app.call_from_thread(self.archiving_display_message_function, "Archive path not defined", "error")
+			else:
+				pass
+			
+
+		except Exception as e:
+			self.app.message_function("Error happened", "error")
+			self.app.message_function(traceback.format_exc(), "error")
+
+		else:
+			self.app.message_function("Thread terminated", "success")
+
+
+
+
+	def archiving_display_message_function(self, message = "", type="message"):
+
+
+		if type == "content":
+			label = Label("   %s"%message)
+		else:
+			label = Label("[%s] %s"%(type.upper(),message))
+
+
+		self.listview_modal_addarchive_filelog.append(ListItem(label))
 
 
 
