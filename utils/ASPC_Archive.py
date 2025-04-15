@@ -302,6 +302,9 @@ class ASPC_ARCHIVE:
 			self.message_function("Project archive path : %s"%self.current_project_data["ARCHIVE_PATH"])
 			self.message_function("Project archive log : %s"%self.current_project_data["ARCHIVE_LOG"])
 
+			#clear the actual content of the listview
+			self.listview_archive_content.clear()
+
 			if os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==False:
 				self.message_function("Archive doesn't exists yet / anymore", "error")
 			else:
@@ -341,8 +344,7 @@ class ASPC_ARCHIVE:
 					self.save_dictionnary_function()
 
 
-				#clear the actual content of the listview
-				self.listview_archive_content.clear()
+				
 				#load the archive content in the list
 				label_list = []
 				for file in self.current_archive_content:
@@ -564,6 +566,9 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 
 
 
+
+
+
 		#create the multiprocessing manager
 		with mp.Manager() as manager:
 
@@ -574,8 +579,32 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 			#create the filequeue for the multiprocesses
 			self.file_queue = mp.Queue()
 
+
+
+			self.archive_log = {}
+			#create the dataset dictionnary
+			self.archive_dataset = manager.dict()
+			"""
+			INFORMATIONS TO GATHER
+			content to archive size (before archiving and after)
+			size of the project (before archiving and after)
+			archive size (before archiving and after)
+			"""
+			#add original size of the project
+			self.archive_dataset["PROJECTSIZE_BEFORE"] = self.current_project_data["DATA_FOLDER"][self.current_project_name]["ITEMS_SIZE"]
+			self.archive_dataset["CONTENTSIZE_BEFORE"] = 0
+			self.archive_dataset["CCONTENTSIZE_AFTER"] = 0
+			self.archive_dataset["ARCHIVESIZE_BEFORE"] = 0
+
+
+
+			#CHECK IF THE ARCHIVE ALREADY EXISTS
 			self.project_archive_content = []
 			if os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==True:
+
+				#get the size of the current archive
+				self.archive_dataset["ARCHIVESIZE_BEFORE"] = os.path.getsize(self.current_project_data["ARCHIVE_PATH"])
+
 				#get the content of the archive
 				print(colored("Trying to get the content of the existing project archive...", "cyan"))
 				try:
@@ -586,6 +615,33 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 					print(colored("Impossible to get the content of the existing project archive", "red"))
 				else:
 					print(colored("Existing archive content retrieved", "green"))
+
+				#checking if the archive log exists as well
+				if os.path.isfile(self.current_project_data["ARCHIVE_LOG"])==True:
+					print(colored("Archive log detected", "green"))
+
+					#try to read the content of the archive log
+					try:
+						with open(self.current_project_data["ARCHIVE_LOG"], "r") as read_file:
+							self.archive_log = json.load(read_file)
+					except Exception as e:
+						print(colored("Impossible to read archive log content!\n%s"%traceback.format_exc(), "red"))
+					else:
+						print(colored("Archive log content retrieved successfully!", "green"))
+
+				else:
+					print(colored("Impossible to find archive log", "red"))
+
+
+
+
+				#convert the dictionnary log into a manager dict
+			self.archive_log = manager.dict(self.archive_log)
+
+
+
+
+			
 
 
 
@@ -649,6 +705,16 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 				#CONVERT BACK THE CURRENT PROJECT DATA
 				self.current_project_data = dict(self.shared_current_project_data)
 
+				#SAVE THE ARCHIVE LOG
+				try:
+					with open(self.current_project_data["ARCHIVE_LOG"], "w") as save_file:
+						json.dump(dict(self.archive_log), save_file, indent=4)
+
+				except Exception as e:
+					print(colored("\nImpossible to save archive log\n%s"%traceback.format_exc(), "red"))
+				else:
+					print(colored("\nArchive log saved successfully", "green"))
+
 
 
 				#MERGING ALL ARCHIVES
@@ -703,6 +769,9 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 
 						if os.path.isfile(item_to_archive) == True:
 							print("[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
+
+							#add informations in archiving data set
+							self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
 							
 							try:
 								archive.write(item_to_archive, arcname=Path(item_to_archive).relative_to(Path(project_path)))
@@ -716,6 +785,20 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 								data_file = self.shared_current_project_data["DATA_FILES"]
 								data_file[item_to_archive]["ARCHIVE"]=True
 								self.shared_current_project_data["DATA_FILES"] = data_file
+
+								#write the file in the archive dictionnary
+								if item_to_archive not in self.archive_log:
+									self.archive_log[item_to_archive] = {
+										"ARCHIVEPATH": str(Path(item_to_archive).relative_to(Path(project_path))),
+										"REALPATH": str(Path(item_to_archive)),
+										"ARCHIVINGDATE": str(datetime.now()),
+									}
+								else:
+									print(colored("[%s] File already writen in archive : %s"%(index,item_to_archive), "red"))
+
+
+								#add informations in the archiving data set
+								#get the size of the file in the zipfile archive
 
 
 			except Exception as e:
