@@ -87556,7 +87556,8 @@
                 "FILECREATION": "2025-01-15 19:01:24",
                 "FILEMODIFICATION": "2025-01-15 19:01:06",
                 "SIMKEY": "finalrenderCroped_v001.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\scenes\\item_tolate_lookdev_v001.c4d": {
                 "FILESIZE": 31872119,
@@ -87570,7 +87571,8 @@
                 "FILECREATION": "2025-01-15 19:01:24",
                 "FILEMODIFICATION": "2025-01-15 19:01:03",
                 "SIMKEY": "finalrender_v001.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\scenes\\item_tolate_mod_v001.c4d": {
                 "FILESIZE": 1078824987,
@@ -87599,7 +87601,8 @@
                 "FILECREATION": "2025-01-15 19:01:24",
                 "FILEMODIFICATION": "2025-01-15 19:01:06",
                 "SIMKEY": "finalrender_v001.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\substance_bag_project_autosave_1.spp": {
                 "FILESIZE": 330954693,
@@ -88124,7 +88127,8 @@
                 "FILECREATION": "2024-12-31 21:23:14",
                 "FILEMODIFICATION": "2024-12-31 21:23:14",
                 "SIMKEY": "finalrenderCroped_v001.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v002\\item_nokia2_mod_publish_standardSurface1_Emissive.1001.tif": {
                 "FILESIZE": 1065218,
@@ -88181,7 +88185,8 @@
                 "FILECREATION": "2024-12-31 21:20:32",
                 "FILEMODIFICATION": "2024-12-31 21:20:36",
                 "SIMKEY": "finalrender_v001.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input\\20927540-nokia-logo-marque-telephone-symbole-noir-conception-finlande-mobile-vecteur-illustration-gratuit-vectoriel.jpg": {
                 "FILESIZE": 16460,
@@ -88231,7 +88236,8 @@
                 "FILECREATION": "2025-01-02 17:54:25",
                 "FILEMODIFICATION": "2025-01-02 17:54:31",
                 "SIMKEY": "finalrender_v001.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\photoshop\\output",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\maya\\sourceimages\\refs\\ref_nokia.jpg": {
                 "FILESIZE": 9349,
@@ -88246,7 +88252,8 @@
                 "FILECREATION": "2024-12-30 19:05:46",
                 "FILEMODIFICATION": "2024-12-30 19:05:46",
                 "SIMKEY": "apple_keyboard_shift_icon_137950.png",
-                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input"
+                "SIMPARENT": "D:\\WORK\\LIGHTING\\TO_LATE\\substance\\input",
+                "ARCHIVE": true
             },
             "D:\\WORK\\LIGHTING\\TO_LATE\\c4d\\textures\\substance_phone_v002\\item_nokia2_mod_publish_standardSurface1_Emissive.1003.tif": {
                 "FILESIZE": 1356298,

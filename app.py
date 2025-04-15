@@ -286,7 +286,7 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		with self.app.suspend():
 			fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
 			returned_dictionnary = fill_archive.run()
-
+			os.system("pause")
 		
 		self.app.message_function("Archiving process terminated", "notification")
 
@@ -355,6 +355,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 		self.current_folder_list = []
 		self.current_file_list = []
 		self.current_file_list_copy = []
+		self.current_archive_content = []
 
 		self.content_to_archive = []
 
@@ -533,6 +534,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 		self.load_project_data_function()
 		self.load_user_settings_function()
+		#self.load_archive_content_function()
 
 
 		for i in range(10):
@@ -867,6 +869,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 			#call the threading checking function
 			self.check_for_folder_process_function()
+			self.check_for_archive_content_function()
 
 		
 

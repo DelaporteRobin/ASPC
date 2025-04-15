@@ -266,7 +266,7 @@ class ASPC_GUI:
 				self.current_file_list = self.current_project_data["DATA_FILES"]
 
 			
-			self.message_function("Updating file list\n%s"%self.current_file_list, "notification")
+			self.message_function("Updating file list...", "notification")
 
 			self.progress_files.update(total = len(self.current_file_list))
 			#self.call_from_thread(self.progress_folder.update, len(self.current_file_list))
@@ -304,32 +304,46 @@ class ASPC_GUI:
 				
 
 				else:
-					#check if the gradient checkbox is checked
-					if self.checkbox_file_gradient.value==True:
-						#apply the gradient for the file
-						#find the size of the file
-						try:
-							file_size = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]["FILESIZE"]
-							gradient_number = ((file_size - folder_lightest_size)/(folder_heaviest_size - folder_lightest_size)) * 100
-							#apply the color
-							"""
-							COLOR RANGE
-							0 - 25 -> white
-							25 - 50 -> accent
-							50 - 75 -> warning
-							75 - 100 -> error
-							"""
-							if (gradient_number <= 25):
+
+
+					#CHECK FIRST IF THE FILE IS ARCHIVED!!!!
+					if os.path.isfile(os.path.join(self.current_folder_selected,file))==False:
+						self.message_function(os.path.join(self.current_folder_selected,file))
+						label.styles.color = "gray"
+					else:
+						#get data about this file in the current project data
+						file_data = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]
+						if ("ARCHIVE" in file_data) and (file_data["ARCHIVE"]==True):
+							label.styles.background = self.theme_variables["background"]
+							label.styles.width = "1fr"
+
+					
+						#check if the gradient checkbox is checked
+						if self.checkbox_file_gradient.value==True:
+							#apply the gradient for the file
+							#find the size of the file
+							try:
+								file_size = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]["FILESIZE"]
+								gradient_number = ((file_size - folder_lightest_size)/(folder_heaviest_size - folder_lightest_size)) * 100
+								#apply the color
+								"""
+								COLOR RANGE
+								0 - 25 -> white
+								25 - 50 -> accent
+								50 - 75 -> warning
+								75 - 100 -> error
+								"""
+								if (gradient_number <= 25):
+									pass
+								elif (gradient_number > 25) and (gradient_number <= 50):
+									label.styles.color = self.user_settings["COLOR"]["warning"]
+								elif (gradient_number > 50) and (gradient_number <= 75):
+									label.styles.color = self.user_settings["COLOR"]["important"]
+								else:
+									label.styles.color = self.user_settings["COLOR"]["alert"]
+							except ZeroDivisionError:
 								pass
-							elif (gradient_number > 25) and (gradient_number <= 50):
-								label.styles.color = self.user_settings["COLOR"]["warning"]
-							elif (gradient_number > 50) and (gradient_number <= 75):
-								label.styles.color = self.user_settings["COLOR"]["important"]
-							else:
-								label.styles.color = self.user_settings["COLOR"]["alert"]
-						except ZeroDivisionError:
-							pass
-						#self.message_function(gradient_number)
+							#self.message_function(gradient_number)
 
 				if file == "_"*40:
 					list_listitem.append(MultiListItem(label, classes="separator"))

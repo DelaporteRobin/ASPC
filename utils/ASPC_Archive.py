@@ -282,6 +282,79 @@ class ASPC_ARCHIVE:
 				self.app.message_function("Impossible to find item in list : %s"%file, "error")
 				self.app.message_function(traceback.format_exc(), "error")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	def check_for_archive_content_function(self):
+		#get the current project selected
+		#check if the archive path is defined for this project
+		if "ARCHIVE_PATH" in self.current_project_data:
+			self.message_function("Project archive path : %s"%self.current_project_data["ARCHIVE_PATH"])
+			self.message_function("Project archive log : %s"%self.current_project_data["ARCHIVE_LOG"])
+
+			if os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==False:
+				self.message_function("Archive doesn't exists yet / anymore", "error")
+			else:
+				#get the content of the archive
+				self.current_archive_content.clear()
+				data_file = self.current_project_data["DATA_FILES"]
+				changes = False
+				try:
+					with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as archive:
+						for file in archive.namelist():
+
+							#check the statut for the current file in settings
+							if "ARCHIVE" not in data_file[os.path.normpath(os.path.join(self.current_project_name, file))]:
+								#create the key
+
+								self.message_function("  value updated in dictionnary for %s"%file, "message", False)
+								file_data = data_file[os.path.join(self.current_project_name, file)]
+								file_data["ARCHIVE"] = True
+								data_file[os.path.join(self.current_project_name,file)] = file_data
+
+								if changes==False:
+									changes=True
+
+							self.current_archive_content.append(file)
+
+				except Exception as e:
+					self.message_function("Impossible to get archive content\n%s"%traceback.format_exc(), "error")
+					return
+
+
+				if changes==True:
+					self.message_function("Some files were updated in Main Data file\n-> Updating dictionary", "notification")
+					#update the dictionnary content
+					self.current_project_data["DATA_FILES"]=data_file
+					#save the dictionnary
+					self.project_data[self.current_project_name] = self.current_project_data
+					self.save_dictionnary_function()
+
+
+				#clear the actual content of the listview
+				self.listview_archive_content.clear()
+				#load the archive content in the list
+				label_list = []
+				for file in self.current_archive_content:
+					label = Label(file)
+					label_list.append(ListItem(label))
+				self.listview_archive_content.extend(label_list)
+
+
+
+		else:
+			self.message_function("Impossible to get archive content for this project\nArchive path is not defined", "notification")
+
 			
 
 
@@ -500,21 +573,53 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 			print(colored("Creating the file queue ...", "cyan"))
 			#create the filequeue for the multiprocesses
 			self.file_queue = mp.Queue()
+
+			self.project_archive_content = []
+			if os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==True:
+				#get the content of the archive
+				print(colored("Trying to get the content of the existing project archive...", "cyan"))
+				try:
+					with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as read_archive:
+						for file in read_archive.namelist():
+							self.project_archive_content.append(Path(file))
+				except Exception as e:
+					print(colored("Impossible to get the content of the existing project archive", "red"))
+				else:
+					print(colored("Existing archive content retrieved", "green"))
+
+
+
 			for element in self.selection_to_archive:
 				if os.path.isdir(element) == True:
 					folder_counter += 1
-				elif os.path.isfile(element) == True:
-					file_counter += 1 
+					self.file_queue.put(element)
+
+				elif (os.path.isfile(element) == True):
+
+					#check if the file is not already archived
+					relative_filepath = Path(element).relative_to(Path(self.current_project))
+					print("\t%s"%relative_filepath)
+
+					if Path(relative_filepath) not in self.project_archive_content:
+						file_counter += 1 
+						self.file_queue.put(element)
+					else:
+						print(colored("\t-> File skipped because already archived", "yellow"))
 				else:
 					print(colored("Item not existing : %s"%element, "red"))
 					continue 
-				self.file_queue.put(element)
+				
 
+
+			print("FILE QUEUE SIZE : %s"%self.file_queue.qsize())
+			if self.file_queue.empty()==True:
+				print(colored("The file queue to archive is empty\nArchiving process stopped", "red"))
+				return
 
 
 			#open the zipfile manager for archive
 			try:
-				print("\nOpening archive...\nReady to archive")
+				print(colored("\nOpening archive...\nReady to archive", "cyan"))
 				#with zipfile.ZipFile(current_project_data["ARCHIVE_PATH"], mode="a",compression=zipfile.ZIP_LZMA, compresslevel=9) as self.archive:
 
 
@@ -590,6 +695,8 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 					break
 				else:
 					#print("[%s] checking %s"%(index,item_to_archive))
+
+
 
 					#OPEN THE ZIPFILE ARCHIVE
 					with zipfile.ZipFile(temp_archive, mode="a", compression=zipfile.ZIP_LZMA, compresslevel=9) as archive:
