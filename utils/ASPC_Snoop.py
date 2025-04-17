@@ -11,6 +11,7 @@ import Levenshtein
 import bisect
 import heapq
 import traceback
+import queue
 
 from pathlib import Path
 from termcolor import *
@@ -159,18 +160,42 @@ class ASPC_SNOOP():
 				print(colored("All path elements replaced", "green"))
 
 
-
+			
+			archive_path = None
+			archive_log = None
+			
 			if os.path.isfile(os.path.join(os.getcwd(), "data/data.json"))==True:
 				#load the content file
 				with open(os.path.join(os.getcwd(), "data/data.json"), "r") as read_file:
 					content = json.load(read_file)
+				#check if the project is already writen in the archive
+				if str(root_folder) in content:
+					if ("ARCHIVE_PATH" in content[str(root_folder)]) and ("ARCHIVE_LOG" in content[str(root_folder)]):
+						archive_path = content[str(root_folder)]["ARCHIVE_PATH"]
+						archive_log = content[str(root_folder)]["ARCHIVE_LOG"]
+			
+	
 			else:
 				content = {}
 
-			content[str(root_folder)] = self.data_global
 
-			with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
-				json.dump(content, save_file, indent=4)
+			content[str(root_folder)] = self.data_global
+			#if archive path and log different from None
+			#recreate the archive path in the dictionnary
+			if (archive_path != None) and (archive_log != None):
+				content[str(root_folder)]["ARCHIVE_PATH"] = archive_path
+				content[str(root_folder)]["ARCHIVE_LOG"] = archive_log
+				print(colored("Archive path and log detected for project", "cyan"))
+
+
+
+			try:
+				with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
+					json.dump(content, save_file, indent=4)
+			except Exception as e:
+				print(colored("Failed to save dictionnary\n%s"%traceback.format_exc(), "red"))
+			else:
+				print(colored("Dictionnary saved", "green"))
 
 
 		
@@ -189,6 +214,8 @@ class ASPC_SNOOP():
 					self.queue.put(os.path.join(root, d))
 				except Exception as e:
 					print(colored("Impossible to add folder in queue\n%s"%e, "red"))
+				else:
+					print(colored("Folder added in queue : %s"%d))
 
 
 
@@ -209,6 +236,7 @@ class ASPC_SNOOP():
 
 
 					folder_content = os.listdir(folder)
+					#print(folder_content)
 
 					#check if the folder is already in the folder dictionnay
 					if folder not in self.data_folder:
@@ -282,6 +310,7 @@ class ASPC_SNOOP():
 
 					sim_checked = []
 					for item in folder_content:
+						print("	checking item in folder : %s ; %s"%(item , os.path.isfile(os.path.join(folder,item))))
 						if os.path.isfile(os.path.join(folder,item))==True:
 							#get informations about the file
 							file_size = os.path.getsize(os.path.join(folder,item))
@@ -386,26 +415,32 @@ class ASPC_SNOOP():
 
 							
 
-							#update all the parent folder size in dictionnary
-							parent_folder = folder
+							#UPDATE THE PARENT FOLDER SIZE			
+							parent_folder = folder 
 
-							if parent_folder != self.root_folder:
-								while True:
+							while True:
+								#print("\tparent [%s] -> %s"%(parent_folder,os.path.join(folder,item)))
+								#update the size
+								try:
+									parent_folder_data = self.data_folder[str(parent_folder)]
+									children_size = parent_folder_data["CHILDREN_SIZE"]
+									parent_folder_data["CHILDREN_SIZE"] += file_size
+									self.data_folder[str(parent_folder)] = parent_folder_data
+								except KeyError:
+									break
+									#pass
+								except Exception as e:
+									print(colored("Impossible to update parent : %s\n%s"%(item,traceback.format_exc()), "red"))
+									break
+
+								if parent_folder == self.root_folder:
+									break
+								else:
 									parent_folder = Path(parent_folder).parent
-									if parent_folder == self.root_folder:
-										break
-									else:
 
-										#print("%s parent for folder %s : %s"%(str(parent_folder) in self.data_folder, folder, parent_folder))
-										#add the file size to each parent
-										try:
-											parent_folder_data = self.data_folder[str(parent_folder)]
-											children_size = parent_folder_data["CHILDREN_SIZE"]
-											parent_folder_data["CHILDREN_SIZE"] = children_size + file_size
-											self.data_folder[str(parent_folder)] = parent_folder_data
-										except Exception as e:
-											print(colored("Impossible to update parent : %s"%e))
-											break
+
+
+
 
 							if os.path.isdir(os.path.join(folder,item))==True:
 								folder_data["FOLDER_COUNT"] += 1
@@ -422,10 +457,10 @@ class ASPC_SNOOP():
 
 					
 
-
+			except queue.Empty:
+				return
 
 			except Exception as e:
 				#print(colored(e, "red"))
-				#print(colored(traceback.format_exc(), "red"))
+				print(colored(traceback.format_exc(), "red"))
 				return
-				

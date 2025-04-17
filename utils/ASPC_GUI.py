@@ -199,29 +199,33 @@ class ASPC_GUI:
 	def update_file_list_function(self, checkbox_change):
 		self.message_function("Thread started")
 
-
-		self.current_file_list = []
-
-
-		#APPLY ALL THE FILTERS TO BUILD THE CURRENT FILE LIST TO DISPLAY IN THE LISTVIEW
-		list_listitem = []
-		#folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
-		#CREATE THE SIZE RANGE
-		folder_heaviest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["HEAVIEST_FILE"]
-		folder_lightest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["LIGHTEST_FILE"]
-		#get the size for each file
-		folder_heaviest_size = self.current_project_data["DATA_FILES"][folder_heaviest]["FILESIZE"]
-		folder_lightest_size = self.current_project_data["DATA_FILES"][folder_lightest]["FILESIZE"]
-		"""
-		heaviest is equivalent to 100%
-		lightest is equivalent to 0%
-		for each file find the position in this
-		"""
-
-		#self.message_function("%s\n%s"%(folder_heaviest_size, folder_lightest_size), "error", False)
-
 		try:
+			self.current_file_list = []
+
+
+			#APPLY ALL THE FILTERS TO BUILD THE CURRENT FILE LIST TO DISPLAY IN THE LISTVIEW
+			list_listitem = []
+			#folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+			#CREATE THE SIZE RANGE
+			folder_heaviest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["HEAVIEST_FILE"]
+			folder_lightest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["LIGHTEST_FILE"]
+			#get the size for each file
+			try:
+				folder_heaviest_size = self.current_project_data["DATA_FILES"][folder_heaviest]["FILESIZE"]
+				folder_lightest_size = self.current_project_data["DATA_FILES"][folder_lightest]["FILESIZE"]
+			except KeyError:
+				pass
+			"""
+			heaviest is equivalent to 100%
+			lightest is equivalent to 0%
+			for each file find the position in this
+			"""
+
+			#self.message_function("%s\n%s"%(folder_heaviest_size, folder_lightest_size), "error", False)
+
+		
 			if self.checkbox_file_similarity.value == True:
+				self.message_function("option1")
 				self.current_file_list = []
 				similarity_data = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["SIMILARITY"]
 				for key, value in similarity_data.items():
@@ -233,6 +237,7 @@ class ASPC_GUI:
 
 
 			elif self.checkbox_file_children.value == True:
+				self.message_function("option2")
 				
 				
 				self.current_file_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]
@@ -263,7 +268,8 @@ class ASPC_GUI:
 
 
 			else:
-				self.current_file_list = self.current_project_data["DATA_FILES"]
+				self.message_function("Getting from data file")
+				self.current_file_list = list(self.current_project_data["DATA_FILES"].keys())
 
 			
 			self.message_function("Updating file list...", "notification")
@@ -272,10 +278,15 @@ class ASPC_GUI:
 			#self.call_from_thread(self.progress_folder.update, len(self.current_file_list))
 
 			
+			"""
 			if checkbox_change == False:
 				if self.current_file_list == self.current_file_list_copy:
+					self.message_function(self.current_file_list)
+					self.message_function(self.current_file_list_copy)
 					self.message_function("Both list are similar", "error")
 					return
+			"""
+			
 
 			
 			self.call_from_thread(self.listview_files.clear)
@@ -364,7 +375,11 @@ class ASPC_GUI:
 
 
 		except Exception as e:
+			#self.message_function("error")
 			self.message_function(traceback.format_exc(), "error")
+
+		else:
+			self.message_function("terminated")
 		
 
 

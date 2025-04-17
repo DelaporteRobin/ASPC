@@ -53,6 +53,7 @@ class ASPC_UTILS:
 			self.project_list = []
 			self.message_function("Project data loaded", "success")
 
+			self.app.listview_projectlist.clear()
 			#refresh the project list
 			for project_name, project_data in self.project_data.items():
 

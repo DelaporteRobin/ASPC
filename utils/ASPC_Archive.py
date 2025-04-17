@@ -14,6 +14,7 @@ from termcolor import *
 
 from utils.ASPC_Widgets import MultiListView, MultiListItem
 from utils.ASPC_Utils import ASPC_UTILS
+from utils.ASPC_Snoop import ASPC_SNOOP
 
 
 import colorama
@@ -25,6 +26,7 @@ import multiprocessing as mp
 import threading
 import queue
 import zipfile
+import ruamel.std.zipfile as zipdel
 import pyfiglet
 
 from datetime import datetime
@@ -226,7 +228,7 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 
 
 
-class ASPC_ARCHIVE:
+class ASPC_ARCHIVE():
 	def init_apply_filter_function(self):
 		#apply filters on file list
 		self.app.message_function("Starting to apply filter on file list", "notification")
@@ -283,18 +285,6 @@ class ASPC_ARCHIVE:
 				self.app.message_function(traceback.format_exc(), "error")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 	def check_for_archive_content_function(self):
 		#get the current project selected
 		#check if the archive path is defined for this project
@@ -317,16 +307,18 @@ class ASPC_ARCHIVE:
 						for file in archive.namelist():
 
 							#check the statut for the current file in settings
+							"""
 							if "ARCHIVE" not in data_file[os.path.normpath(os.path.join(self.current_project_name, file))]:
 								#create the key
 
 								self.message_function("  value updated in dictionnary for %s"%file, "message", False)
-								file_data = data_file[os.path.join(self.current_project_name, file)]
+								file_data = data_file[os.path.normpath(os.path.join(self.current_project_name, file)).replace("\\", "/")]
 								file_data["ARCHIVE"] = True
 								data_file[os.path.join(self.current_project_name,file)] = file_data
 
 								if changes==False:
 									changes=True
+							"""
 
 							self.current_archive_content.append(file)
 
@@ -334,7 +326,7 @@ class ASPC_ARCHIVE:
 					self.message_function("Impossible to get archive content\n%s"%traceback.format_exc(), "error")
 					return
 
-
+				"""
 				if changes==True:
 					self.message_function("Some files were updated in Main Data file\n-> Updating dictionary", "notification")
 					#update the dictionnary content
@@ -342,6 +334,7 @@ class ASPC_ARCHIVE:
 					#save the dictionnary
 					self.project_data[self.current_project_name] = self.current_project_data
 					self.save_dictionnary_function()
+				"""
 
 
 				
@@ -349,32 +342,13 @@ class ASPC_ARCHIVE:
 				label_list = []
 				for file in self.current_archive_content:
 					label = Label(file)
-					label_list.append(ListItem(label))
+					label_list.append(MultiListItem(label))
 				self.listview_archive_content.extend(label_list)
 
 
 
 		else:
 			self.message_function("Impossible to get archive content for this project\nArchive path is not defined", "notification")
-
-			
-
-
-		
-
-
-
-
-
-
-
-							
-
-
-
-
-
-		
 
 
 	def check_for_archive_function(self):
@@ -403,89 +377,6 @@ class ASPC_ARCHIVE:
 			return False
 
 
-
-
-
-	def archiving_thread(self):
-		#launch notification
-
-
-		try:
-			#self.app.call_from_thread(self.archiving_display_message_function, "hello world")
-			self.app.call_from_thread(self.archiving_display_message_function, "Starting archiving process", "notification")
-
-			#get the filelist in the listview
-			#self.app.content_to_archive
-			self.app.call_from_thread(self.archiving_display_message_function, "Number of item to archive : %s"%len(self.app.content_to_archive), "content")
-			#get the project selected
-			self.app.call_from_thread(self.archiving_display_message_function, "Current project selected : %s"%self.app.current_project_name, "content")
-			#get the archive path
-			try:
-				archive_path = self.app.current_project_data["ARCHIVE_PATH"]
-				archive_log = self.app.current_project_data["ARCHIVE_LOG"]
-				self.app.call_from_thread(self.archiving_display_message_function, "Archive path : %s"%archive_path, "content")
-
-			except KeyError:
-				self.app.call_from_thread(self.archiving_display_message_function, "Archive path not defined", "error")
-			else:
-				
-
-
-				#check the lenght of the list before archiving
-				if len(self.app.content_to_archive) == 0:
-					self.app.call_from_thread(self.archiving_display_message_function, "No element to archive", "error")
-				else:
-					#open the archive
-					try:
-						with zipfile.ZipFile(archive_path, mode="a", compression=zipfile.ZIP_LZMA, compresslevel=9) as archive:
-
-							self.app.call_from_thread(self.archiving_display_message_function, "Archive opened", "notification")
-							#create the archiving loop
-							for item in self.app.content_to_archive:
-
-								self.app.call_from_thread(self.archiving_display_message_function, "\n", "content")
-								self.app.call_from_thread(self.archiving_display_message_function, "Archiving %s..."%item)
-
-								#check if the item exists
-								if (os.path.isdir(item)==False) and (os.path.isfile(item)==False):
-									self.app.call_from_thread(self.archiving_display_message_function, "%s - Element doesn't exists", "error")
-									continue
-
-								#if the item is a folder, archive the whole folder hierarchy
-
-								#if the item is a file, rebuilt the parent folder hierarchy
-								if os.path.isfile(item) == True:
-									#write the file in archive
-									try:
-										archive.write(item, arcname=Path(item).relative_to(Path(self.app.current_project_name)))
-									except Exception as e:
-										self.app.call_from_thread(self.archiving_display_message_function, "%s - Impossible to archive file", "error")
-										self.app.call_from_thread(self.archiving_display_message_function, traceback.format_exc(), "error")
-									else:
-										self.app.call_from_thread(self.archiving_display_message_function, "%s - File archived successfully", "success")
-					except Exception as e:
-						self.app.call_from_thread(self.archiving_display_message_function, "\n", "content")
-						self.app.call_from_thread(self.archiving_display_message_function, "Fatal error during archiving process", "error")
-						self.app.call_from_thread(self.archiving_display_message_function, traceback.format_exc(), "error")
-					else:
-						self.app.call_from_thread(self.archiving_display_message_function, "\n", "content")
-						self.app.call_from_thread(self.archiving_display_message_function, "archiving process terminated", "success")
-
-
-		except Exception as e:
-			self.app.message_function("Error happened", "error")
-			self.app.message_function(traceback.format_exc(), "error")
-
-		else:
-			pass
-
-
-
-
-
-
-
-
 	def archiving_display_message_function(self, message = "", type="message"):
 
 		if type == "content":
@@ -511,13 +402,75 @@ class ASPC_ARCHIVE:
 
 
 
+	def restore_file_from_archive_function(self):
+		print(colored("Restore file function starting...", "cyan"))
+		#get items selected
+		index_list = self.listview_archive_content.index_list
+		if len(index_list)==0:
+			print(colored("Nothing to extract", "red"))
+			return
+		#file_to_restore_list = []
+		#trying to find the zipfile
+		elif "ARCHIVE_PATH" not in self.current_project_data:
+			print(colored("No archive is defined for this project", "red"))
+			return 
+		elif os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==False:
+			print(colored("The archive doesn't exists anymore at this location", "red"))
+			print(colored(self.current_project_data["ARCHIVE_PATH"], "red"))
+			return
+		else:
+			print(colored("Opening the archive file...", "cyan"))
+			try:
+				with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as archive:
+
+					for index in index_list:
+						file_to_restore = self.current_archive_content[index]
+						filepath_to_restore = os.path.join(self.current_project_name,file_to_restore).replace("\\", "/")
+
+
+						#RESTORE THE FILE AT THE RIGHT LOCATION
+						try:
+							archive.extract(file_to_restore, self.current_project_name)
+						except Exception as e:
+							print(colored("failed to restore file : %s\n%s"%(file_to_restore,traceback.format_exc()), "red"))
+						else:
+							print(colored("file extracted successfully : %s\n\tlocation : %s"%(file_to_restore,filepath_to_restore), "green"))
+
+
+
+				print(colored("\nRemoving files in archive...", "cyan"))
+				#REMOVE FILES FROM THE ARCHIVE
+				for index in index_list:
+					file_to_restore = self.current_archive_content[index]
+					try:
+						zipdel.delete_from_zip_file(self.current_project_data["ARCHIVE_PATH"], file_to_restore)
+					except Exception as e:
+						print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
+					else:
+						print(colored("file removed from archive : %s"%file_to_restore, "white"))
+
+				
+
+
+			except Exception as e:
+				print(colored("Impossible to extract content from archive\n%s"%traceback.format_exc(), "red"))
+				return 
+			else:
+
+				
+
+
+				print(colored("Extraction terminated", "green"))
+				return
 
 
 
 
 
 
-class ASPC_FILL_ARCHIVE(ASPC_UTILS):
+
+
+class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 	def __init__(self, selection_to_archive, current_project, current_project_data):
 
 
@@ -533,7 +486,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 
 
 
-	def run(self,):
+	def run(self):
 
 		"""
 		check if the path of the archive is defined
@@ -591,7 +544,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 			archive size (before archiving and after)
 			"""
 			#add original size of the project
-			self.archive_dataset["PROJECTSIZE_BEFORE"] = self.current_project_data["DATA_FOLDER"][self.current_project_name]["ITEMS_SIZE"]
+			self.archive_dataset["PROJECTSIZE_BEFORE"] = self.current_project_data["DATA_FOLDER"][self.current_project]["CHILDREN_SIZE"]
 			self.archive_dataset["CONTENTSIZE_BEFORE"] = 0
 			self.archive_dataset["CCONTENTSIZE_AFTER"] = 0
 			self.archive_dataset["ARCHIVESIZE_BEFORE"] = 0
@@ -635,14 +588,13 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 
 
 
-				#convert the dictionnary log into a manager dict
+			#convert the dictionnary log into a manager dict
 			self.archive_log = manager.dict(self.archive_log)
 
 
 
 
-			
-
+	
 
 
 			for element in self.selection_to_archive:
@@ -667,10 +619,17 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 				
 
 
+
+
+
 			print("FILE QUEUE SIZE : %s"%self.file_queue.qsize())
 			if self.file_queue.empty()==True:
 				print(colored("The file queue to archive is empty\nArchiving process stopped", "red"))
 				return
+
+
+
+
 
 
 			#open the zipfile manager for archive
@@ -683,6 +642,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 				self.ns.global_count = 0
 				self.ns.total_count = folder_counter + file_counter
 				self.shared_current_project_data = manager.dict(self.current_project_data)
+				self.new_archived_file_list = manager.list()
 
 				#create multiprocesses
 				process_pool = []
@@ -705,15 +665,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 				#CONVERT BACK THE CURRENT PROJECT DATA
 				self.current_project_data = dict(self.shared_current_project_data)
 
-				#SAVE THE ARCHIVE LOG
-				try:
-					with open(self.current_project_data["ARCHIVE_LOG"], "w") as save_file:
-						json.dump(dict(self.archive_log), save_file, indent=4)
-
-				except Exception as e:
-					print(colored("\nImpossible to save archive log\n%s"%traceback.format_exc(), "red"))
-				else:
-					print(colored("\nArchive log saved successfully", "green"))
+				
 
 
 
@@ -725,7 +677,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 						try:
 							with zipfile.ZipFile(temp_archive, "r") as read_temp_archive:
 								for info in read_temp_archive.infolist():
-									print("\t\treading %s"%info)
+									print("\t\treading %s"%info.filename)
 									with read_temp_archive.open(info) as writer:
 										final_archive.writestr(info, writer.read())
 						except FileNotFoundError:
@@ -741,11 +693,93 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 
 
 
+					#GET DATA ABOUT NEW COMPRESSED FILES
+					print(colored("\nGetting data about new files in archive ...", "cyan"))
+					for filepath, filedata in self.archive_log.items():
+						#get the path in archive
+						file_archivepath = filedata["ARCHIVEPATH"].replace("\\", "/")
+						#get info in zipfile
+						file_archiveinfo = final_archive.getinfo(file_archivepath)
+						#get size informations for each file and update the dictionnary
+						self.archive_log[filepath]["ARCHIVE_FILESIZE"] = file_archiveinfo.file_size
+						self.archive_log[filepath]["ARCHIVE_COMPRESSSIZE"] = file_archiveinfo.compress_size
+						self.archive_dataset["CCONTENTSIZE_AFTER"] += file_archiveinfo.compress_size
+						#print("%s\n\t%s\n\t%s"%(file_archivepath, file_archiveinfo.file_size, file_archiveinfo.compress_size))
+					print(colored("Informations from archive updated", "green"))
+
+
+
+
+
+				#REMOVING FILES FROM PROJECT
+				print(colored("Removing files from project after archiving...", "cyan"))
+				for file in self.selection_to_archive:
+					try:
+						os.remove(file)
+					except Exception as e:
+						print(colored("\tfailed to delete : %s"%file, "red"))
+					else:
+						print(colored("\tfile removed : %s"%file))
+				print(colored("Removing files from project terminated", "cyan"))
+
+
+
+				#os.system("pause")
+
+
+				#UPDATE THE DATA FILE FOR THIS PROJECT
+				#AFTER REMOVING ALL FILES
+				#create instance of the class
+				print(colored("\n\nScanning the project to gather new informations...\nCalling the scanning class...", "cyan"))
+				try:
+					ASPC_SNOOP(self.current_project)
+				except Exception as e:
+					print(colored("\n\nFatal error happened while scanning project\nImpossible to update project informations\n%s"%traceback.format_exc(), "red"))
+				else:
+					print(colored("\n\nProject scan terminated\nNew informations saved", "green"))
+
+
+
+				#UPDATE LAST INFORMATIONS IN DATA SET
+				self.archive_dataset["ARCHIVESIZE_AFTER"] = os.path.getsize(self.current_project_data["ARCHIVE_PATH"])
+
+
+
+				#DISPLAY THE FINAL DATA SET
+				for key, value in self.archive_dataset.items():
+					print(colored(key, "magenta"), " : %s"%value)
+
+				
+
+				#SAVE THE ARCHIVE LOG
+				try:
+					with open(self.current_project_data["ARCHIVE_LOG"], "w") as save_file:
+						json.dump(dict(self.archive_log), save_file, indent=4)
+
+				except Exception as e:
+					print(colored("\nImpossible to save archive log\n%s"%traceback.format_exc(), "red"))
+				else:
+					print(colored("\nArchive log saved successfully", "green"))
+				
+	
+
+
+
 			except Exception as e:
 				print(colored("Fatal error happened during archiving process\n%s"%traceback.format_exc(), "red"))
 			else:
 				print(colored("Archiving process terminated", "green"))
 				return self.current_project_data
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -771,7 +805,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 							print("[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
 
 							#add informations in archiving data set
-							self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
+							#self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
 							
 							try:
 								archive.write(item_to_archive, arcname=Path(item_to_archive).relative_to(Path(project_path)))
@@ -781,24 +815,36 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS):
 							else:
 								self.ns.global_count += 1
 								print(colored("[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
+								
+
 								#update the statut of the file in the dictionnary
+								"""
 								data_file = self.shared_current_project_data["DATA_FILES"]
 								data_file[item_to_archive]["ARCHIVE"]=True
+								"""
 								self.shared_current_project_data["DATA_FILES"] = data_file
+
+
+								self.new_archived_file_list.append(item_to_archive)
+
+								#update the archiving data set
+								self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
 
 								#write the file in the archive dictionnary
 								if item_to_archive not in self.archive_log:
+									print("Writing dictionnary key")
 									self.archive_log[item_to_archive] = {
 										"ARCHIVEPATH": str(Path(item_to_archive).relative_to(Path(project_path))),
 										"REALPATH": str(Path(item_to_archive)),
 										"ARCHIVINGDATE": str(datetime.now()),
+										"HARDRIVESIZE": self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"],
 									}
 								else:
 									print(colored("[%s] File already writen in archive : %s"%(index,item_to_archive), "red"))
 
 
-								#add informations in the archiving data set
-								#get the size of the file in the zipfile archive
+								#update the size amount removed from the main project with archiving (sum of all files archived)
+								self.current_project_data
 
 
 			except Exception as e:

@@ -291,10 +291,19 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		self.app.message_function("Archiving process terminated", "notification")
 
 
+		#load new project data?
+		
+		self.app.load_project_data_function()
+
+		"""
 		if type(returned_dictionnary)==dict:
 			self.app.current_project_data = returned_dictionnary	
 			self.app.project_data[self.app.current_project_name] = self.app.current_project_data
 			self.app.message_function("Dictionnary updated")
+
+			self.app.current_project_name = self.app.project_list[self.app.listview_projectlist.index][1]
+			#get the current project data
+			self.app.current_project_data = self.app.project_data[self.app.current_project_name]
 
 		
 
@@ -309,6 +318,7 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 
 		else:
 			pass
+		"""
 
 
 
@@ -508,6 +518,9 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 								yield self.listview_archive_content
 								self.listview_archive_content.border_title = "Archive content"
 
+
+								yield Button("RESTORE FILES", id="button_restore_file")
+
 					with TabPane(title = "FOLDER INFORMATIONS", id = "tabpane_folderinformation"):
 						yield Label("folder informations tab")
 
@@ -570,6 +583,13 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 		if (event.key == "enter") and (self.focused.id == "listview_folders"):
 			children_item = self.listview_folders.children[self.listview_folders.index]
+			children_item.highlight_item(children_item)
+
+
+
+
+		if (event.key == "enter") and (self.focused.id == "listview_archive_content"):
+			children_item = self.listview_archive_content.children[self.listview_archive_content.index]
 			children_item.highlight_item(children_item)
 
 		
@@ -649,6 +669,24 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 			else:
 				self.push_screen(ModalASPCAddToArchive())
 
+
+
+
+
+		if event.button.id == "button_restore_file":
+			self.message_function("Starting restore file process...", "notification")
+			with self.suspend():
+				self.restore_file_from_archive_function()
+				print("Waiting...")
+				#sleep(4)
+				#UPDATE THE DATA FILE 
+				ASPC_SNOOP(self.current_project_name)
+
+				os.system("pause")
+
+			#reload project data
+			self.load_project_data_function()
+			self.message_function("Restore file process done", "notification")
 	
 			
 
@@ -813,7 +851,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 	def check_for_folder_process_function(self, checkbox_change=False):
 
-		self.message_function("hello world : %s"%self.listview_projectlist.index)
+		#self.message_function("hello world : %s"%self.listview_projectlist.index)
 		if self.thread_update_folder_list.is_alive():
 			self.stop_event_folder.set()
 			self.stop_event_folder.wait()
@@ -828,7 +866,8 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 		
 
 		#clean the folder list
-		self.current_folder_list = []
+		self.current_folder_list.clear()
+		self.current_file_list.clear()
 
 
 		#get the project name
