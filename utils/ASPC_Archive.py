@@ -402,7 +402,7 @@ class ASPC_ARCHIVE():
 
 
 
-	def restore_file_from_archive_function(self):
+	def restore_file_from_archive_function(self, skip_removing=False):
 		print(colored("Restore file function starting...", "cyan"))
 		#get items selected
 		index_list = self.listview_archive_content.index_list
@@ -439,15 +439,18 @@ class ASPC_ARCHIVE():
 
 
 				print(colored("\nRemoving files in archive...", "cyan"))
-				#REMOVE FILES FROM THE ARCHIVE
-				for index in index_list:
-					file_to_restore = self.current_archive_content[index]
-					try:
-						zipdel.delete_from_zip_file(self.current_project_data["ARCHIVE_PATH"], file_to_restore)
-					except Exception as e:
-						print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
-					else:
-						print(colored("file removed from archive : %s"%file_to_restore, "white"))
+				if skip_removing==False:
+					#REMOVE FILES FROM THE ARCHIVE
+					for index in index_list:
+						file_to_restore = self.current_archive_content[index]
+						try:
+							zipdel.delete_from_zip_file(self.current_project_data["ARCHIVE_PATH"], file_to_restore)
+						except Exception as e:
+							print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
+						else:
+							print(colored("file removed from archive : %s"%file_to_restore, "white"))
+				else:
+					print(colored("Skipped removing files", "cyan"))
 
 				
 
@@ -545,9 +548,11 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 			"""
 			#add original size of the project
 			self.archive_dataset["PROJECTSIZE_BEFORE"] = self.current_project_data["DATA_FOLDER"][self.current_project]["CHILDREN_SIZE"]
+			self.archive_dataset["PROJECTSIZE_AFTER"] = 0
 			self.archive_dataset["CONTENTSIZE_BEFORE"] = 0
 			self.archive_dataset["CCONTENTSIZE_AFTER"] = 0
 			self.archive_dataset["ARCHIVESIZE_BEFORE"] = 0
+			self.archive_dataset["ARCHIVESIZE_AFTER"] = 0
 
 
 
@@ -733,6 +738,8 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				print(colored("\n\nScanning the project to gather new informations...\nCalling the scanning class...", "cyan"))
 				try:
 					ASPC_SNOOP(self.current_project)
+					self.load_project_data_function()
+					self.current_project_data = self.project_data[self.current_project]
 				except Exception as e:
 					print(colored("\n\nFatal error happened while scanning project\nImpossible to update project informations\n%s"%traceback.format_exc(), "red"))
 				else:
@@ -742,10 +749,12 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 				#UPDATE LAST INFORMATIONS IN DATA SET
 				self.archive_dataset["ARCHIVESIZE_AFTER"] = os.path.getsize(self.current_project_data["ARCHIVE_PATH"])
+				self.archive_dataset["PROJECTSIZE_AFTER"] = self.current_project_data["DATA_FOLDER"][self.current_project]["CHILDREN_SIZE"]
 
 
 
 				#DISPLAY THE FINAL DATA SET
+				print(colored("\n\nGLOBAL INFORMATIONS AFTER ARCHIVING", "magenta"))
 				for key, value in self.archive_dataset.items():
 					print(colored(key, "magenta"), " : %s"%value)
 
@@ -821,8 +830,9 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 								"""
 								data_file = self.shared_current_project_data["DATA_FILES"]
 								data_file[item_to_archive]["ARCHIVE"]=True
-								"""
+								
 								self.shared_current_project_data["DATA_FILES"] = data_file
+								"""
 
 
 								self.new_archived_file_list.append(item_to_archive)
@@ -846,7 +856,8 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 								#update the size amount removed from the main project with archiving (sum of all files archived)
 								self.current_project_data
 
-
-			except Exception as e:
+			except queue.Empty:
 				#print(colored(traceback.format_exc(), "red"))
 				return
+			except Exception as e:
+				print(colored(traceback.format_exc(), "red"))

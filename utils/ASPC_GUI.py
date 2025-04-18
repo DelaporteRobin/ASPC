@@ -11,6 +11,7 @@ from textual import on
 from pathlib import Path
 from time import sleep
 
+import datetime
 import traceback
 import multiprocessing
 import threading
@@ -19,6 +20,7 @@ import pyfiglet
 import sys
 import copy
 import os
+import zipfile
 
 from utils.ASPC_Widgets import MultiListView, MultiListItem
 
@@ -26,6 +28,66 @@ from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 
 class ASPC_GUI:
+
+	def test_markdown(self, mode=""):
+		self.message_function("action")
+		self.markdown_viewer.markdown = "bye world"
+		self.app.refresh()
+
+
+	def update_markdown_function(self, mode=None):
+
+
+
+		markdown_general = ""
+
+		if mode == "project":
+			project_name = os.path.basename(self.current_project_name)
+			project_size = self.current_project_data["DATA_FOLDER"][self.current_project_name]["CHILDREN_SIZE"] / (1024 ** 3)
+			number_of_files = len(list(self.current_project_data["DATA_FILES"].keys()))
+			number_of_folders = len(list(self.current_project_data["DATA_FOLDER"].keys()))-1
+			markdown_general += """
+## PROJECT INFORMATIONS - %s
+
+- **PROJECT PATH**: %s
+- **PROJECT SIZE**: %s Go
+
+- **Number of files contained**: %s\n
+- **Number of folders contained**: %s
+"""%(project_name, self.current_project_name, project_size, number_of_files, number_of_folders)
+
+
+			#TRY TO UPDATE FOR ARCHIVE IF ARCHIVE PATH IS DEFINED
+			if "ARCHIVE_PATH" in self.current_project_data:
+				markdown_general += """
+## ARCHIVE INFORMATIONS
+- **ARCHIVE PATH**: %s
+"""%(self.current_project_data["ARCHIVE_PATH"])
+				try:
+					with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as project_archive:
+						for file in project_archive.infolist():
+							#markdown_general+="\n%s"%("_"*80)
+
+							filename = file.filename
+							date = datetime.datetime(*file.date_time)
+							filesize = file.file_size 
+							compresssize = file.compress_size
+
+							markdown_general += """
+							
+**FILENAME**: %s
+**DATE**: %s
+**FILE SIZE**: %s
+**COMPRESS SIZE**: %s
+"""%(filename,date,filesize,compresssize)
+				except Exception as e:
+					self.message_function("Impossible to get archive data", "error")
+		
+
+		self.markdown_project.update(markdown_general)
+
+
+
 
 
 
@@ -200,21 +262,29 @@ class ASPC_GUI:
 		self.message_function("Thread started")
 
 		try:
-			self.current_file_list = []
+			self.current_file_list= []
 
 
 			#APPLY ALL THE FILTERS TO BUILD THE CURRENT FILE LIST TO DISPLAY IN THE LISTVIEW
 			list_listitem = []
 			#folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
 			#CREATE THE SIZE RANGE
-			folder_heaviest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["HEAVIEST_FILE"]
-			folder_lightest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["LIGHTEST_FILE"]
+
+			if self.current_project_name == None:
+				self.message_function("No project selected, refreshing aborted...", "notification")
+				return
+			
 			#get the size for each file
 			try:
+				folder_heaviest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["HEAVIEST_FILE"]
+				folder_lightest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["LIGHTEST_FILE"]
 				folder_heaviest_size = self.current_project_data["DATA_FILES"][folder_heaviest]["FILESIZE"]
 				folder_lightest_size = self.current_project_data["DATA_FILES"][folder_lightest]["FILESIZE"]
 			except KeyError:
 				pass
+			except AttributeError:
+				pass
+
 			"""
 			heaviest is equivalent to 100%
 			lightest is equivalent to 0%
@@ -353,6 +423,8 @@ class ASPC_GUI:
 								else:
 									label.styles.color = self.user_settings["COLOR"]["alert"]
 							except ZeroDivisionError:
+								pass
+							except UnboundLocalError:
 								pass
 							#self.message_function(gradient_number)
 

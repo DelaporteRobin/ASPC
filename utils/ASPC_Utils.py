@@ -41,31 +41,89 @@ class ASPC_UTILS:
 
 
 
+	def remove_project_function(self, restore:bool | None) -> None:
+		project = list(self.project_data.keys())[self.listview_projectlist.index]
+		#check if the archive exists for this project
+		if restore == True:
+			#select all items in the restore file list
+			for i in range(len(self.listview_archive_content.children)):
+				self.listview_archive_content.index_list.append(i)
+			#call the restore archive function
+			with self.suspend():
+				self.restore_file_from_archive_function(True)
+				#ASPC_SNOOP(self.current_project_name)
+			self.message_function("ARCHIVE RESTORED!")
+			#REMOVE THE ARCHIVE
+			try:
+				os.remove(self.current_project_data["ARCHIVE_PATH"])
+				os.remove(self.current_project_data["ARCHIVE_LOG"])
+			except Exception as e:
+				self.message_function("Impossible to remove archive zipfile and log", "error")
+			else:
+				self.message_function("Archive zipfile and log removed", "success")
+		#remove the project from data file
+		del self.project_data[self.current_project_name]
+		try:
+			with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
+				json.dump(self.project_data, save_file, indent=4)
+		except Exception as e:
+			self.message_function("Impossible to save back project file", "error")
+		else:
+			self.message_function("Project file saved", "success")
+
+		self.message_function("PROJECT REMOVED FROM DATA SUCCESSFULLY", "success")
+		#RELOAD INFORMATIONS AND UPDATE TUI
+		self.load_project_data_function()
+		self.listview_folders.clear()
+		self.listview_files.clear()
+		self.listview_archive_content.clear()
+		self.listview_addarchive_selected.clear()
+		#self.load_user_settings_function()
+
+
+
+
+
 	def load_project_data_function(self):
 		try:
 			with open(os.path.join(os.getcwd(), "data/data.json"), "r") as read_content:
 				self.project_data = json.load(read_content)
 		except Exception as e:
-			self.message_function("Impossible to load project data", "error")
-			self.message_function(e, "error", False)
+			try:
+				self.message_function("Impossible to load project data", "error")
+				self.message_function(e, "error", False)
+			except AttributeError:
+				pass
 			return False
 		else:
 			self.project_list = []
-			self.message_function("Project data loaded", "success")
+			try:
+				self.message_function("Project data loaded", "success")
+			except AttributeError:
+				pass
 
-			self.app.listview_projectlist.clear()
-			#refresh the project list
-			for project_name, project_data in self.project_data.items():
 
-				self.project_list.append((os.path.basename(project_name), project_name))
-				label = Label(project_name)
+			try:
+				self.app.listview_projectlist.clear()
+				#refresh the project list
+				for project_name, project_data in self.project_data.items():
 
-				#check if the project still exstis at this location
-				if os.path.isdir(project_name)==False:
-					label.styles.color = self.theme_variables["text-error"]
+					self.project_list.append((os.path.basename(project_name), project_name))
+					label = Label(project_name)
 
-				self.listview_projectlist.append(ListItem(label))
+					#check if the project still exstis at this location
+					if os.path.isdir(project_name)==False:
+						label.styles.color = self.theme_variables["text-error"]
+
+					self.listview_projectlist.append(ListItem(label))
+			except AttributeError:
+				pass
 			return True
+
+
+
+
+
 
 
 

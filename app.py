@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from textual.app import App, ComposeResult
-from textual.widgets import Tree, ProgressBar, Input, RadioSet, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+from textual.widgets import Tree, ProgressBar, Input, RadioSet, MarkdownViewer, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
 from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen, ModalScreen
@@ -20,6 +20,7 @@ from textual.widgets._tree import TreeNode
 from textual.errors import TextualError
 from textual.widgets._list_item import ListItem
 from textual.widget import AwaitMount, Widget
+from textual.binding import Binding
 
 
 from pathlib import Path
@@ -192,9 +193,9 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 			yield Label("No archive detected for this project\nDo you want to create a new one?", id="label_modal_question")
 
 			self.input_modal_archive_path = Input(placeholder = "Archive path", id = "input_modal_archive_path")
-			self.input_modal_archivelog_path = Input(placeholder = "Archive log path", id="input_modal_archivelog_path")
+			#self.input_modal_archivelog_path = Input(placeholder = "Archive log path", id="input_modal_archivelog_path")
 			yield self.input_modal_archive_path
-			yield self.input_modal_archivelog_path
+			#yield self.input_modal_archivelog_path
 
 			with Horizontal(id = "modal_archive_horizontal_container"):
 				yield Button("Create", id="button_modal_create_archive")
@@ -231,6 +232,32 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 				else:
 					self.app.message_function(os.path.basename(self.app.current_project_name), "success")
 
+
+
+
+
+class ModalASPCRemoveProject(ModalScreen):
+	CSS_PATH = ["styles/layout.tcss"]
+
+	def __init__(self):
+		super().__init__()
+
+
+	def compose(self) -> ComposeResult:
+		with Vertical(id = "modal_archive_vertical_container"):
+			yield Label("Before removing the project\nDo you want to restore the content of the project archive")
+			with Horizontal(id = "horizontal_modal_removearchive"):
+				yield Button("YES", id="button_modal_removearchive_true")
+				yield Button("NO", id="button_modal_removearchive_false")
+			yield Button("QUIT", id="button_modal_removearchive_quit")
+
+	def on_button_pressed(self, event:Button.Pressed) -> None:
+		if event.button.id == "button_modal_removearchive_quit":
+			self.app.pop_screen()
+		elif event.button.id == "button_modal_removearchive_true":
+			self.dismiss(True)
+		elif event.button.id == "button_modal_removearchive_false":
+			self.dismiss(False)
 
 
 
@@ -345,6 +372,9 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 
 	CSS_PATH = ["styles/layout.tcss"]
+	BINDINGS = [
+		Binding("ctrl+j", "binding_fill", description="Binding Fill Selection"),
+	]
 
 
 	def __init__(self):
@@ -376,6 +406,10 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 		self.stop_event_file = threading.Event()
 		self.thread_update_folder_list = threading.Thread()
 		self.thread_update_file_list = threading.Thread()
+
+		self.markdown_base_content = """
+PROJECT / FILES / FOLDERS / ARCHIVE INFORMATIONS
+"""
 
 
 		#LOAD USER SETTINGS
@@ -409,7 +443,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 					self.listview_projectlist = ListView(id="listview_projectlist")
 					yield self.listview_projectlist
 
-					yield Button("CRASHTEST", id="test_log")
+					#yield Button("CRASHTEST", id="test_log")
 					yield Button("Remove project from list", id="button_remove_project")
 				self.input_global_root_path = Input(placeholder="Starting folder", id="input_global_root_path")
 				yield self.input_global_root_path
@@ -521,8 +555,23 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 								yield Button("RESTORE FILES", id="button_restore_file")
 
-					with TabPane(title = "FOLDER INFORMATIONS", id = "tabpane_folderinformation"):
-						yield Label("folder informations tab")
+					with TabPane(title = "GLOBAL INFORMATIONS", id = "tabpane_folderinformation"):
+						#yield Label("folder informations tab")
+						#self.markdown = Markdown(self.markdown_base_content, id="markdown")
+						self.markdown_project = Markdown(id = "markdown_project")
+
+						"""
+						self.markdown_archive = Markdown(id = "markdown_archive")
+						self.markdown_folder = Markdown(id = "markdown_folder")
+						self.markdown_file = Markdown(id = "markdown_file")
+
+
+						
+						yield self.markdown_archive
+						yield self.markdown_folder
+						yield self.markdown_file
+						"""
+						yield self.markdown_project
 
 					with TabPane(title = "LOG", id = "tabpane_log"):
 						self.listview_log = ListView(id = "listview_log")
@@ -573,6 +622,43 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 
 
+	def action_binding_fill(self) -> None:
+		if self.focused.id == "listview_files":
+			#get the index of the current index selected
+			#self.message_function(self.listview_files.index)
+			#check if the index list isn't empty
+			if len(self.listview_files.index_list) != 0:
+				#self.message_function("%s ; %s"%(self.listview_files.index_list[-1], self.listview_files.index))
+				index_range = sorted([self.listview_files.index_list[-1], self.listview_files.index])
+
+				for i in range(index_range[0], index_range[1]):
+					children_item = self.listview_files.children[i]
+					children_item.highlight_item(children_item)
+					self.listview_files.index_list.append(i)
+					#self.message_function("%s ; %s"%(i,children_item))
+
+		if self.focused.id == "listview_archive_content":
+			#get the index of the current index selected
+			#self.message_function(self.listview_files.index)
+			#check if the index list isn't empty
+			if len(self.listview_archive_content.index_list) != 0:
+				#self.message_function("%s ; %s"%(self.listview_files.index_list[-1], self.listview_files.index))
+				index_range = sorted([self.listview_archive_content.index_list[-1], self.listview_archive_content.index])
+
+				for i in range(index_range[0], index_range[1]):
+					children_item = self.listview_archive_content.children[i]
+					children_item.highlight_item(children_item)
+					#self.message_function("%s ; %s"%(i,children_item))
+					self.listview_archive_content.index_list.append(i)
+
+
+		self.message_function(self.listview_files.index_list)
+		self.message_function(self.listview_archive_content.index_list)
+
+
+
+
+
 	def on_key(self, event:events.Key) -> None:
 		if (event.key == "enter") and (self.focused.id == "listview_files"):
 			children_item = self.listview_files.children[self.listview_files.index]
@@ -591,6 +677,8 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 		if (event.key == "enter") and (self.focused.id == "listview_archive_content"):
 			children_item = self.listview_archive_content.children[self.listview_archive_content.index]
 			children_item.highlight_item(children_item)
+
+			
 
 		
 
@@ -659,6 +747,35 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 
 
+		if event.button.id == "button_remove_project":
+
+			#get the project selected
+			try:
+				project = list(self.project_data.keys())[self.listview_projectlist.index]
+			except:
+				self.message_function("You have to select a project to remove", "error")
+			else:
+				self.message_function("Trying to remove this project from data : %s"%project)
+
+				#if there is an archive for this project
+				#ask if the user want to restore archive in project before 
+				#self.remove_project_function()
+				if "ARCHIVE_PATH" in self.current_project_data:
+					self.push_screen(ModalASPCRemoveProject(), self.remove_project_function)
+				else:
+					self.remove_project_function()
+
+
+
+		if event.button.id == "button_addarchive_clearlist":
+			self.content_to_archive.clear()
+			self.listview_addarchive_selected.clear()
+			self.message_function("Content to archive cleared", "notification")
+
+		
+
+
+
 		if event.button.id == "button_add_to_archive":
 			#CHECK FOR ARCHIVE PATH
 			archive_exists = self.check_for_archive_function()
@@ -677,7 +794,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 			self.message_function("Starting restore file process...", "notification")
 			with self.suspend():
 				self.restore_file_from_archive_function()
-				print("Waiting...")
+				#print("Waiting...")
 				#sleep(4)
 				#UPDATE THE DATA FILE 
 				ASPC_SNOOP(self.current_project_name)
@@ -898,6 +1015,11 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 
 
+
+
+
+
+
 	def on_list_view_selected(self, event: ListView.Selected) -> None:
 		self.message_function("%s\n\n"%("_"*120), "message", False)
 		if event.control.id == "listview_projectlist":
@@ -909,7 +1031,25 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 			#call the threading checking function
 			self.check_for_folder_process_function()
 			self.check_for_archive_content_function()
+			self.update_markdown_function("project")
 
+
+
+		if event.control.id == "listview_addarchive_selected":
+			#get the list of children
+			self.message_function("Item removed from list : %s"%self.listview_addarchive_selected.index)
+			index = self.listview_addarchive_selected.index
+			self.message_function(index)
+
+			self.message_function(len(self.listview_addarchive_selected.children))
+
+			if type(index)==int:
+				self.listview_addarchive_selected.pop(index)
+			"""
+			self.listview_addarchive_selected.remove_items([index])
+			#remove the index in the list as well
+			self.content_to_archive.pop(self.listview_addarchive_selected.index)
+			"""
 		
 
 
@@ -945,6 +1085,12 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 			self.check_for_file_process_function()
 			#call function to highlight children if highlight children is checked
 			self.highlight_folder_children_function()
+			self.update_markdown_function("folder")
+
+
+
+		if event.control.id == "listview_files":
+			self.update_markdown_function("file")
 
 
 

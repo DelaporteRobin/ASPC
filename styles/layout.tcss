@@ -31,7 +31,7 @@ Button,Input,Checkbox {
 
 
 /* MODAL */
-ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive {
+ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive, ModalASPCRemoveProject {
 	align:center middle;
 }
 #modal_archive_vertical_container {
