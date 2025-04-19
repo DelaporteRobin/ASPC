@@ -60,9 +60,9 @@ class ASPC_LOG():
 		elif severity.upper() == "ERROR":
 			color = "text-error"
 		elif severity.upper() == "WARNING":
-			color = "text-warning"
+			color = "warning"
 		else:
-			color = "text-primary"
+			color = "foreground"
 		
 		label.styles.color = self.theme_variables[color]
 

@@ -450,7 +450,7 @@ class ASPC_GUI:
 
 		
 			if self.checkbox_file_similarity.value == True:
-				self.message_function("option1")
+				#self.message_function("option1")
 				self.current_file_list = []
 				similarity_data = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["SIMILARITY"]
 				for key, value in similarity_data.items():
@@ -462,7 +462,7 @@ class ASPC_GUI:
 
 
 			elif self.checkbox_file_children.value == True:
-				self.message_function("option2")
+				#self.message_function("option2")
 				
 				
 				self.current_file_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]

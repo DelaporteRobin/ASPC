@@ -37,7 +37,6 @@ import os
 
 from config import *
 
-
 from utils.ASPC_Log import ASPC_LOG
 from utils.ASPC_Snoop import ASPC_SNOOP
 from utils.ASPC_Utils import ASPC_UTILS
@@ -143,7 +142,7 @@ class HighlightableDirectoryTree(DirectoryTree):
 
 
 
-class ASPC_HOMEPAGE(Screen):
+class ASPC_HOMEPAGE(ModalScreen):
 
 
 	CSS_PATH = ["styles/layout.tcss"]
@@ -151,7 +150,7 @@ class ASPC_HOMEPAGE(Screen):
 
 	def compose(self) -> ComposeResult:
 
-		with Horizontal(id = "homepage_horizontal_container"):
+		with Horizontal(id= "homepage_horizontal_container"):
 			with Vertical(id = "homepage_vertical_container"):
 				
 				yield Static(pyfiglet.figlet_format("AUSPICIOUS", font=ASCII_FONT_HOMEPAGE), classes="static_title_homepage")
@@ -170,12 +169,6 @@ class ASPC_HOMEPAGE(Screen):
 		if event.button.id == "homepage_button_open":
 			#kill the screen
 			self.app.pop_screen()
-
-
-
-
-
-
 
 
 class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
@@ -237,9 +230,6 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 					self.dismiss(False)
 
 
-
-
-
 class ModalASPCRemoveProject(ModalScreen):
 	CSS_PATH = ["styles/layout.tcss"]
 
@@ -262,10 +252,6 @@ class ModalASPCRemoveProject(ModalScreen):
 			self.dismiss(True)
 		elif event.button.id == "button_modal_removearchive_false":
 			self.dismiss(False)
-
-
-
-
 
 
 class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_UTILS):
@@ -353,6 +339,46 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		"""
 
 
+class ModalASPCHelpCenter(ModalScreen):
+	CSS_PATH = ["styles/layout.tcss"]
+	BINDINGS = [
+		Binding("enter","binding_leavehelp", description="Binding leave help"),
+	]
+
+	def __init__(self):
+		super().__init__()
+		self.MARKDOWN_HELP = """
+# AUSPICIOUS HELP PAGE
+ASPC is a program that helps you list items in your projects/folders that are unnecessary, 
+that are present in large numbers, take up space and that you would like (at least temporarily) 
+to archive in a compressed file to limit the space used.\n
+These files may be important and useful, but you don't necessarily need to keep them on your main hard disk all the time.
+
+## Github link
+https://github.com/DelaporteRobin/ASPC
+
+## Documentation link
+> [!IMPORTANT]
+> The documentation is being writen and will soon be available
+"""
+
+	def compose(self) -> ComposeResult:
+		with Vertical(id = "vertical_help_container"):
+			self.markdown_help = Markdown(self.MARKDOWN_HELP, id="markdown_help")
+			yield self.markdown_help
+
+			yield Button("Leave help", id="button_leavehelp", classes="button_main")
+
+
+	def on_button_pressed(self, event: Button.Pressed) -> None:
+		if event.button.id == "button_leavehelp":
+			self.app.pop_screen()
+
+	
+
+
+
+
 
 
 
@@ -379,6 +405,12 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 	CSS_PATH = ["styles/layout.tcss"]
 	BINDINGS = [
 		Binding("ctrl+j", "binding_fill", description="Binding Fill Selection"),
+		Binding(
+			key="question_mark",
+			action="binding_help",
+			description="Show help",
+			key_display="?"
+			)
 	]
 
 
@@ -390,6 +422,9 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 		self.global_log_backup = []
 
 		self.selected_item = None
+
+		#define the color theme
+		self.color_theme = "downtown"
 
 		self.build_path = None
 		self.current_focused_folder = Path("/")
@@ -450,16 +485,17 @@ Global project informations
 
 					#yield Button("CRASHTEST", id="test_log")
 					yield Button("Remove project from list", id="button_remove_project")
-				self.input_global_root_path = Input(placeholder="Starting folder", id="input_global_root_path")
-				yield self.input_global_root_path
+				with VerticalScroll(id = "verticalscroll_bottomcontainer_left"):
+					self.input_global_root_path = Input(placeholder="Starting folder", id="input_global_root_path")
+					yield self.input_global_root_path
 
-				self.directorytree_main = HighlightableDirectoryTree(self.global_root_path, id="directorytree_main")
-				yield self.directorytree_main
+					self.directorytree_main = HighlightableDirectoryTree(self.global_root_path, id="directorytree_main")
+					yield self.directorytree_main
 
-				self.label_global_root_path = Label("", id="label_global_root_path")
-				yield self.label_global_root_path
+					self.label_global_root_path = Label("", id="label_global_root_path")
+					yield self.label_global_root_path
 
-				yield Button("ADD TO LIST AND\nEXPLORE PROJECT", id="button_explore_project")
+					yield Button("ADD TO LIST AND\nEXPLORE PROJECT", id="button_explore_project", classes="button_main")
 
 
 			
@@ -524,7 +560,7 @@ Global project informations
 								self.listview_addarchive_selected.border_title = "Items to archive"
 
 								with VerticalScroll(id = "tab_vertical_archiveoptions"):
-									yield Button("Clear Items in list", id = "button_addarchive_clearlist")
+									yield Button("Clear Items in list", id = "button_addarchive_clearlist", classes="button_main")
 
 									yield Rule(line_style="heavy")
 
@@ -536,13 +572,13 @@ Global project informations
 
 									self.checkbox_filter_fromselection = Checkbox("Apply only on folder selection",id="checkbox_filter_fromselection")
 									yield self.checkbox_filter_fromselection
-									yield Button("Apply Filter", id="button_addarchive_applyfilter")
+									yield Button("Filter window", id="button_addarchive_applyfilter")
 
 									yield Rule(line_style="heavy")
 
 	
 
-									yield Button("Add to archive", id="button_add_to_archive")
+									yield Button("Add to archive", id="button_add_to_archive", classes="button_main")
 
 
 							with Vertical(id = "tab_vertical_archivecontent_right"):
@@ -558,7 +594,7 @@ Global project informations
 								self.listview_archive_content.border_title = "Archive content"
 
 
-								yield Button("RESTORE FILES", id="button_restore_file")
+								yield Button("RESTORE FILES", id="button_restore_file", classes="button_main")
 
 					with TabPane(title = "GLOBAL INFORMATIONS", id = "tabpane_folderinformation"):
 						#yield Label("folder informations tab")
@@ -586,6 +622,8 @@ Global project informations
 					with TabPane(title = "LOG", id = "tabpane_log"):
 						self.listview_log = ListView(id = "listview_log")
 						yield self.listview_log
+
+			yield Footer()
 					
 					
 
@@ -595,7 +633,11 @@ Global project informations
 
 	def on_mount(self) -> None:
 		
-
+		#load visual themes in the application
+		#apply the theme specified in config file
+		for theme in THEME_REGISTRY:
+			self.register_theme(theme)
+		self.theme = THEME
 
 		#self.read_log_thread = threading.Thread(target=self.read_log_function, daemon=True,args=())
 		#self.read_log_thread.start()
@@ -625,7 +667,7 @@ Global project informations
 		#install screens
 		self.install_screen(ASPC_HOMEPAGE(), name="ASPC_HOMEPAGE")
 		#push the homepage screen
-		#self.push_screen("ASPC_HOMEPAGE")
+		self.push_screen("ASPC_HOMEPAGE")
 
 
 
@@ -664,6 +706,11 @@ Global project informations
 
 		self.message_function(self.listview_files.index_list)
 		self.message_function(self.listview_archive_content.index_list)
+
+
+	def action_binding_help(self) -> None:
+		self.message_function("Call help center :)")
+		self.push_screen(ModalASPCHelpCenter())
 
 
 
@@ -743,7 +790,7 @@ Global project informations
 
 
 	def check_for_archive_create_dismiss_function(self, quit_value: bool | None) -> None:
-		self.message_function("dismiss value : %s"%quit_value)
+		#self.message_function("dismiss value : %s"%quit_value)
 		if quit_value == False:
 			try:
 				self.push_screen(ModalASPCAddToArchive())
@@ -1043,7 +1090,7 @@ Global project informations
 
 
 	def on_list_view_selected(self, event: ListView.Selected) -> None:
-		self.message_function("%s\n\n"%("_"*120), "message", False)
+		#self.message_function("%s\n\n"%("_"*120), "message", False)
 		if event.control.id == "listview_projectlist":
 			#update the dictory tree starting folder
 			self.input_global_root_path.value = self.project_list[self.listview_projectlist.index][1]

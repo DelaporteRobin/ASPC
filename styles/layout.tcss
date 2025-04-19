@@ -2,10 +2,27 @@
 ListItem {
 	width:auto;
 }
+ModalScreen {
+	align:center middle;
+}
 Button,Input,Checkbox {
 	width:1fr;
 }
-/* SPECIFIC CONTAINER CODE */
+Button {
+	text-style:bold;
+	border:none;
+	margin-bottom: 1;
+	min-height:3;
+	background:$panel;
+}
+.button_main {
+	background: $primary;
+	text-style: bold;
+}
+ListView {
+	border: $primary heavy;
+}
+/* SPECIFIC CONTAINER WIDGET CODE */
 #homepage_horizontal_container {
 	align: center middle;
 	background: $background;
@@ -26,34 +43,50 @@ Button,Input,Checkbox {
 }
 #verticalscroll_container_left {
 	width:20%;
+	max-height:1fr;
 }
+#markdown_help {
+	background:$panel;
+	border-right:heavy $primary;
+	border-left:heavy $primary;
+}
+
 
 
 
 /* MODAL */
+/*
 ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive, ModalASPCRemoveProject {
 	align:center middle;
 }
+*/
 #modal_archive_vertical_container {
+	background: $panel;
 	width:50%;
 }
-#vertical_modal_container,#vertical_modal_addarchive {
+#homepage_horizontal_container {
+	width:50%;
+	background:$panel;
+	border-right:heavy $secondary;
+	border-left:heavy $secondary;
+}
+#vertical_modal_container,#vertical_modal_addarchive, #vertical_help_container {
 	width:50%;
 	align:center middle;
 }
-#listview_modal_filterorigin, #listview_modal_filterdestination {
-	border:solid $primary;
+#vertical_help_container {
+	background:$panel;
 }
 /* SPECIFIC WIDGETS CODE */
 #listview_addarchive_selected {
 	max-height:60%;
 }
 #listview_folders, #listview_files, #listview_addarchive_selected, #listview_archive_content {
-	border: solid $primary;
 	overflow-x:auto;
 	overflow-y:auto;
 }
 #listview_log {
+	border: none;
 	overflow-x:auto;
 	overflow-y: auto;
 }

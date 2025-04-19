@@ -17,5 +17,6 @@ elite
 isometric1
 isometric3
 """
+THEME = "abyss"
 ASCII_FONT_HOMEPAGE = "isometric1"
 ASCII_FONT_TERMINAL = "crawford"

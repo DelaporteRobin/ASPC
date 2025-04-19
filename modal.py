@@ -126,12 +126,12 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 
 
 
-					yield Button("Apply Filter", id="button_applyfilter")
-					yield Button("Clear selection", id="button_clearselection")
+					yield Button("Apply Filter", id="button_applyfilter", classes="button_main")
+					yield Button("Clear selection", id="button_clearselection", classes="button_error")
 
 					yield Rule(line_style="heavy")
 
-					yield Button("Validate selection", id="button_modal_validateselection")
+					yield Button("Validate selection", id="button_modal_validateselection", classes="button_main")
 
 			"""
 			#self.progress_modal_filtered = ProgressBar(id = "progress_modal_filtered")
@@ -139,7 +139,7 @@ class ModalASPCFilterScreen(ModalScreen, ASPC_UTILS, ASPC_ARCHIVE):
 			#yield self.progress_modal_filtered
 			yield self.listview_modal_filtered
 			"""
-			yield Button("ADD ELEMENT", id="button_modal_add")
+			#yield Button("ADD ELEMENT", id="button_modal_add")
 			yield Button("QUIT", id="button_modal_quit", disabled=False)
 
 
