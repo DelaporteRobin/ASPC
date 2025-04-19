@@ -41,6 +41,25 @@ class ASPC_UTILS:
 
 
 
+	def check_for_archive_create_dismiss_function(self, quit_value: bool | None) -> None:
+		self.message_function("dismiss value : %s"%quit_value)
+		if quit_value == False:
+			try:
+				self.push_screen(ModalASPCAddToArchive())
+			except Exception as e:
+				self.message_function("Impossible to call screen\n%s"%traceback.format_exc(), "error")
+			else:
+				self.message_function("Screen called", "success")
+		"""
+		if quit == False:
+			self.push_screen(ModalASPCCreateArchive())
+		else:
+			self.message_function("Archive creation dismissed", "notification")
+			return
+		"""
+
+
+
 	def remove_project_function(self, restore:bool | None) -> None:
 		project = list(self.project_data.keys())[self.listview_projectlist.index]
 		#check if the archive exists for this project
@@ -60,6 +79,7 @@ class ASPC_UTILS:
 			except Exception as e:
 				self.message_function("Impossible to remove archive zipfile and log", "error")
 			else:
+				
 				self.message_function("Archive zipfile and log removed", "success")
 		#remove the project from data file
 		del self.project_data[self.current_project_name]

@@ -701,15 +701,19 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					#GET DATA ABOUT NEW COMPRESSED FILES
 					print(colored("\nGetting data about new files in archive ...", "cyan"))
 					for filepath, filedata in self.archive_log.items():
-						#get the path in archive
-						file_archivepath = filedata["ARCHIVEPATH"].replace("\\", "/")
-						#get info in zipfile
-						file_archiveinfo = final_archive.getinfo(file_archivepath)
-						#get size informations for each file and update the dictionnary
-						self.archive_log[filepath]["ARCHIVE_FILESIZE"] = file_archiveinfo.file_size
-						self.archive_log[filepath]["ARCHIVE_COMPRESSSIZE"] = file_archiveinfo.compress_size
-						self.archive_dataset["CCONTENTSIZE_AFTER"] += file_archiveinfo.compress_size
-						#print("%s\n\t%s\n\t%s"%(file_archivepath, file_archiveinfo.file_size, file_archiveinfo.compress_size))
+						try:
+							#get the path in archive
+							file_archivepath = filedata["ARCHIVEPATH"].replace("\\", "/")
+							#get info in zipfile
+							file_archiveinfo = final_archive.getinfo(file_archivepath)
+							#get size informations for each file and update the dictionnary
+							self.archive_log[filepath]["ARCHIVE_FILESIZE"] = file_archiveinfo.file_size
+							self.archive_log[filepath]["ARCHIVE_COMPRESSSIZE"] = file_archiveinfo.compress_size
+							self.archive_dataset["CCONTENTSIZE_AFTER"] += file_archiveinfo.compress_size
+							#print("%s\n\t%s\n\t%s"%(file_archivepath, file_archiveinfo.file_size, file_archiveinfo.compress_size))
+						except Exception as e:
+							print(colored("Impossible to get data about %s"%filepath))
+							
 					print(colored("Informations from archive updated", "green"))
 
 

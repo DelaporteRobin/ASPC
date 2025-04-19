@@ -26,65 +26,220 @@ from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 
 
-
 class ASPC_GUI:
 
-	def test_markdown(self, mode=""):
-		self.message_function("action")
-		self.markdown_viewer.markdown = "bye world"
-		self.app.refresh()
-
-
 	def update_markdown_function(self, mode=None):
+
+		"""
+		INFORMATIONS TO DISPLAY
+		PROJECT INFORMATIONS:
+			name of the project
+			size of the project
+			number of items
+			number of files
+			number of folders
+
+		ARCHIVE INFORMATIONS
+			path of the archive
+			path of the archive log
+			number of items in the archive
+
+			total file size contained
+			total file size compressed
+			extension contained in archive
+
+			creation date of the archive
+			last modification date
+
+		SELECTED FOLDER INFORMATION
+			number of items contained
+			child folders
+			child files
+			maximum file size
+			minimum file size
+			extension contained
+
+		SELECTED FILE INFORMATION
+			extension of the file
+			size of the file
+			filepath
+			file creation date
+			file last modification date
+			file size classement
+		"""
 
 
 
 		markdown_general = ""
 
-		if mode == "project":
-			project_name = os.path.basename(self.current_project_name)
-			project_size = self.current_project_data["DATA_FOLDER"][self.current_project_name]["CHILDREN_SIZE"] / (1024 ** 3)
-			number_of_files = len(list(self.current_project_data["DATA_FILES"].keys()))
-			number_of_folders = len(list(self.current_project_data["DATA_FOLDER"].keys()))-1
+		#if mode == "project":
+		project_name = os.path.basename(self.current_project_name)
+		project_size = self.current_project_data["DATA_FOLDER"][self.current_project_name]["CHILDREN_SIZE"] / (1024 ** 3)
+		number_of_files = len(list(self.current_project_data["DATA_FILES"].keys()))
+		number_of_folders = len(list(self.current_project_data["DATA_FOLDER"].keys()))-1
+		markdown_general += """
+# Project global informations
+- project name : %s
+- project path : %s
+- project size : %s Go
+- number of file contained : %s
+- number of folders contained : %s
+""" % (os.path.basename(self.current_project_name), os.path.dirname(self.current_project_name), project_size, number_of_files, number_of_folders)
+
+
+		#TRY TO UPDATE FOR ARCHIVE IF ARCHIVE PATH IS DEFINED
+		if "ARCHIVE_PATH" in self.current_project_data:
+			markdown_general += "# Global archive informations"
+			try:
+				with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as project_archive:
+
+					archive_size = os.path.getsize(self.current_project_data["ARCHIVE_PATH"]) / (1024 ** 3)
+					archive_filesize_contained = 0
+					archive_compresssize_contained = 0
+
+					number_of_archive_files = len(project_archive.infolist())
+
+					archive_file_max_size = {
+						"FILEPATH":None,
+						"FILESIZE":float("-inf"),
+						"FILECOMPRESS":0
+						}
+					archive_file_min_size = {
+						"FILEPATH":None,
+						"FILESIZE":float("inf"),
+						"FILECOMPRESS":0
+					}
+
+					archive_path = self.current_project_data["ARCHIVE_PATH"]
+					archive_log = self.current_project_data["ARCHIVE_LOG"]
+					archive_creation = datetime.datetime.fromtimestamp(os.path.getctime(self.current_project_data["ARCHIVE_PATH"]))
+					archive_modification = datetime.datetime.fromtimestamp(os.path.getmtime(self.current_project_data["ARCHIVE_PATH"]))
+
+					#get the size informations from file info in archive
+					for info in project_archive.infolist():
+						archive_filesize_contained += info.file_size
+						archive_compresssize_contained += info.compress_size
+
+						if info.file_size > archive_file_max_size["FILESIZE"]:
+							archive_file_max_size["FILEPATH"] = info.filename
+							archive_file_max_size["FILESIZE"] = info.file_size
+							archive_file_max_size["FILECOMPRESS"] = info.compress_size
+						if info.file_size <= archive_file_min_size["FILESIZE"]:
+							archive_file_min_size["FILEPATH"] = info.filename 
+							archive_file_min_size["FILESIZE"] = info.file_size
+							archive_file_min_size["FILECOMPRESS"] = info.compress_size
+
+					markdown_general += """
+- archive path : %s
+- archive log path : %s
+- archive creation date : %s
+- archive last modification date : %s
+\n
+- archive size : %s
+- archive file size contained : %s Go
+- archive file compressed size : %s Go
+- number of files in archive : %s
+\n
+## Smallest file in archive:
+- filename : %s
+- filesize : %s Go
+- compresssize : %s Go
+\n
+## Largest file in archive:
+- filename : %s
+- filesize : %s Go
+- compresssize : %s Go
+""" % (archive_path, archive_log, archive_creation, archive_modification, archive_size, archive_filesize_contained, archive_compresssize_contained, number_of_archive_files, archive_file_min_size["FILEPATH"], archive_file_min_size["FILESIZE"]/(1024**3), archive_file_min_size["FILECOMPRESS"]/(1024**3), archive_file_max_size["FILEPATH"], archive_file_max_size["FILESIZE"]/(1024**3), archive_file_max_size["FILECOMPRESS"]/(1024**3))
+			except FileNotFoundError:
+				markdown_general += "\n\nDefine an archive path to display archive informations"
+				self.message_function("Archive not defined for this project", "notification")	
+			except Exception as e:
+				markdown_general += "\n\nImpossible to get data from archive\n%s"%traceback.format_exc()
+				self.message_function("Impossible to get data from archive\n%s"%traceback.format_exc(), "error")
+
+
+
+
+		#try to get the selection of folder
+		markdown_general += "# Informations about selected folder"
+		try:
+			folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+			folder_data = self.current_project_data["DATA_FOLDER"][folder_selected]
+
+			item_contained = len(folder_data["ITEMS_LIST"])
+			file_contained = len(folder_data["FILE_LIST"])
+			folder_contained = len(folder_data["FOLDER_LIST"])
+
+			size_contained = folder_data["ITEMS_SIZE"] / (1024 ** 3)
+			size_children = folder_data["CHILDREN_SIZE"] / (1024 ** 3)
+
 			markdown_general += """
-## PROJECT INFORMATIONS - %s
+- selected folder : %s
+- number of items contained : %s
+- number of files contained : %s
+- number of folders contained : %s
 
-- **PROJECT PATH**: %s
-- **PROJECT SIZE**: %s Go
+## Size contained informations
+- size contained in folder : %s
+- size contained in folder children : %s
+"""%(folder_selected, item_contained, file_contained, folder_contained, size_contained, size_children)
 
-- **Number of files contained**: %s\n
-- **Number of folders contained**: %s
-"""%(project_name, self.current_project_name, project_size, number_of_files, number_of_folders)
+			if type(folder_data["HEAVIEST_FILE"]) == str:
+				heaviest_file = folder_data["HEAVIEST_FILE"]
+				heaviest_file_size = self.current_project_data["DATA_FILES"][heaviest_file]["FILESIZE"] / (1024 ** 3)
 
-
-			#TRY TO UPDATE FOR ARCHIVE IF ARCHIVE PATH IS DEFINED
-			if "ARCHIVE_PATH" in self.current_project_data:
 				markdown_general += """
-## ARCHIVE INFORMATIONS
-- **ARCHIVE PATH**: %s
-"""%(self.current_project_data["ARCHIVE_PATH"])
-				try:
-					with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as project_archive:
-						for file in project_archive.infolist():
-							#markdown_general+="\n%s"%("_"*80)
+## Largest file in folder
+- largest filename : %s
+- largest file size : %s Go
+"""%(heaviest_file, heaviest_file_size)
 
-							filename = file.filename
-							date = datetime.datetime(*file.date_time)
-							filesize = file.file_size 
-							compresssize = file.compress_size
+			if type(folder_data["LIGHTEST_FILE"]) == str:
+				lightest_file = folder_data["LIGHTEST_FILE"]
+				lightest_file_size = self.current_project_data["DATA_FILES"][lightest_file]["FILESIZE"] / (1024 ** 3)
 
-							markdown_general += """
-							
-**FILENAME**: %s
-**DATE**: %s
-**FILE SIZE**: %s
-**COMPRESS SIZE**: %s
-"""%(filename,date,filesize,compresssize)
-				except Exception as e:
-					self.message_function("Impossible to get archive data", "error")
+				markdown_general += """
+## Lightest file in folder
+- lightest filename : %s
+- lightest file size : %s Go
+"""%(heaviest_file, heaviest_file_size)
+
+		except TypeError:
+			markdown_general += "\n\nSelect a folder to display data"
+			self.message_function("You must select a folder to display data", "notification")
+
+		except Exception as e:
+			markdown_general += "\n\nImpossible to get data from selected folder"
+			self.message_function("Impossible to get data from folder\n%s"%traceback.format_exc(), "error")
+
+
+
+
+		markdown_general += "# Informations about the selected file"
+		try:
+			filename = self.current_file_list[self.listview_files.index]
+			filepath = os.path.join(self.current_project_name, self.current_folder_selected)
+
+			filedata = self.current_project_data["DATA_FILES"][os.path.join(filepath, filename)]
+
+			markdown_general += """
+- filename: %s
+- filepath: %s 
+- file size: %s Go
+- file creation date: %s
+"""%(filename, filepath, filedata["FILESIZE"]/(1024**3), filedata["FILECREATION"])
+		except TypeError:
+			markdown_general += "\n\nSelect a file to display data"
+			self.message_function("You must select a file to display data", "notification")
+		except KeyError:
+			self.message_function("Impossible to find data about file", "error")
+
+
+
 		
 
-		self.markdown_project.update(markdown_general)
+		#self.markdown_project.update(markdown_general)
+		self.markdown_viewer.document.update(markdown_general)
 
 
 

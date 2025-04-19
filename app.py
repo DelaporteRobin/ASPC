@@ -204,7 +204,8 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "button_modal_dismiss_archive":
-			self.app.pop_screen()
+			self.dismiss(True)
+
 		if event.button.id == "button_modal_create_archive":
 
 			if self.app.current_project_name == None:
@@ -226,11 +227,14 @@ class ModalASPCCreateArchive(ModalScreen, ASPC_UTILS):
 					#save the content of the new project dictionnary in file
 					self.save_dictionnary_function()
 
+
 				except Exception as e:
 					self.app.message_function("Impossible to save the archive path", "error")
 					self.app.message_function(traceback.format_exc(), "error")
 				else:
 					self.app.message_function(os.path.basename(self.app.current_project_name), "success")
+
+					self.dismiss(False)
 
 
 
@@ -321,6 +325,7 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		#load new project data?
 		
 		self.app.load_project_data_function()
+		self.app.pop_screen()
 
 		"""
 		if type(returned_dictionnary)==dict:
@@ -408,7 +413,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 		self.thread_update_file_list = threading.Thread()
 
 		self.markdown_base_content = """
-PROJECT / FILES / FOLDERS / ARCHIVE INFORMATIONS
+Global project informations
 """
 
 
@@ -558,20 +563,25 @@ PROJECT / FILES / FOLDERS / ARCHIVE INFORMATIONS
 					with TabPane(title = "GLOBAL INFORMATIONS", id = "tabpane_folderinformation"):
 						#yield Label("folder informations tab")
 						#self.markdown = Markdown(self.markdown_base_content, id="markdown")
-						self.markdown_project = Markdown(id = "markdown_project")
 
 						"""
-						self.markdown_archive = Markdown(id = "markdown_archive")
-						self.markdown_folder = Markdown(id = "markdown_folder")
-						self.markdown_file = Markdown(id = "markdown_file")
+						self.markdown_project = Markdown(id = "markdown_project")
+						yield self.markdown_project
+						"""
+						with Collapsible(title = "Markdown update settings", id="collapsible_markdown_settings"):
+							self.checkbox_update_project = Checkbox("Update when selecting project", id="checkbox_update_project")
+							self.checkbox_update_folder = Checkbox("Update when selecting folder", id="checkbox_update_folder")
+							self.checkbox_update_file = Checkbox("Update when selecting file", id = "checkbox_update_file")
 
+							yield self.checkbox_update_project
+							yield self.checkbox_update_folder
+							yield self.checkbox_update_file
+
+						self.markdown_viewer = MarkdownViewer(self.markdown_base_content, id="markdown_viewer")
+						yield self.markdown_viewer
 
 						
-						yield self.markdown_archive
-						yield self.markdown_folder
-						yield self.markdown_file
-						"""
-						yield self.markdown_project
+						
 
 					with TabPane(title = "LOG", id = "tabpane_log"):
 						self.listview_log = ListView(id = "listview_log")
@@ -730,11 +740,19 @@ PROJECT / FILES / FOLDERS / ARCHIVE INFORMATIONS
 		if event.control.id in ["checkbox_folder_items", "checkbox_folder_gradient", "checkbox_folder_children", "checkbox_folder_items_gradient"]:
 			self.check_for_folder_process_function(True)
 
+
+
+	def check_for_archive_create_dismiss_function(self, quit_value: bool | None) -> None:
+		self.message_function("dismiss value : %s"%quit_value)
+		if quit_value == False:
+			try:
+				self.push_screen(ModalASPCAddToArchive())
+			except Exception as e:
+				self.message_function("Impossible to call screen\n%s"%traceback.format_exc(), "error")
+			else:
+				self.message_function("Screen called", "success")
+
 		
-
-
-
-
 
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "test_log":
@@ -781,7 +799,7 @@ PROJECT / FILES / FOLDERS / ARCHIVE INFORMATIONS
 			archive_exists = self.check_for_archive_function()
 
 			if archive_exists == False:
-				self.push_screen(ModalASPCCreateArchive())
+				self.push_screen(ModalASPCCreateArchive(), self.check_for_archive_create_dismiss_function)
 
 			else:
 				self.push_screen(ModalASPCAddToArchive())
@@ -801,6 +819,10 @@ PROJECT / FILES / FOLDERS / ARCHIVE INFORMATIONS
 
 				os.system("pause")
 
+			#reset all listview
+			self.listview_folders.clear()
+			self.listview_files.clear()
+			self.listview_archive_content.clear()
 			#reload project data
 			self.load_project_data_function()
 			self.message_function("Restore file process done", "notification")
