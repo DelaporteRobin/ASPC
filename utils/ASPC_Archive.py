@@ -390,19 +390,25 @@ class ASPC_ARCHIVE():
 		#try to open the archive
 		overhead_counter = 0
 		overhead_size = 0
+		#get all childrens in listview
+		children_list = self.listview_archive_content.children
 
 		try:
 			with zipfile.ZipFile(archive_path, mode="r") as read_archive:
 				#get the archive content in listview
-				for item in self.current_archive_content:
+				for i in range(len(self.current_archive_content)):
 					#get data about file
-					item_info = read_archive.getinfo(item)
+					item_info = read_archive.getinfo(self.current_archive_content[i])
 					#self.message_function("\n%s\n%s\n%s"%(os.path.basename(item), item_info.file_size, item_info.compress_size), "message", False)
 					file_size = item_info.file_size
 					compress_size = item_info.compress_size
 					if compress_size > file_size:
 						overhead_counter+=1
 						overhead_size += (compress_size - file_size)
+						#highlight the item
+						children_list[i].highlight_item(children_list[i])
+						if i not in self.listview_archive_content.index_list:
+							self.listview_archive_content.index_list.append(i)
 		except Exception as e:
 			self.message_function("Error happened while reading the archive\n%s"%traceback.format_exc(), "error")
 			return 
