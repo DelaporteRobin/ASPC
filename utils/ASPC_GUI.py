@@ -248,7 +248,8 @@ class ASPC_GUI:
 
 
 	def update_folder_list_function(self):
-		self.message_function("Thread started")
+		self.message_function("\n", "message", False)
+		self.message_function("Thread started", "notification")
 
 		try:
 
@@ -289,6 +290,7 @@ class ASPC_GUI:
 
 			#for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
 			for folder_name in folder_list:
+				#self.message_function("  %s"%folder_name, "message", False)
 				folder_data = self.current_project_data["DATA_FOLDER"][folder_name]
 
 				
@@ -414,10 +416,12 @@ class ASPC_GUI:
 
 
 	def update_file_list_function(self, checkbox_change):
-		self.message_function("Thread started")
+		self.message_function("\n", "message", False)
+		self.message_function("Thread started", "notification")
+		self.message_function("Current folder selected : %s"%self.current_folder_selected)
 
 		try:
-			self.current_file_list= []
+			self.current_file_list.clear()
 
 
 			#APPLY ALL THE FILTERS TO BUILD THE CURRENT FILE LIST TO DISPLAY IN THE LISTVIEW
@@ -463,9 +467,14 @@ class ASPC_GUI:
 
 			elif self.checkbox_file_children.value == True:
 				#self.message_function("option2")
-				
-				
+				self.load_project_data_function()
+				self.current_project_data = self.project_data[self.current_project_name]
+				#self.message_function(self.current_folder_selected)
 				self.current_file_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]
+
+				#test_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]
+				#for key, value in self.current_project_data["DATA_FOLDER"][self.current_folder_selected].items():
+				#	self.message_function("%s : %s"%(key,value))
 			
 
 				if self.checkbox_file_size.value == True:

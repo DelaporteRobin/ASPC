@@ -583,11 +583,19 @@ Global project informations
 
 							with Vertical(id = "tab_vertical_archivecontent_right"):
 								with Collapsible(id = "collapsible_archive_settings", title="ARCHIVE SETTINGS"):
-									self.checkbox_custom_archivepath = Checkbox("Custom archive path", id="checkbox_custom_archivepath")
+									#self.checkbox_custom_archivepath = Checkbox("Custom archive path", id="checkbox_custom_archivepath")
 									self.input_archive_path = Input(placeholder="Archive path", id="input_archive_path")
-
-									yield self.checkbox_custom_archivepath
+									#yield self.checkbox_custom_archivepath
 									yield self.input_archive_path	
+
+								with Collapsible(id = "collapsible_archive_features", title="ARCHIVE TOOLS"):
+									yield Button("Check for Overheads", id="button_archive_check_overhead")
+
+									self.checkbox_archive_get_below = Checkbox("Select files below", id="checkbox_archive_get_below")
+									self.checkbox_archive_get_same = Checkbox("Select files in the same folder", id="checkbox_archive_get_same")
+
+									yield self.checkbox_archive_get_below
+									yield self.checkbox_archive_get_same
 
 								self.listview_archive_content = MultiListView(id="listview_archive_content")
 								yield self.listview_archive_content
@@ -647,6 +655,8 @@ Global project informations
 
 
 		self.load_project_data_function()
+		self.refresh_project_list_function()
+
 		self.load_user_settings_function()
 		#self.load_archive_content_function()
 
@@ -667,7 +677,7 @@ Global project informations
 		#install screens
 		self.install_screen(ASPC_HOMEPAGE(), name="ASPC_HOMEPAGE")
 		#push the homepage screen
-		self.push_screen("ASPC_HOMEPAGE")
+		#self.push_screen("ASPC_HOMEPAGE")
 
 
 
@@ -809,6 +819,11 @@ Global project informations
 			
 			#launch the screen
 			self.push_screen(ModalASPCFilterScreen())
+
+
+
+		if event.button.id == "button_archive_check_overhead":
+			self.check_for_overhead_function()
 
 
 
@@ -987,6 +1002,7 @@ Global project informations
 			self.message_function("Trying to refresh project list")
 			self.listview_projectlist.clear()
 			value = self.load_project_data_function()
+			self.refresh_project_list_function()
 			if value == False:
 				self.message_function("Project list refresh failed", "error")
 			else:
@@ -1064,6 +1080,8 @@ Global project informations
 			#self.message_function(len(list(self.project_data[self.current_project_name]["DATA_FOLDER"].keys())))   
 		except TypeError:
 			return
+		except IndexError:
+			self.message_function("No project selected","error")
 		
 		
 		self.progress_folder.update(progress=0)

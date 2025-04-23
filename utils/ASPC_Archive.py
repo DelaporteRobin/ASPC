@@ -377,6 +377,42 @@ class ASPC_ARCHIVE():
 			return False
 
 
+	def check_for_overhead_function(self):
+		#get the current project selected
+		#get the current archive path
+		self.message_function("\n", "message", False)
+		self.message_function("Trying to detect overheads in archive", "notification")
+		try:
+			archive_path = self.current_project_data["ARCHIVE_PATH"]
+		except Exception as e:
+			self.message_function("Impossible to get archive path","erorr")
+			return 
+		#try to open the archive
+		overhead_counter = 0
+		overhead_size = 0
+
+		try:
+			with zipfile.ZipFile(archive_path, mode="r") as read_archive:
+				#get the archive content in listview
+				for item in self.current_archive_content:
+					#get data about file
+					item_info = read_archive.getinfo(item)
+					#self.message_function("\n%s\n%s\n%s"%(os.path.basename(item), item_info.file_size, item_info.compress_size), "message", False)
+					file_size = item_info.file_size
+					compress_size = item_info.compress_size
+					if compress_size > file_size:
+						overhead_counter+=1
+						overhead_size += (compress_size - file_size)
+		except Exception as e:
+			self.message_function("Error happened while reading the archive\n%s"%traceback.format_exc(), "error")
+			return 
+		else:
+			self.message_function("Archive overhead scan terminated","notification")
+		self.message_function("Number of overhead : %s\nOverhead size in archive : %s Go\n"%(overhead_counter,overhead_size/(1024**3)),"message", False)
+		#for each file check if the compressed size is bigger than realsize
+		#select items with overhead in the
+
+
 	def archiving_display_message_function(self, message = "", type="message"):
 
 		if type == "content":

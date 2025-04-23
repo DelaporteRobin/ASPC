@@ -41,22 +41,7 @@ class ASPC_UTILS:
 
 
 
-	def check_for_archive_create_dismiss_function(self, quit_value: bool | None) -> None:
-		self.message_function("dismiss value : %s"%quit_value)
-		if quit_value == False:
-			try:
-				self.push_screen(ModalASPCAddToArchive())
-			except Exception as e:
-				self.message_function("Impossible to call screen\n%s"%traceback.format_exc(), "error")
-			else:
-				self.message_function("Screen called", "success")
-		"""
-		if quit == False:
-			self.push_screen(ModalASPCCreateArchive())
-		else:
-			self.message_function("Archive creation dismissed", "notification")
-			return
-		"""
+
 
 
 
@@ -92,8 +77,11 @@ class ASPC_UTILS:
 			self.message_function("Project file saved", "success")
 
 		self.message_function("PROJECT REMOVED FROM DATA SUCCESSFULLY", "success")
+		
 		#RELOAD INFORMATIONS AND UPDATE TUI
 		self.load_project_data_function()
+		self.refresh_project_list_function()
+
 		self.listview_folders.clear()
 		self.listview_files.clear()
 		self.listview_archive_content.clear()
@@ -105,6 +93,7 @@ class ASPC_UTILS:
 
 
 	def load_project_data_function(self):
+		self.message_function("\n", "message", False)
 		try:
 			with open(os.path.join(os.getcwd(), "data/data.json"), "r") as read_content:
 				self.project_data = json.load(read_content)
@@ -116,13 +105,15 @@ class ASPC_UTILS:
 				pass
 			return False
 		else:
-			self.project_list = []
+			#self.project_list = []
 			try:
 				self.message_function("Project data loaded", "success")
 			except AttributeError:
 				pass
 
 
+
+			"""
 			try:
 				self.app.listview_projectlist.clear()
 				#refresh the project list
@@ -135,10 +126,41 @@ class ASPC_UTILS:
 					if os.path.isdir(project_name)==False:
 						label.styles.color = self.theme_variables["text-error"]
 
-					self.listview_projectlist.append(ListItem(label))
+					self.app.listview_projectlist.append(ListItem(label))
 			except AttributeError:
+				self.message_function("Impossible to update project list\n%s"%traceback.format_exc(), "error")
 				pass
-			return True
+			except Exception as e:
+				self.message_function("Impossible to refresh project list\n%s"%traceback.format_exc(), "error")
+				pass
+			#return True
+			"""
+
+
+
+
+
+
+	def refresh_project_list_function(self):
+		try:
+			self.project_list.clear()
+			self.listview_projectlist.clear()
+
+			for project_name, project_data in self.project_data.items():
+				self.project_list.append((os.path.basename(project_name), project_name))
+				label = Label(project_name)
+
+				if os.path.isdir(project_name)==False:
+					label.styles.color = self.theme_variables["text-error"]
+
+				self.listview_projectlist.append(ListItem(label))
+		except Exception as e:
+			self.message_function("Impossible to refresh project list", "error")
+			self.message_function(traceback.format_exc(), "error")
+
+		else:
+			self.message_function("Project list updated", "success")
+
 
 
 
