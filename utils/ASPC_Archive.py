@@ -390,6 +390,7 @@ class ASPC_ARCHIVE():
 		#try to open the archive
 		overhead_counter = 0
 		overhead_size = 0
+		overhead_list = []
 		#get all childrens in listview
 		children_list = self.listview_archive_content.children
 
@@ -405,6 +406,7 @@ class ASPC_ARCHIVE():
 					if compress_size > file_size:
 						overhead_counter+=1
 						overhead_size += (compress_size - file_size)
+						#overhead_list.append(self.current_archive_content[i])
 						#highlight the item
 						children_list[i].highlight_item(children_list[i])
 						if i not in self.listview_archive_content.index_list:
