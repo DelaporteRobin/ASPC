@@ -736,5 +736,161 @@
         "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\substance\\output\\substance_frostWriting_mask_v001.1003.bmp",
         "ARCHIVINGDATE": "2025-04-19 16:16:08.998266",
         "HARDRIVESIZE": 4195382
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\Imperfections_Frost_se4kbhnc\\se4kbhnc.json": {
+        "ARCHIVEPATH": "ressources\\Imperfections_Frost_se4kbhnc\\se4kbhnc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\Imperfections_Frost_se4kbhnc\\se4kbhnc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.119659",
+        "HARDRIVESIZE": 14964
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\ground_snow_td0nfjlr\\td0nfjlr.json": {
+        "ARCHIVEPATH": "ressources\\ground_snow_td0nfjlr\\td0nfjlr.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\ground_snow_td0nfjlr\\td0nfjlr.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.149076",
+        "HARDRIVESIZE": 45377
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_ugkieimdy\\ugkieimdy.json": {
+        "ARCHIVEPATH": "ressources\\snow_pure_ugkieimdy\\ugkieimdy.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_ugkieimdy\\ugkieimdy.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.173855",
+        "HARDRIVESIZE": 45475
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhpjdeyn\\uhpjdeyn.json": {
+        "ARCHIVEPATH": "ressources\\snow_pure_uhpjdeyn\\uhpjdeyn.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhpjdeyn\\uhpjdeyn.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.196436",
+        "HARDRIVESIZE": 45500
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbdxc\\uh4sbdxc.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4sbdxc\\uh4sbdxc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbdxc\\uh4sbdxc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.224748",
+        "HARDRIVESIZE": 18043
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbehc\\uh4sbehc.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4sbehc\\uh4sbehc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbehc\\uh4sbehc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.241848",
+        "HARDRIVESIZE": 18071
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhrkaisdy\\uhrkaisdy.json": {
+        "ARCHIVEPATH": "ressources\\snow_pure_uhrkaisdy\\uhrkaisdy.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhrkaisdy\\uhrkaisdy.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.295216",
+        "HARDRIVESIZE": 45634
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbhnc\\uh4sbhnc.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4sbhnc\\uh4sbhnc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbhnc\\uh4sbhnc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.316284",
+        "HARDRIVESIZE": 18118
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbiqc\\uh4sbiqc.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4sbiqc\\uh4sbiqc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4sbiqc\\uh4sbiqc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.336076",
+        "HARDRIVESIZE": 17935
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4tbdhc\\uh4tbdhc.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4tbdhc\\uh4tbdhc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4tbdhc\\uh4tbdhc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.355418",
+        "HARDRIVESIZE": 17956
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4tdalc\\uh4tdalc.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4tdalc\\uh4tdalc.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4tdalc\\uh4tdalc.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.377536",
+        "HARDRIVESIZE": 18049
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4tdhic\\uh4tdhic.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_uh4tdhic\\uh4tdhic.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_uh4tdhic\\uh4tdhic.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.397905",
+        "HARDRIVESIZE": 18120
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_ultteh2c\\ultteh2c.json": {
+        "ARCHIVEPATH": "ressources\\surface_imperfections_ultteh2c\\ultteh2c.json",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\surface_imperfections_ultteh2c\\ultteh2c.json",
+        "ARCHIVINGDATE": "2025-04-29 01:05:13.404860",
+        "HARDRIVESIZE": 18053
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhpjdeyn\\uhpjdeyn_4K_Displacement.exr": {
+        "ARCHIVEPATH": "ressources\\snow_pure_uhpjdeyn\\uhpjdeyn_4K_Displacement.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhpjdeyn\\uhpjdeyn_4K_Displacement.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:06:28.811208",
+        "HARDRIVESIZE": 44068560
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\ground_snow_td0nfjlr\\td0nfjlr_4K_Displacement.exr": {
+        "ARCHIVEPATH": "ressources\\ground_snow_td0nfjlr\\td0nfjlr_4K_Displacement.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\ground_snow_td0nfjlr\\td0nfjlr_4K_Displacement.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:06:32.060247",
+        "HARDRIVESIZE": 50682899
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_ugkieimdy\\ugkieimdy_4K_Displacement.exr": {
+        "ARCHIVEPATH": "ressources\\snow_pure_ugkieimdy\\ugkieimdy_4K_Displacement.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_ugkieimdy\\ugkieimdy_4K_Displacement.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:06:33.511700",
+        "HARDRIVESIZE": 48337727
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhrkaisdy\\uhrkaisdy_4K_Displacement.exr": {
+        "ARCHIVEPATH": "ressources\\snow_pure_uhrkaisdy\\uhrkaisdy_4K_Displacement.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\ressources\\snow_pure_uhrkaisdy\\uhrkaisdy_4K_Displacement.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:06:34.646676",
+        "HARDRIVESIZE": 47793994
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrost_3-4Clear_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\render_ZipFrost_3-4Clear_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrost_3-4Clear_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:06:54.491727",
+        "HARDRIVESIZE": 103474341
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostLens_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\render_ZipFrostLens_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostLens_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:07:00.288925",
+        "HARDRIVESIZE": 126022651
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrost_3-4Frost_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\render_ZipFrost_3-4Frost_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrost_3-4Frost_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:07:16.646068",
+        "HARDRIVESIZE": 163047696
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\item_ZipFrostBottom_render_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\item_ZipFrostBottom_render_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\item_ZipFrostBottom_render_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:07:17.343828",
+        "HARDRIVESIZE": 178665644
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostSnow_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\render_ZipFrostSnow_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostSnow_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:07:17.360594",
+        "HARDRIVESIZE": 170568496
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostSnow_v002.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\render_ZipFrostSnow_v002.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostSnow_v002.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:07:18.103607",
+        "HARDRIVESIZE": 170172639
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostIceCube_render_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\render_ZipFrostIceCube_render_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\render_ZipFrostIceCube_render_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:08:07.441412",
+        "HARDRIVESIZE": 330012002
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\item_ZipFrostBottom_render_v002.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\item_ZipFrostBottom_render_v002.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\item_ZipFrostBottom_render_v002.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:08:08.303977",
+        "HARDRIVESIZE": 337687664
+    },
+    "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\item_ZipFrostTop_render_v001.exr": {
+        "ARCHIVEPATH": "photoshop\\input\\item_ZipFrostTop_render_v001.exr",
+        "REALPATH": "D:\\WORK\\LIGHTING\\FrostLight_ARCHIVETEST\\photoshop\\input\\item_ZipFrostTop_render_v001.exr",
+        "ARCHIVINGDATE": "2025-04-29 02:08:08.750612",
+        "HARDRIVESIZE": 337619973
     }
 }

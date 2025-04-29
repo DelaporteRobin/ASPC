@@ -590,6 +590,7 @@ Global project informations
 
 								with Collapsible(id = "collapsible_archive_features", title="ARCHIVE TOOLS"):
 									yield Button("Check for Overheads", id="button_archive_check_overhead")
+									yield Button("FIX OVERHEADS", id="button_archive_fix_overhead", classes="button_main")
 
 									self.checkbox_archive_get_below = Checkbox("Select files below", id="checkbox_archive_get_below")
 									self.checkbox_archive_get_same = Checkbox("Select files in the same folder", id="checkbox_archive_get_same")
@@ -824,6 +825,9 @@ Global project informations
 
 		if event.button.id == "button_archive_check_overhead":
 			self.check_for_overhead_function()
+
+		if event.button.id == "button_archive_fix_overhead":
+			self.fix_overhead_function()
 
 
 
