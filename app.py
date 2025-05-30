@@ -268,9 +268,6 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 
 	def compose(self) -> ComposeResult:
 		with Vertical(id = "vertical_modal_addarchive"):
-		
-
-		
 
 			self.listview_modal_addarchive_filelog = ListView(id = "listview_modal_addarchive_filelog")
 			yield self.listview_modal_addarchive_filelog
@@ -353,7 +350,6 @@ class ModalASPCHelpCenter(ModalScreen):
 	def __init__(self):
 		super().__init__()
 		self.MARKDOWN_HELP = """
-# AUSPICIOUS HELP PAGE
 ASPC is a program that helps you list items in your projects/folders that are unnecessary, 
 that are present in large numbers, take up space and that you would like (at least temporarily) 
 to archive in a compressed file to limit the space used.\n
@@ -369,6 +365,8 @@ https://github.com/DelaporteRobin/ASPC
 
 	def compose(self) -> ComposeResult:
 		with Vertical(id = "vertical_help_container"):
+
+			yield FigletWidget("AUSPICIOUS HELP", font=ASCII_FONT_HOMEPAGE, justify="center",colors=["$primary", "$secondary", "$background","$panel"], animate=True, gradient_quality=30, id="help_title")
 			self.markdown_help = Markdown(self.MARKDOWN_HELP, id="markdown_help")
 			yield self.markdown_help
 
@@ -378,27 +376,6 @@ https://github.com/DelaporteRobin/ASPC
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "button_leavehelp":
 			self.app.pop_screen()
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
@@ -601,6 +578,9 @@ Global project informations
 									#yield self.checkbox_custom_archivepath
 									yield self.input_archive_path	
 
+									with Horizontal(id="horizontal_archive_features"):
+										yield Button("Move archive", id="button_archive_move", classes="button_main")
+
 								with Collapsible(id = "collapsible_archive_features", title="ARCHIVE TOOLS"):
 									yield Button("Check for Overheads", id="button_archive_check_overhead")
 									yield Button("FIX OVERHEADS", id="button_archive_fix_overhead", classes="button_main")
@@ -626,22 +606,38 @@ Global project informations
 						self.markdown_project = Markdown(id = "markdown_project")
 						yield self.markdown_project
 						"""
-						with VerticalScroll(id = "verticalscroll_collapsible_graphdata"):
-							with Collapsible(title = "Markdown Data", id="collapsible_data_markdown"):
-								with Collapsible(title = "Markdown update settings", id="collapsible_markdown_settings"):
-									self.checkbox_update_project = Checkbox("Update when selecting project", id="checkbox_update_project")
-									self.checkbox_update_folder = Checkbox("Update when selecting folder", id="checkbox_update_folder")
-									self.checkbox_update_file = Checkbox("Update when selecting file", id = "checkbox_update_file")
-									self.checkbox_update_archive = Checkbox("Show archive informations", id="checkbox_update_archive")
-									yield self.checkbox_update_project
-									yield self.checkbox_update_folder
-									yield self.checkbox_update_file
-									yield self.checkbox_update_archive
+						
+						with Collapsible(title = "Markdown Data", id="collapsible_data_markdown"):
+							with Collapsible(title = "Markdown update settings", id="collapsible_markdown_settings"):
+								self.checkbox_update_project = Checkbox("Update when selecting project", id="checkbox_update_project")
+								self.checkbox_update_folder = Checkbox("Update when selecting folder", id="checkbox_update_folder")
+								self.checkbox_update_file = Checkbox("Update when selecting file", id = "checkbox_update_file")
+								self.checkbox_update_archive = Checkbox("Show archive informations", id="checkbox_update_archive")
+								yield self.checkbox_update_project
+								yield self.checkbox_update_folder
+								yield self.checkbox_update_file
+								yield self.checkbox_update_archive
 
-								self.markdown_viewer = MarkdownViewer(self.markdown_base_content, id="markdown_viewer")
-								yield self.markdown_viewer
+							self.markdown_viewer = MarkdownViewer(self.markdown_base_content, id="markdown_viewer")
+							yield self.markdown_viewer
 
-							with Collapsible(title = "Graph Data", id="collapsible_data_graph"):
+						with Collapsible(title = "Graph Data", id="collapsible_data_graph"):
+							with VerticalScroll(id = "verticalscroll_collapsible_graphdata"):
+
+								"""
+								self.plotext_filesize = PlotextPlot(id="plotext_filesize")
+								yield self.plotext_filesize
+								with Horizontal(id="horizontal_plotext_filesize"):
+									self.input_plotext_fileitems = Input(type="number", value="0",placeholder="Number of file to display", id="input_plotext_filesize")
+									yield self.input_plotext_fileitems
+									yield Button("Show largest files", id="button_plotext_filesize", classes="button_main")
+								"""
+								self.plotext_foldersize = PlotextPlot(id="plotext_foldersize")
+								yield self.plotext_foldersize
+								with Horizontal(id="horizontal_plotext_foldersize"):
+									self.input_plotext_foldersize = Input(type="number", value="0", placeholder="Number of folders to display", id="input_plotext_foldersize")
+									yield self.input_plotext_foldersize
+									yield Button("Show largest folders", id="button_plotext_foldersize", classes="button_main")
 
 								#self.sparkline_extension = Sparkline(id="sparkline_extension")
 								#self.sparkline_extension.border_title = "Extension data"
@@ -708,6 +704,8 @@ Global project informations
 		#push the homepage screen
 		#show_homepage
 		self.push_screen("ASPC_HOMEPAGE")
+
+		self.message_function("possible : %s"%self.query_one("#collapsible_data_markdown").allow_maximize)
 
 
 
@@ -830,8 +828,17 @@ Global project informations
 		if event.button.id == "test_log":
 			self.message_function(self.current_folder_selected)
 
+		if event.button.id == "button_archive_move":
+			self.move_archive_function()
+
 		if event.button.id == "button_graph_extension":
 			self.load_data_extension()
+
+		if event.button.id == "button_plotext_foldersize":
+			self.load_graph_foldersize_function()
+
+		if event.button.id == "button_plotext_filesize":
+			self.load_graph_filesize_function()
 
 		if event.button.id == "button_graph_compression":
 			self.load_data_compression()

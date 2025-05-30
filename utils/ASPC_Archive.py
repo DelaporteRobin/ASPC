@@ -16,7 +16,7 @@ from utils.ASPC_Widgets import MultiListView, MultiListItem
 from utils.ASPC_Utils import ASPC_UTILS
 from utils.ASPC_Snoop import ASPC_SNOOP
 
-
+import shutil
 import colorama
 import os
 import json
@@ -238,13 +238,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		self.project_data = project_data
 		self.method = method
 		print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
-
-		
-
-
 		#self.run(selection_to_archive, current_project, current_project_data)
-
-
 
 	def run(self):
 
@@ -276,10 +270,6 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		if len(self.selection_to_archive) == 0:
 			print(colored("No elements to archive!", "red"))
 			return
-
-
-
-
 
 
 		#create the multiprocessing manager
@@ -353,12 +343,6 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 			#convert the dictionnary log into a manager dict
 			self.archive_log = manager.dict(self.archive_log)
 
-
-
-
-	
-
-
 			for element in self.selection_to_archive:
 				if os.path.isdir(element) == True:
 					folder_counter += 1
@@ -426,8 +410,6 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				#save the global project data dictionnary in file
 				self.save_dictionnary_function()
 
-				
-			
 
 
 				#MERGING ALL ARCHIVES
@@ -568,18 +550,6 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				return self.current_project_data
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 	def archive_item_worker(self, index, temp_archive, archive_path, project_path, method=zipfile.ZIP_LZMA):
 		while True:
 			try:
@@ -713,7 +683,20 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				print(colored("File stored in archive successfully (no compression)", "green"))
 
 
+class ModalASPCMoveArchive(ModalScreen):
+	def compose(self) -> ComposeResult:
+		with Vertical(id="modal_vertical_archive_move"):
+			yield Label("ARE YOU SURE YOU WANT TO MOVE THE ARCHIVE PATH ?", id="modal_label_archive_move")
 
+			with Horizontal(id="modal_horizontal_archive_options"):
+				yield Button("Yes", id="modal_button_archive_move_true", classes="button_main")
+				yield Button("No", id="modal_button_archive_move_false")
+
+	def on_button_pressed(self,event:Button.Pressed) -> None:
+		if event.button.id == "modal_button_archive_move_true":
+			self.dismiss(True)
+		if event.button.id == "modal_button_archive_move_false":
+			self.dismiss(False)
 
 
 class ASPC_ARCHIVE():
@@ -771,6 +754,50 @@ class ASPC_ARCHIVE():
 			except ValueError:
 				self.app.message_function("Impossible to find item in list : %s"%file, "error")
 				self.app.message_function(traceback.format_exc(), "error")
+
+	def check_move_archive(self, move:bool | None) -> None:
+		try:
+			if move==True:
+				#self.message_function(self.new_archive_path)
+				#self.message_function(str(quit))
+				#create the new folder hierarchy for the new archive path
+				os.makedirs(os.path.dirname(self.new_archive_path), exist_ok=True)
+				#move the file with shutil
+				shutil.move(self.current_project_data["ARCHIVE_PATH"],os.path.dirname(self.new_archive_path))
+				#update the archive path in the project data
+				self.current_project_data["ARCHIVE_PATH"] = self.new_archive_path
+				self.project_data[self.current_project_name] = self.current_project_data 
+				#save the new project file
+				self.save_dictionnary_function()
+				self.message_function("ARCHIVE MOVED", "success")
+				self.message_function("New archive path : %s"%self.new_archive_path)
+		except Exception as e:
+			self.message_function("Impossible to change archive path", "error")
+			self.message_function(traceback.format_exc(), "error")
+
+	def move_archive_function(self):
+		#get the path in the archive textfield
+		archive_textfield_content = self.input_archive_path.value
+		#get the folder path
+		archive_textfield_dirpath = os.path.dirname(archive_textfield_content)
+		#get the current archive path
+		try:
+			if "ARCHIVE_PATH" not in self.current_project_data:
+				self.message_function("The archive is not defined for this project", "error")
+				return 
+			else:
+				current_archive_path = self.current_project_data["ARCHIVE_PATH"]
+				current_archive_filename = os.path.basename(current_archive_path)
+				self.new_archive_path = os.path.join(archive_textfield_dirpath,current_archive_filename)
+
+				#self.message_function("NEW ARCHIVE PATH → %s"%self.new_archive_path, "notification")
+
+				self.move_archive=None
+				#call validation screen	
+				self.push_screen(ModalASPCMoveArchive(self.new_archive_path), self.check_move_archive)
+				#self.message_function(str(value), "success")
+		except AttributeError:
+			self.message_function("No project selected", "error")
 
 
 	def check_for_archive_content_function(self):

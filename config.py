@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 
-VERSION = 0.2
-AUTHOR = "DelaporteRobin"
+VERSION = "1.1"
+PUBLISH = "05/2025"
+AUTHOR = "Delaporte Robin"
 REPO = "https://github.com/DelaporteRobin/ASPC"
 
 

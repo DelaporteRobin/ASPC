@@ -10,10 +10,13 @@ Button,Input,Checkbox {
 }
 PlotextPlot {
 	margin-top:2;
-	max-height:40;
+	min-height:25;
+	max-height:100;
 }
-
-
+FigletWidget {
+	text-align:center;
+	width:100%;
+}
 Button {
 	text-style:bold;
 	min-height:3;
@@ -55,9 +58,17 @@ ListView {
 	border-right:heavy $primary;
 	border-left:heavy $primary;
 }
-#verticalscroll_collapsible_graphdata {
-	margin-right:5;
+#collapsible_data_graph {
+	height:1fr;
 }
+#verticalscroll_collapsible_graphdata {
+	height:1fr;
+	padding-bottom:5;
+}
+#horizontal_plotext_foldersize, #horizontal_plotext_sizeoptions, #horizontal_plotext_filesize {
+	height:5;
+}
+
 
 
 
@@ -68,6 +79,19 @@ ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive, ModalASPCR
 	align:center middle;
 }
 */
+#modal_vertical_archive_move {
+	align:center middle;
+	width:40%;
+	border:thick $primary;
+	height:40;
+	padding-top:10;
+}
+#modal_label_archive_move {
+	text-align:center;
+	width:100%;
+	height:5;
+	color: $primary;
+}
 #modal_archive_vertical_container {
 	background: $panel;
 	width:50%;
@@ -78,11 +102,13 @@ ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive, ModalASPCR
 	border-right:heavy $secondary;
 	border-left:heavy $secondary;
 }
-#vertical_modal_container,#vertical_modal_addarchive, #vertical_help_container {
+#vertical_modal_container,#vertical_modal_addarchive {
 	width:50%;
 	align:center middle;
 }
 #vertical_help_container {
+	width:40%;
+	align:center middle;
 	background:$panel;
 }
 /* SPECIFIC WIDGETS CODE */
@@ -97,6 +123,12 @@ ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive, ModalASPCR
 	border: none;
 	overflow-x:auto;
 	overflow-y: auto;
+}
+#collapsible_archive_settings {
+	max-height:15;
+}
+#collapsible_data_markdown {
+	max-height:50;
 }
 .static_title_homepage {
 

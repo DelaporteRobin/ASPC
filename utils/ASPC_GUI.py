@@ -29,6 +29,90 @@ from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 class ASPC_GUI:
 
+	def load_graph_foldersize_function(self):
+		#get all folder data (size informations)
+		#first only children size
+		folder_size_contained = {}
+		folder_size_children = {}
+		for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
+			folder_size_contained[os.path.basename(folder_name)] = folder_data["ITEMS_SIZE"]
+			folder_size_children[os.path.basename(folder_name)] = folder_data["CHILDREN_SIZE"]
+		#sort dictionnaries
+		contained_size_sorted = sorted(folder_size_contained.items(), key=lambda x: x[1],reverse=True)
+		children_size_sorted = sorted(folder_size_children.items(), key=lambda x: x[1],reverse=True)
+		#create lists for contained
+		contained_size_name = [name for name, size in contained_size_sorted]
+		contained_size_value = [size for name, size in contained_size_sorted]
+		#create lists for children
+		children_size_name = [name for name, size in children_size_sorted]
+		children_size_value = [size for name, size in children_size_sorted]
+		#build compared value
+		children_size_value_compared = []
+		for name in contained_size_name:
+			children_size_value_compared.append(folder_size_children[name])
+
+		#get the max value of items to display
+		try:
+			max_value = int(self.input_plotext_foldersize.value)
+		except:
+			max_value = 0
+		if max_value!=0:
+			#slide lists
+			contained_size_name = contained_size_name[:max_value]
+			contained_size_value = contained_size_value[:max_value]
+			children_size_name = children_size_name[:max_value]
+			children_size_value = children_size_value[:max_value]
+			children_size_value_compared = children_size_value_compared[:max_value]
+		self.message_function("limit value : %s"%max_value)
+		#fill the graph content
+		plt = self.plotext_foldersize.plt
+		plt.clear_data()
+		plt.multiple_bar(contained_size_name,[contained_size_value,children_size_value_compared], orientation="horizontal",labels=["contained size", "children_size"])
+		plt.xlim(0,max(contained_size_value)*1.5)
+		plt.title("Folder size in project")
+		plt.show()
+
+		#update the plotext in TUI
+		self.plotext_foldersize.refresh()
+
+		self.message_function("update", "error")
+
+
+	def load_graph_filesize_function(self):
+		if self.current_project_name == None:
+			self.message_function("No project selected", "error")
+			return
+		#get data file size in project data
+		file_size_data = self.current_project_data["DATA_FILE_SIZE"]
+		list_filename = []
+		list_filesize = []
+		for item in file_size_data:
+			list_filename.append(os.path.basename(item[0]))
+			list_filesize.append(item[1]/1024/1024)
+
+		#reverse list
+		list_filename.reverse()
+		list_filesize.reverse()
+
+		#add the item limitation to the list
+		try:
+			max_value = int(self.input_plotext_filesize.value)
+		except:
+			max_value = 0 
+
+		if max_value != 0:
+			list_filename = list_filename[:max_value]
+			list_filesize = list_filesize[:max_value]
+
+		plt = self.plotext_filesize.plt
+		plt.clear_data()
+		plt.bar(list_filename,list_filesize, orientation="horizontal", width=3/5)
+		plt.xlim(0,max(list_filesize))
+		plt.title("File size in project")
+		plt.show()
+		self.plotext_filesize.refresh()
+
+
 	def load_data_extension(self):
 		#get extension data in current project data
 		if self.current_project_name == None:
@@ -47,7 +131,6 @@ class ASPC_GUI:
 		plt.ylim(0,max(extension_count_list)*1.5)
 		plt.title("Extension ratio in project - %s"%self.current_project_name)
 		plt.show()
-
 		self.plotext_extension.refresh()
 
 	def load_data_compression(self):
