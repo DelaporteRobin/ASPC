@@ -12,6 +12,14 @@ described soon...
 - integrate relevance checking of a file with multiple versions, based on the last date of use of each version
 - make visible in tree archived files
 
+### FEATURES ROADMAP
+- link existing archive for new project?
+- improve markdown display (checkbox + graph)
+- create asset manager
+- move archive?
+- improve TUI
+- improve config file
+
 ## DOCUMENTATION
 available soon...
 

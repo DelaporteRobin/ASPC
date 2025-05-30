@@ -7,7 +7,7 @@ import traceback
 
 from textual.app import App, ComposeResult
 from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-from textual.widgets.option_list import Option, Separator
+#from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen 
 from textual import events
@@ -194,11 +194,22 @@ class ASPC_UTILS:
 		try:
 			with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
 				json.dump(self.app.project_data, save_file,indent=4)
+		except AttributeError:
+			with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
+				json.dump(self.project_data, save_file, indent=4)
+
 		except Exception as e:
-			self.app.message_function("Impossible to save the data file", "error")
-			self.app.message_function(traceback.format_exc(), "error")
+			try:
+				self.app.message_function("Impossible to save the data file", "error")
+				self.app.message_function(traceback.format_exc(), "error")
+			except AttributeError:
+				self.message_function("Impossible to save the data file", "error")
+				self.message_function(traceback.format_exc(), "error")
 		else:
-			self.app.message_function("Project data file saved", "success")
+			try:
+				self.app.message_function("Project data file saved", "success")
+			except AttributeError:
+				self.message_function("Project data file saved", "success")
 
 
 
@@ -209,6 +220,11 @@ class ASPC_UTILS:
 				"checkbox_file_children":True,
 				"checkbox_find_folder":False,
 				"checkbox_file_gradient":False,
+				"checkbox_update_project":False,
+				"checkbox_update_folder":False,
+				"checkbox_update_file":False,
+				"checkbox_update_archive":True,
+				"checkbox_show_archived":True,
 			},
 			"COLOR": {
 				"notification":"#edff3e",

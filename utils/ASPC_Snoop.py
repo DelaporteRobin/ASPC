@@ -12,6 +12,7 @@ import bisect
 import heapq
 import traceback
 import queue
+import zipfile
 
 from pathlib import Path
 from termcolor import *
@@ -54,6 +55,7 @@ class ASPC_SNOOP():
 			self.data_global = manager.dict()
 			self.scan_global_data = manager.dict()
 			self.data_folder = manager.dict()
+			self.data_extension = manager.dict()
 			self.data_file = manager.dict()
 			self.data_file_size = manager.list()
 			self.data_file_life = manager.list()
@@ -112,6 +114,7 @@ class ASPC_SNOOP():
 				"DATA_FILE_SIZE":list(self.data_file_size_list),
 				"DATA_FILE_LIFE":list(self.data_file_life_list),
 				"DATA_FILE_MODIF":list(self.data_file_modif_list),
+				"DATA_FILE_EXTENSION":dict(self.data_extension),
 				"DATA_ITEM_SIZE":[],
 				"DATA_CHILDREN_SIZE":[],
 			}
@@ -186,6 +189,25 @@ class ASPC_SNOOP():
 				content[str(root_folder)]["ARCHIVE_PATH"] = archive_path
 				content[str(root_folder)]["ARCHIVE_LOG"] = archive_log
 				print(colored("Archive path and log detected for project", "cyan"))
+
+				#reinject archived elements in data folder
+				#try to open the archive
+				print(colored("Try to inject archived content", "cyan"))
+				try:
+					with zipfile.ZipFile(content[str(root_folder)]["ARCHIVE_PATH"], mode="r") as archive:
+						for file in archive.infolist():
+							filepath=file.filename
+							print("\tinjecting %s"%os.path.basename(filepath))
+							filefolder=os.path.join(root_folder,os.path.dirname(filepath)).replace("/", "\\")
+							#get the folder dictionnary
+							if "ARCHIVED_LIST" not in content[str(root_folder)]["DATA_FOLDER"][filefolder]:
+								content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"] = []
+							content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"].append(os.path.basename(filepath))
+				except Exception as e:
+					print(colored("Impossible to inject archived elements", "red"))
+					print(colored(traceback.format_exc(), "red"))
+
+
 
 
 
@@ -318,6 +340,24 @@ class ASPC_SNOOP():
 							file_modification = datetime.fromtimestamp(os.path.getmtime(os.path.join(folder,item))).strftime("%Y-%m-%d %H:%M:%S")
 
 
+							#update the extension dictionnary
+							file_extension = os.path.splitext(item)[1]
+							#check if the key exists in dictionnary
+							if file_extension not in self.data_extension:
+								self.data_extension[file_extension] = {
+									"COUNT":0,
+									"FILE_LIST":[],
+									"SIZE":0
+								}
+							#update values with the current file
+							extension_data = self.data_extension[file_extension]
+							extension_data["COUNT"]+=1
+							extension_data["FILE_LIST"].append(os.path.join(folder,item))
+							extension_data["SIZE"]+=file_size
+							#update the new dictionnary
+							self.data_extension[file_extension] = extension_data
+							
+							
 							
 
 							#and lightest file

@@ -18,7 +18,12 @@
         "checkbox_archive_filter_keyword": true,
         "checkbox_filter_fromselection": false,
         "checkbox_archive_filter_absolutekeyword": false,
-        "checkbox_archive_filter_exclusekeyword": false
+        "checkbox_archive_filter_exclusekeyword": false,
+        "checkbox_update_project": true,
+        "checkbox_update_folder": false,
+        "checkbox_update_file": true,
+        "checkbox_update_archive": true,
+        "checkbox_show_archived": true
     },
     "COLOR": {
         "notification": "#edff3e",

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from textual.app import App, ComposeResult
 from textual.widgets import Tree, ProgressBar, Input, RadioSet, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-from textual.widgets.option_list import Option, Separator
+#from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen, ModalScreen 
 from textual.await_complete import AwaitComplete

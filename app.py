@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from textual.app import App, ComposeResult
-from textual.widgets import Tree, ProgressBar, Input, RadioSet, MarkdownViewer, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-from textual.widgets.option_list import Option, Separator
+from textual.widgets import Sparkline, Tree, ProgressBar, Input, RadioSet, MarkdownViewer, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+#from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen, ModalScreen
 from textual.await_complete import AwaitComplete
@@ -21,6 +21,9 @@ from textual.errors import TextualError
 from textual.widgets._list_item import ListItem
 from textual.widget import AwaitMount, Widget
 from textual.binding import Binding
+#import textual_pyfiglet
+from textual_pyfiglet import FigletWidget
+from textual_plotext import PlotextPlot
 
 
 from pathlib import Path
@@ -153,7 +156,8 @@ class ASPC_HOMEPAGE(ModalScreen):
 		with Horizontal(id= "homepage_horizontal_container"):
 			with Vertical(id = "homepage_vertical_container"):
 				
-				yield Static(pyfiglet.figlet_format("AUSPICIOUS", font=ASCII_FONT_HOMEPAGE), classes="static_title_homepage")
+				#yield Static(pyfiglet.figlet_format("AUSPICIOUS", font=ASCII_FONT_HOMEPAGE), classes="static_title_homepage")
+				yield FigletWidget("AUSPICIOUS", font=ASCII_FONT_HOMEPAGE, justify="center", colors=["$primary", "$secondary", "$background","$panel"], animate=True, gradient_quality=30, id="homepage_title")
 
 				with Vertical(id = "homepage_info_container"):
 					yield Label(str("AUSPICIOUS v%s"%VERSION), classes="homepage_label_info")
@@ -301,7 +305,8 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		#MULTIPROCESSING MODE
 		#create instance of the archiving class
 		with self.app.suspend():
-			fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
+			#fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
+			fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.project_data)
 			returned_dictionnary = fill_archive.run()
 			os.system("pause")
 		
@@ -417,6 +422,13 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 	def __init__(self):
 		super().__init__()
 
+
+		#load visual themes in the application
+		#apply the theme specified in config file
+		for theme in THEME_REGISTRY:
+			self.register_theme(theme)
+		self.theme = THEME
+
 		self.global_root_path = Path("/")
 		self.global_log = []
 		self.global_log_backup = []
@@ -530,11 +542,12 @@ Global project informations
 						self.checkbox_file_children = Checkbox("Only folder children's", id="checkbox_file_children")
 						self.checkbox_file_gradient = Checkbox("Display size gradient", id="checkbox_size_gradient")
 						self.checkbox_file_similarity = Checkbox("Display by similarity", id="checkbox_file_similarity")
-
+						self.checkbox_show_archived = Checkbox("Show archived content", id="checkbox_show_archived")
 						yield self.checkbox_file_similarity
 						yield self.checkbox_file_size
 						yield self.checkbox_file_children
 						yield self.checkbox_file_gradient
+						yield self.checkbox_show_archived
 						
 
 					self.progress_files = ProgressBar(id="progress_files")
@@ -595,8 +608,8 @@ Global project informations
 									self.checkbox_archive_get_below = Checkbox("Select files below", id="checkbox_archive_get_below")
 									self.checkbox_archive_get_same = Checkbox("Select files in the same folder", id="checkbox_archive_get_same")
 
-									yield self.checkbox_archive_get_below
-									yield self.checkbox_archive_get_same
+									#yield self.checkbox_archive_get_below
+									#yield self.checkbox_archive_get_same
 
 								self.listview_archive_content = MultiListView(id="listview_archive_content")
 								yield self.listview_archive_content
@@ -613,17 +626,36 @@ Global project informations
 						self.markdown_project = Markdown(id = "markdown_project")
 						yield self.markdown_project
 						"""
-						with Collapsible(title = "Markdown update settings", id="collapsible_markdown_settings"):
-							self.checkbox_update_project = Checkbox("Update when selecting project", id="checkbox_update_project")
-							self.checkbox_update_folder = Checkbox("Update when selecting folder", id="checkbox_update_folder")
-							self.checkbox_update_file = Checkbox("Update when selecting file", id = "checkbox_update_file")
+						with VerticalScroll(id = "verticalscroll_collapsible_graphdata"):
+							with Collapsible(title = "Markdown Data", id="collapsible_data_markdown"):
+								with Collapsible(title = "Markdown update settings", id="collapsible_markdown_settings"):
+									self.checkbox_update_project = Checkbox("Update when selecting project", id="checkbox_update_project")
+									self.checkbox_update_folder = Checkbox("Update when selecting folder", id="checkbox_update_folder")
+									self.checkbox_update_file = Checkbox("Update when selecting file", id = "checkbox_update_file")
+									self.checkbox_update_archive = Checkbox("Show archive informations", id="checkbox_update_archive")
+									yield self.checkbox_update_project
+									yield self.checkbox_update_folder
+									yield self.checkbox_update_file
+									yield self.checkbox_update_archive
 
-							yield self.checkbox_update_project
-							yield self.checkbox_update_folder
-							yield self.checkbox_update_file
+								self.markdown_viewer = MarkdownViewer(self.markdown_base_content, id="markdown_viewer")
+								yield self.markdown_viewer
 
-						self.markdown_viewer = MarkdownViewer(self.markdown_base_content, id="markdown_viewer")
-						yield self.markdown_viewer
+							with Collapsible(title = "Graph Data", id="collapsible_data_graph"):
+
+								#self.sparkline_extension = Sparkline(id="sparkline_extension")
+								#self.sparkline_extension.border_title = "Extension data"
+								self.plotext_extension = PlotextPlot(id="plotext_extension")
+								yield self.plotext_extension
+								yield Button("Show extension Data", id="button_graph_extension", classes="button_main")
+
+								self.plotext_archive_compression = PlotextPlot(id="plotext_archive_compression")
+								yield self.plotext_archive_compression
+								yield Button("Show Compression\nData", id="button_graph_compression", classes="button_main")
+
+								self.plotext_project_extension_size = PlotextPlot(id="plotext_extension_size")
+								yield self.plotext_project_extension_size
+								yield Button("Show extension ratio in project", id="button_extension_size", classes="button_main")
 
 						
 						
@@ -642,11 +674,7 @@ Global project informations
 
 	def on_mount(self) -> None:
 		
-		#load visual themes in the application
-		#apply the theme specified in config file
-		for theme in THEME_REGISTRY:
-			self.register_theme(theme)
-		self.theme = THEME
+		
 
 		#self.read_log_thread = threading.Thread(target=self.read_log_function, daemon=True,args=())
 		#self.read_log_thread.start()
@@ -678,7 +706,8 @@ Global project informations
 		#install screens
 		self.install_screen(ASPC_HOMEPAGE(), name="ASPC_HOMEPAGE")
 		#push the homepage screen
-		#self.push_screen("ASPC_HOMEPAGE")
+		#show_homepage
+		self.push_screen("ASPC_HOMEPAGE")
 
 
 
@@ -750,22 +779,6 @@ Global project informations
 
 		
 
-
-
-
-
-
-
-
-
-
-			
-			
-
-
-
-
-
 	def get_tree_children(self, path):
 		for children in path.children:
 			self.message_function(children.label)
@@ -800,6 +813,7 @@ Global project informations
 
 
 
+
 	def check_for_archive_create_dismiss_function(self, quit_value: bool | None) -> None:
 		#self.message_function("dismiss value : %s"%quit_value)
 		if quit_value == False:
@@ -815,6 +829,15 @@ Global project informations
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "test_log":
 			self.message_function(self.current_folder_selected)
+
+		if event.button.id == "button_graph_extension":
+			self.load_data_extension()
+
+		if event.button.id == "button_graph_compression":
+			self.load_data_compression()
+
+		if event.button.id == "button_extension_size":
+			self.load_data_project_extension_ratio()
 
 		if event.button.id == "button_addarchive_applyfilter":
 			
@@ -881,7 +904,7 @@ Global project informations
 				#print("Waiting...")
 				#sleep(4)
 				#UPDATE THE DATA FILE 
-				ASPC_SNOOP(self.current_project_name)
+				#ASPC_SNOOP(self.current_project_name)
 
 				os.system("pause")
 
@@ -1113,6 +1136,10 @@ Global project informations
 
 	def on_list_view_selected(self, event: ListView.Selected) -> None:
 		#self.message_function("%s\n\n"%("_"*120), "message", False)
+
+		if event.control.id in ["listview_project", "listview_folders", "listview_files"]:
+			self.update_markdown_function()
+
 		if event.control.id == "listview_projectlist":
 			#update the dictory tree starting folder
 			self.input_global_root_path.value = self.project_list[self.listview_projectlist.index][1]
@@ -1122,7 +1149,7 @@ Global project informations
 			#call the threading checking function
 			self.check_for_folder_process_function()
 			self.check_for_archive_content_function()
-			self.update_markdown_function("project")
+			
 
 
 
@@ -1176,24 +1203,6 @@ Global project informations
 			self.check_for_file_process_function()
 			#call function to highlight children if highlight children is checked
 			self.highlight_folder_children_function()
-			self.update_markdown_function("folder")
-
-
-
-		if event.control.id == "listview_files":
-			self.update_markdown_function("file")
-
-
-
-
-
-
-
-
-			
-
-			
-
 
 
 

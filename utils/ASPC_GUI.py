@@ -1,12 +1,13 @@
 from textual.app import App, ComposeResult
 from textual.widgets import Tree, ProgressBar, Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-from textual.widgets.option_list import Option, Separator
+#from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen 
 from textual import events
 from textual import work
 from textual.containers import Horizontal, Vertical, Container, VerticalScroll
 from textual import on
+from textual_plotext import PlotextPlot
 
 from pathlib import Path
 from time import sleep
@@ -27,6 +28,107 @@ from utils.ASPC_Widgets import MultiListView, MultiListItem
 
 
 class ASPC_GUI:
+
+	def load_data_extension(self):
+		#get extension data in current project data
+		if self.current_project_name == None:
+			self.message_function("No project selected", "error")
+			return
+		current_project_extension_data = self.current_project_data["DATA_FILE_EXTENSION"]
+		extension_name_list = list(current_project_extension_data.keys())
+		extension_count_list = []
+		for extension_name, extension_data in current_project_extension_data.items():
+			extension_count_list.append(extension_data["COUNT"])
+
+		#clear the content of the current plotext
+		plt = self.plotext_extension.plt  
+		plt.clear_data()
+		plt.bar(extension_name_list, extension_count_list)
+		plt.ylim(0,max(extension_count_list)*1.5)
+		plt.title("Extension ratio in project - %s"%self.current_project_name)
+		plt.show()
+
+		self.plotext_extension.refresh()
+
+	def load_data_compression(self):
+		#check if project is selected
+		if self.current_project_name == None:
+			self.message_function("No project selected", "error")
+			return
+		#check if archive is defined 
+		if "ARCHIVE_PATH" not in self.current_project_data:
+			self.message_function("No archive defined for this project", "error")
+			return
+		#read the content of the archive to create the dictionnary
+		#open the archive
+		archive_extension_dictionnary = {}
+	
+		with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as project_archive:
+			project_archive_data = project_archive.infolist()
+
+			for file_data in project_archive_data:
+				file_extension = os.path.splitext(file_data.filename)[1]
+
+				if file_extension not in archive_extension_dictionnary:
+					archive_extension_dictionnary[file_extension] = {
+						"LIST_COMPRESSED_SIZE":[],
+						"LIST_ORIGINAL_SIZE":[]
+					}
+				#update with size informations
+				archive_extension_dictionnary[file_extension]["LIST_COMPRESSED_SIZE"].append(file_data.compress_size/1024/1024)
+				archive_extension_dictionnary[file_extension]["LIST_ORIGINAL_SIZE"].append(file_data.file_size/1024/1024)
+
+		#create the extension list for the plotext
+		plotext_list_extension_name = []
+		plotext_list_extension_average_compressed = []
+		plotext_list_extension_average_original = []
+
+
+		for extension_name, extension_data in archive_extension_dictionnary.items():
+			plotext_list_extension_name.append(extension_name)
+
+			#get average values for compressed and original size per extension
+			plotext_list_extension_average_compressed.append(sum(extension_data["LIST_COMPRESSED_SIZE"])/len(extension_data["LIST_COMPRESSED_SIZE"]))
+			plotext_list_extension_average_original.append(sum(extension_data["LIST_ORIGINAL_SIZE"])/len(extension_data["LIST_ORIGINAL_SIZE"]))
+
+		self.message_function("ARCHIVE AVERAGE COMPRESSION RATIO:", "notification")
+		for i in range(len(plotext_list_extension_average_compressed)):
+			self.message_function("      %s → %s - %s"%(plotext_list_extension_name[i].upper(),plotext_list_extension_average_original[i], plotext_list_extension_average_compressed[i]), "message", False)
+		#create multiple plotext graph
+		plt = self.plotext_archive_compression.plt
+		plt.clear_data()
+		plt.multiple_bar(plotext_list_extension_name, [plotext_list_extension_average_original, plotext_list_extension_average_compressed], labels=["original", "compressed"])
+		plt.title("Archive size comparizon graph - %s (Mo)"%self.current_project_name)
+		plt.show()
+		self.plotext_archive_compression.refresh()
+
+	def load_data_project_extension_ratio(self):
+		if self.current_project_name == None:
+			self.message_function("No project selected", "error")
+			return
+
+		#get all files in project
+		extension_dictionnary = {}
+		for extension_name, extension_data in self.current_project_data["DATA_FILE_EXTENSION"].items():
+			if extension_name not in extension_dictionnary:
+				extension_dictionnary[extension_name] = 0
+			for file in extension_data["FILE_LIST"]:
+				#if (os.path.isfile(file)==True) and (file in self.current_project_data["DATA_FILE_SIZE"]):
+				#if self.current_project_data["DATA_FILE_SIZE"][file]!=0:
+				extension_dictionnary[extension_name]+=self.current_project_data["DATA_FILES"][file]["FILESIZE"]/1024/1024
+
+		for ext_name, ext_value in extension_dictionnary.items():
+			self.message_function("     %s → %s"%(ext_name, ext_value),"message",False)
+		
+		plt = self.plotext_project_extension_size.plt
+		plt.clear_data()
+		plt.bar(list(extension_dictionnary.keys()), list(extension_dictionnary.values()))
+		plt.title("Extension ratio in project (Mo)")
+		#plt.ylim(0,max(list(extension_dictionnary.values()))*1.5)
+		plt.show()
+		self.plotext_project_extension_size.refresh()
+		
+
 
 	def update_markdown_function(self, mode=None):
 
@@ -72,12 +174,12 @@ class ASPC_GUI:
 
 		markdown_general = ""
 
-		#if mode == "project":
-		project_name = os.path.basename(self.current_project_name)
-		project_size = self.current_project_data["DATA_FOLDER"][self.current_project_name]["CHILDREN_SIZE"] / (1024 ** 3)
-		number_of_files = len(list(self.current_project_data["DATA_FILES"].keys()))
-		number_of_folders = len(list(self.current_project_data["DATA_FOLDER"].keys()))-1
-		markdown_general += """
+		if self.checkbox_update_project.value==True:
+			project_name = os.path.basename(self.current_project_name)
+			project_size = self.current_project_data["DATA_FOLDER"][self.current_project_name]["CHILDREN_SIZE"] / (1024 ** 3)
+			number_of_files = len(list(self.current_project_data["DATA_FILES"].keys()))
+			number_of_folders = len(list(self.current_project_data["DATA_FOLDER"].keys()))-1
+			markdown_general += """
 # Project global informations
 - project name : %s
 - project path : %s
@@ -88,48 +190,49 @@ class ASPC_GUI:
 
 
 		#TRY TO UPDATE FOR ARCHIVE IF ARCHIVE PATH IS DEFINED
-		if "ARCHIVE_PATH" in self.current_project_data:
-			markdown_general += "# Global archive informations"
-			try:
-				with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as project_archive:
+		if self.checkbox_update_archive.value==True:
+			if "ARCHIVE_PATH" in self.current_project_data:
+				markdown_general += "# Global archive informations"
+				try:
+					with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as project_archive:
 
-					archive_size = os.path.getsize(self.current_project_data["ARCHIVE_PATH"]) / (1024 ** 3)
-					archive_filesize_contained = 0
-					archive_compresssize_contained = 0
+						archive_size = os.path.getsize(self.current_project_data["ARCHIVE_PATH"]) / (1024 ** 3)
+						archive_filesize_contained = 0
+						archive_compresssize_contained = 0
 
-					number_of_archive_files = len(project_archive.infolist())
+						number_of_archive_files = len(project_archive.infolist())
 
-					archive_file_max_size = {
-						"FILEPATH":None,
-						"FILESIZE":float("-inf"),
-						"FILECOMPRESS":0
+						archive_file_max_size = {
+							"FILEPATH":None,
+							"FILESIZE":float("-inf"),
+							"FILECOMPRESS":0
+							}
+						archive_file_min_size = {
+							"FILEPATH":None,
+							"FILESIZE":float("inf"),
+							"FILECOMPRESS":0
 						}
-					archive_file_min_size = {
-						"FILEPATH":None,
-						"FILESIZE":float("inf"),
-						"FILECOMPRESS":0
-					}
 
-					archive_path = self.current_project_data["ARCHIVE_PATH"]
-					archive_log = self.current_project_data["ARCHIVE_LOG"]
-					archive_creation = datetime.datetime.fromtimestamp(os.path.getctime(self.current_project_data["ARCHIVE_PATH"]))
-					archive_modification = datetime.datetime.fromtimestamp(os.path.getmtime(self.current_project_data["ARCHIVE_PATH"]))
+						archive_path = self.current_project_data["ARCHIVE_PATH"]
+						archive_log = self.current_project_data["ARCHIVE_LOG"]
+						archive_creation = datetime.datetime.fromtimestamp(os.path.getctime(self.current_project_data["ARCHIVE_PATH"]))
+						archive_modification = datetime.datetime.fromtimestamp(os.path.getmtime(self.current_project_data["ARCHIVE_PATH"]))
 
-					#get the size informations from file info in archive
-					for info in project_archive.infolist():
-						archive_filesize_contained += info.file_size
-						archive_compresssize_contained += info.compress_size
+						#get the size informations from file info in archive
+						for info in project_archive.infolist():
+							archive_filesize_contained += info.file_size
+							archive_compresssize_contained += info.compress_size
 
-						if info.file_size > archive_file_max_size["FILESIZE"]:
-							archive_file_max_size["FILEPATH"] = info.filename
-							archive_file_max_size["FILESIZE"] = info.file_size
-							archive_file_max_size["FILECOMPRESS"] = info.compress_size
-						if info.file_size <= archive_file_min_size["FILESIZE"]:
-							archive_file_min_size["FILEPATH"] = info.filename 
-							archive_file_min_size["FILESIZE"] = info.file_size
-							archive_file_min_size["FILECOMPRESS"] = info.compress_size
+							if info.file_size > archive_file_max_size["FILESIZE"]:
+								archive_file_max_size["FILEPATH"] = info.filename
+								archive_file_max_size["FILESIZE"] = info.file_size
+								archive_file_max_size["FILECOMPRESS"] = info.compress_size
+							if info.file_size <= archive_file_min_size["FILESIZE"]:
+								archive_file_min_size["FILEPATH"] = info.filename 
+								archive_file_min_size["FILESIZE"] = info.file_size
+								archive_file_min_size["FILECOMPRESS"] = info.compress_size
 
-					markdown_general += """
+						markdown_general += """
 - archive path : %s
 - archive log path : %s
 - archive creation date : %s
@@ -150,30 +253,31 @@ class ASPC_GUI:
 - filesize : %s Go
 - compresssize : %s Go
 """ % (archive_path, archive_log, archive_creation, archive_modification, archive_size, archive_filesize_contained, archive_compresssize_contained, number_of_archive_files, archive_file_min_size["FILEPATH"], archive_file_min_size["FILESIZE"]/(1024**3), archive_file_min_size["FILECOMPRESS"]/(1024**3), archive_file_max_size["FILEPATH"], archive_file_max_size["FILESIZE"]/(1024**3), archive_file_max_size["FILECOMPRESS"]/(1024**3))
-			except FileNotFoundError:
-				markdown_general += "\n\nDefine an archive path to display archive informations"
-				self.message_function("Archive not defined for this project", "notification")	
-			except Exception as e:
-				markdown_general += "\n\nImpossible to get data from archive\n%s"%traceback.format_exc()
-				self.message_function("Impossible to get data from archive\n%s"%traceback.format_exc(), "error")
+				except FileNotFoundError:
+					markdown_general += "\n\nDefine an archive path to display archive informations"
+					self.message_function("Archive not defined for this project", "notification")	
+				except Exception as e:
+					markdown_general += "\n\nImpossible to get data from archive\n%s"%traceback.format_exc()
+					self.message_function("Impossible to get data from archive\n%s"%traceback.format_exc(), "error")
 
 
 
 
 		#try to get the selection of folder
-		markdown_general += "# Informations about selected folder"
-		try:
-			folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
-			folder_data = self.current_project_data["DATA_FOLDER"][folder_selected]
+		if self.checkbox_update_folder.value==True:
+			markdown_general += "# Informations about selected folder"
+			try:
+				folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
+				folder_data = self.current_project_data["DATA_FOLDER"][folder_selected]
 
-			item_contained = len(folder_data["ITEMS_LIST"])
-			file_contained = len(folder_data["FILE_LIST"])
-			folder_contained = len(folder_data["FOLDER_LIST"])
+				item_contained = len(folder_data["ITEMS_LIST"])
+				file_contained = len(folder_data["FILE_LIST"])
+				folder_contained = len(folder_data["FOLDER_LIST"])
 
-			size_contained = folder_data["ITEMS_SIZE"] / (1024 ** 3)
-			size_children = folder_data["CHILDREN_SIZE"] / (1024 ** 3)
+				size_contained = folder_data["ITEMS_SIZE"] / (1024 ** 3)
+				size_children = folder_data["CHILDREN_SIZE"] / (1024 ** 3)
 
-			markdown_general += """
+				markdown_general += """
 - selected folder : %s
 - number of items contained : %s
 - number of files contained : %s
@@ -184,55 +288,55 @@ class ASPC_GUI:
 - size contained in folder children : %s
 """%(folder_selected, item_contained, file_contained, folder_contained, size_contained, size_children)
 
-			if type(folder_data["HEAVIEST_FILE"]) == str:
-				heaviest_file = folder_data["HEAVIEST_FILE"]
-				heaviest_file_size = self.current_project_data["DATA_FILES"][heaviest_file]["FILESIZE"] / (1024 ** 3)
+				if type(folder_data["HEAVIEST_FILE"]) == str:
+					heaviest_file = folder_data["HEAVIEST_FILE"]
+					heaviest_file_size = self.current_project_data["DATA_FILES"][heaviest_file]["FILESIZE"] / (1024 ** 3)
 
-				markdown_general += """
+					markdown_general += """
 ## Largest file in folder
 - largest filename : %s
 - largest file size : %s Go
 """%(heaviest_file, heaviest_file_size)
 
-			if type(folder_data["LIGHTEST_FILE"]) == str:
-				lightest_file = folder_data["LIGHTEST_FILE"]
-				lightest_file_size = self.current_project_data["DATA_FILES"][lightest_file]["FILESIZE"] / (1024 ** 3)
+				if type(folder_data["LIGHTEST_FILE"]) == str:
+					lightest_file = folder_data["LIGHTEST_FILE"]
+					lightest_file_size = self.current_project_data["DATA_FILES"][lightest_file]["FILESIZE"] / (1024 ** 3)
 
-				markdown_general += """
+					markdown_general += """
 ## Lightest file in folder
 - lightest filename : %s
 - lightest file size : %s Go
 """%(heaviest_file, heaviest_file_size)
 
-		except TypeError:
-			markdown_general += "\n\nSelect a folder to display data"
-			self.message_function("You must select a folder to display data", "notification")
+			except TypeError:
+				markdown_general += "\n\nSelect a folder to display data"
+				self.message_function("You must select a folder to display data", "notification")
 
-		except Exception as e:
-			markdown_general += "\n\nImpossible to get data from selected folder"
-			self.message_function("Impossible to get data from folder\n%s"%traceback.format_exc(), "error")
-
-
+			except Exception as e:
+				markdown_general += "\n\nImpossible to get data from selected folder"
+				self.message_function("Impossible to get data from folder\n%s"%traceback.format_exc(), "error")
 
 
-		markdown_general += "# Informations about the selected file"
-		try:
-			filename = self.current_file_list[self.listview_files.index]
-			filepath = os.path.join(self.current_project_name, self.current_folder_selected)
 
-			filedata = self.current_project_data["DATA_FILES"][os.path.join(filepath, filename)]
+		if self.checkbox_update_file.value==True:
+			markdown_general += "# Informations about the selected file"
+			try:
+				filename = self.current_file_list[self.listview_files.index]
+				filepath = os.path.join(self.current_project_name, self.current_folder_selected)
 
-			markdown_general += """
+				filedata = self.current_project_data["DATA_FILES"][os.path.join(filepath, filename)]
+
+				markdown_general += """
 - filename: %s
 - filepath: %s 
 - file size: %s Go
 - file creation date: %s
 """%(filename, filepath, filedata["FILESIZE"]/(1024**3), filedata["FILECREATION"])
-		except TypeError:
-			markdown_general += "\n\nSelect a file to display data"
-			self.message_function("You must select a file to display data", "notification")
-		except KeyError:
-			self.message_function("Impossible to find data about file", "error")
+			except TypeError:
+				markdown_general += "\n\nSelect a file to display data"
+				self.message_function("You must select a file to display data", "notification")
+			except KeyError:
+				self.message_function("Impossible to find data about file", "error")
 
 
 
@@ -505,10 +609,18 @@ class ASPC_GUI:
 				self.message_function("Getting from data file")
 				self.current_file_list = list(self.current_project_data["DATA_FILES"].keys())
 
+
+
+
+
 			
 			self.message_function("Updating file list...", "notification")
 
-			self.progress_files.update(total = len(self.current_file_list))
+
+			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
+				self.progress_files.update(total = len(self.current_file_list) + len(self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]))
+			else:
+				self.progress_files.update(total = len(self.current_file_list))
 			#self.call_from_thread(self.progress_folder.update, len(self.current_file_list))
 
 			
@@ -596,6 +708,16 @@ class ASPC_GUI:
 					list_listitem.append(MultiListItem(label, classes="separator"))
 				else:
 					list_listitem.append(MultiListItem(label))
+				self.progress_files.advance(1)
+
+
+			#if display archived content is enabled!!
+			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
+				for archived_file in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]:
+					archived_label = Label(os.path.basename(file))
+					archived_label.styles.color = "gray"
+					list_listitem.append(MultiListItem(archived_label))
+					self.current_file_list.append(archived_file)
 				self.progress_files.advance(1)
 
 			self.message_function("Refreshing file list...\nThis process can take some while", "notification")

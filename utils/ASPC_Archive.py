@@ -3,7 +3,7 @@
 
 from textual.app import App, ComposeResult
 from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-from textual.widgets.option_list import Option, Separator
+#from textual.widgets.option_list import Option, Separator
 from textual.widgets.selection_list import Selection
 from textual.screen import Screen, ModalScreen
 from textual import events
@@ -229,12 +229,13 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 
 
 class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
-	def __init__(self, selection_to_archive, current_project, current_project_data, method = zipfile.ZIP_LZMA):
+	def __init__(self, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA):
 
 
 		self.current_project = current_project 
 		self.selection_to_archive = selection_to_archive
-		self.current_project_data = current_project_data
+		self.current_project_data = project_data[current_project]
+		self.project_data = project_data
 		self.method = method
 		print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
 
@@ -379,18 +380,10 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					continue 
 				
 
-
-
-
-
 			print("FILE QUEUE SIZE : %s"%self.file_queue.qsize())
 			if self.file_queue.empty()==True:
 				print(colored("The file queue to archive is empty\nArchiving process stopped", "red"))
 				return
-
-
-
-
 
 
 			#open the zipfile manager for archive
@@ -404,8 +397,11 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				self.ns.total_count = folder_counter + file_counter
 				self.shared_current_project_data = manager.dict(self.current_project_data)
 				self.new_archived_file_list = manager.list()
+				#convert current project data as mp dictionnary
+				#self.mp_current_project_data = manager.dict
 
 				#create multiprocesses
+				#CREATE TEMP ARCHIVE PROCESS
 				process_pool = []
 				temp_archive_list = []
 				for i in range(mp.cpu_count()):
@@ -425,32 +421,47 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 				#CONVERT BACK THE CURRENT PROJECT DATA
 				self.current_project_data = dict(self.shared_current_project_data)
+				#udpate the global project data dictionnary
+				self.project_data[self.current_project] = self.current_project_data 
+				#save the global project data dictionnary in file
+				self.save_dictionnary_function()
 
 				
-
+			
 
 
 				#MERGING ALL ARCHIVES
 				print(colored("\nMerging TEMP archives ...", "cyan"))
-				with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=self.method, compresslevel=9) as final_archive:
-					for temp_archive in temp_archive_list:
-						print("\n\t%s"%temp_archive)
-						try:
-							with zipfile.ZipFile(temp_archive, "r") as read_temp_archive:
-								for info in read_temp_archive.infolist():
-									print("\t\treading %s"%info.filename)
-									with read_temp_archive.open(info) as writer:
-										final_archive.writestr(info, writer.read())
-						except FileNotFoundError:
-							print(colored("\tTemp archive not existing", "red"))
+			
+				#self.archive_stored_filelist = []
+				#with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=self.method, compresslevel=9) as final_archive:
+				for temp_archive in temp_archive_list:
+					print("\n\t%s"%temp_archive)
+					try:
+						with zipfile.ZipFile(temp_archive, "r") as read_temp_archive:
+							for info in read_temp_archive.infolist():
+								print("\t\treading %s"%info.filename)
+								try:
+									with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=self.method, compresslevel=9) as final_archive:
+										with read_temp_archive.open(info) as writer:
+											final_archive.writestr(info, writer.read())
+										
+								except Exception as e:
+									#try to open the archive as stored (no compression applied)
+									with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=zipfile.ZIP_STORED) as final_archive:
+										with read_temp_archive.open(info) as writer:
+											final_archive.writestr(info, writer.read())
 
-						#remove the temp archive
-						try:
-							os.remove(temp_archive)
-						except Exception as e:
-							print(colored("\tImpossible to remove archive", "red"))
-						else:
-							print(colored("\tArchive removed successfully", "green"))
+					except FileNotFoundError:
+						print(colored("\tTemp archive not existing", "red"))
+
+					#remove the temp archive
+					try:
+						os.remove(temp_archive)
+					except Exception as e:
+						print(colored("\tImpossible to remove archive", "red"))
+					else:
+						print(colored("\tArchive removed successfully", "green"))
 
 
 
@@ -508,6 +519,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				#UPDATE THE DATA FILE FOR THIS PROJECT
 				#AFTER REMOVING ALL FILES
 				#create instance of the class
+				"""
 				print(colored("\n\nScanning the project to gather new informations...\nCalling the scanning class...", "cyan"))
 				try:
 					ASPC_SNOOP(self.current_project)
@@ -517,13 +529,15 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					print(colored("\n\nFatal error happened while scanning project\nImpossible to update project informations\n%s"%traceback.format_exc(), "red"))
 				else:
 					print(colored("\n\nProject scan terminated\nNew informations saved", "green"))
+				"""
 
 
 
 				#UPDATE LAST INFORMATIONS IN DATA SET
 				self.archive_dataset["ARCHIVESIZE_AFTER"] = os.path.getsize(self.current_project_data["ARCHIVE_PATH"])
-				self.archive_dataset["PROJECTSIZE_AFTER"] = self.current_project_data["DATA_FOLDER"][self.current_project]["CHILDREN_SIZE"]
-
+				#self.archive_dataset["PROJECTSIZE_AFTER"] = self.current_project_data["DATA_FOLDER"][self.current_project]["CHILDREN_SIZE"]
+				#PROJECT SIZE AFTER ARCHIVING IS EQUAL TO THE PROJECT SIZE LESS THE WEIGHT ALL ALL ITEMS ARCHIVED
+				self.archive_dataset["PROJECTSIZE_AFTER"] = self.current_project_data["DATA_FOLDER"][self.current_project]["CHILDREN_SIZE"]-self.archive_dataset["CONTENTSIZE_BEFORE"]
 
 
 				#DISPLAY THE FINAL DATA SET
@@ -566,7 +580,6 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 
 
-
 	def archive_item_worker(self, index, temp_archive, archive_path, project_path, method=zipfile.ZIP_LZMA):
 		while True:
 			try:
@@ -581,6 +594,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 
 					#OPEN THE ZIPFILE ARCHIVE
+					archived=False
 					with zipfile.ZipFile(temp_archive, mode="a", compression=method, compresslevel=9) as archive:
 
 						if os.path.isfile(item_to_archive) == True:
@@ -595,6 +609,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 								self.ns.global_count += 1
 								print(colored("[%s] Impossible to save file : %s"%(index,os.path.basename(item_to_archive)), "red"))
 							else:
+								archived=True
 								self.ns.global_count += 1
 								print(colored("[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
 								
@@ -606,6 +621,25 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 								
 								self.shared_current_project_data["DATA_FILES"] = data_file
 								"""
+
+
+								#update the global project data dictionnnary
+								current_project_data_folder = self.shared_current_project_data["DATA_FOLDER"]
+								current_folder_data = current_project_data_folder[os.path.dirname(item_to_archive)]
+								#remove the file from the folder filelist
+								current_folder_data["FILE_LIST"].remove(os.path.basename(item_to_archive))
+								#check if archive list exists for this folder
+								if "ARCHIVED_LIST" not in current_folder_data:
+									current_folder_data["ARCHIVED_LIST"] = []
+								#add the file to the archive list
+								current_folder_data["ARCHIVED_LIST"].append(os.path.basename(item_to_archive))
+								#update the global dictionnary
+								current_project_data_folder[os.path.dirname(item_to_archive)] = current_folder_data
+								self.shared_current_project_data["DATA_FOLDER"] = current_project_data_folder
+								print(colored("[%s] Archive dictionnary updated for this folder : %s"%(index,os.path.dirname(item_to_archive))))
+
+
+
 
 
 								self.new_archived_file_list.append(item_to_archive)
@@ -626,14 +660,57 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 									print(colored("[%s] File already writen in archive log: %s"%(index,item_to_archive), "red"))
 
 
+								
+
+
 								#update the size amount removed from the main project with archiving (sum of all files archived)
 								self.current_project_data
+
+
+					#display the archive content
+					with zipfile.ZipFile(temp_archive, mode="r") as read_content:
+						for data in read_content.infolist():
+							print(data)
+					self.check_for_overhead_file_function(temp_archive, item_to_archive, Path(item_to_archive).relative_to(Path(project_path)))
+
 
 			except queue.Empty:
 				#print(colored(traceback.format_exc(), "red"))
 				return
 			except Exception as e:
 				print(colored(traceback.format_exc(), "red"))
+
+	def check_for_overhead_file_function(self, archive_path, filepath, archive_filepath):
+		print(colored("\nChecking overheads ...", "cyan"))
+		print("archive path : %s\nfile path : %s"%(archive_path, archive_filepath))
+
+		#try to read the content of the archive
+		overhead=False
+		with zipfile.ZipFile(archive_path, mode="r") as archive:
+			archive_filedata = archive.getinfo((archive_filepath).as_posix())
+			archive_filesize = archive_filedata.file_size
+			archive_compresssize = archive_filedata.compress_size
+
+			if archive_compresssize > archive_filesize:
+				print(colored("Overhead detected for this file!", "red"))
+				overhead=True
+			else:
+				print(colored("No overhead detected for this file!", "green"))
+
+
+		if overhead==True:
+			#remove this file from the archive
+			try:
+				zipdel.delete_from_zip_file(archive_path, archive_filepath)
+			except Exception as e:
+				print(colored("Impossible to remove file from archive", "red"))
+				print(colored(traceback.format_exc(), "red"))
+			else:
+				#rewrite this file in archive without compression
+				print(colored("Trying to rewrite file without compression"))
+				with zipfile.ZipFile(archive_path, mode="a", compression=zipfile.ZIP_STORED) as archive:
+					archive.write(filepath, arcname=archive_filepath)
+				print(colored("File stored in archive successfully (no compression)", "green"))
 
 
 
@@ -700,6 +777,8 @@ class ASPC_ARCHIVE():
 		#get the current project selected
 		#check if the archive path is defined for this project
 		if "ARCHIVE_PATH" in self.current_project_data:
+			self.input_archive_path.value = self.current_project_data["ARCHIVE_PATH"]
+			self.message_function(" ", "message", False)
 			self.message_function("Project archive path : %s"%self.current_project_data["ARCHIVE_PATH"])
 			self.message_function("Project archive log : %s"%self.current_project_data["ARCHIVE_LOG"])
 
@@ -709,6 +788,7 @@ class ASPC_ARCHIVE():
 			if os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==False:
 				self.message_function("Archive doesn't exists yet / anymore", "error")
 			else:
+				self.message_function("Archive file detected in folder", "notification")
 				#get the content of the archive
 				self.current_archive_content.clear()
 				data_file = self.current_project_data["DATA_FILES"]
@@ -786,6 +866,24 @@ class ASPC_ARCHIVE():
 		else:
 			self.app.message_function("No project selected","error")
 			return False
+
+
+
+
+		if overhead==True:
+			#remove this file from the archive
+			try:
+				zipdel.delete_from_zip_file(archive_path, archive_filepath)
+			except Exception as e:
+				print(colored("Impossible to remove file from archive", "red"))
+				print(colored(traceback.format_exc(), "red"))
+			else:
+				#rewrite this file in archive without compression
+				print(colored("Trying to rewrite file without compression"))
+				with open(archive_path, mode="a", compression=zipfile.ZIP_STORED) as archive:
+					archive.write(filepath, arcname=archive_filepath)
+				print(colored("File stored in archive successfully (no compression)", "green"))
+
 
 
 	def check_for_overhead_function(self):
@@ -926,6 +1024,11 @@ class ASPC_ARCHIVE():
 						print(colored("failed to restore file : %s\n%s"%(file_to_restore,traceback.format_exc()), "red"))
 					else:
 						print(colored("file extracted successfully : %s\n\tlocation : %s"%(file_to_restore,filepath_to_restore), "green"))
+						#put back the file in the filelist of the current folder data
+						folder_data = self.current_project_data["DATA_FOLDER"][os.path.dirname(filepath_to_restore).replace("/", "\\")]
+						folder_data["FILE_LIST"].append(os.path.basename(filepath_to_restore))
+						self.current_project_data["DATA_FOLDER"][os.path.dirname(filepath_to_restore)] = folder_data
+						print(colored("File added to folder filelist", "green"))
 
 
 
@@ -943,12 +1046,25 @@ class ASPC_ARCHIVE():
 							print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
 						else:
 							print(colored("file removed from archive : %s"%file_to_restore, "white"))
+							#remove from the archive list for the folder data
+							folder_data = self.current_project_data["DATA_FOLDER"][os.path.dirname(os.path.join(self.current_project_name, file_to_restore)).replace("/", "\\")]
+							if ("ARCHIVED_LIST" in folder_data) and (os.path.basename(file_to_restore) in folder_data["ARCHIVED_LIST"]):
+								folder_data["ARCHIVED_LIST"].remove(os.path.basename(file_to_restore))
+								#udpate the data dictionnary
+								self.current_project_data["DATA_FOLDER"][os.path.dirname(os.path.join(self.current_project_name, file_to_restore))]
+
+
 			else:
 				print(colored("Skipped removing files", "cyan"))
 		except Exception as e:
 			print(colored("Impossible to extract content from archive\n%s"%traceback.format_exc(), "red"))
 			return 
 		else:
+			#update the global data dictionnary
+			self.project_data[self.current_project_name] = self.current_project_data
+			#save the new global dictionnary
+			self.save_dictionnary_function()
+
 			print(colored("Extraction terminated", "green"))
 			return
 

@@ -18,16 +18,15 @@ DOWNTOWN_THEME = Theme(
 
 ABYSS_THEME = Theme(
 	name="abyss",
-	primary="#e15408",
-	secondary="#bbaf99",
-	background="#0f0e0d",
-	surface="#0f0e0d",
+	primary="#ffedb5",
+	secondary="#591e39",
+	background="#1b161c",
 	foreground="#ffffff",
-	panel="#161414",
-	warning="#ff9900",
-	success="#59c337",
-	error="#da4b12",
-	dark=True,
+	surface="#1f1a20",
+	panel="#1f1a20",
+	success="#58dd31",
+	warning="#f77d0b",
+	error="#de3e17"
 	)
 
 

@@ -8,17 +8,22 @@ ModalScreen {
 Button,Input,Checkbox {
 	width:1fr;
 }
+PlotextPlot {
+	margin-top:2;
+	max-height:40;
+}
+
+
 Button {
 	text-style:bold;
-	border:none;
-	margin-bottom: 1;
 	min-height:3;
 	background:$panel;
 }
 .button_main {
-	background: $primary;
+	background: $secondary;
 	text-style: bold;
 }
+
 ListView {
 	border: $primary heavy;
 }
@@ -49,6 +54,9 @@ ListView {
 	background:$panel;
 	border-right:heavy $primary;
 	border-left:heavy $primary;
+}
+#verticalscroll_collapsible_graphdata {
+	margin-right:5;
 }
 
 
