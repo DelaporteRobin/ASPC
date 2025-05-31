@@ -16,10 +16,11 @@ DOWNTOWN_THEME = Theme(
 	dark=True,
 	)
 
-ABYSS_THEME = Theme(
-	name="abyss",
+WINE_THEME = Theme(
+	name="wine",
 	primary="#ffedb5",
 	secondary="#591e39",
+	accent="#ffd966",
 	background="#1b161c",
 	foreground="#ffffff",
 	surface="#1f1a20",
@@ -29,6 +30,32 @@ ABYSS_THEME = Theme(
 	error="#de3e17"
 	)
 
+OFFICE_THEME = Theme(
+	name="office",
+	primary="#a9eeff",
+	secondary="#5debe7",
+	accent="#a9eeff",
+	background="#0e0e0d",
+	foreground="#ffffff",
+	surface="#1a1a17",
+	panel = "#151513",
+	success = "#a5df50",
+	warning = "#df9036",
+	error = "#df3657"
+	)
 
+NEON_THEME = Theme(
+	name="abyss",
+	background="#0d0c0e",
+	primary="#67dc9e",
+	secondary="#9b5fb3",
+	foreground="white",
+	accent="#9b5fb3",
+	surface="#121013",
+	panel="#121013",
+	success = "#acf740",
+	warning = "#fa9b2f",
+	error = "#ff562c"
+	)
 
-THEME_REGISTRY = [DOWNTOWN_THEME, ABYSS_THEME]
+THEME_REGISTRY = [DOWNTOWN_THEME, WINE_THEME, OFFICE_THEME, NEON_THEME]

@@ -149,7 +149,21 @@ class ASPC_HOMEPAGE(ModalScreen):
 
 
 	CSS_PATH = ["styles/layout.tcss"]
+	def __init__(self, theme_dictionnary):
+		super().__init__()
+		self.THEME = theme_dictionnary
 
+		self.welcome_page_text = """
+
+
+[bold]AUSPICIOUS[/bold] VERSION V%s
+Writen by [bold][%s]%s[/%s][/bold]
+Github Repository → %s
+[bold]Don't hesitate to star the Repository :)[/bold]
+
+[italic][bold]Thank you for downloading AUSPICIOUS
+Hope it will be useful to you[/bold][/italic]
+"""%(VERSION,self.THEME.primary,AUTHOR,self.THEME.primary,REPO)
 
 	def compose(self) -> ComposeResult:
 
@@ -160,9 +174,12 @@ class ASPC_HOMEPAGE(ModalScreen):
 				yield FigletWidget("AUSPICIOUS", font=ASCII_FONT_HOMEPAGE, justify="center", colors=["$primary", "$secondary", "$background","$panel"], animate=True, gradient_quality=30, id="homepage_title")
 
 				with Vertical(id = "homepage_info_container"):
+					"""
 					yield Label(str("AUSPICIOUS v%s"%VERSION), classes="homepage_label_info")
 					yield Label(str("Writen by %s"%AUTHOR), classes="homepage_label_info")
 					yield Label(str("Star the repository :\n%s"%REPO), classes="homepage_label_info")
+					"""
+					yield Static(self.welcome_page_text, id="static_welcome_text")
 
 
 				yield Button("OPEN ASPC", id="homepage_button_open")
@@ -303,7 +320,7 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		#create instance of the archiving class
 		with self.app.suspend():
 			#fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
-			fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.project_data)
+			fill_archive = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.app.content_to_archive, self.app.current_project_name, self.app.project_data)
 			returned_dictionnary = fill_archive.run()
 			os.system("pause")
 		
@@ -347,27 +364,27 @@ class ModalASPCHelpCenter(ModalScreen):
 		Binding("enter","binding_leavehelp", description="Binding leave help"),
 	]
 
-	def __init__(self):
+	def __init__(self, theme_dictionnary):
 		super().__init__()
+		self.theme = theme_dictionnary
 		self.MARKDOWN_HELP = """
-ASPC is a program that helps you list items in your projects/folders that are unnecessary, 
+[bold][%s]AUSPICIOUS[/%s][/bold] is a program that helps you list items in your projects/folders that are unnecessary, 
 that are present in large numbers, take up space and that you would like (at least temporarily) 
 to archive in a compressed file to limit the space used.\n
 These files may be important and useful, but you don't necessarily need to keep them on your main hard disk all the time.
 
-## Github link
+[bold][italic][%s]Github link[/%s][/italic][/bold]
 https://github.com/DelaporteRobin/ASPC
 
-## Documentation link
-> [!IMPORTANT]
-> The documentation is being writen and will soon be available
-"""
+[bold][italic][%s]Documentation link[/%s][/italic][/bold]
+This documentation is not available yet
+"""%(self.theme.primary,self.theme.primary, self.theme.primary,self.theme.primary,self.theme.primary, self.theme.primary)
 
 	def compose(self) -> ComposeResult:
 		with Vertical(id = "vertical_help_container"):
 
 			yield FigletWidget("AUSPICIOUS HELP", font=ASCII_FONT_HOMEPAGE, justify="center",colors=["$primary", "$secondary", "$background","$panel"], animate=True, gradient_quality=30, id="help_title")
-			self.markdown_help = Markdown(self.MARKDOWN_HELP, id="markdown_help")
+			self.markdown_help = Static(self.MARKDOWN_HELP, id="markdown_help")
 			yield self.markdown_help
 
 			yield Button("Leave help", id="button_leavehelp", classes="button_main")
@@ -387,6 +404,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 	CSS_PATH = ["styles/layout.tcss"]
 	BINDINGS = [
 		Binding("ctrl+j", "binding_fill", description="Binding Fill Selection"),
+		Binding("!", "binding_welcome", description="Binding Show Welcome Page"),
 		Binding(
 			key="question_mark",
 			action="binding_help",
@@ -402,9 +420,15 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 		#load visual themes in the application
 		#apply the theme specified in config file
-		for theme in THEME_REGISTRY:
+		self.THEME_REGISTRY = THEME_REGISTRY
+		self.THEME_DICTIONNARY = None
+		for theme in self.THEME_REGISTRY:
 			self.register_theme(theme)
+			if theme.name == THEME:
+				self.THEME_DICTIONNARY = theme
+
 		self.theme = THEME
+		
 
 		self.global_root_path = Path("/")
 		self.global_log = []
@@ -676,6 +700,7 @@ Global project informations
 		#self.read_log_thread.start()
 
 
+		#self.message_function(self.theme.primary)
 		self.message_function("Log thread activated", "success")
 
 
@@ -700,7 +725,7 @@ Global project informations
 
 
 		#install screens
-		self.install_screen(ASPC_HOMEPAGE(), name="ASPC_HOMEPAGE")
+		self.install_screen(ASPC_HOMEPAGE(self.THEME_DICTIONNARY), name="ASPC_HOMEPAGE")
 		#push the homepage screen
 		#show_homepage
 		self.push_screen("ASPC_HOMEPAGE")
@@ -747,8 +772,12 @@ Global project informations
 
 
 	def action_binding_help(self) -> None:
-		self.message_function("Call help center :)")
-		self.push_screen(ModalASPCHelpCenter())
+		self.message_function("Call help center", "notification")
+		self.push_screen(ModalASPCHelpCenter(self.THEME_DICTIONNARY))
+
+	def action_binding_welcome(self) -> None:
+		self.message_function("Show welcome page", "notification")
+		self.push_screen(ASPC_HOMEPAGE(self.THEME_DICTIONNARY))
 
 
 
@@ -877,7 +906,7 @@ Global project informations
 				if "ARCHIVE_PATH" in self.current_project_data:
 					self.push_screen(ModalASPCRemoveProject(), self.remove_project_function)
 				else:
-					self.remove_project_function()
+					self.remove_project_function(False)
 
 
 
@@ -898,8 +927,23 @@ Global project informations
 				self.push_screen(ModalASPCCreateArchive(), self.check_for_archive_create_dismiss_function)
 
 			else:
-				self.push_screen(ModalASPCAddToArchive())
+				#self.push_screen(ModalASPCAddToArchive())
+				self.message_function("Archiving process started", "notification")
+				#MULTIPROCESSING MODE
+				#create instance of the archiving class
+				with self.app.suspend():
+					#fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
+					fill_archive = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.content_to_archive, self.current_project_name, self.project_data)
+					returned_dictionnary = fill_archive.run()
+					os.system("pause")
+				
+				self.message_function("Archiving process terminated", "notification")
 
+
+				#load new project data?
+				
+				self.load_project_data_function()
+				#self.pop_screen()
 
 
 
@@ -1026,7 +1070,7 @@ Global project informations
 			#get the path of the project
 			self.message_function("Launching multiprocessing exploration...", "notification")
 			with self.suspend():
-				ASPC_SNOOP(self.selected_item)
+				ASPC_SNOOP(self.selected_item, self.THEME_DICTIONNARY)
 				os.system("pause")
 
 			self.message_function("Multiprocessing exploration done", "success")
@@ -1146,6 +1190,7 @@ Global project informations
 
 		if event.control.id in ["listview_project", "listview_folders", "listview_files"]:
 			self.update_markdown_function()
+			#self.message_function("hello world")
 
 		if event.control.id == "listview_projectlist":
 			#update the dictory tree starting folder
@@ -1188,7 +1233,6 @@ Global project informations
 			#self.message_function(label.styles.color)
 			#self.message_function(label.styles.border_left)
 
-
 			#find folder in directory tree
 			if (self.checkbox_find_folder.value == True):
 				path = (self.current_folder_selected.replace(self.current_project_name, "")).replace("\\", "/").lstrip("/")
@@ -1209,7 +1253,7 @@ Global project informations
 			#call function to update the file list content
 			self.check_for_file_process_function()
 			#call function to highlight children if highlight children is checked
-			self.highlight_folder_children_function()
+			#self.highlight_folder_children_function()
 
 
 

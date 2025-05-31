@@ -13,10 +13,16 @@ import heapq
 import traceback
 import queue
 import zipfile
+import rich
+
+from time import sleep
+from rich.console import Console
+from rich_pyfiglet import RichFiglet
 
 from pathlib import Path
 from termcolor import *
 from datetime import datetime, timedelta
+from config import *
 
 colorama.init()
 
@@ -24,18 +30,27 @@ colorama.init()
 
 
 class ASPC_SNOOP():
-	def __init__(self, root_folder):
+	def __init__(self, root_folder, theme_dictionnary):
 		
+		self.THEME = theme_dictionnary
+		#create the rich console
+		
+		console = Console()
+		rich_title_snoop = RichFiglet("ASPC SNOOP", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.secondary], animation=None, quality=30)
+		console.print(rich_title_snoop)
+		console.log("[%s]Starting exploring the project : %s"%(self.THEME.primary, root_folder))
+		
+		#sleep(5)
 
-
-		print(colored("ASPC SNOOP", "cyan"))
-		print("Exploring : %s"%root_folder)
+		#print(colored("ASPC SNOOP", "cyan"))
 
 		if (root_folder == None) or (os.path.isdir(root_folder)==False):
-			print(colored("Project folder is not valid", "red"))
+			#print(colored("Project folder is not valid", "red"))
+			console.log("[%s]Project folder is not valid"%(self.THEME.error))
 			return
 
 		self.root_folder = root_folder
+
 
 		
 		#create multiprocessing manager
@@ -47,7 +62,7 @@ class ASPC_SNOOP():
 			#add the root folder in the queue
 			self.queue.put(str(root_folder))
 			#call the creation of the file queue
-			self.create_file_queue_function()
+			self.create_file_queue_function(console)
 
 			process_number = mp.cpu_count()
 
@@ -74,15 +89,19 @@ class ASPC_SNOOP():
 					p.start()
 					process_pool.append(p)
 				except Exception as e:
-					print(colored("Impossible to launch process\n%s"%e, "red"))
+					#print(colored("Impossible to launch process\n%s"%e, "red"))
+					console.log("[%s]Impossible to launch process\n%s"%(self.THEME.error,e))
 				else:
-					print("Process launched : %s"%str(p))
+					#print("Process launched : %s"%str(p))
+					console.log("[%s]Process launched → %s"%(self.THEME.primary,p))
 
 			for p in process_pool:
-				print(colored("Process terminated : %s"%str(p), "green"))
+				#print(colored("Process terminated : %s"%str(p), "green"))
+				console.log("[%s]Process terminated → %s"%(self.THEME.success, str(p)))
 				p.join()
 
-			print(colored("All processes terminated", "green"))
+			#print(colored("All processes terminated", "green"))
+			console.log("[%s]All processes terminated"%self.THEME.success)
 
 
 
@@ -92,7 +111,9 @@ class ASPC_SNOOP():
 
 
 			
-			print(colored("Sort size list", "yellow"))
+			#print(colored("Sort size list", "yellow"))
+			print("\n")
+			console.log("[%s]Sort size list"%self.THEME.primary)
 			self.data_file_size_list = list(self.data_file_size)
 			self.data_file_life_list = list(self.data_file_life)
 			self.data_file_modif_list = list(self.data_file_modif)
@@ -101,9 +122,11 @@ class ASPC_SNOOP():
 				self.data_file_life_list.sort(key=lambda x: x[1])
 				self.data_file_modif_list.sort(key=lambda x: x[1])
 			except Exception as e:
-				print(colored("Impossible to sort list\n%s"%e, "red"))
+				#print(colored("Impossible to sort list\n%s"%e, "red"))
+				console.log("[%s]Impossible to sort list\n%s"%(self.THEME.error,traceback.format_exc()))
 			else:
-				print(colored("List sorted", "green"))
+				#print(colored("List sorted", "green"))
+				console.log("[%s]List sorted"%self.THEME.success)
 
 
 			self.data_global = {
@@ -120,7 +143,9 @@ class ASPC_SNOOP():
 			}
 
 
-			print(colored("Create folder size classification", "yellow"))
+			#print(colored("Create folder size classification", "yellow"))
+			print("\n")
+			console.log("[%s]Create folder size classification"%self.THEME.primary)
 			#create the folder list
 			folder_item_size_classification = []
 			folder_children_size_classification = []
@@ -144,23 +169,29 @@ class ASPC_SNOOP():
 				self.data_global["DATA_ITEM_SIZE"] = folder_item_size_classification
 				self.data_global["DATA_CHILDREN_SIZE"] = folder_children_size_classification
 			except Exception as e:
-				print(colored("Impossible to create folder size classification","red"))
-				print(colored(e, "red"))
+				console.log("[%s]Impossible to create folder size classification\n%s"%(self.THEME.error,traceback.format_exc()))
+				#print(colored("Impossible to create folder size classification","red"))
+				#print(colored(e, "red"))
 			else:
-				print(colored("Folder classification done", "green"))
+				#print(colored("Folder classification done", "green"))
+				console.log("[%s]Folder classification done"%self.THEME.success)
 
 
 
 
 
 
-			print(colored("Replace all Path elements", "yellow"))
+			#print(colored("Replace all Path elements", "yellow"))
+			print("\n")
+			console.log("[%s]Replace all path elements"%self.THEME.primary)
 			try:
 				self.data_global = {k: str(v) if isinstance(v, Path) else v for k, v in self.data_global.items()}
 			except Exception as e:
-				print(colored("Impossible to clean path elements\n%s"%traceback.format_exc(), "red"))
+				#print(colored("Impossible to clean path elements\n%s"%traceback.format_exc(), "red"))
+				console.log("[%s]Impossible to clean path elements\n%s"%(self.THEME.error,traceback.format_exc()))
 			else:
-				print(colored("All path elements replaced", "green"))
+				#print(colored("All path elements replaced", "green"))
+				console.log("[%s]All path elements replaced"%self.THEME.success)
 
 
 			
@@ -177,36 +208,38 @@ class ASPC_SNOOP():
 						archive_path = content[str(root_folder)]["ARCHIVE_PATH"]
 						archive_log = content[str(root_folder)]["ARCHIVE_LOG"]
 			
-	
 			else:
 				content = {}
 
-
+			print("\n")
 			content[str(root_folder)] = self.data_global
 			#if archive path and log different from None
 			#recreate the archive path in the dictionnary
 			if (archive_path != None) and (archive_log != None):
 				content[str(root_folder)]["ARCHIVE_PATH"] = archive_path
 				content[str(root_folder)]["ARCHIVE_LOG"] = archive_log
-				print(colored("Archive path and log detected for project", "cyan"))
+				#print(colored("Archive path and log detected for project", "cyan"))
+				console.log("[%s]Archive path and log detected in this project"%self.THEME.accent)
 
 				#reinject archived elements in data folder
 				#try to open the archive
-				print(colored("Try to inject archived content", "cyan"))
+				#print(colored("Try to inject archived content", "cyan"))
+				console.log("[%s]Try to inject archived content"%self.THEME.primary)
 				try:
 					with zipfile.ZipFile(content[str(root_folder)]["ARCHIVE_PATH"], mode="r") as archive:
 						for file in archive.infolist():
 							filepath=file.filename
-							print("\tinjecting %s"%os.path.basename(filepath))
+							#print("\tinjecting %s"%os.path.basename(filepath))
+							console.log("[%s]Injecting : %s"%(self.THEME.foreground,os.path.basename(filepath)))
 							filefolder=os.path.join(root_folder,os.path.dirname(filepath)).replace("/", "\\")
 							#get the folder dictionnary
 							if "ARCHIVED_LIST" not in content[str(root_folder)]["DATA_FOLDER"][filefolder]:
 								content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"] = []
 							content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"].append(os.path.basename(filepath))
 				except Exception as e:
-					print(colored("Impossible to inject archived elements", "red"))
-					print(colored(traceback.format_exc(), "red"))
-
+					#print(colored("Impossible to inject archived elements", "red"))
+					#print(colored(traceback.format_exc(), "red"))
+					console.log("[%s]Impossible to inject archived elements\n%s"%(self.THEME.error,traceback.format_exc()))
 
 
 
@@ -215,31 +248,29 @@ class ASPC_SNOOP():
 				with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
 					json.dump(content, save_file, indent=4)
 			except Exception as e:
-				print(colored("Failed to save dictionnary\n%s"%traceback.format_exc(), "red"))
+				#print(colored("Failed to save dictionnary\n%s"%traceback.format_exc(), "red"))
+				console.log("[%s]Failed to save dictionnary\n%s"%(self.THEME.error, traceback.format_exc()))
 			else:
-				print(colored("Dictionnary saved", "green"))
-
-
-		
-
+				#print(colored("Dictionnary saved", "green"))
+				console.log("[%s]Dictionnary saved"%self.THEME.success)
 
 
 
 
-
-	def create_file_queue_function(self):
-		print(colored("STARTING TO CREATE THE FILE QUEUE", "magenta"))
+	def create_file_queue_function(self,console):
+		#print(colored("STARTING TO CREATE THE FILE QUEUE", "magenta"))
+		console.log("[%s]Starting to create the file queue"%self.THEME.primary)
 
 		for root, dirs, files in scandir.walk(self.path):
 			for d in dirs:
 				try:
 					self.queue.put(os.path.join(root, d))
 				except Exception as e:
-					print(colored("Impossible to add folder in queue\n%s"%e, "red"))
+					#print(colored("Impossible to add folder in queue\n%s"%e, "red"))
+					console.log("[%s]Impossible to add folder in queue\n%s"%(self.THEME.error,traceback.format_exc()))
 				else:
-					print(colored("Folder added in queue : %s"%d))
-
-
+					#print(colored("Folder added in queue : %s"%d))
+					console.log("[%s]Folder added in queue : %s"%(self.THEME.foreground,d))
 
 
 
@@ -250,11 +281,11 @@ class ASPC_SNOOP():
 				folder = self.queue.get(timeout=5)
 
 				if folder == None:
-					print(colored("Process broken [%s]"%i))
+					print(colored("\tProcess broken [%s]"%i))
 					break
 
 				else:
-					print(colored("[%s] Checking folder : %s"%(index, folder)))
+					print(colored("\t[%s] Checking folder : %s"%(index, folder)))
 
 
 					folder_content = os.listdir(folder)
@@ -328,11 +359,9 @@ class ASPC_SNOOP():
 
 	
 
-
-
 					sim_checked = []
 					for item in folder_content:
-						print("	checking item in folder : %s ; %s"%(item , os.path.isfile(os.path.join(folder,item))))
+						print("\t	checking item in folder : %s ; %s"%(item , os.path.isfile(os.path.join(folder,item))))
 						if os.path.isfile(os.path.join(folder,item))==True:
 							#get informations about the file
 							file_size = os.path.getsize(os.path.join(folder,item))
@@ -357,9 +386,6 @@ class ASPC_SNOOP():
 							#update the new dictionnary
 							self.data_extension[file_extension] = extension_data
 							
-							
-							
-
 							#and lightest file
 
 							#update dictionnary about file size
@@ -375,19 +401,12 @@ class ASPC_SNOOP():
 							#update the filecount in folder data
 							folder_data["FILE_COUNT"] += 1
 
-
-
-
 							#create the file dictionnary
 							self.data_file[os.path.join(folder,item)] = {
 								"FILESIZE":file_size,
 								"FILECREATION":file_creation,
 								"FILEMODIFICATION":file_modification,
 							}
-
-
-
-
 
 
 							#get the similarity dictionnary for the folder
@@ -422,10 +441,6 @@ class ASPC_SNOOP():
 							file_dict["SIMPARENT"] = folder
 							self.data_file[os.path.join(folder,item)] = file_dict
 
-
-
-
-
 							"""	
 							#starting to create the similarity dictionnary
 							if similarity_dictionnary == {}:
@@ -449,11 +464,7 @@ class ASPC_SNOOP():
 									similarity_dictionnary[item] = [item]
 							"""
 
-						
 
-
-
-							
 
 							#UPDATE THE PARENT FOLDER SIZE			
 							parent_folder = folder 
@@ -470,7 +481,7 @@ class ASPC_SNOOP():
 									break
 									#pass
 								except Exception as e:
-									print(colored("Impossible to update parent : %s\n%s"%(item,traceback.format_exc()), "red"))
+									print(colored("\tImpossible to update parent : %s\n%s"%(item,traceback.format_exc()), "red"))
 									break
 
 								if parent_folder == self.root_folder:
@@ -491,16 +502,12 @@ class ASPC_SNOOP():
 							#update the value of the global dictionnary						
 							self.data_folder[folder] = folder_data
 									
-
-
-
-
-					
+	
 
 			except queue.Empty:
 				return
 
 			except Exception as e:
 				#print(colored(e, "red"))
-				print(colored(traceback.format_exc(), "red"))
+				print(colored("\t%s"%traceback.format_exc(), "red"))
 				return

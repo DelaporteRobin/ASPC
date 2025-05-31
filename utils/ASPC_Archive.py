@@ -28,6 +28,11 @@ import queue
 import zipfile
 import ruamel.std.zipfile as zipdel
 import pyfiglet
+import rich
+
+from rich.console import Console
+from rich_pyfiglet import RichFiglet
+from config import *
 
 from datetime import datetime
 from pathlib import Path
@@ -229,19 +234,26 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 
 
 class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
-	def __init__(self, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA):
+	def __init__(self, theme_dictionnary, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA):
 
+		self.THEME = theme_dictionnary
+		console = Console()
 
 		self.current_project = current_project 
 		self.selection_to_archive = selection_to_archive
 		self.current_project_data = project_data[current_project]
 		self.project_data = project_data
 		self.method = method
-		print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
+
+		rich_title_archiving = RichFiglet("ARCHIVING PROCESS", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.background], animation=None,quality=40)
+		console.print(rich_title_archiving)
+		console.log("[%s]Starting archiving process"%self.THEME.primary)
+		#print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
 		#self.run(selection_to_archive, current_project, current_project_data)
 
 	def run(self):
 
+		console = Console()
 		"""
 		check if the path of the archive is defined
 		check if the path of the archive exists (create it if not)
@@ -252,33 +264,40 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		try:
 			print("Archive path : %s"%self.current_project_data["ARCHIVE_PATH"])
 		except KeyError:
-			print(colored("Path of the archive is not defined!", "red"))
+			#print(colored("Path of the archive is not defined!", "red"))
+			console.log("[%s]Path of the archive is not defined"%self.THEME.error)
 			
 		if os.path.isdir(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]))==False:
-			print(colored("Path to archive isn't valid", "yellow"))
-
+			#print(colored("Path to archive isn't valid", "yellow"))
+			console.log("[%s]Path to archive isn't valid"%self.THEME.warning)
 
 			try:
 				os.makedirs(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]), exist_ok=True)
 			except Exception as e:
-				print(colored("Impossible to create path to archive", "red"))
-				print(colored(traceback.format_exc(), "red"))
+				#print(colored("Impossible to create path to archive", "red"))
+				#print(colored(traceback.format_exc(), "red"))
+				console.log("[%s]Impossible to create path to archive\n%s"%(self.THEME.error, traceback.format_exc()))
 				return
 			else:
-				print(colored("Path to archive created", "green"))
+				#print(colored("Path to archive created", "green"))
+				console.log("[%s]Path to archive created"%self.THEME.success)
 
 		if len(self.selection_to_archive) == 0:
-			print(colored("No elements to archive!", "red"))
+			#print(colored("No elements to archive!", "red"))
+			console.log("[%s]No elements to archive"%self.THEME.error)
 			return
 
 
+		#os.system("pause")
+		#return
 		#create the multiprocessing manager
 		with mp.Manager() as manager:
 
 			folder_counter = 0 
 			file_counter = 0 
 
-			print(colored("Creating the file queue ...", "cyan"))
+			#print(colored("Creating the file queue ...", "cyan"))
+			console.log("[%s]Creating the file queue ..."%self.THEME.primary)
 			#create the filequeue for the multiprocesses
 			self.file_queue = mp.Queue()
 
@@ -311,31 +330,38 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				self.archive_dataset["ARCHIVESIZE_BEFORE"] = os.path.getsize(self.current_project_data["ARCHIVE_PATH"])
 
 				#get the content of the archive
-				print(colored("Trying to get the content of the existing project archive...", "cyan"))
+				#print(colored("Trying to get the content of the existing project archive...", "cyan"))
+				console.log("[%s]Trying to get the content of the existing project archive"%self.THEME.primary)
 				try:
 					with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], mode="r") as read_archive:
 						for file in read_archive.namelist():
 							self.project_archive_content.append(Path(file))
 				except Exception as e:
-					print(colored("Impossible to get the content of the existing project archive", "red"))
+					#print(colored("Impossible to get the content of the existing project archive", "red"))
+					console.log("[%s]Impossible to get the content of the existing project archive"%self.THEME.error)
 				else:
-					print(colored("Existing archive content retrieved", "green"))
+					#print(colored("Existing archive content retrieved", "green"))
+					console.log("[%s]Existing archive content retrieved"%self.THEME.success)
 
 				#checking if the archive log exists as well
 				if os.path.isfile(self.current_project_data["ARCHIVE_LOG"])==True:
-					print(colored("Archive log detected", "green"))
+					#print(colored("Archive log detected", "green"))
+					console.log("[%s]Archive log detected"%self.THEME.success)
 
 					#try to read the content of the archive log
 					try:
 						with open(self.current_project_data["ARCHIVE_LOG"], "r") as read_file:
 							self.archive_log = json.load(read_file)
 					except Exception as e:
-						print(colored("Impossible to read archive log content!\n%s"%traceback.format_exc(), "red"))
+						#print(colored("Impossible to read archive log content!\n%s"%traceback.format_exc(), "red"))
+						console.log("[%s]Impossible to read archive log content\n%s"%(self.THEME.error, traceback.format_exc()))
 					else:
-						print(colored("Archive log content retrieved successfully!", "green"))
+						console.log("[%s]Archive log content retrieved successfully"%self.THEME.success)
+						#print(colored("Archive log content retrieved successfully!", "green"))
 
 				else:
-					print(colored("Impossible to find archive log", "red"))
+					console.log("[%s]Impossible to find archive log"%self.THEME.error)
+					#print(colored("Impossible to find archive log", "red"))
 
 
 
@@ -358,21 +384,26 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						file_counter += 1 
 						self.file_queue.put(element)
 					else:
-						print(colored("\t-> File skipped because already archived", "yellow"))
+						console.log("[%s]\t→ File skipped because already archived"%self.THEME.warning)
+						#print(colored("\t-> File skipped because already archived", "yellow"))
 				else:
-					print(colored("Item not existing : %s"%element, "red"))
+					console.log("[%s]Item to archive : %s"%(self.THEME.error,element))
+					#print(colored("Item not existing : %s"%element, "red"))
 					continue 
 				
 
-			print("FILE QUEUE SIZE : %s"%self.file_queue.qsize())
+			#print("FILE QUEUE SIZE : %s"%self.file_queue.qsize())
+			console.log("[%s]File queue size"%self.THEME.primary)
 			if self.file_queue.empty()==True:
-				print(colored("The file queue to archive is empty\nArchiving process stopped", "red"))
+				#print(colored("The file queue to archive is empty\nArchiving process stopped", "red"))
+				console.log("The file queue to archive is empty\nArchiving process stopped"%self.THEME.error)
 				return
 
 
 			#open the zipfile manager for archive
 			try:
-				print(colored("\nOpening archive...\nReady to archive", "cyan"))
+				#print(colored("\nOpening archive...\nReady to archive", "cyan"))
+				console.log("[%s]Opening archive...\nReady to archive"%self.THEME.primary)
 				#with zipfile.ZipFile(current_project_data["ARCHIVE_PATH"], mode="a",compression=zipfile.ZIP_LZMA, compresslevel=9) as self.archive:
 
 
@@ -394,11 +425,13 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					p.start()
 					process_pool.append(p)
 					temp_archive_list.append(temp_archive_name)
-					print("\t[%s] Process launched"%i)
+					#print("\t[%s] Process launched"%i)
+					console.log("[%s]Process launched"%self.THEME.accent)
 
 
 				for i in range(len(process_pool)):
-					print(colored("Process terminated : %s"%process_pool[i], "green"))
+					#print(colored("Process terminated : %s"%process_pool[i], "green"))
+					console.log("[%s]Process terminated : %s"%(self.THEME.success, process_pool[i]))
 					process_pool[i].join()
 
 
@@ -413,8 +446,9 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 
 				#MERGING ALL ARCHIVES
-				print(colored("\nMerging TEMP archives ...", "cyan"))
-			
+				#print(colored("\nMerging TEMP archives ...", "cyan"))
+				console.log("[%s]Starting to merge TEMP archives..."%self.THEME.primary)
+
 				#self.archive_stored_filelist = []
 				#with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=self.method, compresslevel=9) as final_archive:
 				for temp_archive in temp_archive_list:
@@ -435,20 +469,23 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 											final_archive.writestr(info, writer.read())
 
 					except FileNotFoundError:
-						print(colored("\tTemp archive not existing", "red"))
-
+						#print(colored("\tTemp archive not existing", "red"))
+						console.log("[%s]Temp archive not existing"%self.THEME.error)
 					#remove the temp archive
 					try:
 						os.remove(temp_archive)
 					except Exception as e:
-						print(colored("\tImpossible to remove archive", "red"))
+						#print(colored("\tImpossible to remove archive", "red"))
+						console.log("[%s]Impossible to remove archive"%self.THEME.error)
 					else:
-						print(colored("\tArchive removed successfully", "green"))
+						#print(colored("\tArchive removed successfully", "green"))
+						console.log("[%s]Archive removed successfully"%self.THEME.error)
 
 
 
 					#GET DATA ABOUT NEW COMPRESSED FILES
-					print(colored("\nGetting data about new files in archive ...", "cyan"))
+					#print(colored("\nGetting data about new files in archive ...", "cyan"))
+					console.log("[%s]Getting data about new files in archive"%self.THEME.primary)
 					for filepath, filedata in self.archive_log.items():
 						try:
 							#get the path in archive
@@ -461,9 +498,10 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 							self.archive_dataset["CCONTENTSIZE_AFTER"] += file_archiveinfo.compress_size
 							#print("%s\n\t%s\n\t%s"%(file_archivepath, file_archiveinfo.file_size, file_archiveinfo.compress_size))
 						except Exception as e:
-							print(colored("Impossible to get data about %s"%filepath))
-							
-					print(colored("Informations from archive updated", "green"))
+							#print(colored("Impossible to get data about %s"%filepath))
+							console.log("[%s]Impossible to get data about %s"%(self.THEME.error,filepath))
+					#print(colored("Informations from archive updated", "green"))
+					console.log("[%s]Informations from archive updated"%self.THEME.accent)
 
 
 
@@ -477,7 +515,8 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						
 
 				#REMOVING FILES FROM PROJECT
-				print(colored("Removing files from project after archiving...", "cyan"))
+				#print(colored("Removing files from project after archiving...", "cyan"))
+				console.log("[%s]Removing files from project after archiving..."%self.THEME.primary)
 				for file in self.selection_to_archive:
 					#check if the file is in the archive before removing it from project
 					archive_filepath = os.path.normpath(str(Path(file).relative_to(Path(self.current_project))))
@@ -485,14 +524,17 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						try:
 							os.remove(file)
 						except Exception as e:
-							print(colored("\tfailed to delete : %s"%file, "red"))
+							#print(colored("\tfailed to delete : %s"%file, "red"))
+							console.log("[%s]Failed to delete file : %s"%(self.THEME.error, file))
 						else:
-							print(colored("\tfile removed : %s"%file))
+							console.log("[%s]File removed")
+							#print(colored("\tfile removed : %s"%file))
 					else:
-						print(colored("\tImpossible to find file in archive : %s"%archive_filepath, "red"))
-						print(colored("\tThe file was not removed from the original project!"))
-				print(colored("Removing files from project terminated", "cyan"))
-
+						console.log("[%s]Impossible to find file in archive : %s\nThe file was not removed from the original project"%(self.THEME.error,archive_filepath))
+						#print(colored("\tImpossible to find file in archive : %s"%archive_filepath, "red"))
+						#print(colored("\tThe file was not removed from the original project!"))
+				#print(colored("Removing files from project terminated", "cyan"))
+				console.log("[%s]Removing files from project terminated"%self.THEME.success)
 
 
 				#os.system("pause")
@@ -523,9 +565,11 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 
 				#DISPLAY THE FINAL DATA SET
-				print(colored("\n\nGLOBAL INFORMATIONS AFTER ARCHIVING", "magenta"))
+				#print(colored("\n\nGLOBAL INFORMATIONS AFTER ARCHIVING", "magenta"))
+				console.log("[%s]\nGLOBAL INFORMATIONS AFTER ARCHIVING"%self.THEME.accent)
 				for key, value in self.archive_dataset.items():
-					print(colored(key, "magenta"), " : %s"%value)
+					#print(colored(key, "magenta"), " : %s"%value)
+					console.print("\t[%s]%s[/%s][%s]%s"%(self.THEME.primary,key,self.THEME.primary,self.THEME.foreground,value))
 
 				
 
@@ -535,18 +579,22 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						json.dump(dict(self.archive_log), save_file, indent=4)
 
 				except Exception as e:
-					print(colored("\nImpossible to save archive log\n%s"%traceback.format_exc(), "red"))
+					#print(colored("\nImpossible to save archive log\n%s"%traceback.format_exc(), "red"))
+					console.log("[%s]Impossible to save archive log\n%s"%(self.THEME.error, traceback.format_exc()))
 				else:
-					print(colored("\nArchive log saved successfully", "green"))
+					console.log("[%s]Archive log saved successfully"%self.THEME.success)
+					#print(colored("\nArchive log saved successfully", "green"))
 				
 	
 
 
 
 			except Exception as e:
-				print(colored("Fatal error happened during archiving process\n%s"%traceback.format_exc(), "red"))
+				console.log("[%s]Fatal error happened during archiving process\n%s"%(self.THEME.error, traceback.format_exc()))
+				#print(colored("Fatal error happened during archiving process\n%s"%traceback.format_exc(), "red"))
 			else:
-				print(colored("Archiving process terminated", "green"))
+				console.log("[%s]Archiving process terminated"%self.THEME.success)
+				#print(colored("Archiving process terminated", "green"))
 				return self.current_project_data
 
 
@@ -556,7 +604,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				item_to_archive = self.file_queue.get(timeout=5)
 
 				if item_to_archive == None:
-					print(colored("Process broken [%s]"%index, "yellow"))
+					print(colored("\tProcess broken [%s]"%index, "yellow"))
 					break
 				else:
 					#print("[%s] checking %s"%(index,item_to_archive))
@@ -568,7 +616,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					with zipfile.ZipFile(temp_archive, mode="a", compression=method, compresslevel=9) as archive:
 
 						if os.path.isfile(item_to_archive) == True:
-							print("[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
+							print("\t[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
 
 							#add informations in archiving data set
 							#self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
@@ -577,11 +625,11 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 								archive.write(item_to_archive, arcname=Path(item_to_archive).relative_to(Path(project_path)))
 							except Exception as e:
 								self.ns.global_count += 1
-								print(colored("[%s] Impossible to save file : %s"%(index,os.path.basename(item_to_archive)), "red"))
+								print(colored("\t[%s] Impossible to save file : %s"%(index,os.path.basename(item_to_archive)), "red"))
 							else:
 								archived=True
 								self.ns.global_count += 1
-								print(colored("[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
+								print(colored("\t[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
 								
 
 								#update the statut of the file in the dictionnary
@@ -606,7 +654,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 								#update the global dictionnary
 								current_project_data_folder[os.path.dirname(item_to_archive)] = current_folder_data
 								self.shared_current_project_data["DATA_FOLDER"] = current_project_data_folder
-								print(colored("[%s] Archive dictionnary updated for this folder : %s"%(index,os.path.dirname(item_to_archive))))
+								print(colored("\t[%s] Archive dictionnary updated for this folder : %s"%(index,os.path.dirname(item_to_archive))))
 
 
 
@@ -619,7 +667,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 								#write the file in the archive dictionnary
 								if item_to_archive not in self.archive_log:
-									print("Writing dictionnary key")
+									print("\tWriting dictionnary key")
 									self.archive_log[item_to_archive] = {
 										"ARCHIVEPATH": str(Path(item_to_archive).relative_to(Path(project_path))),
 										"REALPATH": str(Path(item_to_archive)),
@@ -627,7 +675,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 										"HARDRIVESIZE": self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"],
 									}
 								else:
-									print(colored("[%s] File already writen in archive log: %s"%(index,item_to_archive), "red"))
+									print(colored("\t[%s] File already writen in archive log: %s"%(index,item_to_archive), "red"))
 
 
 								
@@ -640,7 +688,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					#display the archive content
 					with zipfile.ZipFile(temp_archive, mode="r") as read_content:
 						for data in read_content.infolist():
-							print(data)
+							print("\t%s"%data)
 					self.check_for_overhead_file_function(temp_archive, item_to_archive, Path(item_to_archive).relative_to(Path(project_path)))
 
 
@@ -648,11 +696,11 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				#print(colored(traceback.format_exc(), "red"))
 				return
 			except Exception as e:
-				print(colored(traceback.format_exc(), "red"))
+				print(colored("\t%s"%traceback.format_exc(), "red"))
 
 	def check_for_overhead_file_function(self, archive_path, filepath, archive_filepath):
-		print(colored("\nChecking overheads ...", "cyan"))
-		print("archive path : %s\nfile path : %s"%(archive_path, archive_filepath))
+		print(colored("\n\tChecking overheads ...", "cyan"))
+		print("\tarchive path : %s\nfile path : %s"%(archive_path, archive_filepath))
 
 		#try to read the content of the archive
 		overhead=False
@@ -662,10 +710,10 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 			archive_compresssize = archive_filedata.compress_size
 
 			if archive_compresssize > archive_filesize:
-				print(colored("Overhead detected for this file!", "red"))
+				print(colored("\tOverhead detected for this file!", "red"))
 				overhead=True
 			else:
-				print(colored("No overhead detected for this file!", "green"))
+				print(colored("\tNo overhead detected for this file!", "green"))
 
 
 		if overhead==True:
@@ -673,14 +721,14 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 			try:
 				zipdel.delete_from_zip_file(archive_path, archive_filepath)
 			except Exception as e:
-				print(colored("Impossible to remove file from archive", "red"))
+				print(colored("\tImpossible to remove file from archive", "red"))
 				print(colored(traceback.format_exc(), "red"))
 			else:
 				#rewrite this file in archive without compression
-				print(colored("Trying to rewrite file without compression"))
+				print(colored("\tTrying to rewrite file without compression"))
 				with zipfile.ZipFile(archive_path, mode="a", compression=zipfile.ZIP_STORED) as archive:
 					archive.write(filepath, arcname=archive_filepath)
-				print(colored("File stored in archive successfully (no compression)", "green"))
+				print(colored("\tFile stored in archive successfully (no compression)", "green"))
 
 
 class ModalASPCMoveArchive(ModalScreen):
@@ -1006,37 +1054,44 @@ class ASPC_ARCHIVE():
 
 
 	def restore_file_from_archive_function(self, skip_removing=False):
-		print(colored("Restore file function starting...", "cyan"))
+		console = Console()
+		rich_title_restore = RichFiglet("RESTORE ARCHIVE CONTENT", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME_DICTIONNARY.primary, self.THEME_DICTIONNARY.background], animation=None, quality=40)
+		console.print(rich_title_restore)
+		#print(colored("Restore file function starting...", "cyan"))
 		#get items selected
 		index_list = self.listview_archive_content.index_list
 		if len(index_list)==0:
-			print(colored("Nothing to extract", "red"))
+			#print(colored("Nothing to extract", "red"))
+			console.log("[%s]Nothing to extract"%self.THEME_DICTIONNARY.error)
 			return
 		#file_to_restore_list = []
 		#trying to find the zipfile
 		elif "ARCHIVE_PATH" not in self.current_project_data:
-			print(colored("No archive is defined for this project", "red"))
+			#print(colored("No archive is defined for this project", "red"))
+			console.log("[%s]No archive is defined for this project"%self.THEME_DICTIONNARY.error)
 			return 
 		elif os.path.isfile(self.current_project_data["ARCHIVE_PATH"])==False:
-			print(colored("The archive doesn't exists anymore at this location", "red"))
-			print(colored(self.current_project_data["ARCHIVE_PATH"], "red"))
+			#print(colored("The archive doesn't exists anymore at this location", "red"))
+			#print(colored(self.current_project_data["ARCHIVE_PATH"], "red"))
+			console.log("[%s]The archive doesn't exists anymore at this location"%self.THEME_DICTIONNARY.error)
+			console.log("[%s]%s"%(self.THEME_DICTIONNARY.error, self.current_project_data["ARCHIVE_PATH"]))
 			return
 		else:
 			filelist = []
 			for index in index_list:
 				filelist.append(self.current_archive_content[index])
 
-			self.restore_filelist_function(self.current_project_data["ARCHIVE_PATH"], filelist, skip_removing)
+			self.restore_filelist_function(console,self.current_project_data["ARCHIVE_PATH"], filelist, skip_removing)
 
 				
 
 
-			
+	def restore_filelist_function(self, console, archive_path, filelist=[], skip_removing=False):
 
-
-	def restore_filelist_function(self, archive_path, filelist=[], skip_removing=False):
-		print(colored("Trying to restore files from archive...", "cyan"))
-		print(colored("Opening the archive file...", "white"))
+		#print(colored("Trying to restore files from archive...", "cyan"))
+		#print(colored("Opening the archive file...", "white"))
+		console.log("[%s]Trying to restore files from archive..."%self.THEME_DICTIONNARY.primary)
+		console.log("[%s]Opening the archive file..."%self.THEME_DICTIONNARY.primary)
 		try:
 			with zipfile.ZipFile(archive_path, mode="r") as archive:
 
@@ -1048,18 +1103,22 @@ class ASPC_ARCHIVE():
 					try:
 						archive.extract(file_to_restore, self.current_project_name)
 					except Exception as e:
-						print(colored("failed to restore file : %s\n%s"%(file_to_restore,traceback.format_exc()), "red"))
+						#print(colored("failed to restore file : %s\n%s"%(file_to_restore,traceback.format_exc()), "red"))
+						console.log("[%s]Failed to restore file : %s\n%s"%(self.THEME_DICTIONNARY.error,file_to_restore, traceback.format_exc()))
 					else:
-						print(colored("file extracted successfully : %s\n\tlocation : %s"%(file_to_restore,filepath_to_restore), "green"))
+						#print(colored("file extracted successfully : %s\n\tlocation : %s"%(file_to_restore,filepath_to_restore), "green"))
+						console.log("[%s]File extracted successfully : %s\n\tLocation : %s"%(self.THEME_DICTIONNARY.success,file_to_restore, filepath_to_restore))
 						#put back the file in the filelist of the current folder data
 						folder_data = self.current_project_data["DATA_FOLDER"][os.path.dirname(filepath_to_restore).replace("/", "\\")]
 						folder_data["FILE_LIST"].append(os.path.basename(filepath_to_restore))
 						self.current_project_data["DATA_FOLDER"][os.path.dirname(filepath_to_restore)] = folder_data
-						print(colored("File added to folder filelist", "green"))
+						#print(colored("File added to folder filelist", "green"))
+						console.log("[%s]File added to folder filelist"%self.THEME_DICTIONNARY.success)
 
 
 
-			print(colored("\nRemoving files in archive...", "cyan"))
+			#print(colored("\nRemoving files in archive...", "cyan"))
+			console.log("[%s]Removing files from archive..."%self.THEME_DICTIONNARY.primary)
 			if skip_removing==False:
 				#REMOVE FILES FROM THE ARCHIVE
 				for file_to_restore in filelist:
@@ -1070,29 +1129,33 @@ class ASPC_ARCHIVE():
 						try:
 							zipdel.delete_from_zip_file(self.current_project_data["ARCHIVE_PATH"], file_to_restore)
 						except Exception as e:
-							print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
+							#print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
+							console.log("[%s]Failed to remove file : %s\n%s"%(self.THEME_DICTIONNARY.error, file_to_restore, traceback.format_exc()))
 						else:
-							print(colored("file removed from archive : %s"%file_to_restore, "white"))
+							console.log("[%s]File removed from archive : %s"%(self.THEME_DICTIONNARY.success,file_to_restore))
+							#print(colored("file removed from archive : %s"%file_to_restore, "white"))
 							#remove from the archive list for the folder data
 							folder_data = self.current_project_data["DATA_FOLDER"][os.path.dirname(os.path.join(self.current_project_name, file_to_restore)).replace("/", "\\")]
 							if ("ARCHIVED_LIST" in folder_data) and (os.path.basename(file_to_restore) in folder_data["ARCHIVED_LIST"]):
 								folder_data["ARCHIVED_LIST"].remove(os.path.basename(file_to_restore))
 								#udpate the data dictionnary
-								self.current_project_data["DATA_FOLDER"][os.path.dirname(os.path.join(self.current_project_name, file_to_restore))]
+								self.current_project_data["DATA_FOLDER"][os.path.dirname(os.path.join(self.current_project_name, file_to_restore)).replace("/", "\\")]
 
 
 			else:
-				print(colored("Skipped removing files", "cyan"))
+				#print(colored("Skipped removing files", "cyan"))
+				console.log("[%s]Skipped removing files"%self.THEME_DICTIONNARY.primary)
 		except Exception as e:
-			print(colored("Impossible to extract content from archive\n%s"%traceback.format_exc(), "red"))
+			console.log("[%s]Impossible to extract content from archive\n%s"%(self.THEME_DICTIONNARY.error,traceback.format_exc()))
+			#print(colored("Impossible to extract content from archive\n%s"%traceback.format_exc(), "red"))
 			return 
 		else:
 			#update the global data dictionnary
 			self.project_data[self.current_project_name] = self.current_project_data
 			#save the new global dictionnary
 			self.save_dictionnary_function()
-
-			print(colored("Extraction terminated", "green"))
+			console.log("[%s]Extraction terminated"%self.THEME_DICTIONNARY.success)
+			#print(colored("Extraction terminated", "green"))
 			return
 
 

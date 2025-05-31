@@ -32,6 +32,9 @@ class ASPC_GUI:
 	def load_graph_foldersize_function(self):
 		#get all folder data (size informations)
 		#first only children size
+		if self.current_project_name == None:
+			self.message_function("No project selected", "error")
+			return
 		folder_size_contained = {}
 		folder_size_children = {}
 		for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
@@ -200,6 +203,7 @@ class ASPC_GUI:
 				#if self.current_project_data["DATA_FILE_SIZE"][file]!=0:
 				extension_dictionnary[extension_name]+=self.current_project_data["DATA_FILES"][file]["FILESIZE"]/1024/1024
 
+		self.message_function("EXTENSION RATIO IN PROJECT", "notification")
 		for ext_name, ext_value in extension_dictionnary.items():
 			self.message_function("     %s → %s"%(ext_name, ext_value),"message",False)
 		
@@ -730,70 +734,81 @@ class ASPC_GUI:
 
 			#GO THROUGH EACH ELEMENT IN THE CURRENT FILE LIST AND CREATE LABELS AND LISTITEMS
 			for file in self.current_file_list:
-				if type(file) == list:
-					file = file[0]
-				#self.message_function("adding file : %s"%file)
-				label = Label(os.path.basename(file))
+				try:
+					if type(file) == list:
+						file = file[0]
+					#self.message_function("adding file : %s"%file)
+					label = Label(os.path.basename(file))
 
-				if file == "_"*40:
-					pass
-
-				
-				#elif os.path.isfile(os.path.join(folder_selected, file))==False:
-				#	label.styles.color = self.theme_variables["text-secondary"]
-				
-
-				else:
-
-
-					#CHECK FIRST IF THE FILE IS ARCHIVED!!!!
-					if os.path.isfile(os.path.join(self.current_folder_selected,file))==False:
-						self.message_function(os.path.join(self.current_folder_selected,file))
-						label.styles.color = "gray"
-					else:
-						#get data about this file in the current project data
-						file_data = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]
-						if ("ARCHIVE" in file_data) and (file_data["ARCHIVE"]==True):
-							label.styles.background = self.theme_variables["background"]
-							label.styles.width = "1fr"
+					if file == "_"*40:
+						pass
 
 					
-						#check if the gradient checkbox is checked
-						if self.checkbox_file_gradient.value==True:
-							#apply the gradient for the file
-							#find the size of the file
-							try:
-								file_size = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]["FILESIZE"]
-								gradient_number = ((file_size - folder_lightest_size)/(folder_heaviest_size - folder_lightest_size)) * 100
-								#apply the color
-								"""
-								COLOR RANGE
-								0 - 25 -> white
-								25 - 50 -> accent
-								50 - 75 -> warning
-								75 - 100 -> error
-								"""
-								if (gradient_number <= 25):
+					#elif os.path.isfile(os.path.join(folder_selected, file))==False:
+					#	label.styles.color = self.theme_variables["text-secondary"]
+					
+
+					else:
+
+
+						#CHECK FIRST IF THE FILE IS ARCHIVED!!!!
+						if os.path.isfile(os.path.join(self.current_folder_selected,file))==False:
+							self.message_function(os.path.join(self.current_folder_selected,file))
+							label.styles.color = "gray"
+						else:
+							#get data about this file in the current project data
+							file_data = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]
+							#self.message_function(file_data)
+							#return
+							if ("ARCHIVE" in file_data) and (file_data["ARCHIVE"]==True):
+								label.styles.background = self.theme_variables["background"]
+								label.styles.width = "1fr"
+
+						
+
+							#check if the gradient checkbox is checked
+							if self.checkbox_file_gradient.value==True:
+								#apply the gradient for the file
+								#find the size of the file
+								try:
+									file_size = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]["FILESIZE"]
+									gradient_number = ((file_size - folder_lightest_size)/(folder_heaviest_size - folder_lightest_size)) * 100
+									#apply the color
+									"""
+									COLOR RANGE
+									0 - 25 -> white
+									25 - 50 -> accent
+									50 - 75 -> warning
+									75 - 100 -> error
+									"""
+									if (gradient_number <= 25):
+										pass
+									elif (gradient_number > 25) and (gradient_number <= 50):
+										label.styles.color = self.user_settings["COLOR"]["warning"]
+									elif (gradient_number > 50) and (gradient_number <= 75):
+										label.styles.color = self.user_settings["COLOR"]["important"]
+									else:
+										label.styles.color = self.user_settings["COLOR"]["alert"]
+								except ZeroDivisionError:
 									pass
-								elif (gradient_number > 25) and (gradient_number <= 50):
-									label.styles.color = self.user_settings["COLOR"]["warning"]
-								elif (gradient_number > 50) and (gradient_number <= 75):
-									label.styles.color = self.user_settings["COLOR"]["important"]
-								else:
-									label.styles.color = self.user_settings["COLOR"]["alert"]
-							except ZeroDivisionError:
-								pass
-							except UnboundLocalError:
-								pass
-							#self.message_function(gradient_number)
-
-				if file == "_"*40:
-					list_listitem.append(MultiListItem(label, classes="separator"))
-				else:
-					list_listitem.append(MultiListItem(label))
-				self.progress_files.advance(1)
+								except UnboundLocalError:
+									pass
+								#self.message_function(gradient_number)
 
 
+					if file == "_"*40:
+						list_listitem.append(MultiListItem(label, classes="separator"))
+					else:
+						list_listitem.append(MultiListItem(label))
+					self.progress_files.advance(1)
+				except Exception as e:
+					self.message_function("Error during loop : %s"%file, "error")
+					self.message_function(traceback.format_exc())
+					continue 
+				
+
+
+			
 			#if display archived content is enabled!!
 			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
 				for archived_file in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]:

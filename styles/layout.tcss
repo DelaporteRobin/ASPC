@@ -38,13 +38,16 @@ ListView {
 #homepage_vertical_container {
 	background: $surface;
 	align:center top;
+
+	padding-top:10;
 	max-width:70;
 
 	border: vkey $primary;
 }
 #homepage_info_container {
 	border:hkey $primary;
-	height: 7;
+	height: 15;
+	align:center middle;
 }
 #tab_vertical_archivecontent_left {
 	width: 35%;
@@ -52,6 +55,9 @@ ListView {
 #verticalscroll_container_left {
 	width:20%;
 	max-height:1fr;
+}
+#verticalscroll_container_right {
+	width:45%;
 }
 #markdown_help {
 	background:$panel;

@@ -18,6 +18,6 @@ elite
 isometric1
 isometric3
 """
-THEME = "abyss"
+THEME = "wine"
 ASCII_FONT_HOMEPAGE = "the_edge"
 ASCII_FONT_TERMINAL = "crawford"

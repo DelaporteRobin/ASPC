@@ -48,7 +48,7 @@ class ASPC_LOG():
 
 	def add_log_message_function(self, message, severity, time):
 		if time == True:
-			label = Label("[%s] %s : %s" % (str(severity.upper()), str(datetime.now()), message))
+			label = Label("%s | %s → %s" % (str(datetime.now()),str(severity.upper()), message))
 		else:
 			label = Label(message)
 

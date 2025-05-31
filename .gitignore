@@ -3,3 +3,5 @@ env/
 utils/__pycache__/
 crashtest/
 NOTES.txt
+cloc-2.04.exe
+great_paq/

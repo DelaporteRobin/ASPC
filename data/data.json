@@ -1,217 +1,6 @@
 {
-    "D:\\WORK\\PYTHON\\test_project_compression": {
-        "SCAN_DATE": 1748573385.426862,
-        "SCAN_GLOBAL_DATA": {
-            "MIN_ITEMS": 1,
-            "MAX_ITEMS": 5
-        },
-        "DATA_FOLDER": {
-            "D:\\WORK\\PYTHON\\test_project_compression": {
-                "ITEMS_LIST": [
-                    "images"
-                ],
-                "ITEMS_NUMBER": 1,
-                "FILE_LIST": [],
-                "FOLDER_LIST": [
-                    "images"
-                ],
-                "ITEMS_SIZE": 0,
-                "CHILDREN_SIZE": 821425229,
-                "FILE_COUNT": 0,
-                "SIMILARITY": {},
-                "FOLDER_COUNT": 0,
-                "HEAVIEST_FILE": -Infinity,
-                "LIGHTEST_FILE": Infinity
-            },
-            "D:\\WORK\\PYTHON\\test_project_compression\\images": {
-                "ITEMS_LIST": [
-                    "render_tehclimax_v001.exr",
-                    "render_tehclimax_v002.exr",
-                    "test.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
-                ],
-                "ITEMS_NUMBER": 5,
-                "FILE_LIST": [
-                    "render_tehclimax_v001.exr",
-                    "render_tehclimax_v002.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
-                    "render_logoChroma_v001.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
-                    "render_tehclimaxFog_v001.exr"
-                ],
-                "FOLDER_LIST": [],
-                "ITEMS_SIZE": 821425229,
-                "CHILDREN_SIZE": 0,
-                "FILE_COUNT": 5,
-                "SIMILARITY": {
-                    "render_tehclimax_v001.exr": [
-                        "render_tehclimax_v001.exr",
-                        "render_tehclimax_v002.exr"
-                    ],
-                    "test.exr": [
-                        "test.exr"
-                    ],
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr": [
-                        "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                        "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
-                    ]
-                },
-                "FOLDER_COUNT": 0,
-                "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
-                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
-                "ARCHIVED_LIST": [
-                    "render_logoChroma_v001.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
-                    "render_tehclimaxFog_v001.exr",
-                    "test.exr"
-                ]
-            }
-        },
-        "DATA_FILES": {
-            "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr": {
-                "FILESIZE": 314955172,
-                "FILECREATION": "2025-05-29 19:27:42",
-                "FILEMODIFICATION": "2025-05-29 19:27:43",
-                "SIMKEY": "render_tehclimax_v001.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
-            },
-            "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr": {
-                "FILESIZE": 363646227,
-                "FILECREATION": "2025-05-29 19:27:43",
-                "FILEMODIFICATION": "2025-05-29 19:27:43",
-                "SIMKEY": "render_tehclimax_v001.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
-            },
-            "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr": {
-                "FILESIZE": 71367551,
-                "FILECREATION": "2025-05-29 19:27:43",
-                "FILEMODIFICATION": "2025-05-29 19:27:46",
-                "SIMKEY": "test.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
-            },
-            "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr": {
-                "FILESIZE": 36821809,
-                "FILECREATION": "2025-05-29 19:38:06",
-                "FILEMODIFICATION": "2025-05-29 19:38:06",
-                "SIMKEY": "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
-            },
-            "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr": {
-                "FILESIZE": 34634470,
-                "FILECREATION": "2025-05-29 19:27:46",
-                "FILEMODIFICATION": "2025-05-29 19:27:48",
-                "SIMKEY": "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
-            }
-        },
-        "DATA_FILE_SIZE": [
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
-                34634470
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                36821809
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
-                71367551
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
-                314955172
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
-                363646227
-            ]
-        ],
-        "DATA_FILE_LIFE": [
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                33093.76165056229
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
-                33713.47247838974
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
-                33716.60848355293
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
-                33717.03079915047
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
-                33717.39120340347
-            ]
-        ],
-        "DATA_FILE_MODIF": [
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                33093.668154001236
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
-                33711.907866477966
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
-                33713.46932435036
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
-                33716.60632777214
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
-                33717.028616428375
-            ]
-        ],
-        "DATA_FILE_EXTENSION": {
-            ".exr": {
-                "COUNT": 5,
-                "FILE_LIST": [
-                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
-                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
-                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
-                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
-                ],
-                "SIZE": 821425229
-            }
-        },
-        "DATA_ITEM_SIZE": [
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression",
-                0
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images",
-                821425229
-            ]
-        ],
-        "DATA_CHILDREN_SIZE": [
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression\\images",
-                0
-            ],
-            [
-                "D:\\WORK\\PYTHON\\test_project_compression",
-                821425229
-            ]
-        ],
-        "ARCHIVE_PATH": "d:/WORK/PYTHON\\ASPC_Archive_test_project_compression.zip",
-        "ARCHIVE_LOG": "D:\\work\\PYTHON\\ASPC\\data/ASPC_ArchiveLog_test_project_compression.json"
-    },
     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup": {
-        "SCAN_DATE": 1748573598.018401,
+        "SCAN_DATE": 1748704055.419601,
         "SCAN_GLOBAL_DATA": {
             "MIN_ITEMS": 1,
             "MAX_ITEMS": 12
@@ -238,7 +27,7 @@
                     "zbrush"
                 ],
                 "ITEMS_SIZE": 12122942,
-                "CHILDREN_SIZE": 2605178889,
+                "CHILDREN_SIZE": 6177280107,
                 "FILE_COUNT": 1,
                 "SIMILARITY": {
                     "refs.pur": [
@@ -334,7 +123,7 @@
                     "output"
                 ],
                 "ITEMS_SIZE": 2754768278,
-                "CHILDREN_SIZE": 2073547238,
+                "CHILDREN_SIZE": 953881184,
                 "FILE_COUNT": 2,
                 "SIMILARITY": {
                     "substance_soraaIris_project.spp": [
@@ -363,7 +152,7 @@
                     "output"
                 ],
                 "ITEMS_SIZE": 403347168,
-                "CHILDREN_SIZE": 115810558,
+                "CHILDREN_SIZE": 148654489,
                 "FILE_COUNT": 1,
                 "SIMILARITY": {
                     "zbrush_shell_project.zpr": [
@@ -542,7 +331,7 @@
                     "susbtance_shell_v001"
                 ],
                 "ITEMS_SIZE": 0,
-                "CHILDREN_SIZE": 59633898,
+                "CHILDREN_SIZE": 74725216,
                 "FILE_COUNT": 0,
                 "SIMILARITY": {},
                 "FOLDER_COUNT": 0,
@@ -600,11 +389,11 @@
                 "ITEMS_NUMBER": 6,
                 "FILE_LIST": [
                     "standardSurface1_ambient_occlusion.1001.png",
+                    "standardSurface1_world_space_normals.1001.png",
+                    "standardSurface1_curvature.1001.png",
                     "standardSurface1_curvature.1001.png",
                     "standardSurface1_id.1001.png",
-                    "standardSurface1_normal_base.1001.png",
-                    "standardSurface1_position.1001.png",
-                    "standardSurface1_thickness.1001.png"
+                    "standardSurface1_position.1001.png"
                 ],
                 "FOLDER_LIST": [],
                 "ITEMS_SIZE": 46188161,
@@ -634,7 +423,9 @@
                 "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png",
                 "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png",
                 "ARCHIVED_LIST": [
-                    "standardSurface1_world_space_normals.1001.png"
+                    "standardSurface1_world_space_normals.1001.png",
+                    "standardSurface1_thickness.1001.png",
+                    "standardSurface1_normal_base.1001.png"
                 ]
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001": {
@@ -648,9 +439,6 @@
                 "ITEMS_NUMBER": 5,
                 "FILE_LIST": [
                     "item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
-                    "item_shell_mod_publish_standardSurface1_Height.1001.png",
-                    "item_shell_mod_publish_standardSurface1_Metallic.1001.png",
-                    "item_shell_mod_publish_standardSurface1_Normal.1001.png",
                     "item_shell_mod_publish_standardSurface1_Roughness.1001.png"
                 ],
                 "FOLDER_LIST": [],
@@ -674,7 +462,12 @@
                 },
                 "FOLDER_COUNT": 0,
                 "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
-                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png"
+                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png",
+                "ARCHIVED_LIST": [
+                    "item_shell_mod_publish_standardSurface1_Metallic.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Height.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Normal.1001.png"
+                ]
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input": {
                 "ITEMS_LIST": [
@@ -808,6 +601,98 @@
                 "FOLDER_COUNT": 0,
                 "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-NM1001.tif",
                 "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr"
+            },
+            "D:/WORK/PYTHON/SOR\u00c4A_backup/substance/output/substance_shellMeshMaps_v001": {
+                "ITEMS_LIST": [
+                    "standardSurface1_ambient_occlusion.1001.png",
+                    "standardSurface1_curvature.1001.png",
+                    "standardSurface1_id.1001.png",
+                    "standardSurface1_normal_base.1001.png",
+                    "standardSurface1_position.1001.png",
+                    "standardSurface1_thickness.1001.png"
+                ],
+                "ITEMS_NUMBER": 6,
+                "FILE_LIST": [
+                    "standardSurface1_ambient_occlusion.1001.png",
+                    "standardSurface1_world_space_normals.1001.png",
+                    "standardSurface1_curvature.1001.png",
+                    "standardSurface1_curvature.1001.png",
+                    "standardSurface1_id.1001.png",
+                    "standardSurface1_position.1001.png"
+                ],
+                "FOLDER_LIST": [],
+                "ITEMS_SIZE": 46188161,
+                "CHILDREN_SIZE": 0,
+                "FILE_COUNT": 6,
+                "SIMILARITY": {
+                    "standardSurface1_ambient_occlusion.1001.png": [
+                        "standardSurface1_ambient_occlusion.1001.png"
+                    ],
+                    "standardSurface1_curvature.1001.png": [
+                        "standardSurface1_curvature.1001.png"
+                    ],
+                    "standardSurface1_id.1001.png": [
+                        "standardSurface1_id.1001.png"
+                    ],
+                    "standardSurface1_normal_base.1001.png": [
+                        "standardSurface1_normal_base.1001.png"
+                    ],
+                    "standardSurface1_position.1001.png": [
+                        "standardSurface1_position.1001.png"
+                    ],
+                    "standardSurface1_thickness.1001.png": [
+                        "standardSurface1_thickness.1001.png"
+                    ]
+                },
+                "FOLDER_COUNT": 0,
+                "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png",
+                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png",
+                "ARCHIVED_LIST": [
+                    "standardSurface1_world_space_normals.1001.png",
+                    "standardSurface1_thickness.1001.png",
+                    "standardSurface1_normal_base.1001.png"
+                ]
+            },
+            "D:/WORK/PYTHON/SOR\u00c4A_backup/substance/output/susbtance_shell_v001": {
+                "ITEMS_LIST": [
+                    "item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Height.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Metallic.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Normal.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Roughness.1001.png"
+                ],
+                "ITEMS_NUMBER": 5,
+                "FILE_LIST": [
+                    "item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Roughness.1001.png"
+                ],
+                "FOLDER_LIST": [],
+                "ITEMS_SIZE": 26086923,
+                "CHILDREN_SIZE": 0,
+                "FILE_COUNT": 5,
+                "SIMILARITY": {
+                    "item_shell_mod_publish_standardSurface1_BaseColor.1001.png": [
+                        "item_shell_mod_publish_standardSurface1_BaseColor.1001.png"
+                    ],
+                    "item_shell_mod_publish_standardSurface1_Height.1001.png": [
+                        "item_shell_mod_publish_standardSurface1_Height.1001.png",
+                        "item_shell_mod_publish_standardSurface1_Metallic.1001.png"
+                    ],
+                    "item_shell_mod_publish_standardSurface1_Normal.1001.png": [
+                        "item_shell_mod_publish_standardSurface1_Normal.1001.png"
+                    ],
+                    "item_shell_mod_publish_standardSurface1_Roughness.1001.png": [
+                        "item_shell_mod_publish_standardSurface1_Roughness.1001.png"
+                    ]
+                },
+                "FOLDER_COUNT": 0,
+                "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
+                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png",
+                "ARCHIVED_LIST": [
+                    "item_shell_mod_publish_standardSurface1_Metallic.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Height.1001.png",
+                    "item_shell_mod_publish_standardSurface1_Normal.1001.png"
+                ]
             }
         },
         "DATA_FILES": {
@@ -825,20 +710,6 @@
                 "SIMKEY": "photoshop_soraaShell_project.psd",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaIris_project.spp": {
-                "FILESIZE": 111293604,
-                "FILECREATION": "2025-05-30 01:43:12",
-                "FILEMODIFICATION": "2025-05-15 19:08:18",
-                "SIMKEY": "substance_soraaIris_project.spp",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaShell_project.spp": {
-                "FILESIZE": 2643474674,
-                "FILECREATION": "2025-05-30 01:43:12",
-                "FILEMODIFICATION": "2025-05-14 18:27:39",
-                "SIMKEY": "substance_soraaShell_project.spp",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance"
-            },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraa_displace1.psd": {
                 "FILESIZE": 221631255,
                 "FILECREATION": "2025-05-30 03:49:02",
@@ -852,6 +723,20 @@
                 "FILEMODIFICATION": "2025-05-30 03:49:17",
                 "SIMKEY": "photoshop_soraa_displace1.psd",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaIris_project.spp": {
+                "FILESIZE": 111293604,
+                "FILECREATION": "2025-05-30 01:43:12",
+                "FILEMODIFICATION": "2025-05-15 19:08:18",
+                "SIMKEY": "substance_soraaIris_project.spp",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaShell_project.spp": {
+                "FILESIZE": 2643474674,
+                "FILECREATION": "2025-05-30 01:43:12",
+                "FILEMODIFICATION": "2025-05-14 18:27:39",
+                "SIMKEY": "substance_soraaShell_project.spp",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\zbrush_shell_project.zpr": {
                 "FILESIZE": 403347168,
@@ -881,19 +766,19 @@
                 "SIMKEY": "item_shellFull_mod_publish.fbx",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_Shell_mod_v001.ma": {
-                "FILESIZE": 23170818,
-                "FILECREATION": "2025-05-30 01:43:04",
-                "FILEMODIFICATION": "2025-05-14 19:24:48",
-                "SIMKEY": "item_Shell_mod_v001.ma",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes"
-            },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output\\photoshop_soraaMyHouse_v001.jpg": {
                 "FILESIZE": 3519550,
                 "FILECREATION": "2025-05-30 03:48:57",
                 "FILEMODIFICATION": "2025-05-30 03:48:57",
                 "SIMKEY": "photoshop_soraaMyHouse_v001.jpg",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_Shell_mod_v001.ma": {
+                "FILESIZE": 23170818,
+                "FILECREATION": "2025-05-30 01:43:04",
+                "FILEMODIFICATION": "2025-05-14 19:24:48",
+                "SIMKEY": "item_Shell_mod_v001.ma",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output\\photoshop_soraaMyHouse_v002.jpg": {
                 "FILESIZE": 5408679,
@@ -902,6 +787,20 @@
                 "SIMKEY": "photoshop_soraaMyHouse_v001.jpg",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output"
             },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.assbin": {
+                "FILESIZE": 1076690,
+                "FILECREATION": "2025-05-30 01:44:08",
+                "FILEMODIFICATION": "2025-05-14 15:45:18",
+                "SIMKEY": "item_eyeBallHigh_sculpt_v001.assbin",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.mtl": {
+                "FILESIZE": 123,
+                "FILECREATION": "2025-05-30 03:48:57",
+                "FILEMODIFICATION": "2025-05-30 03:48:57",
+                "SIMKEY": "item_eyeBallHigh_sculpt_v001.assbin",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
+            },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png": {
                 "FILESIZE": 1013234,
                 "FILECREATION": "2025-05-30 03:49:33",
@@ -909,10 +808,10 @@
                 "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.assbin": {
-                "FILESIZE": 1076690,
-                "FILECREATION": "2025-05-30 01:44:08",
-                "FILEMODIFICATION": "2025-05-14 15:45:18",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.obj": {
+                "FILESIZE": 1385442,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
                 "SIMKEY": "item_eyeBallHigh_sculpt_v001.assbin",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             },
@@ -923,12 +822,12 @@
                 "SIMKEY": "standardSurface1_ambient_occlusion.1001.png",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png": {
-                "FILESIZE": 4527894,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.assbin": {
+                "FILESIZE": 65276080,
+                "FILECREATION": "2025-05-30 01:44:08",
+                "FILEMODIFICATION": "2025-05-14 15:45:30",
+                "SIMKEY": "item_eyeIrisHigh_sculpt_v001.assbin",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png": {
                 "FILESIZE": 281580,
@@ -937,89 +836,12 @@
                 "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.mtl": {
-                "FILESIZE": 123,
-                "FILECREATION": "2025-05-30 03:48:57",
-                "FILEMODIFICATION": "2025-05-30 03:48:57",
-                "SIMKEY": "item_eyeBallHigh_sculpt_v001.assbin",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png": {
-                "FILESIZE": 3898936,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_shell_mod_publish_standardSurface1_Height.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
-            },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_curvature.1001.png": {
                 "FILESIZE": 9102148,
                 "FILECREATION": "2025-05-30 03:49:34",
                 "FILEMODIFICATION": "2025-05-30 03:49:35",
                 "SIMKEY": "standardSurface1_curvature.1001.png",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Metallic.1001.png": {
-                "FILESIZE": 8243,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.obj": {
-                "FILESIZE": 1385442,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_eyeBallHigh_sculpt_v001.assbin",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png": {
-                "FILESIZE": 4166,
-                "FILECREATION": "2025-05-30 03:49:48",
-                "FILEMODIFICATION": "2025-05-30 03:49:48",
-                "SIMKEY": "item_shell_mod_publish_standardSurface1_Height.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png": {
-                "FILESIZE": 109082,
-                "FILECREATION": "2025-05-30 03:49:36",
-                "FILEMODIFICATION": "2025-05-30 03:49:36",
-                "SIMKEY": "standardSurface1_id.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png": {
-                "FILESIZE": 1036772,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.assbin": {
-                "FILESIZE": 65276080,
-                "FILECREATION": "2025-05-30 01:44:08",
-                "FILEMODIFICATION": "2025-05-14 15:45:30",
-                "SIMKEY": "item_eyeIrisHigh_sculpt_v001.assbin",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png": {
-                "FILESIZE": 16183667,
-                "FILECREATION": "2025-05-30 03:49:48",
-                "FILEMODIFICATION": "2025-05-30 03:49:48",
-                "SIMKEY": "item_shell_mod_publish_standardSurface1_Normal.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png": {
-                "FILESIZE": 12778392,
-                "FILECREATION": "2025-05-30 03:49:48",
-                "FILEMODIFICATION": "2025-05-30 03:49:48",
-                "SIMKEY": "standardSurface1_normal_base.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png": {
-                "FILESIZE": 110303,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.mtl": {
                 "FILESIZE": 123,
@@ -1028,25 +850,18 @@
                 "SIMKEY": "item_eyeIrisHigh_sculpt_v001.assbin",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl": {
-                "FILESIZE": 97,
-                "FILECREATION": "2025-05-30 03:48:57",
-                "FILEMODIFICATION": "2025-05-30 03:48:57",
-                "SIMKEY": "item_eyeBall_mod_v001.mtl",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Roughness.1001.png": {
-                "FILESIZE": 1472260,
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Metallic.1001.png": {
+                "FILESIZE": 8243,
                 "FILECREATION": "2025-05-30 03:49:33",
                 "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_shell_mod_publish_standardSurface1_Roughness.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+                "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_position.1001.png": {
-                "FILESIZE": 5491371,
-                "FILECREATION": "2025-05-30 03:49:48",
-                "FILEMODIFICATION": "2025-05-30 03:49:49",
-                "SIMKEY": "standardSurface1_position.1001.png",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png": {
+                "FILESIZE": 109082,
+                "FILECREATION": "2025-05-30 03:49:36",
+                "FILEMODIFICATION": "2025-05-30 03:49:36",
+                "SIMKEY": "standardSurface1_id.1001.png",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.obj": {
@@ -1056,32 +871,95 @@
                 "SIMKEY": "item_eyeIrisHigh_sculpt_v001.assbin",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj": {
-                "FILESIZE": 34639,
-                "FILECREATION": "2025-05-30 03:49:36",
-                "FILEMODIFICATION": "2025-05-30 03:49:36",
-                "SIMKEY": "item_eyeBall_mod_v001.mtl",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png": {
+                "FILESIZE": 1036772,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
+                "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr": {
-                "FILESIZE": 32859250,
-                "FILECREATION": "2025-05-30 03:49:35",
-                "FILEMODIFICATION": "2025-05-30 03:49:36",
-                "SIMKEY": "zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr": {
-                "FILESIZE": 1084041,
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png": {
+                "FILESIZE": 12778392,
                 "FILECREATION": "2025-05-30 03:49:48",
                 "FILEMODIFICATION": "2025-05-30 03:49:48",
-                "SIMKEY": "zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001"
+                "SIMKEY": "standardSurface1_normal_base.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eye_mod_publish.fbx": {
                 "FILESIZE": 864352,
                 "FILECREATION": "2025-05-30 01:44:12",
                 "FILEMODIFICATION": "2025-05-14 15:50:29",
                 "SIMKEY": "item_eye_mod_publish.fbx",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png": {
+                "FILESIZE": 4527894,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
+                "SIMKEY": "item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png": {
+                "FILESIZE": 110303,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
+                "SIMKEY": "item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png": {
+                "FILESIZE": 3898936,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
+                "SIMKEY": "item_shell_mod_publish_standardSurface1_Height.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.assbin": {
+                "FILESIZE": 715909856,
+                "FILECREATION": "2025-05-30 01:44:12",
+                "FILEMODIFICATION": "2025-05-14 15:46:04",
+                "SIMKEY": "item_shellHigh_sculpt_v001.assbin",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_position.1001.png": {
+                "FILESIZE": 5491371,
+                "FILECREATION": "2025-05-30 03:49:48",
+                "FILEMODIFICATION": "2025-05-30 03:49:49",
+                "SIMKEY": "standardSurface1_position.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png": {
+                "FILESIZE": 4166,
+                "FILECREATION": "2025-05-30 03:49:48",
+                "FILEMODIFICATION": "2025-05-30 03:49:48",
+                "SIMKEY": "item_shell_mod_publish_standardSurface1_Height.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.mtl": {
+                "FILESIZE": 121,
+                "FILECREATION": "2025-05-30 03:48:57",
+                "FILEMODIFICATION": "2025-05-30 03:48:57",
+                "SIMKEY": "item_shellHigh_sculpt_v001.assbin",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_thickness.1001.png": {
+                "FILESIZE": 8987046,
+                "FILECREATION": "2025-05-30 03:49:49",
+                "FILEMODIFICATION": "2025-05-30 03:49:49",
+                "SIMKEY": "standardSurface1_thickness.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png": {
+                "FILESIZE": 16183667,
+                "FILECREATION": "2025-05-30 03:49:48",
+                "FILEMODIFICATION": "2025-05-30 03:49:48",
+                "SIMKEY": "item_shell_mod_publish_standardSurface1_Normal.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.obj": {
+                "FILESIZE": 1128700901,
+                "FILECREATION": "2025-05-30 03:49:36",
+                "FILEMODIFICATION": "2025-05-30 03:49:48",
+                "SIMKEY": "item_shellHigh_sculpt_v001.assbin",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl": {
@@ -1091,31 +969,31 @@
                 "SIMKEY": "item_eyeIrisLow_sculpt_publish.mtl",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_thickness.1001.png": {
-                "FILESIZE": 8987046,
-                "FILECREATION": "2025-05-30 03:49:49",
-                "FILEMODIFICATION": "2025-05-30 03:49:49",
-                "SIMKEY": "standardSurface1_thickness.1001.png",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl": {
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl": {
                 "FILESIZE": 97,
                 "FILECREATION": "2025-05-30 03:48:57",
                 "FILEMODIFICATION": "2025-05-30 03:48:57",
-                "SIMKEY": "item_eyeIris_mod_v001.mtl",
+                "SIMKEY": "item_eyeBall_mod_v001.mtl",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.assbin": {
-                "FILESIZE": 715909856,
-                "FILECREATION": "2025-05-30 01:44:12",
-                "FILEMODIFICATION": "2025-05-14 15:46:04",
-                "SIMKEY": "item_shellHigh_sculpt_v001.assbin",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.assbin": {
+                "FILESIZE": 6762603,
+                "FILECREATION": "2025-05-30 01:45:02",
+                "FILEMODIFICATION": "2025-05-14 15:58:30",
+                "SIMKEY": "item_shell_mod_publish.assbin",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-NM1001.tif": {
-                "FILESIZE": 50331852,
-                "FILECREATION": "2025-05-30 03:48:57",
-                "FILEMODIFICATION": "2025-05-30 03:48:57",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Roughness.1001.png": {
+                "FILESIZE": 1472260,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
+                "SIMKEY": "item_shell_mod_publish_standardSurface1_Roughness.1001.png",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr": {
+                "FILESIZE": 1084041,
+                "FILECREATION": "2025-05-30 03:49:48",
+                "FILEMODIFICATION": "2025-05-30 03:49:48",
                 "SIMKEY": "zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001"
             },
@@ -1126,26 +1004,26 @@
                 "SIMKEY": "item_eyeIrisLow_sculpt_publish.mtl",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj": {
-                "FILESIZE": 28775,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_eyeIris_mod_v001.mtl",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj": {
+                "FILESIZE": 34639,
+                "FILECREATION": "2025-05-30 03:49:36",
+                "FILEMODIFICATION": "2025-05-30 03:49:36",
+                "SIMKEY": "item_eyeBall_mod_v001.mtl",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-NM1001.tif": {
-                "FILESIZE": 50331852,
-                "FILECREATION": "2025-05-30 03:48:57",
-                "FILEMODIFICATION": "2025-05-30 03:48:57",
-                "SIMKEY": "zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.mtl": {
-                "FILESIZE": 121,
-                "FILECREATION": "2025-05-30 03:48:57",
-                "FILEMODIFICATION": "2025-05-30 03:48:57",
-                "SIMKEY": "item_shellHigh_sculpt_v001.assbin",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.fbx": {
+                "FILESIZE": 2299232,
+                "FILECREATION": "2025-05-30 01:45:02",
+                "FILEMODIFICATION": "2025-05-14 15:58:07",
+                "SIMKEY": "item_shell_mod_publish.assbin",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl": {
+                "FILESIZE": 97,
+                "FILECREATION": "2025-05-30 03:48:57",
+                "FILEMODIFICATION": "2025-05-30 03:48:57",
+                "SIMKEY": "item_eyeIris_mod_v001.mtl",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shellDynamesh_sculpt_v001.obj": {
                 "FILESIZE": 7539075,
@@ -1154,6 +1032,41 @@
                 "SIMKEY": "item_shellDynamesh_sculpt_v001.obj",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output"
             },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-NM1001.tif": {
+                "FILESIZE": 50331852,
+                "FILECREATION": "2025-05-30 03:48:57",
+                "FILEMODIFICATION": "2025-05-30 03:48:57",
+                "SIMKEY": "zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr": {
+                "FILESIZE": 32859250,
+                "FILECREATION": "2025-05-30 03:49:35",
+                "FILEMODIFICATION": "2025-05-30 03:49:36",
+                "SIMKEY": "zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj": {
+                "FILESIZE": 28775,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
+                "SIMKEY": "item_eyeIris_mod_v001.mtl",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.mtl": {
+                "FILESIZE": 117,
+                "FILECREATION": "2025-05-30 03:48:57",
+                "FILEMODIFICATION": "2025-05-30 03:48:57",
+                "SIMKEY": "item_shell_sculpt_v001.mtl",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output"
+            },
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-NM1001.tif": {
+                "FILESIZE": 50331852,
+                "FILECREATION": "2025-05-30 03:48:57",
+                "FILEMODIFICATION": "2025-05-30 03:48:57",
+                "SIMKEY": "zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001"
+            },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.ma": {
                 "FILESIZE": 1338476,
                 "FILECREATION": "2025-05-30 01:45:19",
@@ -1161,17 +1074,10 @@
                 "SIMKEY": "item_shellRetopo_mod_v001.ma",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.obj": {
-                "FILESIZE": 1128700901,
-                "FILECREATION": "2025-05-30 03:49:36",
-                "FILEMODIFICATION": "2025-05-30 03:49:48",
-                "SIMKEY": "item_shellHigh_sculpt_v001.assbin",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.mtl": {
-                "FILESIZE": 117,
-                "FILECREATION": "2025-05-30 03:48:57",
-                "FILEMODIFICATION": "2025-05-30 03:48:57",
+            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.obj": {
+                "FILESIZE": 3802159,
+                "FILECREATION": "2025-05-30 03:49:33",
+                "FILEMODIFICATION": "2025-05-30 03:49:33",
                 "SIMKEY": "item_shell_sculpt_v001.mtl",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output"
             },
@@ -1182,33 +1088,12 @@
                 "SIMKEY": "item_shellRetopo_mod_v001.ma",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
             },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.assbin": {
-                "FILESIZE": 6762603,
-                "FILECREATION": "2025-05-30 01:45:02",
-                "FILEMODIFICATION": "2025-05-14 15:58:30",
-                "SIMKEY": "item_shell_mod_publish.assbin",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.obj": {
-                "FILESIZE": 3802159,
-                "FILECREATION": "2025-05-30 03:49:33",
-                "FILEMODIFICATION": "2025-05-30 03:49:33",
-                "SIMKEY": "item_shell_sculpt_v001.mtl",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output"
-            },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.obj": {
                 "FILESIZE": 1338476,
                 "FILECREATION": "2025-05-30 03:49:49",
                 "FILEMODIFICATION": "2025-05-30 03:49:49",
                 "SIMKEY": "item_shellRetopo_mod_v001.ma",
                 "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input"
-            },
-            "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.fbx": {
-                "FILESIZE": 2299232,
-                "FILECREATION": "2025-05-30 01:45:02",
-                "FILEMODIFICATION": "2025-05-14 15:58:07",
-                "SIMKEY": "item_shell_mod_publish.assbin",
-                "SIMPARENT": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input"
             }
         },
         "DATA_FILE_SIZE": [
@@ -1444,461 +1329,461 @@
         "DATA_FILE_LIFE": [
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_thickness.1001.png",
-                3803.648218154907
+                134261.01849722862
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.obj",
-                3803.6865265369415
+                134261.0670425892
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_position.1001.png",
-                3803.9012677669525
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
-                3803.9120314121246
+                134261.27556180954
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png",
-                3803.9273114204407
+                134261.2978565693
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
+                134261.2989332676
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png",
-                3803.9273250102997
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
-                3803.9504306316376
+                134261.3152961731
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.obj",
-                3803.9525089263916
+                134261.32500314713
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
+                134261.3302204609
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png",
-                3816.1639070510864
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj",
-                3816.1740806102753
+                134273.53603100777
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.obj",
-                3816.1919791698456
+                134273.54973816872
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj",
+                134273.55758357048
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr",
-                3817.6150443553925
+                134275.00245833397
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_curvature.1001.png",
-                3817.9403302669525
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
-                3819.007314682007
+                134275.31274938583
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.obj",
-                3819.008708715439
+                134276.36703157425
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
+                134276.37821769714
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Roughness.1001.png",
-                3819.0696938037872
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.obj",
-                3819.0924067497253
+                134276.45504570007
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_ambient_occlusion.1001.png",
-                3819.093850135803
+                134276.4667892456
             ],
             [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
-                3819.104108572006
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
-                3819.1043820381165
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.obj",
+                134276.46750092506
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.obj",
-                3819.108369588852
+                134276.47049760818
             ],
             [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png",
-                3819.239748954773
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
+                134276.4765264988
             ],
             [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
-                3819.2514386177063
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
+                134276.4771680832
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\c4d\\scenes\\item_shell_lookdev_v001.c4d",
-                3819.255844593048
+                134276.62451553345
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png",
+                134276.62728476524
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Metallic.1001.png",
-                3819.2653744220734
+                134276.63655161858
             ],
             [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj",
-                3819.266896009445
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
+                134276.63918066025
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png",
-                3819.269458293915
+                134276.64038038254
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shellDynamesh_sculpt_v001.obj",
-                3819.270886182785
+                134276.6447250843
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj",
+                134276.6484761238
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\zbrush_shell_project.zpr",
-                3832.231718301773
+                134289.5964603424
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\c4d\\renders\\render_Shell_v001.exr",
-                3835.1349267959595
+                134292.50223875046
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraa_displace2.psd",
-                3845.2705430984497
+                134302.62093114853
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraa_displace1.psd",
-                3850.200344800949
+                134307.54969382286
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraaShell_project.psd",
-                3855.0539045333862
+                134312.4035434723
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output\\photoshop_soraaMyHouse_v002.jpg",
-                3855.4196417331696
+                134312.7878446579
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-NM1001.tif",
-                3855.457945585251
+                134312.8412296772
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.mtl",
-                3855.4665265083313
+                134312.84137654305
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.mtl",
-                3855.4667286872864
+                134312.8473045826
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.mtl",
-                3855.535335302353
+                134312.8991982937
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output\\photoshop_soraaMyHouse_v001.jpg",
-                3855.537322282791
+                134312.90488815308
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.mtl",
-                3855.548531293869
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
-                3855.549364089966
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl",
-                3855.5590221881866
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl",
-                3855.559693813324
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-NM1001.tif",
-                3855.5644907951355
+                134312.90906310081
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.mtl",
-                3855.57159614563
+                134312.92910909653
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl",
+                134312.93352603912
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
+                134312.93524718285
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl",
+                134312.94305992126
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-NM1001.tif",
+                134312.9436058998
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.ma",
-                11273.581440448761
+                141730.96152329445
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.fbx",
-                11289.823674917221
+                141747.18535995483
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.assbin",
-                11290.290240764618
+                141747.64996695518
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.assbin",
-                11340.14241361618
+                141797.50066757202
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eye_mod_publish.fbx",
-                11340.215861797333
+                141797.57335186005
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.assbin",
-                11343.828338623047
+                141801.1891825199
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.assbin",
-                11343.989078521729
+                141801.35372257233
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaShell_project.spp",
-                11399.765859127045
+                141857.12928819656
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaIris_project.spp",
-                11400.388248205185
+                141857.75169801712
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_Shell_mod_v001.ma",
-                11407.84050989151
+                141865.21066093445
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_shellFull_mod_publish.fbx",
-                11407.876663684845
+                141865.24693274498
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\refs.pur",
-                11408.325336456299
+                141865.66898441315
             ]
         ],
         "DATA_FILE_MODIF": [
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_thickness.1001.png",
-                3803.307907819748
+                134260.6780309677
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_position.1001.png",
-                3803.6629045009613
+                134261.0366384983
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.obj",
-                3803.6667971611023
+                134261.04726719856
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
-                3803.8943786621094
+                134261.28131580353
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png",
-                3803.914141178131
+                134261.28461909294
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png",
-                3803.9275801181793
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
-                3803.9468212127686
+                134261.3156080246
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.obj",
-                3803.9489319324493
+                134261.32144403458
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
+                134261.32656121254
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.obj",
-                3804.0211424827576
+                134261.37901329994
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png",
-                3816.1592235565186
+                134273.53109955788
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj",
-                3816.1733453273773
+                134273.55688023567
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr",
-                3816.1829340457916
+                134273.57036995888
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_curvature.1001.png",
-                3817.59432053566
+                134274.96646261215
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.obj",
-                3817.961769580841
+                134275.32010936737
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
-                3819.0029480457306
+                134276.37375998497
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.obj",
-                3819.0390837192535
+                134276.41417455673
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_ambient_occlusion.1001.png",
-                3819.0482659339905
+                134276.42109799385
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Roughness.1001.png",
-                3819.0682468414307
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
-                3819.1006059646606
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
-                3819.1034660339355
+                134276.45335698128
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.obj",
-                3819.1046118736267
+                134276.46673107147
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
+                134276.4735069275
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
+                134276.47574400902
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shellDynamesh_sculpt_v001.obj",
-                3819.1488978862762
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
-                3819.23587846756
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png",
-                3819.236158847809
+                134276.52281308174
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\c4d\\scenes\\item_shell_lookdev_v001.c4d",
-                3819.2370994091034
+                134276.60584640503
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png",
+                134276.6235268116
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
+                134276.6235833168
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png",
-                3819.2647094726562
+                134276.63570952415
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Metallic.1001.png",
-                3819.264730453491
+                134276.63585829735
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj",
-                3819.26727104187
+                134276.6486811638
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\zbrush_shell_project.zpr",
-                3819.285695552826
+                134276.6504096985
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\c4d\\renders\\render_Shell_v001.exr",
-                3832.2356946468353
+                134289.60301351547
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraa_displace2.psd",
-                3835.1318476200104
+                134292.4822525978
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraa_displace1.psd",
-                3845.269038915634
+                134302.61842393875
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\photoshop_soraaShell_project.psd",
-                3850.1985976696014
+                134307.54824376106
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-NM1001.tif",
-                3855.1269245147705
+                134312.51012444496
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output\\photoshop_soraaMyHouse_v002.jpg",
-                3855.413905620575
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.mtl",
-                3855.465946674347
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-NM1001.tif",
-                3855.46630525589
+                134312.78210258484
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.mtl",
-                3855.46675157547
+                134312.8415865898
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-NM1001.tif",
+                134312.84553432465
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.mtl",
+                134312.846524477
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\photoshop\\output\\photoshop_soraaMyHouse_v001.jpg",
-                3855.5205376148224
+                134312.88806462288
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.mtl",
-                3855.535603284836
+                134312.89943623543
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.mtl",
-                3855.548799276352
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
-                3855.5496640205383
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl",
-                3855.55944108963
-            ],
-            [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl",
-                3855.5599629879
+                134312.90932011604
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.mtl",
-                3855.571920156479
+                134312.92946505547
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl",
+                134312.9341161251
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
+                134312.9355521202
+            ],
+            [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl",
+                134312.943338871
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaIris_project.spp",
-                1244694.5198776722
+                1375151.8833386898
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_Shell_mod_v001.ma",
-                1330104.459956646
+                1460561.8300757408
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\refs.pur",
-                1330118.8896977901
+                1460576.2333357334
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\substance_soraaShell_project.spp",
-                1333533.519261837
+                1463990.8826658726
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_shellFull_mod_publish.fbx",
-                1334226.857483387
+                1464684.2277584076
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.assbin",
-                1342481.9403293133
+                1472939.3001294136
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shell_mod_publish.fbx",
-                1342505.5891330242
+                1472962.9507920742
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eye_mod_publish.fbx",
-                1342962.8663158417
+                1473420.2237517834
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.assbin",
-                1343228.6847982407
+                1473686.0429902077
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.assbin",
-                1343261.928564787
+                1473719.2895407677
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.assbin",
-                1343274.0896303654
+                1473731.454176426
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.ma",
-                1427931.0538039207
+                1558388.4338998795
             ]
         ],
         "DATA_FILE_EXTENSION": {
@@ -1934,12 +1819,13 @@
                 "SIZE": 403347168
             },
             ".exr": {
-                "COUNT": 2,
+                "COUNT": 3,
                 "FILE_LIST": [
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\c4d\\renders\\render_Shell_v001.exr",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_iris_v001\\zmaps_iris_v001item_eyeIris_mod_v002-DM40961001.exr",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\zmaps_shell_v001\\zmaps_shell_v001.item_shellRetopo_mod_v002-DM40961001.exr"
                 ],
-                "SIZE": 99057948
+                "SIZE": 100141989
             },
             ".c4d": {
                 "COUNT": 1,
@@ -1957,14 +1843,6 @@
                 ],
                 "SIZE": 6299120
             },
-            ".ma": {
-                "COUNT": 2,
-                "FILE_LIST": [
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_Shell_mod_v001.ma",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.ma"
-                ],
-                "SIZE": 24509294
-            },
             ".jpg": {
                 "COUNT": 2,
                 "FILE_LIST": [
@@ -1973,25 +1851,13 @@
                 ],
                 "SIZE": 8928229
             },
-            ".png": {
-                "COUNT": 14,
+            ".ma": {
+                "COUNT": 2,
                 "FILE_LIST": [
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_ambient_occlusion.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Metallic.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Roughness.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_position.1001.png",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_thickness.1001.png"
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\maya\\scenes\\item_Shell_mod_v001.ma",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.ma"
                 ],
-                "SIZE": 65618902
+                "SIZE": 24509294
             },
             ".assbin": {
                 "COUNT": 4,
@@ -2008,28 +1874,51 @@
                 "FILE_LIST": [
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.mtl",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.mtl",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.mtl",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.mtl",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.mtl",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.mtl",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.mtl"
                 ],
                 "SIZE": 900
             },
+            ".png": {
+                "COUNT": 16,
+                "FILE_LIST": [
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_BaseColor.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_ambient_occlusion.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Height.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_curvature.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Metallic.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_id.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Normal.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_normal_base.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_BaseColor.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_iris_v001\\item_eyeIrisHigh_sculpt_v001_defaultMat_Roughness.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Height.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_position.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Metallic.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\substance_shellMeshMaps_v001\\standardSurface1_thickness.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Normal.1001.png",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output\\susbtance_shell_v001\\item_shell_mod_publish_standardSurface1_Roughness.1001.png"
+                ],
+                "SIZE": 74725216
+            },
             ".obj": {
-                "COUNT": 8,
+                "COUNT": 9,
                 "FILE_LIST": [
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeBallHigh_sculpt_v001.obj",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_eyeIrisHigh_sculpt_v001.obj",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.obj",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj",
-                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shellDynamesh_sculpt_v001.obj",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\input\\item_shellHigh_sculpt_v001.obj",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_eyeIrisLow_sculpt_publish.obj",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.obj",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shellDynamesh_sculpt_v001.obj",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeIris_mod_v001.obj",
+                    "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output\\item_shell_sculpt_v001.obj",
                     "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.obj"
                 ],
-                "SIZE": 1236003392
+                "SIZE": 1239805551
             },
             ".tif": {
                 "COUNT": 2,
@@ -2176,24 +2065,24 @@
                 50331852
             ],
             [
-                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output",
-                59633898
-            ],
-            [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\c4d",
                 70970141
             ],
             [
+                "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance\\output",
+                74725216
+            ],
+            [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush",
-                115810558
+                148654489
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\substance",
-                2073547238
+                953881184
             ],
             [
                 "D:\\WORK\\PYTHON\\SOR\u00c4A_backup",
-                2605178889
+                6177280107
             ]
         ],
         "ARCHIVE_PATH": "d:/work/python/ASPC_Archive_SOR\u00c4A_backup.zip",
@@ -2862,107 +2751,7 @@
                     "__AUTO-SAVE__untitled.0037.mb"
                 ],
                 "ITEMS_NUMBER": 99,
-                "FILE_LIST": [
-                    "item_candys_mod_v001.0001.ma",
-                    "item_candys_mod_v001.0002.ma",
-                    "item_candys_mod_v001.0003.ma",
-                    "item_candys_mod_v001.0004.ma",
-                    "item_candys_mod_v001.0005.ma",
-                    "item_cristal_mod_v001.0001.ma",
-                    "item_egg_mod_v001.0001.ma",
-                    "item_egg_mod_v001.0002.ma",
-                    "item_egg_mod_v001.0003.ma",
-                    "item_egg_mod_v001.0004.ma",
-                    "item_egg_mod_v001.0005.ma",
-                    "item_egg_mod_v001.0006.ma",
-                    "item_egg_mod_v001.0007.ma",
-                    "item_egg_mod_v001.0008.ma",
-                    "item_egg_mod_v001.0009.ma",
-                    "item_egg_mod_v001.0010.ma",
-                    "item_egg_mod_v001.0011.ma",
-                    "item_egg_mod_v001.0012.ma",
-                    "item_egg_mod_v001.0013.ma",
-                    "item_egg_mod_v001.0014.ma",
-                    "item_egg_mod_v001.0015.ma",
-                    "item_egg_mod_v001.0016.ma",
-                    "item_egg_mod_v001.0017.ma",
-                    "item_egg_mod_v001.0018.ma",
-                    "item_egg_mod_v001.0019.ma",
-                    "item_egg_mod_v001.0020.ma",
-                    "item_egg_mod_v001.0021.ma",
-                    "item_egg_mod_v001.0022.ma",
-                    "item_egg_mod_v001.0023.ma",
-                    "item_egg_mod_v001.0024.ma",
-                    "item_egg_mod_v001.0025.ma",
-                    "item_egg_mod_v001.0026.ma",
-                    "item_egg_mod_v001.0027.ma",
-                    "item_egg_mod_v001.0028.ma",
-                    "item_egg_mod_v001.0029.ma",
-                    "item_egg_mod_v001.0030.ma",
-                    "item_egg_mod_v001.0031.ma",
-                    "item_egg_mod_v001.0032.ma",
-                    "item_egg_mod_v001.0033.ma",
-                    "item_egg_mod_v001.0034.ma",
-                    "item_egg_mod_v001.0035.ma",
-                    "item_egg_mod_v001.0036.ma",
-                    "item_egg_mod_v001.0037.ma",
-                    "item_egg_mod_v001.0038.ma",
-                    "item_egg_mod_v001.0039.ma",
-                    "item_egg_mod_v001.0040.ma",
-                    "item_egg_mod_v001.0041.ma",
-                    "item_egg_mod_v001.0042.ma",
-                    "item_grenadaHead_mod_v001.0001.ma",
-                    "item_grenadaHead_mod_v001.0002.ma",
-                    "item_grenadaHead_mod_v001.0003.ma",
-                    "item_parfume_mod_v001.0001.ma",
-                    "item_parfume_mod_v001.0002.ma",
-                    "item_parfume_mod_v001.0003.ma",
-                    "item_parfume_mod_v001.0004.ma",
-                    "item_parfume_mod_v001.0005.ma",
-                    "item_parfume_mod_v001.0006.ma",
-                    "item_parfume_mod_v001.0007.ma",
-                    "item_parfume_mod_v001.0008.ma",
-                    "item_parfume_mod_v001.0009.ma",
-                    "__AUTO-SAVE__untitled.0001.ma",
-                    "__AUTO-SAVE__untitled.0001.mb",
-                    "__AUTO-SAVE__untitled.0002.ma",
-                    "__AUTO-SAVE__untitled.0002.mb",
-                    "__AUTO-SAVE__untitled.0003.mb",
-                    "__AUTO-SAVE__untitled.0004.mb",
-                    "__AUTO-SAVE__untitled.0005.mb",
-                    "__AUTO-SAVE__untitled.0006.mb",
-                    "__AUTO-SAVE__untitled.0007.mb",
-                    "__AUTO-SAVE__untitled.0008.mb",
-                    "__AUTO-SAVE__untitled.0009.mb",
-                    "__AUTO-SAVE__untitled.0010.mb",
-                    "__AUTO-SAVE__untitled.0011.mb",
-                    "__AUTO-SAVE__untitled.0012.mb",
-                    "__AUTO-SAVE__untitled.0013.mb",
-                    "__AUTO-SAVE__untitled.0014.mb",
-                    "__AUTO-SAVE__untitled.0015.mb",
-                    "__AUTO-SAVE__untitled.0016.mb",
-                    "__AUTO-SAVE__untitled.0017.mb",
-                    "__AUTO-SAVE__untitled.0018.mb",
-                    "__AUTO-SAVE__untitled.0019.mb",
-                    "__AUTO-SAVE__untitled.0020.mb",
-                    "__AUTO-SAVE__untitled.0021.mb",
-                    "__AUTO-SAVE__untitled.0022.mb",
-                    "__AUTO-SAVE__untitled.0023.mb",
-                    "__AUTO-SAVE__untitled.0024.mb",
-                    "__AUTO-SAVE__untitled.0025.mb",
-                    "__AUTO-SAVE__untitled.0026.mb",
-                    "__AUTO-SAVE__untitled.0027.mb",
-                    "__AUTO-SAVE__untitled.0028.mb",
-                    "__AUTO-SAVE__untitled.0029.mb",
-                    "__AUTO-SAVE__untitled.0030.mb",
-                    "__AUTO-SAVE__untitled.0031.mb",
-                    "__AUTO-SAVE__untitled.0032.mb",
-                    "__AUTO-SAVE__untitled.0033.mb",
-                    "__AUTO-SAVE__untitled.0034.mb",
-                    "__AUTO-SAVE__untitled.0035.mb",
-                    "__AUTO-SAVE__untitled.0036.mb",
-                    "__AUTO-SAVE__untitled.0037.mb"
-                ],
+                "FILE_LIST": [],
                 "FOLDER_LIST": [],
                 "ITEMS_SIZE": 725654801,
                 "CHILDREN_SIZE": 0,
@@ -21471,6 +21260,301 @@
             [
                 "D:\\WORK\\LIGHTING\\BEWAFFNUNG",
                 31089722214
+            ]
+        ]
+    },
+    "D:\\WORK\\PYTHON\\test_project_compression": {
+        "SCAN_DATE": 1748718250.558137,
+        "SCAN_GLOBAL_DATA": {
+            "MIN_ITEMS": 1,
+            "MAX_ITEMS": 9
+        },
+        "DATA_FOLDER": {
+            "D:\\WORK\\PYTHON\\test_project_compression": {
+                "ITEMS_LIST": [
+                    "images"
+                ],
+                "ITEMS_NUMBER": 1,
+                "FILE_LIST": [],
+                "FOLDER_LIST": [
+                    "images"
+                ],
+                "ITEMS_SIZE": 0,
+                "CHILDREN_SIZE": 1278485198,
+                "FILE_COUNT": 0,
+                "SIMILARITY": {},
+                "FOLDER_COUNT": 0,
+                "HEAVIEST_FILE": -Infinity,
+                "LIGHTEST_FILE": Infinity
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images": {
+                "ITEMS_LIST": [
+                    "render_logoChroma_v001.exr",
+                    "render_tehclimaxFog_v001.exr",
+                    "render_tehclimax_v001.exr",
+                    "render_tehclimax_v002.exr",
+                    "test.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
+                ],
+                "ITEMS_NUMBER": 9,
+                "FILE_LIST": [
+                    "render_logoChroma_v001.exr",
+                    "render_tehclimaxFog_v001.exr",
+                    "render_tehclimax_v001.exr",
+                    "render_tehclimax_v002.exr",
+                    "test.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
+                ],
+                "FOLDER_LIST": [],
+                "ITEMS_SIZE": 1278485198,
+                "CHILDREN_SIZE": 0,
+                "FILE_COUNT": 9,
+                "SIMILARITY": {
+                    "render_logoChroma_v001.exr": [
+                        "render_logoChroma_v001.exr"
+                    ],
+                    "render_tehclimaxFog_v001.exr": [
+                        "render_tehclimaxFog_v001.exr",
+                        "render_tehclimax_v001.exr"
+                    ],
+                    "render_tehclimax_v002.exr": [
+                        "render_tehclimax_v002.exr"
+                    ],
+                    "test.exr": [
+                        "test.exr"
+                    ],
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr": [
+                        "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                        "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                        "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                        "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
+                    ]
+                },
+                "FOLDER_COUNT": 0,
+                "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
+                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
+            }
+        },
+        "DATA_FILES": {
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_logoChroma_v001.exr": {
+                "FILESIZE": 56052823,
+                "FILECREATION": "2025-05-31 20:24:50",
+                "FILEMODIFICATION": "2025-05-31 20:24:53",
+                "SIMKEY": "render_logoChroma_v001.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimaxFog_v001.exr": {
+                "FILESIZE": 327879151,
+                "FILECREATION": "2025-05-31 20:24:56",
+                "FILEMODIFICATION": "2025-05-31 20:24:59",
+                "SIMKEY": "render_tehclimaxFog_v001.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr": {
+                "FILESIZE": 314955172,
+                "FILECREATION": "2025-05-29 19:27:42",
+                "FILEMODIFICATION": "2025-05-29 19:27:43",
+                "SIMKEY": "render_tehclimaxFog_v001.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr": {
+                "FILESIZE": 363646227,
+                "FILECREATION": "2025-05-29 19:27:43",
+                "FILEMODIFICATION": "2025-05-29 19:27:43",
+                "SIMKEY": "render_tehclimax_v002.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr": {
+                "FILESIZE": 71367551,
+                "FILECREATION": "2025-05-31 20:24:59",
+                "FILEMODIFICATION": "2025-05-31 20:25:03",
+                "SIMKEY": "test.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr": {
+                "FILESIZE": 37372612,
+                "FILECREATION": "2025-05-31 20:24:55",
+                "FILEMODIFICATION": "2025-05-31 20:24:56",
+                "SIMKEY": "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr": {
+                "FILESIZE": 36821809,
+                "FILECREATION": "2025-05-31 20:24:49",
+                "FILEMODIFICATION": "2025-05-31 20:24:50",
+                "SIMKEY": "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr": {
+                "FILESIZE": 35755383,
+                "FILECREATION": "2025-05-31 20:24:53",
+                "FILEMODIFICATION": "2025-05-31 20:24:54",
+                "SIMKEY": "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            },
+            "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr": {
+                "FILESIZE": 34634470,
+                "FILECREATION": "2025-05-29 19:27:46",
+                "FILEMODIFICATION": "2025-05-29 19:27:48",
+                "SIMKEY": "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                "SIMPARENT": "D:\\WORK\\PYTHON\\test_project_compression\\images"
+            }
+        },
+        "DATA_FILE_SIZE": [
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
+                34634470
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                35755383
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                36821809
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                37372612
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_logoChroma_v001.exr",
+                56052823
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
+                71367551
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
+                314955172
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimaxFog_v001.exr",
+                327879151
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
+                363646227
+            ]
+        ],
+        "DATA_FILE_LIFE": [
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
+                2345.3241143226624
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimaxFog_v001.exr",
+                2348.1192486286163
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                2350.117300748825
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                2351.705282688141
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_logoChroma_v001.exr",
+                2354.156314611435
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                2355.83695936203
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
+                178578.53778719902
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
+                178582.08960795403
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
+                178582.45054626465
+            ]
+        ],
+        "DATA_FILE_MODIF": [
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
+                2341.6063492298126
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimaxFog_v001.exr",
+                2345.3196346759796
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                2348.134410381317
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                2350.1274831295013
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_logoChroma_v001.exr",
+                2351.6880617141724
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                2354.209140777588
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
+                178576.97336745262
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
+                178581.66514778137
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
+                178582.08792948723
+            ]
+        ],
+        "DATA_FILE_EXTENSION": {
+            ".exr": {
+                "COUNT": 9,
+                "FILE_LIST": [
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_logoChroma_v001.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimaxFog_v001.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v001.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\test.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                    "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
+                ],
+                "SIZE": 1278485198
+            }
+        },
+        "DATA_ITEM_SIZE": [
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression",
+                0
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images",
+                1278485198
+            ]
+        ],
+        "DATA_CHILDREN_SIZE": [
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression\\images",
+                0
+            ],
+            [
+                "D:\\WORK\\PYTHON\\test_project_compression",
+                1278485198
             ]
         ]
     }
