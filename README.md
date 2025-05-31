@@ -1,7 +1,7 @@
 # ASPC - AUSPICIOUS
 *Writen by Delaporte Robin AKA Quazar*
 
-![ASPC TUI](images/img_ASPC_Lobby.svg)
+![ASPC TUI](images/img_ASPC_Lobby.jpg)
 
 ## Example videos
 [Example video 1](images/video_demo_ASPCSnoop.mp4)

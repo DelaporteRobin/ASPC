@@ -3,7 +3,7 @@
         "checkbox_file_size": false,
         "checkbox_file_children": true,
         "checkbox_find_folder": false,
-        "checkbox_size_gradient": false,
+        "checkbox_size_gradient": true,
         "checkbox_file_similarity": false,
         "checkbox_folder_children": true,
         "checkbox_folder_items": false,
