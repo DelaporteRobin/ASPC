@@ -279,7 +279,8 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 	CSS_PATH = ["styles/layout.tcss"]
 
 
-	def __init__(self):
+	def __init__(self, THEME_DICTIONNARY):
+		self.THEME_DICTIONNARY = THEME_DICTIONNARY
 		super().__init__()
 
 
@@ -845,7 +846,7 @@ Global project informations
 		#self.message_function("dismiss value : %s"%quit_value)
 		if quit_value == False:
 			try:
-				self.push_screen(ModalASPCAddToArchive())
+				self.push_screen(ModalASPCAddToArchive(self.THEME_DICTIONNARY))
 			except Exception as e:
 				self.message_function("Impossible to call screen\n%s"%traceback.format_exc(), "error")
 			else:

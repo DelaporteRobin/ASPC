@@ -371,8 +371,24 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 			for element in self.selection_to_archive:
 				if os.path.isdir(element) == True:
+					"""
 					folder_counter += 1
 					self.file_queue.put(element)
+					"""
+					#add all files contained in the folder
+					console.log("[%s]\tExploring folder to find files to archive : %s"%(self.THEME.primary,element))
+					for root, dirs, files in os.walk(element):
+						#check if the file is not already in archive
+						for f in files:
+							filepath = os.path.join(root,f)
+							relative_filepath = Path(filepath).relative_to(Path(self.current_project))
+
+							if Path(relative_filepath) not in self.project_archive_content:
+								file_counter+=1
+								self.file_queue.put(filepath)
+							else:
+								console.log("[%s]\tFile skipped because already archived"%self.THEME.warning)
+						self.file_queue.put(os.path.join(root, f))
 
 				elif (os.path.isfile(element) == True):
 

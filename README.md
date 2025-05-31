@@ -21,7 +21,7 @@ old **projects** (large folder/file hierarchies).
 - visualize information related to your project’s content (via dataset insights, graphs, etc.)
 - archive filtered or selected items into a compressed file (which you can access through the ASPC interface)
 
-> [!IMPORTANT] You can read the documentation here : *NOTION_LINK*
+> [!IMPORTANT] You can read the documentation here : *https://scythe-hugger-9ae.notion.site/AUSPICIOUS-DOCUMENTATION-204f29fde0e380778293fa739104ce75?source=copy_link*
 
 > **I hope you will like this project, don't hesitate to star the repository, report your bugs (since it's a first release).**
 > **You can also tell me about new features ideas, I'm still thinking about how to improve the project but I'm open to suggestions :)**

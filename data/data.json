@@ -21300,17 +21300,7 @@
                     "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
                 ],
                 "ITEMS_NUMBER": 9,
-                "FILE_LIST": [
-                    "render_logoChroma_v001.exr",
-                    "render_tehclimaxFog_v001.exr",
-                    "render_tehclimax_v001.exr",
-                    "render_tehclimax_v002.exr",
-                    "test.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
-                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
-                ],
+                "FILE_LIST": [],
                 "FOLDER_LIST": [],
                 "ITEMS_SIZE": 1278485198,
                 "CHILDREN_SIZE": 0,
@@ -21338,7 +21328,18 @@
                 },
                 "FOLDER_COUNT": 0,
                 "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\render_tehclimax_v002.exr",
-                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr"
+                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\test_project_compression\\images\\_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
+                "ARCHIVED_LIST": [
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0188.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0192.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0198.exr",
+                    "_item_grenade_shot_sq01_sh01_v002_pid26720_1730156448__RENDER_CAMERAShape_beauty.0203.exr",
+                    "render_logoChroma_v001.exr",
+                    "test.exr",
+                    "render_tehclimax_v001.exr",
+                    "render_tehclimaxFog_v001.exr",
+                    "render_tehclimax_v002.exr"
+                ]
             }
         },
         "DATA_FILES": {
@@ -21556,6 +21557,8 @@
                 "D:\\WORK\\PYTHON\\test_project_compression",
                 1278485198
             ]
-        ]
+        ],
+        "ARCHIVE_PATH": "d:/work/python\\ASPC_Archive_test_project_compression.zip",
+        "ARCHIVE_LOG": "D:\\work\\python\\aspc\\data/ASPC_ArchiveLog_test_project_compression.json"
     }
 }
