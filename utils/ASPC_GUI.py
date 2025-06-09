@@ -838,28 +838,10 @@ class ASPC_GUI:
 			self.message_function("terminated")
 		
 
-
-
-
-
-
-
-
-
 	def add_list_line_function(self, label, id):
 		widget = self.query_one("#%s"%id)
 		widget.append(ListItem(label))
 		#self.listview_folders.append(ListItem(Label("hello world")))
-
-
-
-
-
-
-
-
-
-
 
 
 	def update_directorytree_function(self):
@@ -875,8 +857,6 @@ class ASPC_GUI:
 
 
 		self.message_function(self.query_one("#directorytree_main").last_line)
-		
-
 
 
 	def search_folder_function(self, tree, root, last_line):
@@ -908,22 +888,13 @@ class ASPC_GUI:
 						else:
 							self.message_function("CONTINUE", "error")
 							continue
-							
 
-					
-
-					
-					#self.update_directorytree_function()
-				#self.message_function(node_selected)
 				
 
 			except Exception as e:
 				self.message_function("no line anymore", "error")
 				self.message_function(e, "error")
 				return
-
-
-
 
 	def reset_folder_children_color_function(self):
 
@@ -960,14 +931,22 @@ class ASPC_GUI:
 				self.current_folder_children_list.append(label_children)
 			#highlight each item/children
 
-
-
-
-
-
-
-
-
 	def update_file_list_displaymode_function(self):
-
 		self.message_function("apply changes")
+
+	def check_for_extension_function(self):
+		self.message_function("Update extension list for current project","notification")
+		try:
+			#self.message_function(self.current_project_name)
+			#get the extension list for the current project selected
+			extension_list = list(self.current_project_data["DATA_FILE_EXTENSION"].keys())
+			#clear the listview 
+			list_item = []
+			self.listview_extensionlist.clear()
+			for extension in extension_list:
+				list_item.append(MultiListItem(Label(extension)))
+			self.listview_extensionlist.extend(list_item)
+		except Exception as e:
+			self.message_function("Impossible to update extension list", "error")
+		else:
+			self.message_function("Extension list updated", "success")

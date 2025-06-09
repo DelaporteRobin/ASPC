@@ -33,6 +33,7 @@ old **projects** (large folder/file hierarchies).
 - [ ] Add statistics features (largest items list)
 - [ ] Create the Obsolescence Detection System in order to target precisely which files should be archived (size, repeatability, last modification date...)
 - [ ] Create the asset manager (for live AND archived items)
+- [ ] Think about ways of compressing more (custom compression method for each file extension)
 
 
 

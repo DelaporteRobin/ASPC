@@ -234,26 +234,29 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 
 
 class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
-	def __init__(self, theme_dictionnary, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA):
+	def __init__(self, theme_dictionnary, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA, overhead_checking=True, update_data=True):
 
 		self.THEME = theme_dictionnary
-		console = Console()
+		#console = Console()
 
 		self.current_project = current_project 
 		self.selection_to_archive = selection_to_archive
 		self.current_project_data = project_data[current_project]
 		self.project_data = project_data
 		self.method = method
+		self.overhead_checking=overhead_checking
+		self.update_data = update_data
 
-		rich_title_archiving = RichFiglet("ARCHIVING PROCESS", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.background], animation=None,quality=40)
-		console.print(rich_title_archiving)
-		console.log("[%s]Starting archiving process"%self.THEME.primary)
+		
 		#print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
 		#self.run(selection_to_archive, current_project, current_project_data)
 
 	def run(self):
 
 		console = Console()
+		rich_title_archiving = RichFiglet("ARCHIVING PROCESS", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.background], animation=None,quality=40)
+		console.print(rich_title_archiving)
+		console.log("[%s]Starting archiving process"%self.THEME.primary)
 		"""
 		check if the path of the archive is defined
 		check if the path of the archive exists (create it if not)
@@ -437,7 +440,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				temp_archive_list = []
 				for i in range(mp.cpu_count()):
 					temp_archive_name = os.path.join(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]),"tempArchive_%s_%s.zip"%(os.path.basename(self.current_project),i))
-					p = mp.Process(target=self.archive_item_worker,args=(i, temp_archive_name,self.current_project_data["ARCHIVE_PATH"], self.current_project, zipfile.ZIP_LZMA))
+					p = mp.Process(target=self.archive_item_worker,args=(i, temp_archive_name,self.current_project_data["ARCHIVE_PATH"], self.current_project, zipfile.ZIP_LZMA, self.overhead_checking, self.update_data))
 					p.start()
 					process_pool.append(p)
 					temp_archive_list.append(temp_archive_name)
@@ -614,105 +617,226 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				return self.current_project_data
 
 
-	def archive_item_worker(self, index, temp_archive, archive_path, project_path, method=zipfile.ZIP_LZMA):
-		while True:
-			try:
-				item_to_archive = self.file_queue.get(timeout=5)
+	def test_compression_method_function(self):
+		console = Console()
+		rich_title_archiving = RichFiglet("COMPRESSION TEST", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.background], animation=None,quality=40)
+		console.print(rich_title_archiving)
 
-				if item_to_archive == None:
-					print(colored("\tProcess broken [%s]"%index, "yellow"))
+		self.compression_method_dictionnary = {}
+
+		#define the compression list to test with a file for each of them
+		"""
+		for extension_name, extension_data in self.current_project_data["DATA_FILE_EXTENSION"].items():
+			for file in extension_data["FILE_LIST"]:
+				#get the size of the file
+				if self.current_project_data["DATA_FILES"][file]["FILESIZE"] > 0:
+					extension_dictionnary[extension_name] = file
 					break
+		"""
+		extension_list = list(self.current_project_data["DATA_FILE_EXTENSION"].keys())
+		extension_dictionnary = {}
+		for index in self.selection_to_archive:
+			extension_name = extension_list[index]
+			#find a file
+			for extension_file in self.current_project_data["DATA_FILE_EXTENSION"][extension_name]["FILE_LIST"]:
+				#check the size of the file
+				if self.current_project_data["DATA_FILES"][extension_file]["FILESIZE"] > 0:
+					extension_dictionnary[extension_name] = extension_file
+					break
+
+		#display the test
+		for key, value in extension_dictionnary.items():
+			console.print("[%s]%s →[/%s] %s"%(self.THEME.primary,key,self.THEME.primary,value))
+
+		method_list = [
+			("ZIP_STORED",zipfile.ZIP_STORED),
+			("ZIP_DEFLATED",zipfile.ZIP_DEFLATED),
+			("ZIP_BZIP2",zipfile.ZIP_BZIP2),
+			("ZIP_LZMA",zipfile.ZIP_LZMA),
+			]
+
+		#create the output path for the archive path
+		extension_archive_path = os.path.join(os.getcwd(), "data/temp_compression")
+		if os.path.isdir(extension_archive_path)==False:
+			os.makedirs(extension_archive_path, exist_ok=True)
+			console.log("[%s]Temp folder created"%(self.THEME.primary))
+		else:
+			console.log("[%s]Clean the content of the existing folder"%(self.THEME.primary))
+			#clean the content of the folder
+			for item in os.listdir(extension_archive_path):
+				full_path = os.path.join(extension_archive_path,item)
+				if os.path.isfile(full_path):
+					os.remove(full_path)
+				if os.path.isdir(full_path):
+					shutil.rmtree(full_path)
+
+		for extension_name, extension_file in extension_dictionnary.items():
+			console.log("[%s]\n\n\n\n%s\nLAUNCHING TEST FOR EXTENSION → %s"%(self.THEME.accent,"="*150, extension_name))
+			with mp.Manager() as manager:
+				self.file_queue = [extension_file]
+
+				
+
+				#launching processes
+				process_pool = []
+				extension_archive_dirpath = os.path.join(extension_archive_path, extension_name)
+				os.makedirs(extension_archive_dirpath, exist_ok=True)
+				for i in range(len(method_list)):
+					
+					#extension_archive_filename = os.path.join(extension_archive_path,"temp_archive_%s.zip"%(str(method_list[i]).split(".")))
+					extension_archive_filename = "temp_archive_%s.zip"%(str(method_list[i][0]))
+					extension_archive_fullpath = os.path.join(os.path.join(extension_archive_path, extension_name), extension_archive_filename)
+					console.log(extension_archive_fullpath)
+
+					try:
+						p = mp.Process(target=self.archive_item_worker, args=(i, None, extension_archive_fullpath, self.current_project, method_list[i][1], False,False))
+						p.start()
+						process_pool.append(p)
+					except Exception as e:
+						console.log("[%s]Impossible to launch process"%(self.THEME.error))
+						console.log("[%s]%s"(self.THEME.error, traceback.format_exc()))
+					else:
+						console.log("[%s]Process launched"%self.THEME.success)
+
+				for p in process_pool:
+					p.join()
+					console.log("[%s]Process terminated"%self.THEME.primary)
+
+			console.log("[%s]\nGATHERING INFORMATIONS TO DEFINE BEST COMPRESSION RATIO"%self.THEME.accent)
+			#explore each archive in the extension folder
+			console.log("[%s]Original file size →[/%s] %s"%(self.THEME.primary,self.THEME.primary,self.current_project_data["DATA_FILES"][extension_file]["FILESIZE"]))
+			output_data_dictionnary = {}
+			for archive in os.listdir(extension_archive_dirpath):
+				archive_path = os.path.join(extension_archive_dirpath, archive)
+				#if (os.path.isfile(os.path.join(extension_archive_dirpath,archive))==True) and (os.path.splitext(archive)[1]=="zip"):
+				#read the compress size
+				with zipfile.ZipFile(archive_path, mode="r") as extension_archive:
+					file_data = extension_archive.infolist()[0]
+					#console.log("[%s]%s →[/%s] %s"%(self.THEME.primary,os.path.splitext(archive)[0].replace("temp_archive_",""),self.THEME.primary,file_data.compress_size))
+					output_data_dictionnary[os.path.splitext(archive)[0].replace("temp_archive_", "")]=file_data.compress_size
+			for method, method_size in output_data_dictionnary.items():
+				if method_size == min(list(output_data_dictionnary.values())):
+					console.log("[%s]%s →[/%s] %s"%(self.THEME.success,method,self.THEME.success,method_size))
 				else:
-					#print("[%s] checking %s"%(index,item_to_archive))
+					console.log("[%s]%s →[/%s] %s"%(self.THEME.secondary,method,self.THEME.secondary,method_size))
 
 
 
-					#OPEN THE ZIPFILE ARCHIVE
-					archived=False
-					with zipfile.ZipFile(temp_archive, mode="a", compression=method, compresslevel=9) as archive:
 
-						if os.path.isfile(item_to_archive) == True:
-							print("\t[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
 
-							#add informations in archiving data set
-							#self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
-							
-							try:
-								archive.write(item_to_archive, arcname=Path(item_to_archive).relative_to(Path(project_path)))
-							except Exception as e:
-								self.ns.global_count += 1
-								print(colored("\t[%s] Impossible to save file : %s"%(index,os.path.basename(item_to_archive)), "red"))
-							else:
-								archived=True
-								self.ns.global_count += 1
-								print(colored("\t[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
+	def archive_item_worker(self, index, temp_archive=None, archive_path=None, project_path=None, method=zipfile.ZIP_LZMA, overhead_checking=True, update_data=True):
+		if isinstance(self.file_queue, queue.Queue):
+			while True:
+				try:
+					item_to_archive = self.file_queue.get(timeout=5)
+
+					if item_to_archive == None:
+						print(colored("\tProcess broken [%s]"%index, "yellow"))
+						break
+					else:
+						#print("[%s] checking %s"%(index,item_to_archive))
+
+
+
+						#OPEN THE ZIPFILE ARCHIVE
+						archived=False
+						with zipfile.ZipFile(temp_archive, mode="a", compression=method, compresslevel=9) as archive:
+
+							if os.path.isfile(item_to_archive) == True:
+								print("\t[%s] Archiving file : %s"%(index,os.path.basename(item_to_archive)))
+
+								#add informations in archiving data set
+								#self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
 								
-
-								#update the statut of the file in the dictionnary
-								"""
-								data_file = self.shared_current_project_data["DATA_FILES"]
-								data_file[item_to_archive]["ARCHIVE"]=True
-								
-								self.shared_current_project_data["DATA_FILES"] = data_file
-								"""
-
-
-								#update the global project data dictionnnary
-								current_project_data_folder = self.shared_current_project_data["DATA_FOLDER"]
-								current_folder_data = current_project_data_folder[os.path.dirname(item_to_archive)]
-								#remove the file from the folder filelist
-								current_folder_data["FILE_LIST"].remove(os.path.basename(item_to_archive))
-								#check if archive list exists for this folder
-								if "ARCHIVED_LIST" not in current_folder_data:
-									current_folder_data["ARCHIVED_LIST"] = []
-								#add the file to the archive list
-								current_folder_data["ARCHIVED_LIST"].append(os.path.basename(item_to_archive))
-								#update the global dictionnary
-								current_project_data_folder[os.path.dirname(item_to_archive)] = current_folder_data
-								self.shared_current_project_data["DATA_FOLDER"] = current_project_data_folder
-								print(colored("\t[%s] Archive dictionnary updated for this folder : %s"%(index,os.path.dirname(item_to_archive))))
-
-
-
-
-
-								self.new_archived_file_list.append(item_to_archive)
-
-								#update the archiving data set
-								self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
-
-								#write the file in the archive dictionnary
-								if item_to_archive not in self.archive_log:
-									print("\tWriting dictionnary key")
-									self.archive_log[item_to_archive] = {
-										"ARCHIVEPATH": str(Path(item_to_archive).relative_to(Path(project_path))),
-										"REALPATH": str(Path(item_to_archive)),
-										"ARCHIVINGDATE": str(datetime.now()),
-										"HARDRIVESIZE": self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"],
-									}
+								try:
+									archive.write(item_to_archive, arcname=Path(item_to_archive).relative_to(Path(project_path)))
+								except Exception as e:
+									self.ns.global_count += 1
+									print(colored("\t[%s] Impossible to save file : %s"%(index,os.path.basename(item_to_archive)), "red"))
 								else:
-									print(colored("\t[%s] File already writen in archive log: %s"%(index,item_to_archive), "red"))
+									archived=True
+									self.ns.global_count += 1
+									print(colored("\t[%s] %s/%s - File successfully archived : %s"%(index, self.ns.global_count, self.ns.total_count ,os.path.basename(item_to_archive)), "green"))
+									
+
+									#update the statut of the file in the dictionnary
+									"""
+									data_file = self.shared_current_project_data["DATA_FILES"]
+									data_file[item_to_archive]["ARCHIVE"]=True
+									
+									self.shared_current_project_data["DATA_FILES"] = data_file
+									"""
+
+									if update_data==True:
+										#update the global project data dictionnnary
+										current_project_data_folder = self.shared_current_project_data["DATA_FOLDER"]
+										current_folder_data = current_project_data_folder[os.path.dirname(item_to_archive)]
+										#remove the file from the folder filelist
+										current_folder_data["FILE_LIST"].remove(os.path.basename(item_to_archive))
+										#check if archive list exists for this folder
+										if "ARCHIVED_LIST" not in current_folder_data:
+											current_folder_data["ARCHIVED_LIST"] = []
+										#add the file to the archive list
+										current_folder_data["ARCHIVED_LIST"].append(os.path.basename(item_to_archive))
+										#update the global dictionnary
+										current_project_data_folder[os.path.dirname(item_to_archive)] = current_folder_data
+										self.shared_current_project_data["DATA_FOLDER"] = current_project_data_folder
+										print(colored("\t[%s] Archive dictionnary updated for this folder : %s"%(index,os.path.dirname(item_to_archive))))
 
 
-								
 
 
-								#update the size amount removed from the main project with archiving (sum of all files archived)
-								self.current_project_data
+
+										self.new_archived_file_list.append(item_to_archive)
+
+										#update the archiving data set
+										self.archive_dataset["CONTENTSIZE_BEFORE"] += self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"]
+
+										#write the file in the archive dictionnary
+										if item_to_archive not in self.archive_log:
+											print("\tWriting dictionnary key")
+											self.archive_log[item_to_archive] = {
+												"ARCHIVEPATH": str(Path(item_to_archive).relative_to(Path(project_path))),
+												"REALPATH": str(Path(item_to_archive)),
+												"ARCHIVINGDATE": str(datetime.now()),
+												"HARDRIVESIZE": self.current_project_data["DATA_FILES"][item_to_archive]["FILESIZE"],
+											}
+										else:
+											print(colored("\t[%s] File already writen in archive log: %s"%(index,item_to_archive), "red"))
 
 
-					#display the archive content
-					with zipfile.ZipFile(temp_archive, mode="r") as read_content:
-						for data in read_content.infolist():
-							print("\t%s"%data)
-					self.check_for_overhead_file_function(temp_archive, item_to_archive, Path(item_to_archive).relative_to(Path(project_path)))
+									
 
 
-			except queue.Empty:
-				#print(colored(traceback.format_exc(), "red"))
-				return
+									#update the size amount removed from the main project with archiving (sum of all files archived)
+									#self.current_project_data
+
+
+						#display the archive content
+						with zipfile.ZipFile(temp_archive, mode="r") as read_content:
+							for data in read_content.infolist():
+								print("\t%s"%data)
+						if overhead_checking==True:
+							self.check_for_overhead_file_function(temp_archive, item_to_archive, Path(item_to_archive).relative_to(Path(project_path)))
+
+
+				except queue.Empty:
+					#print(colored(traceback.format_exc(), "red"))
+					return
+				except Exception as e:
+					print(colored("\t%s"%traceback.format_exc(), "red"))
+		elif isinstance(self.file_queue, list):
+			#print("\t\tLIST MODE DETECTED : %s"%self.file_queue[0])
+			try:
+				with zipfile.ZipFile(archive_path, mode="a", compression=method, compresslevel=9) as archive:
+					for item in self.file_queue:
+						archive.write(item,arcname=os.path.basename(item))
 			except Exception as e:
-				print(colored("\t%s"%traceback.format_exc(), "red"))
+				print(colored("\t\tImpossible to archive item\n%s"%traceback.format_exc(), "red"))
+			else:
+				print(colored("\t\tItem archived : %s"%os.path.basename(item)))
+		else:
+			print(colored("\t\tWrong file queue detected", "red"))
 
 	def check_for_overhead_file_function(self, archive_path, filepath, archive_filepath):
 		print(colored("\n\tChecking overheads ...", "cyan"))

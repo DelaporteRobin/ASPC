@@ -172,5 +172,13 @@ ModalASPCFilterScreen, ModalASPCCreateArchive, ModalASPCAddToArchive, ModalASPCR
 	width: 1fr;
 }
 
-
-
+#collapsible_archive_modify {
+	height:1fr;
+}
+#verticalscroll_archive_modify {
+	height:1fr;
+	margin-bottom:1;
+}
+#listview_extensionlist {
+	max-height:20;
+}

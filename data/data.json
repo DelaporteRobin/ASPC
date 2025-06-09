@@ -481,9 +481,7 @@
                 ],
                 "ITEMS_NUMBER": 7,
                 "FILE_LIST": [
-                    "item_eyeBall_mod_v001.mtl",
                     "item_eyeBall_mod_v001.obj",
-                    "item_eyeIris_mod_v001.mtl",
                     "item_eyeIris_mod_v001.obj",
                     "item_shellRetopo_mod_v001.ma",
                     "item_shellRetopo_mod_v001.mtl",
@@ -510,7 +508,11 @@
                 },
                 "FOLDER_COUNT": 0,
                 "HEAVIEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_shellRetopo_mod_v001.ma",
-                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl"
+                "LIGHTEST_FILE": "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\input\\item_eyeBall_mod_v001.mtl",
+                "ARCHIVED_LIST": [
+                    "item_eyeIris_mod_v001.mtl",
+                    "item_eyeBall_mod_v001.mtl"
+                ]
             },
             "D:\\WORK\\PYTHON\\SOR\u00c4A_backup\\zbrush\\output": {
                 "ITEMS_LIST": [

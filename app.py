@@ -566,62 +566,74 @@ Global project informations
 			with VerticalScroll(id = "verticalscroll_container_right"):
 				with TabbedContent(id = "tabbedcontent_right"):
 					with TabPane(title = "ARCHIVE CONTENT", id = "tabpane_archive"):
+						with Collapsible(title = "ARCHIVE COMPRESSION SETTINGS", id="collapsible_compression_settings"):
+							
+							#yield Button("Get extension list in project", id="button_extensionlist_get")	
+							self.listview_extensionlist = MultiListView(id="listview_extensionlist")
+							yield self.listview_extensionlist
+							self.listview_extensionlist.border_title = "Extension list in project"
 
-						with Horizontal(id = "tab_horizontal_archivecontent"):
-							with VerticalScroll(id = "tab_vertical_archivecontent_left"):
-
-								self.listview_addarchive_selected = MultiListView(id="listview_addarchive_selected")
-								yield self.listview_addarchive_selected
-								self.listview_addarchive_selected.border_title = "Items to archive"
-
-								with VerticalScroll(id = "tab_vertical_archiveoptions"):
-									yield Button("Clear Items in list", id = "button_addarchive_clearlist", classes="button_main")
-
-									yield Rule(line_style="heavy")
-
-									yield Button("Add selected folder", id="button_addarchive_selectedfolder")
-									yield Button("Add selected files", id ="button_addarchive_selectedfiles")
-									
-									yield Rule(line_style="heavy")
+							yield Button("TEST COMPRESSION METHODS", id="button_compression_test", classes="button_main")
 
 
-									self.checkbox_filter_fromselection = Checkbox("Apply only on folder selection",id="checkbox_filter_fromselection")
-									yield self.checkbox_filter_fromselection
-									yield Button("Filter window", id="button_addarchive_applyfilter")
 
-									yield Rule(line_style="heavy")
+						with Collapsible(title = "MODIFY ARCHIVE", id="collapsible_archive_modify"):
+							with VerticalScroll(id="verticalscroll_archive_modify"):
+								with Horizontal(id = "tab_horizontal_archivecontent"):
+									with VerticalScroll(id = "tab_vertical_archivecontent_left"):
 
-	
+										self.listview_addarchive_selected = MultiListView(id="listview_addarchive_selected")
+										yield self.listview_addarchive_selected
+										self.listview_addarchive_selected.border_title = "Items to archive"
 
-									yield Button("Add to archive", id="button_add_to_archive", classes="button_main")
+										with VerticalScroll(id = "tab_vertical_archiveoptions"):
+											yield Button("Clear Items in list", id = "button_addarchive_clearlist", classes="button_main")
 
+											yield Rule(line_style="heavy")
 
-							with Vertical(id = "tab_vertical_archivecontent_right"):
-								with Collapsible(id = "collapsible_archive_settings", title="ARCHIVE SETTINGS"):
-									#self.checkbox_custom_archivepath = Checkbox("Custom archive path", id="checkbox_custom_archivepath")
-									self.input_archive_path = Input(placeholder="Archive path", id="input_archive_path")
-									#yield self.checkbox_custom_archivepath
-									yield self.input_archive_path	
-
-									with Horizontal(id="horizontal_archive_features"):
-										yield Button("Move archive", id="button_archive_move", classes="button_main")
-
-								with Collapsible(id = "collapsible_archive_features", title="ARCHIVE TOOLS"):
-									yield Button("Check for Overheads", id="button_archive_check_overhead")
-									yield Button("FIX OVERHEADS", id="button_archive_fix_overhead", classes="button_main")
-
-									self.checkbox_archive_get_below = Checkbox("Select files below", id="checkbox_archive_get_below")
-									self.checkbox_archive_get_same = Checkbox("Select files in the same folder", id="checkbox_archive_get_same")
-
-									#yield self.checkbox_archive_get_below
-									#yield self.checkbox_archive_get_same
-
-								self.listview_archive_content = MultiListView(id="listview_archive_content")
-								yield self.listview_archive_content
-								self.listview_archive_content.border_title = "Archive content"
+											yield Button("Add selected folder", id="button_addarchive_selectedfolder")
+											yield Button("Add selected files", id ="button_addarchive_selectedfiles")
+											
+											yield Rule(line_style="heavy")
 
 
-								yield Button("RESTORE FILES", id="button_restore_file", classes="button_main")
+											self.checkbox_filter_fromselection = Checkbox("Apply only on folder selection",id="checkbox_filter_fromselection")
+											yield self.checkbox_filter_fromselection
+											yield Button("Filter window", id="button_addarchive_applyfilter")
+
+											yield Rule(line_style="heavy")
+
+			
+
+											yield Button("Add to archive", id="button_add_to_archive", classes="button_main")
+
+
+									with Vertical(id = "tab_vertical_archivecontent_right"):
+										with Collapsible(id = "collapsible_archive_settings", title="ARCHIVE SETTINGS"):
+											#self.checkbox_custom_archivepath = Checkbox("Custom archive path", id="checkbox_custom_archivepath")
+											self.input_archive_path = Input(placeholder="Archive path", id="input_archive_path")
+											#yield self.checkbox_custom_archivepath
+											yield self.input_archive_path	
+
+											with Horizontal(id="horizontal_archive_features"):
+												yield Button("Move archive", id="button_archive_move", classes="button_main")
+
+										with Collapsible(id = "collapsible_archive_features", title="ARCHIVE TOOLS"):
+											yield Button("Check for Overheads", id="button_archive_check_overhead")
+											yield Button("FIX OVERHEADS", id="button_archive_fix_overhead", classes="button_main")
+
+											self.checkbox_archive_get_below = Checkbox("Select files below", id="checkbox_archive_get_below")
+											self.checkbox_archive_get_same = Checkbox("Select files in the same folder", id="checkbox_archive_get_same")
+
+											#yield self.checkbox_archive_get_below
+											#yield self.checkbox_archive_get_same
+
+										self.listview_archive_content = MultiListView(id="listview_archive_content")
+										yield self.listview_archive_content
+										self.listview_archive_content.border_title = "Archive content"
+
+
+										yield Button("RESTORE FILES", id="button_restore_file", classes="button_main")
 
 					with TabPane(title = "GLOBAL INFORMATIONS", id = "tabpane_folderinformation"):
 						#yield Label("folder informations tab")
@@ -753,6 +765,15 @@ Global project informations
 					self.listview_files.index_list.append(i)
 					#self.message_function("%s ; %s"%(i,children_item))
 
+		if self.focused.id == "listview_extensionlist":
+			if len(self.listview_extensionlist.index_list) != 0:
+				index_range = sorted([self.listview_extensionlist.index_list[-1], self.listview_extensionlist.index])
+
+				for i in range(index_range[0], index_range[1]):
+					children_item = self.listview_extensionlist.children[i]
+					children_item.highlight_item(children_item)
+					self.listview_extensionlist.index_list.append(i)
+
 		if self.focused.id == "listview_archive_content":
 			#get the index of the current index selected
 			#self.message_function(self.listview_files.index)
@@ -768,8 +789,8 @@ Global project informations
 					self.listview_archive_content.index_list.append(i)
 
 
-		self.message_function(self.listview_files.index_list)
-		self.message_function(self.listview_archive_content.index_list)
+		#self.message_function(self.listview_files.index_list)
+		#self.message_function(self.listview_archive_content.index_list)
 
 
 	def action_binding_help(self) -> None:
@@ -789,18 +810,16 @@ Global project informations
 			children_item = self.listview_files.children[self.listview_files.index]
 			children_item.highlight_item(children_item)
 
-		
-
-
 		if (event.key == "enter") and (self.focused.id == "listview_folders"):
 			children_item = self.listview_folders.children[self.listview_folders.index]
 			children_item.highlight_item(children_item)
 
-
-
-
 		if (event.key == "enter") and (self.focused.id == "listview_archive_content"):
 			children_item = self.listview_archive_content.children[self.listview_archive_content.index]
+			children_item.highlight_item(children_item)
+
+		if (event.key == "enter") and (self.focused.id == "listview_extensionlist"):
+			children_item = self.listview_extensionlist.children[self.listview_extensionlist.index]
 			children_item.highlight_item(children_item)
 
 			
@@ -857,6 +876,13 @@ Global project informations
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "test_log":
 			self.message_function(self.current_folder_selected)
+
+		if event.button.id == "button_compression_test":
+			#launch the class to test extension with multiprocessing
+			with self.suspend():
+				ASPC_FILL_ARCHIVE_CLASS = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.listview_extensionlist.index_list, self.current_project_name, self.project_data, None, False, False)
+				ASPC_FILL_ARCHIVE_CLASS.test_compression_method_function()
+				os.system("pause")
 
 		if event.button.id == "button_archive_move":
 			self.move_archive_function()
@@ -1202,6 +1228,7 @@ Global project informations
 			#call the threading checking function
 			self.check_for_folder_process_function()
 			self.check_for_archive_content_function()
+			self.check_for_extension_function()
 			
 
 
