@@ -812,7 +812,7 @@ class ASPC_GUI:
 			#if display archived content is enabled!!
 			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
 				for archived_file in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]:
-					archived_label = Label(os.path.basename(file))
+					archived_label = Label(os.path.basename(archived_file))
 					archived_label.styles.color = "gray"
 					list_listitem.append(MultiListItem(archived_label))
 					self.current_file_list.append(archived_file)

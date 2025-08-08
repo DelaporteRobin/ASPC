@@ -139,12 +139,6 @@ class HighlightableDirectoryTree(DirectoryTree):
         raise self.PathNotFoundError(path)
 
 
-
-
-
-
-
-
 class ASPC_HOMEPAGE(ModalScreen):
 
 
@@ -321,7 +315,7 @@ class ModalASPCAddToArchive(ModalScreen, ASPC_ARCHIVE, ASPC_FILL_ARCHIVE, ASPC_U
 		#create instance of the archiving class
 		with self.app.suspend():
 			#fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
-			fill_archive = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.app.content_to_archive, self.app.current_project_name, self.app.project_data)
+			fill_archive = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.app.user_settings, self.app.content_to_archive, self.app.current_project_name, self.app.project_data)
 			returned_dictionnary = fill_archive.run()
 			os.system("pause")
 		
@@ -880,8 +874,19 @@ Global project informations
 		if event.button.id == "button_compression_test":
 			#launch the class to test extension with multiprocessing
 			with self.suspend():
-				ASPC_FILL_ARCHIVE_CLASS = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.listview_extensionlist.index_list, self.current_project_name, self.project_data, None, False, False)
-				ASPC_FILL_ARCHIVE_CLASS.test_compression_method_function()
+				ASPC_FILL_ARCHIVE_CLASS = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.user_settings, self.listview_extensionlist.index_list, self.current_project_name, self.project_data, None, False, False)
+				returned_compression_dictionnary = ASPC_FILL_ARCHIVE_CLASS.test_compression_method_function()
+				#print(returned_compression_dictionnary)
+				#get the type of the returned dictionnary and add it in user settings file
+				if "COMPRESSION" in self.user_settings:
+					user_compression_dictionnary = self.user_settings["COMPRESSION"]
+					#replace values in dictionnary
+					for extension_name, compression_method in returned_compression_dictionnary.items():
+						user_compression_dictionnary[extension_name] = compression_method
+				else:
+					self.user_settings["COMPRESSION"] = returned_compression_dictionnary
+				#save user settings
+				self.save_user_settings_function()
 				os.system("pause")
 
 		if event.button.id == "button_archive_move":
@@ -960,7 +965,7 @@ Global project informations
 				#create instance of the archiving class
 				with self.app.suspend():
 					#fill_archive = ASPC_FILL_ARCHIVE(self.app.content_to_archive, self.app.current_project_name, self.app.current_project_data)
-					fill_archive = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.content_to_archive, self.current_project_name, self.project_data)
+					fill_archive = ASPC_FILL_ARCHIVE(self.THEME_DICTIONNARY, self.user_settings, self.content_to_archive, self.current_project_name, self.project_data)
 					returned_dictionnary = fill_archive.run()
 					os.system("pause")
 				

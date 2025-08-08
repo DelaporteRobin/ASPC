@@ -30,6 +30,7 @@ import ruamel.std.zipfile as zipdel
 import pyfiglet
 import rich
 
+from multiprocessing.queues import Queue as MPQueue
 from rich.console import Console
 from rich_pyfiglet import RichFiglet
 from config import *
@@ -234,11 +235,11 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 
 
 class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
-	def __init__(self, theme_dictionnary, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA, overhead_checking=True, update_data=True):
+	def __init__(self, theme_dictionnary, user_settings, selection_to_archive, current_project, project_data, method = zipfile.ZIP_LZMA, overhead_checking=True, update_data=True):
 
 		self.THEME = theme_dictionnary
 		#console = Console()
-
+		self.user_settings = user_settings
 		self.current_project = current_project 
 		self.selection_to_archive = selection_to_archive
 		self.current_project_data = project_data[current_project]
@@ -246,6 +247,12 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		self.method = method
 		self.overhead_checking=overhead_checking
 		self.update_data = update_data
+		self.method_list = {
+			"ZIP_STORED":zipfile.ZIP_STORED,
+			"ZIP_DEFLATED":zipfile.ZIP_DEFLATED,
+			"ZIP_BZIP2":zipfile.ZIP_BZIP2,
+			"ZIP_LZMA":zipfile.ZIP_LZMA
+		}
 
 		
 		#print(colored("\n\n\n%s"%pyfiglet.figlet_format("ARCHIVING PROCESS", font="the_edge"), "cyan"))
@@ -257,6 +264,10 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		rich_title_archiving = RichFiglet("ARCHIVING PROCESS", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.background], animation=None,quality=40)
 		console.print(rich_title_archiving)
 		console.log("[%s]Starting archiving process"%self.THEME.primary)
+
+		self.compression_dictionnary = {}
+		if "COMPRESSION" in self.user_settings:
+			self.compression_dictionnary = self.user_settings["COMPRESSION"]
 		"""
 		check if the path of the archive is defined
 		check if the path of the archive exists (create it if not)
@@ -411,6 +422,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					continue 
 				
 
+
 			#print("FILE QUEUE SIZE : %s"%self.file_queue.qsize())
 			console.log("[%s]File queue size"%self.THEME.primary)
 			if self.file_queue.empty()==True:
@@ -440,7 +452,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				temp_archive_list = []
 				for i in range(mp.cpu_count()):
 					temp_archive_name = os.path.join(os.path.dirname(self.current_project_data["ARCHIVE_PATH"]),"tempArchive_%s_%s.zip"%(os.path.basename(self.current_project),i))
-					p = mp.Process(target=self.archive_item_worker,args=(i, temp_archive_name,self.current_project_data["ARCHIVE_PATH"], self.current_project, zipfile.ZIP_LZMA, self.overhead_checking, self.update_data))
+					p = mp.Process(target=self.archive_item_worker,args=(i, self.compression_dictionnary, temp_archive_name,self.current_project_data["ARCHIVE_PATH"], self.current_project, zipfile.ZIP_LZMA, self.overhead_checking, self.update_data))
 					p.start()
 					process_pool.append(p)
 					temp_archive_list.append(temp_archive_name)
@@ -467,7 +479,6 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				#MERGING ALL ARCHIVES
 				#print(colored("\nMerging TEMP archives ...", "cyan"))
 				console.log("[%s]Starting to merge TEMP archives..."%self.THEME.primary)
-
 				#self.archive_stored_filelist = []
 				#with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=self.method, compresslevel=9) as final_archive:
 				for temp_archive in temp_archive_list:
@@ -477,6 +488,12 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 							for info in read_temp_archive.infolist():
 								print("\t\treading %s"%info.filename)
 								try:
+									#check if the extension is in the compression dictionnary
+									#if yes replace the compression method!
+									if os.path.splitext(info.filename)[1] in self.compression_dictionnary:
+										self.new_method = self.method_list[self.compression_dictionnary[os.path.splitext(info.filename)[1]]]
+										console.log("[%s]Compression method replaced using user settings[/%s] %s → %s"%(self.THEME.accent,self.THEME.accent,str(self.method), str(self.new_method)))
+										self.method = self.new_method
 									with zipfile.ZipFile(self.current_project_data["ARCHIVE_PATH"], "a", compression=self.method, compresslevel=9) as final_archive:
 										with read_temp_archive.open(info) as writer:
 											final_archive.writestr(info, writer.read())
@@ -648,12 +665,20 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		for key, value in extension_dictionnary.items():
 			console.print("[%s]%s →[/%s] %s"%(self.THEME.primary,key,self.THEME.primary,value))
 
+		method_list = {
+			"ZIP_STORED":zipfile.ZIP_STORED,
+			"ZIP_DEFLATED":zipfile.ZIP_DEFLATED,
+			"ZIP_BZIP2":zipfile.ZIP_BZIP2,
+			"ZIP_LZMA":zipfile.ZIP_LZMA
+		}
+		"""
 		method_list = [
 			("ZIP_STORED",zipfile.ZIP_STORED),
 			("ZIP_DEFLATED",zipfile.ZIP_DEFLATED),
 			("ZIP_BZIP2",zipfile.ZIP_BZIP2),
 			("ZIP_LZMA",zipfile.ZIP_LZMA),
 			]
+		"""
 
 		#create the output path for the archive path
 		extension_archive_path = os.path.join(os.getcwd(), "data/temp_compression")
@@ -670,6 +695,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				if os.path.isdir(full_path):
 					shutil.rmtree(full_path)
 
+
 		for extension_name, extension_file in extension_dictionnary.items():
 			console.log("[%s]\n\n\n\n%s\nLAUNCHING TEST FOR EXTENSION → %s"%(self.THEME.accent,"="*150, extension_name))
 			with mp.Manager() as manager:
@@ -681,15 +707,18 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				process_pool = []
 				extension_archive_dirpath = os.path.join(extension_archive_path, extension_name)
 				os.makedirs(extension_archive_dirpath, exist_ok=True)
-				for i in range(len(method_list)):
+
+				i = 1
+				for method_name, method_var in method_list.items():
+				#for i in range(len(method_list)):
 					
 					#extension_archive_filename = os.path.join(extension_archive_path,"temp_archive_%s.zip"%(str(method_list[i]).split(".")))
-					extension_archive_filename = "temp_archive_%s.zip"%(str(method_list[i][0]))
+					extension_archive_filename = "temp_archive_%s.zip"%(str(method_name))
 					extension_archive_fullpath = os.path.join(os.path.join(extension_archive_path, extension_name), extension_archive_filename)
 					console.log(extension_archive_fullpath)
 
 					try:
-						p = mp.Process(target=self.archive_item_worker, args=(i, None, extension_archive_fullpath, self.current_project, method_list[i][1], False,False))
+						p = mp.Process(target=self.archive_item_worker, args=(i, {}, None, extension_archive_fullpath, self.current_project, method_var, False,False))
 						p.start()
 						process_pool.append(p)
 					except Exception as e:
@@ -697,6 +726,8 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						console.log("[%s]%s"(self.THEME.error, traceback.format_exc()))
 					else:
 						console.log("[%s]Process launched"%self.THEME.success)
+
+					i+=1
 
 				for p in process_pool:
 					p.join()
@@ -717,15 +748,26 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 			for method, method_size in output_data_dictionnary.items():
 				if method_size == min(list(output_data_dictionnary.values())):
 					console.log("[%s]%s →[/%s] %s"%(self.THEME.success,method,self.THEME.success,method_size))
+					self.compression_method_dictionnary[extension_name] = method
 				else:
 					console.log("[%s]%s →[/%s] %s"%(self.THEME.secondary,method,self.THEME.secondary,method_size))
 
 
+		console.print("[%s]\n\n\nCOMPRESSION METHODS DEFINED"%self.THEME.success)
+		for extension, compression_method in self.compression_method_dictionnary.items():
+			console.print("[%s]\t%s[/%s] → %s"%(self.THEME.accent,extension,self.THEME.accent,str(compression_method)))
+
+
+		#return the compression dictionnary
+		return self.compression_method_dictionnary
 
 
 
-	def archive_item_worker(self, index, temp_archive=None, archive_path=None, project_path=None, method=zipfile.ZIP_LZMA, overhead_checking=True, update_data=True):
-		if isinstance(self.file_queue, queue.Queue):
+
+
+
+	def archive_item_worker(self, index, compression_dictionnary, temp_archive=None, archive_path=None, project_path=None, method=zipfile.ZIP_LZMA, overhead_checking=True, update_data=True):
+		if isinstance(self.file_queue,MPQueue):
 			while True:
 				try:
 					item_to_archive = self.file_queue.get(timeout=5)
@@ -735,6 +777,20 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						break
 					else:
 						#print("[%s] checking %s"%(index,item_to_archive))
+
+						#get the extension of the current file and check if extension is in compression_dictionnary
+						method_list = {
+							"ZIP_STORED":zipfile.ZIP_STORED,
+							"ZIP_DEFLATED":zipfile.ZIP_DEFLATED,
+							"ZIP_BZIP2":zipfile.ZIP_BZIP2,
+							"ZIP_LZMA":zipfile.ZIP_LZMA
+						}
+						file_extension = os.path.splitext(item_to_archive)[1]
+						if file_extension in compression_dictionnary:
+							#get the method and replace
+							new_method = method_list[compression_dictionnary[file_extension]]
+							print(colored("\t[%s] Compression method replaced using user settings : %s → %s"%(index,str(method),str(new_method))))
+							method=new_method
 
 
 
@@ -837,6 +893,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 				print(colored("\t\tItem archived : %s"%os.path.basename(item)))
 		else:
 			print(colored("\t\tWrong file queue detected", "red"))
+			print(colored("%s\n%s"%(self.file_queue, type(self.file_queue))))
 
 	def check_for_overhead_file_function(self, archive_path, filepath, archive_filepath):
 		print(colored("\n\tChecking overheads ...", "cyan"))
