@@ -425,16 +425,8 @@ class ASPC_GUI:
 			except KeyError:
 				self.message_function("Impossible to find data about file", "error")
 
-
-
-		
-
 		#self.markdown_project.update(markdown_general)
 		self.markdown_viewer.document.update(markdown_general)
-
-
-
-
 
 
 
@@ -599,13 +591,6 @@ class ASPC_GUI:
 
 
 
-
-
-
-
-
-
-
 	def update_file_list_function(self, checkbox_change):
 		self.message_function("\n", "message", False)
 		self.message_function("Thread started", "notification")
@@ -689,18 +674,12 @@ class ASPC_GUI:
 						#sort the final file size
 						sorted_data = sorted(self.current_file_list, key=lambda x: x[1])
 						self.current_file_list = [os.path.basename(t[0]) for t in sorted_data]
-				
-
 
 			else:
 				self.message_function("Getting from data file")
 				self.current_file_list = list(self.current_project_data["DATA_FILES"].keys())
 
 
-
-
-
-			
 			self.message_function("Updating file list...", "notification")
 
 
@@ -709,27 +688,9 @@ class ASPC_GUI:
 			else:
 				self.progress_files.update(total = len(self.current_file_list))
 			#self.call_from_thread(self.progress_folder.update, len(self.current_file_list))
-
-			
-			"""
-			if checkbox_change == False:
-				if self.current_file_list == self.current_file_list_copy:
-					self.message_function(self.current_file_list)
-					self.message_function(self.current_file_list_copy)
-					self.message_function("Both list are similar", "error")
-					return
-			"""
-			
-
 			
 			self.call_from_thread(self.listview_files.clear)
 			self.current_file_list_copy = copy.copy(self.current_file_list)
-
-			#self.call_from_thread(self.listview_folders.clear)
-
-
-
-
 
 
 			#GO THROUGH EACH ELEMENT IN THE CURRENT FILE LIST AND CREATE LABELS AND LISTITEMS
@@ -747,7 +708,6 @@ class ASPC_GUI:
 					#elif os.path.isfile(os.path.join(folder_selected, file))==False:
 					#	label.styles.color = self.theme_variables["text-secondary"]
 					
-
 					else:
 
 
@@ -784,11 +744,14 @@ class ASPC_GUI:
 									if (gradient_number <= 25):
 										pass
 									elif (gradient_number > 25) and (gradient_number <= 50):
-										label.styles.color = self.user_settings["COLOR"]["warning"]
+										#label.styles.color = self.user_settings["COLOR"]["warning"]
+										label.styles.color = self.theme_variables["text-warning"]
 									elif (gradient_number > 50) and (gradient_number <= 75):
-										label.styles.color = self.user_settings["COLOR"]["important"]
+										#label.styles.color = self.user_settings["COLOR"]["important"]
+										label.styles.color = self.theme_variables["warning"]
 									else:
-										label.styles.color = self.user_settings["COLOR"]["alert"]
+										#label.styles.color = self.user_settings["COLOR"]["alert"]
+										label.styles.color = self.theme_variables["error"]
 								except ZeroDivisionError:
 									pass
 								except UnboundLocalError:
@@ -813,7 +776,7 @@ class ASPC_GUI:
 			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
 				for archived_file in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]:
 					archived_label = Label(os.path.basename(archived_file))
-					archived_label.styles.color = "gray"
+					archived_label.styles.color = self.theme_variables["accent"]
 					list_listitem.append(MultiListItem(archived_label))
 					self.current_file_list.append(archived_file)
 				self.progress_files.advance(1)

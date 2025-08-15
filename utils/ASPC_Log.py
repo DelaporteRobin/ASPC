@@ -29,28 +29,28 @@ class ASPC_LOG():
 			}
 			if time == False:
 				format_dictionnary["TIME"] = False
-
-
 				self.global_log.append(format_dictionnary)
+
+			#reformat the message to avoid display errors
+			message = (str(message).replace("\\", "/"))
+			#message = Text.from_markup((str(message).replace("\\", "/")).replace("[", r"\["))
 			try:
-				self.call_from_thread(self.add_log_message_function, str(message), severity, time)
-
-
+				self.call_from_thread(self.add_log_message_function, message, severity, time)
 			except:
-				self.add_log_message_function(str(message), severity, time)
+				self.add_log_message_function(message, severity, time)
 		except Exception as e:
 			self.notify(e, timeout=5)
 		else:
 			if severity in ["error", "warning"]:
-				self.notify(str(message), severity=severity, timeout=3)
+				self.notify(message, severity=severity, timeout=3)
 		
 
 
 	def add_log_message_function(self, message, severity, time):
 		if time == True:
-			label = Label("%s | %s → %s" % (str(datetime.now()),str(severity.upper()), message))
+			label = Label("%s | %s → %s" % (str(datetime.now()),str(severity.upper()), message), markup=False)
 		else:
-			label = Label(message)
+			label = Label(message, markup=False)
 
 
 		if severity.upper() == "SUCCESS":
@@ -67,7 +67,12 @@ class ASPC_LOG():
 		label.styles.color = self.theme_variables[color]
 
 
-		
-		self.listview_log.append(ListItem(label))
+		try:
+			self.listview_log.append(ListItem(label))
+		except Exception as e:
+			label = Label("Impossible to display message")
+			label.styles.color = self.theme_variables["text-error"]
+
+			self.listview_log.append(ListItem(label))
 		self.listview_log.scroll_end()
 

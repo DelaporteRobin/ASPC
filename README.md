@@ -29,16 +29,15 @@ old **projects** (large folder/file hierarchies).
 
 
 ## NEXT FEATURES IDEAS
-- [ ] Improve the Overhead detection / fix system (during archiving and after)
-- [ ] Add statistics features (largest items list)
-- [ ] Create the Obsolescence Detection System in order to target precisely which files should be archived (size, repeatability, last modification date...)
-- [ ] Create the asset manager (for live AND archived items)
-- [x] Think about ways of compressing more (custom compression method for each file extension)
-- [ ] Restore files from file listview and not archive
-- [ ] Select features to find archived items in the listview
+- Improve the Overhead detection / fix system (during archiving and after)
+- Add statistics features (largest items list)
+- Create the Obsolescence Detection System in order to target precisely which files should be archived (size, repeatability, last modification date...)
+- Create the asset manager (for live AND archived items)
+- Think about ways of compressing more (custom compression method for each file extension)
+- Restore files from file listview and not archive
+- Select features to find archived items in the listview
 
-## BUGS TO FIX
-- fix "[" and "]" in filenames when selecting in listview (davinci/cache content for example)
+- Indicate number of item progression when restoring files from archive
 
 
 

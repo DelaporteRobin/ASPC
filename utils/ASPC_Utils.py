@@ -93,14 +93,20 @@ class ASPC_UTILS:
 
 
 	def load_project_data_function(self):
-		self.message_function("\n", "message", False)
+		try:
+			self.message_function("\n", "message", False)
+		except AttributeError:
+			pass
 		try:
 			with open(os.path.join(os.getcwd(), "data/data.json"), "r") as read_content:
 				self.project_data = json.load(read_content)
+		except FileNotFoundError:
+			self.message_function("Data file not detected", "error")
+			return False
 		except Exception as e:
 			try:
 				self.message_function("Impossible to load project data", "error")
-				self.message_function(e, "error", False)
+				self.message_function(traceback.format_exc(), "error", False)
 			except AttributeError:
 				pass
 			return False
@@ -110,33 +116,6 @@ class ASPC_UTILS:
 				self.message_function("Project data loaded", "success")
 			except AttributeError:
 				pass
-
-
-
-			"""
-			try:
-				self.app.listview_projectlist.clear()
-				#refresh the project list
-				for project_name, project_data in self.project_data.items():
-
-					self.project_list.append((os.path.basename(project_name), project_name))
-					label = Label(project_name)
-
-					#check if the project still exstis at this location
-					if os.path.isdir(project_name)==False:
-						label.styles.color = self.theme_variables["text-error"]
-
-					self.app.listview_projectlist.append(ListItem(label))
-			except AttributeError:
-				self.message_function("Impossible to update project list\n%s"%traceback.format_exc(), "error")
-				pass
-			except Exception as e:
-				self.message_function("Impossible to refresh project list\n%s"%traceback.format_exc(), "error")
-				pass
-			#return True
-			"""
-
-
 
 
 

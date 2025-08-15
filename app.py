@@ -710,10 +710,8 @@ Global project informations
 		#self.message_function(self.theme.primary)
 		self.message_function("Log thread activated", "success")
 
-
 		self.load_project_data_function()
 		self.refresh_project_list_function()
-
 		self.load_user_settings_function()
 		#self.load_archive_content_function()
 
@@ -1297,8 +1295,6 @@ Global project informations
 		
 	def on_directory_tree_file_selected(self, event:DirectoryTree.FileSelected) -> None:
 		self.selected_item = event.path
-
-
 
 
 
