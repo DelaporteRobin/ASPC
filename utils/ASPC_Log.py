@@ -74,5 +74,5 @@ class ASPC_LOG():
 			label.styles.color = self.theme_variables["text-error"]
 
 			self.listview_log.append(ListItem(label))
-		self.listview_log.scroll_end()
+		#self.listview_log.scroll_end()
 

@@ -40,11 +40,6 @@ class ASPC_UTILS:
 		return False
 
 
-
-
-
-
-
 	def remove_project_function(self, restore:bool | None) -> None:
 		project = list(self.project_data.keys())[self.listview_projectlist.index]
 		#check if the archive exists for this project
@@ -118,8 +113,6 @@ class ASPC_UTILS:
 				pass
 
 
-
-
 	def refresh_project_list_function(self):
 		try:
 			self.project_list.clear()
@@ -139,12 +132,6 @@ class ASPC_UTILS:
 
 		else:
 			self.message_function("Project list updated", "success")
-
-
-
-
-
-
 
 
 

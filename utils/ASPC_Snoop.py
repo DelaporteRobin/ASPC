@@ -14,6 +14,36 @@ import traceback
 import queue
 import zipfile
 import rich
+import threading 
+import copy
+
+# -*- coding: utf-8 -*-
+from textual.app import App, ComposeResult
+from textual.widgets import Sparkline, Tree, ProgressBar, Input, RadioSet, MarkdownViewer, RadioButton, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+#from textual.widgets.option_list import Option, Separator
+from textual.widgets.selection_list import Selection
+from textual.screen import Screen, ModalScreen
+from textual.await_complete import AwaitComplete
+from textual.await_remove import AwaitRemove
+from textual.binding import Binding, BindingType
+from textual import events
+from textual import work
+from textual.containers import Horizontal, Vertical, Container, VerticalScroll
+from textual import on
+from textual.events import Mount
+from textual.message import Message
+from textual.reactive import reactive
+from textual.await_complete import AwaitComplete 
+from textual.widgets._directory_tree import DirEntry
+from textual.widgets._tree import TreeNode
+from textual.errors import TextualError
+from textual.widgets._list_item import ListItem
+from textual.widget import AwaitMount, Widget
+from textual.binding import Binding
+#import textual_pyfiglet
+from textual_pyfiglet import FigletWidget
+from textual_plotext import PlotextPlot
+
 
 from time import sleep
 from rich.console import Console
@@ -241,9 +271,6 @@ class ASPC_SNOOP():
 					#print(colored(traceback.format_exc(), "red"))
 					console.log("[%s]Impossible to inject archived elements\n%s"%(self.THEME.error,traceback.format_exc()))
 
-
-
-
 			try:
 				with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
 					json.dump(content, save_file, indent=4)
@@ -253,9 +280,6 @@ class ASPC_SNOOP():
 			else:
 				#print(colored("Dictionnary saved", "green"))
 				console.log("[%s]Dictionnary saved"%self.THEME.success)
-
-
-
 
 	def create_file_queue_function(self,console):
 		#print(colored("STARTING TO CREATE THE FILE QUEUE", "magenta"))
@@ -273,6 +297,263 @@ class ASPC_SNOOP():
 					console.log("[%s]Folder added in queue : %s"%(self.THEME.foreground,d))
 
 
+	def check_for_folder_content_function(self):
+		#get the content of the folder
+		folder_file_content = [file for file in os.listdir(self.current_folder_selected) if os.path.isfile(os.path.join(self.current_folder_selected,file))]
+		folder_folder_content = [folder for folder in os.listdir(self.current_folder_selected) if os.path.isdir(os.path.join(self.current_folder_selected,folder))]
+		#COMPARE WITH DATA IN DICTIONNARY
+		data_file_list = self.current_project_data["DATA_FOLDER"][os.path.normpath(self.current_folder_selected)]["FILE_LIST"]
+		data_folder_list = self.current_project_data["DATA_FOLDER"][os.path.normpath(self.current_folder_selected)]["FOLDER_LIST"]
+
+		#get difference
+		diff_file_list = list(set(folder_file_content) - set(data_file_list))
+		diff_folder_list = list(set(folder_folder_content) - set(data_folder_list))
+
+		#condition so we don't save user settings and update informations for nothing!
+		if (len(diff_file_list) != 0) or (len(diff_folder_list) != 0):
+			self.message_function("\n\n", "message",False)
+			self.message_function("DIFFERENCES NOTICES FROM FOLDER SELECTED", "notification")
+			#fix differences for files
+			if len(diff_file_list) != 0:
+				self.message_function("File differences noticed on file count...")
+				for diff_file in diff_file_list:
+					self.get_file_data_function(file=os.path.normpath(os.path.join(self.current_folder_selected,diff_file)),dictionnary=self.current_project_data)
+					#save folder data
+				
+			#fix differences for folders
+			#launch an exploration thread for the folder
+			
+			if len(diff_folder_list) != 0:
+				self.message_function("File differences noticed on folder count...")
+				self.message_function(data_folder_list)
+				self.message_function(folder_folder_content)
+				#create the exploration folder list
+				thread_folder_list = [self.current_folder_selected]
+				for diff_root in diff_folder_list:
+					thread_folder_list.append(os.path.normpath(os.path.join(self.current_folder_selected,diff_root)))
+					for root, dirs, files in scandir.walk(os.path.normpath(os.path.join(self.current_folder_selected,diff_root))):
+						for d in dirs:
+							if os.path.join(root,d) not in thread_folder_list:	
+								thread_folder_list.append(os.path.join(root,d))
+				self.message_function(f"Folders to check : {thread_folder_list}")
+
+				try:
+
+					thread_folder_exploration = threading.Thread(target=self.scan_folder_function,daemon=True,kwargs={"threading":True,"folder_list":thread_folder_list,"dictionnary":self.current_project_data})
+					thread_folder_exploration.start()
+					self.message_function(f"thread launched", "success")
+				except:
+					self.message_function(f"Impossible to launch folder exploration thread\n{traceback.format_exc()}", "error")
+
+
+
+			
+			#SAVE NEW DATA IN FILE
+			#UPDATE GLOBAL DATA DICTIONNARY
+			self.project_data[self.current_project_name] = self.current_project_data
+			#elf.save_dictionnary_function()
+
+
+	def get_file_data_function(self, file=None, dictionnary=None):
+		try:
+			"""
+			function collecting data about each file sent
+			informations are sent in the specified dictionnary.
+			"""
+			self.message_function(f"GETTING FILE DATA : {os.path.basename(file)}", "message",False)
+			filename = os.path.basename(file)
+			parent_folder = filepath = os.path.normpath(os.path.dirname(file))
+			filesize = os.path.getsize(file)
+			#update parent folder informations
+			
+			dictionnary["DATA_FOLDER"][filepath]["ITEMS_LIST"].append(filename)
+			dictionnary["DATA_FOLDER"][filepath]["ITEMS_NUMBER"]+=1
+			dictionnary["DATA_FOLDER"][filepath]["FILE_LIST"].append(filename)
+			dictionnary["DATA_FOLDER"][filepath]["ITEMS_SIZE"]+=filesize
+			dictionnary["DATA_FOLDER"][filepath]["FILE_COUNT"]+=1	
+			#update file dictionnary
+			data_files_dictionnary = {
+				"FILESIZE":filesize,
+				"FILECREATION":datetime.fromtimestamp(os.path.getctime(file)).strftime("%Y-%m-%d %H:%M:%S"),
+				"FILEMODIFICATION":datetime.fromtimestamp(os.path.getmtime(file)).strftime("%Y-%m-%d %H:%M:%S")
+			}
+			#check for heaviest and lightest file
+			heaviest_file = dictionnary["DATA_FOLDER"][filepath]["HEAVIEST_FILE"]
+			lightest_file = dictionnary["DATA_FOLDER"][filepath]["LIGHTEST_FILE"]
+
+			
+			if (type(heaviest_file) == float) or (type(heaviest_file) == str):
+				if (type(heaviest_file) == str) and (os.path.isfile(heaviest_file)==True):
+					if filesize <= dictionnary["DATA_FILES"][heaviest_file]["FILESIZE"]:
+						pass
+				dictionnary["DATA_FOLDER"][filepath]["HEAVIEST_FILE"] = file
+
+			if (type(lightest_file) == float) or (type(lightest_file) == str):
+				if (type(lightest_file) == str) and (os.path.isfile(lightest_file)==True):
+					if filesize >= dictionnary["DATA_FILES"][lightest_file]["FILESIZE"]:
+						pass
+				dictionnary["DATA_FOLDER"][filepath]["LIGHTEST_FILE"] = file
+
+
+			#UPDATE SIMILARITY DICTIONNARY
+			if dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"] == {}:
+				#create a similarity key
+				dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"][filename] = [filename]
+				data_files_dictionnary["SIMKEY"] = [filename]
+			if (type(dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"])==list) and (len(list(dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"].keys())) > 0):
+				#create a statut variable to check if it has been added or not
+				added=False
+				#go through similarity dictionnary
+				for sim_key, sim_filelist in dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"].items():
+					ratio = Levenshtein.ratio(os.path.splitext(sim_key)[0], os.path.splitext(filename)[0])
+					if ratio >= 0.9:
+						sim_filelist.append(filename)
+						dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"][sim_key] = sim_filelist
+						data_files_dictionnary["SIMKEY"] = sim_key
+						added=True
+						break
+				if added==False:
+					data_files_dictionnary["SIMKEY"] = [filename]
+					dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"][filename] = [filename]
+
+			data_files_dictionnary["SIMPARENT"] = filepath
+
+			#UPDATE DATA FILE SIZE
+			#try to insert the file at the current position in the list
+			size_list = [filesize for filename,filesize in dictionnary["DATA_FILE_SIZE"]]
+			index = bisect.bisect_left(size_list,filesize)
+			dictionnary["DATA_FILE_SIZE"].insert(index,(file,filesize))
+
+			#UPDATE DATA FILE LIFE
+			life_list = [filelife for filename,filelife in dictionnary["DATA_FILE_LIFE"]]
+			index = bisect.bisect_left(life_list, datetime.now().timestamp() - os.path.getctime(file))
+			dictionnary["DATA_FILE_LIFE"].insert(index,(file,datetime.now().timestamp()-os.path.getctime(file)))
+
+			#UPDATE DATA FILE MODIF
+			modif_list = [filelife for filename,filelife in dictionnary["DATA_FILE_MODIF"]]
+			index = bisect.bisect_left(modif_list, datetime.now().timestamp() - os.path.getmtime(file))
+			dictionnary["DATA_FILE_MODIF"].insert(index,(file,datetime.now().timestamp()-os.path.getmtime(file)))
+
+			#UPDATE THE ITEM SIZE AND SORT THE DICTIONNARY AGAIN TO BE SURE
+			#dictionnary["DATA_ITEM_SIZE"][filepath]+=filesize
+			for i in range(len(dictionnary["DATA_ITEM_SIZE"])):
+				if dictionnary["DATA_ITEM_SIZE"][i][0] == filepath:
+					dictionnary["DATA_ITEM_SIZE"][i][1] += filesize
+					self.message_function("folder size updated!")
+			dictionnary["DATA_ITEM_SIZE"] = sorted(dictionnary["DATA_ITEM_SIZE"], key = lambda x: x[1])
+
+
+			#UPDATE DATA FILE EXTENSION
+			#if extension not in dictionnary create it
+			#else update extension dictionnary informations
+			if os.path.splitext(filename)[1] not in dictionnary["DATA_FILE_EXTENSION"]:
+				extension_dictionnary = {
+					"COUNT":1,
+					"FILE_LIST":[file],
+					"SIZE":filesize
+				}
+				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]=extension_dictionnary
+			else:
+				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]["COUNT"]+=1
+				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]["FILE_LIST"].append(file)
+				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]["SIZE"]+=filesize
+
+			#UPDATE PARENT FOLDER SIZE IN DATA FOLDER DICTIONNARY
+			#for each parent folder sort value in DATA ITEMS SIZE
+			#for each parent folder sort value in DATA CHILDREN SIZE
+			for i in range(150):
+				parent_folder=os.path.normpath(os.path.dirname(parent_folder))
+				#check if the parent folder is in the dictionnary
+				if (os.path.normpath(parent_folder) in dictionnary["DATA_FOLDER"]):
+					#self.message_function(f"update parent folder : {parent_folder}")
+					#for each parent detected update the data folder dictionnary
+					dictionnary["DATA_FOLDER"][parent_folder]["CHILDREN_SIZE"]+=filesize
+				for i in range(len(dictionnary["DATA_CHILDREN_SIZE"])):
+					if dictionnary["DATA_CHILDREN_SIZE"][i][0] == parent_folder:
+						dictionnary["DATA_CHILDREN_SIZE"][i][1] += filesize
+						#self.message_function("Data children size updated")
+				#at the end of the loop
+				#check if the parent folder is the main container of the project
+				#break the loop if it is
+				if os.path.normpath(parent_folder) == self.current_project_name:
+					#self.message_function(f"Main project folder reached")
+					break
+
+			#sort the data children size dictionnary
+			dictionnary["DATA_CHILDREN_SIZE"] = sorted(dictionnary["DATA_CHILDREN_SIZE"], key=lambda x:x[1])
+
+			#SAVE FINAL VALUES FOR DICTIONNARY
+			dictionnary["DATA_FILES"][file] = data_files_dictionnary
+
+			self.message_function(f"function done : {file}", "success")
+		except:
+			self.message_function(f"Error trying to get data from file\n{traceback.format_exc()}", "error")
+
+
+	def scan_folder_function(self,threading=False,multiprocessing=False, folder_list=[], dictionnary=None, index=None):
+		try:
+			self.message_function(f"[{index}] Thread started", "success")
+
+			for folder in folder_list:
+				self.message_function("CHECKING CONTENT FROM FOLDER : %s"%os.path.basename(folder), "notification")
+				if os.path.isdir(folder)==True:
+					#backup_dictionnary = copy.copy(dictionnary)
+					folder_content = os.listdir(folder)
+					if len(folder_content) > dictionnary["SCAN_GLOBAL_DATA"]["MAX_ITEMS"]:
+						dictionnary["SCAN_GLOBAL_DATA"]["MAX_ITEMS"] = len(folder_content)
+					if len(folder_content) < dictionnary["SCAN_GLOBAL_DATA"]["MIN_ITEMS"]:
+						dictionnary["SCAN_GLOBAL_DATA"]["MIN_ITEMS"] = len(folder_content)
+
+					#CREATE THE KEY IN THE DICTIONNARY
+					base_folder_dictionnary = {
+						"ITEMS_LIST":os.listdir(folder),
+						"ITEMS_NUMBER":len(os.listdir(folder)),
+						"FILE_LIST":[],
+						"FOLDER_LIST":[],
+						"ITEMS_SIZE":0,
+						"CHILDREN_SIZE":0,
+						"FILE_COUNT":0,
+						"SIMILARITY":{},
+						"FOLDER_COUNT":0,
+						"HEAVIEST_FILE":float("-inf"),
+						"LIGHTEST_FILE":float("inf")
+					}
+					dictionnary["DATA_FOLDER"][folder] = base_folder_dictionnary
+
+					#check for each content in the folder
+					for element in os.listdir(folder):
+						if os.path.isfile(os.path.join(folder,element))==True:
+							self.message_function("Checking file : %s"%element)
+							self.get_file_data_function(file=os.path.normpath(os.path.join(folder,element)),dictionnary=dictionnary)
+						if os.path.isdir(os.path.join(folder,element))==True:
+							#update folder data for parent
+							base_folder_dictionnary["FOLDER_LIST"].append(element)
+							base_folder_dictionnary["FOLDER_COUNT"]+=1
+
+			#when all folders are updated try to save the dictionnary ONLY IF THREAD
+			if (threading==True) and (multiprocessing==False):
+				#update the dictionnary
+				self.project_data[self.current_project_name] = dictionnary
+				#launch the save function
+				self.save_dictionnary_function()
+				#select the current project in the listview project list
+				#to update the folder list
+				try:
+					project_index = list(self.project_data.keys()).index(self.current_project_name)
+					self.listview_projectlist.children[project_index].highlighted=True
+					self.listview_projectlist.index=project_index
+					self.listview_projectlist.post_message(
+						ListView.Selected(
+							self.listview_projectlist,
+							self.listview_projectlist.children[project_index],
+							project_index
+						)
+					)
+				except:
+					self.message_function(f"Impossible to update TUI\n{traceback.format_exc()}", "error")
+			self.message_function(f"[{index}] Thread done", "success")
+		except Exception as e:
+			self.message_function(f"Error during thread\n{traceback.format_exc()}", "error")
 
 
 	def scanning_folder_function(self, index):
@@ -286,7 +567,6 @@ class ASPC_SNOOP():
 
 				else:
 					print(colored("\t[%s] Checking folder : %s"%(index, folder)))
-
 
 					folder_content = os.listdir(folder)
 					#print(folder_content)
@@ -463,9 +743,6 @@ class ASPC_SNOOP():
 								if found == False:
 									similarity_dictionnary[item] = [item]
 							"""
-
-
-
 							#UPDATE THE PARENT FOLDER SIZE			
 							parent_folder = folder 
 
@@ -489,10 +766,6 @@ class ASPC_SNOOP():
 								else:
 									parent_folder = Path(parent_folder).parent
 
-
-
-
-
 							if os.path.isdir(os.path.join(folder,item))==True:
 								folder_data["FOLDER_COUNT"] += 1
 
@@ -501,9 +774,7 @@ class ASPC_SNOOP():
 							folder_data["SIMILARITY"] = sim_dict				
 							#update the value of the global dictionnary						
 							self.data_folder[folder] = folder_data
-									
-	
-
+						
 			except queue.Empty:
 				return
 
@@ -511,3 +782,6 @@ class ASPC_SNOOP():
 				#print(colored(e, "red"))
 				print(colored("\t%s"%traceback.format_exc(), "red"))
 				return
+
+
+

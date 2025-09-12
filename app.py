@@ -34,6 +34,7 @@ import threading
 import traceback
 import pyfiglet
 
+import uuid
 import sys
 import copy
 import os
@@ -56,87 +57,87 @@ from styles.theme_file import *
 
 #IMPORT MAIN CLASSES OF CUSTOMIZED WIDGETS FROM TEXTUAL
 class HighlightableDirectoryTree(DirectoryTree):
-    """DirectoryTree with path highlighting support."""
+	"""DirectoryTree with path highlighting support."""
 
-    class PathNotFoundError(TextualError):
-        def __init__(self, path: Path) -> None:
-            self.path = path
+	class PathNotFoundError(TextualError):
+		def __init__(self, path: Path) -> None:
+			self.path = path
 
-    def highlight_path(self, path: Path) -> AwaitComplete:
-        """Highlight a path in the tree.
+	def highlight_path(self, path: Path) -> AwaitComplete:
+		"""Highlight a path in the tree.
 
-        Highlights a path that may be nested several levels deep in the tree.
-        This can be done at all times, even when the tree has never been
-        expanded and thus the directory contents containing the path have not
-        been cached yet. This method will walk the tree, expanding nodes when
-        necessary and waiting on the contents before taking another step until
-        it arrives at the requested path. The node containing the path is
-        subsequently highlighted.
+		Highlights a path that may be nested several levels deep in the tree.
+		This can be done at all times, even when the tree has never been
+		expanded and thus the directory contents containing the path have not
+		been cached yet. This method will walk the tree, expanding nodes when
+		necessary and waiting on the contents before taking another step until
+		it arrives at the requested path. The node containing the path is
+		subsequently highlighted.
 
-        Args:
-            path (Path): the path to highlight.
+		Args:
+			path (Path): the path to highlight.
 
-        Returns:
-            AwaitComplete: An optionally awaitable that ensures the path is
-                highlighted.
-        """
-        return AwaitComplete(self._highlight_path(path))
+		Returns:
+			AwaitComplete: An optionally awaitable that ensures the path is
+				highlighted.
+		"""
+		return AwaitComplete(self._highlight_path(path))
 
-    async def _highlight_path(self, path: Path) -> None:
-        """Highlight a path in the tree, while expanding parents.
+	async def _highlight_path(self, path: Path) -> None:
+		"""Highlight a path in the tree, while expanding parents.
 
-        Args:
-            path (Path): the path to highlight.
-        """
-        node = await self._expand_parents_and_find_node(path)
-        self.move_cursor(node)
+		Args:
+			path (Path): the path to highlight.
+		"""
+		node = await self._expand_parents_and_find_node(path)
+		self.move_cursor(node)
 
-    async def _expand_parents_and_find_node(self, path: Path) -> TreeNode[DirEntry]:
-        """Traverse all parts of the path and expand all parents.
+	async def _expand_parents_and_find_node(self, path: Path) -> TreeNode[DirEntry]:
+		"""Traverse all parts of the path and expand all parents.
 
-        This method will traverse all parts of the path and expand all parents
-        in the tree when necessary. Finally, the node containing the requested
-        path is returned.
+		This method will traverse all parts of the path and expand all parents
+		in the tree when necessary. Finally, the node containing the requested
+		path is returned.
 
-        Args:
-            path (Path): the requested path that must become visible.
+		Args:
+			path (Path): the requested path that must become visible.
 
-        Returns:
-            TreeNode[DirEntry]: the tree node containing the requested path.
-        """
-        node = self.root
-        for part in Path(path).parts:
-            node = self._find_node_from_path(node, part)
-            if not node.children:
-                await self.reload_node(node)
-            node.expand()
-        return node
+		Returns:
+			TreeNode[DirEntry]: the tree node containing the requested path.
+		"""
+		node = self.root
+		for part in Path(path).parts:
+			node = self._find_node_from_path(node, part)
+			if not node.children:
+				await self.reload_node(node)
+			node.expand()
+		return node
 
-    def _find_node_from_path(
-        self, parent: TreeNode[DirEntry], path: str
-    ) -> TreeNode[DirEntry]:
-        """Search a node's children for a specific path.
+	def _find_node_from_path(
+		self, parent: TreeNode[DirEntry], path: str
+	) -> TreeNode[DirEntry]:
+		"""Search a node's children for a specific path.
 
-        The path must be a direct child of the parent. For example, if the
-        parent's path is /home/alice, then the path may be /home/alice/work, or
-        /home/alice/documents, but _not_ /home/alice/work/software since that is
-        not a direct child of /home/alice.
+		The path must be a direct child of the parent. For example, if the
+		parent's path is /home/alice, then the path may be /home/alice/work, or
+		/home/alice/documents, but _not_ /home/alice/work/software since that is
+		not a direct child of /home/alice.
 
-        Args:
-            parent (TreeNode[DirEntry]): the parent node.
-            path (str): the path to search for.
+		Args:
+			parent (TreeNode[DirEntry]): the parent node.
+			path (str): the path to search for.
 
-        Raises:
-            PathNotFoundError: raised when the path is not found.
+		Raises:
+			PathNotFoundError: raised when the path is not found.
 
-        Returns:
-            TreeNode[DirEntry]: the node containing the requested path.
-        """
-        root = parent.data.path.absolute()
-        for node in parent.children:
-            if str(node.data.path.relative_to(root)) == path:
-                return node
-        raise self.PathNotFoundError(path)
+		Returns:
+			TreeNode[DirEntry]: the node containing the requested path.
+		"""
+		root = parent.data.path.absolute()
+		for node in parent.children:
+			if str(node.data.path.relative_to(root)) == path:
+				return node
+		raise self.PathNotFoundError(path)
 
 
 class ASPC_HOMEPAGE(ModalScreen):
@@ -411,7 +412,7 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 	def __init__(self):
 		super().__init__()
-
+		self.init_control_value = False
 
 		#load visual themes in the application
 		#apply the theme specified in config file
@@ -424,7 +425,6 @@ class ASPC_MAIN(App, ASPC_LOG, ASPC_SNOOP, ASPC_UTILS, ASPC_GUI, ASPC_ARCHIVE):
 
 		self.theme = THEME
 		
-
 		self.global_root_path = Path("/")
 		self.global_log = []
 		self.global_log_backup = []
@@ -466,10 +466,6 @@ Global project informations
 
 		#first init user settings dictionnary
 		self.user_settings = {}
-		
-
-
-
 		self.color_dictionnary = self.theme_variables
 
 		
@@ -504,7 +500,7 @@ Global project informations
 					yield self.label_global_root_path
 
 					yield Button("ADD TO LIST AND\nEXPLORE PROJECT", id="button_explore_project", classes="button_main")
-
+					yield Button("TEST",id="button_test")
 
 			
 			with Horizontal(id = "horizontal_container_center"):
@@ -559,6 +555,10 @@ Global project informations
 
 			with VerticalScroll(id = "verticalscroll_container_right"):
 				with TabbedContent(id = "tabbedcontent_right"):
+					with TabPane(title = "LOG", id = "tabpane_log"):
+						self.listview_log = ListView(id = "listview_log")
+						yield self.listview_log
+
 					with TabPane(title = "ARCHIVE CONTENT", id = "tabpane_archive"):
 						with Collapsible(title = "ARCHIVE COMPRESSION SETTINGS", id="collapsible_compression_settings"):
 							
@@ -568,8 +568,6 @@ Global project informations
 							self.listview_extensionlist.border_title = "Extension list in project"
 
 							yield Button("TEST COMPRESSION METHODS", id="button_compression_test", classes="button_main")
-
-
 
 						with Collapsible(title = "MODIFY ARCHIVE", id="collapsible_archive_modify"):
 							with VerticalScroll(id="verticalscroll_archive_modify"):
@@ -600,7 +598,6 @@ Global project informations
 			
 
 											yield Button("Add to archive", id="button_add_to_archive", classes="button_main")
-
 
 									with Vertical(id = "tab_vertical_archivecontent_right"):
 										with Collapsible(id = "collapsible_archive_settings", title="ARCHIVE SETTINGS"):
@@ -687,9 +684,7 @@ Global project informations
 						
 						
 
-					with TabPane(title = "LOG", id = "tabpane_log"):
-						self.listview_log = ListView(id = "listview_log")
-						yield self.listview_log
+
 
 			yield Footer()
 					
@@ -700,45 +695,35 @@ Global project informations
 
 
 	def on_mount(self) -> None:
-		
-		
-
 		#self.read_log_thread = threading.Thread(target=self.read_log_function, daemon=True,args=())
 		#self.read_log_thread.start()
-
-
 		#self.message_function(self.theme.primary)
-		self.message_function("Log thread activated", "success")
+		#self.message_function("Log thread activated", "success")
 
 		self.load_project_data_function()
 		self.refresh_project_list_function()
 		self.load_user_settings_function()
 		#self.load_archive_content_function()
 
-
-		for i in range(10):
-			self.listview_files.append(MultiListItem(Label("hello world")))
-
-
 		for checkbox_id, checkbox_value in self.user_settings["WIDGETS"].items():
 			try:
 				self.query_one("#%s"%checkbox_id).value = checkbox_value
 			except Exception as e:
 				self.message_function("Impossible to load value for widget : %s"%checkbox_id, "error")
-			else:
-				self.message_function("Value loaded for widget : %s"%checkbox_id, "notification")
-
 
 		#install screens
 		self.install_screen(ASPC_HOMEPAGE(self.THEME_DICTIONNARY), name="ASPC_HOMEPAGE")
 		#push the homepage screen
 		#show_homepage
-		self.push_screen("ASPC_HOMEPAGE")
+		#self.push_screen("ASPC_HOMEPAGE")
 
-		self.message_function("possible : %s"%self.query_one("#collapsible_data_markdown").allow_maximize)
+		#self.message_function("possible : %s"%self.query_one("#collapsible_data_markdown").allow_maximize)
+		self.call_after_refresh(self.enable_events)
 
-
-
+	def enable_events(self) -> None:
+		"""Activer les événements après que l'interface soit stable"""
+		#print("Activation des événements")
+		self.init_control_value = True
 
 
 
@@ -794,9 +779,6 @@ Global project informations
 		self.push_screen(ASPC_HOMEPAGE(self.THEME_DICTIONNARY))
 
 
-
-
-
 	def on_key(self, event:events.Key) -> None:
 		if (event.key == "enter") and (self.focused.id == "listview_files"):
 			children_item = self.listview_files.children[self.listview_files.index]
@@ -815,9 +797,6 @@ Global project informations
 			children_item.highlight_item(children_item)
 
 			
-
-		
-
 	def get_tree_children(self, path):
 		for children in path.children:
 			self.message_function(children.label)
@@ -825,30 +804,29 @@ Global project informations
 
 
 
-
-
-
 	def on_checkbox_changed(self, event: Checkbox.Changed) -> None:
 		#update the value in the dictionnary
-		widget_dictionnary = self.user_settings["WIDGETS"]
-		widget_dictionnary[event.control.id] = event.control.value
-		self.user_settings["WIDGETS"] = widget_dictionnary
-		#save the new setting file
-		self.save_user_settings_function()
+		if self.init_control_value == True:
+			widget_dictionnary = self.user_settings["WIDGETS"]
+			widget_dictionnary[event.control.id] = event.control.value
+			self.user_settings["WIDGETS"] = widget_dictionnary
+			#save the new setting file
+			self.save_user_settings_function()
 
-		if (event.control.id == "checkbox_file_similarity"):
-			self.checkbox_file_size.disabled = self.checkbox_file_similarity.value
+			if (event.control.id == "checkbox_file_similarity"):
+				self.checkbox_file_size.disabled = self.checkbox_file_similarity.value
 
-		if (event.control.id == "checkbox_folder_items") and (self.checkbox_folder_items.value==True):
-			self.checkbox_folder_children.value = not self.checkbox_folder_items.value
-		if (event.control.id == "checkbox_folder_children") and (self.checkbox_folder_children.value==True):
-			self.checkbox_folder_items.value = not self.checkbox_folder_children.value
+			if (event.control.id == "checkbox_folder_items") and (self.checkbox_folder_items.value==True):
+				self.checkbox_folder_children.value = not self.checkbox_folder_items.value
+			if (event.control.id == "checkbox_folder_children") and (self.checkbox_folder_children.value==True):
+				self.checkbox_folder_items.value = not self.checkbox_folder_children.value
 
-		if event.control.id in ["checkbox_file_size", "checkbox_file_children", "checkbox_size_gradient", "checkbox_file_similarity"]:
-			self.check_for_file_process_function(True)
 
-		if event.control.id in ["checkbox_folder_items", "checkbox_folder_gradient", "checkbox_folder_children", "checkbox_folder_items_gradient"]:
-			self.check_for_folder_process_function(True)
+			if event.control.id in ["checkbox_file_size", "checkbox_file_children", "checkbox_size_gradient", "checkbox_file_similarity"]:
+				self.check_for_file_process_function(checkbox_change=True)
+
+			if event.control.id in ["checkbox_folder_items", "checkbox_folder_gradient", "checkbox_folder_children", "checkbox_folder_items_gradient"]:
+				self.check_for_folder_process_function(True)
 
 
 
@@ -866,6 +844,13 @@ Global project informations
 		
 
 	def on_button_pressed(self, event: Button.Pressed) -> None:
+		if event.button.id == "button_test":
+			#self.listview_projectlist.children[1].highlighted=True
+			#self.listview_projectlist.action_select_cursor
+			self.listview_projectlist.children[1].highlighted=True
+			self.listview_projectlist.index=1
+			self.listview_projectlist.post_message(ListView.Selected(self.listview_projectlist, self.listview_projectlist.children[1],1))
+
 		if event.button.id == "test_log":
 			self.message_function(self.current_folder_selected)
 
@@ -1136,19 +1121,24 @@ Global project informations
 		if self.thread_update_file_list.is_alive():
 			self.stop_event_file.set()
 			self.stop_event_file.wait()
+			self.message_function(f"Trying to stop thread → {self.thread_update_file_list.is_alive()}", "notification")
+			sleep(1)
+		
+		#first check if the content of the folder is the same as registered in data dictionnary
+		if self.check_for_folder_content_function()==False:
+			self.message_function("Differences notified in folder content", "warning")
 			return
 
-		#self.listview_files.clear()
-
-		#current folder selection
-		
+		#clear listview and current file list
+		self.listview_files.clear()
+		self.current_file_list.clear()
 		#self.progress_files.update(total = len(self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]))
 		self.progress_files.update(progress=0)
-
-
-		
 		try:
-			self.thread_update_file_list = threading.Thread(target=self.update_file_list_function, daemon=True, args=(checkbox_change,))
+			#create identifier for the thread
+			thread_identifier = str(uuid.uuid4())[:5]
+			#launch the thread
+			self.thread_update_file_list = threading.Thread(target=self.update_file_list_function, daemon=True, kwargs={"thread_identifier":thread_identifier})
 			self.stop_event_file.clear()
 			self.thread_update_file_list.start()
 		except Exception as e:
@@ -1167,14 +1157,10 @@ Global project informations
 			self.stop_event_folder.wait()
 			#self.thread_update_list.join()
 			return
-		
-
-
+	
 		self.listview_folders.clear()
 		self.listview_files.clear()
-		 
 		
-
 		#clean the folder list
 		self.current_folder_list.clear()
 		self.current_file_list.clear()
@@ -1196,7 +1182,6 @@ Global project informations
 		self.progress_folder.update(total = len(list(self.project_data[self.current_project_name]["DATA_FOLDER"].keys())))
 		
 		try:
-			
 			self.thread_update_folder_list = threading.Thread(target=self.update_folder_list_function, daemon=True, args=())
 			self.stop_event_folder.clear()  
 			self.thread_update_folder_list.start()
@@ -1233,9 +1218,6 @@ Global project informations
 			self.check_for_archive_content_function()
 			self.check_for_extension_function()
 			
-
-
-
 		if event.control.id == "listview_addarchive_selected":
 			#get the list of children
 			self.message_function("Item removed from list : %s"%self.listview_addarchive_selected.index)
@@ -1251,16 +1233,12 @@ Global project informations
 			#remove the index in the list as well
 			self.content_to_archive.pop(self.listview_addarchive_selected.index)
 			"""
-		
 
-
-		if event.control.id == "listview_folders":
-			
-
+		if event.control.id == "listview_folders":	
 			self.current_folder_selected = self.current_folder_list[self.listview_folders.index]
 			#self.message_function(self.current_folder_selected, "message", False)
 			#display information about the selected widget
-			label = event.control.children[self.listview_folders.index].children[0]
+			#label = event.control.children[self.listview_folders.index].children[0]
 			#self.message_function(label.styles.color)
 			#self.message_function(label.styles.border_left)
 
@@ -1284,7 +1262,7 @@ Global project informations
 			#call function to update the file list content
 			self.check_for_file_process_function()
 			#call function to highlight children if highlight children is checked
-			#self.highlight_folder_children_function()
+			self.highlight_folder_children_function()
 
 
 

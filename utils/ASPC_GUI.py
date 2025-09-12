@@ -591,7 +591,7 @@ class ASPC_GUI:
 
 
 
-	def update_file_list_function(self, checkbox_change):
+	def update_file_list_function_backup(self, checkbox_change):
 		self.message_function("\n", "message", False)
 		self.message_function("Thread started", "notification")
 		self.message_function("Current folder selected : %s"%self.current_folder_selected)
@@ -799,6 +799,94 @@ class ASPC_GUI:
 
 		else:
 			self.message_function("terminated")
+
+
+	def update_file_list_function(self, thread_identifier = "None"):
+		while not self.stop_event_file.is_set():
+			try:
+				self.call_from_thread(self.message_function, f"[{thread_identifier}] thread processing", "notification")
+				
+				#get the selected folder
+				self.call_from_thread(self.message_function, f"trying to get file list for {self.current_folder_selected}")
+				"""
+				get file list contained in selected folder
+				-sort it by size 
+				-sort it by similarity block
+				-don't sort it
+				"""
+				#GET THE FILE LIST DEPENDING OF THE PARENT DEFINED
+				# 1 → parent folder
+				# 2 → all files???
+				
+				#ONLY FOLDER CONTENT
+				if self.checkbox_file_children.value == True:
+					file_list = list(map(lambda x: (os.path.normpath(x), self.current_project_data["DATA_FILES"][os.path.normpath(os.path.join(self.current_folder_selected,x))]["FILESIZE"]), self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]))
+					self.current_file_list = list(map(lambda x: os.path.normpath(x), self.current_project_data["DATA_FOLDER"][os.path.normpath(self.current_folder_selected)]["FILE_LIST"]))
+					
+					#sort folder content	
+					if self.checkbox_file_size.value==True:
+						file_list = sorted(file_list, key=lambda x: x[1])
+						self.current_file_list = list(map(lambda x: x[0], file_list))
+
+				#ALL FILES NOT SORTED		
+				elif (self.checkbox_file_children.value == False) and (self.checkbox_file_size.value==False):
+					file_list = list(map(lambda x: (os.path.basename(x), self.current_project_data["DATA_FILES"][x]["FILESIZE"]), self.current_project_data["DATA_FILES"]))
+					self.current_file_list = list(self.current_project_data["DATA_FILES"].keys())
+
+				#ALL FILES SORTED
+				else:
+					file_list = list(map(lambda x: (os.path.basename(x[0]), x[1]), self.current_project_data["DATA_FILE_SIZE"]))
+					self.current_file_list = list(map(lambda x: x[0], self.current_project_data["DATA_FILE_SIZE"]))
+
+				#create the label list
+				if self.checkbox_file_gradient.value == False:
+					label_list = list(map(lambda file: ListItem(Label(file[0])), file_list))
+				else:
+					#create a gradient from the file tuple list
+					#get the min and the max size in the list
+					try:
+						max_value = max(file_list, key=lambda x: x[1])[1]
+						min_value = min(file_list, key=lambda x: x[1])[1]
+					except ValueError:
+						break
+					"""
+					create color range from min and max value (from 0 → 100)
+					0 - 25 → normal message
+					25 - 50 → accent
+					50 - 75 → warning
+					75 - 100 → error
+					"""
+					label_list = []
+					#for i in range(len(file_list)):
+					for filename, filesize in file_list:
+						#filename = file_list[i][0]
+						#filesize = file_list[i][1]
+						#define the range value for this size
+						#self.call_from_thread(self.message_function, file_list[i][0])
+						label = Label(filename)
+						try:
+							range_value = ((filesize - min_value)/(max_value - min_value)) * 100
+						except ZeroDivisionError:
+							pass 
+						else:
+							#self.call_from_thread(self.message_function, f"  {min_value} → {filesize} → {max_value}")
+							if range_value <= 15:
+								label.styles.color = self.theme_variables["foreground"]
+							elif (range_value > 15) and (range_value <= 40):
+								label.styles.color = self.theme_variables["accent"]
+							elif (range_value > 40) and (range_value <= 75):
+								label.styles.color = self.theme_variables["warning"]
+							else:
+								label.styles.color = self.theme_variables["error"]
+						label_list.append(MultiListItem(label))
+
+				self.call_from_thread(self.listview_files.extend, label_list)
+				#self.call_from_thread(self.message_function, label_list)
+				break
+			except Exception as e:
+				self.call_from_thread(self.message_function, f"[{thread_identifier}] Error happened during thread\n{traceback.format_exc()}", "error")
+				break
+		self.call_from_thread(self.message_function, f"[{thread_identifier}] thread stopped\n\n", "notification")
 		
 
 	def add_list_line_function(self, label, id):
@@ -808,23 +896,16 @@ class ASPC_GUI:
 
 
 	def update_directorytree_function(self):
-
-
 		tree = self.query_one("#directorytree_main")
 		root = tree.root
 		last_line_init = tree.last_line
-
 		self.message_function(root)
-
 		new_node = self.search_folder_function(tree, root, last_line_init)
-
-
 		self.message_function(self.query_one("#directorytree_main").last_line)
 
 
 	def search_folder_function(self, tree, root, last_line):
 		self.message_function("searching", "notification")
-
 		self.message_function(last_line, "notification")
 
 
@@ -883,7 +964,7 @@ class ASPC_GUI:
 
 			#get the index of each children in the current folder list
 			for children in list_children:
-				self.message_function("children detected : %s"%children)
+				#self.message_function("children detected : %s"%children)
 				children_index = self.current_folder_list.index(os.path.join(self.current_folder_selected,children))
 				#get the list item for this index in the listview
 				listitem = list_listview_children[children_index]

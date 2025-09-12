@@ -40,6 +40,10 @@ old **projects** (large folder/file hierarchies).
 - Indicate number of item progression when restoring files from archive
 
 
+- similarity loop is not working in the last checking file function
+- heaviest and lightest file detection is broken as well!
+
+
 
 
 
