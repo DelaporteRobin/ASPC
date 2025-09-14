@@ -16,6 +16,7 @@ import zipfile
 import rich
 import threading 
 import copy
+import uuid
 
 # -*- coding: utf-8 -*-
 from textual.app import App, ComposeResult
@@ -49,6 +50,8 @@ from time import sleep
 from rich.console import Console
 from rich_pyfiglet import RichFiglet
 
+from multiprocessing import Lock
+
 from pathlib import Path
 from termcolor import *
 from datetime import datetime, timedelta
@@ -71,7 +74,6 @@ class ASPC_SNOOP():
 		console.log("[%s]Starting exploring the project : %s"%(self.THEME.primary, root_folder))
 		
 		#sleep(5)
-
 		#print(colored("ASPC SNOOP", "cyan"))
 
 		if (root_folder == None) or (os.path.isdir(root_folder)==False):
@@ -80,206 +82,214 @@ class ASPC_SNOOP():
 			return
 
 		self.root_folder = root_folder
+		self.current_project_name = str(root_folder)
+
+		try:
+			#create multiprocessing manager
+			with mp.Manager() as manager:
+				self.path = root_folder
+				self.queue = mp.Queue()
+				lock = Lock()
 
 
-		
-		#create multiprocessing manager
-		with mp.Manager() as manager:
-			self.path = root_folder
-			self.queue = mp.Queue()
+				#add the root folder in the queue
+				self.queue.put(str(root_folder))
+				#call the creation of the file queue
+				self.create_file_queue_function(console)
+
+				process_number = mp.cpu_count()
+
+				self.data_global = manager.dict()
+				#ADD KEYS TO THE DICTIONNARY
+				
+				self.data_global["SCAN_DATE"] = datetime.now().timestamp(),
+				self.data_global["SCAN_GLOBAL_DATA"] = manager.dict()
+				self.data_global["DATA_FOLDER"] = manager.dict()
+				self.data_global["DATA_FILES"] = manager.dict()
+				self.data_global["DATA_FILE_SIZE"] = manager.list()
+				self.data_global["DATA_FILE_LIFE"] = manager.list()
+				self.data_global["DATA_FILE_MODIF"] = manager.list()
+				self.data_global["DATA_FILE_EXTENSION"] = manager.dict()
+				self.data_global["DATA_ITEM_SIZE"] = manager.list()
+				self.data_global["DATA_CHILDREN_SIZE"] = manager.list()
+				
+
+				#create min and max items number
+				self.data_global["SCAN_GLOBAL_DATA"]["MIN_ITEMS"] = float("inf")
+				self.data_global["SCAN_GLOBAL_DATA"]["MAX_ITEMS"] = float("-inf")
 
 
-			#add the root folder in the queue
-			self.queue.put(str(root_folder))
-			#call the creation of the file queue
-			self.create_file_queue_function(console)
 
-			process_number = mp.cpu_count()
+				#def scan_folder_function(self,threading=False,multiprocessing=False, folder_list=[], dictionnary=None, index=None):
+				#THIS IS WHERE THE MULTIPROCESSING MAGIC HAPPEN
+				process_pool = []
+				index_pool = []
+				for i in range(process_number):
+					try:
+						#p = mp.Process(target=self.scanning_folder_function, args=(i,))
+						#generate uuid
+						index = str(uuid.uuid4())[:5]
+						p = mp.Process(target=self.get_folder_function, args=(index,lock))
+						p.start()
+						process_pool.append(p)
+						index_pool.append(index)
+					except Exception as e:
+						#print(colored("Impossible to launch process\n%s"%e, "red"))
+						console.log("[%s]Impossible to launch process\n%s"%(self.THEME.error,e))
+					else:
+						#print("Process launched : %s"%str(p))
+						console.log("[%s]Process launched → %s"%(self.THEME.primary,index))
+
+				for p in process_pool:
+					#print(colored("Process terminated : %s"%str(p), "green"))
+					console.log("[%s]Process terminated → %s"%(self.THEME.success, index_pool[process_pool.index(p)] ))
+					p.join()
+
+				#print(colored("All processes terminated", "green"))
+				console.log("[%s]All processes terminated"%self.THEME.success)
 
 
-			self.data_global = manager.dict()
-			self.scan_global_data = manager.dict()
-			self.data_folder = manager.dict()
-			self.data_extension = manager.dict()
-			self.data_file = manager.dict()
-			self.data_file_size = manager.list()
-			self.data_file_life = manager.list()
-			self.data_file_modif = manager.list()
-			#self.data_folder_global = manager.dict()
+				#FINAL DICTIONNARY CONVERTION
+				for key_name, key_data in self.data_global.items():
+					#print(f"{key_name} : {type(key_data).__name__}")
+					if str(type(key_data).__name__) == "DictProxy":
+						self.data_global[key_name] = dict(key_data)
+					if str(type(key_data).__name__) == "ListProxy":
+						self.data_global[key_name] = list(key_data)
 
-			#create min and max items number
-			self.scan_global_data["MIN_ITEMS"] = float("inf")
-			self.scan_global_data["MAX_ITEMS"] = float("-inf")
-
-
-			process_pool = []
-			for i in range(process_number):
+				#print(colored("Sort size list", "yellow"))
+				"""
+				print("\n")
+				console.log("[%s]Sort size list"%self.THEME.primary)
+				self.data_file_size_list = list(self.data_file_size)
+				self.data_file_life_list = list(self.data_file_life)
+				self.data_file_modif_list = list(self.data_file_modif)
 				try:
-					p = mp.Process(target=self.scanning_folder_function, args=(i,))
-					p.start()
-					process_pool.append(p)
+					self.data_file_size_list.sort(key=lambda x: x[1])
+					self.data_file_life_list.sort(key=lambda x: x[1])
+					self.data_file_modif_list.sort(key=lambda x: x[1])
 				except Exception as e:
-					#print(colored("Impossible to launch process\n%s"%e, "red"))
-					console.log("[%s]Impossible to launch process\n%s"%(self.THEME.error,e))
+					#print(colored("Impossible to sort list\n%s"%e, "red"))
+					console.log("[%s]Impossible to sort list\n%s"%(self.THEME.error,traceback.format_exc()))
 				else:
-					#print("Process launched : %s"%str(p))
-					console.log("[%s]Process launched → %s"%(self.THEME.primary,p))
+					#print(colored("List sorted", "green"))
+					console.log("[%s]List sorted"%self.THEME.success)
 
-			for p in process_pool:
-				#print(colored("Process terminated : %s"%str(p), "green"))
-				console.log("[%s]Process terminated → %s"%(self.THEME.success, str(p)))
-				p.join()
-
-			#print(colored("All processes terminated", "green"))
-			console.log("[%s]All processes terminated"%self.THEME.success)
-
-
-
-			"""
-			create the size classement for folders
-			"""
-
-
-			
-			#print(colored("Sort size list", "yellow"))
-			print("\n")
-			console.log("[%s]Sort size list"%self.THEME.primary)
-			self.data_file_size_list = list(self.data_file_size)
-			self.data_file_life_list = list(self.data_file_life)
-			self.data_file_modif_list = list(self.data_file_modif)
-			try:
-				self.data_file_size_list.sort(key=lambda x: x[1])
-				self.data_file_life_list.sort(key=lambda x: x[1])
-				self.data_file_modif_list.sort(key=lambda x: x[1])
-			except Exception as e:
-				#print(colored("Impossible to sort list\n%s"%e, "red"))
-				console.log("[%s]Impossible to sort list\n%s"%(self.THEME.error,traceback.format_exc()))
-			else:
-				#print(colored("List sorted", "green"))
-				console.log("[%s]List sorted"%self.THEME.success)
+				
+				self.data_global = {
+					"SCAN_DATE":datetime.now().timestamp(),
+					"SCAN_GLOBAL_DATA": dict(self.scan_global_data),
+					"DATA_FOLDER":dict(self.data_folder),
+					"DATA_FILES":dict(self.data_file),
+					"DATA_FILE_SIZE":list(self.data_file_size_list),
+					"DATA_FILE_LIFE":list(self.data_file_life_list),
+					"DATA_FILE_MODIF":list(self.data_file_modif_list),
+					"DATA_FILE_EXTENSION":dict(self.data_extension),
+					"DATA_ITEM_SIZE":[],
+					"DATA_CHILDREN_SIZE":[],
+				}
+				"""
 
 
-			self.data_global = {
-				"SCAN_DATE":datetime.now().timestamp(),
-				"SCAN_GLOBAL_DATA": dict(self.scan_global_data),
-				"DATA_FOLDER":dict(self.data_folder),
-				"DATA_FILES":dict(self.data_file),
-				"DATA_FILE_SIZE":list(self.data_file_size_list),
-				"DATA_FILE_LIFE":list(self.data_file_life_list),
-				"DATA_FILE_MODIF":list(self.data_file_modif_list),
-				"DATA_FILE_EXTENSION":dict(self.data_extension),
-				"DATA_ITEM_SIZE":[],
-				"DATA_CHILDREN_SIZE":[],
-			}
-
-
-			#print(colored("Create folder size classification", "yellow"))
-			print("\n")
-			console.log("[%s]Create folder size classification"%self.THEME.primary)
-			#create the folder list
-			folder_item_size_classification = []
-			folder_children_size_classification = []
-
-			try:
-				for folder_name, folder_data in self.data_global["DATA_FOLDER"].items():
-					#block of instructions for the items contained in folder
-					if len(folder_item_size_classification) == 0:
-						folder_item_size_classification.append((folder_name, folder_data["ITEMS_SIZE"]))
-					else:
-						bisect.insort(folder_item_size_classification, (folder_name, folder_data["ITEMS_SIZE"]), key=lambda x: x[1])
-
-					
-					#block of instructions for children contained in the folder
-					if len(folder_children_size_classification) == 0:
-						folder_children_size_classification.append((folder_name, folder_data["CHILDREN_SIZE"]))
-					else:
-						bisect.insort(folder_children_size_classification, (folder_name, folder_data["CHILDREN_SIZE"]), key=lambda x: x[1])
-
-				#insert values in the final dictionnary
-				self.data_global["DATA_ITEM_SIZE"] = folder_item_size_classification
-				self.data_global["DATA_CHILDREN_SIZE"] = folder_children_size_classification
-			except Exception as e:
-				console.log("[%s]Impossible to create folder size classification\n%s"%(self.THEME.error,traceback.format_exc()))
-				#print(colored("Impossible to create folder size classification","red"))
-				#print(colored(e, "red"))
-			else:
-				#print(colored("Folder classification done", "green"))
-				console.log("[%s]Folder classification done"%self.THEME.success)
-
-
-
-
-
-
-			#print(colored("Replace all Path elements", "yellow"))
-			print("\n")
-			console.log("[%s]Replace all path elements"%self.THEME.primary)
-			try:
-				self.data_global = {k: str(v) if isinstance(v, Path) else v for k, v in self.data_global.items()}
-			except Exception as e:
-				#print(colored("Impossible to clean path elements\n%s"%traceback.format_exc(), "red"))
-				console.log("[%s]Impossible to clean path elements\n%s"%(self.THEME.error,traceback.format_exc()))
-			else:
-				#print(colored("All path elements replaced", "green"))
-				console.log("[%s]All path elements replaced"%self.THEME.success)
-
-
-			
-			archive_path = None
-			archive_log = None
-			
-			if os.path.isfile(os.path.join(os.getcwd(), "data/data.json"))==True:
-				#load the content file
-				with open(os.path.join(os.getcwd(), "data/data.json"), "r") as read_file:
-					content = json.load(read_file)
-				#check if the project is already writen in the archive
-				if str(root_folder) in content:
-					if ("ARCHIVE_PATH" in content[str(root_folder)]) and ("ARCHIVE_LOG" in content[str(root_folder)]):
-						archive_path = content[str(root_folder)]["ARCHIVE_PATH"]
-						archive_log = content[str(root_folder)]["ARCHIVE_LOG"]
-			
-			else:
-				content = {}
-
-			print("\n")
-			content[str(root_folder)] = self.data_global
-			#if archive path and log different from None
-			#recreate the archive path in the dictionnary
-			if (archive_path != None) and (archive_log != None):
-				content[str(root_folder)]["ARCHIVE_PATH"] = archive_path
-				content[str(root_folder)]["ARCHIVE_LOG"] = archive_log
-				#print(colored("Archive path and log detected for project", "cyan"))
-				console.log("[%s]Archive path and log detected in this project"%self.THEME.accent)
-
-				#reinject archived elements in data folder
-				#try to open the archive
-				#print(colored("Try to inject archived content", "cyan"))
-				console.log("[%s]Try to inject archived content"%self.THEME.primary)
+				#print(colored("Create folder size classification", "yellow"))
+				"""
+				print("\n")
+				console.log("[%s]Create folder size classification"%self.THEME.primary)
+				#create the folder list
+				folder_item_size_classification = []
+				folder_children_size_classification = []
 				try:
-					with zipfile.ZipFile(content[str(root_folder)]["ARCHIVE_PATH"], mode="r") as archive:
-						for file in archive.infolist():
-							filepath=file.filename
-							#print("\tinjecting %s"%os.path.basename(filepath))
-							console.log("[%s]Injecting : %s"%(self.THEME.foreground,os.path.basename(filepath)))
-							filefolder=os.path.join(root_folder,os.path.dirname(filepath)).replace("/", "\\")
-							#get the folder dictionnary
-							if "ARCHIVED_LIST" not in content[str(root_folder)]["DATA_FOLDER"][filefolder]:
-								content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"] = []
-							content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"].append(os.path.basename(filepath))
-				except Exception as e:
-					#print(colored("Impossible to inject archived elements", "red"))
-					#print(colored(traceback.format_exc(), "red"))
-					console.log("[%s]Impossible to inject archived elements\n%s"%(self.THEME.error,traceback.format_exc()))
+					for folder_name, folder_data in self.data_global["DATA_FOLDER"].items():
+						#block of instructions for the items contained in folder
+						if len(folder_item_size_classification) == 0:
+							folder_item_size_classification.append((folder_name, folder_data["ITEMS_SIZE"]))
+						else:
+							bisect.insort(folder_item_size_classification, (folder_name, folder_data["ITEMS_SIZE"]), key=lambda x: x[1])
+						#block of instructions for children contained in the folder
+						if len(folder_children_size_classification) == 0:
+							folder_children_size_classification.append((folder_name, folder_data["CHILDREN_SIZE"]))
+						else:
+							bisect.insort(folder_children_size_classification, (folder_name, folder_data["CHILDREN_SIZE"]), key=lambda x: x[1])
 
-			try:
-				with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
-					json.dump(content, save_file, indent=4)
-			except Exception as e:
-				#print(colored("Failed to save dictionnary\n%s"%traceback.format_exc(), "red"))
-				console.log("[%s]Failed to save dictionnary\n%s"%(self.THEME.error, traceback.format_exc()))
-			else:
-				#print(colored("Dictionnary saved", "green"))
-				console.log("[%s]Dictionnary saved"%self.THEME.success)
+					#insert values in the final dictionnary
+					self.data_global["DATA_ITEM_SIZE"] = folder_item_size_classification
+					self.data_global["DATA_CHILDREN_SIZE"] = folder_children_size_classification
+				except Exception as e:
+					console.log("[%s]Impossible to create folder size classification\n%s"%(self.THEME.error,traceback.format_exc()))
+					#print(colored("Impossible to create folder size classification","red"))
+					#print(colored(e, "red"))
+				else:
+					#print(colored("Folder classification done", "green"))
+					console.log("[%s]Folder classification done"%self.THEME.success)
+				"""
+				#print(colored("Replace all Path elements", "yellow"))
+				print("\n")
+				console.log("[%s]Replace all path elements"%self.THEME.primary)
+				try:
+					self.data_global = {k: str(v) if isinstance(v, Path) else v for k, v in self.data_global.items()}
+				except Exception as e:
+					#print(colored("Impossible to clean path elements\n%s"%traceback.format_exc(), "red"))
+					console.log("[%s]Impossible to clean path elements\n%s"%(self.THEME.error,traceback.format_exc()))
+				else:
+					#print(colored("All path elements replaced", "green"))
+					console.log("[%s]All path elements replaced"%self.THEME.success)
+
+				archive_path = None
+				archive_log = None
+				
+				if os.path.isfile(os.path.join(os.getcwd(), "data/data.json"))==True:
+					#load the content file
+					with open(os.path.join(os.getcwd(), "data/data.json"), "r") as read_file:
+						content = json.load(read_file)
+					#check if the project is already writen in the archive
+					if str(root_folder) in content:
+						if ("ARCHIVE_PATH" in content[str(root_folder)]) and ("ARCHIVE_LOG" in content[str(root_folder)]):
+							archive_path = content[str(root_folder)]["ARCHIVE_PATH"]
+							archive_log = content[str(root_folder)]["ARCHIVE_LOG"]
+				else:
+					content = {}
+
+				print("\n")
+				content[str(root_folder)] = self.data_global
+				#if archive path and log different from None
+				#recreate the archive path in the dictionnary
+				if (archive_path != None) and (archive_log != None):
+					content[str(root_folder)]["ARCHIVE_PATH"] = archive_path
+					content[str(root_folder)]["ARCHIVE_LOG"] = archive_log
+					#print(colored("Archive path and log detected for project", "cyan"))
+					console.log("[%s]Archive path and log detected in this project"%self.THEME.accent)
+
+					#reinject archived elements in data folder
+					#try to open the archive
+					#print(colored("Try to inject archived content", "cyan"))
+					console.log("[%s]Try to inject archived content"%self.THEME.primary)
+					try:
+						with zipfile.ZipFile(content[str(root_folder)]["ARCHIVE_PATH"], mode="r") as archive:
+							for file in archive.infolist():
+								filepath=file.filename
+								#print("\tinjecting %s"%os.path.basename(filepath))
+								console.log("[%s]Injecting : %s"%(self.THEME.foreground,os.path.basename(filepath)))
+								filefolder=os.path.join(root_folder,os.path.dirname(filepath)).replace("/", "\\")
+								#get the folder dictionnary
+								if "ARCHIVED_LIST" not in content[str(root_folder)]["DATA_FOLDER"][filefolder]:
+									content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"] = []
+								content[str(root_folder)]["DATA_FOLDER"][filefolder]["ARCHIVED_LIST"].append(os.path.basename(filepath))
+					except Exception as e:
+						#print(colored("Impossible to inject archived elements", "red"))
+						#print(colored(traceback.format_exc(), "red"))
+						console.log("[%s]Impossible to inject archived elements\n%s"%(self.THEME.error,traceback.format_exc()))
+				
+				try:
+					with open(os.path.join(os.getcwd(), "data/data.json"), "w") as save_file:
+						json.dump(content, save_file, indent=4)
+				except Exception as e:
+					#print(colored("Failed to save dictionnary\n%s"%traceback.format_exc(), "red"))
+					console.log("[%s]Failed to save dictionnary\n%s"%(self.THEME.error, traceback.format_exc()))
+				else:
+					#print(colored("Dictionnary saved", "green"))
+					console.log("[%s]Dictionnary saved"%self.THEME.success)
+		except:
+			console.log(f"[{self.THEME.error}]{traceback.format_exc()}")
 
 	def create_file_queue_function(self,console):
 		#print(colored("STARTING TO CREATE THE FILE QUEUE", "magenta"))
@@ -309,6 +319,8 @@ class ASPC_SNOOP():
 		diff_file_list = list(set(folder_file_content) - set(data_file_list))
 		diff_folder_list = list(set(folder_folder_content) - set(data_folder_list))
 
+		#create a lock 
+		lock = threading.Lock()
 		#condition so we don't save user settings and update informations for nothing!
 		if (len(diff_file_list) != 0) or (len(diff_folder_list) != 0):
 			self.message_function("\n\n", "message",False)
@@ -317,7 +329,7 @@ class ASPC_SNOOP():
 			if len(diff_file_list) != 0:
 				self.message_function("File differences noticed on file count...")
 				for diff_file in diff_file_list:
-					self.get_file_data_function(file=os.path.normpath(os.path.join(self.current_folder_selected,diff_file)),dictionnary=self.current_project_data)
+					self.get_file_data_function(file=os.path.normpath(os.path.join(self.current_folder_selected,diff_file)),dictionnary=self.current_project_data, lock=lock)
 					#save folder data
 				
 			#fix differences for folders
@@ -339,7 +351,7 @@ class ASPC_SNOOP():
 
 				try:
 
-					thread_folder_exploration = threading.Thread(target=self.scan_folder_function,daemon=True,kwargs={"threading":True,"folder_list":thread_folder_list,"dictionnary":self.current_project_data})
+					thread_folder_exploration = threading.Thread(target=self.scan_folder_function,daemon=True,kwargs={"threading":True,"folder_list":thread_folder_list,"dictionnary":self.current_project_data, "lock":lock})
 					thread_folder_exploration.start()
 					self.message_function(f"thread launched", "success")
 				except:
@@ -354,23 +366,34 @@ class ASPC_SNOOP():
 			#elf.save_dictionnary_function()
 
 
-	def get_file_data_function(self, file=None, dictionnary=None):
+	def get_file_data_function(self, file=None, dictionnary=None, index=None, current_project_name=None, lock=False	):
 		try:
 			"""
 			function collecting data about each file sent
 			informations are sent in the specified dictionnary.
 			"""
-			self.message_function(f"GETTING FILE DATA : {os.path.basename(file)}", "message",False)
+			#self.message_function(f"GETTING FILE DATA : {os.path.basename(file)}", "message",False)
 			filename = os.path.basename(file)
 			parent_folder = filepath = os.path.normpath(os.path.dirname(file))
 			filesize = os.path.getsize(file)
 			#update parent folder informations
+			print(f"\t\t[{index}] {filename}")
 			
-			dictionnary["DATA_FOLDER"][filepath]["ITEMS_LIST"].append(filename)
-			dictionnary["DATA_FOLDER"][filepath]["ITEMS_NUMBER"]+=1
-			dictionnary["DATA_FOLDER"][filepath]["FILE_LIST"].append(filename)
-			dictionnary["DATA_FOLDER"][filepath]["ITEMS_SIZE"]+=filesize
-			dictionnary["DATA_FOLDER"][filepath]["FILE_COUNT"]+=1	
+			#create an instance for keys of the global dictionnary
+			folder_dictionnary = dictionnary["DATA_FOLDER"][filepath]
+			data_files = dictionnary["DATA_FILES"]
+			data_file_size = dictionnary["DATA_FILE_SIZE"]
+			data_file_life = dictionnary["DATA_FILE_LIFE"]
+			data_file_modif = dictionnary["DATA_FILE_MODIF"]
+			data_file_extension = dictionnary["DATA_FILE_EXTENSION"]
+			data_children_size = dictionnary["DATA_CHILDREN_SIZE"]
+			data_item_size = dictionnary["DATA_ITEM_SIZE"]
+
+			#folder_dictionnary["ITEMS_LIST"].append(filename)
+			folder_dictionnary["ITEMS_NUMBER"]+=1
+			folder_dictionnary["FILE_LIST"].append(filename)
+			folder_dictionnary["ITEMS_SIZE"]+=filesize
+			folder_dictionnary["FILE_COUNT"]+=1	
 			#update file dictionnary
 			data_files_dictionnary = {
 				"FILESIZE":filesize,
@@ -378,124 +401,145 @@ class ASPC_SNOOP():
 				"FILEMODIFICATION":datetime.fromtimestamp(os.path.getmtime(file)).strftime("%Y-%m-%d %H:%M:%S")
 			}
 			#check for heaviest and lightest file
-			heaviest_file = dictionnary["DATA_FOLDER"][filepath]["HEAVIEST_FILE"]
-			lightest_file = dictionnary["DATA_FOLDER"][filepath]["LIGHTEST_FILE"]
+			heaviest_file = folder_dictionnary["HEAVIEST_FILE"]
+			lightest_file = folder_dictionnary["LIGHTEST_FILE"]
+			#if the type of heaviest or lightest is float, define the file 
+			#if the size of the file is smaller than the lightest file → set file
+			#if the sier of the file is heavier than the heaviest file → set file
+			if type(heaviest_file) == float:
+				folder_dictionnary["HEAVIEST_FILE"] = os.path.normpath(file)
+			if (type(heaviest_file) == str) and (heaviest_file in data_files):
+				if filesize > data_files[heaviest_file]["FILESIZE"]:
+					folder_dictionnary["HEAVIEST_FILE"] = os.path.normpath(file)
 
-			
-			if (type(heaviest_file) == float) or (type(heaviest_file) == str):
-				if (type(heaviest_file) == str) and (os.path.isfile(heaviest_file)==True):
-					if filesize <= dictionnary["DATA_FILES"][heaviest_file]["FILESIZE"]:
-						pass
-				dictionnary["DATA_FOLDER"][filepath]["HEAVIEST_FILE"] = file
-
-			if (type(lightest_file) == float) or (type(lightest_file) == str):
-				if (type(lightest_file) == str) and (os.path.isfile(lightest_file)==True):
-					if filesize >= dictionnary["DATA_FILES"][lightest_file]["FILESIZE"]:
-						pass
-				dictionnary["DATA_FOLDER"][filepath]["LIGHTEST_FILE"] = file
+			if type(lightest_file) == float:
+				folder_dictionnary["LIGHTEST_FILE"] = os.path.normpath(file)
+			if (type(lightest_file) == str) and (lightest_file in data_files):
+				if filesize < data_files[lightest_file]["FILESIZE"]:
+					folder_dictionnary["LIGHTEST_FILE"] = os.path.normpath(file)
 
 
 			#UPDATE SIMILARITY DICTIONNARY
-			if dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"] == {}:
+			if folder_dictionnary["SIMILARITY"] == {}:
 				#create a similarity key
-				dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"][filename] = [filename]
-				data_files_dictionnary["SIMKEY"] = [filename]
-			if (type(dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"])==list) and (len(list(dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"].keys())) > 0):
+				folder_dictionnary["SIMILARITY"][filename] = [filename]
+				data_files_dictionnary["SIMKEY"] = filename
+			if (type(folder_dictionnary["SIMILARITY"])==dict) and (len(list(folder_dictionnary["SIMILARITY"].keys())) > 0):
 				#create a statut variable to check if it has been added or not
 				added=False
 				#go through similarity dictionnary
-				for sim_key, sim_filelist in dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"].items():
+				for sim_key, sim_filelist in folder_dictionnary["SIMILARITY"].items():
 					ratio = Levenshtein.ratio(os.path.splitext(sim_key)[0], os.path.splitext(filename)[0])
 					if ratio >= 0.9:
-						sim_filelist.append(filename)
-						dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"][sim_key] = sim_filelist
-						data_files_dictionnary["SIMKEY"] = sim_key
-						added=True
-						break
+						if filename not in sim_filelist:
+							sim_filelist.append(filename)
+							folder_dictionnary["SIMILARITY"][sim_key] = sim_filelist
+							data_files_dictionnary["SIMKEY"] = sim_key
+							added=True
+							break
 				if added==False:
-					data_files_dictionnary["SIMKEY"] = [filename]
-					dictionnary["DATA_FOLDER"][filepath]["SIMILARITY"][filename] = [filename]
+					data_files_dictionnary["SIMKEY"] = filename
+					folder_dictionnary["SIMILARITY"][filename] = [filename]
 
 			data_files_dictionnary["SIMPARENT"] = filepath
 
+			
 			#UPDATE DATA FILE SIZE
 			#try to insert the file at the current position in the list
-			size_list = [filesize for filename,filesize in dictionnary["DATA_FILE_SIZE"]]
+			size_list = [filesize for filename,filesize in data_file_size]
 			index = bisect.bisect_left(size_list,filesize)
-			dictionnary["DATA_FILE_SIZE"].insert(index,(file,filesize))
+			data_file_size.insert(index,(file,filesize))
 
 			#UPDATE DATA FILE LIFE
-			life_list = [filelife for filename,filelife in dictionnary["DATA_FILE_LIFE"]]
+			life_list = [filelife for filename,filelife in data_file_life]
 			index = bisect.bisect_left(life_list, datetime.now().timestamp() - os.path.getctime(file))
-			dictionnary["DATA_FILE_LIFE"].insert(index,(file,datetime.now().timestamp()-os.path.getctime(file)))
+			data_file_life.insert(index,(file,datetime.now().timestamp()-os.path.getctime(file)))
 
 			#UPDATE DATA FILE MODIF
-			modif_list = [filelife for filename,filelife in dictionnary["DATA_FILE_MODIF"]]
+			modif_list = [filelife for filename,filelife in data_file_modif]
 			index = bisect.bisect_left(modif_list, datetime.now().timestamp() - os.path.getmtime(file))
-			dictionnary["DATA_FILE_MODIF"].insert(index,(file,datetime.now().timestamp()-os.path.getmtime(file)))
+			data_file_modif.insert(index,(file,datetime.now().timestamp()-os.path.getmtime(file)))
 
-			#UPDATE THE ITEM SIZE AND SORT THE DICTIONNARY AGAIN TO BE SURE
-			#dictionnary["DATA_ITEM_SIZE"][filepath]+=filesize
-			for i in range(len(dictionnary["DATA_ITEM_SIZE"])):
-				if dictionnary["DATA_ITEM_SIZE"][i][0] == filepath:
-					dictionnary["DATA_ITEM_SIZE"][i][1] += filesize
-					self.message_function("folder size updated!")
-			dictionnary["DATA_ITEM_SIZE"] = sorted(dictionnary["DATA_ITEM_SIZE"], key = lambda x: x[1])
+			#UPDATE DATA CHILDREN SIZE
+			#for each parent detected for the folder add the current size
+			with lock:
+				foldername_list = [foldername for foldername,foldersize in data_children_size]
+				#print(foldername_list)
+				for i in range(150):
+					#get the index of the parent folder in the list and add informations in it
+					parent_index = foldername_list.index(parent_folder)
+					parent_new_data = [parent_folder, data_children_size[parent_index][1]+filesize]
+					#update the value of the dictionnary list
+					dictionnary["DATA_CHILDREN_SIZE"][parent_index] = parent_new_data
+					#check if the project folder is reached
+					if parent_folder == os.path.normpath(self.current_project_name):
+						break
+
+					else:
+						#get the next parent folder
+						parent_folder = os.path.normpath(os.path.dirname(parent_folder))
+				#try to sort the dictionnary children size
+				dictionnary["DATA_CHILDREN_SIZE"][:] = sorted(dictionnary["DATA_CHILDREN_SIZE"], key=lambda x: x[1])
+
+				#UPDATE THE ITEM SIZE AND SORT THE DICTIONNARY AGAIN TO BE SURE
+				#dictionnary["DATA_ITEM_SIZE"][filepath]+=filesize
+				#get the index of the current folder in the list
+				data_item_size_foldername = [foldername for foldername, foldersize in data_item_size]
+				data_item_size_folder_index = data_item_size_foldername.index(filepath)
+				#get the current value
+				new_value = [filepath, data_item_size[data_item_size_folder_index][1] + filesize]
+				#update the dictionnary
+				dictionnary["DATA_ITEM_SIZE"][data_item_size_folder_index] = new_value
+				dictionnary["DATA_ITEM_SIZE"][:] = sorted(dictionnary["DATA_ITEM_SIZE"], key=lambda x: x[1])
+
 
 
 			#UPDATE DATA FILE EXTENSION
-			#if extension not in dictionnary create it
-			#else update extension dictionnary informations
-			if os.path.splitext(filename)[1] not in dictionnary["DATA_FILE_EXTENSION"]:
+			if os.path.splitext(filename)[1] not in data_file_extension:
 				extension_dictionnary = {
 					"COUNT":1,
 					"FILE_LIST":[file],
 					"SIZE":filesize
 				}
-				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]=extension_dictionnary
+				data_file_extension[os.path.splitext(filename)[1]]=extension_dictionnary
 			else:
-				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]["COUNT"]+=1
-				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]["FILE_LIST"].append(file)
-				dictionnary["DATA_FILE_EXTENSION"][os.path.splitext(filename)[1]]["SIZE"]+=filesize
+				extension_dictionnary = data_file_extension[os.path.splitext(filename)[1]]
+				extension_dictionnary["COUNT"]+=1
+				extension_dictionnary["FILE_LIST"].append(file)
+				extension_dictionnary["SIZE"]+=filesize
+				data_file_extension[os.path.splitext(filename)[1]] = extension_dictionnary
+			dictionnary["DATA_FILE_EXTENSION"] = data_file_extension
+
 
 			#UPDATE PARENT FOLDER SIZE IN DATA FOLDER DICTIONNARY
 			#for each parent folder sort value in DATA ITEMS SIZE
 			#for each parent folder sort value in DATA CHILDREN SIZE
-			for i in range(150):
-				parent_folder=os.path.normpath(os.path.dirname(parent_folder))
-				#check if the parent folder is in the dictionnary
-				if (os.path.normpath(parent_folder) in dictionnary["DATA_FOLDER"]):
-					#self.message_function(f"update parent folder : {parent_folder}")
-					#for each parent detected update the data folder dictionnary
-					dictionnary["DATA_FOLDER"][parent_folder]["CHILDREN_SIZE"]+=filesize
-				for i in range(len(dictionnary["DATA_CHILDREN_SIZE"])):
-					if dictionnary["DATA_CHILDREN_SIZE"][i][0] == parent_folder:
-						dictionnary["DATA_CHILDREN_SIZE"][i][1] += filesize
-						#self.message_function("Data children size updated")
-				#at the end of the loop
-				#check if the parent folder is the main container of the project
-				#break the loop if it is
-				if os.path.normpath(parent_folder) == self.current_project_name:
-					#self.message_function(f"Main project folder reached")
-					break
+			#get the content of the actual list
 
-			#sort the data children size dictionnary
-			dictionnary["DATA_CHILDREN_SIZE"] = sorted(dictionnary["DATA_CHILDREN_SIZE"], key=lambda x:x[1])
 
 			#SAVE FINAL VALUES FOR DICTIONNARY
 			dictionnary["DATA_FILES"][file] = data_files_dictionnary
+			dictionnary["DATA_FOLDER"][filepath] = folder_dictionnary
+			dictionnary["DATA_FILE_SIZE"] = data_file_size
+			dictionnary["DATA_FILE_LIFE"] = data_file_life
+			dictionnary["DATA_FILE_MODIF"] = data_file_modif
+			
 
-			self.message_function(f"function done : {file}", "success")
+			#self.message_function(f"function done : {file}", "success")
 		except:
-			self.message_function(f"Error trying to get data from file\n{traceback.format_exc()}", "error")
+			#self.message_function(f"Error trying to get data from file\n{traceback.format_exc()}", "error")
+			print(colored(traceback.format_exc(), "red"))
 
 
-	def scan_folder_function(self,threading=False,multiprocessing=False, folder_list=[], dictionnary=None, index=None):
+
+
+
+	def scan_folder_function(self,threading=False,multiprocessing=False, folder_list=[], dictionnary=None, index=None, lock=None):
 		try:
-			self.message_function(f"[{index}] Thread started", "success")
+			#self.message_function(f"[{index}] Thread started", "success")
 
 			for folder in folder_list:
-				self.message_function("CHECKING CONTENT FROM FOLDER : %s"%os.path.basename(folder), "notification")
+				#self.message_function("CHECKING CONTENT FROM FOLDER : %s"%os.path.basename(folder), "notification")
 				if os.path.isdir(folder)==True:
 					#backup_dictionnary = copy.copy(dictionnary)
 					folder_content = os.listdir(folder)
@@ -518,17 +562,29 @@ class ASPC_SNOOP():
 						"HEAVIEST_FILE":float("-inf"),
 						"LIGHTEST_FILE":float("inf")
 					}
-					dictionnary["DATA_FOLDER"][folder] = base_folder_dictionnary
+					with lock:
+						dictionnary["DATA_FOLDER"][folder] = base_folder_dictionnary
+						folder_init_key = [folder,0]
+						dictionnary["DATA_CHILDREN_SIZE"].append(folder_init_key)
+						dictionnary["DATA_ITEM_SIZE"].append(folder_init_key)
+
+					
 
 					#check for each content in the folder
 					for element in os.listdir(folder):
 						if os.path.isfile(os.path.join(folder,element))==True:
-							self.message_function("Checking file : %s"%element)
-							self.get_file_data_function(file=os.path.normpath(os.path.join(folder,element)),dictionnary=dictionnary)
+							#self.message_function("Checking file : %s"%element)
+							self.get_file_data_function(file=os.path.normpath(os.path.join(folder,element)),dictionnary=dictionnary, index=index, lock=lock)
+							#self.get_file_data_function2(file=os.path.normpath(os.path.join(folder,element)),dictionnary=dictionnary, index=index)
 						if os.path.isdir(os.path.join(folder,element))==True:
 							#update folder data for parent
-							base_folder_dictionnary["FOLDER_LIST"].append(element)
-							base_folder_dictionnary["FOLDER_COUNT"]+=1
+							#base_folder_dictionnary["FOLDER_LIST"].append(element)
+							#base_folder_dictionnary["FOLDER_COUNT"]+=1
+							with lock:
+								folder_data = dictionnary["DATA_FOLDER"][folder]
+								folder_data["FOLDER_LIST"].append(element)
+								folder_data["FOLDER_COUNT"]+=1
+								dictionnary["DATA_FOLDER"][folder] = folder_data
 
 			#when all folders are updated try to save the dictionnary ONLY IF THREAD
 			if (threading==True) and (multiprocessing==False):
@@ -550,10 +606,35 @@ class ASPC_SNOOP():
 						)
 					)
 				except:
-					self.message_function(f"Impossible to update TUI\n{traceback.format_exc()}", "error")
-			self.message_function(f"[{index}] Thread done", "success")
+					pass
+					#self.message_function(f"Impossible to update TUI\n{traceback.format_exc()}", "error")
+			#self.message_function(f"[{index}] Thread done", "success")
 		except Exception as e:
+			#print(colored(traceback.format_exc(), "red"))
 			self.message_function(f"Error during thread\n{traceback.format_exc()}", "error")
+
+
+	#function launched by multiprocessing
+	#try to get a folder from the file queue 
+	#if a folder is retrived from the queue launch the scan folder function
+	def get_folder_function(self,index,lock=None):
+		while True:
+			try:
+				folder = self.queue.get(timeout=5)
+				if folder==None:
+					print(colored(f"\t[{index}] Process broken"))
+					break
+				elif os.path.isdir(folder)==True:
+					#launch folder checking function in the dictionnary
+					print(f"\t[{index}] Getting data about folder → {folder}")
+					self.scan_folder_function(threading=False,multiprocessing=True,folder_list=[folder],index=index, dictionnary=self.data_global, lock=lock)
+				else:
+					print(colored(f"Folder not existing → Skipped : {folder}"))
+			except queue.Empty:
+				return
+			except Exception as e:
+				print(colored(traceback.format_exc(), "red"))
+				return
 
 
 	def scanning_folder_function(self, index):
@@ -562,7 +643,7 @@ class ASPC_SNOOP():
 				folder = self.queue.get(timeout=5)
 
 				if folder == None:
-					print(colored("\tProcess broken [%s]"%i))
+					print(colored("\tProcess broken [%s]"%index))
 					break
 
 				else:

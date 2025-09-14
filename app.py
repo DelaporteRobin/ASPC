@@ -1129,6 +1129,7 @@ Global project informations
 			self.message_function("Differences notified in folder content", "warning")
 			return
 
+		
 		#clear listview and current file list
 		self.listview_files.clear()
 		self.current_file_list.clear()

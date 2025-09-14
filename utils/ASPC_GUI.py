@@ -590,7 +590,6 @@ class ASPC_GUI:
 			self.notify(e, timeout=2)
 
 
-
 	def update_file_list_function_backup(self, checkbox_change):
 		self.message_function("\n", "message", False)
 		self.message_function("Thread started", "notification")
