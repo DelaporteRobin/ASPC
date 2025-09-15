@@ -443,7 +443,6 @@ class ASPC_GUI:
 			#create the label list
 			label_folder_list = []
 
-
 			folder_min_size = False 
 			folder_max_size = False
 
@@ -550,13 +549,7 @@ class ASPC_GUI:
 				else:
 					pass
 
-
-
-
-
 				label_folder_list.append(MultiListItem(label))
-
-
 
 			#clear the content of the index list for folders
 			self.listview_folders.clear_list()
@@ -567,10 +560,7 @@ class ASPC_GUI:
 			for folder_name, folder_data in self.current_project_data["DATA_FOLDER"].items():
 				
 				if self.stop_event_folder.is_set():
-
 					return
-
-
 				self.progress_folder.advance(1)
 
 				if folder_name.replace(self.current_project_name, "") == "":
@@ -590,222 +580,10 @@ class ASPC_GUI:
 			self.notify(e, timeout=2)
 
 
-	def update_file_list_function_backup(self, checkbox_change):
-		self.message_function("\n", "message", False)
-		self.message_function("Thread started", "notification")
-		self.message_function("Current folder selected : %s"%self.current_folder_selected)
-
-		try:
-			self.current_file_list.clear()
-
-
-			#APPLY ALL THE FILTERS TO BUILD THE CURRENT FILE LIST TO DISPLAY IN THE LISTVIEW
-			list_listitem = []
-			#folder_selected = list(self.current_project_data["DATA_FOLDER"].keys())[self.listview_folders.index]
-			#CREATE THE SIZE RANGE
-
-			if self.current_project_name == None:
-				self.message_function("No project selected, refreshing aborted...", "notification")
-				return
-			
-			#get the size for each file
-			try:
-				folder_heaviest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["HEAVIEST_FILE"]
-				folder_lightest = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["LIGHTEST_FILE"]
-				folder_heaviest_size = self.current_project_data["DATA_FILES"][folder_heaviest]["FILESIZE"]
-				folder_lightest_size = self.current_project_data["DATA_FILES"][folder_lightest]["FILESIZE"]
-			except KeyError:
-				pass
-			except AttributeError:
-				pass
-
-			"""
-			heaviest is equivalent to 100%
-			lightest is equivalent to 0%
-			for each file find the position in this
-			"""
-
-			#self.message_function("%s\n%s"%(folder_heaviest_size, folder_lightest_size), "error", False)
-
-		
-			if self.checkbox_file_similarity.value == True:
-				#self.message_function("option1")
-				self.current_file_list = []
-				similarity_data = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["SIMILARITY"]
-				for key, value in similarity_data.items():
-					if len(self.current_file_list) != 0:
-						self.current_file_list.append("_"*40)
-
-					for v in value:
-						self.current_file_list.append(v)
-
-
-			elif self.checkbox_file_children.value == True:
-				#self.message_function("option2")
-				self.load_project_data_function()
-				self.current_project_data = self.project_data[self.current_project_name]
-				#self.message_function(self.current_folder_selected)
-				self.current_file_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]
-
-				#test_list = self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]
-				#for key, value in self.current_project_data["DATA_FOLDER"][self.current_folder_selected].items():
-				#	self.message_function("%s : %s"%(key,value))
-			
-
-				if self.checkbox_file_size.value == True:
-					#self.message_function("HELLO WORLD")
-					
-						data_size_filename = [t[0] for t in self.current_project_data["DATA_FILE_SIZE"]]
-
-						#self.message_function(data_size_filename)
-						#self.message_function(self.current_file_list)
-
-						#get the data file size data from the original file size
-						for i in range(len(self.current_file_list)):
-
-							if type(self.current_file_list[i]) == str:
-								index = data_size_filename.index(os.path.join(self.current_folder_selected,self.current_file_list[i]))
-							else:
-								index = data_size_filename.index(os.path.join(self.current_folder_selected,self.current_file_list[i][0]))
-							self.current_file_list[i] = self.current_project_data["DATA_FILE_SIZE"][index]
-							#self.message_function(self.current_file_list[i])
-
-						#sort the final file size
-						sorted_data = sorted(self.current_file_list, key=lambda x: x[1])
-						self.current_file_list = [os.path.basename(t[0]) for t in sorted_data]
-
-			else:
-				self.message_function("Getting from data file")
-				self.current_file_list = list(self.current_project_data["DATA_FILES"].keys())
-
-
-			self.message_function("Updating file list...", "notification")
-
-
-			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
-				self.progress_files.update(total = len(self.current_file_list) + len(self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]))
-			else:
-				self.progress_files.update(total = len(self.current_file_list))
-			#self.call_from_thread(self.progress_folder.update, len(self.current_file_list))
-			
-			self.call_from_thread(self.listview_files.clear)
-			self.current_file_list_copy = copy.copy(self.current_file_list)
-
-
-			#GO THROUGH EACH ELEMENT IN THE CURRENT FILE LIST AND CREATE LABELS AND LISTITEMS
-			for file in self.current_file_list:
-				try:
-					if type(file) == list:
-						file = file[0]
-					#self.message_function("adding file : %s"%file)
-					label = Label(os.path.basename(file))
-
-					if file == "_"*40:
-						pass
-
-					
-					#elif os.path.isfile(os.path.join(folder_selected, file))==False:
-					#	label.styles.color = self.theme_variables["text-secondary"]
-					
-					else:
-
-
-						#CHECK FIRST IF THE FILE IS ARCHIVED!!!!
-						if os.path.isfile(os.path.join(self.current_folder_selected,file))==False:
-							self.message_function(os.path.join(self.current_folder_selected,file))
-							label.styles.color = "gray"
-						else:
-							#get data about this file in the current project data
-							file_data = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]
-							#self.message_function(file_data)
-							#return
-							if ("ARCHIVE" in file_data) and (file_data["ARCHIVE"]==True):
-								label.styles.background = self.theme_variables["background"]
-								label.styles.width = "1fr"
-
-						
-
-							#check if the gradient checkbox is checked
-							if self.checkbox_file_gradient.value==True:
-								#apply the gradient for the file
-								#find the size of the file
-								try:
-									file_size = self.current_project_data["DATA_FILES"][os.path.join(self.current_folder_selected,file)]["FILESIZE"]
-									gradient_number = ((file_size - folder_lightest_size)/(folder_heaviest_size - folder_lightest_size)) * 100
-									#apply the color
-									"""
-									COLOR RANGE
-									0 - 25 -> white
-									25 - 50 -> accent
-									50 - 75 -> warning
-									75 - 100 -> error
-									"""
-									if (gradient_number <= 25):
-										pass
-									elif (gradient_number > 25) and (gradient_number <= 50):
-										#label.styles.color = self.user_settings["COLOR"]["warning"]
-										label.styles.color = self.theme_variables["text-warning"]
-									elif (gradient_number > 50) and (gradient_number <= 75):
-										#label.styles.color = self.user_settings["COLOR"]["important"]
-										label.styles.color = self.theme_variables["warning"]
-									else:
-										#label.styles.color = self.user_settings["COLOR"]["alert"]
-										label.styles.color = self.theme_variables["error"]
-								except ZeroDivisionError:
-									pass
-								except UnboundLocalError:
-									pass
-								#self.message_function(gradient_number)
-
-
-					if file == "_"*40:
-						list_listitem.append(MultiListItem(label, classes="separator"))
-					else:
-						list_listitem.append(MultiListItem(label))
-					self.progress_files.advance(1)
-				except Exception as e:
-					self.message_function("Error during loop : %s"%file, "error")
-					self.message_function(traceback.format_exc())
-					continue 
-				
-
-
-			
-			#if display archived content is enabled!!
-			if (self.checkbox_show_archived.value==True) and ("ARCHIVED_LIST" in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]):
-				for archived_file in self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["ARCHIVED_LIST"]:
-					archived_label = Label(os.path.basename(archived_file))
-					archived_label.styles.color = self.theme_variables["accent"]
-					list_listitem.append(MultiListItem(archived_label))
-					self.current_file_list.append(archived_file)
-				self.progress_files.advance(1)
-
-			self.message_function("Refreshing file list...\nThis process can take some while", "notification")
-
-			#clear the content of the list
-			self.listview_files.clear_list()
-			#update the content of the listview
-			self.call_from_thread(self.listview_files.extend, list_listitem)
-			#self.call_from_thread(self.add_list_line_function, label, "listview_files")
-
-			#update the file list backup list
-			self.current_file_list_copy = copy.copy(self.current_file_list)
-
-
-		except Exception as e:
-			#self.message_function("error")
-			self.message_function(traceback.format_exc(), "error")
-
-		else:
-			self.message_function("terminated")
-
-
 	def update_file_list_function(self, thread_identifier = "None"):
 		while not self.stop_event_file.is_set():
 			try:
 				self.call_from_thread(self.message_function, f"[{thread_identifier}] thread processing", "notification")
-				
-				#get the selected folder
 				self.call_from_thread(self.message_function, f"trying to get file list for {self.current_folder_selected}")
 				"""
 				get file list contained in selected folder
@@ -847,7 +625,7 @@ class ASPC_GUI:
 						max_value = max(file_list, key=lambda x: x[1])[1]
 						min_value = min(file_list, key=lambda x: x[1])[1]
 					except ValueError:
-						break
+						pass
 					"""
 					create color range from min and max value (from 0 → 100)
 					0 - 25 → normal message
@@ -872,12 +650,42 @@ class ASPC_GUI:
 							if range_value <= 15:
 								label.styles.color = self.theme_variables["foreground"]
 							elif (range_value > 15) and (range_value <= 40):
-								label.styles.color = self.theme_variables["accent"]
+								label.styles.color = self.theme_variables["warning-lighten-3"]
 							elif (range_value > 40) and (range_value <= 75):
 								label.styles.color = self.theme_variables["warning"]
 							else:
 								label.styles.color = self.theme_variables["error"]
 						label_list.append(MultiListItem(label))
+
+				#check if the archive checkbox is set to true
+				#if the checkbox is true check if it is possible to get archive log
+				#and if files from this folder are contained in the archive
+				#maybe add a verification to check that the file is actually contained in the archive file
+				if (self.checkbox_show_archived.value==True): 
+					self.call_from_thread(self.message_function, "Trying to get archived content", "message")
+					if ("ARCHIVE_PATH" in self.current_project_data) and ("ARCHIVE_LOG" in self.current_project_data):
+						if os.path.isfile(self.current_project_data["ARCHIVE_LOG"])==True:
+							try:
+								archive_file_list = self.check_for_file_in_archive_log_function(folder=self.current_folder_selected, log=self.current_project_data["ARCHIVE_LOG"])
+							except Exception as e:
+								self.call_from_thread(self.message_function, traceback.format_exc(), "error")
+							else:
+								#from the get archive content function get:
+								#the filelist with full filepath
+								#	→ add this list to the current filelist
+								#create the label filelist with only filename
+								self.current_file_list+=archive_file_list
+								archive_filename_list = list(map(lambda x: os.path.basename(x), archive_file_list))
+								#add items to the label list
+								for archive_file in archive_file_list:
+									label = Label(archive_file)
+									label.styles.color = self.theme_variables["success-darken-1"]
+									label_list.append(MultiListItem(label))
+						else:
+							self.call_from_thread(self.message_function, "Impossible to read archive log file", "error")
+					else:
+						self.call_from_thread(self.message_function, "Impossible to get archive informations from project data", "error")
+
 
 				self.call_from_thread(self.listview_files.extend, label_list)
 				#self.call_from_thread(self.message_function, label_list)

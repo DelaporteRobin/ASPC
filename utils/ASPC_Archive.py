@@ -74,7 +74,6 @@ class ASPC_ARCHIVE_MULTIPROCESSING:
 								if f not in new_file_list:
 									#print(colored("File added : %s"%f, "white"))
 									new_file_list.append(f)
-
 				else:
 					print(colored("File skipped because already added in list : %s"%origin_file_list[i], "yellow"))
 			origin_file_list = new_file_list
@@ -719,7 +718,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 						process_pool.append(p)
 					except Exception as e:
 						console.log("[%s]Impossible to launch process"%(self.THEME.error))
-						console.log("[%s]%s"(self.THEME.error, traceback.format_exc()))
+						console.log("[%s]%s"%(self.THEME.error, traceback.format_exc()))
 					else:
 						console.log("[%s]Process launched"%self.THEME.success)
 
@@ -943,13 +942,10 @@ class ASPC_ARCHIVE():
 		already_checked_list = []
 		self.final_filtered_list = []
 		#create the file queue
-
 		#call the multiprocessing class
 		with self.app.suspend():
 			ASPC_ARCHIVE_MULTIPROCESSING(self.filter_dictionnary, self.filter_origin_list, self.app.current_project_data)
 			os.system("pause")
-
-
 		#try to load the temp file
 		try:
 			with open("data/temp_filtered.dll", "r") as read_file:
@@ -1071,32 +1067,18 @@ class ASPC_ARCHIVE():
 									changes=True
 							"""
 
-							self.current_archive_content.append(file)
+							self.current_archive_content.append(os.path.normpath(os.path.join(self.current_project_name,file)))
 
 				except Exception as e:
 					self.message_function("Impossible to get archive content\n%s"%traceback.format_exc(), "error")
 					return
 
-				"""
-				if changes==True:
-					self.message_function("Some files were updated in Main Data file\n-> Updating dictionary", "notification")
-					#update the dictionnary content
-					self.current_project_data["DATA_FILES"]=data_file
-					#save the dictionnary
-					self.project_data[self.current_project_name] = self.current_project_data
-					self.save_dictionnary_function()
-				"""
-
-
-				
 				#load the archive content in the list
 				label_list = []
 				for file in self.current_archive_content:
-					label = Label(file)
+					label = Label(os.path.basename(file))
 					label_list.append(MultiListItem(label))
 				self.listview_archive_content.extend(label_list)
-
-
 
 		else:
 			self.message_function("Impossible to get archive content for this project\nArchive path is not defined", "notification")
@@ -1212,14 +1194,28 @@ class ASPC_ARCHIVE():
 			returned_dictionnary = fill_archive.run()
 			os.system("pause")
 
+	def check_for_file_in_archive_log_function(self, folder=None, log=None):
+		if (folder == None) or (log == None):
+			raise ValueError
+		#open the archive log
+		try:
+			with open(log, "r") as read_log:
+				archive_log_content = json.load(read_log)
+		except Exception as e:
+			raise
+		else:
+			archive_filelist = []
+			for archive_filename, archive_filedata in archive_log_content.items():
+				#get parent folder from the file
+				if os.path.normpath(folder) == os.path.normpath(os.path.dirname(archive_filename)):
+					archive_filelist.append(archive_filename)
+			return archive_filelist
 
 	def archiving_display_message_function(self, message = "", type="message"):
-
 		if type == "content":
 			label = Label("  %s"%message)
 		else:
 			label = Label("[%s] %s"%(type.upper(),message))
-
 
 		#get the color for the created label before printing it
 		if type.upper() == "NOTIFICATION":
@@ -1228,7 +1224,6 @@ class ASPC_ARCHIVE():
 			color = "text-error"
 		elif type.upper() == "SUCCESS":
 			color = "text-success"
-
 		else:
 			color = "text-primary"
 
@@ -1243,8 +1238,10 @@ class ASPC_ARCHIVE():
 		console.print(rich_title_restore)
 		#print(colored("Restore file function starting...", "cyan"))
 		#get items selected
-		index_list = self.listview_archive_content.index_list
-		if len(index_list)==0:
+		index_filelist = self.listview_files.index_list
+		index_archivelist = self.listview_archive_content.index_list
+
+		if (len(index_archivelist)==0) and (len(index_filelist)==0):
 			#print(colored("Nothing to extract", "red"))
 			console.log("[%s]Nothing to extract"%self.THEME_DICTIONNARY.error)
 			return
@@ -1262,10 +1259,21 @@ class ASPC_ARCHIVE():
 			return
 		else:
 			filelist = []
-			for index in index_list:
-				filelist.append(self.current_archive_content[index])
+			for index in index_filelist:
+				#check if this file is part of the current project archive
+				if self.current_file_list[index] in self.current_archive_content:
+					filelist.append(self.current_file_list[index])
+				else:
+					#print(colored(f"File Skipped, this file is not part of the archive : {self.current_file_list[index]}", "red"))
+					console.log(f"[{self.THEME_DICTIONNARY.error}]This file is not in archive : {self.current_file_list[index]}")
+			for index in index_archivelist:
+				if self.current_archive_content[index] not in filelist:
+					filelist.append(self.current_archive_content[index])
 
-			self.restore_filelist_function(console,self.current_project_data["ARCHIVE_PATH"], filelist, skip_removing)			
+			if len(filelist) != 0:
+				self.restore_filelist_function(console,self.current_project_data["ARCHIVE_PATH"], filelist, skip_removing)
+			else:
+				console.log(f"[{self.THEME_DICTIONNARY.error}]Nothing to restore from archive")			
 
 
 	def restore_filelist_function(self, console, archive_path, filelist=[], skip_removing=False):
@@ -1285,39 +1293,47 @@ class ASPC_ARCHIVE():
 		try:
 			with zipfile.ZipFile(archive_path, mode="r") as archive:
 
+				
 				for file_to_restore in filelist:
-					filepath_to_restore = os.path.join(self.current_project_name,file_to_restore).replace("\\", "/")
+					#filepath_to_restore = os.path.normpath(os.path.join(self.current_project_name,file_to_restore))
+					filepath_to_restore = (os.path.normpath(Path(file_to_restore).relative_to(Path(self.current_project_name)))).replace("\\", "/")
+					print(f"{filepath_to_restore} : {filepath_to_restore in archive.namelist()}")
+
+					
 					#RESTORE THE FILE AT THE RIGHT LOCATION
 					try:
-						archive.extract(file_to_restore, self.current_project_name)
+						archive.extract(filepath_to_restore, self.current_project_name)
 					except Exception as e:
 						#print(colored("failed to restore file : %s\n%s"%(file_to_restore,traceback.format_exc()), "red"))
-						console.log("[%s]Failed to restore file : %s\n%s"%(self.THEME_DICTIONNARY.error,file_to_restore, traceback.format_exc()))
+						console.log("[%s]Failed to restore file : %s\n%s"%(self.THEME_DICTIONNARY.error,filepath_to_restore, traceback.format_exc()))
 					else:
 						#print(colored("file extracted successfully : %s\n\tlocation : %s"%(file_to_restore,filepath_to_restore), "green"))
-						console.log("[%s]File extracted successfully : %s\n\tLocation : %s"%(self.THEME_DICTIONNARY.success,file_to_restore, filepath_to_restore))
+						console.log("[%s]File extracted successfully : %s\n\tLocation : %s"%(self.THEME_DICTIONNARY.success,filepath_to_restore, filepath_to_restore))
 						#put back the file in the filelist of the current folder data
-						folder_data = self.current_project_data["DATA_FOLDER"][os.path.dirname(filepath_to_restore).replace("/", "\\")]
-						folder_data["FILE_LIST"].append(os.path.basename(filepath_to_restore))
-						self.current_project_data["DATA_FOLDER"][os.path.normpath(os.path.dirname(filepath_to_restore))] = folder_data
+						folder_data = self.current_project_data["DATA_FOLDER"][os.path.dirname(file_to_restore).replace("/", "\\")]
+						folder_data["FILE_LIST"].append(os.path.basename(file_to_restore))
+						self.current_project_data["DATA_FOLDER"][os.path.normpath(os.path.dirname(file_to_restore))] = folder_data
 						#print(colored("File added to folder filelist", "green"))
 						console.log("[%s]File added to folder filelist"%self.THEME_DICTIONNARY.success)
+					
+					
+				
 
-
-
+			
+			
 			#print(colored("\nRemoving files in archive...", "cyan"))
 			console.log("[%s]Removing files from archive..."%self.THEME_DICTIONNARY.primary)
 			if skip_removing==False:
 				
 				for file_to_restore in filelist:
 					#REMOVE FILE FROM THE ARCHIVE
-
+					console.log(f"\t{file_to_restore}")
 					#for index in index_list:
 					#file_to_restore = self.current_archive_content[index]
 					#check if the file exists in project before removing it from archive!
 					if os.path.isfile(os.path.join(self.current_project_name, file_to_restore))==True:
 						try:
-							zipdel.delete_from_zip_file(self.current_project_data["ARCHIVE_PATH"], file_to_restore)
+							zipdel.delete_from_zip_file(self.current_project_data["ARCHIVE_PATH"], os.path.normpath(Path(file_to_restore).relative_to(Path(self.current_project_name))).replace("\\", "/"))
 						except Exception as e:
 							#print(colored("failed to remove file : %s\n%s"%(file_to_restore, traceback.format_exc()), "red"))
 							console.log("[%s]Failed to remove file : %s\n%s"%(self.THEME_DICTIONNARY.error, file_to_restore, traceback.format_exc()))

@@ -978,6 +978,12 @@ Global project informations
 			self.listview_folders.clear()
 			self.listview_files.clear()
 			self.listview_archive_content.clear()
+
+			self.current_file_list.clear()
+			self.current_archive_content.clear()
+
+			self.listview_files.index_list.clear()
+			self.listview_archive_content.index_list.clear()
 			#reload project data
 			self.load_project_data_function()
 			self.message_function("Restore file process done", "notification")
@@ -1129,7 +1135,7 @@ Global project informations
 			self.message_function("Differences notified in folder content", "warning")
 			return
 
-		
+
 		#clear listview and current file list
 		self.listview_files.clear()
 		self.current_file_list.clear()
