@@ -1139,6 +1139,7 @@ Global project informations
 		#clear listview and current file list
 		self.listview_files.clear()
 		self.current_file_list.clear()
+		self.listview_files.index_list.clear()
 		#self.progress_files.update(total = len(self.current_project_data["DATA_FOLDER"][self.current_folder_selected]["FILE_LIST"]))
 		self.progress_files.update(progress=0)
 		try:

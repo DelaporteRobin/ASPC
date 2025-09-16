@@ -256,14 +256,14 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		console.log("[%s]Starting archiving process"%self.THEME.primary)
 
 		self.compression_dictionnary = {}
-		if "COMPRESSION" in self.user_settings:
-			self.compression_dictionnary = self.user_settings["COMPRESSION"]
 		"""
 		check if the path of the archive is defined
 		check if the path of the archive exists (create it if not)
 		check the lengh of the selection to archive
 		"""
 		print("Current project selected : %s"%self.current_project)
+		if "COMPRESSION" in self.user_settings:
+			self.compression_dictionnary = self.user_settings["COMPRESSION"]
 
 		try:
 			print("Archive path : %s"%self.current_project_data["ARCHIVE_PATH"])
@@ -290,6 +290,21 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 			#print(colored("No elements to archive!", "red"))
 			console.log("[%s]No elements to archive"%self.THEME.error)
 			return
+		#for each file in the selection to archive check if the extension is in the extension dictionnary
+		#if not run a test
+		list_extension_to_test = []
+		for file in self.selection_to_archive:
+			if os.path.splitext(file)[1] not in self.compression_dictionnary:
+				console.log(f"[{self.THEME.warning}]No compression method defined for this file extension → {os.path.splitext(file)[1]}")
+				list_extension_to_test.append(os.path.splitext(file)[1])
+		if len(list_extension_to_test) != 0:
+			test_compression_dictionnary = self.test_compression_method_function(extension_to_test = list_extension_to_test)
+			for test_key, test_value in test_compression_dictionnary.items():
+				self.compression_dictionnary[test_key] = test_value
+			#save the dictionnary
+			self.user_settings["COMPRESSION"] = self.compression_dictionnary
+			
+		return
 
 		#os.system("pause")
 		#return
@@ -629,11 +644,11 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 
 
-	def test_compression_method_function(self):
+	def test_compression_method_function(self, extension_to_test = None):
 		console = Console()
 		rich_title_archiving = RichFiglet("COMPRESSION TEST", font=ASCII_FONT_HOMEPAGE, colors=[self.THEME.primary, self.THEME.background], animation=None,quality=40)
 		console.print(rich_title_archiving)
-
+		console.print(f"EXTENSION TO TEST\n{extension_to_test}")
 		self.compression_method_dictionnary = {}
 
 		#define the compression list to test with a file for each of them
@@ -647,13 +662,16 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 		"""
 		extension_list = list(self.current_project_data["DATA_FILE_EXTENSION"].keys())
 		extension_dictionnary = {}
-		for index in self.selection_to_archive:
-			extension_name = extension_list[index]
+		#for index in self.selection_to_archive:
+		for extension_name in extension_to_test:
+			console.print(f"Define a compression test file for {extension_name}")
+			#extension_name = extension_list[index]
 			#find a file
 			for extension_file in self.current_project_data["DATA_FILE_EXTENSION"][extension_name]["FILE_LIST"]:
 				#check the size of the file
 				if self.current_project_data["DATA_FILES"][extension_file]["FILESIZE"] > 0:
 					extension_dictionnary[extension_name] = extension_file
+					console.print(f"  File defined : {extension_file}")
 					break
 
 		#display the test
@@ -692,7 +710,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 
 
 		for extension_name, extension_file in extension_dictionnary.items():
-			console.log("[%s]\n\n\n\n%s\nLAUNCHING TEST FOR EXTENSION → %s"%(self.THEME.accent,"="*150, extension_name))
+			console.log("[%s]\n\nLAUNCHING TEST FOR EXTENSION → %s"%(self.THEME.accent, extension_name))
 			with mp.Manager() as manager:
 				self.file_queue = [extension_file]
 
@@ -748,6 +766,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 					console.log("[%s]%s →[/%s] %s"%(self.THEME.secondary,method,self.THEME.secondary,method_size))
 
 
+
 		console.print("[%s]\n\n\nCOMPRESSION METHODS DEFINED"%self.THEME.success)
 		for extension, compression_method in self.compression_method_dictionnary.items():
 			console.print("[%s]\t%s[/%s] → %s"%(self.THEME.accent,extension,self.THEME.accent,str(compression_method)))
@@ -782,6 +801,7 @@ class ASPC_FILL_ARCHIVE(ASPC_UTILS, ASPC_SNOOP):
 							new_method = method_list[compression_dictionnary[file_extension]]
 							print(colored("\t[%s] Compression method replaced using user settings : %s → %s"%(index,str(method),str(new_method))))
 							method=new_method
+						
 
 
 
@@ -1108,9 +1128,6 @@ class ASPC_ARCHIVE():
 		else:
 			self.app.message_function("No project selected","error")
 			return False
-
-
-
 
 		if overhead==True:
 			#remove this file from the archive
